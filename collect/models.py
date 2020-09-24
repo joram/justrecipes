@@ -5,21 +5,22 @@ from quantulum3 import parser
 
 class Ingredient:
 
-    def __init__(self, name, amount, unit):
+    def __init__(self, name, quantity):
         self.name = name
-        self.amount = amount
-        self.unit = unit
+        self.quantity = quantity
 
     def __str__(self):
-        amount = str(Fraction(self.amount))
-        if str(self.unit) != "":
-            return f"{amount} {self.unit} {self.name}"
-        return f"{amount} {self.name}"
+        return f"{self.quantity.to_spoken()} {self.name}"
 
 
 def ingredient_from_string(s):
+    s = s.replace(" ", " ")
+
     quantums = parser.parse(s)
-    qu = quantums[0]
+    try:
+        qu = quantums[0]
+    except:
+       return None
 
     s = s.replace(qu.to_spoken(), "")
     if str(qu.unit) != "":
@@ -28,11 +29,14 @@ def ingredient_from_string(s):
     s = s.replace(str(Fraction(qu.value)), "")
     s = s.split(", ")[0]
     s = s.split(" - ")[0]
+    for i in range(0, 9):
+        s = s.replace(str(i), "")
+    s = s.replace("/", "")
     s = s.lstrip(" ")
+
     return Ingredient(
         name=s,
-        amount=qu.value,
-        unit=qu.unit,
+        quantity=qu,
     )
 
 

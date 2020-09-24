@@ -1,4 +1,5 @@
 import os
+import time
 
 import requests
 
@@ -32,6 +33,7 @@ def get_cached(url):
             return content
 
     with open(path, "wb") as f:
+        time.sleep(1)
         response = requests.get(url)
         if response.status_code != 200:
             raise Exception(response.status_code)
@@ -43,6 +45,7 @@ def get_cached(url):
 def clean_str(s):
     s = str(s)
     s = s.replace("½", "1/2")
+    s = s.replace("⅓", "1/3")
     s = s.replace("¼", "1/4")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
