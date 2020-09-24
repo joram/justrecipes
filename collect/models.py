@@ -1,5 +1,7 @@
 from fractions import Fraction
 
+from quantulum3 import parser
+
 
 class Ingredient:
 
@@ -13,6 +15,25 @@ class Ingredient:
         if str(self.unit) != "":
             return f"{amount} {self.unit} {self.name}"
         return f"{amount} {self.name}"
+
+
+def ingredient_from_string(s):
+    quantums = parser.parse(s)
+    qu = quantums[0]
+
+    s = s.replace(qu.to_spoken(), "")
+    if str(qu.unit) != "":
+        s = s.replace(f"{str(qu.unit)}s", "")
+        s = s.replace(str(qu.unit), "")
+    s = s.replace(str(Fraction(qu.value)), "")
+    s = s.split(", ")[0]
+    s = s.split(" - ")[0]
+    s = s.lstrip(" ")
+    return Ingredient(
+        name=s,
+        amount=qu.value,
+        unit=qu.unit,
+    )
 
 
 class Recipe:
