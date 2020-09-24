@@ -1,3 +1,4 @@
+from fractions import Fraction
 
 
 class Ingredient:
@@ -8,7 +9,10 @@ class Ingredient:
         self.unit = unit
 
     def __str__(self):
-        return f"'{self.amount}' '{self.unit}' '{self.name}'"
+        amount = str(Fraction(self.amount))
+        if str(self.unit) != "":
+            return f"{amount} {self.unit} {self.name}"
+        return f"{amount} {self.name}"
 
 
 class Recipe:

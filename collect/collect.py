@@ -4,6 +4,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from quantulum3 import parser
+from fractions import Fraction
 
 from models import Ingredient, Recipe
 
@@ -46,8 +47,30 @@ def get_cached(url):
 
 
 def clean_str(s):
+    s = str(s)
+    s = s.replace("½", "1/2")
+    s = s.replace("¼", "1/4")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
+
+
+def ingredient_from_string(s):
+    quantums = parser.parse(s)
+    qu = quantums[0]
+
+    s = s.replace(qu.to_spoken(), "")
+    if str(qu.unit) != "":
+        s = s.replace(f"{str(qu.unit)}s", "")
+        s = s.replace(str(qu.unit), "")
+    s = s.replace(str(Fraction(qu.value)), "")
+    s = s.split(", ")[0]
+    s = s.split(" - ")[0]
+    s = s.lstrip(" ")
+    return Ingredient(
+        name=s,
+        amount=qu.value,
+        unit=qu.unit,
+    )
 
 
 def get_allrecipes_recipe(url):
@@ -61,16 +84,7 @@ def get_allrecipes_recipe(url):
     lis = soup.findAll("li", {"class": "ingredients-item"})
     for li in lis:
         s = clean_str(li.text)
-        quantums = parser.parse(s)
-        try:
-            qu = quantums[0]
-            ingredients.append(Ingredient(
-                name=s,
-                amount=qu.value,
-                unit=qu.unit,
-            ))
-        except:
-            print(s)
+        ingredients.append(ingredient_from_string(s))
 
     steps = []
     divs = soup.findAll("div", {"class": "paragraph"})
