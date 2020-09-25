@@ -1,3 +1,4 @@
+import hashlib
 from fractions import Fraction
 
 from quantulum3 import parser
@@ -11,6 +12,14 @@ class Ingredient:
 
     def __str__(self):
         return f"{self.quantity.to_spoken()} {self.name}"
+
+    def json(self):
+        return {
+            "name": self.name,
+            "unit": self.quantity.unit.name,
+            "value": self.quantity.value,
+            "spoken": self.quantity.to_spoken(),
+        }
 
 
 def ingredient_from_string(s):
@@ -42,14 +51,22 @@ def ingredient_from_string(s):
 
 class Recipe:
 
-    def __init__(self, title, subtitle, servings, ingredients=[], instructions=[]):
+    def __init__(self, url, title, subtitle, servings, ingredients=[], instructions=[]):
         """
-        :param title: string
-        :param subtitle: string
-        :param servings: int
-        :param ingredients: list<Ingredient>
-        :param instructions: list<str>
+        :param url:string the source url
+        :type url: str
+        :param title:
+        :type title: str
+        :param subtitle:
+        :type subtitle: string
+        :param servings:
+        :type servings: int
+        :param ingredients:
+        :type ingredients: list Ingredient
+        :param instructions:
+        :type instructions: list str
         """
+        self.url = url
         self.title = title
         self.subtitle = subtitle
         self.ingredients = ingredients
@@ -67,3 +84,18 @@ class Recipe:
                f"{steps}\n" \
                f" </Instructions>\n" \
                f"</Recipe>"
+
+    def json(self):
+        return {
+            "url": self.url,
+            "title": self.title,
+            "subtitle": self.subtitle,
+            "ingredients": [i.json() for i in self.ingredients],
+            "instructions": self.instructions,
+        }
+
+    @property
+    def filename(self):
+        hash = hashlib.sha224(self.url.encode("ascii")).hexdigest()
+        filename = f"recipe_{hash}.json"
+        return filename

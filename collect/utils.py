@@ -1,3 +1,5 @@
+import hashlib
+import json
 import os
 import time
 
@@ -40,6 +42,17 @@ def get_cached(url):
 
         f.write(response.content)
         return response.content
+
+
+def store_recipe(recipe):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)
+    if os.path.exists(cache_path):
+        return
+
+    with open(cache_path, "w") as f:
+        s = json.dumps(recipe.json(), indent=4, sort_keys=True)
+        f.write(s)
 
 
 def clean_str(s):
