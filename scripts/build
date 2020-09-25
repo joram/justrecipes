@@ -1,0 +1,7 @@
+cd api
+rm -r build
+cd ..
+
+cd web
+yarn build
+mv build ../api/build
