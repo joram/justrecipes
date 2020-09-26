@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import {Grid, List, Menu, Segment, Sidebar} from 'semantic-ui-react'
+import {List, Menu, Segment, Sidebar} from 'semantic-ui-react'
+import {withRouter} from "react-router-dom";
 
 
 class Ingredient extends React.Component {
@@ -30,9 +31,10 @@ class Ingredients extends React.Component {
       icon='labeled'
       vertical
       visible={true}
+      animation="slide out"
     >
       <br/>
-      <List.Header><h3>Ingredients</h3></List.Header>
+      <Menu.Header><h3>Ingredients</h3></Menu.Header>
       {ingredients}
     </Sidebar>)
   }
@@ -46,13 +48,13 @@ class Instructions extends React.Component {
     this.props.instructions.forEach(step => {
       steps.push(<List.Item key={"instruction_"+i}>
 
-        <List.Content>
+        <List.Content floated={"left"}>
           {i}) {step}
         </List.Content>
       </List.Item>)
       i += 1;
     })
-    return <List divided relaxed>
+    return <List divided relaxed >
       <List.Header><h3>{this.props.title}</h3></List.Header>
       {steps}
     </List>
@@ -75,8 +77,7 @@ class Recipe extends React.Component {
     let host = "https://recipes.oram.ca"
     if(window.location.hostname==="localhost")
       host = "http://localhost:5000"
-    let pub_id = this.props.pub_id
-
+    let pub_id = this.props.match.params.pub_id;
     fetch(`${host}/api/v0/recipe/${pub_id}`)
     .then(res => res.json())
     .then(recipe => {
@@ -88,6 +89,7 @@ class Recipe extends React.Component {
   }
 
   render(){
+
     let ingredients = [];
     let instructions = [];
     let title = "";
@@ -98,18 +100,17 @@ class Recipe extends React.Component {
     }
     console.log(this.state.recipe)
 
-    return <div className="App">
-
-      <Grid centered columns={2}>
-          <Grid.Column>
-              <Ingredients ingredients={ingredients} />
-              <Segment>
-                 <Instructions instructions={instructions} title={title} />
-              </Segment>
-          </Grid.Column>
-      </Grid>
-    </div>
+    return <>
+      <Sidebar.Pushable as={Segment}>
+        <Ingredients ingredients={ingredients} />
+        <Sidebar.Pusher>
+          <Segment size={"big"}>
+             <Instructions instructions={instructions} title={title} />
+          </Segment>
+        </Sidebar.Pusher>
+      </Sidebar.Pushable>
+    </>
   }
 }
 
-export default Recipe;
+export default withRouter(Recipe);

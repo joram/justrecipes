@@ -42,6 +42,8 @@ def recipes_search():
     for recipe in recipes.values():
         if title.lower() in recipe.get("title").lower():
             results[recipe.get("title")] = recipe
+            if len(results) >= 10:
+                break
 
     return flask.jsonify(list(results.values()))
 

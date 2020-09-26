@@ -1,5 +1,7 @@
 import React from "react";
-import {Grid, Search, Segment} from "semantic-ui-react";
+import {Icon, Search, Segment} from "semantic-ui-react";
+import { withRouter } from "react-router-dom";
+
 
 class RecipeSearch extends React.Component {
 
@@ -17,7 +19,8 @@ class RecipeSearch extends React.Component {
         this.state.recipes.forEach(recipe => {
             if(recipe.title === data.result.title) {
                 console.log(recipe)
-                this.props.selectedCallback(recipe.id)
+                let path = `/recipe/${recipe.id}`;
+                this.props.history.push(path);
             }
 
         })
@@ -53,22 +56,19 @@ class RecipeSearch extends React.Component {
 
     render() {
 
-        return <Grid columns={3}>
-            <Grid.Row>
-              <Grid.Column/>
-              <Grid.Column>
-                    <Search
-                      onResultSelect={this.handleResultSelect.bind(this)}
-                      onSearchChange={this.handleSearchChange.bind(this)}
-                      results={this.state.recipes}
-                      fluid={true}
-                      loading={!this.state.isLoaded}
-                    />
-              </Grid.Column>
-              <Grid.Column/>
-            </Grid.Row>
-        </Grid>
+        return <Segment>
+            <Search
+              onResultSelect={this.handleResultSelect.bind(this)}
+              onSearchChange={this.handleSearchChange.bind(this)}
+              results={this.state.recipes}
+              fluid={true}
+              loading={!this.state.isLoaded}
+              icon={<Icon name='search' inverted circular link />}
+                placeholder='Search...'
+            />
+
+        </Segment>
     }
 }
 
-export default RecipeSearch;
+export default withRouter(RecipeSearch);

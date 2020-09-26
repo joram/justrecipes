@@ -2,33 +2,26 @@ import React from 'react';
 import './App.css';
 import Recipe from "./recipe";
 import RecipeSearch from "./search";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 
 class App extends React.Component {
 
-  constructor(props) {
-      super(props);
-      this.state = {
-        recipe: null,
-      };
-  }
-
-
-  selectedCallback(id) {
-    let state = this.state
-    state.recipe = id
-    this.setState(state)
-  }
-
   render(){
-    let page = <RecipeSearch selectedCallback={this.selectedCallback.bind(this)}/>
-    if(this.state.recipe !== null) {
-      page = <Recipe pub_id={this.state.recipe} />
-    }
-    return <div className="App">
-      {page}
-    </div>
+    return <Router>
+      <Switch>
+        <Route path="/recipe/:pub_id">
+          <Recipe />
+        </Route>
+        <Route path="/">
+          <RecipeSearch />
+        </Route>
+      </Switch>
+    </Router>
   }
 }
 
