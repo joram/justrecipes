@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import json
+
+from flask import request
 from flask_cors import CORS
 import os
 
@@ -21,6 +23,7 @@ def load_recipes():
                 recipe = json.loads(content)
                 uid = filename.replace(".json", "")
                 recipes[uid] = recipe
+                recipes[uid]["id"] = uid
         except:
             pass
     print(f"loaded {len(recipes)} recipes")
@@ -29,6 +32,18 @@ def load_recipes():
 @app.route('/api/v0/recipes')
 def recipes_list():
     return flask.jsonify(list(recipes.keys()))
+
+
+@app.route('/api/v0/recipes/search')
+def recipes_search():
+    results = {}
+
+    title = request.args.get('title')
+    for recipe in recipes.values():
+        if title in recipe.get("title"):
+            results[recipe.get("title")] = recipe
+
+    return flask.jsonify(list(results.values()))
 
 
 @app.route('/api/v0/recipe/<pub_id>')

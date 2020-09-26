@@ -44,6 +44,12 @@ def get_cached(url):
         return response.content
 
 
+def recipe_exists(recipe):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)
+    return os.path.exists(cache_path)
+
+
 def store_recipe(recipe):
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)

@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 from models import ingredient_from_string, Recipe
-from utils import get_cached, clean_str
+from utils import get_cached, clean_str, recipe_exists
 
 
 class BaseCrawler:
@@ -12,8 +12,12 @@ class BaseCrawler:
 
 class AllRecipes(BaseCrawler):
 
-    def next_recipe(self):
+    def next_recipe(self, skip_existing=False):
         for url in self.get_allrecipes_urls():
+            if skip_existing and recipe_exists(Recipe(url=url, servings=1, title="", subtitle="")):
+                yield None
+                continue
+
             try:
                 r = self.get_allrecipes_recipe(url)
                 yield r
@@ -69,12 +73,18 @@ class AllRecipes(BaseCrawler):
         list_urls = ["https://www.allrecipes.com/recipes/"]
         recipe_urls = []
         for list_url in list_urls:
-            content = get_cached(list_url)
+            try:
+                content = get_cached(list_url)
+            except:
+                content = get_cached(list_url.split("?")[0])
+
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
             anchors = soup.find_all("a", href=True)
             for a in anchors:
                 href = a["href"]
+                if not href.startswith("http"):
+                    continue
                 if "/recipe/" in href and href not in recipe_urls:
                     recipe_urls.append(href)
                     yield href
