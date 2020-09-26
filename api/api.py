@@ -40,7 +40,7 @@ def recipes_search():
 
     title = request.args.get('title')
     for recipe in recipes.values():
-        if title in recipe.get("title"):
+        if title.lower() in recipe.get("title").lower():
             results[recipe.get("title")] = recipe
 
     return flask.jsonify(list(results.values()))

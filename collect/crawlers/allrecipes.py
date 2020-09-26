@@ -1,13 +1,8 @@
 from bs4 import BeautifulSoup
 
+from crawlers.base import BaseCrawler
 from models import ingredient_from_string, Recipe
 from utils import get_cached, clean_str, recipe_exists
-
-
-class BaseCrawler:
-
-    def next_recipe(self):
-        raise NotImplemented
 
 
 class AllRecipes(BaseCrawler):

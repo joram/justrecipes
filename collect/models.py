@@ -6,9 +6,10 @@ from quantulum3 import parser
 
 class Ingredient:
 
-    def __init__(self, name, quantity):
+    def __init__(self, name, quantity, notes=""):
         self.name = name
         self.quantity = quantity
+        self.notes = notes
 
     def __str__(self):
         return f"{self.quantity.to_spoken()} {self.name}"
@@ -19,6 +20,7 @@ class Ingredient:
             "unit": self.quantity.unit.name,
             "value": self.quantity.value,
             "spoken": self.quantity.to_spoken(),
+            "notes": self.notes,
         }
 
 
