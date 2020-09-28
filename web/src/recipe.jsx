@@ -32,9 +32,10 @@ class Ingredients extends React.Component {
       vertical
       visible={true}
       animation="slide out"
+      width={"thin"}
     >
       <br/>
-      <Menu.Header><h3>Ingredients</h3></Menu.Header>
+      <Menu.Header as={"h3"}>Ingredients</Menu.Header>
       {ingredients}
     </Sidebar>)
   }
@@ -104,8 +105,8 @@ class Recipe extends React.Component {
       <Sidebar.Pushable as={Segment}>
         <Ingredients ingredients={ingredients} />
         <Sidebar.Pusher>
-          <Segment size={"big"}>
-             <Instructions instructions={instructions} title={title} />
+          <Segment style={{marginRight:"150px"}} basic>
+            <Instructions instructions={instructions} title={title} />
           </Segment>
         </Sidebar.Pusher>
       </Sidebar.Pushable>

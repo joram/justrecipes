@@ -7,26 +7,11 @@ import os
 
 import flask as flask
 
-recipes = {}
+from utils import load_recipes, load_categories
+
+global recipes
 app = flask.Flask(__name__, static_folder='./build')
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-
-
-def load_recipes():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    recipes_path = os.path.join(dir_path, "../recipes/")
-    for filename in os.listdir(recipes_path):
-        filepath = os.path.join(recipes_path, filename)
-        try:
-            with open(filepath) as f:
-                content = f.read()
-                recipe = json.loads(content)
-                uid = filename.replace(".json", "")
-                recipes[uid] = recipe
-                recipes[uid]["id"] = uid
-        except:
-            pass
-    print(f"loaded {len(recipes)} recipes")
 
 
 @app.route('/api/v0/recipes')
@@ -39,13 +24,24 @@ def recipes_search():
     results = {}
 
     title = request.args.get('title')
+    category = request.args.get('category')
     for recipe in recipes.values():
-        if title.lower() in recipe.get("title").lower():
+        if category is not None and category in recipe.get("category", []):
             results[recipe.get("title")] = recipe
-            if len(results) >= 10:
-                break
+        elif title is not None and title.lower() in recipe.get("title").lower():
+            results[recipe.get("title")] = recipe
 
-    return flask.jsonify(list(results.values()))
+    results = list(results.values())
+    print(f"{len(results)} recipes found")
+    return flask.jsonify(results)
+
+
+@app.route('/api/v0/meta')
+def meta():
+    response = {
+        "categories": load_categories(),
+    }
+    return flask.jsonify(response)
 
 
 @app.route('/api/v0/recipe/<pub_id>')
@@ -65,5 +61,6 @@ def serve(path):
 
 
 if __name__ == '__main__':
-    load_recipes()
+    if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
+        recipes = load_recipes()
     app.run(host="0.0.0.0", debug=True)

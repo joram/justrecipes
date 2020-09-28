@@ -20,6 +20,7 @@ ADD requirements.txt .
 RUN pip install -r requirements.txt
 ADD recipes /recipes/recipes
 ADD api /recipes/api
+ADD categories.json /recipes
 
 EXPOSE 5000
 ENTRYPOINT python /recipes/api/api.py

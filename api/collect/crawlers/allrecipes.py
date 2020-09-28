@@ -15,9 +15,10 @@ class AllRecipes(BaseCrawler):
 
             try:
                 r = self.get_allrecipes_recipe(url)
-                yield r
-            except Exception:
+            except:
                 print(url)
+                continue
+            yield r
 
     def get_allrecipes_recipe(self, url):
         content = get_cached(url)
@@ -55,6 +56,9 @@ class AllRecipes(BaseCrawler):
                 servings = clean_str(val.text)
                 break
 
+        spans = soup.findAll("span", {"class": "breadcrumbs__title"})
+        category = [span.text.strip("\n ") for span in spans]
+        category = category[2:]
         return Recipe(
             url=url,
             title=title,
@@ -62,11 +66,12 @@ class AllRecipes(BaseCrawler):
             ingredients=ingredients,
             instructions=steps,
             servings=servings,
+            category=category,
         )
 
     def get_allrecipes_urls(self):
         list_urls = ["https://www.allrecipes.com/recipes/"]
-        recipe_urls = []
+        recipe_urls = {}
         for list_url in list_urls:
             try:
                 content = get_cached(list_url)
@@ -81,7 +86,7 @@ class AllRecipes(BaseCrawler):
                 if not href.startswith("http"):
                     continue
                 if "/recipe/" in href and href not in recipe_urls:
-                    recipe_urls.append(href)
+                    recipe_urls[href] = True
                     yield href
                 if "/recipes/" in href and href not in list_urls:
                     list_urls.append(href)

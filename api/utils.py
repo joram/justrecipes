@@ -1,4 +1,4 @@
-import hashlib
+import glob
 import json
 import os
 import time
@@ -50,10 +50,10 @@ def recipe_exists(recipe):
     return os.path.exists(cache_path)
 
 
-def store_recipe(recipe):
+def store_recipe(recipe, overwrite=False):
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)
-    if os.path.exists(cache_path):
+    if os.path.exists(cache_path) and not overwrite:
         return
 
     with open(cache_path, "w") as f:
@@ -68,3 +68,38 @@ def clean_str(s):
     s = s.replace("¼", "1/4")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
+
+
+def store_categories(categories):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../categories.json")
+    with open(cache_path, "w") as f:
+        s = json.dumps(categories, indent=4, sort_keys=True)
+        f.write(s)
+
+
+def load_categories():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../categories.json")
+    with open(cache_path) as f:
+        content = f.read()
+        return json.loads(content)
+
+
+def load_recipes():
+    recipes = {}
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    recipes_path = os.path.join(dir_path, "../recipes/*")
+    for filename in glob.iglob(recipes_path):
+        filepath = os.path.join(recipes_path, filename)
+        try:
+            with open(filepath) as f:
+                content = f.read()
+                recipe = json.loads(content)
+                uid = filename.split("/")[-1].replace(".json", "")
+                recipes[uid] = recipe
+                recipes[uid]["id"] = uid
+        except:
+            pass
+    print(f"loaded {len(recipes)} recipes")
+    return recipes
