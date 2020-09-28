@@ -11,10 +11,6 @@ from utils import get_cached
 
 class AsEasyAsApplePie(BaseCrawler):
 
-    def next_recipe(self, skip_existing=False):
-        for url in self.get_recipe_urls():
-            yield self.get_recipe(url)
-
     def get_recipe_urls(self):
         recipe_urls = []
         list_urls = [

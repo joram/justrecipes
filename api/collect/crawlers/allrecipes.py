@@ -7,20 +7,7 @@ from utils import get_cached, clean_str, recipe_exists
 
 class AllRecipes(BaseCrawler):
 
-    def next_recipe(self, skip_existing=False):
-        for url in self.get_allrecipes_urls():
-            if skip_existing and recipe_exists(Recipe(url=url, servings=1, title="", subtitle="")):
-                yield None
-                continue
-
-            try:
-                r = self.get_allrecipes_recipe(url)
-            except:
-                print(url)
-                continue
-            yield r
-
-    def get_allrecipes_recipe(self, url):
+    def get_recipe(self, url):
         content = get_cached(url)
         soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
@@ -69,8 +56,9 @@ class AllRecipes(BaseCrawler):
             category=category,
         )
 
-    def get_allrecipes_urls(self):
+    def get_recipe_urls(self):
         list_urls = ["https://www.allrecipes.com/recipes/"]
+        visited_list_urls = {}
         recipe_urls = {}
         for list_url in list_urls:
             try:
@@ -85,8 +73,9 @@ class AllRecipes(BaseCrawler):
                 href = a["href"]
                 if not href.startswith("http"):
                     continue
-                if "/recipe/" in href and href not in recipe_urls:
+                if "/recipe/" in href and not recipe_urls.get(href, False):
                     recipe_urls[href] = True
                     yield href
-                if "/recipes/" in href and href not in list_urls:
+                if "/recipes/" in href and not visited_list_urls.get(href, False):
+                    visited_list_urls[href] = True
                     list_urls.append(href)
