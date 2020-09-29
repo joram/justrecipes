@@ -78,9 +78,25 @@ def store_categories(categories):
         f.write(s)
 
 
+def store_tags(tags):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../tags.json")
+    with open(cache_path, "w") as f:
+        s = json.dumps(tags, indent=4, sort_keys=True)
+        f.write(s)
+
+
 def load_categories():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../categories.json")
+    with open(cache_path) as f:
+        content = f.read()
+        return json.loads(content)
+
+
+def load_tags():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../tags.json")
     with open(cache_path) as f:
         content = f.read()
         return json.loads(content)

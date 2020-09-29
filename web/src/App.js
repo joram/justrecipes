@@ -3,8 +3,8 @@ import './App.css';
 import Recipe from "./recipe";
 import RecipeSearch from "./search";
 import {BrowserRouter as Router, Route, Switch,} from "react-router-dom";
-import Categories from "./categories";
 import Category from "./category";
+import Tags from "./tags";
 
 
 class App extends React.Component {
@@ -20,7 +20,7 @@ class App extends React.Component {
         </Route>
         <Route path="/">
             <RecipeSearch />
-            <Categories />
+            <Tags />
         </Route>
       </Switch>
     </Router>

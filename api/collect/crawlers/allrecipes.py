@@ -7,6 +7,13 @@ from utils import get_cached, clean_str, recipe_exists
 
 class AllRecipes(BaseCrawler):
 
+    domain = "allrecipes"
+    to_visit_list_urls = ["https://www.allrecipes.com/recipes/"]
+
+    @property
+    def remaining(self):
+        return len(self.to_visit_list_urls)
+
     def get_recipe(self, url):
         content = get_cached(url)
         soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
@@ -54,13 +61,21 @@ class AllRecipes(BaseCrawler):
             instructions=steps,
             servings=servings,
             category=category,
+            tags=category,
         )
 
     def get_recipe_urls(self):
-        list_urls = ["https://www.allrecipes.com/recipes/"]
         visited_list_urls = {}
         recipe_urls = {}
-        for list_url in list_urls:
+        i = 0
+        while len(self.to_visit_list_urls) > 0:
+            list_url = self.to_visit_list_urls[0]
+            self.to_visit_list_urls = self.to_visit_list_urls[1:]
+
+            if i % 100 == 0:
+                print(f"got {len(self.to_visit_list_urls)} urls to visit")
+            i += 1
+
             try:
                 content = get_cached(list_url)
             except:
@@ -78,4 +93,4 @@ class AllRecipes(BaseCrawler):
                     yield href
                 if "/recipes/" in href and not visited_list_urls.get(href, False):
                     visited_list_urls[href] = True
-                    list_urls.append(href)
+                    self.to_visit_list_urls.append(href)

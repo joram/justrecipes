@@ -7,7 +7,7 @@ import os
 
 import flask as flask
 
-from utils import load_recipes, load_categories
+from utils import load_recipes, load_categories, load_tags
 
 global recipes
 app = flask.Flask(__name__, static_folder='./build')
@@ -25,10 +25,13 @@ def recipes_search():
 
     title = request.args.get('title')
     category = request.args.get('category')
+    tag = request.args.get('tag')
     for recipe in recipes.values():
         if category is not None and category in recipe.get("category", []):
             results[recipe.get("title")] = recipe
         elif title is not None and title.lower() in recipe.get("title").lower():
+            results[recipe.get("title")] = recipe
+        elif tag is not None and tag in recipe.get("tags", []):
             results[recipe.get("title")] = recipe
 
     results = list(results.values())
@@ -40,6 +43,7 @@ def recipes_search():
 def meta():
     response = {
         "categories": load_categories(),
+        "tags": load_tags(),
     }
     return flask.jsonify(response)
 
@@ -62,5 +66,6 @@ def serve(path):
 
 if __name__ == '__main__':
     if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
+        print("loading recipes...")
         recipes = load_recipes()
     app.run(host="0.0.0.0", debug=True)

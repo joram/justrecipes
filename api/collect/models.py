@@ -53,7 +53,7 @@ def ingredient_from_string(s):
 
 class Recipe:
 
-    def __init__(self, url, title, subtitle, servings, ingredients=[], instructions=[], category=[]):
+    def __init__(self, url, title, subtitle, servings, ingredients=[], instructions=[], category=[], tags=[]):
         """
         :param url:string the source url
         :type url: str
@@ -69,6 +69,8 @@ class Recipe:
         :type instructions: list str
         :param category:
         :type category: list str
+        :param tags:
+        :type tags: list str
         """
         self.url = url
         self.title = title
@@ -76,28 +78,27 @@ class Recipe:
         self.ingredients = ingredients
         self.instructions = instructions
         self.category = category
+        self.tags = tags
 
     def __str__(self):
-        ingredient_list = [f"  {i}" for i in self.ingredients]
-        ingredients = '\n'.join(ingredient_list)
-        steps = "\n".join([f" {s}" for s in self.instructions])
-        return f"<Recipe name='{self.title}'>\n" \
-               f" <Ingredients>\n" \
-               f"{ingredients}\n" \
-               f" </Ingredients>\n" \
-               f" <Instructions>\n" \
-               f"{steps}\n" \
-               f" </Instructions>\n" \
-               f"</Recipe>"
+        return self.title
 
     def json(self):
+        try:
+            ingredients_json = [i.json() for i in self.ingredients]
+        except:
+            ingredients_json = {}
+            for section in self.ingredients:
+                ingredients_json[section] = [i.json() for i in self.ingredients[section]]
+
         return {
             "url": self.url,
             "title": self.title,
             "subtitle": self.subtitle,
-            "ingredients": [i.json() for i in self.ingredients],
+            "ingredients": ingredients_json,
             "instructions": self.instructions,
             "category": self.category,
+            "tags": self.tags,
         }
 
     @property

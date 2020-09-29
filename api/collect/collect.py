@@ -1,7 +1,9 @@
 #!/usr/bin/env python
+
 from crawlers.allrecipes import AllRecipes
 from crawlers.aseasyasapplepie import AsEasyAsApplePie
-from utils import store_recipe, load_recipes, store_categories
+from crawlers.epicurious import Epicurious
+from utils import store_recipe, load_recipes, store_categories, store_tags
 
 
 def build_category_tree():
@@ -43,8 +45,26 @@ def build_category_tree():
     return tree
 
 
+def build_tags():
+    results = {}
+    recipes = load_recipes()
+    for recipe in recipes.values():
+        for tag in recipe.get("tags", []):
+            if tag not in results:
+                results[tag] = {
+                    "count": 0,
+                    "tag": tag
+                }
+            results[tag]["count"] += 1
+
+    tags = list(results.values())
+    store_tags(tags)
+    return tags
+
+
 def crawl():
     for crawler in [
+        Epicurious(),
         AllRecipes(),
         AsEasyAsApplePie(),
     ]:
@@ -55,12 +75,20 @@ def crawl():
                 if i % 100 == 0:
                     print(i, "skipped")
                 continue
-            print(i, recipe.filename, recipe.title)
+            print(
+                crawler.domain,
+                i,
+                "\t",
+                crawler.remaining,
+                "\t",
+                recipe.filename,
+                recipe.title,
+            )
             store_recipe(recipe, overwrite=False)
 
 
 if __name__ == "__main__":
-    tree = build_category_tree()
-    import pprint
-    pprint.pprint(tree)
+    # tree = build_category_tree()
+    tags = build_tags()
+    print(len(tags))
     crawl()
