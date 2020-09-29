@@ -3,8 +3,9 @@ import './App.css';
 import Recipe from "./recipe";
 import RecipeSearch from "./search";
 import {BrowserRouter as Router, Route, Switch,} from "react-router-dom";
-import Category from "./category";
+import RecipesListByCategory from "./recipes_list_by_category";
 import Tags from "./tags";
+import RecipesListByTag from "./recipes_list_by_tag";
 
 
 class App extends React.Component {
@@ -16,7 +17,10 @@ class App extends React.Component {
           <Recipe />
         </Route>
         <Route path="/category/:category">
-          <Category />
+          <RecipesListByCategory />
+        </Route>
+        <Route path="/tag/:tag">
+          <RecipesListByTag />
         </Route>
         <Route path="/">
             <RecipeSearch />

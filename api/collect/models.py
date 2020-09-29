@@ -53,7 +53,7 @@ def ingredient_from_string(s):
 
 class Recipe:
 
-    def __init__(self, url, title, subtitle, servings, ingredients=[], instructions=[], category=[], tags=[]):
+    def __init__(self, url, title, subtitle, servings, ingredients=[], instructions=[], category=[], tags=[], images=[]):
         """
         :param url:string the source url
         :type url: str
@@ -71,6 +71,8 @@ class Recipe:
         :type category: list str
         :param tags:
         :type tags: list str
+        :param images:
+        :type images: list str
         """
         self.url = url
         self.title = title
@@ -79,6 +81,7 @@ class Recipe:
         self.instructions = instructions
         self.category = category
         self.tags = tags
+        self.images = images
 
     def __str__(self):
         return self.title
@@ -99,6 +102,7 @@ class Recipe:
             "instructions": self.instructions,
             "category": self.category,
             "tags": self.tags,
+            "images": self.images,
         }
 
     @property

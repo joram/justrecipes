@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {List, Menu, Segment, Sidebar} from 'semantic-ui-react'
+import {Image, List, Menu, Segment, Sidebar} from 'semantic-ui-react'
 import {withRouter} from "react-router-dom";
 
 
@@ -21,9 +21,12 @@ class Ingredients extends React.Component {
 
     let i = 0;
     let ingredients = []
-    this.props.ingredients.forEach(ingredient => {
-      ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
-      i += 1
+    console.log(this.props)
+    Object.keys(this.props.ingredients).forEach(cateogry => {
+        this.props.ingredients[cateogry].forEach(ingredient => {
+          ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
+          i += 1
+        })
     })
 
     return (<Sidebar
@@ -46,14 +49,16 @@ class Instructions extends React.Component {
   render() {
     let i = 1;
     let steps = []
-    this.props.instructions.forEach(step => {
-      steps.push(<List.Item key={"instruction_"+i}>
+    Object.keys(this.props.instructions).forEach(category => {
+      this.props.instructions[category].forEach(step => {
+        steps.push(<List.Item key={"instruction_"+i}>
 
-        <List.Content floated={"left"}>
-          {i}) {step}
-        </List.Content>
-      </List.Item>)
-      i += 1;
+          <List.Content floated={"left"}>
+            {i}) {step}
+          </List.Content>
+        </List.Item>)
+        i += 1;
+      })
     })
     return <List divided relaxed >
       <List.Header><h3>{this.props.title}</h3></List.Header>
@@ -94,10 +99,14 @@ class Recipe extends React.Component {
     let ingredients = [];
     let instructions = [];
     let title = "";
+    let src = ""
     if (this.state.recipe !== null){
       ingredients = this.state.recipe.ingredients
       instructions = this.state.recipe.instructions
       title = this.state.recipe.title
+      if(this.state.recipe.images !== undefined && this.state.recipe.images.length > 0){
+        src = this.state.recipe.images[0]
+      }
     }
     console.log(this.state.recipe)
 
@@ -106,6 +115,7 @@ class Recipe extends React.Component {
         <Ingredients ingredients={ingredients} />
         <Sidebar.Pusher>
           <Segment style={{marginRight:"150px"}} basic>
+            <Image src={src}  size='large' />
             <Instructions instructions={instructions} title={title} />
           </Segment>
         </Sidebar.Pusher>

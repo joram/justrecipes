@@ -54,6 +54,10 @@ class Epicurious(BaseCrawler):
 
         servings = soup.find("dd", {"class": "yield"}).text
 
+        div = soup.find("div", {"class": "recipe-image"})
+        img = div.find("meta", {"itemprop": "image"})
+        image_url = img.attrs['content']
+        print(image_url)
         recipe = Recipe(
             url=url,
             title=title,
@@ -63,6 +67,7 @@ class Epicurious(BaseCrawler):
             servings=servings,
             category=[],
             tags=tags,
+            images=[image_url],
         )
         return recipe
 

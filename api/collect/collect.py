@@ -69,7 +69,7 @@ def crawl():
         AsEasyAsApplePie(),
     ]:
         i = 0
-        for recipe in crawler.next_recipe(skip_existing=True):
+        for recipe in crawler.next_recipe(skip_existing=False):
             i += 1
             if recipe is None:
                 if i % 100 == 0:
@@ -84,7 +84,7 @@ def crawl():
                 recipe.filename,
                 recipe.title,
             )
-            store_recipe(recipe, overwrite=False)
+            store_recipe(recipe, overwrite=True)
 
 
 if __name__ == "__main__":

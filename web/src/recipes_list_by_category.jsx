@@ -3,7 +3,7 @@ import {List, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 
-class Category extends React.Component {
+class RecipesListByCategory extends React.Component {
 
     constructor(props) {
         super(props);
@@ -40,4 +40,4 @@ class Category extends React.Component {
     }
 }
 
-export default withRouter(Category);
+export default withRouter(RecipesListByCategory);
