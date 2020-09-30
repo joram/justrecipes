@@ -106,7 +106,10 @@ class Recipe:
         }
 
     @property
+    def id(self):
+        hashid = hashlib.sha224(self.url.encode("ascii")).hexdigest()
+        return f"recipe_{hashid}"
+
+    @property
     def filename(self):
-        hash = hashlib.sha224(self.url.encode("ascii")).hexdigest()
-        filename = f"recipe_{hash}.json"
-        return filename
+        return f"{self.id}.json"

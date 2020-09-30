@@ -19,9 +19,8 @@ WORKDIR /recipes
 ADD requirements.txt .
 RUN pip install -r requirements.txt
 ADD api /recipes/api
-ADD categories.json /recipes
+ADD recipes.json /recipes
 ADD tags.json /recipes
 
 EXPOSE 5000
-VOLUME /recipes/recipes
 CMD python /recipes/api/api.py

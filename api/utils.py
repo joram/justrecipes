@@ -61,6 +61,14 @@ def store_recipe(recipe, overwrite=False):
         f.write(s)
 
 
+def store_recipes(recipes):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, "../recipes.json")
+    with open(cache_path, "w") as f:
+        s = json.dumps(recipes, indent=4, sort_keys=True)
+        f.write(s)
+
+
 def clean_str(s):
     s = str(s)
     s = s.replace("½", "1/2")
@@ -70,28 +78,12 @@ def clean_str(s):
     return s
 
 
-def store_categories(categories):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../categories.json")
-    with open(cache_path, "w") as f:
-        s = json.dumps(categories, indent=4, sort_keys=True)
-        f.write(s)
-
-
 def store_tags(tags):
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../tags.json")
     with open(cache_path, "w") as f:
         s = json.dumps(tags, indent=4, sort_keys=True)
         f.write(s)
-
-
-def load_categories():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../categories.json")
-    with open(cache_path) as f:
-        content = f.read()
-        return json.loads(content)
 
 
 def load_tags():
@@ -103,19 +95,8 @@ def load_tags():
 
 
 def load_recipes():
-    recipes = {}
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    recipes_path = os.path.join(dir_path, "../recipes/*")
-    for filename in glob.iglob(recipes_path):
-        filepath = os.path.join(recipes_path, filename)
-        try:
-            with open(filepath) as f:
-                content = f.read()
-                recipe = json.loads(content)
-                uid = filename.split("/")[-1].replace(".json", "")
-                recipes[uid] = recipe
-                recipes[uid]["id"] = uid
-        except:
-            pass
-    print(f"loaded {len(recipes)} recipes")
-    return recipes
+    cache_path = os.path.join(dir_path, "../recipes.json")
+    with open(cache_path) as f:
+        content = f.read()
+        return json.loads(content)

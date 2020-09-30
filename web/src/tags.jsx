@@ -75,15 +75,15 @@ class Tags extends React.Component {
         let columns = []
         if(num_columns > 8)
             num_columns = 8
-        let rows_per_column = Math.ceil(tags.length/num_columns)
-        let i,j,chunk = rows_per_column;
-        for (i=0,j=items.length; i<j; i+=chunk) {
-            let column_list = items.slice(i,i+chunk);
+        let rows_per_column = items.length/num_columns
+        let i,j;
+        for (i=0,j=items.length; i<j; i+=rows_per_column) {
+            let column_list = items.slice(i,i+rows_per_column);
             columns.push(<Grid.Column>
                 <List key={`tag_${i}`}>{column_list}</List>
             </Grid.Column>)
         }
-
+        console.log(`using ${num_columns} columns for ${items.length} columns, chunked into ${rows_per_column}`)
         return columns
     }
 

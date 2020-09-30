@@ -1,15 +1,14 @@
 #!/usr/bin/env python
-import json
 
-from flask import request
-from flask_cors import CORS
 import os
 
 import flask as flask
+from flask import request
+from flask_cors import CORS
 
-from utils import load_recipes, load_categories, load_tags
+from utils import load_recipes, load_tags
 
-global recipes
+global recipes, tags
 app = flask.Flask(__name__, static_folder='./build')
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -42,8 +41,7 @@ def recipes_search():
 @app.route('/api/v0/meta')
 def meta():
     response = {
-        "categories": load_categories(),
-        "tags": load_tags(),
+        "tags": tags,
     }
     return flask.jsonify(response)
 
@@ -68,4 +66,9 @@ if __name__ == '__main__':
     if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
         print("loading recipes...")
         recipes = load_recipes()
+        print(f"loaded {len(recipes)} recipes.")
+        print("loading tags...")
+        tags = load_tags()
+        print(f"loaded {len(tags)} tags.")
+
     app.run(host="0.0.0.0", debug=True)
