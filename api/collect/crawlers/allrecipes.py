@@ -1,3 +1,5 @@
+import urllib.parse
+
 from bs4 import BeautifulSoup
 
 from crawlers.base import BaseCrawler
@@ -15,12 +17,16 @@ class AllRecipes(BaseCrawler):
         return len(self.to_visit_list_urls)
 
     def get_recipe(self, url):
+        original_url = url
         content = get_cached(url)
-        soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
+        content = content.decode('utf-8')
+        soup = BeautifulSoup(content, 'html.parser')
 
         title = soup.find("h1", {"class": "headline"})
         if title is None:
             title = soup.find("h1", {"id": "recipe-main-content"})
+        if title is None:
+            return None
         title = str(title.text)
 
         ingredients = []
@@ -50,18 +56,50 @@ class AllRecipes(BaseCrawler):
                 servings = clean_str(val.text)
                 break
 
+        images = []
+        div = soup.find("div", {"class": "hero-photo__wrap"})
+        if div is not None:
+            a = div.find("a")
+            imgs_content = get_cached(a.attrs["href"])
+            imgs_content = imgs_content.decode('utf-8')
+            for line in imgs_content.split("\n"):
+                if "urls:" in line:
+                    url = line.split("'")[1]
+                    images.append(url)
+        divs = soup.findAll("div", {"class": "lazy-image"})
+        for div in divs:
+            btn = div.find("button")
+            if btn is not None:
+                url = btn.attrs["data-image"]
+                url = url.split("url=")[1]
+                url = urllib.parse.unquote(url)
+                images.append(url)
+        recipe_div = soup.find("div", {"class": "recipe-content-container"})
+        if recipe_div is not None:
+            img = recipe_div.find("img")
+            if img is not None:
+                url = img.attrs["src"]
+                try:
+                    url = url.split("url=")[1]
+                    url = url.split("?")[0]
+                    url = urllib.parse.unquote(url)
+                except:
+                    pass
+                images.append(url)
+        images = [img for img in images if "media-allrecipes.com" in img]
+
         spans = soup.findAll("span", {"class": "breadcrumbs__title"})
         category = [span.text.strip("\n ") for span in spans]
         category = category[2:]
         return Recipe(
-            url=url,
+            url=original_url,
             title=title,
             subtitle="",
             ingredients=ingredients,
             instructions=steps,
             servings=servings,
-            category=category,
-            tags=category,
+            tags=self.clean_tags(category),
+            images=images,
         )
 
     def get_recipe_urls(self):

@@ -1,4 +1,3 @@
-import glob
 import json
 import os
 import time
@@ -13,7 +12,14 @@ def _cache_path(resource):
         os.mkdir(cache_path)
 
     resource = resource.rstrip("/")
-    if not resource.endswith("/index.html"):
+
+    has_valid_ending = False
+    valid_endings = ["/index.html", ".jpg", ".jpeg", ".JPG", ".gif", ".png"]
+    for valid_ending in valid_endings:
+        if resource.endswith(valid_ending):
+            has_valid_ending = True
+            break
+    if not has_valid_ending:
         resource = f"{resource}/index.html"
 
     path = os.path.join(
@@ -32,7 +38,33 @@ def get_cached(url):
     if os.path.exists(path):
         with open(path, "rb") as f:
             content = f.read()
+            if len(content) == 0:
+                remove_cached(url)
+                return get_cached(url)
             return content
+
+    with open(path, "wb") as f:
+        time.sleep(1)
+        response = requests.get(url, allow_redirects=True)
+        if response.status_code == 404:
+            return None
+        if response.status_code != 200:
+            raise Exception(response.status_code)
+
+        f.write(response.content)
+        return response.content
+
+
+def remove_cached(url):
+    path = _cache_path(url)
+    if os.path.exists(path):
+        os.remove(path)
+
+
+def get_cached_path(url):
+    path = _cache_path(url)
+    if os.path.exists(path):
+        return path, True
 
     with open(path, "wb") as f:
         time.sleep(1)
@@ -41,7 +73,7 @@ def get_cached(url):
             raise Exception(response.status_code)
 
         f.write(response.content)
-        return response.content
+        return path, False
 
 
 def recipe_exists(recipe):
@@ -74,6 +106,7 @@ def clean_str(s):
     s = s.replace("½", "1/2")
     s = s.replace("⅓", "1/3")
     s = s.replace("¼", "1/4")
+    s = s.replace("1/2", "0.5")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
 
@@ -97,6 +130,8 @@ def load_tags():
 def load_recipes():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../recipes.json")
+    if not os.path.exists(cache_path):
+        return {}
     with open(cache_path) as f:
         content = f.read()
         return json.loads(content)

@@ -3,9 +3,10 @@ import {Card, Image, List} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 function img_src(recipe){
+    console.log(recipe)
     let src = "https://react.semantic-ui.com/images/avatar/large/matthew.png";
-    if(recipe.images !== undefined && recipe.images.length > 0){
-        src = recipe.images[0]
+    if(recipe.images !== undefined && recipe.images.x512 !== undefined){
+        src = recipe.images.x512[0]
     }
     return src
 }

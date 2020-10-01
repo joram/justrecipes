@@ -19,10 +19,15 @@ class Epicurious(BaseCrawler):
 
     def get_recipe(self, url):
         content = get_cached(url)
+        if content is None:
+            return None
         soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
         title = soup.find("h1", {"itemprop": "name"})
-        title = str(title.text)
+        try:
+            title = str(title.text)
+        except:
+            title = url.split("/")[-1].replace("-", " ")
 
         ingredients = {}
         ingredient_groups = soup.findAll("ol", {"class": "ingredient-groups"})
@@ -32,7 +37,11 @@ class Epicurious(BaseCrawler):
             lis = group.findAll("li", {"class": "ingredient"})
             for li in lis:
                 s = clean_str(li.text)
-                i = ingredient_from_string(s)
+                try:
+                    i = ingredient_from_string(s)
+                except:
+                    print(s)
+                    raise
                 if i is not None:
                     group_ingredients.append(i)
             ingredients[group_title] = group_ingredients
@@ -48,15 +57,24 @@ class Epicurious(BaseCrawler):
                 group_steps.append(step)
             steps[group_title] = group_steps
 
+        tags = []
         dt = soup.find("dl", {"class": "tags"})
-        dts = dt.findAll("dt")
-        tags = [str(dt.text) for dt in dts]
+        if dt is not None:
+            dts = dt.findAll("dt")
+            tags = [str(dt.text) for dt in dts]
 
-        servings = soup.find("dd", {"class": "yield"}).text
+        servings = 1
+        dd = soup.find("dd", {"class": "yield"})
+        if dd is not None:
+            servings = dd.text
 
-        div = soup.find("div", {"class": "recipe-image"})
-        img = div.find("meta", {"itemprop": "image"})
-        image_url = img.attrs['content']
+        try:
+            div = soup.find("div", {"class": "recipe-image"})
+            img = div.find("meta", {"itemprop": "image"})
+            image_url = img.attrs['content']
+            image_urls = [image_url]
+        except:
+            image_urls = []
 
         recipe = Recipe(
             url=url,
@@ -65,9 +83,8 @@ class Epicurious(BaseCrawler):
             ingredients=ingredients,
             instructions=steps,
             servings=servings,
-            category=[],
-            tags=tags,
-            images=[image_url],
+            tags=self.clean_tags(tags),
+            images=image_urls,
         )
         return recipe
 

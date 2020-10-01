@@ -21,7 +21,6 @@ class Ingredients extends React.Component {
 
     let i = 0;
     let ingredients = []
-    console.log(this.props)
     Object.keys(this.props.ingredients).forEach(cateogry => {
         this.props.ingredients[cateogry].forEach(ingredient => {
           ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
@@ -104,8 +103,8 @@ class Recipe extends React.Component {
       ingredients = this.state.recipe.ingredients
       instructions = this.state.recipe.instructions
       title = this.state.recipe.title
-      if(this.state.recipe.images !== undefined && this.state.recipe.images.length > 0){
-        src = this.state.recipe.images[0]
+      if(this.state.recipe.images !== undefined){
+        src = this.state.recipe.images.x512[0]
       }
     }
     console.log(this.state.recipe)
