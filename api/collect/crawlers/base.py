@@ -37,7 +37,15 @@ class BaseCrawler:
             tag = tag.lower()
             # tag = ps.stem(tag)
             tag = {
-                "bell peppers": "bell pepper",
+                "bell pepper": "bell peppers",
+                "egg": "eggs",
+                "drink": "drinks",
+                "condiment/spread": "condiment",
+                "christmas eve": "christmas",
+                "breakfast and brunch": "breakfast",
+                "dessert": "desserts",
+                "grill": "grill/barbeque",
+
             }.get(tag, tag)
 
             cleaned_tags.append(tag)

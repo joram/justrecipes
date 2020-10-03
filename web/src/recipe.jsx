@@ -21,12 +21,14 @@ class Ingredients extends React.Component {
 
     let i = 0;
     let ingredients = []
+    console.log("not an object:", typeof(this.props.ingredients))
     Object.keys(this.props.ingredients).forEach(cateogry => {
         this.props.ingredients[cateogry].forEach(ingredient => {
           ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
           i += 1
         })
     })
+
 
     return (<Sidebar
       as={Menu}
@@ -50,7 +52,7 @@ class Instructions extends React.Component {
     let steps = []
     Object.keys(this.props.instructions).forEach(category => {
       this.props.instructions[category].forEach(step => {
-        steps.push(<List.Item key={"instruction_"+i}>
+        steps.push(<List.Item key={"instruction_"+i} >
 
           <List.Content floated={"left"}>
             {i}) {step}
@@ -59,7 +61,7 @@ class Instructions extends React.Component {
         i += 1;
       })
     })
-    return <List divided relaxed >
+    return <List divided relaxed>
       <List.Header><h3>{this.props.title}</h3></List.Header>
       {steps}
     </List>
@@ -79,6 +81,10 @@ class Recipe extends React.Component {
   }
 
   componentDidMount() {
+    this.loadRecipe()
+  }
+
+  loadRecipe(){
     let host = "https://recipes.oram.ca"
     if(window.location.hostname==="localhost")
       host = "http://localhost:5000"
@@ -94,7 +100,6 @@ class Recipe extends React.Component {
   }
 
   render(){
-
     let ingredients = [];
     let instructions = [];
     let title = "";
@@ -110,9 +115,9 @@ class Recipe extends React.Component {
     console.log(this.state.recipe)
 
     return <>
-      <Sidebar.Pushable as={Segment}>
+      <Sidebar.Pushable as={Segment} basic>
         <Ingredients ingredients={ingredients} />
-        <Sidebar.Pusher>
+        <Sidebar.Pusher style={{minHeight:"90vh"}}>
           <Segment style={{marginRight:"150px"}} basic>
             <Image src={src}  size='large' />
             <Instructions instructions={instructions} title={title} />

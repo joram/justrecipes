@@ -58,7 +58,7 @@ class AsEasyAsApplePie(BaseCrawler):
         div = soup.find("div", {"class": "wprm-recipe-name wprm-color-header"})
         title = div.text
 
-        ingredients = []
+        ingredients = {"ingredients": []}
         lis = soup.findAll("li", {"class": "wprm-recipe-ingredient"})
         for li in lis:
             amount = _get_span("wprm-recipe-ingredient-amount")
@@ -77,12 +77,12 @@ class AsEasyAsApplePie(BaseCrawler):
             else:
                 ingredient.name = name
                 ingredient.notes = notes
-            ingredients.append(ingredient)
+            ingredients["ingredients"].append(ingredient)
 
-        instructions = []
+        instructions = {"instructions": []}
         divs = soup.findAll("div", {"class": "wprm-recipe-instruction-text"})
         for div in divs:
-            instructions.append(div.text)
+            instructions["instructions"].append(div.text)
 
         return Recipe(
             url=url,

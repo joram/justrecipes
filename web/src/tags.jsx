@@ -1,5 +1,5 @@
 import React from "react";
-import {Grid, List, Segment} from "semantic-ui-react";
+import {Divider, Grid, List, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 
@@ -21,10 +21,11 @@ class Tags extends React.Component {
         let old_num_columns = state.num_columns
         state.num_columns = Math.floor(window.innerWidth/200)
         if(old_num_columns !== state.num_columns) {
-            state.columns = this.calculateColumns(state.num_columns, state.meta.tags)
+            let cols = this.calculateColumns(state.meta.tags)
+            state.columns = cols.columns
+            state.num_columns = cols.num_columns
         }
         this.setState(state);
-        console.log(state.width)
     }
 
     componentWillUnmount() {
@@ -39,16 +40,16 @@ class Tags extends React.Component {
         fetch(`${host}/api/v0/meta`)
         .then(res => res.json())
         .then(meta => {
-          let num_columns = Math.floor(window.innerWidth/200)
+            let cols = this.calculateColumns(meta.tags)
           this.setState({
             meta: meta,
-            num_columns: num_columns,
-            columns: this.calculateColumns(num_columns, meta.tags)
+            num_columns: cols.num_columns,
+            columns: cols.columns,
           });
         })
     }
 
-    calculateColumns(num_columns, tags){
+    calculateColumns(tags){
         let keyedTags = {}
         tags.forEach(tag => {
             if(tag.count>=5)
@@ -61,8 +62,10 @@ class Tags extends React.Component {
             let tag = keyedTags[tagName]
             if(tagName[0] !== firstChar) {
                 firstChar = tagName[0]
-                console.log(firstChar)
-                items.push(<List.Header key={`tag_${firstChar}`}>{firstChar}</List.Header>
+                items.push(<List.Item key={`tag_${firstChar}`}>
+                    {firstChar}
+                    <Divider />
+                </List.Item>
             )
             }
 
@@ -73,18 +76,21 @@ class Tags extends React.Component {
         })
 
         let columns = []
-        if(num_columns > 8)
-            num_columns = 8
+        let num_columns = Math.floor(window.innerWidth/200)
+        if(num_columns > 6)
+            num_columns = 6
         let rows_per_column = items.length/num_columns
         let i,j;
         for (i=0,j=items.length; i<j; i+=rows_per_column) {
             let column_list = items.slice(i,i+rows_per_column);
-            columns.push(<Grid.Column>
+            columns.push(<Grid.Column key={`tags_col_${i}`}>
                 <List key={`tag_${i}`}>{column_list}</List>
             </Grid.Column>)
         }
-        console.log(`using ${num_columns} columns for ${items.length} columns, chunked into ${rows_per_column}`)
-        return columns
+        return {
+            columns:columns,
+            num_columns: num_columns,
+        }
     }
 
     render() {

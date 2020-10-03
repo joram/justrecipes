@@ -1,6 +1,6 @@
 import React from "react";
-import {Icon, Search, Segment} from "semantic-ui-react";
-import { withRouter } from "react-router-dom";
+import {Icon, Search} from "semantic-ui-react";
+import {withRouter} from "react-router-dom";
 
 
 class RecipeSearch extends React.Component {
@@ -44,6 +44,10 @@ class RecipeSearch extends React.Component {
             fetch(`${host}/api/v0/recipes/search?title=${data.value}`)
             .then(res => res.json())
             .then(recipes => {
+                let max = 10
+                if(recipes.length < max)
+                    max = recipes.length
+                recipes = recipes.slice(0,max)
               this.setState({
                 isLoaded: true,
                 recipes: recipes
@@ -55,19 +59,16 @@ class RecipeSearch extends React.Component {
     }
 
     render() {
-
-        return <Segment>
-            <Search
-              onResultSelect={this.handleResultSelect.bind(this)}
-              onSearchChange={this.handleSearchChange.bind(this)}
-              results={this.state.recipes}
-              fluid={true}
-              loading={!this.state.isLoaded}
-              icon={<Icon name='search' inverted circular link />}
-                placeholder='Search...'
-            />
-
-        </Segment>
+        return <Search
+            fluid
+            label="Recipes"
+            onResultSelect={this.handleResultSelect.bind(this)}
+            onSearchChange={this.handleSearchChange.bind(this)}
+            results={this.state.recipes}
+            loading={!this.state.isLoaded}
+            icon={<Icon name='search' inverted circular link />}
+            placeholder='Search Recipes...'
+        />
     }
 }
 

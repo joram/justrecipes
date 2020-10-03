@@ -1,26 +1,23 @@
 import React from "react";
-import {Card, Image, List} from "semantic-ui-react";
+import {Card, Image, List, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 function img_src(recipe){
-    console.log(recipe)
-    let src = "https://react.semantic-ui.com/images/avatar/large/matthew.png";
-    if(recipe.images !== undefined && recipe.images.x512 !== undefined){
-        src = recipe.images.x512[0]
-    }
-    return src
+    if(recipe.images !== undefined && recipe.images.x512 !== undefined && recipe.images.x512.length > 0)
+        return recipe.images.x512[0]
+    return "/placeholder.png"
 }
 
-let CardExampleCard = (recipe) => (
-    <Link to={`/recipe/${recipe.id}`}>
-        <Card>
-            <Image src={img_src(recipe)} />
+class RecipeCard extends React.Component {
+    render() {
+        return <Card key={this.props.recipe.id} as={Link} to={`/recipe/${this.props.recipe.id}`}>
+            <Image src={img_src(this.props.recipe)}/>
             <Card.Content>
-              <Card.Header>{recipe.title}</Card.Header>
+                <Card.Header>{this.props.recipe.title}</Card.Header>
             </Card.Content>
         </Card>
-    </Link>
-)
+    }
+}
 
 class RecipesListByTag extends React.Component {
 
@@ -28,11 +25,30 @@ class RecipesListByTag extends React.Component {
         super(props);
         this.state = {
             recipes: [],
+            num_columns: this.numCols(),
         };
         this.tag = this.props.match.params.tag
     }
 
+    numCols() {
+        let num_columns = Math.ceil(window.innerWidth/400)
+        if(num_columns > 5)
+            return 5
+        return num_columns
+    }
+
+    updateDimensions = () => {
+        let state = this.state
+        state.num_columns = this.numCols()
+        this.setState(state);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateDimensions.bind(this));
+    }
+
     componentDidMount() {
+        window.addEventListener('resize', this.updateDimensions.bind(this));
         let host = "https://recipes.oram.ca"
         if(window.location.hostname==="localhost")
           host = "http://localhost:5000"
@@ -42,20 +58,22 @@ class RecipesListByTag extends React.Component {
           this.setState({
             recipes: recipes,
           });
-          console.log(this.state)
         })
     }
 
     render() {
         let recipe_links = [<List.Header>{this.category}</List.Header>]
-        console.log(this.state.recipes)
         this.state.recipes.forEach(recipe => {
-            recipe_links.push(CardExampleCard(recipe))
+            recipe_links.push(<RecipeCard recipe={recipe} />)
         })
 
-        return <Card.Group>
-            {recipe_links}
-        </Card.Group>
+
+
+        return <Segment>
+            <Card.Group itemsPerRow={this.state.num_columns}>
+                {recipe_links}
+            </Card.Group>
+        </Segment>
     }
 }
 

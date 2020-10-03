@@ -29,7 +29,7 @@ class AllRecipes(BaseCrawler):
             return None
         title = str(title.text)
 
-        ingredients = []
+        ingredients = {"ingredients": []}
         lis = soup.findAll("li", {"class": "ingredients-item"})
         if len(lis) == 0:
             lis = soup.findAll("span", {"itemprop": "recipeIngredient"})
@@ -37,15 +37,15 @@ class AllRecipes(BaseCrawler):
             s = clean_str(li.text)
             i = ingredient_from_string(s)
             if i is not None:
-                ingredients.append(i)
+                ingredients["ingredients"].append(i)
 
-        steps = []
+        steps = {"steps": []}
         divs = soup.findAll("div", {"class": "paragraph"})
         if len(divs) == 0:
             divs = soup.findAll("span", {"class": "recipe-directions__list--item"})
         for div in divs:
             step = clean_str(div.text)
-            steps.append(step)
+            steps["steps"].append(step)
 
         servings = None
         divs = soup.findAll("div", {"class": "recipe-meta-item"})

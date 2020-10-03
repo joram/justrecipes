@@ -124,14 +124,19 @@ class Recipe:
             def save_to_s3(filepath):
                 import boto3
                 s3_client = boto3.client('s3')
-                response = s3_client.upload_file(filepath, "assets.recipes.oram.ca", f"images/{os.path.basename(filepath)}")
+                response = s3_client.upload_file(
+                    filepath,
+                    "assets.recipes.oram.ca",
+                    f"images/{os.path.basename(filepath)}",
+                    ExtraArgs={'ACL': 'public-read'}
+                )
 
 
             try:
                 path, exists = get_cached_path(image_url)
-                if not exists:
-                    filepath = scale_to_square(path, i, 512, "512")
-                    save_to_s3(filepath)
+                # if not exists:
+                filepath = scale_to_square(path, i, 512, "512")
+                save_to_s3(filepath)
             except:
                 print(image_url)
             i += 1
