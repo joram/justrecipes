@@ -6,6 +6,7 @@ import {withRouter} from "react-router-dom";
 
 class Ingredient extends React.Component {
   render(){
+    console.log(this.props.ingredient)
     return <Menu.Item as='a'>
       {this.props.ingredient.name}
       <br/>
@@ -21,7 +22,6 @@ class Ingredients extends React.Component {
 
     let i = 0;
     let ingredients = []
-    console.log("not an object:", typeof(this.props.ingredients))
     Object.keys(this.props.ingredients).forEach(cateogry => {
         this.props.ingredients[cateogry].forEach(ingredient => {
           ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
@@ -64,6 +64,11 @@ class Instructions extends React.Component {
     return <List divided relaxed>
       <List.Header><h3>{this.props.title}</h3></List.Header>
       {steps}
+      <List.Item>
+        <List.Content>
+          original recipe (<a href={this.props.url}>here</a>)
+        </List.Content>
+      </List.Item>
     </List>
   }
 }
@@ -104,23 +109,25 @@ class Recipe extends React.Component {
     let instructions = [];
     let title = "";
     let src = ""
+    let url = ""
     if (this.state.recipe !== null){
       ingredients = this.state.recipe.ingredients
       instructions = this.state.recipe.instructions
       title = this.state.recipe.title
+      url = this.state.recipe.url
       if(this.state.recipe.images !== undefined){
-        src = this.state.recipe.images.x512[0]
+        src = this.state.recipe.images["header"]
       }
     }
     console.log(this.state.recipe)
 
     return <>
-      <Sidebar.Pushable as={Segment} basic>
+      <Sidebar.Pushable as={Segment} style={{overflowY:"scroll"}}>
         <Ingredients ingredients={ingredients} />
-        <Sidebar.Pusher style={{minHeight:"90vh"}}>
+        <Sidebar.Pusher>
           <Segment style={{marginRight:"150px"}} basic>
-            <Image src={src}  size='large' />
-            <Instructions instructions={instructions} title={title} />
+            <Image src={src} />
+            <Instructions instructions={instructions} title={title} url={url} />
           </Segment>
         </Sidebar.Pusher>
       </Sidebar.Pushable>

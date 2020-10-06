@@ -14,6 +14,14 @@ RUN echo "**** install Python ****" && \
     pip3 install --no-cache --upgrade pip setuptools wheel && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
 RUN apk add --no-cache --virtual .build-deps gcc musl-dev
+#RUN apk add mariadb-connector-c-dev
+#RUN apk add make perl
+#RUN wget https://github.com/xianyi/OpenBLAS/archive/v0.3.6.tar.gz \
+#	&& tar -xf v0.3.6.tar.gz \
+#	&& cd OpenBLAS-0.3.6/ \
+#	&& make BINARY=64 FC=$(which gfortran) USE_THREAD=1 \
+#	&& make PREFIX=/usr/lib/openblas install
+#RUN apk add libxslt-dev libxml2-dev python3-dev
 
 WORKDIR /recipes
 ADD requirements.txt .

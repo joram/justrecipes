@@ -50,7 +50,11 @@ def meta():
 def recipe(pub_id):
     if pub_id not in recipes:
         return flask.abort(404)
-    return flask.jsonify(recipes[pub_id])
+    recipe_json = recipes[pub_id]
+
+    # massage ingredients
+
+    return flask.jsonify(recipe_json)
 
 
 # Serve React App

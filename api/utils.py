@@ -47,12 +47,46 @@ def get_cached(url):
         time.sleep(1)
         response = requests.get(url, allow_redirects=True)
         if response.status_code == 404:
+            print(f"does not exist: {url}")
             return None
         if response.status_code != 200:
-            raise Exception(response.status_code)
+            time.sleep(1)
+            response = requests.get(url, allow_redirects=True)
+            if response.status_code != 200:
+                print(f"error for url: {url}")
+                raise Exception(response.status_code)
 
         f.write(response.content)
         return response.content
+
+
+def clean_tags(tags=[]):
+    cleaned_tags = []
+    for tag in tags:
+        if tag.startswith("#"):
+            continue
+
+        tag = tag.lower()
+        tag = {
+            "bell pepper": "bell peppers",
+            "egg": "eggs",
+            "drink": "drinks",
+            "condiment/spread": "condiment",
+            "christmas eve": "christmas",
+            "breakfast and brunch": "breakfast",
+            "dessert": "desserts",
+            "grill": "grill/barbeque",
+            "cast-iron": "cast iron",
+            "healthy + lighten up": "healthy",
+            "meat + chicken": "meat",
+            "appetizers and snacks": "appetizers",
+            "with": None,
+
+        }.get(tag, tag)
+        if tag is not None:
+            cleaned_tags.append(tag)
+
+    return cleaned_tags
 
 
 def remove_cached(url):
@@ -76,9 +110,9 @@ def get_cached_path(url):
         return path, False
 
 
-def recipe_exists(recipe):
+def recipe_exists(id):
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)
+    cache_path = os.path.join(dir_path, f"../recipes/{id}.json")
     return os.path.exists(cache_path)
 
 
@@ -91,6 +125,15 @@ def store_recipe(recipe, overwrite=False):
     with open(cache_path, "w") as f:
         s = json.dumps(recipe.json(), indent=4, sort_keys=True)
         f.write(s)
+
+
+def load_recipe_from_file(recipe_id):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    cache_path = os.path.join(dir_path, f"../recipes/{recipe_id}.json")
+    with open(cache_path) as f:
+        content = f.read()
+        data = json.loads(content)
+        return data
 
 
 def store_recipes(recipes):
@@ -106,6 +149,8 @@ def clean_str(s):
     s = s.replace("½", "1/2")
     s = s.replace("⅓", "1/3")
     s = s.replace("¼", "1/4")
+    s = s.replace(" 1/2", ".5")
+    s = s.replace("1/2", "0.5")
     s = s.replace("1/2", "0.5")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
