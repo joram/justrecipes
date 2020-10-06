@@ -6,9 +6,8 @@ import {BrowserRouter as Router, Link, Route, Switch,} from "react-router-dom";
 import Tags from "./tags";
 import RecipesListByTag from "./recipes_list_by_tag";
 import {IconContext} from "react-icons";
-import {GiPieSlice} from "react-icons/gi";
 
-import {Container, Header, Segment} from "semantic-ui-react";
+import {Container, Header, Image, Segment} from "semantic-ui-react";
 
 class App extends React.Component {
 
@@ -22,7 +21,7 @@ class App extends React.Component {
         <Header floated="left" size="huge">
           <Link to="/" style={{color:"white"}}>
             <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
-              <GiPieSlice style={{marginTop: "-5px", marginRight: "5px"}}/>
+              <Image src="cooking.png" size="mini" style={{float:"left", paddingRight: "5px"}}/>
               Recipes
             </IconContext.Provider>
           </Link>
