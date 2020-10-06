@@ -6,26 +6,17 @@ import {withRouter} from "react-router-dom";
 
 class Ingredient extends React.Component {
   render(){
-    console.log(this.props.ingredient)
-    return <Menu.Item as='a'>
-      {this.props.ingredient.name}
-      <br/>
-      ({this.props.ingredient.spoken})
-    </Menu.Item>
-
+    return <Menu.Item>{this.props.ingredient}</Menu.Item>
   }
 }
 
 
 class Ingredients extends React.Component {
   render(){
-
-    let i = 0;
     let ingredients = []
     Object.keys(this.props.ingredients).forEach(cateogry => {
         this.props.ingredients[cateogry].forEach(ingredient => {
-          ingredients.push(<Ingredient ingredient={ingredient} key={"ingredient_"+i}/>)
-          i += 1
+          ingredients.push(<Ingredient ingredient={ingredient} key={`ingredient_${ingredients.length}`}/>)
         })
     })
 
@@ -119,7 +110,6 @@ class Recipe extends React.Component {
         src = this.state.recipe.images["header"]
       }
     }
-    console.log(this.state.recipe)
 
     return <>
       <Sidebar.Pushable as={Segment} style={{overflowY:"scroll"}}>

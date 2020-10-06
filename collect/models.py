@@ -230,3 +230,18 @@ class Recipe:
     @property
     def filename(self):
         return f"{self.id}.json"
+
+    @classmethod
+    def from_json(cls, data):
+        recipe = Recipe(
+            url = data.get("url"),
+            title = data.get("title"),
+            subtitle = data.get("subtitle"),
+            ingredients = data.get("ingredients"),
+            instructions = data.get("instructions"),
+            category = data.get("category"),
+            tags = data.get("tags"),
+            images = data.get("images"),
+            servings=1,
+        )
+        return recipe
