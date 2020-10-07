@@ -218,7 +218,6 @@ class Recipe:
             "images": {
                 "originals": self.images,
                 "x512": [f"https://s3-us-west-2.amazonaws.com/assets.recipes.oram.ca/images/{self.id}.{i}.512.square.jpg" for i in range(0, len(self.images))],
-                "header": f"https://s3-us-west-2.amazonaws.com/assets.recipes.oram.ca/images/{self.id}.0.1024x128.square.jpg",
             },
             "id": self.id,
         }
@@ -230,6 +229,11 @@ class Recipe:
     @property
     def filename(self):
         return f"{self.id}.json"
+
+    @property
+    def domain(self):
+        parts = self.url.replace("https://", "").split("/")
+        return parts[0]
 
     @classmethod
     def from_json(cls, data):

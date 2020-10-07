@@ -6,7 +6,8 @@ import {withRouter} from "react-router-dom";
 
 class Ingredient extends React.Component {
   render(){
-    return <Menu.Item>{this.props.ingredient}</Menu.Item>
+    console.log(this.props.ingredient)
+    return <Menu.Item>{this.props.ingredient.original}</Menu.Item>
   }
 }
 
@@ -107,7 +108,7 @@ class Recipe extends React.Component {
       title = this.state.recipe.title
       url = this.state.recipe.url
       if(this.state.recipe.images !== undefined){
-        src = this.state.recipe.images["header"]
+        src = this.state.recipe.images.x512[0]
       }
     }
 

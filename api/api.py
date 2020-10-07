@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+import copy
 import os
 
 import flask as flask
@@ -7,6 +7,8 @@ from flask import request
 from flask_cors import CORS
 
 from utils import load_recipes, load_tags
+
+from ingredients.parse import Parser
 
 global recipes, tags
 app = flask.Flask(__name__, static_folder='./build')
@@ -50,9 +52,15 @@ def meta():
 def recipe(pub_id):
     if pub_id not in recipes:
         return flask.abort(404)
-    recipe_json = recipes[pub_id]
+    recipe_json = copy.deepcopy(recipes[pub_id])
 
-    # massage ingredients
+    parser = Parser()
+    for key in recipe_json["ingredients"]:
+        ingredients = []
+        for ingredient in recipe_json["ingredients"][key]:
+            print(ingredient)
+            ingredients.append(parser.parse(ingredient))
+        recipe_json["ingredients"][key] = ingredients
 
     return flask.jsonify(recipe_json)
 

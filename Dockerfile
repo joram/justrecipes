@@ -14,21 +14,24 @@ RUN echo "**** install Python ****" && \
     pip3 install --no-cache --upgrade pip setuptools wheel && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
 RUN apk add --no-cache --virtual .build-deps gcc musl-dev
-#RUN apk add mariadb-connector-c-dev
-#RUN apk add make perl
-#RUN wget https://github.com/xianyi/OpenBLAS/archive/v0.3.6.tar.gz \
-#	&& tar -xf v0.3.6.tar.gz \
-#	&& cd OpenBLAS-0.3.6/ \
-#	&& make BINARY=64 FC=$(which gfortran) USE_THREAD=1 \
-#	&& make PREFIX=/usr/lib/openblas install
-#RUN apk add libxslt-dev libxml2-dev python3-dev
+
+# Scipy and numpy
+RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
+RUN apk add gcc gfortran python3 python3-dev py-pip build-base wget freetype-dev libpng-dev openblas-dev libffi-dev
+RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 WORKDIR /recipes
 ADD requirements.txt .
+
+RUN apk add --no-cache mariadb-dev build-base
+RUN apk add libxslt-dev libxml2-dev python3-dev
+
 RUN pip install -r requirements.txt
 ADD api /recipes/api
+ADD ingredients /recipes/ingredients
 ADD recipes.json /recipes
 ADD tags.json /recipes
 
 EXPOSE 5000
-CMD python /recipes/api/api.py
+ENV PYTHONPATH=/recipes
+CMD python ./api/api.py

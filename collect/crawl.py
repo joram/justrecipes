@@ -73,7 +73,7 @@ def crawl():
             tags = build_tags()
             store_tags(tags)
 
-        print(f"visited:{i} recipes:{len(recipes)} tags:{len(tags)} imgs:{len(recipe.images)} filename:{recipe.filename} recipe:{recipe.title}")
+        print(f"visited:{i} recipes:{len(recipes)} tags:{len(tags)} imgs:{len(recipe.images)} {recipe.domain}\t {recipe.filename} recipe:{recipe.title}")
         store_recipe(recipe, overwrite=True)
         i += 1
 

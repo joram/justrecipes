@@ -1,15 +1,12 @@
 import csv
-import os
-import pprint
-import time
 from fractions import Fraction
-import pattern.en
 
+import pattern.en
 from quantulum3 import parser as q3_parser
+
 
 # Data sourced from:
 # https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-2015-download-files.html
-from api.utils import load_recipes
 
 
 def load_csv(path, data_key):
@@ -17,7 +14,6 @@ def load_csv(path, data_key):
     with open(path, encoding='iso-8859-1') as f:
         rows = csv.reader(f)
         headers = rows.__next__()
-        print(headers)
         for row in rows:
             row_dict = {}
             for i in range(0, len(headers)):
@@ -30,7 +26,6 @@ def load_csv(path, data_key):
             if key not in data:
                 data[key] = []
             data[key].append(row_dict)
-    print(len(data))
     return data
 
 
@@ -94,7 +89,6 @@ class Parser:
                 unit_pluralized = unit if quantity <= 1 else pattern.en.pluralize(unit)
 
             f = Fraction(quantity)
-            print(str(f))
             remainder = remainder.replace(str(f), "")
             for common_fraction in [0.5, 0.25, 0.75]:
                 remainder = remainder.replace(str(common_fraction), "")
@@ -120,7 +114,6 @@ class Parser:
             quantities.remove((1, ""))
         return quantities, remainder
 
-
     def parse(self, original):
         s = self._clean_string(original)
         comment, s = self._get_comment(s)
@@ -132,56 +125,3 @@ class Parser:
             "comment": comment,
             "material": material,
         }
-
-
-def _get_practice_ingredients(max_ingredients = 30):
-    recipes = load_recipes()
-    for id in recipes:
-        ingredient_dict = recipes[id].get("ingredients", [])
-        for ingredient_key in ingredient_dict:
-            for ingredient in ingredient_dict[ingredient_key]:
-                yield ingredient
-                max_ingredients -= 1
-                if max_ingredients <= 0:
-                    return
-
-
-if __name__ == "__main__":
-    # ingredients = [
-    #     '10 medium (blank)s tomatillos, husked',
-    #     '1 small onion, chopped',
-    #     '3 cloves garlic, chopped',
-    #     '2 peppers jalapeno peppers, chopped',
-    #     '1/4 cup chopped fresh cilantro',
-    #     'salt and pepper to taste',
-    #     '1 large turnip, peeled and cubed',
-    #     '3 medium (blank)s white potatoes, peeled and cubed',
-    #     '1/4 cup milk',
-    #     '3 tablespoons unsalted butter',
-    #     '1 teaspoon white sugar',
-    #     '¾ teaspoon salt',
-    #     '1/4 teaspoon pepper',
-    #     '2 tablespoons chopped fresh rosemary',
-    #     '4 garlic cloves, chopped, divided',
-    #     '3 tablespoons olive oil, divided',
-    #     '1 3.5–4-pound chicken, quartered',
-    #     'Kosher salt, freshly ground pepper',
-    #     '1 small shallot, finely chopped',
-    #     '1 tablespoon fresh thyme leaves',
-    #     '3/4 cup low-sodium chicken broth',
-    #     '2 tablespoons unsalted butter, cut into pieces',
-    #     '1 cup (2 sticks) unsalted butter, room temperature',
-    #     '0.5 cup powdered sugar',
-    #     '1 teaspoon freshly ground black pepper',
-    #     '3/4 teaspoon kosher salt',
-    #     '2 cups all-purpose flour plus more',
-    #     '1 cup finely grated Parmesan (about 2 ounces)',
-    #     '1 tablespoon fennel seeds',
-    #     '1 teaspoon Maldon sea salt or other coarse salt',
-    # ]
-    p = Parser()
-    for i in _get_practice_ingredients(500):
-        response = p.parse(i)
-        pprint.pprint(response)
-        print()
-        time.sleep(2)
