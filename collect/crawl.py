@@ -1,29 +1,12 @@
 #!/usr/bin/env python
+import sqlalchemy
 
-from api.utils import store_recipe, store_tags, store_recipes, load_recipes
 from collect.crawlers.allrecipes import AllRecipes
 from collect.crawlers.aseasyasapplepie import AsEasyAsApplePie
 from collect.crawlers.bon_appetit import BonAppetit
 from collect.crawlers.epicurious import Epicurious
 from collect.models import recipe_id, Recipe
-
-recipes = load_recipes()
-
-
-def build_tags():
-    results = {}
-    for recipe in recipes.values():
-        for tag in recipe.get("tags", []):
-            if tag not in results:
-                results[tag] = {
-                    "count": 0,
-                    "tag": tag
-                }
-            results[tag]["count"] += 1
-
-    tags = list(results.values())
-    store_tags(tags)
-    return tags
+from db.recipe import Recipe as DBRecipe, Tag, RecipeTag, Session
 
 
 def recipes_generator(start_at=0, load_existing=False):
@@ -49,10 +32,12 @@ def recipes_generator(start_at=0, load_existing=False):
                 print(f"{i}/{start_at} skipped")
             continue
 
-        id = recipe_id(url)
-        if id in recipes:
-            yield Recipe.from_json(recipes[id]), True
-            continue
+        if not load_existing:
+            session = Session()
+            qs = session.query(DBRecipe).filter(DBRecipe.pub_id == recipe_id(url))
+            if len(qs.all()) != 0:
+                yield qs.all()[0], True
+                continue
 
         recipe = crawler.get_recipe(url)
 
@@ -62,19 +47,19 @@ def recipes_generator(start_at=0, load_existing=False):
 
 
 def crawl():
-    tags = []
     i = 0
-    for recipe, cached in recipes_generator(start_at=0, load_existing=True):
-        recipes[recipe.id] = recipe.json()
-        recipe.store_images()
-
-        if i % 100 == 0 and not cached:
-            store_recipes(recipes)
-            tags = build_tags()
-            store_tags(tags)
-
-        print(f"visited:{i} recipes:{len(recipes)} tags:{len(tags)} imgs:{len(recipe.images)} {recipe.domain}\t {recipe.filename} recipe:{recipe.title}")
-        store_recipe(recipe, overwrite=True)
+    for recipe, cached in recipes_generator(start_at=0, load_existing=False):
+        if type(recipe.images) == list:
+            recipe.images = {
+                "originals": recipe.images,
+                "x512": [
+                    f"https://s3-us-west-2.amazonaws.com/assets.recipes.oram.ca/images/{recipe.id}.{i}.512.square.jpg" for
+                    i in range(0, len(recipe.images))],
+            }
+        if not cached:
+            db_recipe = DBRecipe.from_json(recipe)
+            db_recipe.save()
+        print(f"visited:{i} cached:{'T' if cached else 'F'}\tdomain:{recipe.domain}\t {recipe.filename} recipe:{recipe.title}")
         i += 1
 
 

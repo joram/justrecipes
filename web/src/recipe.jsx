@@ -6,7 +6,6 @@ import {withRouter} from "react-router-dom";
 
 class Ingredient extends React.Component {
   render(){
-    console.log(this.props.ingredient)
     return <Menu.Item>{this.props.ingredient.original}</Menu.Item>
   }
 }
@@ -93,6 +92,7 @@ class Recipe extends React.Component {
         isLoaded: true,
         recipe: recipe
       });
+      console.log(recipe)
     })
   }
 

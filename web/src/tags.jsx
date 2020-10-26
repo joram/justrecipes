@@ -52,8 +52,7 @@ class Tags extends React.Component {
     calculateColumns(tags){
         let keyedTags = {}
         tags.forEach(tag => {
-            if(tag.count>=5)
-                keyedTags[tag.tag] = tag
+            keyedTags[tag.tag] = tag
         })
 
         let firstChar = ""

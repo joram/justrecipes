@@ -50,11 +50,8 @@ def get_cached(url):
             print(f"does not exist: {url}")
             return None
         if response.status_code != 200:
-            time.sleep(1)
-            response = requests.get(url, allow_redirects=True)
-            if response.status_code != 200:
-                print(f"error for url: {url}")
-                raise Exception(response.status_code)
+            print(f"error for url: {url}")
+            raise Exception(response.status_code)
 
         f.write(response.content)
         return response.content
@@ -103,6 +100,8 @@ def get_cached_path(url):
     with open(path, "wb") as f:
         time.sleep(1)
         response = requests.get(url)
+        if response.status_code == 404:
+            return None, False
         if response.status_code != 200:
             raise Exception(response.status_code)
 

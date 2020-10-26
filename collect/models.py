@@ -198,6 +198,8 @@ class Recipe:
         for image_url in self.images:
             try:
                 path, exists = get_cached_path(image_url)
+                if path is None:
+                    continue
                 if not exists:
                     save_to_s3(path, self.id, i)
             except PIL.UnidentifiedImageError:
@@ -207,16 +209,20 @@ class Recipe:
             i += 1
 
     def json(self):
+
+        def get_original_image(d):
+            if type(d["originals"]) != list:
+                return get_original_image(d["originals"])
+            return d["originals"][0]
+
         return {
             "url": self.url,
             "title": self.title,
-            "subtitle": self.subtitle,
             "ingredients": self.ingredients,
             "instructions": self.instructions,
-            "category": self.category,
             "tags": self.tags,
             "images": {
-                "originals": self.images,
+                "originals": get_original_image(self.images),
                 "x512": [f"https://s3-us-west-2.amazonaws.com/assets.recipes.oram.ca/images/{self.id}.{i}.512.square.jpg" for i in range(0, len(self.images))],
             },
             "id": self.id,

@@ -8,6 +8,7 @@ from flask_cors import CORS
 
 from utils import load_recipes, load_tags
 
+from db.recipe import Session, Recipe, RecipeTag, Tag
 from ingredients.parse import Parser
 
 global recipes, tags
@@ -22,26 +23,30 @@ def recipes_list():
 
 @app.route('/api/v0/recipes/search')
 def recipes_search():
-    results = {}
+    session = Session()
 
     title = request.args.get('title')
-    category = request.args.get('category')
-    tag = request.args.get('tag')
-    for recipe in recipes.values():
-        if category is not None and category in recipe.get("category", []):
-            results[recipe.get("title")] = recipe
-        elif title is not None and title.lower() in recipe.get("title").lower():
-            results[recipe.get("title")] = recipe
-        elif tag is not None and tag in recipe.get("tags", []):
-            results[recipe.get("title")] = recipe
+    if title is not None:
+        qs = session.query(Recipe).filter(Recipe.title.like(f'%{title}%'))
+        results = [recipe.json() for recipe in qs.all()]
+        print(f"{len(results)} recipes found")
+        return flask.jsonify(results)
 
-    results = list(results.values())
-    print(f"{len(results)} recipes found")
-    return flask.jsonify(results)
+    tag = request.args.get('tag')
+    if tag is not None:
+        qs = session.query(RecipeTag).filter(RecipeTag.tag_name == tag)
+        recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
+        qs = session.query(Recipe).filter(Recipe.pub_id.in_(recipe_pub_ids))
+        results = [recipe.json() for recipe in qs.all()]
+        print(f"{len(results)} recipes found")
+        return flask.jsonify(results)
 
 
 @app.route('/api/v0/meta')
 def meta():
+    session = Session()
+    qs = session.query(Tag)
+    tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all()]
     response = {
         "tags": tags,
     }
@@ -50,17 +55,25 @@ def meta():
 
 @app.route('/api/v0/recipe/<pub_id>')
 def recipe(pub_id):
-    if pub_id not in recipes:
+    session = Session()
+    qs = session.query(Recipe).filter(Recipe.pub_id == pub_id)
+    if len(qs) == 0:
         return flask.abort(404)
-    recipe_json = copy.deepcopy(recipes[pub_id])
+    recipe_json = qs.all()[0].json()
 
     parser = Parser()
     for key in recipe_json["ingredients"]:
         ingredients = []
         for ingredient in recipe_json["ingredients"][key]:
-            print(ingredient)
             ingredients.append(parser.parse(ingredient))
         recipe_json["ingredients"][key] = ingredients
+
+    def get_original_image(d):
+        if "originals" in d["originals"]:
+            return get_original_image(d["originals"])
+        return d["originals"]
+
+    recipe_json["images"]["originals"] = get_original_image(recipe_json["images"]["originals"])
 
     return flask.jsonify(recipe_json)
 
@@ -75,12 +88,4 @@ def serve(path):
 
 
 if __name__ == '__main__':
-    if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
-        print("loading recipes...")
-        recipes = load_recipes()
-        print(f"loaded {len(recipes)} recipes.")
-        print("loading tags...")
-        tags = load_tags()
-        print(f"loaded {len(tags)} tags.")
-
     app.run(host="0.0.0.0", debug=True)
