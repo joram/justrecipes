@@ -1,2 +1,3 @@
+find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 docker build -t joram87/recipes .
 docker push joram87/recipes

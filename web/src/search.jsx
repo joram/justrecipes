@@ -15,11 +15,9 @@ class RecipeSearch extends React.Component {
     }
 
     handleResultSelect(e, data) {
-        console.log(data.result.title)
         this.state.recipes.forEach(recipe => {
             if(recipe.title === data.result.title) {
-                console.log(recipe)
-                let path = `/recipe/${recipe.id}`;
+                let path = `/recipe/${recipe.pub_id}`;
                 this.props.history.push(path);
             }
 

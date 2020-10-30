@@ -29,8 +29,7 @@ RUN apk add libxslt-dev libxml2-dev python3-dev
 RUN pip install -r requirements.txt
 ADD api /recipes/api
 ADD ingredients /recipes/ingredients
-ADD recipes.json /recipes
-ADD tags.json /recipes
+ADD db /recipes/db
 
 EXPOSE 5000
 ENV PYTHONPATH=/recipes
