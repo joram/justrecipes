@@ -10,6 +10,7 @@ from utils import load_recipes, load_tags
 
 from db.recipe import Session, Recipe, RecipeTag, Tag
 from ingredients.parse import Parser
+from sqlalchemy.orm import defer
 
 global recipes, tags
 app = flask.Flask(__name__, static_folder='./build')
@@ -27,7 +28,11 @@ def recipes_search():
 
     title = request.args.get('title')
     if title is not None:
-        qs = session.query(Recipe).filter(Recipe.title.like(f'%{title}%'))
+        qs = session.query(Recipe).options(
+            defer('url'),
+            defer('title'),
+            defer('ingredients'),
+        ).filter(Recipe.title.like(f'%{title}%'))
         results = [recipe.json() for recipe in qs.all()]
         print(f"{len(results)} recipes found")
         return flask.jsonify(results)
@@ -47,6 +52,7 @@ def meta():
     session = Session()
     qs = session.query(Tag)
     tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all()]
+
     response = {
         "tags": tags,
     }
@@ -57,7 +63,7 @@ def meta():
 def recipe(pub_id):
     session = Session()
     qs = session.query(Recipe).filter(Recipe.pub_id == pub_id)
-    if len(qs) == 0:
+    if len(qs.all()) == 0:
         return flask.abort(404)
     recipe_json = qs.all()[0].json()
 
@@ -69,6 +75,8 @@ def recipe(pub_id):
         recipe_json["ingredients"][key] = ingredients
 
     def get_original_image(d):
+        if type(d) == list:
+            return [0]
         if "originals" in d["originals"]:
             return get_original_image(d["originals"])
         return d["originals"]

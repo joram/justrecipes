@@ -43,6 +43,16 @@ def recipes_generator(start_at=0, load_existing=False):
 
         if recipe is None:
             continue
+
+        def clean(tag):
+            tag = tag.replace("\"", "")
+            tag = tag.replace(",", "")
+            tag = tag.replace("(", "")
+            tag = tag.replace(")", "")
+            return tag
+
+        recipe.tags = [clean(tag) for tag in recipe.tags]
+
         yield recipe, False
 
 

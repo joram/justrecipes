@@ -57,15 +57,17 @@ class Tags extends React.Component {
 
         let firstChar = ""
         let items = []
+        let i =0;
         Object.keys(keyedTags).sort().forEach(tagName => {
             let tag = keyedTags[tagName]
             if(tagName[0] !== firstChar) {
                 firstChar = tagName[0]
-                items.push(<List.Item key={`tag_${firstChar}`}>
+                items.push(<List.Item key={`tag_${firstChar}+${i}`}>
                     {firstChar}
                     <Divider />
-                </List.Item>
-            )
+                    </List.Item>
+                )
+                i += 1
             }
 
             items.push(<List.Item key={`tag_${tag.tag}`}>
@@ -79,11 +81,11 @@ class Tags extends React.Component {
         if(num_columns > 6)
             num_columns = 6
         let rows_per_column = items.length/num_columns
-        let i,j;
+        let j;
         for (i=0,j=items.length; i<j; i+=rows_per_column) {
             let column_list = items.slice(i,i+rows_per_column);
             columns.push(<Grid.Column key={`tags_col_${i}`}>
-                <List key={`tag_${i}`}>{column_list}</List>
+                <List key={`tag_list_${i}`}>{column_list}</List>
             </Grid.Column>)
         }
         return {

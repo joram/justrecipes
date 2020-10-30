@@ -19,6 +19,7 @@ class Recipe(Base):
     url = Column(String)
     title = Column(String)
     ingredients = Column(JSON)
+    instructions = Column(JSON)
     tags = Column(JSON)
     images = Column(JSON)
 
@@ -40,6 +41,7 @@ class Recipe(Base):
             url=recipe.url,
             title=recipe.title,
             ingredients=recipe.ingredients,
+            instructions=recipe.instructions,
             tags=recipe.tags,
             images=recipe.images,
         )
@@ -50,6 +52,7 @@ class Recipe(Base):
             "url": self.url,
             "title": self.title,
             "ingredients": self.ingredients,
+            "instructions": self.instructions,
             "tags": self.tags,
             "images": self.images,
         }
@@ -57,17 +60,28 @@ class Recipe(Base):
     def save(self):
         _save_obj(self)
         for tag in self.tags:
-            _save_obj(Tag(name=tag))
+            obj = Tag(name=tag)
             _save_obj(RecipeTag(
                 tag_name=tag,
                 recipe_pub_id=self.pub_id
             ))
+            obj.save()
 
 
 class Tag(Base):
     __tablename__ = 'tags'
     name = Column(String, primary_key=True)
     count = Column(Integer)
+
+    def recipe_pub_ids(self):
+        session = Session()
+        qs = session.query(RecipeTag).filter(RecipeTag.tag_name == self.name)
+        recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
+        return recipe_pub_ids
+
+    def save(self):
+        self.count = len(self.recipe_pub_ids())
+        _save_obj(self)
 
     def __repr__(self):
         return f"<Tag name='{self.name}'>"

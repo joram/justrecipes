@@ -10,7 +10,7 @@ function img_src(recipe){
 
 class RecipeCard extends React.Component {
     render() {
-        return <Card key={this.props.recipe.id} as={Link} to={`/recipe/${this.props.recipe.id}`}>
+        return <Card key={this.props.recipe.pub_id} as={Link} to={`/recipe/${this.props.recipe.pub_id}`}>
             <Image src={img_src(this.props.recipe)}/>
             <Card.Content>
                 <Card.Header>{this.props.recipe.title}</Card.Header>
@@ -62,9 +62,9 @@ class RecipesListByTag extends React.Component {
     }
 
     render() {
-        let recipe_links = [<List.Header>{this.category}</List.Header>]
+        let recipe_links = [<List.Header key="category_header">{this.category}</List.Header>]
         this.state.recipes.forEach(recipe => {
-            recipe_links.push(<RecipeCard recipe={recipe} />)
+            recipe_links.push(<RecipeCard key={`recipe_${recipe.pub_id}`} recipe={recipe} />)
         })
 
 
