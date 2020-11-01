@@ -84,7 +84,7 @@ class Tag(Base):
         _save_obj(self)
 
     def __repr__(self):
-        return f"<Tag name='{self.name}'>"
+        return f"<Tag name='{self.name}' count='{self.count}' >"
 
 
 class RecipeTag(Base):

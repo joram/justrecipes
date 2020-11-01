@@ -8,25 +8,20 @@ class RecipeSearch extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          isLoaded: true,
+          loading: false,
           recipes: [],
         };
         this.timer = null
     }
 
     handleResultSelect(e, data) {
-        this.state.recipes.forEach(recipe => {
-            if(recipe.title === data.result.title) {
-                let path = `/recipe/${recipe.pub_id}`;
-                this.props.history.push(path);
-            }
-
-        })
+        let path = `/recipe/${data.result.pub_id}`;
+        this.props.history.push(path);
     }
 
     handleSearchChange(e, data) {
         let state = this.state
-        state.isLoaded = false
+        state.loading = true
         this.setState(state)
 
         if(data.value.length < 3){
@@ -47,7 +42,7 @@ class RecipeSearch extends React.Component {
                     max = recipes.length
                 recipes = recipes.slice(0,max)
               this.setState({
-                isLoaded: true,
+                loading: false,
                 recipes: recipes
               });
             })
@@ -63,7 +58,7 @@ class RecipeSearch extends React.Component {
             onResultSelect={this.handleResultSelect.bind(this)}
             onSearchChange={this.handleSearchChange.bind(this)}
             results={this.state.recipes}
-            loading={!this.state.isLoaded}
+            loading={this.state.loading}
             icon={<Icon name='search' inverted circular link />}
             placeholder='Search Recipes...'
         />

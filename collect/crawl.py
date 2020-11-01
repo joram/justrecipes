@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import atexit
+
 import sqlalchemy
 
 from collect.crawlers.allrecipes import AllRecipes
@@ -49,9 +51,17 @@ def recipes_generator(start_at=0, load_existing=False):
             tag = tag.replace(",", "")
             tag = tag.replace("(", "")
             tag = tag.replace(")", "")
+            if tag[0] == "&":
+                return None
+            if tag[0] == "1":
+                return None
+            if tag[0] == "2":
+                return None
+            if tag[0] == "3":
+                return None
             return tag
 
-        recipe.tags = [clean(tag) for tag in recipe.tags]
+        recipe.tags = [clean(tag) for tag in recipe.tags if clean(tag) is not None]
 
         yield recipe, False
 
@@ -70,8 +80,19 @@ def crawl():
             db_recipe = DBRecipe.from_json(recipe)
             db_recipe.save()
         print(f"visited:{i} cached:{'T' if cached else 'F'}\tdomain:{recipe.domain}\t {recipe.filename} recipe:{recipe.title}")
+
         i += 1
 
 
+def update_tag_count():
+    session = Session()
+    for tag in session.query(Tag).all():
+        tag.count = len(tag.recipe_pub_ids())
+        print(tag)
+        session.add(tag)
+        session.commit()
+
+
 if __name__ == "__main__":
+    atexit.register(update_tag_count)
     crawl()

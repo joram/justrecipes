@@ -27,7 +27,7 @@ class App extends React.Component {
           </Link>
         </Header>
         <Container>
-        <RecipeSearch/>
+        <RecipeSearch history={this.props.history}/>
 
         </Container>
       </Segment>
