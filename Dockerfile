@@ -13,18 +13,18 @@ RUN echo "**** install Python ****" && \
     rm -r /usr/lib/python*/ensurepip && \
     pip3 install --no-cache --upgrade pip setuptools wheel && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
-RUN apk add --no-cache --virtual .build-deps gcc musl-dev
+
+RUN apk add --no-cache --virtual .build-deps gcc musl-dev mariadb-dev build-base libxslt-dev libxml2-dev python3-dev
 
 # Scipy and numpy
-RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
-RUN apk add gcc gfortran python3 python3-dev py-pip build-base wget freetype-dev libpng-dev openblas-dev libffi-dev
-RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+#RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
+#RUN apk add gcc gfortran python3 python3-dev py-pip build-base wget freetype-dev libpng-dev openblas-dev libffi-dev
+#RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+
 
 WORKDIR /recipes
 ADD requirements.txt .
 
-RUN apk add --no-cache mariadb-dev build-base
-RUN apk add libxslt-dev libxml2-dev python3-dev
 
 RUN pip install -r requirements.txt
 ADD api /recipes/api

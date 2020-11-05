@@ -1,8 +1,9 @@
 import React from "react";
-import {Card, Image, List, Segment} from "semantic-ui-react";
+import {Card, Image, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 function img_src(recipe){
+    console.log(recipe.images.x512[0])
     if(recipe.images !== undefined && recipe.images.x512 !== undefined && recipe.images.x512.length > 0)
         return recipe.images.x512[0]
     return "/placeholder.png"
@@ -10,7 +11,7 @@ function img_src(recipe){
 
 class RecipeCard extends React.Component {
     render() {
-        return <Card key={this.props.recipe.pub_id} as={Link} to={`/recipe/${this.props.recipe.pub_id}`}>
+        return <Card key={this.props.recipe.id} as={Link} to={`/recipe/${this.props.recipe.pub_id}`}>
             <Image src={img_src(this.props.recipe)}/>
             <Card.Content>
                 <Card.Header>{this.props.recipe.title}</Card.Header>
@@ -19,15 +20,13 @@ class RecipeCard extends React.Component {
     }
 }
 
-class RecipesListByTag extends React.Component {
+class RecipesList extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            recipes: [],
             num_columns: this.numCols(),
         };
-        this.tag = this.props.match.params.tag
     }
 
     numCols() {
@@ -49,27 +48,17 @@ class RecipesListByTag extends React.Component {
 
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions.bind(this));
-        let host = "https://recipes.oram.ca"
-        if(window.location.hostname==="localhost")
-          host = "http://localhost:5000"
-        fetch(`${host}/api/v0/recipes/search?tag=${this.tag}`)
-        .then(res => res.json())
-        .then(recipes => {
-          this.setState({
-            recipes: recipes,
-          });
-        })
     }
 
     render() {
-        let recipe_links = [<List.Header key="category_header">{this.category}</List.Header>]
-        this.state.recipes.forEach(recipe => {
-            recipe_links.push(<RecipeCard key={`recipe_${recipe.pub_id}`} recipe={recipe} />)
+        let recipe_links = []
+        this.props.recipes.forEach(recipe => {
+            recipe_links.push(<RecipeCard key={recipe.pub_id} recipe={recipe} />)
         })
 
 
 
-        return <Segment>
+        return <Segment basic>
             <Card.Group itemsPerRow={this.state.num_columns}>
                 {recipe_links}
             </Card.Group>
@@ -77,4 +66,4 @@ class RecipesListByTag extends React.Component {
     }
 }
 
-export default withRouter(RecipesListByTag);
+export default withRouter(RecipesList);

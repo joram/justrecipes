@@ -81,6 +81,32 @@ def ingredient_from_string(s):
     for i in range(0, 9):
         s = s.replace(str(i), "")
     s = s.replace("/", "")
+    for word in [
+        "oz.",
+        "small",
+        "medium",
+        "large",
+        "Tbsp.",
+        "finely",
+        "freshly",
+        "chopped",
+        "chopped",
+        "tsp.",
+        "kosher",
+        " can ",
+        "fresh",
+        "reduced-sodium",
+        "creamy",
+        "lb.",
+        "¾",
+        "(. ounce)",
+        "( ounce)",
+        "()",
+        "( )"
+    ]:
+        s = s.replace(word, "")
+    s = s.replace("  ", " ")
+    s = s.lstrip(".")
     s = s.lstrip(" ")
 
     return Ingredient(

@@ -1,14 +1,11 @@
 #!/usr/bin/env python
-import copy
 import os
 
 import flask as flask
 from flask import request
 from flask_cors import CORS
 
-from utils import load_recipes, load_tags
-
-from db.recipe import Session, Recipe, RecipeTag, Tag
+from db.recipe import Session, Recipe, RecipeTag, Tag, Ingredient, RecipeIngredient
 from ingredients.parse import Parser
 from sqlalchemy.orm import defer
 
@@ -26,25 +23,32 @@ def recipes_list():
 def recipes_search():
     session = Session()
 
+    recipe_qs = session.query(Recipe).options(
+        defer('url'),
+        defer('title'),
+        defer('ingredients'),
+    )
+
     title = request.args.get('title')
-    if title is not None:
-        qs = session.query(Recipe).options(
-            defer('url'),
-            defer('title'),
-            defer('ingredients'),
-        ).filter(Recipe.title.like(f'%{title}%'))
-        results = [recipe.json() for recipe in qs.all()]
-        print(f"{len(results)} recipes found")
-        return flask.jsonify(results)
+    if title is not None and title != "undefined":
+        recipe_qs = recipe_qs.filter(Recipe.title.like(f'%{title}%'))
 
     tag = request.args.get('tag')
-    if tag is not None:
+    if tag is not None and tag != "undefined":
         qs = session.query(RecipeTag).filter(RecipeTag.tag_name == tag)
         recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
-        qs = session.query(Recipe).filter(Recipe.pub_id.in_(recipe_pub_ids))
-        results = [recipe.json() for recipe in qs.all()]
-        print(f"{len(results)} recipes found")
-        return flask.jsonify(results)
+        recipe_qs = recipe_qs.filter(Recipe.pub_id.in_(recipe_pub_ids))
+
+    ingredient = request.args.get('ingredient')
+    if ingredient is not None and ingredient != "undefined":
+        qs = session.query(RecipeIngredient).filter(RecipeIngredient.ingredient_name == ingredient)
+        recipe_pub_ids = [ri.recipe_pub_id for ri in qs.all()]
+        recipe_qs = recipe_qs.filter(Recipe.pub_id.in_(recipe_pub_ids))
+
+    results = [recipe.json() for recipe in recipe_qs.all()]
+    print(f"{len(results)} recipes found")
+    return flask.jsonify(results)
+
 
 
 @app.route('/api/v0/meta')
@@ -52,9 +56,12 @@ def meta():
     session = Session()
     qs = session.query(Tag)
     tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all()]
+    qs = session.query(Ingredient)
+    ingredients = [ingredient.name for ingredient in qs.all()]
 
     response = {
         "tags": tags,
+        "ingredients": ingredients,
     }
     return flask.jsonify(response)
 

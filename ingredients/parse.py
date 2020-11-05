@@ -1,7 +1,6 @@
 import csv
 from fractions import Fraction
 
-import pattern.en
 from quantulum3 import parser as q3_parser
 
 
@@ -48,7 +47,6 @@ class Parser:
     def _clean_string(self, s):
         s = s.replace(" ", " ")
         s = s.replace(" (blank)s ", " ")
-        s = s.lstrip(" ").rstrip(" ")
         s = s.replace("½", "1/2")
         s = s.replace("⅓", "1/3")
         s = s.replace("¼", "1/4")
@@ -56,6 +54,46 @@ class Parser:
         s = s.replace(" 1/2", ".5")
         s = s.replace("1/2", "0.5")
         s = s.replace("1/2", "0.5")
+        s = s.lstrip(" ")
+        s = s.rstrip(" ")
+        return s
+
+    def _clean_material(self, s):
+        s = self._clean_string(s)
+        s = s.lower()
+        for word in [
+            "tbsp.",
+            "tsp.",
+            "finely",
+            "chopped",
+            "small",
+            "medium",
+            "large",
+            "kosher",
+            "freshly",
+            "fresh",
+            "ground",
+            "extra-virgin",
+            "1/3",
+            "1",
+            ".5",
+            "dried",
+            "oz.",
+            "leaves",
+            "tablespoon",
+            "teaspoon",
+            "pound",
+            "new",
+            "juice",
+            " of ",
+            "\n",
+        ]:
+            s = s.replace(word, "")
+        s = s.lstrip(" ")
+        s = s.rstrip(" ")
+        s = s.replace("  ", " ")
+        s = s.replace("  ", " ")
+        s = s.replace("  ", " ")
         return s
 
     def _get_comment(self, s):
@@ -85,8 +123,8 @@ class Parser:
                 unit = ""
 
             unit_pluralized = ""
-            if unit != "":
-                unit_pluralized = unit if quantity <= 1 else pattern.en.pluralize(unit)
+            # if unit != "":
+            #     unit_pluralized = unit if quantity <= 1 else pattern.en.pluralize(unit)
 
             f = Fraction(quantity)
             remainder = remainder.replace(str(f), "")
@@ -123,5 +161,5 @@ class Parser:
             "original": original,
             "quantities": quantities,
             "comment": comment,
-            "material": material,
+            "material": self._clean_material(material),
         }

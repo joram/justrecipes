@@ -51,7 +51,7 @@ class BonAppetit(BaseCrawler):
             i += 1
 
         tags = [word.lower() for word in title.split(" ")]
-        servings = recipe_json["recipeYield"]
+        servings = recipe_json.get("recipeYield", 1)
 
         recipe = Recipe(
             url=url,

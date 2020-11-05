@@ -51,6 +51,8 @@ def recipes_generator(start_at=0, load_existing=False):
             tag = tag.replace(",", "")
             tag = tag.replace("(", "")
             tag = tag.replace(")", "")
+            if len(tag) == 0:
+                return None
             if tag[0] == "&":
                 return None
             if tag[0] == "1":
@@ -79,7 +81,7 @@ def crawl():
         if not cached:
             db_recipe = DBRecipe.from_json(recipe)
             db_recipe.save()
-        print(f"visited:{i} cached:{'T' if cached else 'F'}\tdomain:{recipe.domain}\t {recipe.filename} recipe:{recipe.title}")
+        print(f"visited:{i} cached:{'T' if cached else 'F'}\tdomain:{recipe.domain}\t recipe:{recipe.title}")
 
         i += 1
 
