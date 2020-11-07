@@ -50,20 +50,25 @@ def recipes_search():
     return flask.jsonify(results)
 
 
+meta_response = None
+
 
 @app.route('/api/v0/meta')
 def meta():
+    global meta_response
+    if meta_response is not None:
+        return flask.jsonify(meta_response)
     session = Session()
     qs = session.query(Tag)
     tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all()]
     qs = session.query(Ingredient)
     ingredients = [ingredient.name for ingredient in qs.all()]
 
-    response = {
+    meta_response = {
         "tags": tags,
         "ingredients": ingredients,
     }
-    return flask.jsonify(response)
+    return flask.jsonify(meta_response)
 
 
 @app.route('/api/v0/recipe/<pub_id>')
