@@ -96,5 +96,5 @@ def update_tag_count():
 
 
 if __name__ == "__main__":
-    atexit.register(update_tag_count)
+    # atexit.register(update_tag_count)
     crawl()

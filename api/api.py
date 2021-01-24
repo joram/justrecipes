@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import math
 import os
 
 import flask as flask
@@ -45,8 +46,21 @@ def recipes_search():
         recipe_pub_ids = [ri.recipe_pub_id for ri in qs.all()]
         recipe_qs = recipe_qs.filter(Recipe.pub_id.in_(recipe_pub_ids))
 
-    results = [recipe.json() for recipe in recipe_qs.all()]
-    print(f"{len(results)} recipes found")
+    count = int(request.args.get('count', 10))
+    page = int(request.args.get('page', 1))
+    start = count*(page-1)
+    end = count*page
+    total = recipe_qs.count()
+    recipe_qs = recipe_qs[start:end]
+
+    results = {
+        "recipes": [recipe.json() for recipe in recipe_qs],
+        "total": total,
+        "page": page,
+        "page_count": math.ceil(total/count),
+    }
+
+    print(f"{total} recipes found, return page {page}/{int(total/count)}")
     return flask.jsonify(results)
 
 
@@ -60,9 +74,11 @@ def meta():
         return flask.jsonify(meta_response)
     session = Session()
     qs = session.query(Tag)
-    tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all()]
+    tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all() if tag.count >= 10]
     qs = session.query(Ingredient)
-    ingredients = [ingredient.name for ingredient in qs.all()]
+    ingredients = [{"ingredient": ingredient.name, "count": ingredient.count} for ingredient in qs.all() if ingredient.count >= 10]
+    import pprint
+    pprint.pprint(ingredients)
 
     meta_response = {
         "tags": tags,

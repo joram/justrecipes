@@ -32,13 +32,13 @@ class App extends React.Component {
                 </Link>
               </Header>
             </Grid.Column>
-            <Grid.Column>
+            <Grid.Column style={{display: 'flex', justifyContent: 'center'}}>
               <RecipeSearch history={this.props.history}/>
             </Grid.Column>
             <Grid.Column>
-              <SearchTags />
-              <Link to="/tags/list">Tags</Link>
-              <Link to="/ingredients/list">Ingredients</Link>
+              <SearchTags floated="right"/>
+              <Link to="/tags/list" floated="right">Tags</Link>
+              <Link to="/ingredients/list" floated="right">Ingredients</Link>
             </Grid.Column>
           </Grid.Row>
         </Grid>

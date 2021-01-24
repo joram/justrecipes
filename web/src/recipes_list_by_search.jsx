@@ -1,43 +1,88 @@
 import React from "react";
 import RecipesList from "./recipes_list";
 import {withRouter} from "react-router-dom";
+import {Pagination} from "semantic-ui-react";
+import call_api from "./utils";
+
 let qs = require('qs');
+
+function url_params(params) {
+    for (let param in params) {
+        if (params[param] === null || params[param] === undefined || params[param] === "") {
+            delete params[param];
+        }
+    }
+
+    let esc = encodeURIComponent;
+    return Object.keys(params)
+        .map(k => esc(k) + '=' + esc(params[k]))
+        .join('&')
+}
 
 class RecipesListBySearch extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            recipes: [],
-        };
-        console.log(this.props.location.search)
         let search = this.props.location.search;
         search = search.substring(1)
         search = qs.parse(search)
-        console.log(search)
+        this.state = {
+            recipes: [],
+            page: search.page ? search.page : 1,
+            page_count: search.page_count ? search.page_count : 1,
+            title: search.title ? search.title : "",
+            tag: search.tag ? search.tag : "",
+            ingredient: search.ingredient ? search.ingredient : "",
+        };
 
-        this.title = search["title"]
-        this.tag = search["tag"]
-        this.ingredient = search["ingredient"]
     }
 
     componentDidMount() {
-        let host = "https://recipes.oram.ca"
-        if(window.location.hostname==="localhost")
-          host = "http://localhost:5000"
-        let url =`${host}/api/v0/recipes/search?title=${this.title}&tag=${this.tag}&ingredient=${this.ingredient}`
-        console.log(url)
-        fetch(url)
-        .then(res => res.json())
-        .then(recipes => {
-          this.setState({
-            recipes: recipes,
-          });
+        this.query_api()
+    }
+
+
+    query_api(){
+        let params = url_params({
+            title: this.state.title,
+            tag: this.state.tag,
+            ingredient: this.state.ingredient,
+            page: this.state.page,
+            page_count: this.state.page_count,
+        })
+        let path = `/api/v0/recipes/search?`+params
+        call_api(path, (response) =>{
+          this.setState(response);
+          let params = url_params({
+            title: this.state.title,
+            tag: this.state.tag,
+            ingredient: this.state.ingredient,
+            page: this.state.page,
+            page_count: this.state.page_count,
+          })
+          let newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?'+params;
+          window.history.pushState({path:newurl},'',newurl);
         })
     }
 
+    onPageChange(event, data){
+        let state = this.state;
+        state.page = data.activePage;
+        this.setState(state);
+        this.query_api()
+    }
+
     render() {
-        return <RecipesList recipes={this.state.recipes} />
+        return <>
+            <RecipesList recipes={this.state.recipes} />
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+                <Pagination
+                    activePage={this.state.page}
+                    totalPages={this.state.page_count}
+                    onPageChange={this.onPageChange.bind(this)}
+                />
+            </div>
+        </>
     }
 }
 

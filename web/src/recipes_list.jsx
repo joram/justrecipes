@@ -3,7 +3,6 @@ import {Card, Image, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 function img_src(recipe){
-    console.log(recipe.images.x512[0])
     if(recipe.images !== undefined && recipe.images.x512 !== undefined && recipe.images.x512.length > 0)
         return recipe.images.x512[0]
     return "/placeholder.png"
@@ -55,8 +54,6 @@ class RecipesList extends React.Component {
         this.props.recipes.forEach(recipe => {
             recipe_links.push(<RecipeCard key={recipe.pub_id} recipe={recipe} />)
         })
-
-
 
         return <Segment basic>
             <Card.Group itemsPerRow={this.state.num_columns}>

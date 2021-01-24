@@ -89,7 +89,8 @@ class Recipe(Base):
                     ingredient_name=name,
                     recipe_pub_id=self.pub_id
                 ))
-                _save_obj(obj)
+                obj.save()
+
 
 class Tag(Base):
     __tablename__ = 'tags'
@@ -123,6 +124,17 @@ class RecipeTag(Base):
 class Ingredient(Base):
     __tablename__ = 'ingredients'
     name = Column(String, primary_key=True)
+    count = Column(Integer)
+
+    def recipe_pub_ids(self):
+        session = Session()
+        qs = session.query(RecipeIngredient).filter(RecipeIngredient.ingredient_name == self.name)
+        recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
+        return recipe_pub_ids
+
+    def save(self):
+        self.count = len(self.recipe_pub_ids())
+        _save_obj(self)
 
     def __repr__(self):
         return f"<Ingredient ingredient='{self.name}'>"
