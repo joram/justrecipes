@@ -1,10 +1,7 @@
-import urllib.parse
-
 from bs4 import BeautifulSoup
 
+from api.utils import get_cached
 from collect.crawlers.base import BaseCrawler
-from collect.models import ingredient_from_string, Recipe
-from api.utils import get_cached, clean_str, recipe_exists, clean_tags
 
 
 class AllRecipes(BaseCrawler):
@@ -15,90 +12,6 @@ class AllRecipes(BaseCrawler):
     @property
     def remaining(self):
         return len(self.to_visit_list_urls)
-
-    def get_recipe(self, url):
-        original_url = url
-        content = get_cached(url)
-        content = content.decode('utf-8')
-        soup = BeautifulSoup(content, 'html.parser')
-
-        title = soup.find("h1", {"class": "headline"})
-        if title is None:
-            title = soup.find("h1", {"id": "recipe-main-content"})
-        if title is None:
-            return None
-        title = str(title.text)
-
-        ingredients = {"ingredients": []}
-        lis = soup.findAll("li", {"class": "ingredients-item"})
-        if len(lis) == 0:
-            lis = soup.findAll("span", {"itemprop": "recipeIngredient"})
-        for li in lis:
-            s = clean_str(li.text)
-            ingredients["ingredients"].append(s)
-
-        steps = {"steps": []}
-        divs = soup.findAll("div", {"class": "paragraph"})
-        if len(divs) == 0:
-            divs = soup.findAll("span", {"class": "recipe-directions__list--item"})
-        for div in divs:
-            step = clean_str(div.text)
-            steps["steps"].append(step)
-
-        servings = None
-        divs = soup.findAll("div", {"class": "recipe-meta-item"})
-        for div in divs:
-            key = clean_str(div.find("div", {"class": "recipe-meta-item-header"}))
-            val = clean_str(div.find("div", {"class": "recipe-meta-item-body"}))
-            if key.lower() == "yield:":
-                servings = clean_str(val.text)
-                break
-
-        images = []
-        div = soup.find("div", {"class": "hero-photo__wrap"})
-        if div is not None:
-            a = div.find("a")
-            imgs_content = get_cached(a.attrs["href"])
-            imgs_content = imgs_content.decode('utf-8')
-            for line in imgs_content.split("\n"):
-                if "urls:" in line:
-                    url = line.split("'")[1]
-                    images.append(url)
-        divs = soup.findAll("div", {"class": "lazy-image"})
-        for div in divs:
-            btn = div.find("button")
-            if btn is not None:
-                url = btn.attrs["data-image"]
-                url = url.split("url=")[1]
-                url = urllib.parse.unquote(url)
-                images.append(url)
-        recipe_div = soup.find("div", {"class": "recipe-content-container"})
-        if recipe_div is not None:
-            img = recipe_div.find("img")
-            if img is not None:
-                url = img.attrs["src"]
-                try:
-                    url = url.split("url=")[1]
-                    url = url.split("?")[0]
-                    url = urllib.parse.unquote(url)
-                except:
-                    pass
-                images.append(url)
-        images = [img for img in images if "media-allrecipes.com" in img]
-
-        spans = soup.findAll("span", {"class": "breadcrumbs__title"})
-        category = [span.text.strip("\n ") for span in spans]
-        category = category[2:]
-        return Recipe(
-            url=original_url,
-            title=title,
-            subtitle="",
-            ingredients=ingredients,
-            instructions=steps,
-            servings=servings,
-            tags=clean_tags(category),
-            images=images,
-        )
 
     def get_recipe_urls(self):
         visited_list_urls = {}

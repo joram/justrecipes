@@ -1,14 +1,11 @@
 #!/usr/bin/env python
-import atexit
-
-import sqlalchemy
 
 from collect.crawlers.allrecipes import AllRecipes
 from collect.crawlers.aseasyasapplepie import AsEasyAsApplePie
 from collect.crawlers.bon_appetit import BonAppetit
 from collect.crawlers.epicurious import Epicurious
-from collect.models import recipe_id, Recipe
-from db.recipe import Recipe as DBRecipe, Tag, RecipeTag, Session
+from collect.models import recipe_id
+from db.recipe import Recipe as DBRecipe, Tag, Session
 
 
 def recipes_generator(start_at=0, load_existing=False):

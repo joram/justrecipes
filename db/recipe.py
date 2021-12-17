@@ -75,21 +75,20 @@ class Recipe(Base):
 
         # save ingredients
         ingredient_names = []
-        for section in self.ingredients:
-            for s in self.ingredients[section]:
-                data = ingredient_parser.parse(s)
-                name = data["material"]
-                if len(name) > 20 or len(name) <= 1:
-                    continue
-                if name in ingredient_names:
-                    continue
-                ingredient_names.append(name)
-                obj = Ingredient(name=name)
-                _save_obj(RecipeIngredient(
-                    ingredient_name=name,
-                    recipe_pub_id=self.pub_id
-                ))
-                obj.save()
+        for s in self.ingredients:
+            data = ingredient_parser.parse(s)
+            name = data["material"]
+            if len(name) > 20 or len(name) <= 1:
+                continue
+            if name in ingredient_names:
+                continue
+            ingredient_names.append(name)
+            obj = Ingredient(name=name)
+            _save_obj(RecipeIngredient(
+                ingredient_name=name,
+                recipe_pub_id=self.pub_id
+            ))
+            obj.save()
 
 
 class Tag(Base):

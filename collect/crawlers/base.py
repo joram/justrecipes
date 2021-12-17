@@ -1,6 +1,7 @@
 import stem
 from models import Recipe
 from nltk.stem import PorterStemmer
+from recipe_scrapers import scrape_me
 
 from api.utils import recipe_exists, remove_cached
 
@@ -36,4 +37,26 @@ class BaseCrawler:
         raise NotImplemented
 
     def get_recipe(self, url):
-        raise NotImplemented
+        scraper = scrape_me(url, wild_mode=True)
+        # scraper.title()
+        # scraper.total_time()
+        # scraper.yields()
+        # scraper.ingredients()
+        # scraper.instructions()
+        # scraper.image()
+        # scraper.host()
+        # scraper.links()
+        # scraper.nutrients()  # if available
+        try:
+            return Recipe(
+                url=url,
+                title=scraper.title(),
+                subtitle="",
+                ingredients=scraper.ingredients(),
+                instructions=scraper.instructions(),
+                servings=scraper.yields(),
+                tags=[],
+                images=[scraper.image()],
+            )
+        except Exception as e:
+            print(e)

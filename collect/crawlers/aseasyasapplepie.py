@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 
 from bs4 import BeautifulSoup
-from quantulum3 import load
-from quantulum3.classes import Quantity
 
-from collect.crawlers.base import BaseCrawler
-from collect.models import ingredient_from_string, Recipe, Ingredient
 from api.utils import get_cached
+from collect.crawlers.base import BaseCrawler
 
 
 class AsEasyAsApplePie(BaseCrawler):
@@ -45,50 +42,3 @@ class AsEasyAsApplePie(BaseCrawler):
                     yield href
 
         return []
-
-    def get_recipe(self, url):
-        content = get_cached(url)
-        soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
-
-        def _get_span(classname):
-            span = li.find("span", {"class": classname})
-            if span is None:
-                return ""
-            return span.text
-
-        div = soup.find("div", {"class": "wprm-recipe-name wprm-color-header"})
-        title = div.text
-
-        ingredients = {"ingredients": []}
-        lis = soup.findAll("li", {"class": "wprm-recipe-ingredient"})
-        for li in lis:
-            amount = _get_span("wprm-recipe-ingredient-amount")
-            unit = _get_span("wprm-recipe-ingredient-unit")
-            name = _get_span("wprm-recipe-ingredient-name")
-            notes = _get_span("wprm-recipe-ingredient-notes")
-            ingredient = f"{amount} {unit} {name}({notes})"
-            ingredients["ingredients"].append(ingredient)
-
-        instructions = {"instructions": []}
-        divs = soup.findAll("div", {"class": "wprm-recipe-instruction-text"})
-        for div in divs:
-            instructions["instructions"].append(div.text)
-
-        tags = []
-        tagsDiv = soup.find("div", {"class": "meta-bottom"})
-        for a in tagsDiv.findAll("a", {"rel": "tag"}):
-            tags.append(a.text)
-
-        img_tags = soup.findAll("img", {"class": "size-full"})
-        images = [img.attrs["src"] for img in img_tags if img.attrs["src"].startswith("https://aseasyasapplepie.com")]
-
-        return Recipe(
-            url=url,
-            title=title,
-            subtitle="",
-            servings=0,
-            ingredients=ingredients,
-            instructions=instructions,
-            tags=tags,
-            images=images,
-        )
