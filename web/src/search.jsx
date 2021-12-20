@@ -1,6 +1,8 @@
 import React from "react";
 import {Form, Icon, Search  } from "semantic-ui-react";
 import {withRouter} from "react-router-dom";
+import call_api from "./utils";
+
 
 class RecipeSearch extends React.Component {
 
@@ -9,6 +11,7 @@ class RecipeSearch extends React.Component {
         this.state = {
           loading: false,
           recipes: [],
+          open:false,
         };
         this.timer = null
         this.search_text = ""
@@ -18,16 +21,23 @@ class RecipeSearch extends React.Component {
         let path = `/recipe/${data.result.pub_id}`;
         this.props.history.push(path);
         e.preventDefault()
+        let state = this.state;
+        state.open = false;
+        this.setState(state);
     }
 
     handleSearchSubmit(e, data) {
         let path = `/search?title=${this.search_text}`;
         this.props.history.push(path);
         e.preventDefault()
+        let state = this.state;
+        state.open = false;
+        this.setState(state);
     }
 
     handleSearchChange(e, data) {
         let state = this.state
+        state.open = true
         state.loading = true
         this.setState(state)
         this.search_text = data.value
@@ -36,23 +46,18 @@ class RecipeSearch extends React.Component {
             return
         }
 
-        let host = "https://recipes.oram.ca"
-        if(window.location.hostname==="localhost")
-          host = "http://localhost:5000"
-
         clearTimeout(this.timer);
         this.timer = setTimeout(() => {
-            fetch(`${host}/api/v0/recipes/search?title=${data.value}`)
-            .then(res => res.json())
-            .then(recipes => {
+            call_api(`/api/v0/recipes/search?title=${data.value}`, (response) =>{
+
                 let max = 10
-                if(recipes.length < max)
-                    max = recipes.length
-                recipes = recipes.slice(0,max)
-              this.setState({
-                loading: false,
-                recipes: recipes
-              });
+                if(response.recipes.length < max)
+                    max = response.recipes.length
+                this.setState({
+                    open: true,
+                    loading: false,
+                    recipes: response.recipes.slice(0,max)
+                });
             })
         }, 500);
 
@@ -70,6 +75,7 @@ class RecipeSearch extends React.Component {
                     loading={this.state.loading}
                     icon={<Icon name='search' inverted circular link />}
                     placeholder='Search Recipes...'
+                    open={this.state.open}
                 />
             </Form>
             </>

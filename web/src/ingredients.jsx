@@ -55,8 +55,8 @@ class Ingredients extends React.Component {
         let items = []
         let i = 0;
         ingredients.sort().forEach(ingredient => {
-            if(ingredient[0] !== firstChar) {
-                firstChar = ingredient[0]
+            if(ingredient.ingredient[0] !== firstChar) {
+                firstChar = ingredient.ingredient[0]
                 items.push(<List.Item key={`ingr_${firstChar}+${i}`}>
                     {firstChar}
                     <Divider />
@@ -65,8 +65,8 @@ class Ingredients extends React.Component {
                 i += 1
             }
 
-            items.push(<List.Item key={`tag_${ingredient}`}>
-                <Link to={`/search?ingredient=${ingredient}`}>{ingredient}</Link>
+            items.push(<List.Item key={`tag_${ingredient.ingredient}`}>
+                <Link to={`/search?ingredient=${ingredient.ingredient}`}>{ingredient.ingredient} ({ingredient.count})</Link>
             </List.Item>
             )
         })
