@@ -1,4 +1,9 @@
+import base64
+import hashlib
 import os
+import random
+import uuid
+from typing import Optional
 from urllib.parse import urlparse
 
 import sqlalchemy
@@ -7,13 +12,17 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from ingredients.parse import Parser
+from utils import _get_recipe_metadata, get_cached
+
+# from ingredients.parse import Parser
 
 pwd = os.path.dirname(os.path.abspath(__file__))
 engine = create_engine("sqlite:///" + os.path.join(pwd, "db.sqlite"))
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
-ingredient_parser = Parser()
+
+
+# ingredient_parser = Parser()
 
 
 class Recipe(Base):
@@ -37,16 +46,85 @@ class Recipe(Base):
     def filename(self):
         return f"{self.pub_id}.json"
 
+    def save(self):
+        session = Session()
+        self.pub_id = Recipe.get_pub_id(self.url)
+        qs = session.query(Recipe).filter(Recipe.pub_id == self.pub_id)
+        if len(qs.all()) != 0:
+            print(f"skipping, already got {self.pub_id}\t{self.url}")
+            return
+        _save_obj(self)
+
+    #
+    #     # save tags
+    #     for tag in self.tags:
+    #         obj = Tag(name=tag)
+    #         _save_obj(RecipeTag(
+    #             tag_name=tag,
+    #             recipe_pub_id=self.pub_id
+    #         ))
+    #         obj.save()
+    #
+    #     # save ingredients
+    #     ingredient_names = []
+    #     for s in self.ingredients:
+    #         data = ingredient_parser.parse(s)
+    #         name = data["material"]
+    #         if len(name) > 20 or len(name) <= 1:
+    #             continue
+    #         if name in ingredient_names:
+    #             continue
+    #         ingredient_names.append(name)
+    #         obj = Ingredient(name=name)
+    #         _save_obj(RecipeIngredient(
+    #             ingredient_name=name,
+    #             recipe_pub_id=self.pub_id
+    #         ))
+    #         obj.save()
+
     @classmethod
-    def from_json(cls, recipe):
+    def from_url(cls, url: str) -> Optional["Recipe"]:
+        content = get_cached(url)
+        if not content:
+            return None
+
+        recipe_metadata_json = _get_recipe_metadata(content)
+        if not recipe_metadata_json:
+            return None
+        recipe = Recipe.parse(recipe_metadata_json)
+        recipe.url = url
+        return recipe
+
+    @classmethod
+    def get_pub_id(cls, url: str) -> str:
+        hashid = hashlib.sha224(url.encode("ascii")).hexdigest()
+        s = str(f"recipe_{hashid.replace('-', '')}")
+        return s
+
+    @classmethod
+    def parse(cls, data: dict) -> "Recipe":
+        url = data.get("mainEntityOfPage", "")
+        if type(url) != str:
+            url = url["@id"]
+        pub_id = Recipe.get_pub_id(url)
+
+        images = data["image"]
+        if type(images) == str:
+            images = [images]
+        elif type(images) == list:
+            if len(images) > 0 and type(images[0]) == list:
+                images = [img["url"] for img in data["images"]]
+        elif type(images) == dict:
+            images = [data["image"]["url"]]
+
         return Recipe(
-            pub_id=recipe.id,
-            url=recipe.url,
-            title=recipe.title,
-            ingredients=recipe.ingredients,
-            instructions=recipe.instructions,
-            tags=recipe.tags,
-            images=recipe.images,
+            pub_id=pub_id,
+            url=url,
+            title=data["name"] if "name" in data else data["headline"],
+            ingredients=data.get("recipeIngredient", []),
+            instructions=[d.get("text", "") for d in data.get("recipeInstructions", [])],
+            tags=data.get("recipeCategory", []),
+            images=images,
         )
 
     def json(self):
@@ -59,36 +137,6 @@ class Recipe(Base):
             "tags": self.tags,
             "images": self.images,
         }
-
-    def save(self):
-        # save self
-        _save_obj(self)
-
-        # save tags
-        for tag in self.tags:
-            obj = Tag(name=tag)
-            _save_obj(RecipeTag(
-                tag_name=tag,
-                recipe_pub_id=self.pub_id
-            ))
-            obj.save()
-
-        # save ingredients
-        ingredient_names = []
-        for s in self.ingredients:
-            data = ingredient_parser.parse(s)
-            name = data["material"]
-            if len(name) > 20 or len(name) <= 1:
-                continue
-            if name in ingredient_names:
-                continue
-            ingredient_names.append(name)
-            obj = Ingredient(name=name)
-            _save_obj(RecipeIngredient(
-                ingredient_name=name,
-                recipe_pub_id=self.pub_id
-            ))
-            obj.save()
 
 
 class Tag(Base):
@@ -152,9 +200,7 @@ class RecipeIngredient(Base):
 def _save_obj(obj):
     session = Session()
     session.add(obj)
-    try:
-        session.commit()
-    except sqlalchemy.exc.IntegrityError:
-        pass
+    session.commit()
+
 
 Base.metadata.create_all(engine)
