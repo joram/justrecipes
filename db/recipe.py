@@ -38,15 +38,33 @@ class Recipe(Base):
         return f"{self.pub_id}.json"
 
     @classmethod
-    def from_json(cls, recipe):
+    def parse(cls, data: dict) -> "Recipe":
+        url = data.get("mainEntityOfPage", "")
+        if type(url) != str:
+            url = url["@id"]
+        pub_id = Recipe.get_pub_id(url)
+
+        images = data["image"]
+        if type(images) == str:
+            images = [images]
+        elif type(images) == list:
+            if len(images) > 0 and type(images[0]) == list:
+                images = [img["url"] for img in data["images"]]
+        elif type(images) == dict:
+            images = [data["image"]["url"]]
+
+        instructions = data.get("recipeInstructions", [])
+        if instructions:
+            instructions = [d.get("text", "") for d in instructions]
+
         return Recipe(
-            pub_id=recipe.id,
-            url=recipe.url,
-            title=recipe.title,
-            ingredients=recipe.ingredients,
-            instructions=recipe.instructions,
-            tags=recipe.tags,
-            images=recipe.images,
+            pub_id=pub_id,
+            url=url,
+            title=data["name"] if "name" in data else data["headline"],
+            ingredients=data.get("recipeIngredient", []),
+            instructions=instructions,
+            tags=data.get("recipeCategory", []),
+            images=images,
         )
 
     def json(self):
