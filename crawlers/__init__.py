@@ -3,3 +3,4 @@ from crawlers.aseasyasapplepie import AsEasyAsApplePie
 from crawlers.bon_appetit import BonAppetit
 from crawlers.epicurious import Epicurious
 from crawlers.ny_times import NYTimes
+from crawlers.food_network import FoodNetwork

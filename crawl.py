@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from crawlers import AllRecipes, AsEasyAsApplePie, BonAppetit, Epicurious, NYTimes
+from crawlers import AllRecipes, BonAppetit, Epicurious, NYTimes, FoodNetwork
 from db.recipe import Recipe as DBRecipe, Tag, Session
 
 
@@ -11,6 +11,7 @@ def recipes_generator(start_at=0, load_existing=False):
         BonAppetit(),
         # AsEasyAsApplePie(),
         NYTimes(),
+        FoodNetwork(),
     ]
     generators = {}
 

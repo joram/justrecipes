@@ -79,6 +79,9 @@ def get_cached(url: str) -> Optional[bytes]:
     with open(path, "wb") as f:
         time.sleep(1)
         response = requests.get(url, allow_redirects=True)
+        if response.status_code >= 500:
+            print(f"server error: {url}")
+            return None
         if response.status_code == 404:
             print(f"does not exist: {url}")
             return None

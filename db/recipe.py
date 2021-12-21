@@ -1,6 +1,7 @@
 import base64
 import hashlib
 import os
+import pprint
 import random
 import uuid
 from typing import Optional
@@ -105,7 +106,10 @@ class Recipe(Base):
     def parse(cls, data: dict) -> "Recipe":
         url = data.get("mainEntityOfPage", "")
         if type(url) != str:
-            url = url["@id"]
+            if "url" in data:
+                url = data["url"]
+            else:
+                url = url["@id"]
         pub_id = Recipe.get_pub_id(url)
 
         images = data["image"]

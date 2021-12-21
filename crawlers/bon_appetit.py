@@ -21,6 +21,8 @@ class BonAppetit(BaseCrawler):
         while True:
             list_url = f"https://www.bonappetit.com/search/?page={i}"
             content = get_cached(list_url)
+            if not content:
+                continue
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
             anchors = soup.find_all("a", href=True)
