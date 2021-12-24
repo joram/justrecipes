@@ -41,7 +41,6 @@ class RecipesListBySearch extends React.Component {
         this.query_api()
     }
 
-
     query_api(){
         let params = url_params({
             title: this.state.title,

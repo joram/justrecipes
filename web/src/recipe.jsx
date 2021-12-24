@@ -6,7 +6,17 @@ import {withRouter} from "react-router-dom";
 
 class Ingredient extends React.Component {
   render(){
-    return <Menu.Item>{this.props.ingredient.original}</Menu.Item>
+    return <Menu.Item>{this.props.ingredient}</Menu.Item>
+  }
+}
+
+class DetailedIngredient extends React.Component {
+  render(){
+    return <Menu.Item>
+      <span className="ingredient_quantity">{Math.round(this.props.ingredient.quantity * 100) / 100} </span>
+      <span className="ingredient_unit">{this.props.ingredient.unit} </span>
+      <span className="ingredient_name">{this.props.ingredient.name}</span>
+    </Menu.Item>
   }
 }
 
@@ -14,12 +24,31 @@ class Ingredient extends React.Component {
 class Ingredients extends React.Component {
   render(){
     let ingredients = []
-    Object.keys(this.props.ingredients).forEach(cateogry => {
-        this.props.ingredients[cateogry].forEach(ingredient => {
-          ingredients.push(<Ingredient ingredient={ingredient} key={`ingredient_${ingredients.length}`}/>)
-        })
+    this.props.ingredients.forEach(ingredient => {
+      ingredients.push(<Ingredient ingredient={ingredient} key={`ingredient_${ingredients.length}`}/>)
     })
 
+    return (<Sidebar
+      as={Menu}
+      icon='labeled'
+      vertical
+      visible={true}
+      animation="slide out"
+      width={"thin"}
+    >
+      <br/>
+      <Menu.Header as={"h3"}>Ingredients</Menu.Header>
+      {ingredients}
+    </Sidebar>)
+  }
+}
+
+class DetailedIngredients extends React.Component {
+  render(){
+    let ingredients = []
+    this.props.ingredients.forEach(ingredient => {
+      ingredients.push(<DetailedIngredient ingredient={ingredient} key={`ingredient_${ingredients.length}`}/>)
+    })
 
     return (<Sidebar
       as={Menu}
@@ -41,16 +70,14 @@ class Instructions extends React.Component {
   render() {
     let i = 1;
     let steps = []
-    Object.keys(this.props.instructions).forEach(category => {
-      this.props.instructions[category].forEach(step => {
-        steps.push(<List.Item key={"instruction_"+i} >
+    this.props.instructions.forEach(step => {
+      steps.push(<List.Item key={"instruction_"+i} >
 
-          <List.Content floated={"left"}>
-            {i}) {step}
-          </List.Content>
-        </List.Item>)
-        i += 1;
-      })
+        <List.Content floated={"left"}>
+          {i}) {step}
+        </List.Content>
+      </List.Item>)
+      i += 1;
     })
     return <List divided relaxed>
       <List.Header><h3>{this.props.title}</h3></List.Header>
@@ -92,32 +119,34 @@ class Recipe extends React.Component {
         isLoaded: true,
         recipe: recipe
       });
-      console.log(recipe)
     })
   }
 
   render(){
     let ingredients = [];
+    let detailed_ingredients = [];
     let instructions = [];
     let title = "";
     let src = ""
     let url = ""
     if (this.state.recipe !== null){
       ingredients = this.state.recipe.ingredients
+      detailed_ingredients = this.state.recipe.ingredient_details
       instructions = this.state.recipe.instructions
       title = this.state.recipe.title
       url = this.state.recipe.url
       if(this.state.recipe.images !== undefined){
-        src = this.state.recipe.images.x512[0]
+        src = this.state.recipe.images[0]
       }
     }
 
     return <>
-      <Sidebar.Pushable as={Segment} style={{overflowY:"scroll"}}>
-        <Ingredients ingredients={ingredients} />
+      <Sidebar.Pushable style={{overflowY:"scroll"}}>
+        {/*<Ingredients ingredients={ingredients} />*/}
+        <DetailedIngredients ingredients={detailed_ingredients} />
         <Sidebar.Pusher>
-          <Segment style={{marginRight:"150px"}} basic>
-            <Image src={src} />
+          <Segment basic>
+            <Image src={src} size="large"/>
             <Instructions instructions={instructions} title={title} url={url} />
           </Segment>
         </Sidebar.Pusher>

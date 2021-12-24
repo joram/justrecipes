@@ -78,7 +78,11 @@ def get_cached(url: str) -> Optional[bytes]:
 
     with open(path, "wb") as f:
         time.sleep(1)
-        response = requests.get(url, allow_redirects=True)
+        try:
+            response = requests.get(url, allow_redirects=True)
+        except:
+            print(f"requests error: {url}")
+            return None
         if response.status_code >= 500:
             print(f"server error: {url}")
             return None

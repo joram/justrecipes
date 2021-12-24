@@ -135,6 +135,27 @@ class Recipe(Base):
             images=images,
         )
 
+    def get_tags(self):
+        def clean(tag):
+            tag = tag.replace("\"", "")
+            tag = tag.replace(",", "")
+            tag = tag.replace("(", "")
+            tag = tag.replace(")", "")
+            if len(tag) == 0:
+                return None
+            if tag[0] == "&":
+                return None
+            if tag[0] == "1":
+                return None
+            if tag[0] == "2":
+                return None
+            if tag[0] == "3":
+                return None
+            return tag
+
+        self.tags = [clean(tag) for tag in self.tags if clean(tag) is not None]
+        return self.tags
+
     def json(self):
         return {
             "pub_id": self.pub_id,
@@ -142,7 +163,7 @@ class Recipe(Base):
             "title": self.title,
             "ingredients": self.ingredients,
             "instructions": self.instructions,
-            "tags": self.tags,
+            "tags": self.get_tags(),
             "images": self.images,
         }
 

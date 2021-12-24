@@ -3,8 +3,8 @@ import {Card, Image, Segment} from "semantic-ui-react";
 import {Link, withRouter} from "react-router-dom";
 
 function img_src(recipe){
-    if(recipe.images !== undefined && recipe.images.x512 !== undefined && recipe.images.x512.length > 0)
-        return recipe.images.x512[0]
+    if(recipe.images !== undefined && recipe.images.length > 0)
+        return recipe.images[0]
     return "/placeholder.png"
 }
 

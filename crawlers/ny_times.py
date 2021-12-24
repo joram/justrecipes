@@ -16,9 +16,11 @@ class NYTimes(BaseCrawler):
     def get_recipe_urls(self):
         recipe_urls = {}
         i = 1
-        while True:
+        while i < 24:
             list_url = f"https://cooking.nytimes.com/search?q=&page={i}"
             content = get_cached(list_url)
+            if not content:
+                continue
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
             anchors = soup.find_all("a", href=True)
@@ -32,6 +34,8 @@ class NYTimes(BaseCrawler):
                 if href.startswith("/") and "cooking" in href:
                     href = f"https://cooking.nytimes.com{href}"
                     content = get_cached(href)
+                    if not content:
+                        continue
                     soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
                     recipe_anchors = soup.find_all("a", href=True)
                     for a in recipe_anchors:

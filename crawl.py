@@ -4,7 +4,7 @@ from crawlers import AllRecipes, BonAppetit, Epicurious, NYTimes, FoodNetwork
 from db.recipe import Recipe as DBRecipe, Tag, Session
 
 
-def recipes_generator(start_at=0, load_existing=False):
+def recipes_generator(load_existing=False):
     crawlers = [
         Epicurious(),
         AllRecipes(),
@@ -13,18 +13,25 @@ def recipes_generator(start_at=0, load_existing=False):
         NYTimes(),
         FoodNetwork(),
     ]
-    generators = {}
 
-    for i in range(0, 100000000):
-        crawler = crawlers[i % len(crawlers)]
+    generators = {}
+    for crawler in crawlers:
         if crawler.domain not in generators:
             generators[crawler.domain] = crawler.get_recipe_urls()
-        url = generators[crawler.domain].__next__()
-        if i < start_at:
-            if i % 100 == 0:
-                print(f"{i}/{start_at} skipped")
+
+    for i in range(0, 100000000):
+
+        # Pick url
+        crawler_names = list(generators.keys())
+        crawler_names.sort()
+        crawler_name = crawler_names[i % len(crawler_names)]
+        try:
+            url = generators[crawler_name].__next__()
+        except StopIteration:
+            del generators[crawler_name]
             continue
 
+        # Skip existing
         if not load_existing:
             session = Session()
             qs = session.query(DBRecipe).filter(DBRecipe.pub_id == DBRecipe.get_pub_id(url))
@@ -32,39 +39,21 @@ def recipes_generator(start_at=0, load_existing=False):
                 yield qs.all()[0], True
                 continue
 
+        # Get recipe
         recipe = crawler.get_recipe(url)
-
         if recipe is None:
             continue
 
-        def clean(tag):
-            tag = tag.replace("\"", "")
-            tag = tag.replace(",", "")
-            tag = tag.replace("(", "")
-            tag = tag.replace(")", "")
-            if len(tag) == 0:
-                return None
-            if tag[0] == "&":
-                return None
-            if tag[0] == "1":
-                return None
-            if tag[0] == "2":
-                return None
-            if tag[0] == "3":
-                return None
-            return tag
-
-        recipe.tags = [clean(tag) for tag in recipe.tags if clean(tag) is not None]
-        recipe.save()
         yield recipe, False
 
 
 def crawl():
     print("starting crawl")
     i = 0
-    for recipe, cached in recipes_generator(start_at=0, load_existing=False):
+    for recipe, cached in recipes_generator(load_existing=False):
         print(f"visited:{i} cached:{'T' if cached else 'F'} pub_id:{recipe.pub_id} \tdomain:{recipe.domain}\t recipe:{recipe.title}")
-
+        if not cached:
+            recipe.save()
         i += 1
 
 
