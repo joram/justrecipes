@@ -1,29 +1,10 @@
-import base64
 import hashlib
-import os
-import pprint
-import random
-import uuid
-from typing import Optional
 from urllib.parse import urlparse
 
-import sqlalchemy
-from sqlalchemy import Column, String, JSON, ForeignKey, Integer
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from parse_ingredients import parse_ingredient
+from sqlalchemy import Column, String, JSON
 
-from utils import _get_recipe_metadata, get_cached
-
-# from ingredients.parse import Parser
-
-pwd = os.path.dirname(os.path.abspath(__file__))
-engine = create_engine("sqlite:///" + os.path.join(pwd, "db.sqlite"))
-Base = declarative_base()
-Session = sessionmaker(bind=engine)
-
-
-# ingredient_parser = Parser()
+from db.session import Base, Session
 
 
 class Recipe(Base):
@@ -47,54 +28,43 @@ class Recipe(Base):
     def filename(self):
         return f"{self.pub_id}.json"
 
-    def save(self):
+    def save(self, override=False):
         session = Session()
         self.pub_id = Recipe.get_pub_id(self.url)
         qs = session.query(Recipe).filter(Recipe.pub_id == self.pub_id)
         if len(qs.all()) != 0:
-            print(f"skipping, already got {self.pub_id}\t{self.url}")
-            return
+            if override:
+                qs.delete()
+            else:
+                print(f"skipping, already got {self.pub_id}\t{self.url}")
+                return
         _save_obj(self)
 
-    #
-    #     # save tags
-    #     for tag in self.tags:
-    #         obj = Tag(name=tag)
-    #         _save_obj(RecipeTag(
-    #             tag_name=tag,
-    #             recipe_pub_id=self.pub_id
-    #         ))
-    #         obj.save()
-    #
-    #     # save ingredients
-    #     ingredient_names = []
-    #     for s in self.ingredients:
-    #         data = ingredient_parser.parse(s)
-    #         name = data["material"]
-    #         if len(name) > 20 or len(name) <= 1:
-    #             continue
-    #         if name in ingredient_names:
-    #             continue
-    #         ingredient_names.append(name)
-    #         obj = Ingredient(name=name)
-    #         _save_obj(RecipeIngredient(
-    #             ingredient_name=name,
-    #             recipe_pub_id=self.pub_id
-    #         ))
-    #         obj.save()
-
-    @classmethod
-    def from_url(cls, url: str) -> Optional["Recipe"]:
-        content = get_cached(url)
-        if not content:
-            return None
-
-        recipe_metadata_json = _get_recipe_metadata(content)
-        if not recipe_metadata_json:
-            return None
-        recipe = Recipe.parse(recipe_metadata_json)
-        recipe.url = url
-        return recipe
+        # # save tags
+        # for tag in self.tags:
+        #     obj = Tag(name=tag)
+        #     _save_obj(RecipeTag(
+        #         tag_name=tag,
+        #         recipe_pub_id=self.pub_id
+        #     ))
+        #     obj.save()
+        #
+        # # save ingredients
+        # ingredient_names = []
+        # for s in self.ingredients:
+        #     data = ingredient_parser.parse(s)
+        #     name = data["material"]
+        #     if len(name) > 20 or len(name) <= 1:
+        #         continue
+        #     if name in ingredient_names:
+        #         continue
+        #     ingredient_names.append(name)
+        #     obj = Ingredient(name=name)
+        #     _save_obj(RecipeIngredient(
+        #         ingredient_name=name,
+        #         recipe_pub_id=self.pub_id
+        #     ))
+        #     obj.save()
 
     @classmethod
     def get_pub_id(cls, url: str) -> str:
@@ -103,14 +73,10 @@ class Recipe(Base):
         return s
 
     @classmethod
-    def parse(cls, data: dict) -> "Recipe":
-        url = data.get("mainEntityOfPage", "")
-        if type(url) != str:
-            if "url" in data:
-                url = data["url"]
-            else:
-                url = url["@id"]
+    def parse(cls, data: dict, url: str) -> "Recipe":
         pub_id = Recipe.get_pub_id(url)
+
+        title = data["name"] if "name" in data else data["headline"]
 
         images = data["image"]
         if type(images) == str:
@@ -128,7 +94,7 @@ class Recipe(Base):
         return Recipe(
             pub_id=pub_id,
             url=url,
-            title=data["name"] if "name" in data else data["headline"],
+            title=title,
             ingredients=data.get("recipeIngredient", []),
             instructions=instructions,
             tags=data.get("recipeCategory", []),
@@ -156,80 +122,40 @@ class Recipe(Base):
         self.tags = [clean(tag) for tag in self.tags if clean(tag) is not None]
         return self.tags
 
+    @property
+    def detailed_ingredients(self):
+        detailed_ingredients = []
+        for ingredient in self.ingredients:
+            ingredient = ingredient.replace("-", " ")
+            try:
+                result = parse_ingredient(ingredient)
+            except:
+                continue
+            detailed_ingredients.append({
+                "name": result.name,
+                "quantity": result.quantity,
+                "unit": result.unit,
+                "comment": result.comment,
+                "original_string": result.original_string
+            })
+        return detailed_ingredients
+
     def json(self):
         return {
             "pub_id": self.pub_id,
             "url": self.url,
             "title": self.title,
             "ingredients": self.ingredients,
+            "ingredient_details": self.detailed_ingredients,
             "instructions": self.instructions,
             "tags": self.get_tags(),
             "images": self.images,
         }
 
 
-class Tag(Base):
-    __tablename__ = 'tags'
-    name = Column(String, primary_key=True)
-    count = Column(Integer)
-
-    def recipe_pub_ids(self):
-        session = Session()
-        qs = session.query(RecipeTag).filter(RecipeTag.tag_name == self.name)
-        recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
-        return recipe_pub_ids
-
-    def save(self):
-        self.count = len(self.recipe_pub_ids())
-        _save_obj(self)
-
-    def __repr__(self):
-        return f"<Tag name='{self.name}' count='{self.count}' >"
-
-
-class RecipeTag(Base):
-    __tablename__ = 'recipetags'
-    id = Column(Integer, primary_key=True)
-    tag_name = Column(String, ForeignKey('tags.name'))
-    recipe_pub_id = Column(String, ForeignKey('recipes.pub_id'))
-
-    def __repr__(self):
-        return f"<RecipeTag recipe_pub_id='{self.recipe_pub_id}' name='{self.tag_name}'>"
-
-
-class Ingredient(Base):
-    __tablename__ = 'ingredients'
-    name = Column(String, primary_key=True)
-    count = Column(Integer)
-
-    def recipe_pub_ids(self):
-        session = Session()
-        qs = session.query(RecipeIngredient).filter(RecipeIngredient.ingredient_name == self.name)
-        recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
-        return recipe_pub_ids
-
-    def save(self):
-        self.count = len(self.recipe_pub_ids())
-        _save_obj(self)
-
-    def __repr__(self):
-        return f"<Ingredient ingredient='{self.name}'>"
-
-
-class RecipeIngredient(Base):
-    __tablename__ = 'recipeingredients'
-    id = Column(Integer, primary_key=True)
-    ingredient_name = Column(String, ForeignKey('ingredients.name'))
-    recipe_pub_id = Column(String, ForeignKey('recipes.pub_id'))
-
-    def __repr__(self):
-        return f"<RecipeIngredient recipe_pub_id='{self.recipe_pub_id}' ingredient='{self.ingredient_name}'>"
-
-
-def _save_obj(obj):
+def _save_obj(obj: Base):
     session = Session()
     session.add(obj)
     session.commit()
 
 
-Base.metadata.create_all(engine)

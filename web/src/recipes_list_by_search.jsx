@@ -32,7 +32,7 @@ class RecipesListBySearch extends React.Component {
             page_count: search.page_count ? search.page_count : 1,
             title: search.title ? search.title : "",
             tag: search.tag ? search.tag : "",
-            ingredient: search.ingredient ? search.ingredient : "",
+            ingredients: search.ingredients ? search.ingredients : "",
         };
 
     }
@@ -45,7 +45,7 @@ class RecipesListBySearch extends React.Component {
         let params = url_params({
             title: this.state.title,
             tag: this.state.tag,
-            ingredient: this.state.ingredient,
+            ingredients: this.state.ingredients,
             page: this.state.page,
             page_count: this.state.page_count,
         })
@@ -55,7 +55,7 @@ class RecipesListBySearch extends React.Component {
           let params = url_params({
             title: this.state.title,
             tag: this.state.tag,
-            ingredient: this.state.ingredient,
+            ingredients: this.state.ingredients,
             page: this.state.page,
             page_count: this.state.page_count,
           })

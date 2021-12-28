@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 import math
 import os
+import urllib.parse
 
 import flask as flask
-import parse_ingredients
 from flask import request
 from flask_cors import CORS
 
-from db.recipe import Session, Recipe, RecipeTag, Tag, Ingredient, RecipeIngredient
+from db import Session, Recipe, RecipeTag, Tag, Ingredient, RecipeIngredient
 from sqlalchemy.orm import defer
 
 global recipes, tags
@@ -40,10 +40,26 @@ def recipes_search():
         recipe_pub_ids = [rt.recipe_pub_id for rt in qs.all()]
         recipe_qs = recipe_qs.filter(Recipe.pub_id.in_(recipe_pub_ids))
 
-    ingredient = request.args.get('ingredient')
-    if ingredient is not None and ingredient != "undefined":
-        qs = session.query(RecipeIngredient).filter(RecipeIngredient.ingredient_name == ingredient)
-        recipe_pub_ids = [ri.recipe_pub_id for ri in qs.all()]
+    ingredients = request.args.get('ingredients')
+    if ingredients is not None and ingredients != "undefined":
+        ingredients = urllib.parse.unquote(ingredients)
+        ingredients = ingredients.split(",")
+        qs = session.query(RecipeIngredient).filter(RecipeIngredient.ingredient_name.in_(ingredients))
+
+        counts = {}
+        for recipe_ingredient in qs:
+            counts[recipe_ingredient.recipe_pub_id] = counts.get(recipe_ingredient.recipe_pub_id, 0) + 1
+
+        values = list(set(counts.values()))
+        values.sort(reverse=True)
+        recipe_pub_ids = []
+        for value in values:
+            for key, val in counts.items():
+                if val == value:
+                    recipe_pub_ids.append(key)
+        recipe_pub_ids = recipe_pub_ids[:10]
+
+        # if we can order by this ordered list that'd be great
         recipe_qs = recipe_qs.filter(Recipe.pub_id.in_(recipe_pub_ids))
 
     count = int(request.args.get('count', 10))
@@ -77,9 +93,6 @@ def meta():
     tags = [{"tag": tag.name, "count": tag.count} for tag in qs.all() if tag.count >= 10]
     qs = session.query(Ingredient)
     ingredients = [{"ingredient": ingredient.name, "count": ingredient.count} for ingredient in qs.all() if ingredient.count >= 10]
-    import pprint
-    pprint.pprint(ingredients)
-
     meta_response = {
         "tags": tags,
         "ingredients": ingredients,
@@ -93,25 +106,7 @@ def recipe(pub_id):
     qs = session.query(Recipe).filter(Recipe.pub_id == pub_id)
     if len(qs.all()) == 0:
         return flask.abort(404)
-    recipe_json = qs.all()[0].json()
-
-    from parse_ingredients import parse_ingredient
-    detailed_ingredients = []
-    for ingredient in recipe_json["ingredients"]:
-        result = parse_ingredient(ingredient)
-        detailed_ingredients.append({
-            "name": result.name,
-            "quantity": result.quantity,
-            "unit": result.unit,
-            "comment": result.comment,
-            "original_string": result.original_string
-        })
-    recipe_json["ingredient_details"] = detailed_ingredients
-
-    import pprint
-    pprint.pprint(recipe_json)
-
-    return flask.jsonify(recipe_json)
+    return flask.jsonify(qs.all()[0].json())
 
 
 # Serve React App

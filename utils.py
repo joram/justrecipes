@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 def _cache_path(resource):
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../cache")
+    cache_path = os.path.join(dir_path, "./cache")
     if not os.path.exists(cache_path):
         os.mkdir(cache_path)
 
@@ -51,12 +51,19 @@ def _get_recipe_metadata(content: bytes) -> Optional[dict]:
                 return schema_data
 
 
+def get_head_recipe(url):
+    content = get_cached(url)
+    if not content:
+        return None
+    return _get_recipe_metadata(content)
+
+
 def get_cached_recipe_metadata(url: str) -> dict:
     from db.recipe import Recipe
     pub_id = Recipe.get_pub_id(url)
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../cache/recipes")
+    cache_path = os.path.join(dir_path, "./cache/recipes")
     if not os.path.exists(cache_path):
         os.mkdir(cache_path)
     cache_file_path = f"{cache_path}/{pub_id}.json"
@@ -66,7 +73,10 @@ def get_cached_recipe_metadata(url: str) -> dict:
             return json.loads(content)
 
 
-def get_cached(url: str) -> Optional[bytes]:
+def get_cached(url: str, attempts=0) -> Optional[bytes]:
+    if attempts >= 3:
+        return None
+
     path = _cache_path(url)
     if os.path.exists(path):
         with open(path, "rb") as f:
@@ -83,18 +93,11 @@ def get_cached(url: str) -> Optional[bytes]:
         except:
             print(f"requests error: {url}")
             return None
-        if response.status_code >= 500:
-            print(f"server error: {url}")
-            return None
-        if response.status_code == 404:
-            print(f"does not exist: {url}")
-            return None
-        if response.status_code == 403:
-            print(response.content)
-            import pdb
-            pdb.set_trace()
-            print(f"not allowed: {url}")
-            return None
+        if response.status_code >= 500 or response.status_code in [404, 403]:
+            print(f"trying again {response.status_code} attempt {attempts}, url {url}")
+            remove_cached(url)
+            return get_cached(url, attempts+1)
+
         if response.status_code != 200:
             print(f"error for url: ({response.status_code}){url}")
             raise Exception(response.status_code)
@@ -153,40 +156,6 @@ def get_cached_path(url):
 
         f.write(response.content)
         return path, False
-
-
-def recipe_exists(id):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, f"../recipes/{id}.json")
-    return os.path.exists(cache_path)
-
-
-def store_recipe(recipe, overwrite=False):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../recipes/", recipe.filename)
-    if os.path.exists(cache_path) and not overwrite:
-        return
-
-    with open(cache_path, "w") as f:
-        s = json.dumps(recipe.json(), indent=4, sort_keys=True)
-        f.write(s)
-
-
-def load_recipe_from_file(recipe_id):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, f"../recipes/{recipe_id}.json")
-    with open(cache_path) as f:
-        content = f.read()
-        data = json.loads(content)
-        return data
-
-
-def store_recipes(recipes):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../recipes.json")
-    with open(cache_path, "w") as f:
-        s = json.dumps(recipes, indent=4, sort_keys=True)
-        f.write(s)
 
 
 def clean_str(s):

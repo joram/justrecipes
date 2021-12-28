@@ -21,6 +21,8 @@ class Epicurious(BaseCrawler):
         while True:
             list_url = f"https://www.epicurious.com/search?page={i}"
             content = get_cached(list_url)
+            if content is None:
+                break
             if "DON'T CRY!" in str(content):
                 break
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')

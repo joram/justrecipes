@@ -4,12 +4,6 @@ import {Image, List, Menu, Segment, Sidebar} from 'semantic-ui-react'
 import {withRouter} from "react-router-dom";
 
 
-class Ingredient extends React.Component {
-  render(){
-    return <Menu.Item>{this.props.ingredient}</Menu.Item>
-  }
-}
-
 class DetailedIngredient extends React.Component {
   render(){
     return <Menu.Item>
@@ -20,28 +14,6 @@ class DetailedIngredient extends React.Component {
   }
 }
 
-
-class Ingredients extends React.Component {
-  render(){
-    let ingredients = []
-    this.props.ingredients.forEach(ingredient => {
-      ingredients.push(<Ingredient ingredient={ingredient} key={`ingredient_${ingredients.length}`}/>)
-    })
-
-    return (<Sidebar
-      as={Menu}
-      icon='labeled'
-      vertical
-      visible={true}
-      animation="slide out"
-      width={"thin"}
-    >
-      <br/>
-      <Menu.Header as={"h3"}>Ingredients</Menu.Header>
-      {ingredients}
-    </Sidebar>)
-  }
-}
 
 class DetailedIngredients extends React.Component {
   render(){
@@ -135,6 +107,7 @@ class Recipe extends React.Component {
       instructions = this.state.recipe.instructions
       title = this.state.recipe.title
       url = this.state.recipe.url
+      console.log(this.state.recipe)
       if(this.state.recipe.images !== undefined){
         src = this.state.recipe.images[0]
       }
@@ -144,9 +117,15 @@ class Recipe extends React.Component {
       <Sidebar.Pushable style={{overflowY:"scroll"}}>
         {/*<Ingredients ingredients={ingredients} />*/}
         <DetailedIngredients ingredients={detailed_ingredients} />
-        <Sidebar.Pusher>
-          <Segment basic>
-            <Image src={src} size="large"/>
+        <Sidebar.Pusher as={Segment}>
+          <Segment basic style={{marginRight:"150px"}}>
+            <Image src={src} style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              objectPosition: "30%",
+              border: "1px solid black",
+            }}/>
             <Instructions instructions={instructions} title={title} url={url} />
           </Segment>
         </Sidebar.Pusher>

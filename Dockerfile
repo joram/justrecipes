@@ -28,8 +28,8 @@ ADD requirements.txt .
 
 RUN pip install -r requirements.txt
 ADD api /recipes/api
-ADD ingredients /recipes/ingredients
 ADD db /recipes/db
+ADD utils.py /recipes/utils.py
 
 EXPOSE 5000
 ENV PYTHONPATH=/recipes

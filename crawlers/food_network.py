@@ -1,7 +1,11 @@
+import logging
+
 from bs4 import BeautifulSoup
 
 from utils import get_cached
 from crawlers.base import BaseCrawler
+
+logger = logging.Logger(__name__)
 
 
 class FoodNetwork(BaseCrawler):
@@ -14,10 +18,14 @@ class FoodNetwork(BaseCrawler):
         return len(self.to_visit_list_urls)
 
     def get_recipe_urls(self):
-        i = 1
+        i = 0
         while True:
+            i += 1
             list_url = f"https://www.foodnetwork.com/search/-/p/{i}"
             content = get_cached(list_url)
+            if content is None:
+                logger.info(f"completed {self.domain}")
+                return
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
             anchors = soup.find_all("a", href=True)

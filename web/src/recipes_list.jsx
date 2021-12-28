@@ -11,7 +11,13 @@ function img_src(recipe){
 class RecipeCard extends React.Component {
     render() {
         return <Card key={this.props.recipe.id} as={Link} to={`/recipe/${this.props.recipe.pub_id}`}>
-            <Image src={img_src(this.props.recipe)}/>
+            <Image src={img_src(this.props.recipe)}
+            style={{
+              width: "260px",
+              height: "260px",
+              objectFit: "cover",
+            }}
+            />
             <Card.Content>
                 <Card.Header>{this.props.recipe.title}</Card.Header>
             </Card.Content>

@@ -25,6 +25,7 @@ class BonAppetit(BaseCrawler):
                 continue
             soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
 
+            num_recipes = 0
             anchors = soup.find_all("a", href=True)
             for a in anchors:
                 href = a["href"]
@@ -32,5 +33,8 @@ class BonAppetit(BaseCrawler):
                     href = f"https://www.bonappetit.com{href}"
                 if "/recipe/" in href and not recipe_urls.get(href, False):
                     recipe_urls[href] = True
+                    num_recipes += 1
                     yield href
+            if num_recipes == 0:
+                break
             i += 1
