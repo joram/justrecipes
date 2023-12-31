@@ -1,5 +1,6 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
+import "pure-react-carousel/dist/react-carousel.es.css";
 import SearchExampleStandard from "./search";
 import {Link, Outlet, Route, Routes} from "react-router-dom";
 import React from "react";

@@ -1,37 +1,10 @@
 import {useParams} from "react-router-dom";
 import React, {useEffect} from "react";
-import {Button, Container, Divider, Grid, Header, ImageGroup, Table} from "semantic-ui-react";
-import {CarouselProvider, Dot, Image, Slide, Slider} from "pure-react-carousel";
+import {Container, Grid, Header, Segment, Table} from "semantic-ui-react";
+import ImageCarousel from "./components/imageCarousel";
 
-const CustomDotGroup = ({ slides, size }) => (
-    <Container textAlign="center">
-        <Button.Group size={size}>
-            {[...Array(slides).keys()].map(slide => (
-                <Button as={Dot} key={slide} icon="circle" slide={slide} />
-            ))}
-        </Button.Group>
-    </Container>
-);
 function RecipeImages({recipe}){
-
-    return <CarouselProvider
-        naturalSlideWidth={1}
-        naturalSlideHeight={1}
-        totalSlides={3}
-    >
-        <Slider>
-            {recipe.image_urls.map((image_url, index) => {
-                console.log(image_url);
-                <Slide tag="a" index={index}>
-                    <Image src={image_url} />
-                </Slide>
-            })
-            }
-        </Slider>
-
-        <Divider />
-        <CustomDotGroup slides={recipe.image_urls.length} />
-    </CarouselProvider>
+    return ImageCarousel(recipe.image_urls);
 }
 
 function RecipeIngredients({recipe}){
@@ -69,7 +42,6 @@ function RecipeInstructions({recipe}){
         </Table>
     </>
 }
-
 
 function RecipeNutrients({recipe}) {
     return <>
@@ -135,7 +107,7 @@ function RecipePage(){
     console.log(Object.keys(recipe))
     console.log(recipe)
 
-    return <>
+    return <Container>
         <h1>{recipeTitle}</h1>
         <RecipeImages recipe={recipe} />
         <Grid columns={4} divided>
@@ -154,7 +126,7 @@ function RecipePage(){
                 </Grid.Column>
             </Grid.Row>
         </Grid>
-    </>
+    </Container>
 }
 
 export default RecipePage;
