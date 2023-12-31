@@ -5,7 +5,7 @@ from typing import List, Optional
 from dotenv import load_dotenv
 
 from crawlers.utils.caching import get_cached
-from models import NutritionalInfo, Ingredient
+from recipes.models import NutritionalInfo, Ingredient
 
 load_dotenv()
 

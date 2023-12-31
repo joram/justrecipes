@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from parse_ingredients import parse_ingredient
 
 from crawlers.utils.fda import ingredient_to_nutrients_infos
-from models import Recipe, RecipeCategory, Ingredient
+from recipes.models import Recipe, RecipeCategory, Ingredient
 from ny_times import NYTimes
 
 
@@ -216,7 +216,7 @@ def recipes_generator():
 
 def save_recipe(recipe: Recipe):
     current_dir = os.path.dirname(os.path.realpath(__file__))
-    filepath = os.path.join(current_dir, f"../data/{recipe.name}.json")
+    filepath = os.path.join(current_dir, f"../recipes/data/{recipe.name}.json")
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
     with open(filepath, "w") as f:
