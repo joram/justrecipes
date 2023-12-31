@@ -1,7 +1,7 @@
 import os
 from typing import Generator
 
-from models import Recipe
+from .models import Recipe
 
 
 # a generator function that returns the recipes stored in the data directory
