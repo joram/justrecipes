@@ -73,11 +73,14 @@ def get_cached_recipe_metadata(url: str) -> dict:
             return json.loads(content)
 
 
-def get_cached(url: str, attempts=0) -> Optional[bytes]:
+def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[bytes]:
+    if cache_url is None:
+        cache_url = url
+
     if attempts >= 3:
         return None
 
-    path = _cache_path(url)
+    path = _cache_path(cache_url)
     if os.path.exists(path):
         with open(path, "rb") as f:
             content = f.read()
@@ -94,13 +97,13 @@ def get_cached(url: str, attempts=0) -> Optional[bytes]:
             print(f"requests error: {url}")
             return None
         if response.status_code >= 500 or response.status_code in [404, 403]:
-            print(f"trying again {response.status_code} attempt {attempts}, url {url}")
+            print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
             remove_cached(url)
-            return get_cached(url, attempts+1)
+            return get_cached(url, url, attempts+1)
 
         if response.status_code != 200:
             print(f"error for url: ({response.status_code}){url}")
-            raise Exception(response.status_code)
+            raise Exception(response.status_code, response.content)
 
         f.write(response.content)
         return response.content

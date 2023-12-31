@@ -1,5 +1,5 @@
 crawl:
-	./crawl.py
+	./crawlers/crawl.py
 
 run_web:
 	cd web; yarn start

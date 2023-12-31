@@ -6,6 +6,6 @@ python-dotenv
 quantulum3
 parse-ingredients
 nltk~=3.5
-bs4~=0.0.1
 beautifulsoup4~=4.9.1
-requests~=2.24.0
+jinja2==2.11.3
+git+https://github.com/joram/fda-nutrience.git#subdirectory=client

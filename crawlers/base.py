@@ -2,7 +2,7 @@ from typing import Tuple
 
 from nltk.stem import PorterStemmer
 
-from utils import get_head_recipe
+from utils.caching import get_head_recipe
 
 ps = PorterStemmer()
 

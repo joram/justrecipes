@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
-from crawlers.base import BaseCrawler
-from utils import get_cached
+from base import BaseCrawler
+from utils.caching import get_cached
 
 
 class NYTimes(BaseCrawler):
