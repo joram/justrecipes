@@ -1,31 +1,25 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
 import "pure-react-carousel/dist/react-carousel.es.css";
-import SearchExampleStandard from "./search";
+import RecipeSearch from "./components/recipeSearch";
 import {Link, Outlet, Route, Routes} from "react-router-dom";
 import React from "react";
 import RecipePage from "./RecipePage";
-import {Menu} from "semantic-ui-react";
-
-function SearchPage() {
-    return <SearchExampleStandard />
-}
+import {Image, Menu} from "semantic-ui-react";
+import HomePage from "./HomePage";
 
 function Layout() {
     return (
         <div>
-            {/* A "layout route" is a good place to put markup you want to
-          share across all the pages on your site, like navigation. */}
             <Menu attached="top">
                 <Menu.Item>
-                    <Link to="/">Home</Link>
+                    <Link to="/">
+                        <Image src={"/logo512.jpg"} size="tiny" /></Link>
                 </Menu.Item>
-            </Menu>
-            <hr />
-
-            {/* An <Outlet> renders whatever child route is currently active,
-          so you can think about this <Outlet> as a placeholder for
-          the child routes we defined above. */}
+                <Menu.Item>
+                    <RecipeSearch/>
+                </Menu.Item>
+                </Menu>
             <Outlet />
         </div>
     );
@@ -36,7 +30,7 @@ function App() {
     <div className="App">
         <Routes>
             <Route path="/" element={<Layout />}>
-                <Route index element={<SearchPage />} />
+                <Route index element={<HomePage />} />
                 <Route path="/recipe/:recipeTitle" element={<RecipePage />} />
             </Route>
         </Routes>

@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import asyncio
 import os
 import pprint
 from typing import Optional
@@ -6,27 +7,23 @@ from typing import Optional
 from bs4 import BeautifulSoup
 from parse_ingredients import parse_ingredient
 
-from crawlers.utils.fda import ingredient_to_nutrients_infos
+from all_recipes import AllRecipes
+from utils.fda import ingredient_to_nutrients_infos
 from recipes.models import Recipe, RecipeCategory, Ingredient
 from ny_times import NYTimes
 
 
-def interleaved_get_recipes():
+async def interleaved_get_recipes():
     crawlers = [
-        # Epicurious(),
-        # AllRecipes(),
-        # BonAppetit(),
-        # AsEasyAsApplePie(),
-        NYTimes(),
-        # FoodNetwork(),
-        # MarthaStewart(),
+#         NYTimes(),
+        AllRecipes(),
     ]
 
     next_recipes = [crawler.next_recipe() for crawler in crawlers]
     while len(next_recipes) > 0:
         for next_recipe in next_recipes:
             try:
-                recipe, url = next_recipe.__next__()
+                recipe, url = await next_recipe.__anext__()
                 yield recipe, url
             except StopIteration:
                 next_recipes = [f for f in next_recipes if f != next_recipe]
@@ -35,18 +32,24 @@ def interleaved_get_recipes():
 
 def _parse_categories(data):
     s = data.get("recipeCategory", "")
+    if type(s) == str:
+        s = [s]
     categories = []
-    for c in s.split(", "):
-        try:
-            RecipeCategory[c]
-        except KeyError:
-            continue
-        categories.append(RecipeCategory[c])
+    for category_string in s:
+        for c in category_string.split(", "):
+            try:
+                RecipeCategory[c]
+            except KeyError:
+                continue
+            categories.append(RecipeCategory[c])
     return categories
 
 
 def _parse_servings(data):
-    servings = data.get("recipeYield", "1").lower()
+    recipe_yield = data.get("recipeYield", "1")
+    if type(recipe_yield) == list:
+        recipe_yield = recipe_yield[0]
+    servings = recipe_yield.lower()
     servings = servings.strip()
     words = servings.split(" ")
     numbers = []
@@ -166,7 +169,18 @@ def _parse_notes(data):
     return notes
 
 
-def create_recipe(data, url) -> Optional[Recipe]:
+def _parse_images(data):
+    image_details = data.get("image", [])
+    images = []
+    for img in image_details:
+        if type(img) == str:
+            images.append(img)
+        else:
+            images.append(img.get("url"))
+    return images
+
+
+async def create_recipe(data, url) -> Optional[Recipe]:
     if data is None:
         return None
     if data.get("@type", "") != "Recipe":
@@ -178,7 +192,7 @@ def create_recipe(data, url) -> Optional[Recipe]:
 
     total_nutrition_infos = {}
     for ingredient in ingredients:
-        ingredient.nutrition_infos = ingredient_to_nutrients_infos(ingredient)
+        ingredient.nutrition_infos = await ingredient_to_nutrients_infos(ingredient)
         for nutrient in ingredient.nutrition_infos:
             if nutrient.name not in total_nutrition_infos:
                 total_nutrition_infos[nutrient.name] = nutrient
@@ -194,7 +208,7 @@ def create_recipe(data, url) -> Optional[Recipe]:
             minutes=_parse_minutes(data),
 
             source_url=url,
-            image_urls=data.get("image", []),
+            image_urls=_parse_images(data),
             ingredients=ingredients,
             instructions=_parse_instructions(data),
             notes=_parse_notes(data),
@@ -208,12 +222,12 @@ def create_recipe(data, url) -> Optional[Recipe]:
     return recipe
 
 
-def recipes_generator():
-    for head_recipe, url in interleaved_get_recipes():
+async def recipes_generator():
+    async for head_recipe, url in interleaved_get_recipes():
         if head_recipe is None:
             continue
 
-        recipe = create_recipe(head_recipe, url)
+        recipe = await create_recipe(head_recipe, url)
         yield recipe
 
 
@@ -226,10 +240,10 @@ def save_recipe(recipe: Recipe):
         f.write(recipe.model_dump_json(indent=2))
 
 
-def crawl():
+async def crawl():
     print("starting crawl")
     i = 0
-    for recipe in recipes_generator():
+    async for recipe in recipes_generator():
         if recipe is None:
             continue
         print(f"{i}\t{recipe.source_url}\t recipe:{recipe.name}")
@@ -239,4 +253,4 @@ def crawl():
 
 
 if __name__ == "__main__":
-    crawl()
+    asyncio.run(crawl())

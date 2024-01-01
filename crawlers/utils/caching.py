@@ -5,11 +5,12 @@ from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 
 def _cache_path(resource):
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "./cache")
+    cache_path = os.path.join(dir_path, "../../cache")
     if not os.path.exists(cache_path):
         os.mkdir(cache_path)
 
@@ -35,45 +36,36 @@ def _cache_path(resource):
     return path
 
 
-def _get_recipe_metadata(content: bytes) -> Optional[dict]:
-    soup = BeautifulSoup(content.decode('utf-8'), 'html.parser')
+def _get_recipe_metadata(content: str) -> Optional[dict]:
+    soup = BeautifulSoup(content, 'html.parser')
     script_tags = soup.find_all("script", {"type": "application/ld+json"})
     for tag in script_tags:
         try:
             schema_datas = json.loads(tag.string.replace("\u2009", " "))
         except:
-            return None
+            continue
         if type(schema_datas) != list:
             schema_datas = [schema_datas]
         for schema_data in schema_datas:
             schema_type = schema_data.get("@type", "wrong")
+            if schema_type == ["Recipe"]:
+                schema_data["@type"] = "Recipe"
+                return schema_data
             if schema_type == "Recipe":
                 return schema_data
 
+    return None
 
-def get_head_recipe(url):
-    content = get_cached(url)
+
+async def get_head_recipe(url):
+    content = await get_cached(url)
     if not content:
+        print("no content for url: ", url)
         return None
     return _get_recipe_metadata(content)
 
 
-def get_cached_recipe_metadata(url: str) -> dict:
-    from db.recipe import Recipe
-    pub_id = Recipe.get_pub_id(url)
-
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "./cache/recipes")
-    if not os.path.exists(cache_path):
-        os.mkdir(cache_path)
-    cache_file_path = f"{cache_path}/{pub_id}.json"
-    if os.path.exists(cache_file_path):
-        with open(cache_file_path) as f:
-            content = f.read()
-            return json.loads(content)
-
-
-def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[bytes]:
+async def get_cached_request(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[bytes]:
     if cache_url is None:
         cache_url = url
 
@@ -86,27 +78,68 @@ def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optiona
             content = f.read()
             if len(content) == 0:
                 remove_cached(url)
-                return get_cached(url)
+                return await get_cached_request(url)
             return content
 
     with open(path, "wb") as f:
         time.sleep(1)
+        response = requests.get(url)
+        content = response.content
+
+        # if response.status_code >= 500 or response.status_code in [404, 403]:
+        #     print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
+        #     remove_cached(url)
+        #     return get_cached(url, url, attempts+1)
+        #
+        # if response.status_code != 200:
+        #     print(f"error for url: ({response.status_code}){url}")
+        #     import pdb
+        #     pdb.set_trace()
+        #     raise Exception(response.status_code, response.content)
+
+        f.write(content)
+        return content
+
+async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[str]:
+    if cache_url is None:
+        cache_url = url
+
+    if attempts >= 3:
+        return None
+
+    path = _cache_path(cache_url)
+    if os.path.exists(path):
+        with open(path, "rb") as f:
+            content = f.read()
+            if len(content) == 0:
+                remove_cached(url)
+                return await get_cached(url)
+            return content
+
+    with open(path, "w") as f:
+        time.sleep(1)
         try:
-            response = requests.get(url, allow_redirects=True)
+            p = await async_playwright().start()
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page()
+            await page.goto(url)
         except:
-            print(f"requests error: {url}")
             return None
-        if response.status_code >= 500 or response.status_code in [404, 403]:
-            print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
-            remove_cached(url)
-            return get_cached(url, url, attempts+1)
+        content = await page.content()
 
-        if response.status_code != 200:
-            print(f"error for url: ({response.status_code}){url}")
-            raise Exception(response.status_code, response.content)
+        # if response.status_code >= 500 or response.status_code in [404, 403]:
+        #     print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
+        #     remove_cached(url)
+        #     return get_cached(url, url, attempts+1)
+        #
+        # if response.status_code != 200:
+        #     print(f"error for url: ({response.status_code}){url}")
+        #     import pdb
+        #     pdb.set_trace()
+        #     raise Exception(response.status_code, response.content)
 
-        f.write(response.content)
-        return response.content
+        f.write(content)
+        return content
 
 
 def clean_tags(tags=[]):

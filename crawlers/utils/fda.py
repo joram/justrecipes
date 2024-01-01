@@ -4,7 +4,7 @@ from typing import List, Optional
 
 from dotenv import load_dotenv
 
-from crawlers.utils.caching import get_cached
+from crawlers.utils.caching import get_cached, get_cached_request
 from recipes.models import NutritionalInfo, Ingredient
 
 load_dotenv()
@@ -13,19 +13,23 @@ load_dotenv()
 api_key = os.environ.get("FDA_API_KEY")
 
 
-def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) -> Optional[dict]:
+async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) -> Optional[dict]:
     url = f"https://api.nal.usda.gov/fdc/v1/foods/search?api_key={api_key}&query={ingredient.name}&pageSize=1&page={page}"
     cache_url = f"https://api.nal.usda.gov/fdc/v1/foods/search?query={ingredient.name}&pageSize=1&page={page}"
 
     if "/" in ingredient.name:
         return None
 
-    content = get_cached(url, cache_url)
+    content = await get_cached_request(url, cache_url)
     try:
+        # for bad in ['<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">', '</pre></body></html>']:
+        #     content = content.replace(bad, "")
         data = json.loads(content)
-    except:
+    except Exception as e:
         print(f"Could not parse json for {url}")
-        return None
+        print(content)
+        raise
+        # return None
     return data
 
 
@@ -52,13 +56,13 @@ def _convert_serving_size_to_grams(value, units):
         return value * 1
 
 
-def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInfo]:
+async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInfo]:
     data = {}
     good_data = False
     page = 0
     while not good_data:
         page += 1
-        data = _get_cached_fda_info_for_ingredient(ingredient, page)
+        data = await _get_cached_fda_info_for_ingredient(ingredient, page)
         if data is None:
             return []
         if data["totalHits"] == 0:

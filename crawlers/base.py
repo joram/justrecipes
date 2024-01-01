@@ -1,4 +1,4 @@
-from typing import Tuple
+from typing import Tuple, AsyncGenerator
 
 from nltk.stem import PorterStemmer
 
@@ -11,14 +11,17 @@ class BaseCrawler:
 
     domain = "base"
 
-    def next_recipe(self) -> Tuple[dict, str]:
+    async def next_recipe(self) -> Tuple[dict, str]:
         visited_urls = []
-        for url in self.get_recipe_urls():
+        generator = self.get_recipe_urls()
+        while True:
+            url = await generator.__anext__()
             if url in visited_urls:
                 continue
             visited_urls.append(url)
-            yield get_head_recipe(url), url
+            recipe = await get_head_recipe(url)
+            yield recipe, url
 
-    def get_recipe_urls(self):
+    async def get_recipe_urls(self) -> AsyncGenerator[str, None]:
         raise NotImplemented
 
