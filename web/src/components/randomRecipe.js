@@ -1,25 +1,24 @@
-import recipe_manifest from "./recipe_manifest.json";
-import Recipe from "./components/recipe";
+import recipe_manifest from "../recipe_manifest.json";
+import Recipe from "./recipe";
+import React, {useEffect} from "react";
+
 
 function RandomRecipe() {
-    let [recipes, setRecipes] = React.useState(null);
-    let [recipeName, setRecipeName] = React.useState(null);
+    let [recipeTitle, setRecipeTitle] = React.useState(null);
 
-    function update_recipe() {
-        if (recipes != null) {
+    useEffect(() => {
+        if (recipeTitle !== null) {
             return;
         }
-        setRecipes(recipe_manifest.recipes);
-        const random_recipe = recipes[Math.floor(Math.random() * recipes.length)];
-        console.log(random_recipe)
-    }
+        const random_recipe = recipe_manifest.recipes[Math.floor(Math.random() * recipe_manifest.recipes.length)];
+        setRecipeTitle(random_recipe.title);
+    });
 
-    if (recipes == null) {
-        update_recipe();
+    if (recipeTitle == null) {
         return null
     }
 
-    return Recipe({recipeTitle: random_recipe.title});
+    return <Recipe recipeTitle={recipeTitle} />;
 }
 
 export default RandomRecipe;

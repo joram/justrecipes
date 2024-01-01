@@ -22,7 +22,9 @@ if __name__ == "__main__":
             with (open(destination, "w")) as f:
                 f.write(content)
             content = json.loads(content)
-            image_url = content["image_urls"][0]
+            image_url = None
+            if len(content["image_urls"]) > 0:
+                image_url = content["image_urls"][0]
             title = content["name"]
             manifest["recipes"].append({"image": image_url, "title": title})
 
