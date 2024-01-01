@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom";
 import React, {useEffect} from "react";
-import {Container, Grid, Header, Segment, Table} from "semantic-ui-react";
+import {Container, Grid, Header, Table} from "semantic-ui-react";
 import ImageCarousel from "./components/imageCarousel";
 
 function RecipeImages({recipe}){

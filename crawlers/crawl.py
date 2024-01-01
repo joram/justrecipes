@@ -166,7 +166,6 @@ def _parse_notes(data):
     return notes
 
 
-
 def create_recipe(data, url) -> Optional[Recipe]:
     if data is None:
         return None
@@ -177,10 +176,14 @@ def create_recipe(data, url) -> Optional[Recipe]:
     if ingredients is None:
         return None
 
-    total_nutrition_infos = []
+    total_nutrition_infos = {}
     for ingredient in ingredients:
         ingredient.nutrition_infos = ingredient_to_nutrients_infos(ingredient)
-        total_nutrition_infos += ingredient.nutrition_infos
+        for nutrient in ingredient.nutrition_infos:
+            if nutrient.name not in total_nutrition_infos:
+                total_nutrition_infos[nutrient.name] = nutrient
+            else:
+                total_nutrition_infos[nutrient.name].amount += nutrient.amount
 
     try:
 
@@ -195,7 +198,7 @@ def create_recipe(data, url) -> Optional[Recipe]:
             ingredients=ingredients,
             instructions=_parse_instructions(data),
             notes=_parse_notes(data),
-            nutrition_infos=total_nutrition_infos,
+            nutrition_infos=total_nutrition_infos.values(),
         )
     except Exception as e:
         pprint.pprint(data)
