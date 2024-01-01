@@ -28,6 +28,8 @@ if __name__ == "__main__":
 
 
     # update the manifest
-    with open(f"{dest_dir}/../recipe_manifest.json", "w") as f:
+    with open(f"{dest_dir}/../../src/recipe_manifest.json", "w") as f:
         content = json.dumps(manifest, indent=2, sort_keys=True)
         f.write(content)
+
+    print(f"updated {len(manifest['recipes'])} recipes, and manifest")

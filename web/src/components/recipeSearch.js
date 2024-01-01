@@ -4,6 +4,8 @@ import {Search} from 'semantic-ui-react';
 import recipe_manifest from '../recipe_manifest.json';
 import {useNavigate} from "react-router-dom";
 
+const BreakException = {msg: "break"};
+
 function SearchExampleStandard() {
     const navigate = useNavigate();
     let [recipes, setRecipes] = React.useState(null);
@@ -27,6 +29,7 @@ function SearchExampleStandard() {
                 }
             }
         });
+        console.log("got "+_recipes.length+" recipes")
         setRecipes(_recipes);
     }
 
@@ -44,11 +47,27 @@ function SearchExampleStandard() {
         const re = new RegExp(_.escapeRegExp(data.value), 'i');
         const isMatch = (result) => re.test(result.title);
         let newResults = []
-        recipes.forEach(recipe => {
-            if(isMatch(recipe)) {
-                newResults.push(recipe)
+
+        let done = false
+        while(!done) {
+            if (recipes == null) {
+                break;
             }
-        })
+            try {
+                recipes.forEach(recipe => {
+                    if (isMatch(recipe)) {
+                        newResults.push(recipe)
+                    }
+                    if (newResults.length > 10) {
+                        done = true;
+                        throw BreakException;
+                    }
+                })
+            } catch (e) {
+                if (e !== BreakException) throw e;
+            }
+            done = true;
+        }
 
         setValue(data.value)
         setResults(newResults)
