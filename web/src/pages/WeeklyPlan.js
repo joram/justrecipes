@@ -77,7 +77,7 @@ function WeekPlanPage() {
                 <Menu.Item active={tabSelection==="beef"}  onClick={() => {changeTab("beef")}}> Beef Recipes </Menu.Item>
                 <Menu.Item active={tabSelection==="pork"}  onClick={() => {changeTab("pork")}}> Pork Recipes </Menu.Item>
                 <Menu.Item active={tabSelection==="vegetarian"}  onClick={() => {changeTab("vegetarian")}}> Vegetarian Recipes </Menu.Item>
-                <Menu.Item position="right" color="blue" active={tabSelection==="selected"}  onClick={() => {changeTab("selected")}}> Selected Recipes </Menu.Item>
+                <Menu.Item position="right" color="blue" active={tabSelection==="selected"}  onClick={() => {changeTab("selected")}}> {selectedRecipes.length} Selected Recipes </Menu.Item>
             </Menu>
             <Segment>
                 <RecipeCards

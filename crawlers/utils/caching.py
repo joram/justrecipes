@@ -126,6 +126,7 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
         except:
             return None
         content = await page.content()
+        await page.close()
 
         # if response.status_code >= 500 or response.status_code in [404, 403]:
         #     print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
