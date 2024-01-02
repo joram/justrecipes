@@ -1,7 +1,7 @@
-import RandomRecipe from "./components/randomRecipe";
+import RandomRecipeDetails from "../components/randomRecipeDetails";
 
 function HomePage(){
-    return  <RandomRecipe />;
+    return  <RandomRecipeDetails />;
 }
 
 

@@ -68,6 +68,8 @@ function RecipeNutrients({recipe}) {
 }
 
 function RecipeMetadata(props) {
+    const routeDomain = props.recipe.source_url.split("/")[2]
+
     return <>
         <Header as='h3'>Metadata</Header>
         <Table>
@@ -80,6 +82,14 @@ function RecipeMetadata(props) {
                     <Table.Cell>Yield</Table.Cell>
                     <Table.Cell>{props.recipe.servings} servings</Table.Cell>
                 </Table.Row>
+                <Table.Row>
+                    <Table.Cell>Source</Table.Cell>
+                    <Table.Cell><a href={props.recipe.source_url}>{routeDomain}</a></Table.Cell>
+                </Table.Row>
+                <Table.Row>
+                    <Table.Cell>Tags</Table.Cell>
+                    <Table.Cell>{props.recipe.categories.join(", ")}</Table.Cell>
+                </Table.Row>
             </Table.Body>
         </Table>
     </>
@@ -88,8 +98,6 @@ function RecipeMetadata(props) {
 
 function Recipe({recipeTitle}){
     let [recipe, setRecipe] = React.useState(null);
-    console.log("rendering recipe: ", recipeTitle)
-
     const filepath = `/recipes/${recipeTitle}.json`;
 
 

@@ -2,29 +2,17 @@ import _ from 'lodash';
 import recipe_manifest from "../recipe_manifest.json";
 import Recipe from "./recipe";
 import React, {useEffect} from "react";
+import {randomRecipe} from "../utils.py/search_recipes";
 
 
-function RandomRecipe({searchTerm}) {
+function RandomRecipeDetails({searchTerm}) {
     let [recipeTitle, setRecipeTitle] = React.useState(null);
 
     useEffect(() => {
         if (recipeTitle !== null) {
             return;
         }
-
-        let filtered_recipes = recipe_manifest.recipes;
-        if (searchTerm) {
-            filtered_recipes = [];
-            const re = new RegExp(_.escapeRegExp(searchTerm), 'i');
-            const isMatch = (result) => re.test(result.title);
-            recipe_manifest.recipes.forEach(recipe => {
-                if (isMatch(recipe)) {
-                    filtered_recipes.push(recipe)
-                }
-            })
-        }
-
-        const random_recipe = filtered_recipes[Math.floor(Math.random() * filtered_recipes.length)];
+        const random_recipe = randomRecipe("");
         setRecipeTitle(random_recipe.title);
     });
 
@@ -35,4 +23,4 @@ function RandomRecipe({searchTerm}) {
     return <Recipe recipeTitle={recipeTitle} />;
 }
 
-export default RandomRecipe;
+export default RandomRecipeDetails;
