@@ -1,5 +1,5 @@
 import {useParams} from "react-router-dom";
-import React, {useEffect} from "react";
+import React from "react";
 import Recipe from "../components/recipe";
 
 function RecipePage() {

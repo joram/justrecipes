@@ -102,17 +102,16 @@ function Recipe({recipeTitle}){
 
 
     useEffect(() => {
-        if (recipeTitle == null) {
-            return null;
+        if (recipe !== null) {
+            return;
         }
 
         fetch(filepath)
             .then(response => response.json())
             .then(data => {
                 setRecipe(data)
-
             });
-    }, [filepath]);
+    });
 
 
     if (!recipe) return (<div>Loading...</div>);

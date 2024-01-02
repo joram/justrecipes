@@ -1,24 +1,29 @@
 import {Button, Card, Image} from "semantic-ui-react";
-import React, {useEffect} from "react";
+import React from "react";
 
 
-function RecipeCard({recipe, onAdd, isSelected=false}){
+function RecipeCard({recipe, onAdd, onRemove, isSelected=false}){
     let [selected, setSelected] = React.useState(isSelected);
 
-    function onClick(){
+    function onAddClick(){
         onAdd(recipe);
         setSelected(true);
     }
 
+    function onRemoveClick(){
+        onRemove(recipe);
+        setSelected(false);
+    }
+
     let header = <>
-        <Button basic color='green' onClick={onClick}>Add</Button>
+        <Button basic color='green' onClick={onAddClick}>Add</Button>
     </>;
     let isSelectedText = null;
     if (selected){
         isSelectedText = <Card.Meta style={{backgroundColor:"yellow"}}>
             Selected</Card.Meta>
         header = <Card.Content>
-            <Button basic color='red'>Remove</Button>
+            <Button basic color='red' onClick={onRemoveClick}>Remove</Button>
         </Card.Content>
     }
     return <Card>

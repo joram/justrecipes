@@ -1,5 +1,3 @@
-import _ from 'lodash';
-import recipe_manifest from "../recipe_manifest.json";
 import Recipe from "./recipe";
 import React, {useEffect} from "react";
 import {randomRecipe} from "../utils.py/search_recipes";
@@ -14,13 +12,9 @@ function RandomRecipeDetails({searchTerm}) {
         }
         const random_recipe = randomRecipe("");
         setRecipeTitle(random_recipe.title);
-    });
+    }, [recipeTitle]);
 
-    if (recipeTitle == null) {
-        return null
-    }
-
-    return <Recipe recipeTitle={recipeTitle} />;
+    return <Recipe key={recipeTitle} recipeTitle={recipeTitle} />;
 }
 
 export default RandomRecipeDetails;

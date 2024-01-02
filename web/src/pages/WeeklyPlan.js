@@ -1,50 +1,8 @@
-import {Button, Card, Container, Menu, Segment, Sidebar, SidebarPushable, SidebarPusher,} from "semantic-ui-react";
+import {Container, Menu, Segment,} from "semantic-ui-react";
 import React, {useEffect} from "react";
-import RecipeCard from "../components/recipeCard";
 import {searchRecipes} from "../utils.py/search_recipes";
+import RecipeCards from "../components/recipeCards";
 
-function RecipeCards({searchTerm, recipes, selectedRecipes, onRecipeAdd}) {
-    let options = [];
-    recipes.forEach((recipe, index) => {
-        const isSelected = selectedRecipes.includes(recipe);
-        options.push(<RecipeCard recipe={recipe} onAdd={onRecipeAdd} isSelected={isSelected}/>);
-    });
-    return (
-        <Card.Group itemsPerRow={3} stackable>
-            {options}
-        </Card.Group>
-    );
-}
-const RecipeListSidebar = ({children, recipeTitles}) => {
-
-    console.log("sidebar shows: ",recipeTitles)
-    return (
-        <SidebarPushable as={Segment}>
-            <Sidebar
-                as={Menu}
-                animation='push'
-                inverted
-                // onHide={() => setVisible(false)}
-                vertical
-                visible={true}
-                width='thin'
-            >
-                {recipeTitles.map((recipeTitle, index) => {
-                    return <Menu.Item as='a' key={index}>
-                        {recipeTitle}
-                    </Menu.Item>
-                })}
-                <Menu.Item>
-                    <Button basic>Make Shopping List</Button>
-                </Menu.Item>
-            </Sidebar>
-
-            <SidebarPusher>
-                {children}
-            </SidebarPusher>
-        </SidebarPushable>
-    )
-}
 function WeekPlanPage() {
     let [selectedRecipes, setSelectedRecipes] = React.useState([]);
     let [tabSelection, setTabSelection] = React.useState("fish");
@@ -57,6 +15,11 @@ function WeekPlanPage() {
     function onRecipeAdd(recipe) {
         setSelectedRecipes([...selectedRecipes, recipe]);
     }
+
+    function onRecipeRemove(recipe) {
+        setSelectedRecipes(selectedRecipes.filter((r) => r !== recipe));
+    }
+
     function changeTab(section) {
         const numChoices = 6;
         if(section === "fish" && fishRecipes === []){
@@ -117,7 +80,14 @@ function WeekPlanPage() {
                 <Menu.Item position="right" color="blue" active={tabSelection==="selected"}  onClick={() => {changeTab("selected")}}> Selected Recipes </Menu.Item>
             </Menu>
             <Segment>
-                <RecipeCards key={tabSelection} searchTerm={tabSelection} recipes={recipes} selectedRecipes={selectedRecipes} onRecipeAdd={onRecipeAdd} />
+                <RecipeCards
+                    key={tabSelection}
+                    searchTerm={tabSelection}
+                    recipes={recipes}
+                    selectedRecipes={selectedRecipes}
+                    onRecipeAdd={onRecipeAdd}
+                    onRecipeRemove={onRecipeRemove}
+                />
             </Segment>
         </Container>
     </>
