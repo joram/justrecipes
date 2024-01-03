@@ -1,3 +1,4 @@
+import enum
 import json
 import os
 import time
@@ -100,6 +101,29 @@ async def get_cached_request(url: str, cache_url: Optional[str] = None, attempts
         f.write(content)
         return content
 
+
+class GetMethod(enum.Enum):
+    REQUESTS = 1
+    PLAYWRIGHT = 2
+
+
+async def _get_content(url:str, method:GetMethod=GetMethod.PLAYWRIGHT):
+    if method == GetMethod.REQUESTS:
+        return requests.get(url).content
+    elif method == GetMethod.PLAYWRIGHT:
+        async def _get_content_async(url):
+            p = await async_playwright().start()
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page()
+            await page.goto(url)
+            content = await page.content()
+            await page.close()
+            return content
+        return await _get_content_async(url)
+    else:
+        raise Exception(f"Unknown method {method}")
+
+
 async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[str]:
     if cache_url is None:
         cache_url = url
@@ -118,27 +142,7 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
 
     with open(path, "w") as f:
         time.sleep(1)
-        try:
-            p = await async_playwright().start()
-            browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
-            await page.goto(url)
-        except:
-            return None
-        content = await page.content()
-        await page.close()
-
-        # if response.status_code >= 500 or response.status_code in [404, 403]:
-        #     print(f"trying again {response.status_code} attempt {attempts}, url {url}, {response.content}")
-        #     remove_cached(url)
-        #     return get_cached(url, url, attempts+1)
-        #
-        # if response.status_code != 200:
-        #     print(f"error for url: ({response.status_code}){url}")
-        #     import pdb
-        #     pdb.set_trace()
-        #     raise Exception(response.status_code, response.content)
-
+        content = await _get_content(url, method=GetMethod.PLAYWRIGHT)
         f.write(content)
         return content
 

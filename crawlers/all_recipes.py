@@ -19,7 +19,10 @@ class AllRecipes(BaseCrawler):
         return links
 
     async def is_recipe_page(self, url) -> bool:
-        content = await get_cached(url)
+        try:
+            content = await get_cached(url)
+        except:
+            return False
         if not content:
             return False
         soup = BeautifulSoup(content, "html.parser")

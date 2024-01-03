@@ -7,10 +7,14 @@ function WeekPlanPage() {
     let [selectedRecipes, setSelectedRecipes] = React.useState([]);
     let [tabSelection, setTabSelection] = React.useState("fish");
     let [fishRecipes, setFishRecipes] = React.useState([]);
+    let [shrimpRecipes, setShrimpRecipes] = React.useState(null);
     let [chickenRecipes, setChickenRecipes] = React.useState(null);
     let [beefRecipes, setBeefRecipes] = React.useState(null);
     let [porkRecipes, setPorkRecipes] = React.useState(null);
     let [vegetarianRecipes, setVegetarianRecipes] = React.useState(null);
+    let [tofuRecipes, setTofuRecipes] = React.useState(null);
+    let [beanRecipes, setBeanRecipes] = React.useState(null);
+
 
     function onRecipeAdd(recipe) {
         setSelectedRecipes([...selectedRecipes, recipe]);
@@ -25,6 +29,9 @@ function WeekPlanPage() {
         if(section === "fish" && fishRecipes === []){
             setFishRecipes(searchRecipes("fish", numChoices))
         }
+        if(section === "shrimp" && shrimpRecipes == null){
+            setShrimpRecipes(searchRecipes("shrimp", numChoices))
+        }
         if(section === "chicken" && chickenRecipes == null){
             setChickenRecipes(searchRecipes("chicken", numChoices))
         }
@@ -37,12 +44,22 @@ function WeekPlanPage() {
         if(section === "vegetarian" && vegetarianRecipes == null){
             setVegetarianRecipes(searchRecipes("vegetarian", numChoices))
         }
+        if(section === "tofu" && tofuRecipes == null){
+            setTofuRecipes(searchRecipes("tofu", numChoices))
+        }
+        if(section === "bean" && beanRecipes == null){
+            setBeanRecipes(searchRecipes("bean", numChoices))
+        }
+
         setTabSelection(section);
     }
 
     function currentRecipes() {
         if (tabSelection === "fish") {
             return fishRecipes;
+        }
+        if (tabSelection === "shrimp") {
+            return shrimpRecipes;
         }
         if (tabSelection === "chicken") {
             return chickenRecipes;
@@ -55,6 +72,12 @@ function WeekPlanPage() {
         }
         if (tabSelection === "vegetarian") {
             return vegetarianRecipes;
+        }
+        if (tabSelection === "tofu") {
+            return tofuRecipes;
+        }
+        if (tabSelection === "bean") {
+            return beanRecipes;
         }
         if (tabSelection === "selected") {
             return selectedRecipes;
@@ -72,11 +95,14 @@ function WeekPlanPage() {
     return <>
         <Container>
             <Menu tabular>
-                <Menu.Item active={tabSelection==="fish"} onClick={() => {changeTab("fish")}}> Fish Recipes </Menu.Item>
-                <Menu.Item active={tabSelection==="chicken"}  onClick={() => {changeTab("chicken")}}> Chicken Recipes </Menu.Item>
-                <Menu.Item active={tabSelection==="beef"}  onClick={() => {changeTab("beef")}}> Beef Recipes </Menu.Item>
-                <Menu.Item active={tabSelection==="pork"}  onClick={() => {changeTab("pork")}}> Pork Recipes </Menu.Item>
-                <Menu.Item active={tabSelection==="vegetarian"}  onClick={() => {changeTab("vegetarian")}}> Vegetarian Recipes </Menu.Item>
+                <Menu.Item active={tabSelection==="fish"} onClick={() => {changeTab("fish")}}> Fish </Menu.Item>
+                <Menu.Item active={tabSelection==="shrimp"} onClick={() => {changeTab("shrimp")}}> Shrimp </Menu.Item>
+                <Menu.Item active={tabSelection==="chicken"}  onClick={() => {changeTab("chicken")}}> Chicken </Menu.Item>
+                <Menu.Item active={tabSelection==="beef"}  onClick={() => {changeTab("beef")}}> Beef </Menu.Item>
+                <Menu.Item active={tabSelection==="pork"}  onClick={() => {changeTab("pork")}}> Pork </Menu.Item>
+                <Menu.Item active={tabSelection==="vegetarian"}  onClick={() => {changeTab("vegetarian")}}> Vegetarian </Menu.Item>
+                <Menu.Item active={tabSelection==="tofu"}  onClick={() => {changeTab("tofu")}}> Tofu </Menu.Item>
+                <Menu.Item active={tabSelection==="bean"}  onClick={() => {changeTab("bean")}}> Beans </Menu.Item>
                 <Menu.Item position="right" color="blue" active={tabSelection==="selected"}  onClick={() => {changeTab("selected")}}> {selectedRecipes.length} Selected Recipes </Menu.Item>
             </Menu>
             <Segment>
