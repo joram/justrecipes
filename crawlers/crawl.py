@@ -114,6 +114,23 @@ def _parse_ingredients(data):
         while "  " in ingredient_string:
             ingredient_string = ingredient_string.replace("  ", " ")
 
+        substitute_words = {
+            "¼": "1/4",
+            "½": "1/2",
+            "¾": "3/4",
+            "⅓": "1/3",
+            "⅔": "2/3",
+            "⅛": "1/8",
+            "⅜": "3/8",
+            "⅝": "5/8",
+            "⅞": "7/8",
+            "⅕": "1/5",
+            "⅖": "2/5",
+            "⅗": "3/5",
+            "⅘": "4/5",
+        }
+        for word, replacement in substitute_words.items():
+            ingredient_string = ingredient_string.replace(word, replacement)
 
         is_a_seasoning = False
         seasonings = ["lemon", "parsely", "spray", "leaves", "ice", "salt", "pepper", "sugar", "cinnamon", "nutmeg", "cumin", "paprika", "chili powder", "chili flakes", "chili", "chile", "chiles", "chilies", "chili pepper", "chili peppers", "chile pepper", "chile peppers", "chili paste", "chile paste", "chili sauce", "chile sauce", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste"]

@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 
 from base import BaseCrawler
+from utils.queue_manager import get_queue_manager
 from utils.caching import get_cached
 
 class AllRecipes(BaseCrawler):
@@ -30,15 +31,15 @@ class AllRecipes(BaseCrawler):
         return len(head_recipe) > 0
 
     async def get_recipe_urls(self):
-        to_visit = ["https://www.allrecipes.com/recipe/74422/classic-cherries-jubilee/", "https://www.allrecipes.com/"]
-        visited = {}
-        while to_visit:
-            url = to_visit.pop(0)
-            if "?" in url:
-                url = url.split("?")[0]
-            if url in visited:
-                continue
-            visited[url] = True
+        get_queue_manager().add_urls_to_visit(["https://www.allrecipes.com/recipe/74422/classic-cherries-jubilee/", "https://www.allrecipes.com/"])
+        while True:
+            urls = get_queue_manager().get_urls_to_visit(1)
+            if len(urls) == 0:
+                return
+
+            url = urls[0]
+            get_queue_manager().mark_url_visited(url)
+
             if not url.startswith("https://www.allrecipes.com/"):
                 continue
             is_recipe = await self.is_recipe_page(url)
@@ -46,4 +47,4 @@ class AllRecipes(BaseCrawler):
                 yield url
 
             links = await self.get_links(url)
-            to_visit.extend(links)
+            get_queue_manager().add_urls_to_visit(links)
