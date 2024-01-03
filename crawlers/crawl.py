@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from parse_ingredients import parse_ingredient
 
 from all_recipes import AllRecipes
+from crawlers.bbc_good_food import BBCGoodFood
 from utils.fda import ingredient_to_nutrients_infos
 from recipes.models import Recipe, RecipeCategory, Ingredient
 from ny_times import NYTimes
@@ -16,7 +17,8 @@ from ny_times import NYTimes
 async def interleaved_get_recipes():
     crawlers = [
 #         NYTimes(),
-        AllRecipes(),
+#         AllRecipes(),
+        BBCGoodFood(),
     ]
 
     next_recipes = [crawler.next_recipe() for crawler in crawlers]
