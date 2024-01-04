@@ -17,7 +17,7 @@ from ny_times import NYTimes
 async def interleaved_get_recipes():
     crawlers = [
 #         NYTimes(),
-#         AllRecipes(),
+        AllRecipes(),
         BBCGoodFood(),
     ]
 
@@ -51,6 +51,8 @@ def _parse_servings(data):
     recipe_yield = data.get("recipeYield", "1")
     if type(recipe_yield) == list:
         recipe_yield = recipe_yield[0]
+    if type(recipe_yield) == int:
+        return recipe_yield
     servings = recipe_yield.lower()
     servings = servings.strip()
     words = servings.split(" ")
@@ -218,9 +220,8 @@ async def create_recipe(data, url) -> Optional[Recipe]:
             else:
                 total_nutrition_infos[nutrient.name].amount += nutrient.amount
 
-    try:
-
-        recipe = Recipe(
+    def _to_recipe():
+        return Recipe(
             name=data.get("name", ""),
             categories=_parse_categories(data),
             servings=_parse_servings(data),
@@ -233,12 +234,11 @@ async def create_recipe(data, url) -> Optional[Recipe]:
             notes=_parse_notes(data),
             nutrition_infos=total_nutrition_infos.values(),
         )
-    except Exception as e:
-        pprint.pprint(data)
-        print(e)
-        return None
 
-    return recipe
+    try:
+        return _to_recipe()
+    except:
+        return None
 
 
 async def recipes_generator():
