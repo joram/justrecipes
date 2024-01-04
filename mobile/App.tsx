@@ -5,8 +5,10 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import type {PropsWithChildren} from 'react';
+import * as RNFS from 'react-native-fs';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -55,6 +57,36 @@ function Section({children, title}: SectionProps): React.JSX.Element {
   );
 }
 
+function RecipePage({backgroundStyle, recipeName}) {
+  const isDarkMode = useColorScheme() === 'dark';
+  const filepath = 'recipes/' + recipeName + '.json';
+    RNFS.readFile('/storage/emulated/0/DATA/data.json', 'ascii')
+        .then((res) => {
+            console.log(res);
+            const d = JSON.parse(res);
+            this.setState({ content: res, fruitType: d.type });
+        })
+        .catch((err) => {
+            console.log(err.message, err.code);
+        });
+
+    let sections = [];
+    for (let i = 0; i < 10; i++) {
+        sections.push(<Section title={`Section ${i}`} key={i}>
+        <Text>Section {i} content</Text>
+        </Section>);
+    }
+
+  return <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      style={backgroundStyle}>
+    <Header />
+    <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white, }}>
+      {sections}
+    </View>
+  </ScrollView>
+}
+
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -68,30 +100,7 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
+      <RecipePage backgroundStyle={backgroundStyle} recipeName=" Air Fryer Green Bean Fries "/>
     </SafeAreaView>
   );
 }
