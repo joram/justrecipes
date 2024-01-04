@@ -14,10 +14,15 @@ deploy: update_recipes build
 
 create_mobile:
 	npx react-native init mobile
+	mkdir mobile/android/app/src/main/assets
 	# add
 		# "build:android": "ANDROID_HOME=~/Android/Sdk; react-native build-android --mode=\"release\" --verbose",
 		# "release:android": "ANDROID_HOME=~/Android/Sdk; react-native run-android --mode=\"release\"",
+		# "android-linux": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
 	# to scripts in mobile/package.json
+
+run_android:
+	cd mobile; npm run android-linux
 
 build_android:
 	set -e

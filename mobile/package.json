@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android-linux": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
     "build:android": "ANDROID_HOME=~/Android/Sdk; react-native build-android --mode=release",
-    "release:android": "ANDROID_HOME=~/Android/Sdk; react-native run-android --mode=\"release\"",
+    "release:android": "ANDROID_HOME=~/Android/Sdk; react-native run-android --mode=release",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
