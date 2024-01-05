@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 function Section({children, title}) {
     const isDarkMode = useColorScheme() === 'dark';
     return (
-        <View style={styles.sectionContainer}>
+        <>
             <Text
                 style={[
                     styles.sectionTitle,
@@ -51,7 +51,7 @@ function Section({children, title}) {
                 ]}>
                 {children}
             </Text>
-        </View>
+        </>
     );
 }
 
@@ -123,6 +123,7 @@ function RecipePage({backgroundStyle, recipeName}) {
             <RecipeImage recipe={recipe} />
             <RecipeIngredients recipe={recipe} />
             <RecipeInstructions recipe={recipe} />
+            <Text style={{height:150}} />
         </View>
     </ScrollView>
 }
