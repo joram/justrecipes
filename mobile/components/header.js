@@ -34,7 +34,7 @@ function Header({imgUri, text}) {
 const styles = StyleSheet.create({
     background: {
         paddingBottom: 40,
-        paddingTop: 96,
+        paddingTop: 30,
         paddingHorizontal: 32,
     },
     logo: {

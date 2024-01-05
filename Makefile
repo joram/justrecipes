@@ -4,7 +4,7 @@ crawl:
 build:
 	cd web; npm run build
 
-update_recipes:
+web_update_recipes:
 	cd web; ./update_recipes.py
 
 deploy: update_recipes build
@@ -12,7 +12,7 @@ deploy: update_recipes build
 	aws s3 sync --exclude "recipes/*" web/build s3://recipes.oram.ca --acl public-read
 	aws cloudfront create-invalidation --distribution-id E3JC9BZDT14T0U --paths "/*"
 
-create_mobile:
+start_mobile_project:
 	npx react-native init mobile
 	mkdir mobile/android/app/src/main/assets
 	# add
@@ -22,16 +22,16 @@ create_mobile:
 	# to scripts in mobile/package.json
 
 mobile_link_assets:
-	cd mobile; npx react-native-asset
+	nvm use 20; cd mobile; npx react-native-asset
 
 run_android:
-	cd mobile; npm run android-linux
+	nvm use 20; cd mobile; npm run android-linux
 
 build_android:
-	set -e
-	cd mobile; npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
-	cd mobile; npm run build:android
-	cd mobile; npm run release:android
+	cd mobile; ./update_recipes.py
+	nvm use 20; cd mobile; npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+	nvm use 20; cd mobile; npm run build:android
+	nvm use 20; cd mobile; npm run release:android
 
 deploy_mobile:
 	cp mobile/android/app/build/outputs/apk/release/app-release.apk mobile.apk

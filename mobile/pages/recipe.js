@@ -120,7 +120,6 @@ function RecipePage({backgroundStyle, recipeName}) {
 
     return <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
         <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white, }}>
-
             <RecipeImage recipe={recipe} />
             <RecipeIngredients recipe={recipe} />
             <RecipeInstructions recipe={recipe} />
