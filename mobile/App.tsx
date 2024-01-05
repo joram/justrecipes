@@ -5,171 +5,119 @@
  * @format
  */
 
-import React, {useEffect} from 'react';
-import type {PropsWithChildren} from 'react';
-import * as RNFS from 'react-native-fs';
+import React from 'react';
 
-import {
-    Image,
-    SafeAreaView,
-    ScrollView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    useColorScheme,
-    View,
-} from 'react-native';
+import {Dimensions, SafeAreaView, ScrollView, Text, useColorScheme,} from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-import Header from "./componenents/header";
+import {Colors,} from 'react-native/Libraries/NewAppScreen';
+import RecipePage from "./pages/recipe";
+import RecipeSearchPage from "./pages/recipe_search";
+import {FullWidthCard} from "./componenents/full_width_card";
+import {Stack} from '@rneui/layout';
+import {Card, Image} from "@rneui/base";
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+class PostItem extends React.Component {
 
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
+    state = {
+        imgWidth: 0,
+        imgHeight: 0,
+    }
 
-function getRecipe(name) {
-    const filepath = `custom/${name}.json`;
-    return RNFS.readFileAssets(filepath, 'utf8').then((res) => {
-        return JSON.parse(res)
-    }).catch((err) => {
-        console.log(err.message, err.code);
+    componentDidMount() {
 
-    })
-}
-
-function RecipeInstructions({recipe}){
-    if(!recipe) return null
-
-    let sections = [];
-    if(recipe){
-        let i = 1;
-        recipe.instructions.forEach(instruction => {
-            sections.push(<Section title={`Step ${i}`} key={i}>
-                <Text>{instruction}</Text>
-            </Section>);
-            i += 1
+        Image.getSize(this.props.imageUrl, (width, height) => {
+            // calculate image width and height
+            const screenWidth = Dimensions.get('window').width
+            const scaleFactor = width / screenWidth
+            const imageHeight = height / scaleFactor
+            this.setState({imgWidth: screenWidth, imgHeight: imageHeight})
         })
     }
-    return <>
-        {sections}
-    </>
+
+    render() {
+
+        const {imgWidth, imgHeight} = this.state
+
+        return (
+            <View>
+                <Image
+                    style={{width: imgWidth, height: imgHeight}}
+                    source={{uri: this.props.imageUrl}}
+                />
+                <Text style={styles.title}>
+                    {this.props.description}
+                </Text>
+            </View>
+        )
+    }
 }
 
+function RecipeSearchResult({ title, image_url, onPress }) {
+    let [imgWidth, setImgWidth] = React.useState(0);
+    let [imgHeight, setImgHeight] = React.useState(0);
 
-function RecipeIngredients({recipe}){
-    if(!recipe) return null
-    let ingredients = [];
-    recipe.ingredients.forEach(ingredient => {
-        let i = 0;
-        ingredients.push(<Section title={`Ingredient ${i}`} key={"ingredient_"+i}>
-            <Text>{ingredient.amount}{ingredient.unit} {ingredient.name}</Text>
-        </Section>);
-        i += 1;
+    Image.getSize(image_url, (width, height) => {
+        // calculate image width and height
+        const screenWidth = Dimensions.get('window').width
+        const scaleFactor = width / screenWidth
+        const imageHeight = height / scaleFactor
+        setImgWidth(screenWidth);
+        setImgHeight(imageHeight);
+    })
+
+    function handlePress() {
+        onPress(title)
+    }
+
+    return <Card
+        key={title}
+        onPress={handlePress}
+        containerStyle={{paddingBottom:0}}
+    >
+        <Card.Title onPress={handlePress}>{title}</Card.Title>
+        <Card.Image onPress={handlePress} style={{width: imgWidth, height: imgHeight}} source={{ uri: image_url }}/>
+    </Card>
+
+}
+
+function RecipeSearchResultsPage({ recipes, onPress }) {
+    let results = recipes.map((recipe) => {
+        return <RecipeSearchResult title={recipe.title} image_url={recipe.image} onPress={onPress} />
     });
-
-    return <>
-        {ingredients}
-    </>
-}
-
-
-function RecipeImage({recipe}){
-    if(!recipe) return null
-    const uri = recipe.image_urls[0]
-    console.log(uri)
-    return <Header imgUri={uri} text={recipe.name}/>
-}
-
-function RecipePage({backgroundStyle, recipeName}) {
-    const isDarkMode = useColorScheme() === 'dark';
-    let [recipe, setRecipe] = React.useState(null);
-
-    useEffect(() => {
-        getRecipe(recipeName).then((recipe) => {
-            if(recipe){
-                setRecipe(recipe);
-            }
-        });
-    }, [recipeName]);
-
-    return <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-        <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white, }}>
-
-            <RecipeImage recipe={recipe} />
-            <RecipeIngredients recipe={recipe} />
-            <RecipeInstructions recipe={recipe} />
-        </View>
-    </ScrollView>
+    return <Stack align="center" spacing={2} flexDirection={"row"}>{results}</Stack>
 }
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+    const isDarkMode = useColorScheme() === 'dark';
+    let [recipeName, setRecipeName] = React.useState<string>("Affogato");
+    let [searchResults, setSearchResults] = React.useState([]);
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+    const backgroundStyle = {
+        backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    };
 
-  return (
+    function recipeSearchResults(recipes) {
+        setSearchResults(recipes)
+    }
+
+    function recipeSelected(recipeName) {
+        console.log("selected recipe: " + recipeName)
+        setRecipeName(recipeName)
+        setSearchResults([])
+    }
+
+    let content = <RecipePage backgroundStyle={backgroundStyle} recipeName={recipeName}/>
+    if(searchResults.length > 0) {
+        content = <RecipeSearchResultsPage recipes={searchResults} onPress={recipeSelected}/>
+    }
+    return (
     <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <RecipePage backgroundStyle={backgroundStyle} recipeName="Affogato"/>
+        <RecipeSearchPage onSelect={setRecipeName} resultsCallback={recipeSearchResults}/>
+        <ScrollView>
+            {content}
+        </ScrollView>
     </SafeAreaView>
-  );
+    );
 }
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 15,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-    tinyLogo: {
-        width: 107,
-        height: 165,
-        padding: 10
-    },
-});
 
 export default App;
