@@ -21,11 +21,15 @@ create_mobile:
 		# "android-linux": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
 	# to scripts in mobile/package.json
 
+mobile_link_assets:
+	cd mobile; npx react-native-asset
+
 run_android:
 	cd mobile; npm run android-linux
 
 build_android:
 	set -e
+	cd mobile; npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 	cd mobile; npm run build:android
 	cd mobile; npm run release:android
 

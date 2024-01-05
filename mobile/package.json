@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --verbose",
     "android-linux": "npx react-native start",
     "build:android": "ANDROID_HOME=~/Android/Sdk; react-native build-android --mode=release",
     "release:android": "ANDROID_HOME=~/Android/Sdk; react-native run-android --mode=release",
@@ -13,8 +13,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo": "^49.0.21",
-    "expo-file-system": "~15.4.5",
     "react": "18.2.0",
     "react-native": "^0.73.1",
     "react-native-cli": "^2.0.1",

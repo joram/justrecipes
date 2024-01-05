@@ -10,22 +10,20 @@ import type {PropsWithChildren} from 'react';
 import * as RNFS from 'react-native-fs';
 
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
+    Image,
+    SafeAreaView,
+    ScrollView,
+    StatusBar,
+    StyleSheet,
+    Text,
+    useColorScheme,
+    View,
 } from 'react-native';
 
 import {
   Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Header from "./componenents/header";
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -57,34 +55,79 @@ function Section({children, title}: SectionProps): React.JSX.Element {
   );
 }
 
-function RecipePage({backgroundStyle, recipeName}) {
-  const isDarkMode = useColorScheme() === 'dark';
-  const filepath = 'recipes/' + recipeName + '.json';
-    RNFS.readFile('/storage/emulated/0/DATA/data.json', 'ascii')
-        .then((res) => {
-            console.log(res);
-            const d = JSON.parse(res);
-            this.setState({ content: res, fruitType: d.type });
-        })
-        .catch((err) => {
-            console.log(err.message, err.code);
-        });
+function getRecipe(name) {
+    const filepath = `custom/${name}.json`;
+    return RNFS.readFileAssets(filepath, 'utf8').then((res) => {
+        return JSON.parse(res)
+    }).catch((err) => {
+        console.log(err.message, err.code);
+
+    })
+}
+
+function RecipeInstructions({recipe}){
+    if(!recipe) return null
 
     let sections = [];
-    for (let i = 0; i < 10; i++) {
-        sections.push(<Section title={`Section ${i}`} key={i}>
-        <Text>Section {i} content</Text>
-        </Section>);
+    if(recipe){
+        let i = 1;
+        recipe.instructions.forEach(instruction => {
+            sections.push(<Section title={`Step ${i}`} key={i}>
+                <Text>{instruction}</Text>
+            </Section>);
+            i += 1
+        })
     }
+    return <>
+        {sections}
+    </>
+}
 
-  return <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
-      style={backgroundStyle}>
-    <Header />
-    <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white, }}>
-      {sections}
-    </View>
-  </ScrollView>
+
+function RecipeIngredients({recipe}){
+    if(!recipe) return null
+    let ingredients = [];
+    recipe.ingredients.forEach(ingredient => {
+        let i = 0;
+        ingredients.push(<Section title={`Ingredient ${i}`} key={"ingredient_"+i}>
+            <Text>{ingredient.amount}{ingredient.unit} {ingredient.name}</Text>
+        </Section>);
+        i += 1;
+    });
+
+    return <>
+        {ingredients}
+    </>
+}
+
+
+function RecipeImage({recipe}){
+    if(!recipe) return null
+    const uri = recipe.image_urls[0]
+    console.log(uri)
+    return <Header imgUri={uri} text={recipe.name}/>
+}
+
+function RecipePage({backgroundStyle, recipeName}) {
+    const isDarkMode = useColorScheme() === 'dark';
+    let [recipe, setRecipe] = React.useState(null);
+
+    useEffect(() => {
+        getRecipe(recipeName).then((recipe) => {
+            if(recipe){
+                setRecipe(recipe);
+            }
+        });
+    }, [recipeName]);
+
+    return <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
+        <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white, }}>
+
+            <RecipeImage recipe={recipe} />
+            <RecipeIngredients recipe={recipe} />
+            <RecipeInstructions recipe={recipe} />
+        </View>
+    </ScrollView>
 }
 
 function App(): React.JSX.Element {
@@ -100,18 +143,18 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <RecipePage backgroundStyle={backgroundStyle} recipeName=" Air Fryer Green Bean Fries "/>
+      <RecipePage backgroundStyle={backgroundStyle} recipeName="Affogato"/>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   sectionContainer: {
-    marginTop: 32,
+    marginTop: 15,
     paddingHorizontal: 24,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '600',
   },
   sectionDescription: {
@@ -122,6 +165,11 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
+    tinyLogo: {
+        width: 107,
+        height: 165,
+        padding: 10
+    },
 });
 
 export default App;
