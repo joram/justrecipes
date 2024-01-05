@@ -6,7 +6,8 @@ import os
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.realpath(__file__))
     src_dir = os.path.join(current_dir, f"../recipes/data/")
-    dest_dir = os.path.join(current_dir, f"./public/recipes/")
+    dest_dir = os.path.join(current_dir, f"./assets/recipes/")
+    manifest_path = os.path.join(current_dir, "recipe_manifest.json")
     os.makedirs(os.path.dirname(dest_dir), exist_ok=True)
     file_names = os.listdir(src_dir)
 
@@ -30,7 +31,7 @@ if __name__ == "__main__":
 
 
     # update the manifest
-    with open(f"{dest_dir}/../../src/recipe_manifest.json", "w") as f:
+    with open(manifest_path, "w") as f:
         content = json.dumps(manifest, indent=2, sort_keys=True)
         f.write(content)
 

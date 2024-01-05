@@ -1,7 +1,11 @@
 module.exports = {
     project: {
-        ios: {},
-        android: {},
+        ios: {
+
+        },
+        android: {
+            appName: 'Recipes',
+        },
     },
     assets: ['./assets/recipes'],
 };

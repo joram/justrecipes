@@ -1,48 +1,43 @@
-import _ from 'lodash';
 import React from 'react';
-import {SearchBar} from '@rneui/themed';
-import recipeManifest from "./recipe_manifest.json";
+import {Card, Image} from "@rneui/base";
+import {Dimensions} from "react-native";
+import {Stack} from "@rneui/layout";
 
-const shuffle = (array) => {
-    return array.map((a) => ({ sort: Math.random(), value: a }))
-        .sort((a, b) => a.sort - b.sort)
-        .map((a) => a.value);
-};
 
-function RecipeSearchPage({resultsCallback}) {
-    let [searchText, setSearchText] = React.useState("");
+function RecipeSearchResult({ title, image_url, onPress }) {
+    let [imgWidth, setImgWidth] = React.useState(0);
+    let [imgHeight, setImgHeight] = React.useState(0);
 
-    function searchRecipes(searchTerm, numChoices=5) {
-        let filtered_recipes = [];
-        const re = new RegExp(_.escapeRegExp(searchTerm), 'i');
-        const isMatch = (result) => re.test(result.title);
+    Image.getSize(image_url, (width, height) => {
+        // calculate image width and height
+        const screenWidth = Dimensions.get('window').width
+        const scaleFactor = width / screenWidth
+        const imageHeight = height / scaleFactor
+        setImgWidth(screenWidth);
+        setImgHeight(imageHeight);
+    })
 
-        // filter the recipes
-        recipeManifest.recipes.forEach(recipe => {
-            if (isMatch(recipe) && recipe.image != null && recipe.image !== "@type") {
-                filtered_recipes.push(recipe)
-            }
-        })
-
-        // shuffle the recipes
-        filtered_recipes = shuffle(filtered_recipes)
-        if (filtered_recipes.length > numChoices) {
-            filtered_recipes = filtered_recipes.slice(0, numChoices+1)
-        }
-
-        resultsCallback(filtered_recipes)
+    function handlePress() {
+        onPress(title)
     }
 
-    let count = 0;
-    if(recipeManifest) count = recipeManifest.recipes.length;
-    const placeholder = `Type Here... (${count} recipes)`
+    return <Card
+        key={title}
+        onPress={handlePress}
+        containerStyle={{paddingBottom:0}}
+    >
+        <Card.Title onPress={handlePress}>{title}</Card.Title>
+        <Card.Image onPress={handlePress} style={{width: imgWidth, height: imgHeight}} source={{ uri: image_url }}/>
+    </Card>
 
-    return <SearchBar
-        placeholder={placeholder}
-        onChangeText={setSearchText}
-        value={searchText}
-        onSubmitEditing={() => searchRecipes(searchText)}
-    />
 }
 
-export default RecipeSearchPage;
+function RecipeSearchResultsPage({ recipes, onPress }) {
+    let results = recipes.map((recipe) => {
+        return <RecipeSearchResult title={recipe.title} image_url={recipe.image} onPress={onPress} />
+    });
+    return <Stack align="center" spacing={2} flexDirection={"row"}>{results}</Stack>
+}
+
+
+export default RecipeSearchResultsPage

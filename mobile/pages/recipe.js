@@ -1,9 +1,9 @@
-import React, {useEffect} from "react";
-import {ScrollView, StyleSheet, Text, useColorScheme, View} from "react-native";
+import React, {useEffect, useState} from "react";
+import {FlatList, ScrollView, StyleSheet, Text, useColorScheme, View} from "react-native";
 import {Colors} from "react-native/Libraries/NewAppScreen";
-import * as RNFS from "react-native-fs";
-import Header from "../componenents/header";
-import { ListItem } from '@rneui/themed';
+import Header from "../components/header";
+import {getRecipe} from "../utils/recipes";
+import BouncyCheckbox from "react-native-bouncy-checkbox";
 
 const styles = StyleSheet.create({
     sectionContainer: {
@@ -55,15 +55,7 @@ function Section({children, title}) {
     );
 }
 
-function getRecipe(name) {
-    const filepath = `custom/${name}.json`;
-    return RNFS.readFileAssets(filepath, 'utf8').then((res) => {
-        return JSON.parse(res)
-    }).catch((err) => {
-        console.log(err.message, err.code);
 
-    })
-}
 
 function RecipeInstructions({recipe}){
     if(!recipe) return null
@@ -84,21 +76,25 @@ function RecipeInstructions({recipe}){
 }
 
 
+function Ingredient({ingredient}) {
+    const text = `${ingredient.amount}${ingredient.unit} - ${ingredient.name}`
+    return <BouncyCheckbox text={text} style={{marginTop:5, marginLeft:20}}/>
+}
+
+Ingredient.propTypes = {};
+
 function RecipeIngredients({recipe}){
-    if(!recipe) return null
     let ingredients = [];
-    recipe.ingredients.forEach(ingredient => {
-        ingredients.push(<ListItem key={ingredient.name}>
-            <ListItem.Content>
-                <ListItem.Title>{ingredient.name}</ListItem.Title>
-                <ListItem.Subtitle>{ingredient.amount}{ingredient.unit}</ListItem.Subtitle>
-            </ListItem.Content>
-        </ListItem>);
-    });
+    if(recipe){
+        ingredients = recipe.ingredients
+    }
+
+    function renderIngredient(ingredient){
+        return <Ingredient ingredient={ingredient.item} />
+    }
 
     return <>
-        <Text>Ingredients</Text>
-        {ingredients}
+        <FlatList data={ingredients} renderItem={renderIngredient}></FlatList>
     </>
 }
 
