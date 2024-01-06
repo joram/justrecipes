@@ -20,6 +20,15 @@ def _parse_categories(data):
             except KeyError:
                 continue
             categories.append(RecipeCategory[c])
+
+    keywords = data.get("keywords", [])
+    for keyword in keywords:
+        try:
+            RecipeCategory[keyword]
+        except KeyError:
+            continue
+        categories.append(RecipeCategory[keyword])
+
     return categories
 
 
@@ -83,6 +92,7 @@ def _parse_ingredients(data):
         ingredient_string = ingredient_string.lower()
         ingredient_string = ingredient_string.split(",")[0]
         ingredient_string = ingredient_string.split("and")[0]
+        ingredient_string = ingredient_string.replace("/", " ", 1)
         for bad_word in ["optional", "plus more", "plus", "to taste", "(", ")"]:
             ingredient_string = ingredient_string.replace(bad_word, "")
         if "</" in ingredient_string:
@@ -164,6 +174,9 @@ def _parse_notes(data):
 
 def _parse_images(data):
     image_details = data.get("image", [])
+    if type(image_details) != list:
+        image_details = [image_details]
+
     images = []
     for img in image_details:
         if type(img) == str:

@@ -58,6 +58,11 @@ def _convert_serving_size_to_grams(value, units):
 
 
 async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInfo]:
+
+    for not_food_words in ["pan", "plate"]:
+        if not_food_words in ingredient.name:
+            return []
+
     data = {}
     good_data = False
     page = 0
@@ -65,7 +70,7 @@ async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[Nutritio
     while not good_data:
         if attempts >= 3:
             return []
-        
+
         page += 1
         data = await _get_cached_fda_info_for_ingredient(ingredient, page)
         if "Internal Server Error" in str(data):

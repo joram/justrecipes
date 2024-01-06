@@ -12,9 +12,6 @@ from playwright.async_api import async_playwright
 def _cache_path(resource):
     dir_path = os.path.dirname(os.path.realpath(__file__))
     cache_path = os.path.join(dir_path, "../../cache")
-    if not os.path.exists(cache_path):
-        os.mkdir(cache_path)
-
     resource = resource.rstrip("/")
 
     has_valid_ending = False
@@ -30,10 +27,6 @@ def _cache_path(resource):
         os.path.abspath(cache_path),
         resource.lstrip("https://"),
     )
-
-    resource_dir = os.path.dirname(path)
-    if not os.path.exists(resource_dir):
-        os.makedirs(resource_dir)
     return path
 
 
@@ -152,6 +145,8 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
         return None
 
     path = _cache_path(cache_url)
+    if len(path) > 255:
+        return None
     if os.path.exists(path):
         with open(path, "rb") as f:
             content = f.read()

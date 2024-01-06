@@ -393,6 +393,8 @@ async def recipe_urls():
         urls = [url for url in urls if "recipes/" in url]
         for url in urls:
             content = await get_cached(url)
+            if content is None:
+                continue
             if is_recipe_url(BeautifulSoup(content, "html.parser")):
                 yield url
 
