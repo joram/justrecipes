@@ -21,7 +21,15 @@ async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) ->
     if "/" in ingredient.name:
         return None
 
-    content = await get_cached_request(url, cache_url)
+    content = None
+    while True:
+        try:
+            content = await get_cached_request(url, cache_url)
+            break
+        except Exception as e:
+            print("Error getting cached request for url: ", url)
+            time.sleep(1)
+            continue
     try:
         # for bad in ['<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">', '</pre></body></html>']:
         #     content = content.replace(bad, "")

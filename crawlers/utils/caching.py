@@ -75,6 +75,8 @@ async def get_cached_request(url: str, cache_url: Optional[str] = None, attempts
                 return await get_cached_request(url)
             return content
 
+    folder = os.path.dirname(path)
+    os.makedirs(folder, exist_ok=True)
     with open(path, "wb") as f:
         time.sleep(1)
         response = requests.get(url)
@@ -159,6 +161,8 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
                 return await get_cached(url, attempts=attempts+1)
             return content
 
+    folder = os.path.dirname(path)
+    os.makedirs(folder, exist_ok=True)
     with open(path, "w") as f:
         time.sleep(1)
         content = await _get_content(url, method=GetMethod.PLAYWRIGHT)
