@@ -28,6 +28,12 @@ class RecipeCategory(enum.Enum):
     SNACK = "snack"
     DRINK = "drink"
     OTHER = "other"
+    STARTER = "starter"
+    NUT_FREE = "nut free"
+    GLUTEN_FREE = "gluten free"
+    MAKE_AHEAD = "make ahead"
+    OVEN_BAKE = "oven bake"
+    GOURMET = "gourmet"
 
 
 class Recipe(BaseModel):
