@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
+import asyncio
 import json
-from typing import Any
+import os
 
-import getsitemap
 from bs4 import BeautifulSoup
-from scrapy.http import Response
-from scrapy.spiders import SitemapSpider
 
-from caching import _get_content, GetMethod
+from .caching import get_cached
+from .get_schema_data import get_schema_data
 
-
+# Roughly 300 websites
 recipe_websites = [
     "https://claudia.abril.com.br/",
     "https://abuelascounter.com/",
@@ -317,39 +316,92 @@ recipe_websites = [
 ]
 
 
-def is_recipe_url(soup) -> bool:
-    script_tags = soup.find_all("script", {"type": "application/ld+json"})
-    schema_datas = []
-    for script_tag in script_tags:
+recipe_websites = [
+    # "https://www.bbcgoodfood.com/",
+    "https://www.epicurious.com/",
+    "https://www.allrecipes.com/",
+    "https://www.foodnetwork.com/",
+    "https://www.simplyrecipes.com/",
+    "https://www.food.com/",
+    "https://www.tasteofhome.com/",
+    "https://www.myrecipes.com/",
+    "https://www.delish.com/",
+    "https://www.bettycrocker.com/",
+    "https://www.bonappetit.com/",
+]
+
+async def recipe_urls():
+
+    def is_recipe_url(soup) -> bool:
+
+        for schema_data in get_schema_data(soup):
+            schema_type = schema_data.get("@type", "nope")
+            if schema_type == "Recipe":
+                return True
+        return False
+
+    def get_cached_sitemap_urls():
+        for recipe_website in recipe_websites:
+            recipe_website = recipe_website.rstrip("/")
+            pwd = os.path.dirname(os.path.realpath(__file__))
+            slug_url = recipe_website.replace("https://", "").replace("http://", "").replace("/", "_").rstrip("/")
+            filepath = os.path.join(pwd, f"../../cache/sitemaps/{slug_url}.sitemap.json")
+            if os.path.exists(filepath):
+                with open(filepath, "r") as f:
+                    sitemap = json.load(f)
+                    for url in sitemap:
+                        yield url
+
+    def get_sitemap_urls(recipe_website):
+        recipe_website = recipe_website.rstrip("/")
+        pwd = os.path.dirname(os.path.realpath(__file__))
+        slug_url = recipe_website.replace("https://", "").replace("http://", "").replace("/", "_").rstrip("/")
+        filepath = os.path.join(pwd, f"../../cache/sitemaps/{slug_url}.sitemap.json")
+        if os.path.exists(filepath):
+            with open(filepath, "r") as f:
+                return json.load(f)
+
+        print("getting sitemap for: ", recipe_website)
         try:
-            schema_datas = json.loads(script_tag.text.replace("\u2009", " "))
-        except:
-            continue
-    if type(schema_datas) != list:
-        schema_datas = [schema_datas]
-    for schema_data in schema_datas:
-        schema_type = schema_data.get("@type", "wrong")
-        if schema_type == ["Recipe"] or schema_type == "Recipe":
-            return True
-    return False
 
+            from usp.tree import sitemap_tree_for_homepage
 
-async def generate_recipe_urls():
-    recipe_websites = ["https://www.allrecipes.com"]
+            tree = sitemap_tree_for_homepage(recipe_website)
+            sitemap = tree.all_pages()
+            sitemap = [page.url for page in sitemap]
+        except Exception:
+            print("error getting sitemap for: ", recipe_website)
+            return []
+        if len(sitemap) == 0:
+            return []
+
+        dir = os.path.dirname(filepath)
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+
+        with open(filepath, "w") as f:
+            json.dump(sitemap, f)
+        return sitemap
+
+    # random.shuffle(recipe_websites)
+    # for recipe_website in recipe_websites:
+    #     sitemap = get_sitemap_urls(recipe_website)
+    #     yield recipe_website, len(sitemap)
+
     for recipe_website in recipe_websites:
-        sitemap = getsitemap.retrieve_sitemap_urls(recipe_website)
-        for url in sitemap:
-            content = await _get_content(url, method=GetMethod.REQUESTS)
+        urls = list(get_sitemap_urls(recipe_website))
+        urls = [url for url in urls if "recipes/" in url]
+        for url in urls:
+            content = await get_cached(url)
             if is_recipe_url(BeautifulSoup(content, "html.parser")):
                 yield url
 
 
-async def walk():
-    generator = generate_recipe_urls()
-    async for url_coroutine in generator:
-        url = await url_coroutine
-        print(url)
-
 if __name__ == "__main__":
-    import asyncio
+    async def walk():
+        generator = recipe_urls()
+        async for url_coroutine in generator:
+            url = url_coroutine
+            print(url)
+
     asyncio.run(walk())

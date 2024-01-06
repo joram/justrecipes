@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from typing import Generator
 
@@ -15,3 +16,18 @@ def get_recipes() -> Generator[Recipe, None, None]:
         with open(f"{data_dir}/{file_name}") as f:
             content = f.read()
             yield Recipe.model_validate_json(content)
+
+
+if __name__ == "__main__":
+    for recipe in get_recipes():
+        print(recipe.name)
+        print(recipe.categories)
+        print(recipe.servings)
+        print(recipe.minutes)
+        print(recipe.source_url)
+        print(recipe.image_urls)
+        print(recipe.ingredients)
+        print(recipe.instructions)
+        print(recipe.notes)
+        print(recipe.nutrition_infos)
+        print()

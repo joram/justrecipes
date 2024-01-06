@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from typing import List, Optional
 
 from dotenv import load_dotenv
@@ -60,9 +61,19 @@ async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[Nutritio
     data = {}
     good_data = False
     page = 0
+    attempts = 0
     while not good_data:
+        if attempts >= 3:
+            return []
+        
         page += 1
         data = await _get_cached_fda_info_for_ingredient(ingredient, page)
+        if "Internal Server Error" in str(data):
+            print("Internal Server Error for ingredient: ", ingredient.name)
+            time.sleep(1)
+            attempts += 1
+            continue
+
         if data is None:
             return []
         if data["totalHits"] == 0:

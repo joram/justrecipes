@@ -107,15 +107,35 @@ class GetMethod(enum.Enum):
     PLAYWRIGHT = 2
 
 
-async def _get_content(url:str, method:GetMethod=GetMethod.PLAYWRIGHT):
+async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
     if method == GetMethod.REQUESTS:
-        return requests.get(url).content
+        content = requests.get(url).content.decode("utf-8")
+        return content
     elif method == GetMethod.PLAYWRIGHT:
         async def _get_content_async(url):
             p = await async_playwright().start()
             browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
-            await page.goto(url)
+            user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " \
+                            "AppleWebKit/537.36 (KHTML, like Gecko) " \
+                            "Chrome/90.0.4430.212 Safari/537.36"
+
+            page = await browser.new_page(user_agent=user_agent)
+            retries = 0
+            while True:
+                if retries >= 3:
+                    print("failed to load page")
+                    return None
+                try:
+                    referrer = "https://"+url.split("/")[2]
+                    response = await page.goto(url, referer=referrer, timeout=10000)
+                    if response.status == 200:
+                        break
+                    retries += 1
+                    print("retrying status code", response.status)
+                except:
+                    print("retrying")
+                    retries += 1
+                    time.sleep(1)
             content = await page.content()
             await page.close()
             return content
@@ -135,9 +155,13 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
     if os.path.exists(path):
         with open(path, "rb") as f:
             content = f.read()
+            if "403 Forbidden" in content.decode("utf-8"):
+                remove_cached(cache_url)
+                time.sleep(1)
+                return await get_cached(url, attempts=attempts + 1)
             if len(content) == 0:
-                remove_cached(url)
-                return await get_cached(url)
+                remove_cached(cache_url)
+                return await get_cached(url, attempts=attempts+1)
             return content
 
     with open(path, "w") as f:
@@ -145,35 +169,6 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
         content = await _get_content(url, method=GetMethod.PLAYWRIGHT)
         f.write(content)
         return content
-
-
-def clean_tags(tags=[]):
-    cleaned_tags = []
-    for tag in tags:
-        if tag.startswith("#"):
-            continue
-
-        tag = tag.lower()
-        tag = {
-            "bell pepper": "bell peppers",
-            "egg": "eggs",
-            "drink": "drinks",
-            "condiment/spread": "condiment",
-            "christmas eve": "christmas",
-            "breakfast and brunch": "breakfast",
-            "dessert": "desserts",
-            "grill": "grill/barbeque",
-            "cast-iron": "cast iron",
-            "healthy + lighten up": "healthy",
-            "meat + chicken": "meat",
-            "appetizers and snacks": "appetizers",
-            "with": None,
-
-        }.get(tag, tag)
-        if tag is not None:
-            cleaned_tags.append(tag)
-
-    return cleaned_tags
 
 
 def remove_cached(url):
@@ -209,29 +204,3 @@ def clean_str(s):
     s = s.replace("1/2", "0.5")
     s = str(s).lstrip(" \\n\n\t").rstrip(" \\n\n\t").replace("  ", " ")
     return s
-
-
-def store_tags(tags):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../tags.json")
-    with open(cache_path, "w") as f:
-        s = json.dumps(tags, indent=4, sort_keys=True)
-        f.write(s)
-
-
-def load_tags():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../tags.json")
-    with open(cache_path) as f:
-        content = f.read()
-        return json.loads(content)
-
-
-def load_recipes():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    cache_path = os.path.join(dir_path, "../recipes.json")
-    if not os.path.exists(cache_path):
-        return {}
-    with open(cache_path) as f:
-        content = f.read()
-        return json.loads(content)
