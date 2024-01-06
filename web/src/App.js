@@ -17,7 +17,7 @@ function Layout() {
                     <Link to="/"><Image src={"/logo512.jpg"} size="tiny" /></Link>
                 </Menu.Item>
                 <Menu.Item>
-                    <Link to="/plan">Plan</Link>
+                    <Link to="/plan">Plan Meals</Link>
                 </Menu.Item>
                 <Menu.Item>
                     <RecipeSearch/>

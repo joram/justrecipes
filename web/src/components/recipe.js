@@ -1,14 +1,15 @@
-import {Container, Grid, Header, Table} from "semantic-ui-react";
+import {Container, Grid, Header, Segment, Tab, Table} from "semantic-ui-react";
 import ImageCarousel from "./imageCarousel";
 import React, {useEffect} from "react";
 
 function RecipeImages({recipe}){
+    console.log("rendering recipe images")
+    console.log(recipe)
     return ImageCarousel(recipe.image_urls);
 }
 
 function RecipeIngredients({recipe}){
     return <>
-        <Header as='h3'>Ingredients</Header>
         <Table>
             <Table.Header>
                 <Table.Row>
@@ -18,9 +19,10 @@ function RecipeIngredients({recipe}){
             </Table.Header>
             <Table.Body>
                 {recipe.ingredients.map( (ingredient, index) => {
+                    const roundedAmount = Math.round(ingredient.amount * 100) / 100;
                     return <Table.Row key={index}>
                         <Table.Cell>{ingredient.name}</Table.Cell>
-                        <Table.Cell>{ingredient.amount} {ingredient.unit}</Table.Cell>
+                        <Table.Cell>{roundedAmount} {ingredient.unit}</Table.Cell>
                     </Table.Row>
                 })}
             </Table.Body>
@@ -29,22 +31,25 @@ function RecipeIngredients({recipe}){
 }
 
 function RecipeInstructions({recipe}){
+
+    const instructions = recipe.instructions.map((instruction, index) => {
+        return <Segment basic key={index} style={{paddingTop:5, paddingBottom:5}}>
+            <h5>Step {index+1}</h5>
+            {instruction}
+        </Segment>
+        }
+    )
+
     return <>
         <Header as='h3'>Instructions</Header>
-        <Table striped>
-            {recipe.instructions.map((instruction, index) => {
-                    return <Table.Row>
-                        <Table.Cell key={index}>{instruction}</Table.Cell>
-                    </Table.Row>
-                }
-            )}
-        </Table>
+        <Segment.Group>
+            {instructions}
+        </Segment.Group>
     </>
 }
 
 function RecipeNutrients({recipe}) {
     return <>
-        <Header as='h3'>Nutrients</Header>
         <Table striped>
             <Table.Header>
                 <Table.Row>
@@ -71,7 +76,6 @@ function RecipeMetadata(props) {
     const routeDomain = props.recipe.source_url.split("/")[2]
 
     return <>
-        <Header as='h3'>Metadata</Header>
         <Table>
             <Table.Body>
                 <Table.Row>
@@ -116,25 +120,33 @@ function Recipe({recipeTitle}){
 
     if (!recipe) return (<div>Loading...</div>);
 
-    return <Container>
-        <h1>{recipeTitle}</h1>
-        <RecipeImages recipe={recipe} />
-        <Grid columns={4} divided>
-            <Grid.Row>
-                <Grid.Column>
-                    <RecipeMetadata recipe={recipe} />
-                </Grid.Column>
-                <Grid.Column>
-                    <RecipeIngredients recipe={recipe} />
-                </Grid.Column>
-                <Grid.Column>
-                    <RecipeInstructions recipe={recipe} />
-                </Grid.Column>
-                <Grid.Column>
-                    <RecipeNutrients recipe={recipe} />
-                </Grid.Column>
-            </Grid.Row>
-        </Grid>
+
+    const panes = [
+        { menuItem: 'Ingredients', render: () => <Tab.Pane><RecipeIngredients recipe={recipe}/></Tab.Pane> },
+        { menuItem: 'Details', render: () => <Tab.Pane>
+                <RecipeMetadata recipe={recipe}/>
+                <RecipeNutrients recipe={recipe}/>
+            </Tab.Pane> },
+    ]
+
+    const tabbedSidebar = <Tab panes={panes} />
+
+
+    const informationTable = <Table>
+        <Table.Body>
+            <Table.Row verticalAlign={"top"}>
+                <Table.Cell width={1}>
+                    {tabbedSidebar}
+                </Table.Cell>
+                <Table.Cell width={5}>
+                    <RecipeInstructions recipe={recipe}/>
+                </Table.Cell>
+            </Table.Row>
+        </Table.Body>
+    </Table>
+    return <Container basic >
+        <Segment basic><RecipeImages recipe={recipe} /></Segment>
+        <Segment basic>{informationTable}</Segment>
     </Container>
 }
 

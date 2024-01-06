@@ -3,6 +3,7 @@ import React from 'react';
 import {Search} from 'semantic-ui-react';
 import recipe_manifest from '../recipe_manifest.json';
 import {useNavigate} from "react-router-dom";
+import {numTotalRecipes} from "../utils.py/search_recipes";
 
 const BreakException = {msg: "break"};
 
@@ -22,8 +23,6 @@ function SearchExampleStandard() {
                 title: recipe.title,
                 image: recipe.image,
                 onClick: () => {
-                    console.log("going to recipe "+recipe)
-                    console.log(recipe)
                     navigate("/recipe/"+recipe.title);
 
                 }
@@ -78,7 +77,7 @@ function SearchExampleStandard() {
     return (
         <Search
             loading={false}
-            placeholder='Search...'
+            placeholder={`Search ${numTotalRecipes()} recipes`}
             onResultSelect={(e, data) =>
                 console.log("selected", data)
             }

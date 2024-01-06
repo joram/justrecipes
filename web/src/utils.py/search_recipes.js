@@ -6,6 +6,11 @@ const shuffle = (array) => {
         .sort((a, b) => a.sort - b.sort)
         .map((a) => a.value);
 };
+
+function numTotalRecipes(){
+    return recipe_manifest.recipes.length
+}
+
 function searchRecipes(searchTerm, numChoices=5) {
         let filtered_recipes = [];
         const re = new RegExp(_.escapeRegExp(searchTerm), 'i');
@@ -33,4 +38,4 @@ function randomRecipe(searchTerm){
     return filtered_recipes[Math.floor(Math.random() * filtered_recipes.length)]
 }
 
-export {searchRecipes, randomRecipe}
+export {searchRecipes, randomRecipe, numTotalRecipes}

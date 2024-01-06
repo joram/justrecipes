@@ -10,13 +10,11 @@ export default function ImageCarousel(image_urls){
     });
 
     return (
-        <Segment>
-            <Carousel
-                elements={elements}
-                animation="fade"
-                showNextPrev={false}
-                showIndicators={true}
-            />
-        </Segment>
+        <Carousel
+            elements={elements}
+            animation="fade"
+            showNextPrev={false}
+            showIndicators={true}
+        />
     );
 }
