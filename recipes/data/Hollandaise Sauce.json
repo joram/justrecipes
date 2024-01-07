@@ -1,18 +1,242 @@
 {
   "name": "Hollandaise Sauce",
   "categories": [],
-  "servings": null,
-  "minutes": 10,
-  "source_url": "https://cooking.nytimes.com/recipes/10089-hollandaise-sauce",
+  "servings": 1,
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/hollandaise-sauce-58386201",
   "image_urls": [
-    "https://static01.nyt.com/images/2016/04/20/dining/20ASPARAGUS23/20ASPARAGUS23-square640.jpg",
-    "https://static01.nyt.com/images/2016/04/20/dining/20ASPARAGUS23/20ASPARAGUS23-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2016/04/20/dining/20ASPARAGUS23/20ASPARAGUS23-superJumbo.jpg"
+    "/verso/static/epicurious/assets/logo-seo.png"
   ],
   "ingredients": [
     {
-      "name": "butter",
-      "amount": 1.5,
+      "name": "large egg yolks",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "tarragon vinegar",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 9.02,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 232.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.85,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.27,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 233.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 46.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 67.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "light cream",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 200.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 33.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1847.0,
+          "unit": "IU",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 2.8,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 67.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sweet butter",
+      "amount": 2.5,
       "unit": "lb",
       "comment": "",
       "nutrition_infos": [
@@ -32,21 +256,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 13.15,
+          "amount": 2.35,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 54.0,
+          "amount": 12.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 11.98,
+          "amount": 1.18,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -73,22 +297,50 @@
           "serving_size_unit": "g"
         },
         {
+          "name": "Magnesium, Mg",
+          "amount": 9.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Phosphorus, P",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 233.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
           "name": "Sodium, Na",
-          "amount": 8.0,
+          "amount": 6.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 3530.0,
+          "amount": 1180.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
           "unit": "IU",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 4.2,
+          "amount": 2.8,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -115,77 +367,12 @@
           "serving_size_unit": "g"
         }
       ]
-    },
-    {
-      "name": "egg yolks",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "water",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 10.8,
-          "unit": "G",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 42.0,
-          "unit": "KCAL",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 10.8,
-          "unit": "G",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 8.0,
-          "unit": "MG",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "freshly squeezed",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Put the butter inside a heatproof bowl or glass measuring cup and set it in a basin of simmering water. Let it heat until the butter is melted.",
-    "Carefully spoon off the white residue on top of the clear yellow liquid in the center. Carefully pour off and reserve the yellow liquid. Discard the milky bottom portion.",
-    "Combine the egg yolks and water, beating rapidly with a wire whisk. Place the saucepan in a larger basin of simmering water, beating constantly. Gradually add the clear yellow liquid, beating constantly while heating the mixture in the simmering water. Do not overheat. Beat and heat until the sauce has the consistency of a thin mayonnaise.",
-    "Add the salt, cayenne pepper and lemon juice and blend thoroughly."
+    "Put egg yolks in glass heatproof bowl (or top of double boiler) and beat in the vinegar and cream. Season with salt and a little cayenne.",
+    "Stand bowl in pan of hot water (or top of double boiler over hot water) over a slow fire and beat with a small wire whisk until the mixture is as thick as heavy cream. It is important that the water should not boil; add cold water if it gets too hot.",
+    "Beat in the frozen butter, piece by piece, adding another piece only when the previous one has been absorbed. When all the butter is absorbed, add lemon juice. To hold, stand bowl in a pan of lukewarm water, cover top with foil."
   ],
   "notes": [],
   "nutrition_infos": [
@@ -193,97 +380,125 @@
       "name": "Protein",
       "amount": 1.18,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 16.7,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 13.15,
+      "amount": 9.02,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 54.0,
+      "amount": 232.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 11.98,
+      "amount": 7.85,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
       "amount": 1.2,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 24.0,
       "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
       "amount": 1.27,
       "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 233.0,
+      "unit": "MG",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 8.0,
+      "amount": 46.0,
       "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 3530.0,
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
       "unit": "IU",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 4.2,
-      "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 67.0,
       "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 10.0,
       "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1847.0,
+      "unit": "IU",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 2.8,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Magnesium, Mg",
+      "amount": 9.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Phosphorus, P",
+      "amount": 24.0,
+      "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     }
