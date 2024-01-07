@@ -1,16 +1,68 @@
 {
   "name": "Taco Seasoning",
   "categories": [],
-  "servings": 3,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/taco-seasoning-52946191",
+  "servings": 1,
+  "minutes": 5,
+  "source_url": "https://cooking.nytimes.com/recipes/1019760-taco-seasoning",
   "image_urls": [
-    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
+    "https://static01.nyt.com/images/2018/11/15/dining/ss-taco-seasoning/ss-taco-seasoning-square640.jpg",
+    "https://static01.nyt.com/images/2018/11/15/dining/ss-taco-seasoning/ss-taco-seasoning-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2018/11/15/dining/ss-taco-seasoning/ss-taco-seasoning-superJumbo.jpg"
   ],
   "ingredients": [
     {
+      "name": "cornstarch",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "garlic powder",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 236.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 556.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "onion powder",
-      "amount": 2.0,
+      "amount": 2.5,
       "unit": "tsp",
       "comment": "",
       "nutrition_infos": [
@@ -30,7 +82,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 236.0,
+          "amount": 111.0,
           "unit": "G",
           "serving_size": 0.8999999761581421,
           "serving_size_unit": "g"
@@ -113,60 +165,10 @@
           "serving_size_unit": "g"
         }
       ]
-    },
-    {
-      "name": "garlic powder",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 125.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "dried oregano",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
-      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "In a small bowl, combine the chili powder, onion powder, cumin, garlic powder, paprika, oregano, sugar, and salt. Use immediately or store in an airtight container at room temperature for up to 6 months."
+    "Mix all ingredients together until well combined."
   ],
   "notes": [],
   "nutrition_infos": [
@@ -174,28 +176,35 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.8999999761581421,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.8999999761581421,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 236.0,
       "unit": "G",
-      "serving_size": 0.8999999761581421,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 556.0,
       "unit": "KCAL",
-      "serving_size": 0.8999999761581421,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -221,13 +230,6 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 0.8999999761581421,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
       "amount": 0.0,
       "unit": "MG",
       "serving_size": 0.8999999761581421,

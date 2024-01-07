@@ -2,16 +2,39 @@
   "name": "Apple Crisp",
   "categories": [],
   "servings": 7,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/apple-crisp-52921071",
+  "minutes": 75,
+  "source_url": "https://cooking.nytimes.com/recipes/1022569-apple-crisp",
   "image_urls": [
-    "https://assets.epicurious.com/photos/54ad3a0619925f464b3b16c7/master/w_800,h_800,c_limit/51203860_apple-crisp_1x1.jpg"
+    "https://static01.nyt.com/images/2021/09/22/dining/21Korex1-crisp/21Korex1-crisp-square640.jpg",
+    "https://static01.nyt.com/images/2021/09/22/dining/21Korex1-crisp/21Korex1-crisp-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2021/09/22/dining/21Korex1-crisp/21Korex1-crisp-superJumbo.jpg"
   ],
   "ingredients": [
     {
+      "name": "cup/71 grams all-purpose flour",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "6 grams chopped pecans or walnuts",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup/28 grams old-fashioned rolled oats",
+      "amount": 2.5,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
       "name": "all-purpose flour",
       "amount": 1.0,
-      "unit": "cup",
+      "unit": "tbsp",
       "comment": "",
       "nutrition_infos": [
         {
@@ -30,35 +53,35 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 88.5,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 355.0,
+          "amount": 407.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.23,
+          "amount": 13.63,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.2,
+          "amount": 6.4,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 3.48,
+          "amount": 3.71,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -101,32 +124,124 @@
       ]
     },
     {
-      "name": "firm",
-      "amount": 2.0,
+      "name": "apples",
+      "amount": 3.0,
       "unit": "lb",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "up to 1 4 cup water",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "equipment: 8-inch-square baking dish",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 52.0,
+          "unit": "KCAL",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 10.4,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.23,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 110.0,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 65.0,
+          "unit": "IU",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 3.1,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 154.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
-    "In a medium bowl, whisk together the flour, brown sugar, cinnamon, and salt. Add the butter pieces and use your fingers to rub the mixture together until the butter is incorporated and the mixture resembles coarse crumbs. Cover with plastic wrap and place in the refrigerator to chill while you prepare the apple filling.",
-    "Position a rack in the center of the oven and preheat to 375°F.",
-    "Peel the apples and cut them in half lengthwise. Scoop out the cores and discard. Cut the apple halves lengthwise into 1/2- to 3/4-inch-thick slices—there should be about 6 cups total. Transfer the apple slices to an ungreased 8-inch-square baking dish and spread them out evenly. Drizzle up to 1/4 cup of water over the apples—use less water if the apples are particularly juicy.",
-    "Scatter the crisp topping evenly over the fruit without pressing down on it. Bake until the topping is browned, the apples are tender when pierced with a knife, and the juices are bubbling, about 45 to 50 minutes. Transfer to a wire rack to cool for 10 minutes. Serve warm, with or without a scoop of vanilla ice cream or a drizzle of heavy cream. DO AHEAD: Apple crisp can be baked, cooled completely, covered, and kept at room temperature for 1 day. Reheat, uncovered, in a warm oven until heated through."
+    "Make the topping: Rub together the flour, both sugars, the spice and salt in a medium bowl. Toss in the butter and nuts to coat, then pinch the butter into the dry ingredients until no floury bits remain. Add the oats, and gently rake and squeeze them through the buttery mixture to form peanut-size crumbles. Freeze while you prepare the apples. The crumb mixture can be frozen in an airtight container for up to 1 month.",
+    "Prepare the apples: Heat oven to 375 degrees. Use 1 tablespoon sugar for all sweet apples; 2 to 3 tablespoons for sweet-tart apples or a mix; and 4 tablespoons for all tart apples. Mix the sugar with the flour, spice and salt in a 10-inch cast-iron or other heavy ovenproof skillet.",
+    "If you’d like, peel the apples. Cut into 1/2-inch chunks, discarding the seeds and cores. Add to the skillet and drizzle with 1 tablespoon lemon juice for tart apples and 2 tablespoons for sweet-tart and sweet ones. Mix until evenly coated, then spread in an even layer. Crumble the frozen crisp mixture on top. (There will be gaps.)",
+    "Bake until the topping is golden brown, and the apples are tender and bubbling, 45 to 50 minutes. Cool for at least 15 minutes on a rack before serving hot, warm or at room temperature."
   ],
   "notes": [],
   "nutrition_infos": [
@@ -146,35 +261,35 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 88.5,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 355.0,
+      "amount": 407.0,
       "unit": "KCAL",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.23,
+      "amount": 13.63,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
+      "amount": 6.4,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 3.48,
+      "amount": 3.71,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -212,6 +327,48 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 110.0,
+      "unit": "MG",
+      "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 65.0,
+      "unit": "IU",
+      "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 3.1,
+      "unit": "MG",
+      "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 154.0,
       "serving_size_unit": "g"
     }
   ]

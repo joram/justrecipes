@@ -1,42 +1,440 @@
 {
   "name": "Peach Ice Cream",
   "categories": [],
-  "servings": 5,
-  "minutes": 60,
-  "source_url": "https://cooking.nytimes.com/recipes/6658-peach-ice-cream",
+  "servings": 2,
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/peach-ice-cream-52867261",
   "image_urls": [
-    "https://static01.nyt.com/images/2014/05/12/dining/Peach-Ice-Cream/Peach-Ice-Cream-square640.jpg",
-    "https://static01.nyt.com/images/2014/05/12/dining/Peach-Ice-Cream/Peach-Ice-Cream-superJumbo.jpg"
+    "/verso/static/epicurious/assets/logo-seo.png"
   ],
   "ingredients": [
     {
       "name": "ripe peaches",
-      "amount": 4.0,
+      "amount": 2.0,
       "unit": "lb",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "4 cups heavy cream",
-      "amount": 1.0,
-      "unit": "qt",
+      "name": "cornstarch",
+      "amount": 1.3333333333333333,
+      "unit": "tbsp",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "vanilla extract",
+      "name": "heavy cream",
+      "amount": 2.6666666666666665,
+      "unit": "cup",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 43.75,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 12.09,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 707.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 11.67,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 125.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 167.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 87.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 42.0,
+          "unit": "IU",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 182.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 28.78,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "whole milk",
+      "amount": 2.6666666666666665,
+      "unit": "cup",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.75,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 5.42,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 67.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 125.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 167.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 54.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1900.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 42.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 2.08,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "large egg yolks",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "pure vanilla extract",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "pure almond extract",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 240.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
-    "Peel peaches over a large bowl to catch the juice. Halve and pit them and chop roughly. Place in the bowl and sprinkle with 1/2 cup of sugar, the salt and lemon juice and let them sit for 30 minutes.",
-    "While peaches macerate, put cream and remaining sugar in saucepan with vanilla bean or vanilla. Heat over medium-low heat, stirring frequently to keep from scorching, until the sugar is dissolved. Remove from heat and cool. Discard vanilla bean.",
-    "Pour cream over peaches and mix thoroughly. Taste to see if it needs more sugar. (This will depend on the peaches.) Refrigerate until chilled.",
-    "Pour the mixture into an ice-cream machine and freeze according to the manufacturer's directions until set but not quite hard. (If serving immediately, freeze harder.) Pack the ice cream into a bowl or mold to completely solidify. When it has hardened, dip mold into hot water or wrap in a hot towel and invert onto a serving platter. Or, simply scoop and serve."
+    "Cut an X in bottom of each peach, then blanch in boiling water 15 seconds. Transfer with a slotted spoon to an ice bath to stop cooking. Peel peaches and cut into 1/2-inch pieces. Toss with lemon juice and 3/4 cup plus 2 Tbsp sugar in a large bowl. Let macerate, covered and chilled, at least 8 hours.",
+    "Whisk together cornstarch, 1/4 tsp salt, and remaining 1/4 cup sugar in a heavy medium saucepan. Add cream and milk and bring to a boil over medium heat, whisking constantly. Add to yolks in a slow stream, whisking constantly, to temper, then pour mixture back into saucepan.",
+    "Cook, stirring with a wooden spoon, just until custard coats back of spoon and registers 170°F on an instant-read thermometer, 1 to 2 minutes (mixture will be thick). Strain through a fine-mesh sieve into a metal bowl and stir in extracts. Chill custard, its surface covered with parchment paper (to prevent a skin from forming), until cold, at least 4 hours.",
+    "Transfer 2 cups peaches with slotted spoon to a bowl.",
+    "Purée remaining peaches and liquid in a blender until smooth. Add purée to custard and freeze in ice cream maker, then transfer to a bowl and stir in reserved peaches.",
+    "Transfer to an airtight container and put in freezer to harden, about 2 hours."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 3.33,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 43.75,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 12.09,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 707.0,
+      "unit": "KCAL",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 11.67,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 125.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 167.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 87.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 42.0,
+      "unit": "IU",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 182.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 28.78,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1900.0,
+      "unit": "IU",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }
