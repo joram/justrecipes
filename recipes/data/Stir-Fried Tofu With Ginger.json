@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "packages extra firm tofu",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "drained",
+      "original_string": "2 (14-ounce) packages extra firm tofu, drained",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons soy sauce ",
       "nutrition_infos": []
     },
     {
@@ -29,34 +31,106 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons cornstarch ",
       "nutrition_infos": []
     },
     {
-      "name": "neutral oil such as canola or sunflower",
+      "name": "five spice powder",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon five spice powder ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "white",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon white or black pepper ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "neutral oil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "Neutral oil (such as canola or sunflower) ",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1242.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 86.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "scallions about 8 stems",
+      "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "trimmed,  white and green parts separated and cut into 2-inch segments",
+      "original_string": "1 bunch scallions (about 8 stems), trimmed, white and green parts separated and cut into 2-inch segments",
       "nutrition_infos": []
     },
     {
-      "name": "ounces",
+      "name": "-inch piece ginger",
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3-inch piece ginger (about 3 ounces), peeled and finely julienned (½ packed cup julienned ginger)",
       "nutrition_infos": []
     },
     {
-      "name": "toasted white sesame seeds",
+      "name": "toasted white sesame seeds, to serve",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Toasted white sesame seeds, to serve",
+      "nutrition_infos": []
+    },
+    {
+      "name": "rice, to serve",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Rice, to serve",
       "nutrition_infos": []
     },
     {
@@ -64,14 +138,89 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons light soy sauce",
       "nutrition_infos": []
     },
     {
-      "name": "shaoxing wine or dry sherry",
+      "name": "shaoxing wine",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons Shaoxing wine or dry sherry",
       "nutrition_infos": []
+    },
+    {
+      "name": "chile oil",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons chile oil or crisp ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -82,5 +231,62 @@
     "Transfer to a plate, top with sesame seeds and serve with rice."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 93.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 1242.0,
+      "unit": "KCAL",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 86.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

@@ -13,13 +13,87 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 11.709999999999999,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 91.80000000000001,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1143.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 1/4-inch dice",
+      "original_string": "1 large onion, cut into 1/4-inch dice",
       "nutrition_infos": []
     },
     {
@@ -27,10 +101,11 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 11.709999999999999,
+          "amount": 9.68,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -44,14 +119,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 91.80000000000001,
+          "amount": 74.2,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 429.0,
+          "amount": 355.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -119,13 +194,15 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 cupsFresh Vegetable Broth",
       "nutrition_infos": []
     },
     {
       "name": "russet potatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 1/4-inch dice",
+      "original_string": "2 russet potatoes, cut into 1/4-inch dice",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -295,20 +372,99 @@
       "amount": 4.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "4 cups fresh corn kernels",
       "nutrition_infos": []
     },
     {
-      "name": "half-",
+      "name": "diced red bell pepper",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup diced (1/4 inch) red bell pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "diced green bell pepper",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup diced (1/4 inch) green bell pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt, to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "half-and-half",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup half-and-half",
       "nutrition_infos": []
     },
     {
       "name": "ripe plum tomatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "seeded and cut into 1/4-inch dice,  for garnish",
+      "original_string": "2 ripe plum tomatoes, seeded and cut into 1/4-inch dice, for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thinly slivered fresh basil leaves",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "for garnish",
+      "original_string": "1/2 cup thinly slivered fresh basil leaves, for garnish",
       "nutrition_infos": []
     }
   ],
@@ -324,28 +480,63 @@
       "name": "Protein",
       "amount": 11.709999999999999,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 91.80000000000001,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 429.0,
+      "amount": 1143.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39300.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -370,13 +561,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Thiamin",
       "amount": 0.0,
       "unit": "MG",
@@ -394,13 +578,6 @@
       "name": "Niacin",
       "amount": 6.24,
       "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
@@ -447,13 +624,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 18.2,
       "unit": "MG",
@@ -464,20 +634,6 @@
       "name": "Vitamin B-6",
       "amount": 0.135,
       "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 148.0,
       "serving_size_unit": "g"
     }

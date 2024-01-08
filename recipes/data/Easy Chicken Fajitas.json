@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 6,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/chicken-fajitas-53045211",
+  "source_url": "https://www.epicurious.com/recipes/member/views/chicken-fajitas-568c38dcf63e660b26f44962",
   "image_urls": [
     "https://assets.epicurious.com/photos/63ceae6c369e5f53aace10de/16:9/w_6879,h_3869,c_limit/ChickenFajitas_RECIPE_012023_46012.jpg",
     "https://assets.epicurious.com/photos/63ceae6c369e5f53aace10de/4:3/w_5323,h_3992,c_limit/ChickenFajitas_RECIPE_012023_46012.jpg",
@@ -14,7 +14,8 @@
       "name": "large onions",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "3 large onions, divided",
       "nutrition_infos": []
     },
     {
@@ -22,17 +23,18 @@
       "amount": 1.0,
       "unit": "bunch",
       "comment": "",
+      "original_string": "1 bunch cilantro, plus sprigs for serving",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 0.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 192.1,
           "unit": "G",
           "serving_size": 0.5,
           "serving_size_unit": "g"
@@ -46,14 +48,14 @@
         },
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 25.0,
           "unit": "G",
           "serving_size": 0.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 100.0,
+          "amount": 2682.0,
           "unit": "KCAL",
           "serving_size": 0.5,
           "serving_size_unit": "g"
@@ -61,54 +63,27 @@
       ]
     },
     {
-      "name": "zest",
+      "name": "zest and juice of 2 oranges",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Zest and juice of 2 oranges",
+      "nutrition_infos": []
     },
     {
-      "name": "zest",
+      "name": "zest and juice of 3 limes",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Zest and juice of 3 limes",
+      "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "6 garlic cloves, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -148,45 +123,517 @@
       ]
     },
     {
-      "name": "or more extra-virgin olive oil",
+      "name": "extra-virgin olive oil",
       "amount": 6.0,
       "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "6 Tbsp. (or more) extra-virgin olive oil, divided",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ancho chile powder",
+      "amount": 2.0,
+      "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 Tbsp. ancho chile powder",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 47.1,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 282.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "tbsp.",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 Tbsp. plus ½ tsp. Diamond Crystal or 2 tsp. Morton kosher salt, divided, plus more",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 75.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1520.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 61.2,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Magnesium, Mg",
+          "amount": 200.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Zinc, Zn",
+          "amount": 3.75,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Copper, Cu",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Manganese, Mn",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.85,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 10.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 8.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground cumin",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 tsp. ground cumin",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 54.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dried mexican oregano",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 tsp. dried Mexican oregano",
       "nutrition_infos": []
     },
     {
-      "name": "ground cori",
+      "name": "freshly ground pepper",
+      "amount": 7.5,
+      "unit": "tsp",
+      "comment": "divided",
+      "original_string": "1¼ tsp. freshly ground pepper, divided, plus more",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground coriander",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 tsp. ground coriander",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "smoked paprika",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 tsp. smoked paprika",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 625.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 37500.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "skinless",
       "amount": 3.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "boneless chicken thighs",
+      "original_string": "3 lb. skinless, boneless chicken thighs or breasts",
       "nutrition_infos": []
     },
     {
       "name": "medium red",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "yellow,  orange,  and/or green bell peppers,  ribs and stems removed,  cut into 1/2\"-thick strips",
+      "original_string": "4 medium red, yellow, orange, and/or green bell peppers, ribs and stems removed, cut into ½\"-thick strips",
       "nutrition_infos": []
     },
     {
-      "name": "warm corn tortillas",
+      "name": "warm corn tortillas, sliced avocado, sour cream, coarsely grated monterey jack, pico de gallo, and lime wedges",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Warm corn tortillas, sliced avocado, sour cream, coarsely grated Monterey Jack, pico de gallo, and lime wedges (for serving)",
       "nutrition_infos": []
     }
   ],
@@ -201,14 +648,14 @@
   "nutrition_infos": [
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 93.3,
       "unit": "G",
       "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 192.1,
       "unit": "G",
       "serving_size": 0.5,
       "serving_size_unit": "g"
@@ -222,16 +669,149 @@
     },
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 25.0,
       "unit": "G",
       "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 100.0,
+      "amount": 2682.0,
       "unit": "KCAL",
       "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 25.0,
+      "unit": "G",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 25.0,
+      "unit": "G",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 1520.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 61.2,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Magnesium, Mg",
+      "amount": 200.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Zinc, Zn",
+      "amount": 3.75,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Copper, Cu",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Manganese, Mn",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.85,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 10.0,
+      "unit": "MG",
+      "serving_size": 8.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 37500.0,
+      "unit": "IU",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

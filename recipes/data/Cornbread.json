@@ -1,119 +1,442 @@
 {
   "name": "Cornbread",
   "categories": [],
-  "servings": 7,
+  "servings": 12,
   "minutes": 35,
-  "source_url": "https://cooking.nytimes.com/recipes/1022722-cornbread",
+  "source_url": "https://www.bettycrocker.com/recipes/cornbread/8990e15c-fc1d-4a8d-b8b3-4b37f45eca49",
   "image_urls": [
-    "https://static01.nyt.com/images/2022/10/25/dining/YK-Cornbread/merlin_215246079_784f1648-4d10-43fc-81d1-1ee1e9023955-square640.jpg",
-    "https://static01.nyt.com/images/2022/10/25/dining/YK-Cornbread/merlin_215246079_784f1648-4d10-43fc-81d1-1ee1e9023955-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2022/10/25/dining/YK-Cornbread/merlin_215246079_784f1648-4d10-43fc-81d1-1ee1e9023955-superJumbo.jpg"
+    "https://mojo.generalmills.com/api/public/content/LHnRiJUMzE6os5kpUpsYOw_gmi_hi_res_jpeg.jpeg?v=5e1c6cf5&t=b5673970ed9e41549a020b29d456506d"
   ],
   "ingredients": [
     {
-      "name": "50 grams medium-coarse yellow cornmeal",
-      "amount": 1.3333333333333333,
-      "unit": "",
+      "name": "butter",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "all-purpose flour",
-      "amount": 3.5,
-      "unit": "g",
-      "comment": "",
+      "original_string": "1/4  cup butter (1/2 stick)",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 21.68,
+          "amount": 14.64,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 10.0,
+          "amount": 4.8100000000000005,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 183.97,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 495.0,
+          "amount": 811.0,
           "unit": "KCAL",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.23,
+          "amount": 106.67,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.2,
+          "amount": 3.5999999999999996,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 3505.0,
+          "unit": "MG",
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 5.48,
+          "amount": 6.33,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 37640.0,
+          "amount": 50158.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Thiamin",
+          "name": "Vitamin A, IU",
+          "amount": 4530.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.2,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
           "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Riboflavin",
-          "amount": 0.329,
-          "unit": "MG",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Niacin",
-          "amount": 5.16,
-          "unit": "MG",
-          "serving_size": 31.0,
+          "unit": "G",
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 3.0,
+          "amount": 2.38,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "milk",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1  cup milk",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.75,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 5.42,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 67.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 131.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 324.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 56.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1000.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 42.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 2.08,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "large egg",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1  large egg",
+      "nutrition_infos": []
+    },
+    {
+      "name": "yellow",
+      "amount": 1.25,
+      "unit": "cup",
+      "comment": "white",
+      "original_string": "1 1/4  cups yellow, white or blue cornmeal",
+      "nutrition_infos": []
+    },
+    {
+      "name": "gold medal™ all-purpose flour",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1  cup Gold Medal™ all-purpose flour",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.71,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.48,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 357.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.49,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.4,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 20.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.06,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 149.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.445,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folate, total",
+          "amount": 293.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folic acid",
+          "amount": 154.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2  cup granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
       "name": "baking powder",
-      "amount": 2.0,
-      "unit": "tsp",
+      "amount": 1.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "1  tablespoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -145,7 +468,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 3386.0,
+          "amount": 3330.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -160,258 +483,210 @@
       ]
     },
     {
-      "name": "baking soda",
-      "amount": 2.5,
+      "name": "salt",
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2  teaspoon salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.6000000238418579,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.6000000238418579,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.6000000238418579,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 0.6000000238418579,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 26700.0,
+          "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 0.6000000238418579,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "470 milliliters buttermilk",
-      "amount": 2.0,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "large eggs",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Protein",
-          "amount": 12.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 10.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 140.0,
-          "unit": "KCAL",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 56.0,
-          "unit": "MG",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 2.0,
-          "unit": "MG",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 140.0,
-          "unit": "MG",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 370.0,
-          "unit": "MG",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 50.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 3.0,
-          "unit": "G",
-          "serving_size": 50.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
     }
   ],
   "instructions": [
-    "Heat oven to 400 degrees. Butter the bottom and sides of a 10-inch skillet or cast-iron pan and set aside.",
-    "In a medium bowl, whisk the cornmeal, flour, sugar, baking powder, salt and baking soda. Make a well in the center and pour in the buttermilk and eggs. Use a wooden spoon or spatula to stir until incorporated. Fold in the melted butter. Pour the batter into the prepared skillet and smooth the top.",
-    "Bake until the top is lightly browned and the sides pull away cleanly from the skillet, about 25 to 30 minutes. Cool completely and serve warm or room temperature, or reserve to make cornbread dressing."
+    "Heat the oven to 400°F. Spray the bottom and sides of an 8-inch square pan or 9-inch round cake pan with the cooking spray.",
+    "In a 1-quart saucepan, heat the butter over low heat until melted.",
+    "In a large bowl, beat the melted butter, milk and egg with a fork or wire whisk until well mixed. Add the cornmeal, flour, sugar, baking powder and salt all at once; stir just until the flour is moistened (batter will be lumpy). Pour batter into the pan; use a rubber spatula to scrape batter from bowl. Spread batter evenly in pan and smooth top of batter.",
+    "Bake 20 to 25 minutes or until golden brown and a toothpick inserted in the center comes out clean. Serve warm."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 21.68,
+      "amount": 14.64,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 10.0,
+      "amount": 4.8100000000000005,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 183.97,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 495.0,
+      "amount": 811.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.23,
+      "amount": 106.67,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
+      "amount": 3.5999999999999996,
       "unit": "G",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 5.48,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 37640.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Thiamin",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Riboflavin",
-      "amount": 0.329,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 5.16,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 3.0,
-      "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 3386.0,
+      "amount": 3505.0,
       "unit": "MG",
-      "serving_size": 0.6000000238418579,
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 6.33,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 50158.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 4530.0,
+      "unit": "IU",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 4.2,
+      "unit": "MG",
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 370.0,
+      "amount": 15.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 2.38,
+      "unit": "G",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 324.0,
+      "unit": "MG",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 42.0,
+      "unit": "IU",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.445,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folate, total",
+      "amount": 293.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folic acid",
+      "amount": 154.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

@@ -11,74 +11,165 @@
   ],
   "ingredients": [
     {
-      "name": "vodka",
-      "amount": 2.0,
-      "unit": "oz",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cointreau or triple sec",
-      "amount": 1.5,
-      "unit": "oz",
-      "comment": "",
+      "name": "granulated sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "for rimming the glass",
+      "original_string": "1 tablespoon granulated sugar, for rimming the glass",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 63.3,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 267.0,
+          "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 63.3,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Sugars, added",
-          "amount": 63.3,
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "vodka",
+      "amount": 2.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "2 ounces vodka",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lemon juice",
+      "amount": 1.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 ounce lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cointreau",
+      "amount": 1.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1/2 ounce Cointreau or triple sec",
+      "nutrition_infos": []
     },
     {
       "name": "simple syrup",
       "amount": 1.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1/2 ounce <a href=\"https://cooking.nytimes.com/recipes/1024368-simple-syrup\"><span>simple syrup</span></a>",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lemon twist",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Lemon twist, for serving",
       "nutrition_infos": []
     }
   ],
@@ -92,49 +183,63 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 63.3,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 267.0,
+      "amount": 375.0,
       "unit": "KCAL",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 63.3,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Sugars, added",
-      "amount": 63.3,
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     }
   ]

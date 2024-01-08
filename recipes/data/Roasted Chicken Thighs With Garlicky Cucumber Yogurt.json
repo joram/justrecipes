@@ -12,16 +12,26 @@
   "ingredients": [
     {
       "name": "to 2 1/2 pounds boneless",
-      "amount": 2.3333333333333335,
+      "amount": 2.25,
+      "unit": "",
+      "comment": "skinless chicken thighs",
+      "original_string": "2 1/4 to 2 1/2 pounds boneless, skinless chicken thighs ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and freshly ground black pepper",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Salt and freshly ground black pepper",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely grated,  minced",
+      "original_string": "4 garlic cloves, finely grated, minced or passed through a press",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,28 +42,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 123.3,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 26.67,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 900.0,
+          "amount": 1200.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40.0,
+          "amount": 840.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -61,10 +71,27 @@
       ]
     },
     {
+      "name": "finely chopped fresh thyme",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon finely chopped fresh thyme or oregano leaves, or 1 teaspoon dried thyme or oregano",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large a 1/4 tsp of red-pepper flakes",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Large pinch of red-pepper flakes, plus more for serving",
+      "nutrition_infos": []
+    },
+    {
       "name": "extra-virgin olive oil",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons extra-virgin olive oil, plus more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -117,7 +144,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 16.630000000000003,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -139,24 +166,134 @@
       ]
     },
     {
-      "name": "plain greek or other strained",
+      "name": "lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut lengthwise into thin wedges",
+      "original_string": "1 lemon, cut lengthwise into thin wedges",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 30.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 300.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 800.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "plain greek",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup plain Greek or other strained, thick yogurt (or substitute labneh or sour cream)",
       "nutrition_infos": []
     },
     {
       "name": "grated seedless cucumber",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "such as persian",
+      "original_string": "1/2 cup grated seedless cucumber, such as Persian or hothouse cucumbers (see Tip)",
       "nutrition_infos": []
     },
     {
-      "name": "chopped fresh mint or use parsley or cilantro",
+      "name": "chopped fresh mint",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons chopped fresh mint (or use parsley or cilantro), for serving",
       "nutrition_infos": []
     }
   ],
@@ -177,28 +314,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 123.3,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 26.67,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 900.0,
+      "amount": 1200.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 840.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -219,7 +356,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 13.3,
+      "amount": 16.630000000000003,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -236,6 +373,48 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 3.33,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 4.0,
+      "unit": "MG",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

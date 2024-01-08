@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 8,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/chocolate-mousse-cake-pesach-52809641",
+  "source_url": "https://www.epicurious.com/recipes/member/views/chocolate-mousse-568730c3fb9544f72b6793ce",
   "image_urls": [
     "https://assets.epicurious.com/photos/5c93f0c46e97fa60b6605811/16:9/w_4576,h_2574,c_limit/Chocolate-Mousse-recipe-19032019.jpg",
     "https://assets.epicurious.com/photos/5c93f0c46e97fa60b6605811/4:3/w_4076,h_3057,c_limit/Chocolate-Mousse-recipe-19032019.jpg",
@@ -15,6 +15,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chilled heavy cream",
       "nutrition_infos": []
     },
     {
@@ -22,24 +23,78 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 large egg yolks",
       "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.79,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 41.8,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 163.70000000000002,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 954.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 146.4,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vanilla",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla",
       "nutrition_infos": []
     },
     {
-      "name": "fine-quality bittersweet chocolate not unsweetened",
+      "name": "fine-quality bittersweet chocolate",
       "amount": 7.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "7 ounces fine-quality bittersweet chocolate (not unsweetened), chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.79,
+          "amount": 9.09,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -53,21 +108,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 63.7,
+          "amount": 45.4,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 579.0,
+          "amount": 509.0,
           "unit": "KCAL",
           "serving_size": 55.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 46.4,
+          "amount": 30.9,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -142,6 +197,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Garnish: lightly sweetened whipped cream",
       "nutrition_infos": []
     },
     {
@@ -149,6 +205,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "an instant-read thermometer",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -263,35 +320,42 @@
       "name": "Protein",
       "amount": 9.79,
       "unit": "G",
-      "serving_size": 55.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 41.8,
       "unit": "G",
-      "serving_size": 55.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 63.7,
+      "amount": 163.70000000000002,
       "unit": "G",
-      "serving_size": 55.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 579.0,
+      "amount": 954.0,
       "unit": "KCAL",
-      "serving_size": 55.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 46.4,
+      "amount": 146.4,
       "unit": "G",
-      "serving_size": 55.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -311,13 +375,6 @@
     {
       "name": "Iron, Fe",
       "amount": 3.52,
-      "unit": "MG",
-      "serving_size": 55.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
       "unit": "MG",
       "serving_size": 55.0,
       "serving_size_unit": "g"

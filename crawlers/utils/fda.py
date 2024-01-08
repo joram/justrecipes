@@ -36,9 +36,7 @@ async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) ->
         data = json.loads(content)
     except Exception as e:
         print(f"Could not parse json for {url}")
-        print(content)
-        raise
-        # return None
+        return None
     return data
 
 
@@ -81,7 +79,7 @@ async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[Nutritio
 
         page += 1
         data = await _get_cached_fda_info_for_ingredient(ingredient, page)
-        if "Internal Server Error" in str(data):
+        if data is None or "Internal Server Error" in str(data):
             print("Internal Server Error for ingredient: ", ingredient.name)
             time.sleep(1)
             attempts += 1

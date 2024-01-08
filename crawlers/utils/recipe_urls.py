@@ -319,16 +319,19 @@ recipe_websites = [
 recipe_websites = [
     # "https://www.bbcgoodfood.com/",
     "https://www.epicurious.com/",
+    "https://cooking.nytimes.com/",
+
     "https://www.allrecipes.com/",
     "https://www.foodnetwork.com/",
     "https://www.simplyrecipes.com/",
-    "https://www.food.com/",
-    "https://www.tasteofhome.com/",
-    "https://www.myrecipes.com/",
-    "https://www.delish.com/",
+    # "https://www.food.com/",
+    # "https://www.tasteofhome.com/",
+    # "https://www.myrecipes.com/",
+    # "https://www.delish.com/",
     "https://www.bettycrocker.com/",
     "https://www.bonappetit.com/",
 ]
+
 
 async def recipe_urls():
 
@@ -339,18 +342,6 @@ async def recipe_urls():
             if schema_type == "Recipe":
                 return True
         return False
-
-    def get_cached_sitemap_urls():
-        for recipe_website in recipe_websites:
-            recipe_website = recipe_website.rstrip("/")
-            pwd = os.path.dirname(os.path.realpath(__file__))
-            slug_url = recipe_website.replace("https://", "").replace("http://", "").replace("/", "_").rstrip("/")
-            filepath = os.path.join(pwd, f"../../cache/sitemaps/{slug_url}.sitemap.json")
-            if os.path.exists(filepath):
-                with open(filepath, "r") as f:
-                    sitemap = json.load(f)
-                    for url in sitemap:
-                        yield url
 
     def get_sitemap_urls(recipe_website):
         recipe_website = recipe_website.rstrip("/")
@@ -383,20 +374,30 @@ async def recipe_urls():
             json.dump(sitemap, f)
         return sitemap
 
-    # random.shuffle(recipe_websites)
-    # for recipe_website in recipe_websites:
-    #     sitemap = get_sitemap_urls(recipe_website)
-    #     yield recipe_website, len(sitemap)
-
+    sitemap_urls = {}
+    sitemap_urls_indices = {}
     for recipe_website in recipe_websites:
         urls = list(get_sitemap_urls(recipe_website))
         urls = [url for url in urls if "recipes/" in url]
-        for url in urls:
-            content = await get_cached(url)
-            if content is None:
-                continue
-            if is_recipe_url(BeautifulSoup(content, "html.parser")):
-                yield url
+        sitemap_urls[recipe_website] = urls
+        sitemap_urls_indices[recipe_website] = 0
+
+    def _interleaved_urls():
+        while True:
+            for recipe_website in recipe_websites:
+                urls = sitemap_urls[recipe_website]
+                index = sitemap_urls_indices[recipe_website]
+                if index >= len(urls):
+                    continue
+                sitemap_urls_indices[recipe_website] += 1
+                yield urls[index], index, len(urls)
+
+    for url, index, total in _interleaved_urls():
+        content = await get_cached(url)
+        if content is None:
+            continue
+        if is_recipe_url(BeautifulSoup(content, "html.parser")):
+            yield url, index, total
 
 
 if __name__ == "__main__":

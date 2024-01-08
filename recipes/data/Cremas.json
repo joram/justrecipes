@@ -11,17 +11,125 @@
   ],
   "ingredients": [
     {
-      "name": "cans sweetened condensed milk",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "sweetened condensed milk",
+      "amount": 2.0,
+      "unit": "can",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 (14-ounce) cans sweetened condensed milk",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 16.86,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 66.86,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 68.9,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 966.0,
+          "unit": "KCAL",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 68.9,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 508.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.3,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 421.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 815.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 923.0,
+          "unit": "IU",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 84.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 18.88,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "coconut milk",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup coconut milk",
       "nutrition_infos": []
     },
     {
@@ -29,45 +137,46 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup evaporated milk",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.17,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 59.17,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 12.5,
+          "amount": 10.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 633.0,
+          "amount": 133.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 12.5,
+          "amount": 10.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 252.0,
+          "amount": 200.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -81,7 +190,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 725.0,
+          "amount": 100.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -102,7 +211,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 58.0,
+          "amount": 20.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -116,7 +225,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.75,
+          "amount": 5.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -124,17 +233,71 @@
       ]
     },
     {
-      "name": "dark rum preferably rhum barbancourt",
+      "name": "dark rum",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup dark rum (preferably Rhum Barbancourt)",
       "nutrition_infos": []
+    },
+    {
+      "name": "cinnamon stick",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 cinnamon stick",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground nutmeg",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon ground nutmeg",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vanilla extract",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
@@ -142,6 +305,7 @@
       "amount": 1.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "1 whole star anise",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -185,6 +349,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon finely grated fresh lime zest",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -303,44 +468,107 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 9.17,
+      "amount": 16.86,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 59.17,
+      "amount": 66.86,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 12.5,
+      "amount": 68.9,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 633.0,
+      "amount": 966.0,
       "unit": "KCAL",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 12.5,
+      "amount": 68.9,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 252.0,
+      "amount": 508.0,
       "unit": "MG",
-      "serving_size": 30.0,
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.3,
+      "unit": "MG",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 421.0,
+      "unit": "MG",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 815.0,
+      "unit": "MG",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 923.0,
+      "unit": "IU",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 84.0,
+      "unit": "MG",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 39.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 18.88,
+      "unit": "G",
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     },
     {
@@ -351,66 +579,10 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 725.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 667.0,
-      "unit": "IU",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 133.0,
       "unit": "IU",
       "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 58.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 13.75,
-      "unit": "G",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 0.3,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 75.0,
-      "unit": "MG",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

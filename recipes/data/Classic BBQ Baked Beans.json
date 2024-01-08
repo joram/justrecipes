@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 6,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/roosevelt-lodge-baked-beans-52833021",
+  "source_url": "https://www.epicurious.com/recipes/member/views/baked-beans-599b5eb3cf1bb06a616f28af",
   "image_urls": [
     "https://assets.epicurious.com/photos/5eea5f18c0f6cca21c0e6cbf/16:9/w_3743,h_2105,c_limit/Classic%20BBQ%20Baked%20Beans.jpg",
     "https://assets.epicurious.com/photos/5eea5f18c0f6cca21c0e6cbf/4:3/w_3743,h_2807,c_limit/Classic%20BBQ%20Baked%20Beans.jpg",
@@ -14,11 +14,12 @@
       "name": "thick-cut bacon",
       "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "diced",
+      "original_string": "¼ pound thick-cut bacon, diced",
       "nutrition_infos": [
         {
           "name": "Total Sugars",
-          "amount": 86.7,
+          "amount": 186.7,
           "unit": "G",
           "serving_size": 24.0,
           "serving_size_unit": "g"
@@ -36,7 +37,16 @@
       "name": "large onion",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "½ large onion, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "1 red bell pepper, chopped",
       "nutrition_infos": []
     },
     {
@@ -44,13 +54,66 @@
       "amount": 9.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "3 16-ounce cans kidney beans",
       "nutrition_infos": []
+    },
+    {
+      "name": "brown sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "½ cup brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 186.7,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 708.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 35532.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "ketchup",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons ketchup",
       "nutrition_infos": []
     },
     {
@@ -58,6 +121,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons apple cider vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -75,21 +139,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 86.7,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 333.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 35532.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -101,6 +165,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons maple syrup",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -165,6 +230,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons molasses",
       "nutrition_infos": []
     },
     {
@@ -172,6 +238,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons yellow mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -215,6 +282,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon hot sauce",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -321,6 +389,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons Creole seasoning",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -396,7 +465,7 @@
   "nutrition_infos": [
     {
       "name": "Total Sugars",
-      "amount": 86.7,
+      "amount": 186.7,
       "unit": "G",
       "serving_size": 24.0,
       "serving_size_unit": "g"
@@ -412,35 +481,35 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 86.7,
+      "amount": 186.7,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 333.0,
+      "amount": 708.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 35532.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {

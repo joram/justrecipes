@@ -25,8 +25,8 @@ def get_email(jwt: str) -> str:
         if email:
             return email
     except Exception as e:
-        print(e)
-    raise HTTPException(status_code=401, detail="Invalid JWT")
+        raise HTTPException(status_code=401, detail=f"Invalid JWT {e}")
+    raise HTTPException(status_code=401, detail=f"Invalid JWT")
 
 
 def get_jwt(jwt: str = Header(...)):

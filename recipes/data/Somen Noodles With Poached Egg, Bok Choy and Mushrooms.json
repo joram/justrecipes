@@ -15,6 +15,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 206.0,
+          "amount": 39006.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -134,139 +135,186 @@
       "name": "scallions",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "trimmed,  whites and greens separated and thinly sliced",
+      "original_string": "3 scallions, trimmed, whites and greens separated and thinly sliced",
       "nutrition_infos": []
     },
     {
       "name": "fresh shiitake mushrooms",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "stems discarded and caps thinly sliced",
+      "original_string": "8 ounces fresh shiitake mushrooms, stems discarded and caps thinly sliced (about 3 cups)",
       "nutrition_infos": []
     },
     {
-      "name": "medium bok choy about 4 ounces",
+      "name": "kosher salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 1.77,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 1.77,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 13.0,
+          "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.88,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.9,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 106.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.88,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 257.0,
-          "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 66.0,
+          "amount": 38800.0,
           "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3)",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 45.1,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "medium bok choy",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut into bite-size pieces",
+      "original_string": "1 medium bok choy (about 4 ounces), cut into bite-size pieces",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.77,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 1.77,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 13.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.88,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.9,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 106.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.88,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 257.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 66.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 45.1,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A",
-          "amount": 221.0,
-          "unit": "UG",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         }
       ]
@@ -276,6 +324,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
@@ -283,6 +332,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons toasted sesame oil, plus more for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -350,10 +400,11 @@
       ]
     },
     {
-      "name": "bundles about 7 ounces total somen noodles",
+      "name": "bundles somen noodles",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 bundles (about 7 ounces total) somen noodles, or any thin wheat or rice noodles",
       "nutrition_infos": []
     },
     {
@@ -361,6 +412,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -523,7 +575,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 206.0,
+      "amount": 39006.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -571,31 +623,17 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin D (D2 + D3)",
-      "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 45.1,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sugars, added",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A",
-      "amount": 221.0,
-      "unit": "UG",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     }
   ]

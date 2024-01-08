@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "sticks unsalted butter",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "3/4 cup/1 1/2 sticks unsalted butter",
+      "nutrition_infos": []
+    },
+    {
       "name": "light agave syrup",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons light agave syrup",
       "nutrition_infos": []
     },
     {
@@ -22,6 +31,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
@@ -29,59 +39,60 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons gochugaru",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 81.71000000000001,
+          "amount": 89.21000000000001,
           "unit": "G",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 79.55,
+          "amount": 80.8,
           "unit": "G",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 171.54999999999998,
+          "amount": 256.54999999999995,
           "unit": "G",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1230.0,
+          "amount": 1605.0,
           "unit": "KCAL",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 5.4399999999999995,
+          "amount": 12.94,
           "unit": "G",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 85.7,
+          "amount": 88.2,
           "unit": "G",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1611.0,
+          "amount": 1986.0,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 15.08,
+          "amount": 46.580000000000005,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
@@ -95,49 +106,49 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 3355.0,
+          "amount": 3555.0,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1872.0,
+          "amount": 41672.0,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 14700.0,
+          "amount": 16580.0,
           "unit": "IU",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "IU",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 33.8,
+          "amount": 48.8,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin B-6",
-          "amount": 1.25,
+          "amount": 2.75,
           "unit": "MG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin B-12",
-          "amount": 0.0,
+          "amount": 4.5,
           "unit": "UG",
           "serving_size": 16.0,
           "serving_size_unit": "g"
@@ -180,10 +191,55 @@
       ]
     },
     {
+      "name": "kosher salt such as diamond crystal",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "pack spicy korean ramen such as shin ramen",
       "amount": 2.615,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 (4.23-ounce) pack spicy Korean ramen (such as Shin Ramen), spice packet reserved and noodles broken into bite-size pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -269,13 +325,185 @@
       "amount": 1.8,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 (2.6-ounce) pack shrimp crackers (about 2 1/2 cups), or substitute with extra oyster crackers",
       "nutrition_infos": []
+    },
+    {
+      "name": "waffled rice cereal such as rice chex",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 cups waffled rice cereal (such as Rice Chex)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 7.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.25,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 85.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 375.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 31.5,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 200.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 800.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Zinc, Zn",
+          "amount": 13.1,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1880.0,
+          "unit": "IU",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 100.0,
+          "unit": "IU",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 1.28,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin B-6",
+          "amount": 1.5,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin B-12",
+          "amount": 4.5,
+          "unit": "UG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "honey-flavored corn",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups honey-flavored corn and oat cereal (such as Honeycomb)",
       "nutrition_infos": []
     },
     {
@@ -283,6 +511,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups thin, 3-inch-long pretzel sticks",
       "nutrition_infos": []
     },
     {
@@ -290,6 +519,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups oyster crackers",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -389,6 +619,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup wasabi peas",
       "nutrition_infos": []
     },
     {
@@ -396,6 +627,7 @@
       "amount": 4.0,
       "unit": "envelope",
       "comment": "",
+      "original_string": "4 sheets toasted nori, torn into 1/2-to-1-inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -509,6 +741,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons toasted sesame seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -623,56 +856,56 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 81.71000000000001,
+      "amount": 89.21000000000001,
       "unit": "G",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 79.55,
+      "amount": 80.8,
       "unit": "G",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 171.54999999999998,
+      "amount": 256.54999999999995,
       "unit": "G",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1230.0,
+      "amount": 1605.0,
       "unit": "KCAL",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 5.4399999999999995,
+      "amount": 12.94,
       "unit": "G",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 85.7,
+      "amount": 88.2,
       "unit": "G",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1611.0,
+      "amount": 1986.0,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 15.08,
+      "amount": 46.580000000000005,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
@@ -686,49 +919,49 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 3355.0,
+      "amount": 3555.0,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 1872.0,
+      "amount": 41672.0,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 14700.0,
+      "amount": 16580.0,
       "unit": "IU",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "IU",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 33.8,
+      "amount": 48.8,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin B-6",
-      "amount": 1.25,
+      "amount": 2.75,
       "unit": "MG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin B-12",
-      "amount": 0.0,
+      "amount": 4.5,
       "unit": "UG",
       "serving_size": 16.0,
       "serving_size_unit": "g"
@@ -773,6 +1006,27 @@
       "amount": 1.7,
       "unit": "G",
       "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Zinc, Zn",
+      "amount": 13.1,
+      "unit": "MG",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 1.28,
+      "unit": "MG",
+      "serving_size": 40.0,
       "serving_size_unit": "g"
     },
     {

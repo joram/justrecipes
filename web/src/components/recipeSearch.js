@@ -3,7 +3,7 @@ import React from 'react';
 import {Search} from 'semantic-ui-react';
 import recipe_manifest from '../recipe_manifest.json';
 import {useNavigate} from "react-router-dom";
-import {numTotalRecipes} from "../utils.py/search_recipes";
+import {numTotalRecipes} from "../utils/search_recipes";
 
 const BreakException = {msg: "break"};
 

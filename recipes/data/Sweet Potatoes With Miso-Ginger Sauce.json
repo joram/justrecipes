@@ -11,17 +11,118 @@
   ],
   "ingredients": [
     {
-      "name": "sweet potatoes about 6 ounces each",
+      "name": "sweet potatoes",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "comment": "scrubbed",
+      "original_string": "4 sweet potatoes (about 6 ounces each), scrubbed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.69,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 53.599999999999994,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1052.0,
+          "unit": "KCAL",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 4.24,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.4,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 697.0,
+          "unit": "MG",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.85,
+          "unit": "MG",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 337.0,
+          "unit": "MG",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 55.0,
+          "unit": "MG",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 118.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic",
       "amount": 1.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 clove garlic, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +133,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -46,7 +147,7 @@
         },
         {
           "name": "Energy",
-          "amount": 967.0,
+          "amount": 167.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -82,10 +183,19 @@
       ]
     },
     {
-      "name": "-inch knob of fresh ginger",
+      "name": "knob of fresh ginger",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "peeled and grated",
+      "original_string": "1 (1-inch) knob of fresh ginger, peeled and grated",
+      "nutrition_infos": []
+    },
+    {
+      "name": "a few a 1/4 tspes of sugar",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "A few pinches of sugar or 2 teaspoons mirin",
       "nutrition_infos": []
     },
     {
@@ -93,13 +203,23 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 heaping tablespoon white miso",
       "nutrition_infos": []
     },
     {
-      "name": "light sesame oil or other neutral oil",
+      "name": "unseasoned rice wine vinegar",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon unseasoned rice wine vinegar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "light sesame oil",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon light sesame oil or other neutral oil, plus more for the pan",
       "nutrition_infos": []
     },
     {
@@ -107,6 +227,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -177,7 +298,8 @@
       "name": "toasted black sesame seeds",
       "amount": 2.0,
       "unit": "tsp",
-      "comment": "",
+      "comment": "for garnish",
+      "original_string": "2 teaspoons toasted black sesame seeds, for garnish",
       "nutrition_infos": []
     }
   ],
@@ -191,44 +313,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 1.69,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 33.3,
+      "amount": 53.599999999999994,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 967.0,
+      "amount": 1052.0,
       "unit": "KCAL",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 4.24,
+      "unit": "G",
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 3.4,
+      "unit": "G",
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 667.0,
+      "amount": 697.0,
       "unit": "MG",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.85,
+      "unit": "MG",
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 337.0,
+      "unit": "MG",
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
+      "amount": 55.0,
+      "unit": "MG",
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 3.0,
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 10.0,
+      "unit": "G",
+      "serving_size": 118.0,
       "serving_size_unit": "g"
     },
     {
@@ -236,27 +414,6 @@
       "amount": 80.0,
       "unit": "MG",
       "serving_size": 3.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 3.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 10.0,
-      "unit": "G",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {

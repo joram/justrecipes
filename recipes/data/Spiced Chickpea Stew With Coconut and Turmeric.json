@@ -15,45 +15,47 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup olive oil, plus more for serving",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "4 garlic cloves, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 2.94,
+          "amount": 10.94,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 2.94,
+          "amount": 4.54,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 35.9,
+          "amount": 56.699999999999996,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 194.0,
+          "amount": 322.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 81.0,
+          "amount": 313.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -64,21 +66,82 @@
       "name": "large yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 large yellow onion, chopped",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece ginger",
-      "amount": 1.5,
+      "name": "ginger",
+      "amount": 1.0,
+      "unit": "piece",
+      "comment": "finely chopped",
+      "original_string": "1 (2-inch) piece ginger, finely chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 12.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "ground turmeric",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons ground turmeric, plus more for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -118,31 +181,157 @@
       ]
     },
     {
-      "name": "cans chickpeas",
-      "amount": 8.5,
-      "unit": "oz",
+      "name": "red-pepper flakes",
+      "amount": 1.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon red-pepper flakes, plus more for serving",
       "nutrition_infos": []
     },
     {
-      "name": "cans full-fat coconut milk",
-      "amount": 8.5,
-      "unit": "oz",
+      "name": "chickpeas",
+      "amount": 2.0,
+      "unit": "can",
+      "comment": "drained and rinsed",
+      "original_string": "2 (15-ounce) cans chickpeas, drained and rinsed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 8.0,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.6,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.8,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 128.0,
+          "unit": "KCAL",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.8,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 4.0,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 182.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.15,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 248.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 232.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 59.0,
+          "unit": "IU",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.7,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 1.76,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "full-fat coconut milk",
+      "amount": 2.0,
+      "unit": "can",
       "comment": "",
+      "original_string": "2 (15-ounce) cans full-fat coconut milk",
       "nutrition_infos": []
     },
     {
-      "name": "vegetable or chicken stock",
+      "name": "vegetable",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups vegetable or chicken stock",
       "nutrition_infos": []
     },
     {
       "name": "swiss chard",
       "amount": 1.0,
       "unit": "bunch",
+      "comment": "kale",
+      "original_string": "1 bunch Swiss chard, kale or collard greens, stems removed, torn into bite-size pieces",
+      "nutrition_infos": []
+    },
+    {
+      "name": "mint leaves",
+      "amount": 1.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 cup mint leaves, for serving",
       "nutrition_infos": []
     },
     {
@@ -150,6 +339,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Yogurt, for serving (optional)",
       "nutrition_infos": [
         {
           "name": "Fiber, total dietary",
@@ -245,10 +435,11 @@
       ]
     },
     {
-      "name": "toasted pita",
+      "name": "toasted pita, lavash",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Toasted pita, lavash or other flatbread, for serving (optional)",
       "nutrition_infos": []
     }
   ],
@@ -264,93 +455,107 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 2.94,
+      "amount": 10.94,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 2.94,
+      "amount": 4.54,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 35.9,
+      "amount": 56.699999999999996,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 194.0,
+      "amount": 322.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 81.0,
+      "amount": 313.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 118.0,
-      "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 59.0,
-      "unit": "IU",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.7,
-      "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Total Sugars",
-      "amount": 15.9,
+      "amount": 16.7,
       "unit": "G",
-      "serving_size": 170.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 12.0,
       "unit": "MG",
-      "serving_size": 170.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 4.0,
+      "unit": "G",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 182.0,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 1.15,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 248.0,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 59.0,
+      "unit": "IU",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.7,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 1.76,
       "unit": "G",
-      "serving_size": 170.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     }
   ]

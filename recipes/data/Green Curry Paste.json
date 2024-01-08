@@ -9,24 +9,166 @@
   ],
   "ingredients": [
     {
-      "name": "scallions",
-      "amount": 5.0,
-      "unit": "",
+      "name": "coarsely chopped fresh cilantro",
+      "amount": 2.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "2 cups coarsely chopped fresh cilantro (leaves and stems)",
       "nutrition_infos": []
     },
     {
-      "name": "finely grated peeled fresh ginger",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
+      "name": "fresh lemongrass stalks",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "bottom 4 inches only,  thinly sliced",
+      "original_string": "2 fresh lemongrass stalks, bottom 4 inches only, thinly sliced",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh thai",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup fresh Thai or regular basil leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "scallions",
+      "amount": 5.0,
+      "unit": "",
+      "comment": "white and pale-green parts only,  chopped",
+      "original_string": "5 scallions, white and pale-green parts only, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh lime juice",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup fresh lime juice (about 2 limes)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh green thai chiles",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "2 fresh green Thai chiles, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "tablespoon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 tablespoon plus 1 teaspoon finely grated peeled fresh ginger",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 8.57,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 12.9,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 88.6,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.7,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 57.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.06,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 97.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 garlic cloves, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -64,6 +206,22 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "fresh",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 fresh or frozen kaffir lime leaves (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarse salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon coarse salt",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -73,37 +231,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 8.57,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 12.9,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 88.6,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 100.0,
+      "amount": 500.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 20.0,
+      "unit": "G",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 5.7,
+      "unit": "G",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 57.0,
+      "unit": "MG",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 2.06,
+      "unit": "MG",
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 97.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     }
   ]

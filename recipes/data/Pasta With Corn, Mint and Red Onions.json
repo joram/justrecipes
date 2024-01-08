@@ -11,10 +11,69 @@
   ],
   "ingredients": [
     {
+      "name": "Fine sea or table salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fine sea or table salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 5.38,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.15,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 31.5,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 154.0,
+          "unit": "KCAL",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39304.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iodine, I",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "cavatelli or use another small pasta shape",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound cavatelli (or use another small pasta shape, such as orecchiette or shells)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -121,6 +180,31 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 ears corn, shucked, kernels removed (about 4 cups)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "diced ripe tomatoes",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 cups diced ripe tomatoes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thinly sliced red onion",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup thinly sliced red onion",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons fresh lemon juice, more to taste",
       "nutrition_infos": []
     },
     {
@@ -128,6 +212,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup olive oil, more for serving",
       "nutrition_infos": []
     },
     {
@@ -135,6 +220,15 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 small or 2 large garlic cloves, grated",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon red-pepper flakes, more for serving",
       "nutrition_infos": []
     },
     {
@@ -142,13 +236,15 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped soft herbs, such as mint, basil or cilantro, or a combination, more for serving",
       "nutrition_infos": []
     },
     {
-      "name": "fresh ricotta",
+      "name": "Fresh ricotta, for serving (optional)",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fresh ricotta, for serving (optional)",
       "nutrition_infos": []
     }
   ],
@@ -164,28 +260,49 @@
       "name": "Protein",
       "amount": 5.38,
       "unit": "G",
-      "serving_size": 130.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 1.15,
       "unit": "G",
-      "serving_size": 130.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 31.5,
       "unit": "G",
-      "serving_size": 130.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 154.0,
       "unit": "KCAL",
-      "serving_size": 130.0,
+      "serving_size": 1.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39304.0,
+      "unit": "MG",
+      "serving_size": 1.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iodine, I",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 15.0,
+      "unit": "MG",
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
@@ -224,23 +341,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 4.0,
-      "unit": "MG",
-      "serving_size": 130.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 3.0,
       "unit": "IU",
-      "serving_size": 130.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 15.0,
-      "unit": "MG",
       "serving_size": 130.0,
       "serving_size_unit": "g"
     },

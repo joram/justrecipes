@@ -11,17 +11,92 @@
   ],
   "ingredients": [
     {
+      "name": "fresh mint leaves",
+      "amount": 10.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "10 fresh mint leaves",
+      "nutrition_infos": []
+    },
+    {
       "name": "egg white",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 egg white, lightly beaten, optional",
       "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup granulated sugar, optional",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.65,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.42,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 109.74,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 420.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 109.09,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "blood oranges",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 blood oranges",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -124,10 +199,19 @@
       ]
     },
     {
-      "name": "a few drops of mint oil",
+      "name": "demerara granulated light brown sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup Demerara (granulated light brown) sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "A few drops of mint oil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "A few drops of mint oil",
       "nutrition_infos": []
     }
   ],
@@ -142,35 +226,56 @@
       "name": "Protein",
       "amount": 0.65,
       "unit": "G",
-      "serving_size": 154.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.42,
       "unit": "G",
-      "serving_size": 154.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 9.74,
+      "amount": 109.74,
       "unit": "G",
-      "serving_size": 154.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 45.0,
+      "amount": 420.0,
       "unit": "KCAL",
-      "serving_size": 154.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 9.09,
+      "amount": 109.09,
       "unit": "G",
-      "serving_size": 154.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -202,13 +307,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -219,20 +317,6 @@
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 154.0,
       "serving_size_unit": "g"
     }

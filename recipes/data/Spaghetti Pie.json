@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 8,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/spaghetti-pie-52695091",
+  "source_url": "https://www.epicurious.com/recipes/member/views/spaghetti-pie-601c7ed32649481683a56cfd",
   "image_urls": [
     "https://assets.epicurious.com/photos/59f9f6a9de9ba90b1eca9a5f/16:9/w_2000,h_1125,c_limit/spaghetti-pie-recipe-HC-103017.jpg",
     "https://assets.epicurious.com/photos/59f9f6a9de9ba90b1eca9a5f/4:3/w_1776,h_1332,c_limit/spaghetti-pie-recipe-HC-103017.jpg",
@@ -15,6 +15,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound good-quality spaghetti",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -127,7 +129,8 @@
       "name": "large eggs",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten",
+      "original_string": "3 large eggs, beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -216,17 +219,71 @@
       ]
     },
     {
-      "name": "homemade red sauce or prepared tomato sauce",
+      "name": "homemade red sauce",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup homemade red sauce or prepared tomato sauce",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarsely ground black pepper",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon coarsely ground black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "a 1/4 tsp of salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Pinch of salt",
       "nutrition_infos": []
     },
     {
       "name": "mozzarella cheese",
       "amount": 3.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "3 ounces mozzarella cheese, grated (about 1 cup)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -330,9 +387,10 @@
     },
     {
       "name": "parmesan cheese",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "1 1/2 ounces Parmesan cheese, grated (about 1/2 cup)",
       "nutrition_infos": [
         {
           "name": "Protein",

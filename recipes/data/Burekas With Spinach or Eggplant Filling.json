@@ -11,24 +11,94 @@
   ],
   "ingredients": [
     {
-      "name": "0 grams",
-      "amount": 1.6666666666666667,
-      "unit": "",
+      "name": "all-purpose flour/320 grams",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups all-purpose flour/320 grams, plus more for rolling the dough",
       "nutrition_infos": []
     },
     {
-      "name": "egg wash 1 large egg mixed with 1 tablespoon water",
+      "name": "kosher salt",
       "amount": 1.0,
-      "unit": "",
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 19.36,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 148.4,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 710.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cold unsalted butter",
+      "amount": 115.0,
+      "unit": "g",
+      "comment": "cut into 1/2-inch cubes",
+      "original_string": "1/4 pound/115 grams cold unsalted butter (1 stick), cut into 1/2-inch cubes",
       "nutrition_infos": []
     },
     {
-      "name": "455 grams",
-      "amount": 1.0,
-      "unit": "lb",
+      "name": "ice water",
+      "amount": 120.0,
+      "unit": "ml",
       "comment": "",
+      "original_string": "1/2 cup/120 milliliters ice water, plus more as needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "egg wash",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Egg wash (1 large egg mixed with 1 tablespoon water)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "medium eggplant",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 medium eggplant (about 1 pound/455 grams)",
       "nutrition_infos": []
     },
     {
@@ -36,27 +106,47 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "small onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "diced",
+      "original_string": "1 small onion, diced (about 1/2 cup/115 grams)",
       "nutrition_infos": []
     },
     {
-      "name": "cup/25 grams grated parmesan",
-      "amount": 2.5,
+      "name": "kosher salt and ground black pepper",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "strained diced tomatoes",
+      "amount": 115.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/2 cup/115 grams strained diced tomatoes (from a can)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "grated parmesan",
+      "amount": 25.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/4 cup/25 grams grated Parmesan, plus more for topping",
       "nutrition_infos": []
     },
     {
       "name": "large egg",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten",
+      "original_string": "1 large egg, beaten",
       "nutrition_infos": []
     },
     {
@@ -64,10 +154,11 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 19.36,
+          "amount": 9.68,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -81,14 +172,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 148.4,
+          "amount": 74.2,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 710.0,
+          "amount": 355.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -152,31 +243,43 @@
       ]
     },
     {
-      "name": "6 ounces 455 grams",
+      "name": "package frozen chopped spinach",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "defrosted and drained",
+      "original_string": "1 package frozen chopped spinach (16 ounces/455 grams), defrosted and drained",
+      "nutrition_infos": []
+    },
+    {
+      "name": "crumbled strongly flavored feta cheese",
+      "amount": 115.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "3/4 cup/115 grams crumbled strongly flavored feta cheese",
+      "nutrition_infos": []
+    },
+    {
+      "name": "grated parmesan",
+      "amount": 50.0,
+      "unit": "g",
+      "comment": " plus more for topping",
+      "original_string": "1/2 cup/50 grams grated Parmesan, plus more for topping",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and ground black pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/115 grams crumbled strongly flavored feta cheese",
-      "amount": 3.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/50 grams grated parmesan",
-      "amount": 1.5,
-      "unit": "",
-      "comment": "",
+      "original_string": "Kosher salt and ground black pepper",
       "nutrition_infos": []
     },
     {
       "name": "large egg",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten",
+      "original_string": "1 large egg, beaten",
       "nutrition_infos": []
     },
     {
@@ -184,6 +287,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -288,28 +392,42 @@
       "name": "Protein",
       "amount": 19.36,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 148.4,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 710.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38800.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -329,13 +447,6 @@
     {
       "name": "Iron, Fe",
       "amount": 6.96,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

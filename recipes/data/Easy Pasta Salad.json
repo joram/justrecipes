@@ -14,43 +14,40 @@
       "name": "medium red onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 medium red onion, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "zest",
+      "name": "zest and juice of 1 lemon",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 1121.0,
-          "unit": "KCAL",
-          "serving_size": 106.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Zest and juice of 1 lemon",
+      "nutrition_infos": []
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely grated",
+      "original_string": "1 garlic clove, finely grated",
       "nutrition_infos": []
     },
     {
-      "name": "summer squash",
+      "name": "summer squash and/or zucchini",
       "amount": 1.0,
       "unit": "lb",
+      "comment": "halved lengthwise,  thinly sliced crosswise",
+      "original_string": "1 lb. summer squash and/or zucchini, halved lengthwise, thinly sliced crosswise",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarsely chopped pickled banana peppers",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "½ cup coarsely chopped pickled banana peppers",
       "nutrition_infos": []
     },
     {
@@ -58,38 +55,39 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 Tbsp. red wine vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 10.7,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 123.3,
+          "amount": 125.09,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 11.309999999999999,
+          "amount": 88.11,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 1478.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2313.0,
+          "amount": 41313.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -97,17 +95,170 @@
       ]
     },
     {
-      "name": "orecchiette or other small pasta",
+      "name": "diamond crystal",
+      "amount": 8.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1¾ tsp. Diamond Crystal or 1¼ tsp. Morton kosher salt, plus more",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 tsp. freshly ground black pepper, plus more",
+      "nutrition_infos": []
+    },
+    {
+      "name": "orecchiette",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 lb. orecchiette or other small pasta",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.8,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 357.0,
+          "unit": "KCAL",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.8,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.93,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cherry tomatoes",
       "amount": 2.0,
       "unit": "pint",
-      "comment": "",
+      "comment": "halved",
+      "original_string": "2 pints cherry tomatoes, halved",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -160,7 +311,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -172,6 +323,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup halved pitted Kalamata olives",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -278,6 +430,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "½ cup finely grated Parmesan, plus more for serving",
       "nutrition_infos": []
     },
     {
@@ -285,6 +438,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "⅓ cup extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -362,14 +516,16 @@
       "name": "oz. fresh mozzarella",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": "torn into small pieces",
+      "original_string": "8 oz. fresh mozzarella, torn into small pieces",
       "nutrition_infos": []
     },
     {
-      "name": "packed coarsely chopped basil",
+      "name": "coarsely chopped basil",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup (packed) coarsely chopped basil, plus more for serving",
       "nutrition_infos": []
     },
     {
@@ -377,6 +533,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "½ cup finely chopped oregano, plus more for serving",
       "nutrition_infos": []
     }
   ],
@@ -390,100 +547,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 10.7,
       "unit": "G",
-      "serving_size": 106.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 1121.0,
-      "unit": "KCAL",
-      "serving_size": 106.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 123.3,
+      "amount": 125.09,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 11.309999999999999,
+      "amount": 88.11,
       "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 1478.0,
+      "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2313.0,
+      "amount": 41313.0,
       "unit": "MG",
       "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 13.3,
-      "unit": "G",
-      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 3.57,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 1.8,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 1.93,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {

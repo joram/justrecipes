@@ -12,23 +12,34 @@
   "ingredients": [
     {
       "name": "chickens",
-      "amount": 3.0,
-      "unit": "lb",
-      "comment": "",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "each cut into 4 pieces,  backbones removed",
+      "original_string": "2 (3–4-pound) chickens, each cut into 4 pieces, backbones removed",
       "nutrition_infos": []
     },
     {
       "name": "olive oil",
       "amount": 3.5,
       "unit": "cup",
+      "comment": "divided",
+      "original_string": "3/4 cup olive oil, divided",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup fresh lemon juice plus 1 lemon",
       "nutrition_infos": []
     },
     {
       "name": "rosemary sprigs",
       "amount": 12.0,
       "unit": "",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "12 rosemary sprigs, divided",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -74,7 +85,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 682.0,
+          "amount": 39482.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -106,7 +117,8 @@
       "name": "garlic cloves",
       "amount": 10.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely chopped",
+      "original_string": "10 garlic cloves, coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -146,10 +158,78 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "/4 tsp smoked paprika",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 large pinch smoked paprika",
+      "nutrition_infos": []
+    },
+    {
       "name": "tomato jam",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Tomato Jam",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -303,7 +383,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 682.0,
+      "amount": 39482.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"

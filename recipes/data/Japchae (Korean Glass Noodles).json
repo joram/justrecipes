@@ -15,13 +15,66 @@
       "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1/2 pound stew beef",
       "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 65.52,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 222.3,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 398.4600000000001,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 3832.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 264.40000000000003,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 42188.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "soy sauce",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon soy sauce",
       "nutrition_infos": []
     },
     {
@@ -29,38 +82,39 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 65.52,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 222.3,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 285.46,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 3432.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2888.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -99,7 +153,8 @@
       "name": "garlic",
       "amount": 1.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "smashed",
+      "original_string": "1 clove garlic, smashed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -131,7 +186,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1888.0,
+          "amount": 1790.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -160,10 +215,27 @@
       ]
     },
     {
+      "name": "-inch-thick slice peeled ginger",
+      "amount": 1.25,
+      "unit": "",
+      "comment": "smashed",
+      "original_string": "1 1 1/2-inch-thick slice peeled ginger, smashed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "lotus root",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "trimmed and peeled",
+      "original_string": "1 pound lotus root, trimmed and peeled",
       "nutrition_infos": []
     },
     {
@@ -171,6 +243,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -202,7 +275,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 64.4,
+          "amount": 10.8,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -221,117 +294,180 @@
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
-      "name": "korean sweet-potato noodles also called dangmyeon or korean glass noodles",
-      "amount": 1.0,
-      "unit": "lb",
+      "name": "rice vinegar",
+      "amount": 3.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons rice vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 87.0,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 350.0,
+          "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 62.2,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 98.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 59.94,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 562.0,
-          "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3)",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "package",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 package (about 1 pound) Korean sweet-potato noodles (also called dangmyeon or Korean glass noodles)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fine sea salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fine sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
         }
       ]
@@ -340,7 +476,8 @@
       "name": "spinach",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "stemmed",
+      "original_string": "1 bunch spinach, stemmed (or 5 ounces baby spinach)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -379,7 +516,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.4,
+          "amount": 61.2,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -393,7 +530,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.35,
+          "amount": 55.94,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -464,31 +601,43 @@
       ]
     },
     {
-      "name": "grapeseed",
+      "name": "grapeseed, canola",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Grapeseed, canola or other neutral-tasting oil",
       "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "trimmed,  halved lengthwise,  and cut into 1 1/2-inch strips",
+      "original_string": "1 bunch scallions, trimmed, halved lengthwise, and cut into 1 1/2-inch strips (about 2 cups)",
       "nutrition_infos": []
     },
     {
       "name": "medium carrots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "julienned into 1 1/2-inch strips",
+      "original_string": "2 medium carrots, julienned into 1 1/2-inch strips (about 2 cups)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "medium red bell peppers",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "seeded and very thinly sliced",
+      "original_string": "2 medium red bell peppers, seeded and very thinly sliced (about 2 cups)",
       "nutrition_infos": []
     },
     {
       "name": "shiitake mushrooms",
       "amount": 4.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "stemmed and cut into 1/2-inch strips",
+      "original_string": "4 ounces shiitake mushrooms, stemmed and cut into 1/2-inch strips",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -594,7 +743,8 @@
       "name": "garlic",
       "amount": 3.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "3 cloves garlic, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -658,14 +808,16 @@
       "name": "medium yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "root removed and thinly sliced",
+      "original_string": "1 medium yellow onion, root removed and thinly sliced (about 2 cups)",
       "nutrition_infos": []
     },
     {
       "name": "soy sauce",
       "amount": 6.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "6 tablespoons soy sauce, divided",
       "nutrition_infos": []
     },
     {
@@ -673,6 +825,7 @@
       "amount": 3.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "3/4 teaspoon toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -743,7 +896,8 @@
       "name": "eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten",
+      "original_string": "2 eggs, beaten",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -849,7 +1003,8 @@
       "name": "nori",
       "amount": 1.0,
       "unit": "envelope",
-      "comment": "",
+      "comment": "halved and julienned",
+      "original_string": "1 sheet nori, halved and julienned",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -976,35 +1131,42 @@
       "name": "Protein",
       "amount": 65.52,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 222.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 285.46,
+      "amount": 398.4600000000001,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 3432.0,
+      "amount": 3832.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 264.40000000000003,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2888.0,
+      "amount": 42188.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -1037,7 +1199,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1888.0,
+      "amount": 1790.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -1057,45 +1219,24 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Total Sugars",
-      "amount": 64.4,
-      "unit": "G",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fiber, total dietary",
-      "amount": 62.2,
+      "amount": 61.2,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 59.94,
+      "amount": 55.94,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 562.0,
+      "amount": 559.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3)",
-      "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {

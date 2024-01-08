@@ -104,8 +104,13 @@ class GetMethod(enum.Enum):
 
 async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
     if method == GetMethod.REQUESTS:
-        content = requests.get(url).content.decode("utf-8")
-        return content
+        try:
+            content = requests.get(url).content.decode("utf-8")
+            return content
+        except Exception as e:
+            print(e)
+            return None
+
     elif method == GetMethod.PLAYWRIGHT:
         async def _get_content_async(url):
             p = await async_playwright().start()
@@ -165,7 +170,9 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
     os.makedirs(folder, exist_ok=True)
     with open(path, "w") as f:
         time.sleep(1)
-        content = await _get_content(url, method=GetMethod.PLAYWRIGHT)
+        content = await _get_content(url, method=GetMethod.REQUESTS)
+        if content is None:
+            return None
         f.write(content)
         return content
 

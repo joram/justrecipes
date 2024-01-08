@@ -11,67 +11,332 @@
   ],
   "ingredients": [
     {
-      "name": "heaped teaspoon 8 grams instant dry yeast",
+      "name": "heaped teaspoon/8 grams instant dry yeast",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 heaped teaspoon/8 grams instant dry yeast",
       "nutrition_infos": []
     },
     {
-      "name": "cup/185 grams warm water",
-      "amount": 3.5,
-      "unit": "",
+      "name": "warm water",
+      "amount": 185.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "3/4 cup/185 grams warm water",
       "nutrition_infos": []
     },
     {
-      "name": "230 grams liquid sourdough starter see recipe",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cups/225 grams bread flour",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/30 grams cocoa powder",
-      "amount": 2.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "5 grams espresso or very strongly brewed coffee",
+      "name": "cup",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 cup plus 1 tablespoon/230 grams liquid sourdough starter (<a href=\"https://cooking.nytimes.com/recipes/1013152-sourdough-starter\">see recipe</a>)",
       "nutrition_infos": []
     },
     {
-      "name": "canola oil or other neutral oil",
+      "name": "bread flour",
+      "amount": 225.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 2/3 cups/225 grams bread flour, plus extra for dusting",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 37.5,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 206.7,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 908.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 62.5,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 55.8,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 42.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 43.5,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 400.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cocoa powder",
+      "amount": 30.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/4 cup/30 grams cocoa powder",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 250.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 36.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "5 grams espresso",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 tablespoon/15 grams espresso or very strongly brewed coffee",
       "nutrition_infos": []
     },
     {
-      "name": "60 grams dark chocolate chips",
-      "amount": 1.0,
+      "name": "teaspoon/7 grams fine salt",
+      "amount": 1.125,
       "unit": "",
       "comment": "",
+      "original_string": "1 1/8 teaspoon/7 grams fine salt",
       "nutrition_infos": []
     },
     {
-      "name": "60 grams dried cherries",
+      "name": "canola oil , for greasing",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Canola oil (or other neutral oil), for greasing",
       "nutrition_infos": []
+    },
+    {
+      "name": "dark chocolate chips",
+      "amount": 160.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 cup/160 grams dark chocolate chips",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dried cherries",
+      "amount": 160.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 generous cup/160 grams dried cherries",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 80.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 325.0,
+          "unit": "KCAL",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 62.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 25.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.5,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 300.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -82,5 +347,104 @@
     "Bake covered for 33 minutes. Remove lid and bake for another 10 minutes, cracking open the oven door for the last 5 minutes. Push a thermometer into the bread dough; it should read 195 to 200 degrees for cooked bread. Transfer bread to a cooling rack, carefully remove the paper, and allow to cool completely at room temperature before cutting open."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 37.5,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 12.5,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 206.7,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 908.0,
+      "unit": "KCAL",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 62.5,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 55.8,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 42.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 43.5,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 400.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

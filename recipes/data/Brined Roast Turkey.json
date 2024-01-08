@@ -9,10 +9,70 @@
   ],
   "ingredients": [
     {
+      "name": "2 tablespoons kosher salt",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup plus 2 tablespoons kosher salt",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.41,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.27,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 192.69,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 751.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 155.16,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 207.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "carrot",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 carrot, peeled and diced",
       "nutrition_infos": []
     },
     {
@@ -20,31 +80,215 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large onion, peeled and diced",
       "nutrition_infos": []
+    },
+    {
+      "name": "diced celery",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup diced celery",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.16,
+          "unit": "G",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.49,
+          "unit": "G",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 17.0,
+          "unit": "KCAL",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 1.16,
+          "unit": "G",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 40.0,
+          "unit": "MG",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 285.0,
+          "unit": "MG",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 81.0,
+          "unit": "MG",
+          "serving_size": 86.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "leek",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 leek, cleaned and diced",
       "nutrition_infos": []
+    },
+    {
+      "name": "bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "black peppercorns",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon black peppercorns",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cori",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon coriander seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 1.25,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.27,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
@@ -58,7 +302,7 @@
         },
         {
           "name": "Energy",
-          "amount": 359.0,
+          "amount": 351.0,
           "unit": "KCAL",
           "serving_size": 37.0,
           "serving_size_unit": "g"
@@ -93,7 +337,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 126.0,
+          "amount": 68.0,
           "unit": "MG",
           "serving_size": 37.0,
           "serving_size_unit": "g"
@@ -136,10 +380,19 @@
       ]
     },
     {
+      "name": "red pepper flakes",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon red pepper flakes",
+      "nutrition_infos": []
+    },
+    {
       "name": "fennel seeds",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon fennel seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -183,6 +436,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 star anise",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -226,6 +480,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 or 3 sprigs fresh thyme",
       "nutrition_infos": []
     },
     {
@@ -233,6 +488,7 @@
       "amount": 6.5,
       "unit": "",
       "comment": "",
+      "original_string": "1 12- to 14-pound free-range turkey",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -335,10 +591,11 @@
       ]
     },
     {
-      "name": "shiitake",
+      "name": "Shiitake and lotus seed stuffing",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Shiitake and lotus seed stuffing",
       "nutrition_infos": []
     },
     {
@@ -346,6 +603,7 @@
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons olive oil or butter",
       "nutrition_infos": []
     }
   ],
@@ -360,63 +618,77 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 1.25,
+      "amount": 2.41,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.27,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 89.2,
+      "amount": 192.69,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 359.0,
+      "amount": 751.0,
       "unit": "KCAL",
-      "serving_size": 37.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 54.0,
+      "amount": 155.16,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 207.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 1.2,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 86.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
+      "amount": 40.0,
+      "unit": "MG",
+      "serving_size": 86.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 285.0,
+      "unit": "MG",
+      "serving_size": 86.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 37.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 37.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 126.0,
       "unit": "MG",
       "serving_size": 37.0,
       "serving_size_unit": "g"
@@ -436,13 +708,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 37.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
@@ -454,13 +719,6 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 37.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 25.0,
-      "unit": "MG",
-      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {

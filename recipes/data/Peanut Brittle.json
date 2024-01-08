@@ -1,230 +1,545 @@
 {
   "name": "Peanut Brittle",
   "categories": [],
-  "servings": 1,
-  "minutes": 20,
-  "source_url": "https://cooking.nytimes.com/recipes/1868-peanut-brittle",
+  "servings": 72,
+  "minutes": 105,
+  "source_url": "https://www.bettycrocker.com/recipes/peanut-brittle/9981470d-528b-4386-9958-d0c963d732f1",
   "image_urls": [
-    "https://static01.nyt.com/images/2015/11/24/dining/24COOKING-PEANUTBRITTLE2/24COOKING-PEANUTBRITTLE2-square640.jpg",
-    "https://static01.nyt.com/images/2015/11/24/dining/24COOKING-PEANUTBRITTLE2/24COOKING-PEANUTBRITTLE2-superJumbo.jpg"
+    "https://mojo.generalmills.com/api/public/content/abuxCISXWkyG9VpTlHHXEg_gmi_hi_res_jpeg.jpeg?v=db7fc781&t=b5673970ed9e41549a020b29d456506d"
   ],
   "ingredients": [
     {
-      "name": "butter for greasing pan",
-      "amount": 1.0,
-      "unit": "",
+      "name": "baking soda",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "roasted peanuts",
-      "amount": 2.0,
-      "unit": "cup",
-      "comment": "",
+      "original_string": "1 1/2  teaspoons baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 25.0,
+          "amount": 1.18,
           "unit": "G",
-          "serving_size": 28.0,
+          "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 50.0,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 28.0,
+          "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 21.4,
+          "amount": 223.95,
           "unit": "G",
-          "serving_size": 28.0,
+          "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 586.0,
+          "amount": 871.0,
           "unit": "KCAL",
-          "serving_size": 28.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 3.57,
-          "unit": "G",
-          "serving_size": 28.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 7.1,
-          "unit": "G",
-          "serving_size": 28.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 71.0,
-          "unit": "MG",
-          "serving_size": 28.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 2.57,
-          "unit": "MG",
-          "serving_size": 28.0,
+          "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 814.0,
+          "amount": 26749.0,
           "unit": "MG",
-          "serving_size": 28.0,
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "water",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1  teaspoon water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 10.8,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 42.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 182.78,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 8.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "vanilla",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1  teaspoon vanilla",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2  cups sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "water",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1  cup water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 10.8,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 42.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 10.8,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 8.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "light corn syrup",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1  cup light corn syrup",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 400.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 60.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.27,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 33.0,
+          "unit": "MG",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 3530.0,
           "unit": "IU",
-          "serving_size": 28.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
+          "amount": 4.2,
           "unit": "MG",
-          "serving_size": 28.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 28.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 28.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 7.14,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 28.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3  tablespoons butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 12.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.27,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3530.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.2,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "shelled unroasted peanuts",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1  pound shelled unroasted peanuts",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Use a bit of butter to grease a baking sheet, preferably one with a low rim. Combine sugar and 2 tablespoons water in a heavy skillet and turn heat to medium. Stir until smooth, then cook, adjusting heat so that mixture bubbles steadily. Stir occasionally until mixture turns golden brown (which it may do rather suddenly).",
-    "Stir in the peanuts and a large pinch of salt, if desired. Pour mixture onto greased baking sheet and spread out. Cool for about a half-hour, then break into pieces. (You can score brittle with a knife when it has solidified slightly but not yet turned hard; that way, it will break into even squares.) Store in a covered container for up to two weeks."
+    "Heat oven to 200°F. Butter 2 cookie sheets, 15 1/2x12 inches, and keep warm in oven. Mix baking soda, 1 teaspoon water and the vanilla; reserve. ",
+    "Mix sugar, 1 cup water and the corn syrup in 3-quart saucepan. Cook over medium heat, stirring occasionally, to 240°F on candy thermometer or until small amount of syrup dropped into very cold water forms a soft ball that flattens when removed from water. ",
+    "Stir in butter and peanuts. Cook, stirring constantly, to 300°F or until small amount of mixture dropped into very cold water separates into hard, brittle threads. (Watch carefully so mixture does not burn.) Immediately remove from heat. Quickly stir in baking soda mixture until light and foamy.",
+    "Pour half the candy mixture onto each cookie sheet; quickly spread about 1/4 inch thick. Cool completely, at least 1 hour. Break into pieces. Store in covered container. "
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 25.0,
+      "amount": 1.18,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 50.0,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 21.4,
+      "amount": 223.95,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 586.0,
+      "amount": 871.0,
       "unit": "KCAL",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 3.57,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 7.1,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 71.0,
-      "unit": "MG",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 2.57,
-      "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 814.0,
+      "amount": 26749.0,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 182.78,
+      "unit": "G",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 1.2,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 24.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 1.27,
+      "unit": "MG",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 3530.0,
       "unit": "IU",
-      "serving_size": 28.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "amount": 4.2,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 7.14,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

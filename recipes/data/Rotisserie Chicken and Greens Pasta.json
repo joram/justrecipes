@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "Salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "rigatoni",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound rigatoni, penne rigate, penne or ziti",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +34,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 43.64,
+          "amount": 122.24,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -39,7 +48,7 @@
         },
         {
           "name": "Energy",
-          "amount": 845.0,
+          "amount": 1559.0,
           "unit": "KCAL",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -88,7 +97,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 2860.0,
           "unit": "IU",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -102,7 +111,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 167.0,
+          "amount": 381.0,
           "unit": "MG",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -116,7 +125,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 26.7,
+          "amount": 76.7,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -124,17 +133,91 @@
       ]
     },
     {
-      "name": "/2 cups shredded cooked chicken",
-      "amount": 1.0,
-      "unit": "",
+      "name": "shredded cooked chicken",
+      "amount": 2.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 small rotisserie chicken (about 1 3/4 pounds) or about 2 1/2 cups shredded cooked chicken",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "medium yellow onion",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 medium yellow onion, thinly sliced (about 2 packed cups)",
       "nutrition_infos": []
     },
     {
@@ -142,6 +225,7 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 large garlic cloves, finely chopped or grated",
       "nutrition_infos": []
     },
     {
@@ -149,6 +233,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons Dijon mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -192,6 +277,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chicken stock (see Tip)",
       "nutrition_infos": []
     },
     {
@@ -199,6 +285,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup heavy cream (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -305,13 +392,23 @@
       "amount": 8.0,
       "unit": "",
       "comment": "",
+      "original_string": "8 to 10 ounces baby kale or spinach, or chopped chard or other cooking greens",
       "nutrition_infos": []
     },
     {
-      "name": "parmesan",
+      "name": "juicy lemon",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 juicy lemon, zested then halved",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Parmesan, for serving",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Parmesan, for serving",
       "nutrition_infos": []
     }
   ],
@@ -333,7 +430,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 43.64,
+      "amount": 122.24,
       "unit": "G",
       "serving_size": 55.0,
       "serving_size_unit": "g"
@@ -347,7 +444,7 @@
     },
     {
       "name": "Energy",
-      "amount": 845.0,
+      "amount": 1559.0,
       "unit": "KCAL",
       "serving_size": 55.0,
       "serving_size_unit": "g"
@@ -396,7 +493,7 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 2860.0,
       "unit": "IU",
       "serving_size": 55.0,
       "serving_size_unit": "g"
@@ -410,7 +507,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 167.0,
+      "amount": 381.0,
       "unit": "MG",
       "serving_size": 55.0,
       "serving_size_unit": "g"
@@ -424,7 +521,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 26.7,
+      "amount": 76.7,
       "unit": "G",
       "serving_size": 55.0,
       "serving_size_unit": "g"

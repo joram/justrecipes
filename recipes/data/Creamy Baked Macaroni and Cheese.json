@@ -11,35 +11,80 @@
   ],
   "ingredients": [
     {
-      "name": "cavatappi or elbow macaroni",
+      "name": "Salt",
       "amount": 1.0,
-      "unit": "lb",
+      "unit": "",
       "comment": "",
+      "original_string": "Salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 79.11,
           "unit": "G",
-          "serving_size": 56.0,
+          "serving_size": 1.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 69.74000000000001,
+          "amount": 148.34,
           "unit": "G",
-          "serving_size": 56.0,
+          "serving_size": 1.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 272.76,
           "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2835.0,
+          "unit": "KCAL",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 41707.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cavatappi or elbow macaroni",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound cavatappi or elbow macaroni",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 75.0,
+          "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2121.0,
+          "amount": 357.0,
           "unit": "KCAL",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -81,7 +126,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2407.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -95,7 +140,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 211.0,
+          "amount": 425.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -109,7 +154,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 41.379999999999995,
+          "amount": 91.38,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -131,10 +176,83 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 5474.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "all-purpose flour",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -227,6 +345,7 @@
       "amount": 6.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "6 cups whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -300,7 +419,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 2614.0,
+          "amount": 1900.0,
           "unit": "IU",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -340,6 +459,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound sharp or extra-sharp yellow Cheddar, coarsely <a href='https://www.nytimes.com/wirecutter/reviews/best-grater/'>grated</a> (5 1/4 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -446,6 +566,7 @@
       "amount": 8.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "8 ounces Velveeta, torn into pieces",
       "nutrition_infos": []
     },
     {
@@ -453,6 +574,7 @@
       "amount": 4.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 ounces Pecorino Romano, coarsely grated (1 cup)",
       "nutrition_infos": [
         {
           "name": "Fiber, total dietary",
@@ -566,6 +688,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon dry mustard powder",
       "nutrition_infos": []
     },
     {
@@ -573,6 +696,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon onion powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -675,10 +799,69 @@
       ]
     },
     {
-      "name": "a 1/4tsp of ground cayenne",
+      "name": "Pinch of ground cayenne",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Pinch of ground cayenne",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "Freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
       "nutrition_infos": []
     }
   ],
@@ -696,28 +879,35 @@
       "name": "Protein",
       "amount": 79.11,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 69.74000000000001,
+      "amount": 148.34,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 272.76,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2121.0,
+      "amount": 2835.0,
       "unit": "KCAL",
-      "serving_size": 56.0,
+      "serving_size": 1.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 41707.0,
+      "unit": "MG",
+      "serving_size": 1.5,
       "serving_size_unit": "g"
     },
     {
@@ -756,13 +946,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 2407.0,
-      "unit": "MG",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 42.0,
       "unit": "IU",
@@ -771,7 +954,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 211.0,
+      "amount": 425.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -785,7 +968,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 41.379999999999995,
+      "amount": 91.38,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -802,6 +985,13 @@
       "amount": 0.89,
       "unit": "G",
       "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 5474.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -823,13 +1013,6 @@
       "amount": 5.16,
       "unit": "MG",
       "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 2614.0,
-      "unit": "IU",
-      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {

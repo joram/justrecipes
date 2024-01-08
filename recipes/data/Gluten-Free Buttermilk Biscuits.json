@@ -15,6 +15,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup sorghum flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10800.0,
+          "amount": 49600.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -128,6 +129,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup cornstarch",
       "nutrition_infos": []
     },
     {
@@ -135,6 +137,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup tapioca flour, plus 1/4 cup for dusting",
       "nutrition_infos": []
     },
     {
@@ -142,6 +145,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon guar gum",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -188,10 +192,62 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "baking powder",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -238,10 +294,19 @@
       ]
     },
     {
+      "name": "cold unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "diced",
+      "original_string": "3 tablespoons cold unsalted butter, diced",
+      "nutrition_infos": []
+    },
+    {
       "name": "cold vegetable shortening",
       "amount": 3.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "preferably non-hydrogenated,  diced",
+      "original_string": "3 tablespoons cold vegetable shortening, preferably non-hydrogenated, diced",
       "nutrition_infos": []
     },
     {
@@ -249,13 +314,23 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup organic buttermilk",
       "nutrition_infos": []
     },
     {
       "name": "to 3 tablespoons water",
       "amount": 2.0,
       "unit": "",
+      "comment": "if needed",
+      "original_string": "2 to 3 tablespoons water, if needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salted butter, agave syrup",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salted butter, agave syrup, or fruit preserves for serving",
       "nutrition_infos": []
     }
   ],
@@ -332,7 +407,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10800.0,
+      "amount": 49600.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

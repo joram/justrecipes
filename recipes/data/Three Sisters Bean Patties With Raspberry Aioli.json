@@ -15,45 +15,92 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 small butternut squash (about 1½ pounds)",
       "nutrition_infos": []
     },
     {
-      "name": "olive oil",
+      "name": "Olive oil, for brushing squash",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Olive oil, for brushing squash",
       "nutrition_infos": []
     },
     {
-      "name": "75 grams medium-grind white or yellow cornmeal",
-      "amount": 1.3333333333333333,
+      "name": "Fine sea salt and freshly ground black pepper",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fine sea salt and freshly ground black pepper",
       "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 22.85,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
         {
           "name": "Total lipid (fat)",
           "amount": 132.43,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.7,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 184.4,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 11668.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 22.85,
+          "unit": "G",
+          "serving_size": 0.7,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 2009.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "medium-grind white or yellow cornmeal",
+      "amount": 275.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 1/2 cups/275 grams medium-grind white (or yellow) cornmeal, plus more if needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 4.65,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 2.33,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 53.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 256.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -88,7 +135,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 11668.0,
+          "amount": 23.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -135,6 +182,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -185,6 +233,7 @@
       "amount": 8.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "2 (15-ounce) cans red kidney beans (or other red beans), drained (about 3 cups)",
       "nutrition_infos": []
     },
     {
@@ -192,6 +241,7 @@
       "amount": 1.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/2 sweet onion, minced (about ¾ cup)",
       "nutrition_infos": []
     },
     {
@@ -199,6 +249,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup sunflower butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -305,6 +356,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -348,6 +400,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dried sage",
       "nutrition_infos": []
     },
     {
@@ -355,6 +408,7 @@
       "amount": 6.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "6 ounces fresh raspberries, finely chopped (scant ⅔ cup)",
       "nutrition_infos": []
     },
     {
@@ -362,6 +416,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup mayonnaise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -475,6 +530,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon maple syrup",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -539,6 +595,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon finely chopped fresh sage",
       "nutrition_infos": []
     }
   ],
@@ -551,31 +608,38 @@
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Protein",
-      "amount": 22.85,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Total lipid (fat)",
       "amount": 132.43,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.7,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 184.4,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.7,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 11668.0,
+      "unit": "MG",
+      "serving_size": 0.7,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Protein",
+      "amount": 22.85,
+      "unit": "G",
+      "serving_size": 0.7,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 2009.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 0.7,
       "serving_size_unit": "g"
     },
     {
@@ -602,13 +666,6 @@
     {
       "name": "Iron, Fe",
       "amount": 6.15,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 11668.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

@@ -9,17 +9,19 @@
   ],
   "ingredients": [
     {
-      "name": "lard traditional or corn",
+      "name": "lard",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons lard (traditional) or corn, grapeseed, or other neutral oil, plus more for deep-frying",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -51,7 +53,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 851.0,
+          "amount": 845.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -62,7 +64,8 @@
       "name": "jalapeños",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "stemmed,  seeded,  and diced,  or",
+      "original_string": "2 jalapeños, stemmed, seeded, and diced, or to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -94,35 +97,35 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 2.9,
+          "amount": 4.07,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 4.1,
+          "amount": 2.9,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 80.0,
+          "amount": 76.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.74,
+          "amount": 0.69,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 363.0,
+          "amount": 244.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -168,21 +171,32 @@
       "name": "small onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "diced",
+      "original_string": "1 small onion, diced",
       "nutrition_infos": []
     },
     {
       "name": "ripe tomatoes",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cored and diced",
+      "original_string": "1 pound ripe tomatoes, cored and diced",
       "nutrition_infos": []
     },
     {
-      "name": "about 3 cups skinned",
+      "name": "about 3 cups skinned and shredded cooked chicken",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "About 3 cups skinned and shredded cooked chicken",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and black pepper to taste",
       "nutrition_infos": []
     },
     {
@@ -190,17 +204,26 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Twelve 5-inch corn tortillas",
       "nutrition_infos": []
     },
     {
-      "name": "shredded lettuce or cabbage",
+      "name": "shredded lettuce",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup shredded lettuce or cabbage",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -221,48 +244,69 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 1.18,
+          "amount": 2.35,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.4,
+          "amount": 1.2,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 28.0,
+          "amount": 24.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.4,
+          "amount": 0.35,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 260.0,
+          "amount": 141.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 18.0,
+          "amount": 12.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
@@ -274,7 +318,8 @@
       "name": "queso fresco",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "1/2 cup queso fresco, crumbled, or grated Cheddar cheese",
       "nutrition_infos": []
     }
   ],
@@ -321,42 +366,42 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 851.0,
+      "amount": 845.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 2.9,
+      "amount": 4.07,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 4.1,
+      "amount": 2.9,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 80.0,
+      "amount": 76.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.74,
+      "amount": 0.69,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 363.0,
+      "amount": 244.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

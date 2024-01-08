@@ -11,10 +11,99 @@
   ],
   "ingredients": [
     {
+      "name": "lemons",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 lemons, rinsed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.76,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 19.46,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 862.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 5.3,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.4,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 52.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 276.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh thyme or oregano leaves",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup fresh thyme or oregano leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh sage leaves",
+      "amount": 1.3333333333333333,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 1/2 tablespoons chopped fresh sage leaves",
+      "nutrition_infos": []
+    },
+    {
       "name": "chopped fresh italian parsley",
       "amount": 1.3333333333333333,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons chopped fresh Italian parsley",
       "nutrition_infos": []
     },
     {
@@ -22,6 +111,15 @@
       "amount": 10.0,
       "unit": "",
       "comment": "",
+      "original_string": "10 to 12 medium or large garlic cloves, peeled and smashed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red chile flakes",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon red chile flakes",
       "nutrition_infos": []
     },
     {
@@ -29,6 +127,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -107,6 +206,15 @@
       "amount": 9.0,
       "unit": "",
       "comment": "",
+      "original_string": "9 bone-in, skin-on chicken thighs, rinsed in cold water",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh sage leaves",
+      "amount": 18.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "18 fresh sage leaves",
       "nutrition_infos": []
     },
     {
@@ -114,13 +222,138 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 to 4 large garlic cloves, peeled and thinly sliced (to yield 18 slices)",
       "nutrition_infos": []
     },
     {
-      "name": "fresh thyme or oregano sprigs",
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 tablespoon plus 1 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "lemons",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 lemons, rinsed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.88,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 9.73,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 31.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.65,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.7,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 26.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 138.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "Fresh thyme or oregano sprigs, for garnish ",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fresh thyme or oregano sprigs, for garnish ",
       "nutrition_infos": []
     }
   ],
@@ -139,37 +372,65 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 1.76,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 19.46,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 800.0,
+      "amount": 862.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 5.3,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 5.4,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 52.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 276.0,
+      "unit": "MG",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 38800.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {

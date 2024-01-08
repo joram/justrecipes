@@ -11,35 +11,39 @@
   ],
   "ingredients": [
     {
-      "name": "safflower or canola oil",
+      "name": "safflower",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons safflower or canola oil",
       "nutrition_infos": []
     },
     {
       "name": "medium red onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved and sliced 1/2-inch thick",
+      "original_string": "1 medium red onion, halved and sliced 1/2-inch thick (about 2 cups)",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece fresh ginger",
+      "name": "1",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (1-inch) piece fresh ginger, minced (about 2 tablespoons)",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "3 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 22.1,
+          "amount": 27.41,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -53,21 +57,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 55.86,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 250.0,
+          "amount": 422.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 102.0,
+          "amount": 183.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -75,24 +79,35 @@
       ]
     },
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "white miso",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup white miso",
       "nutrition_infos": []
     },
     {
       "name": "unsweetened",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "full-fat canned coconut milk",
+      "original_string": "1/2 cup unsweetened, full-fat canned coconut milk",
       "nutrition_infos": []
     },
     {
       "name": "salmon fillet",
-      "amount": 1.25,
-      "unit": "lb",
-      "comment": "",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut into 2-inch pieces",
+      "original_string": "1 (1 1/2-pound) salmon fillet, cut into 2-inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -124,28 +139,28 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 0.67,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 2.9,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 0.0,
+          "amount": 102.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.64,
+          "amount": 3.3200000000000003,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -195,17 +210,233 @@
       ]
     },
     {
-      "name": "packed cups",
+      "name": "baby spinach",
       "amount": 5.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "5 ounces baby spinach (about 5 packed cups)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.68,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.36,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 23.0,
+          "unit": "KCAL",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.67,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.0,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 101.0,
+          "unit": "MG",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.68,
+          "unit": "MG",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 597.0,
+          "unit": "MG",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 81.0,
+          "unit": "MG",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 149.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh lime juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon fresh lime juice, plus lime wedges for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "steamed rice, such as jasmine",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "Steamed rice, such as jasmine or basmati, for serving",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.63,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 32.5,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 149.0,
+          "unit": "KCAL",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.9,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 40.0,
+          "unit": "MG",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 114.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "chopped fresh basil",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped fresh basil",
       "nutrition_infos": []
     },
     {
@@ -213,6 +444,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped fresh cilantro",
       "nutrition_infos": []
     }
   ],
@@ -225,7 +457,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 22.1,
+      "amount": 27.41,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -239,49 +471,49 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 55.86,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 250.0,
+      "amount": 422.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 102.0,
+      "amount": 183.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 0.67,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 2.9,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 0.0,
+      "amount": 102.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.64,
+      "amount": 3.3200000000000003,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -319,6 +551,20 @@
       "amount": 0.88,
       "unit": "G",
       "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 597.0,
+      "unit": "MG",
+      "serving_size": 149.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 149.0,
       "serving_size_unit": "g"
     }
   ]

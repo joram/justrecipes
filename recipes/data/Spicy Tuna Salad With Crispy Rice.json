@@ -11,10 +11,136 @@
   ],
   "ingredients": [
     {
+      "name": "sushi rice",
+      "amount": 1.3333333333333333,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2 cups sushi rice, rinsed well",
+      "nutrition_infos": []
+    },
+    {
+      "name": "2 teaspoons unseasoned rice vinegar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon plus 2 teaspoons unseasoned rice vinegar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 15.48,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 120.25,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1422.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 111.88000000000001,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40285.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 23.2,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "Kosher salt (such as Diamond Crystal)",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "scallions",
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 scallions, trimmed",
       "nutrition_infos": []
     },
     {
@@ -22,38 +148,39 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 Persian or mini seedless cucumbers",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 15.48,
+          "amount": 1.18,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 100.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.25,
+          "amount": 2.35,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1047.0,
+          "amount": 12.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 11.879999999999999,
+          "amount": 1.18,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -88,7 +215,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1285.0,
+          "amount": 35.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -107,6 +234,7 @@
       "amount": 4.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 (5-ounce) cans water-packed tuna, drained",
       "nutrition_infos": []
     },
     {
@@ -114,6 +242,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup mayonnaise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -215,7 +344,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 23.2,
+          "amount": 10.7,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -227,6 +356,7 @@
       "amount": 1.3333333333333333,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons Sriracha, plus more to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -333,6 +463,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons soy sauce",
       "nutrition_infos": []
     },
     {
@@ -340,6 +471,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons neutral oil (such as grapeseed), plus more as needed",
       "nutrition_infos": []
     }
   ],
@@ -356,35 +488,56 @@
       "name": "Protein",
       "amount": 15.48,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.25,
+      "amount": 120.25,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1047.0,
+      "amount": 1422.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 11.879999999999999,
+      "amount": 111.88000000000001,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40285.0,
+      "unit": "MG",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 23.2,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -416,13 +569,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 1285.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
       "unit": "UG",
@@ -447,20 +593,6 @@
       "name": "Cholesterol",
       "amount": 107.0,
       "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 23.2,
-      "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },

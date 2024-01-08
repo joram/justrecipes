@@ -11,24 +11,35 @@
   ],
   "ingredients": [
     {
-      "name": "30 grams pine nuts",
+      "name": "pine nuts",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup (30 grams) pine nuts",
       "nutrition_infos": []
     },
     {
       "name": "medium clove garlic",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "1 medium clove garlic, peeled",
       "nutrition_infos": []
     },
     {
-      "name": "60 grams finely grated parmigiano-reggiano",
+      "name": "tightly packed basil leaves",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "preferably genovese",
+      "original_string": "2 cups (70 grams) tightly packed basil leaves, preferably Genovese",
+      "nutrition_infos": []
+    },
+    {
+      "name": "finely grated parmigiano-reggiano",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2/3 cup (60 grams) finely grated Parmigiano-Reggiano, plus more for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,7 +50,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 40.0,
+          "amount": 133.3,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -53,7 +64,7 @@
         },
         {
           "name": "Energy",
-          "amount": 800.0,
+          "amount": 1600.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -88,7 +99,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 3400.0,
+          "amount": 43400.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -116,7 +127,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 30.0,
+          "amount": 43.3,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -131,10 +142,11 @@
       ]
     },
     {
-      "name": "0 grams finely grated pecorino",
+      "name": "finely grated pecorino",
       "amount": 2.0,
-      "unit": "",
-      "comment": "",
+      "unit": "cup",
+      "comment": "preferably pecorino sardo",
+      "original_string": "1/3 cup (30 grams) finely grated pecorino, preferably pecorino sardo",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -237,17 +249,197 @@
       ]
     },
     {
-      "name": "80 milliliters extra-virgin olive oil",
+      "name": "sea salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40000.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "extra-virgin olive oil",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/3 cup (80 milliliters) extra-virgin olive oil, plus more as needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "trofie or spaghetti",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound trofie or spaghetti",
       "nutrition_infos": []
     }
   ],
@@ -269,7 +461,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 40.0,
+      "amount": 133.3,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -283,7 +475,7 @@
     },
     {
       "name": "Energy",
-      "amount": 800.0,
+      "amount": 1600.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -318,7 +510,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 3400.0,
+      "amount": 43400.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -346,7 +538,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 30.0,
+      "amount": 43.3,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -363,6 +555,34 @@
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.2000000476837158,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 1.2000000476837158,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

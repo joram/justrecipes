@@ -11,35 +11,80 @@
   ],
   "ingredients": [
     {
-      "name": "spaghetti",
+      "name": "Kosher salt (such as Diamond Crystal) and black pepper",
       "amount": 1.0,
-      "unit": "lb",
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 73.9,
           "unit": "G",
-          "serving_size": 56.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 182.19,
           "unit": "G",
-          "serving_size": 56.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 111.1,
           "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2956.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40176.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "spaghetti",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound spaghetti",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 73.2,
+          "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2331.0,
+          "amount": 357.0,
           "unit": "KCAL",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -74,14 +119,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1176.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 37500.0,
           "unit": "IU",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -156,13 +201,15 @@
       "amount": 1.3333333333333333,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups fresh or frozen peas",
       "nutrition_infos": []
     },
     {
       "name": "smoked almonds",
-      "amount": 3.5,
+      "amount": 4.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "3/4 cup/4 ounces smoked almonds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -269,6 +316,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 garlic cloves",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -308,10 +356,27 @@
       ]
     },
     {
+      "name": "fresh basil leaves",
+      "amount": 6.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 1/2 packed cups/1½ ounces fresh basil leaves, plus more for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "flat-leaf parsley leaves",
+      "amount": 1.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 packed cup/1 ounce flat-leaf parsley leaves",
+      "nutrition_infos": []
+    },
+    {
       "name": "freshly grated parmigiano-reggiano",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup freshly grated Parmigiano-Reggiano, plus more for garnish",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -414,10 +479,62 @@
       ]
     },
     {
+      "name": "smoked paprika",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon smoked paprika",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 625.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 37500.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "neutral oil",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup neutral oil, such as safflower or canola",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -462,6 +579,71 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -476,28 +658,35 @@
       "name": "Protein",
       "amount": 73.9,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 182.19,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 111.1,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2331.0,
+      "amount": 2956.0,
       "unit": "KCAL",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40176.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -529,15 +718,8 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 1176.0,
-      "unit": "MG",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 37500.0,
       "unit": "IU",
       "serving_size": 56.0,
       "serving_size_unit": "g"

@@ -10,9 +10,10 @@
   "ingredients": [
     {
       "name": "unbleached all purpose flour",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups unbleached all purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -23,28 +24,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 113.75,
+          "amount": 192.35,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 165.42000000000002,
+          "amount": 265.42,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1730.0,
+          "amount": 2819.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 95.03,
+          "amount": 195.03,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -79,7 +80,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10996.0,
+          "amount": 50296.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -128,7 +129,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 385.0,
+          "amount": 599.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -142,9 +143,60 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 19.380000000000003,
+          "amount": 69.38,
           "unit": "G",
           "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
@@ -154,6 +206,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -200,10 +253,63 @@
       ]
     },
     {
+      "name": "pumpkin pie spice",
+      "amount": 1.25,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/4 teaspoons pumpkin pie spice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "whole milk",
-      "amount": 1.6666666666666667,
+      "amount": 1.3333333333333333,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/3 cups whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -277,7 +383,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 1900.0,
+          "amount": 4760.0,
           "unit": "IU",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -317,13 +423,15 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup canned pure pumpkin",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "separated",
+      "original_string": "4 large eggs, separated",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -412,10 +520,83 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "melted",
+      "original_string": "1/4 cup (1/2 stick) unsalted butter, melted",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "vanilla extract",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
@@ -423,6 +604,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -543,6 +725,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Maple syrup",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -617,28 +800,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 113.75,
+      "amount": 192.35,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 165.42000000000002,
+      "amount": 265.42,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1730.0,
+      "amount": 2819.0,
       "unit": "KCAL",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 95.03,
+      "amount": 195.03,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -673,7 +856,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10996.0,
+      "amount": 50296.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -722,7 +905,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 385.0,
+      "amount": 599.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -736,14 +919,14 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 19.380000000000003,
+      "amount": 69.38,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 1900.0,
+      "amount": 4760.0,
       "unit": "IU",
       "serving_size": 240.0,
       "serving_size_unit": "g"

@@ -11,10 +11,99 @@
   ],
   "ingredients": [
     {
+      "name": "46 grams confectioners’ sugar",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 cups/246 grams confectioners’ sugar, sifted",
+      "nutrition_infos": []
+    },
+    {
+      "name": "170 grams salted butter",
+      "amount": 12.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "12 tablespoons/170 grams salted butter",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dark brown sugar",
+      "amount": 110.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/2 cup/110 grams dark brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 21.9,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 53.1,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 118.8,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1031.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 106.25,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 234.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "jar conventional creamy peanut butter such as skippy",
       "amount": 8.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 (16-ounce) jar conventional creamy peanut butter (such as Skippy)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -128,13 +217,15 @@
       "amount": 1.3333333333333333,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons vanilla extract",
       "nutrition_infos": []
     },
     {
-      "name": "roasted",
+      "name": "Roasted, salted peanuts, roughly chopped, and mini chocolate chips, for topping",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Roasted, salted peanuts, roughly chopped, and mini chocolate chips, for topping",
       "nutrition_infos": []
     }
   ],
@@ -151,35 +242,63 @@
       "name": "Protein",
       "amount": 21.9,
       "unit": "G",
-      "serving_size": 32.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 53.1,
       "unit": "G",
-      "serving_size": 32.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 18.8,
+      "amount": 118.8,
       "unit": "G",
-      "serving_size": 32.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 656.0,
+      "amount": 1031.0,
       "unit": "KCAL",
-      "serving_size": 32.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.25,
+      "amount": 106.25,
       "unit": "G",
-      "serving_size": 32.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 234.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 12.5,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -199,13 +318,6 @@
     {
       "name": "Iron, Fe",
       "amount": 2.25,
-      "unit": "MG",
-      "serving_size": 32.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 234.0,
       "unit": "MG",
       "serving_size": 32.0,
       "serving_size_unit": "g"
@@ -235,20 +347,6 @@
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 32.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 32.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 12.5,
-      "unit": "G",
       "serving_size": 32.0,
       "serving_size_unit": "g"
     }

@@ -11,17 +11,134 @@
   ],
   "ingredients": [
     {
-      "name": "cups/8 ounces frozen lima beans no need to thaw; see tip",
-      "amount": 1.3333333333333333,
-      "unit": "",
+      "name": "basmati",
+      "amount": 1.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 cup basmati or jasmine rice (no need to rinse)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 15.52,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 103.3,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 32.4,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1088.0,
+          "unit": "KCAL",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.7,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 70.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 42.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 140.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 370.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 16.3,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "frozen lima beans ; see tip",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 1/2 cups/8 ounces frozen lima beans (no need to thaw); see Tip",
       "nutrition_infos": []
     },
     {
-      "name": "dried dill",
+      "name": "finely chopped fresh dill",
       "amount": 1.5,
-      "unit": "tbsp",
+      "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup finely chopped fresh dill (or 1 1/2 tablespoons dried dill)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
       "nutrition_infos": []
     },
     {
@@ -29,17 +146,18 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup extra-virgin olive oil, plus more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 12.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 103.3,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -53,21 +171,21 @@
         },
         {
           "name": "Energy",
-          "amount": 940.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 140.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 370.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -81,7 +199,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 16.3,
+          "amount": 13.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -107,6 +225,7 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -195,10 +314,11 @@
       ]
     },
     {
-      "name": "crushed pitted green olives",
+      "name": "crushed pitted green olives, sliced pickled pepperoncini peppers, crumbled feta and/or lemon wedges",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crushed pitted green olives, sliced pickled pepperoncini peppers, crumbled feta and/or lemon wedges, for serving",
       "nutrition_infos": []
     }
   ],
@@ -211,58 +331,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 12.0,
+      "amount": 15.52,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 103.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 32.4,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 940.0,
+      "amount": 1088.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.7,
+      "unit": "G",
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 70.0,
+      "unit": "MG",
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 2.0,
+      "unit": "MG",
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 42.0,
+      "unit": "MG",
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 140.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 370.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 16.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     },
     {
@@ -277,34 +439,6 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 56.0,
-      "unit": "MG",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 2.0,
-      "unit": "MG",
-      "serving_size": 50.0,
       "serving_size_unit": "g"
     }
   ]

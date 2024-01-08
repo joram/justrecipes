@@ -5,16 +5,17 @@ import RecipeSearch from "./components/recipeSearch";
 import {Link, Outlet, Route, Routes} from "react-router-dom";
 import React from "react";
 import RecipePage from "./pages/RecipePage";
-import {Image, Menu} from "semantic-ui-react";
+import {Menu} from "semantic-ui-react";
 import HomePage from "./pages/HomePage";
 import WeekPlanPage from "./pages/WeeklyPlan";
+import SignIn from "./components/loginButton";
 
 function Layout() {
     return (
         <div>
             <Menu attached="top">
                 <Menu.Item>
-                    <Link to="/"><Image src={"/logo512.jpg"} size="tiny" /></Link>
+                    <Link to="/">Random Recipe</Link>
                 </Menu.Item>
                 <Menu.Item>
                     <Link to="/plan">Plan Meals</Link>
@@ -22,7 +23,10 @@ function Layout() {
                 <Menu.Item>
                     <RecipeSearch/>
                 </Menu.Item>
-                </Menu>
+                <Menu.Item position="right">
+                    <SignIn />
+                </Menu.Item>
+            </Menu>
             <Outlet />
         </div>
     );

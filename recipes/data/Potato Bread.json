@@ -1,249 +1,646 @@
 {
   "name": "Potato Bread",
   "categories": [],
-  "servings": 8,
+  "servings": 5,
   "minutes": null,
-  "source_url": "https://cooking.nytimes.com/recipes/1018959-potato-bread",
+  "source_url": "https://www.epicurious.com/recipes/member/views/potato-bread-59779f721585077029ad1997",
   "image_urls": [
-    "https://static01.nyt.com/images/2017/11/01/dining/01CHEF2/01CHEF2-square640.jpg",
-    "https://static01.nyt.com/images/2017/11/01/dining/01CHEF2/01CHEF2-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2017/11/01/dining/01CHEF2/01CHEF2-superJumbo.jpg"
+    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
   ],
   "ingredients": [
     {
-      "name": "about 550 grams medium-size yukon gold potatoes about 6",
-      "amount": 20.0,
-      "unit": "oz",
+      "name": "warm water",
+      "amount": 1.25,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups warm water (110° to 115°F)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/3 cup plus 1 tablespoon firmly packed light brown sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packet rapid-rise yeast",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (1/4-ounce) packet rapid-rise yeast",
+      "nutrition_infos": []
+    },
+    {
+      "name": "gluten-free bread flour mix",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3 1/2 cups Gluten-Free Bread Flour Mix (page 158)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "millet flour",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup millet flour",
+      "nutrition_infos": []
+    },
+    {
+      "name": "xanthan gum",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon xanthan gum",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 2.42,
+          "amount": 12.75,
           "unit": "G",
-          "serving_size": 124.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 8.06,
+          "amount": 41.9,
           "unit": "G",
-          "serving_size": 124.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 16.9,
+          "amount": 351.2,
           "unit": "G",
-          "serving_size": 124.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 145.0,
+          "amount": 1897.0,
           "unit": "KCAL",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.81,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 1.6,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.87,
-          "unit": "MG",
-          "serving_size": 124.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 387.0,
+          "amount": 42640.0,
           "unit": "MG",
-          "serving_size": 124.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground cardamom",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon ground cardamom",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "mashed potatoes",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup mashed potatoes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.52,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 81.0,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 381.0,
+          "unit": "KCAL",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 35.5,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 11.3,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 2550.0,
+          "unit": "MG",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 4.9399999999999995,
+          "unit": "MG",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1111.0,
+          "unit": "MG",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 95.0,
+          "unit": "MG",
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 323.0,
+          "amount": 0.0,
           "unit": "IU",
-          "serving_size": 124.0,
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
+          "amount": 28.6,
           "unit": "MG",
-          "serving_size": 124.0,
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 20.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 124.0,
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 124.0,
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 4.84,
+          "amount": 22.6,
           "unit": "G",
-          "serving_size": 124.0,
+          "serving_size": 21.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "300 grams plain yogurt",
-      "amount": 10.0,
-      "unit": "oz",
+      "name": "salt",
+      "amount": 2.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dairy-free",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "soy-free vegetable shortening",
+      "original_string": "1/3 cup dairy-free, soy-free vegetable shortening, plus 1 tablespoon for brushing",
       "nutrition_infos": []
     },
     {
-      "name": "packet active dry yeast",
+      "name": "top of loaf",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "top of loaf",
       "nutrition_infos": []
     },
     {
-      "name": "cups",
-      "amount": 4.0,
-      "unit": "",
+      "name": "better than milk rice milk powder",
+      "amount": 2.0,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/3 cup Better Than Milk rice milk powder or other vegan milk powder",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 41.9,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 45.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 516.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 35.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 6.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.23,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 419.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 22.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ener-g egg replacer mixed with 2 tablespoons room temperature rice milk",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons Ener-G egg replacer mixed with 2 tablespoons room temperature rice milk",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 2550.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 25.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 125.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
-    "Place potatoes in a saucepan, cover with water to a depth of 1 inch, bring to a boil, lower heat to a simmer and cook until the potatoes are tender when pierced with a knife. Drain potatoes and set aside to cool. When cool, peel potatoes and place in a zipper-close plastic bag with 1/2 tablespoon of the salt. Seal bag and shake to distribute the salt. Press down on the potatoes to crush them.",
-    "Stir the yogurt in a bowl and stir in yeast. Set aside 5 minutes. Place potatoes in the bowl of a stand mixer with a paddle attachment. Add the yogurt mixture and remaining salt and process on low speed until just mixed. Gradually add 3 2/3 cups of the flour, or a little more as needed for the mixture to come together as a dough. It will be a little sticky. Knead by hand, adding more flour if necessary, to make a fairly smooth ball of dough. Cover bowl with plastic wrap and let sit at room temperature 3 to 4 hours.",
-    "Refrigerate at least overnight and up to 2 days.",
-    "To make breads, remove dough from refrigerator for 2 hours. Cover a baking sheet with parchment. Flour a work surface and turn ball of dough out onto it. Pull a golf-ball-size piece of the dough off and set it aside to refrigerate and use as starter for subsequent batches. Divide remaining dough in 8 portions. Form one portion into a disk. Stretch one side of the disk out and fold it back on top. Turn disk and repeat 9 times. With floured hands, form the disk into a ball, then flatten it back into a disk shape about 3 1/2 inches in diameter and about 1/2 inch thick. Place on the baking sheet. Repeat with remaining dough. Breads can be cooked immediately or set aside for up to 2 hours.",
-    "Heat a grill or stovetop grill pan on medium-high. Place disks of dough on grill or pan a minute or so, enough for a crust to form on the outside without coloring. Turn and repeat on the other side. Transfer rounds to the baking sheet. Heat oven to 400 degrees. Brush dough with melted butter on both sides.",
-    "Bake rounds 5 minutes. Turn over, brush tops with more butter and continue baking 6 to 10 minutes more, until a knife slipped into the side comes out clean. Transfer breads to a rack to cool. To serve, warm breads 10 minutes in a 300-degree oven and wrap in a napkin."
+    "Combine 1/4 cup of the warm water, 1 tablespoon of the light brown sugar, and the yeast in the bowl of a stand mixer fitted with the paddle attachment (not bread hook). Use a wooden spoon or whisk to mix well. Make sure the yeast is completely dissolved.",
+    "Whisk together the flour mix, millet flour, xanthan gum, and cardamom. Set aside.",
+    "In a pan, combine the mashed potatoes, remaining 1 cup water, salt, 1/3 cup of the vegetable shortening, rice milk powder, and remaining 1/3 cup light brown sugar. Mix well. Heat until warm and the shortening has melted. Let come to 110° to 115°F.",
+    "Add the egg replacer to the yeast mixture, stirring well. Add the potato mixture to the yeast mixture and beat on medium speed until combined, about 1 minute.",
+    "Add the flour mixture to the liquid mixture in two batches, mixing well on medium speed for about 1 minute, until the dough is fully combined.",
+    "Grease a 9 by 5-inch loaf pan liberally with vegetable shortening.",
+    "Use a rubber spatula to turn the dough out onto a well-floured board, flour your hands well, and pat the dough into a disk 7 inches in diameter and 1 1/2 inches thick. Flip, and then pat into a rectangle about 11 inches long and 1 1/2 inches thick. Roll up, starting from the longer edge, and seal the seam tightly, pressing down lightly to press out any trapped air pockets. Make sure the seam is on the bottom. Tuck both ends of the loaf under (against the seam), so the dough will fit in the loaf pan. The dough will be soft, but don’t worry, it’s supposed to be. Transfer to the loaf pan. Melt the remaining 1 tablespoon shortening (about 30 seconds in the microwave should do it) and use a pastry brush to coat the top of the loaf. Cover with a folded clean dish towel or cloth napkin. Place the loaf pan in a dishpan and pour hot water to come two-thirds up the sides of the loaf (or just fill your kitchen sink basin). Be sure to fold your cloth so it’s not dragging in the water. Let the loaf rise for 1 hour. I generally replace the hot water with new hot water after the first 30 minutes. Check it periodically to make sure it’s still quite warm.",
+    "After the dough has risen for 1 hour and has about doubled in size, place the loaf in a cold oven. Set the temperature to 400°F and bake for 20 minutes. Reduce the temperature to 325°F and bake for 40 minutes longer, or until the loaf is deeply golden on top. Transfer to a cooling rack, turn out of the pan, and let cool (if you can wait that long!).",
+    "Contrary to popular belief, bread products actually dry out faster in the fridge. When storing your gluten-free breads, let them cool completely, then wrap them tightly in foil, plastic wrap, or a freezer bag (with the extra air squeezed out) and store them at room temperature, preferably in a bread box. To crisp up your crust again, just reheat the bread in a 350°F oven for about 15 minutes until warmed through. Or slice and toast individual slices. You may also store your breads in the freezer for up to 3 months. Just remove from the freezer, let defrost to room temperature, and rewarm in the oven as directed above."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 2.42,
+      "amount": 12.75,
       "unit": "G",
-      "serving_size": 124.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 8.06,
+      "amount": 41.9,
       "unit": "G",
-      "serving_size": 124.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 16.9,
+      "amount": 351.2,
       "unit": "G",
-      "serving_size": 124.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 145.0,
+      "amount": 1897.0,
       "unit": "KCAL",
-      "serving_size": 124.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.81,
-      "unit": "G",
-      "serving_size": 124.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 1.6,
-      "unit": "G",
-      "serving_size": 124.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 124.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 0.87,
-      "unit": "MG",
-      "serving_size": 124.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 387.0,
+      "amount": 42640.0,
       "unit": "MG",
-      "serving_size": 124.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 35.5,
+      "unit": "G",
+      "serving_size": 21.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 11.3,
+      "unit": "G",
+      "serving_size": 21.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 2550.0,
+      "unit": "MG",
+      "serving_size": 21.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 4.9399999999999995,
+      "unit": "MG",
+      "serving_size": 21.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 1111.0,
+      "unit": "MG",
+      "serving_size": 21.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 323.0,
+      "amount": 0.0,
       "unit": "IU",
-      "serving_size": 124.0,
+      "serving_size": 21.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "amount": 28.6,
       "unit": "MG",
-      "serving_size": 124.0,
+      "serving_size": 21.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 20.0,
+      "amount": 0.0,
       "unit": "MG",
-      "serving_size": 124.0,
+      "serving_size": 21.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 124.0,
+      "serving_size": 21.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 4.84,
+      "amount": 22.6,
       "unit": "G",
-      "serving_size": 124.0,
+      "serving_size": 21.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

@@ -11,31 +11,79 @@
   ],
   "ingredients": [
     {
-      "name": "50 grams all-purpose flour",
+      "name": "cup",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 cup plus 3 tablespoons/150 grams all-purpose flour",
       "nutrition_infos": []
     },
     {
-      "name": "1 tablespoon/150 grams semolina flour",
+      "name": "cup",
       "amount": 3.5,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
+      "original_string": "3/4 cup plus 1 tablespoon/150 grams semolina flour, plus more for the dough",
       "nutrition_infos": []
     },
     {
-      "name": "140 milliliters warm water about 1/2 cup",
-      "amount": 5.0,
-      "unit": "oz",
+      "name": "fine sea salt",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon fine sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 178.6,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1571.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "warm water",
+      "amount": 140.0,
+      "unit": "ml",
+      "comment": "",
+      "original_string": "5 ounces/140 milliliters warm water (about 1/2 cup), plus more if needed",
       "nutrition_infos": []
     },
     {
       "name": "vegetable oil",
       "amount": 4.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "such as sunflower",
+      "original_string": "4 tablespoons vegetable oil, such as sunflower or canola, plus more for greasing",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -116,7 +164,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 214.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -130,7 +178,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 14.3,
+          "amount": 64.3,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -145,6 +193,78 @@
         {
           "name": "Fatty acids, total polyunsaturated",
           "amount": 57.1,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 30.0,
+      "unit": "g",
+      "comment": "melted",
+      "original_string": "2 tablespoons/30 grams unsalted butter, melted",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -165,28 +285,35 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 100.0,
+      "amount": 178.6,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 857.0,
+      "amount": 1571.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 1.399999976158142,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39300.0,
+      "unit": "MG",
+      "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
@@ -225,13 +352,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -240,7 +360,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -254,7 +374,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 14.3,
+      "amount": 64.3,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -270,6 +390,13 @@
       "name": "Fatty acids, total polyunsaturated",
       "amount": 57.1,
       "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     }

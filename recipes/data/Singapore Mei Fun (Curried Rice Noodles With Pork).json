@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "vermicelli rice noodles dried rice stick noodles",
+      "amount": 5.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "5 ounces vermicelli rice noodles (dried rice stick noodles)",
+      "nutrition_infos": []
+    },
+    {
       "name": "curry powder",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon curry powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 90.88,
+          "amount": 65.88,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2438.0,
+          "amount": 2313.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 23.53,
+          "amount": 3.53,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -60,28 +69,28 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 605.0,
+          "amount": 590.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 25.87,
+          "amount": 24.07,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 330.0,
+          "amount": 265.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 11661.0,
+          "amount": 49711.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -121,6 +130,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon low-sodium soy sauce",
       "nutrition_infos": []
     },
     {
@@ -128,6 +138,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons neutral oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -178,6 +189,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 large eggs, beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -270,6 +282,7 @@
       "amount": 6.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "6 ounces green cabbage, shredded (2 packed cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -376,13 +389,67 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 small carrot, cut into matchsticks (1/2 cup)",
       "nutrition_infos": []
+    },
+    {
+      "name": "red bell pepper",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/2 red bell pepper, thinly sliced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Kosher salt (such as Diamond Crystal) and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "minced garlic",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -440,6 +507,7 @@
       "amount": 2.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1/4 pound cleaned medium shrimp",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -520,7 +588,7 @@
         },
         {
           "name": "Sugars, added",
-          "amount": 20.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -549,123 +617,27 @@
       ]
     },
     {
-      "name": "chinese roasted pork char siu",
-      "amount": 2.5,
-      "unit": "lb",
+      "name": "1/4 pound <a href=\"https://cooking.nytimes.com/recipes/1020771-chinese-roast-pork-on-garlic-bread\">Chinese roasted pork</a> (char siu), thinly sliced or chopped",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 25.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 125.0,
-          "unit": "KCAL",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 20.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 15.0,
-          "unit": "MG",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 1.8,
-          "unit": "MG",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 65.0,
-          "unit": "MG",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 950.0,
-          "unit": "MG",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 20.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 20.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "1/4 pound <a href=\"https://cooking.nytimes.com/recipes/1020771-chinese-roast-pork-on-garlic-bread\">Chinese roasted pork</a> (char siu), thinly sliced or chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thinly sliced scallions",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup thinly sliced scallions",
+      "nutrition_infos": []
     },
     {
       "name": "toasted sesame oil",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -760,21 +732,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 90.88,
+      "amount": 65.88,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2438.0,
+      "amount": 2313.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 23.53,
+      "amount": 3.53,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -788,28 +760,28 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 605.0,
+      "amount": 590.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 25.87,
+      "amount": 24.07,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 330.0,
+      "amount": 265.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 11661.0,
+      "amount": 49711.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -865,7 +837,7 @@
     },
     {
       "name": "Sugars, added",
-      "amount": 20.0,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"

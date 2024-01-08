@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +26,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 100.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 2123.0,
+          "amount": 1266.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -67,7 +68,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 24300.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -95,7 +96,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 14.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -103,10 +104,19 @@
       ]
     },
     {
+      "name": "smoked",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons smoked or sweet paprika ",
+      "nutrition_infos": []
+    },
+    {
       "name": "garlic powder",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon garlic powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -150,6 +160,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon onion powder ",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -255,7 +266,8 @@
       "name": "ground cayenne",
       "amount": 2.5,
       "unit": "tsp",
-      "comment": "",
+      "comment": "or",
+      "original_string": "1/4 teaspoon ground cayenne, or to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -309,10 +321,55 @@
       ]
     },
     {
-      "name": "-percent milk",
-      "amount": 1.3333333333333333,
+      "name": "kosher salt and black pepper, for seasoning",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper, for seasoning",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 24300.0,
+          "unit": "MG",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "whole",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2 cups whole or 2-percent milk",
       "nutrition_infos": []
     },
     {
@@ -320,140 +377,31 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
-      "name": "cube steak see tip",
-      "amount": 1.3333333333333333,
-      "unit": "lb",
-      "comment": "",
+      "name": "to 2 pounds cube steak",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "cut into 6 pieces",
+      "original_string": "1 1/2 to 2 pounds cube steak (see Tip), cut into 6 pieces",
       "nutrition_infos": []
     },
     {
-      "name": "vegetable oil",
+      "name": "vegetable oil, for frying ",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 100.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 857.0,
-          "unit": "KCAL",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 14.3,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total monounsaturated",
-          "amount": 25.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total polyunsaturated",
-          "amount": 57.1,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Vegetable oil, for frying (about 1 cup), plus more if needed",
+      "nutrition_infos": []
     },
     {
       "name": "all-purpose flour",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup all-purpose flour ",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -542,10 +490,19 @@
       ]
     },
     {
-      "name": "-percent milk",
+      "name": "whole",
       "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 cups whole or 2-percent milk, plus more as needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
       "nutrition_infos": []
     }
   ],
@@ -567,7 +524,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 100.0,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -581,7 +538,7 @@
     },
     {
       "name": "Energy",
-      "amount": 2123.0,
+      "amount": 1266.0,
       "unit": "KCAL",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -609,7 +566,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 24300.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -637,7 +594,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 14.3,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -675,34 +632,6 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 0.8999999761581421,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total monounsaturated",
-      "amount": 25.0,
-      "unit": "G",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total polyunsaturated",
-      "amount": 57.1,
-      "unit": "G",
-      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

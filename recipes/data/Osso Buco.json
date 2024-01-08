@@ -12,7 +12,8 @@
       "name": "shanks of veal",
       "amount": 4.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut in 2\" pieces",
+      "original_string": "4 pounds shanks of veal, cut in 2\" pieces",
       "nutrition_infos": []
     },
     {
@@ -20,6 +21,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -58,7 +60,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 237.0,
+          "amount": 39537.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -94,10 +96,55 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "olive oil",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
@@ -105,6 +152,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -211,6 +259,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -261,20 +310,23 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup white wine",
       "nutrition_infos": []
     },
     {
-      "name": "or 2 cloves garlic",
+      "name": "1",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 or 2 cloves garlic, crushed",
       "nutrition_infos": []
     },
     {
       "name": "basil",
       "amount": 1.5,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crushed",
+      "original_string": "1/2 teaspoon basil, crushed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -314,10 +366,11 @@
       ]
     },
     {
-      "name": "a 1/4tsp of thyme",
+      "name": "a 1/4 tsp of thyme",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Pinch of thyme",
       "nutrition_infos": []
     },
     {
@@ -325,6 +378,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced parsley",
       "nutrition_infos": []
     },
     {
@@ -332,6 +386,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -437,14 +492,24 @@
       "name": "onions",
       "amount": 2.0,
       "unit": "",
+      "comment": "chopped",
+      "original_string": "2 onions, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "minced lemon zest",
+      "amount": 1.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon minced lemon zest",
       "nutrition_infos": []
     },
     {
       "name": "carrots",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "scraped and diced",
+      "original_string": "4 carrots, scraped and diced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -550,7 +615,8 @@
       "name": "stalk celery",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 stalk celery, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -651,6 +717,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "minced celery leaves",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon minced celery leaves",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -695,7 +769,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 237.0,
+      "amount": 39537.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

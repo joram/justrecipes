@@ -1,7 +1,8 @@
 import {Container, Menu, Segment,} from "semantic-ui-react";
 import React, {useEffect} from "react";
-import {searchRecipes} from "../utils.py/search_recipes";
+import {searchRecipes} from "../utils/search_recipes";
 import RecipeCards from "../components/recipeCards";
+import {apiAddRecipeToPlan, apiGetPlan, apiRemoveRecipeFromPlan} from "../utils/api";
 
 function WeekPlanPage() {
     let [selectedRecipes, setSelectedRecipes] = React.useState([]);
@@ -15,13 +16,26 @@ function WeekPlanPage() {
     let [tofuRecipes, setTofuRecipes] = React.useState(null);
     let [beanRecipes, setBeanRecipes] = React.useState(null);
 
+    useEffect(() => {
+        apiGetPlan(2021, 1).then((data) => {
+            let alreadySelectedRecipes = [];
+            data.recipes.forEach((recipe_title) => {
+                searchRecipes(recipe_title, 1).forEach((recipe) => {
+                    alreadySelectedRecipes.push(recipe)
+                })
+            })
+            setSelectedRecipes(alreadySelectedRecipes)
+        });
+    }, []);
 
     function onRecipeAdd(recipe) {
         setSelectedRecipes([...selectedRecipes, recipe]);
+        apiAddRecipeToPlan(2021, 1, recipe.title).then(r => console.log(r))
     }
 
     function onRecipeRemove(recipe) {
         setSelectedRecipes(selectedRecipes.filter((r) => r !== recipe));
+        apiRemoveRecipeFromPlan(2021, 1, recipe.title).then(r => console.log(r))
     }
 
     function changeTab(section) {
@@ -91,7 +105,6 @@ function WeekPlanPage() {
     }, []);
 
     const recipes = currentRecipes();
-    console.log(recipes)
     return <>
         <Container>
             <Menu tabular>

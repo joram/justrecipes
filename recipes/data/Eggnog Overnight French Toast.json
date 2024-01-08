@@ -15,6 +15,7 @@
       "amount": 8.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 (16-ounce) day-old, plain country bread loaf (oblong or similarly shaped)",
       "nutrition_infos": []
     },
     {
@@ -22,10 +23,11 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
-          "amount": 6.67,
+          "amount": 106.67,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -46,21 +48,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 50.0,
+          "amount": 128.6,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 540.0,
+          "amount": 1629.0,
           "unit": "KCAL",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 6.67,
+          "amount": 106.67,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -81,14 +83,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 173.0,
+          "amount": 40173.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 537.0,
+          "amount": 751.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -102,9 +104,74 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 29.7,
+          "amount": 79.7,
           "unit": "G",
           "serving_size": 50.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
@@ -114,6 +181,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -216,10 +284,83 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "4 tablespoons unsalted butter, melted",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dark rum",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon dark rum, brandy or bourbon",
       "nutrition_infos": []
     },
     {
@@ -227,6 +368,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons pure vanilla extract",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -250,6 +392,66 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "coarse kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon coarse kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40000.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "Freshly grated nutmeg, for dusting",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly grated nutmeg, for dusting",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Confectioners’ sugar, for dusting",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Confectioners’ sugar, for dusting",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -262,7 +464,7 @@
   "nutrition_infos": [
     {
       "name": "Carbohydrate, by difference",
-      "amount": 6.67,
+      "amount": 106.67,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -283,21 +485,21 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 50.0,
+      "amount": 128.6,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 540.0,
+      "amount": 1629.0,
       "unit": "KCAL",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.67,
+      "amount": 106.67,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -318,14 +520,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 173.0,
+      "amount": 40173.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 537.0,
+      "amount": 751.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -339,7 +541,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 29.7,
+      "amount": 79.7,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -356,6 +558,13 @@
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

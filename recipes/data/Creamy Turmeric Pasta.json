@@ -15,6 +15,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound spaghetti",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +26,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 31.79,
+          "amount": 110.39,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 857.0,
+          "amount": 1571.0,
           "unit": "KCAL",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -81,7 +82,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 2860.0,
           "unit": "IU",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -116,7 +117,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 100.0,
+          "amount": 314.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -130,7 +131,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 20.0,
+          "amount": 70.0,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -152,17 +153,91 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "large shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 large shallot, thinly sliced",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "2 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -202,10 +277,19 @@
       ]
     },
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "ground turmeric",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons ground turmeric",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -245,17 +329,19 @@
       ]
     },
     {
-      "name": "half-",
+      "name": "half-and-half",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup half-and-half",
       "nutrition_infos": []
     },
     {
-      "name": "lightly packed freshly grated parmesan about 4 ounces",
+      "name": "lightly packed freshly grated parmesan",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups lightly packed freshly grated Parmesan (about 4 ounces), plus more for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -358,10 +444,11 @@
       ]
     },
     {
-      "name": "finely chopped fresh parsley or chives",
+      "name": "finely chopped fresh parsley",
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons finely chopped fresh parsley or chives",
       "nutrition_infos": []
     }
   ],
@@ -381,7 +468,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 31.79,
+      "amount": 110.39,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -395,7 +482,7 @@
     },
     {
       "name": "Energy",
-      "amount": 857.0,
+      "amount": 1571.0,
       "unit": "KCAL",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -437,7 +524,7 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 2860.0,
       "unit": "IU",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -472,7 +559,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 100.0,
+      "amount": 314.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -486,7 +573,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 20.0,
+      "amount": 70.0,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"

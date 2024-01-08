@@ -14,7 +14,16 @@
       "name": "skin-on",
       "amount": 4.0,
       "unit": "lb",
+      "comment": "bone-in chicken thighs ,  patted dry",
+      "original_string": "4 pounds skin-on, bone-in chicken thighs (about 12), patted dry",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt, freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt, freshly ground pepper",
       "nutrition_infos": []
     },
     {
@@ -22,10 +31,11 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 24.71,
+          "amount": 27.57,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -39,21 +49,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 35.31,
+          "amount": 166.71,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2333.0,
+          "amount": 2851.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.5300000000000002,
+          "amount": 103.53,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -74,7 +84,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 9.07,
+          "amount": 9.41,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -141,21 +151,82 @@
       "name": "scallions",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": "white and pale green parts sliced into 1-inch pieces,  dark green parts thinly sliced",
+      "original_string": "8 scallions, white and pale green parts sliced into 1-inch pieces, dark green parts thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece ginger",
-      "amount": 1.5,
+      "name": "dried chiles de árbol",
+      "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 dried chiles de árbol",
       "nutrition_infos": []
+    },
+    {
+      "name": "ginger",
+      "amount": 1.0,
+      "unit": "piece",
+      "comment": "peeled,  thinly sliced",
+      "original_string": "1 (2-inch) piece ginger, peeled, thinly sliced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dry white wine",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup dry white wine",
       "nutrition_infos": []
     },
     {
@@ -163,13 +234,87 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup low-sodium soy sauce",
       "nutrition_infos": []
+    },
+    {
+      "name": "dark brown sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons dark brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "toasted sesame oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -240,14 +385,16 @@
       "name": "low-sodium chicken broth",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "2 cups low-sodium chicken broth, divided",
       "nutrition_infos": []
     },
     {
       "name": "acorn squash",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved lengthwise,  seeds removed,  sliced 1/2-inch thick",
+      "original_string": "1 acorn squash, halved lengthwise, seeds removed, sliced 1/2-inch thick",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -353,7 +500,8 @@
       "name": "mustard greens",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "tough stems removed,  leaves torn",
+      "original_string": "1 bunch mustard greens, tough stems removed, leaves torn",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -470,10 +618,19 @@
       ]
     },
     {
+      "name": "unseasoned rice vinegar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons unseasoned rice vinegar",
+      "nutrition_infos": []
+    },
+    {
       "name": "toasted sesame seeds",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons toasted sesame seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -574,6 +731,113 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "cooked white rice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooked white rice (for serving)",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.34,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 31.4,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 143.0,
+          "unit": "KCAL",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -587,7 +851,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 24.71,
+      "amount": 27.57,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -601,21 +865,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 35.31,
+      "amount": 166.71,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2333.0,
+      "amount": 2851.0,
       "unit": "KCAL",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.5300000000000002,
+      "amount": 103.53,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -636,7 +900,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 9.07,
+      "amount": 9.41,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -695,6 +959,13 @@
       "amount": 103.80000000000001,
       "unit": "G",
       "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

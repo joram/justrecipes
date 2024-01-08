@@ -11,17 +11,19 @@
   ],
   "ingredients": [
     {
-      "name": "of brie or camembert",
+      "name": "of brie",
       "amount": 1.0,
       "unit": "piece",
       "comment": "",
+      "original_string": "1 piece of brie or Camembert, 4 to 8 ounces, cold",
       "nutrition_infos": []
     },
     {
       "name": "puff pastry",
       "amount": 1.0,
       "unit": "envelope",
-      "comment": "",
+      "comment": "chilled but not frozen",
+      "original_string": "1 sheet puff pastry, chilled but not frozen",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 66.8,
+          "amount": 166.8,
           "unit": "G",
           "serving_size": 100.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 522.0,
+          "amount": 897.0,
           "unit": "KCAL",
           "serving_size": 100.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 32.8,
+          "amount": 132.8,
           "unit": "G",
           "serving_size": 100.0,
           "serving_size_unit": "g"
@@ -187,10 +189,11 @@
       ]
     },
     {
-      "name": "thick jam or marmalade",
+      "name": "thick jam",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons thick jam or marmalade, any flavor",
       "nutrition_infos": []
     },
     {
@@ -198,6 +201,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 egg beaten with 1 tablespoon water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -242,6 +246,57 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "demerara sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon demerara sugar (optional)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -267,21 +322,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 66.8,
+      "amount": 166.8,
       "unit": "G",
       "serving_size": 100.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 522.0,
+      "amount": 897.0,
       "unit": "KCAL",
       "serving_size": 100.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 32.8,
+      "amount": 132.8,
       "unit": "G",
       "serving_size": 100.0,
       "serving_size_unit": "g"

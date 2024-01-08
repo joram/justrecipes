@@ -11,17 +11,71 @@
   ],
   "ingredients": [
     {
-      "name": "young lamb from the shoulder or the leg",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 70.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 333.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "young lamb from the shoulder",
       "amount": 3.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "3 pounds young lamb from the shoulder or the leg, cut into uniform 2-inch chunks",
       "nutrition_infos": []
     },
     {
       "name": "cooking fat",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "preferably lard",
+      "original_string": "2 tablespoons cooking fat, preferably lard or olive oil",
       "nutrition_infos": []
     },
     {
@@ -29,6 +83,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon chopped fresh rosemary",
       "nutrition_infos": []
     },
     {
@@ -36,10 +91,11 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon chopped garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 6.67,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 2.5,
           "serving_size_unit": "g"
@@ -53,14 +109,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 70.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 2.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 333.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 2.5,
           "serving_size_unit": "g"
@@ -93,6 +149,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -167,18 +224,12 @@
       ]
     },
     {
-      "name": "white wine vinegar or champagne vinegar",
+      "name": "white wine vinegar",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup white wine vinegar or Champagne vinegar",
       "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
@@ -194,23 +245,23 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Energy",
+          "name": "Sodium, Na",
           "amount": 0.0,
-          "unit": "KCAL",
+          "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Total Sugars",
+          "name": "Protein",
           "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Sodium, Na",
+          "name": "Energy",
           "amount": 0.0,
-          "unit": "MG",
+          "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         }
@@ -220,7 +271,16 @@
       "name": "large anchovy fillets",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "4 large anchovy fillets, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar snap pea salad with calabrian pepper and fennel",
+      "amount": 3.0,
+      "unit": "cup",
+      "comment": "omitting the pecorino romano",
+      "original_string": "3 cups sugar snap pea salad with Calabrian pepper and fennel (<a href=\"https://cooking.nytimes.com/recipes/1018708-sugar-snap-pea-salad-with-calabrian-pepper-and-fennel\">see recipe</a>), omitting the pecorino Romano",
       "nutrition_infos": []
     }
   ],
@@ -236,35 +296,35 @@
       "name": "Protein",
       "amount": 6.67,
       "unit": "G",
-      "serving_size": 2.5,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 2.5,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 70.0,
       "unit": "G",
-      "serving_size": 2.5,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 333.0,
       "unit": "KCAL",
-      "serving_size": 2.5,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 39300.0,
       "unit": "MG",
-      "serving_size": 2.5,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -314,13 +374,6 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

@@ -1,103 +1,360 @@
 {
   "name": "Chocolate Mousse",
   "categories": [],
-  "servings": 9,
+  "servings": 8,
   "minutes": null,
-  "source_url": "https://cooking.nytimes.com/recipes/1023296-chocolate-mousse",
+  "source_url": "https://www.epicurious.com/recipes/member/views/chocolate-mousse-cake-pesach-52809641",
   "image_urls": [
-    "https://static01.nyt.com/images/2022/07/06/dining/01korex/01korex-square640.jpg",
-    "https://static01.nyt.com/images/2022/07/06/dining/01korex/01korex-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2022/07/06/dining/01korex/merlin_209008524_f639ac41-732a-4085-b1b3-98a3f9bd648b-superJumbo.jpg"
+    "https://assets.epicurious.com/photos/5c93f0c46e97fa60b6605811/16:9/w_4576,h_2574,c_limit/Chocolate-Mousse-recipe-19032019.jpg",
+    "https://assets.epicurious.com/photos/5c93f0c46e97fa60b6605811/4:3/w_4076,h_3057,c_limit/Chocolate-Mousse-recipe-19032019.jpg",
+    "https://assets.epicurious.com/photos/5c93f0c46e97fa60b6605811/1:1/w_3058,h_3058,c_limit/Chocolate-Mousse-recipe-19032019.jpg"
   ],
   "ingredients": [
     {
-      "name": "0 grams heavy cream",
-      "amount": 1.5,
-      "unit": "",
+      "name": "chilled heavy cream",
+      "amount": 2.0,
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "ounces/340 grams bittersweet chocolate",
-      "amount": 12.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "large egg whites 265 grams/1 cup",
-      "amount": 8.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "large egg yolks 56 grams",
+      "name": "large egg yolks",
       "amount": 4.0,
       "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "pure vanilla extract",
+      "name": "vanilla",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fine-quality bittersweet chocolate not unsweetened",
+      "amount": 7.0,
+      "unit": "oz",
+      "comment": "",
       "nutrition_infos": [
         {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "name": "Protein",
+          "amount": 9.79,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 41.8,
+          "unit": "G",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 63.7,
+          "unit": "G",
+          "serving_size": 55.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 579.0,
           "unit": "KCAL",
-          "serving_size": 5.0,
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 46.4,
+          "unit": "G",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 11.6,
+          "unit": "G",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 36.0,
+          "unit": "MG",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.52,
+          "unit": "MG",
+          "serving_size": 55.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 10.6,
+          "unit": "MG",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 25.4,
+          "unit": "G",
+          "serving_size": 55.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "garnish: lightly sweetened whipped cream",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "an instant-read thermometer",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.25,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 10.6,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.7,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 18.3,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 70.0,
+          "unit": "KCAL",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 15.5,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.7,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
           "serving_size_unit": "g"
         }
       ]
     }
   ],
   "instructions": [
-    "Bring an inch of water to a boil in a medium saucepan. Combine the cream and chocolate in a large heatproof bowl. When the water boils, turn the heat to low so the water is barely simmering or just steaming. Set the bowl over the saucepan and melt the chocolate, gently stirring with a whisk now and then.",
-    "While the chocolate melts, whisk the egg whites in a clean bowl using a stand mixer or electric hand mixer on medium speed. When the whites are foamy, add the sugar in a slow stream while whisking. Continue whisking until stiff peaks form. The whites should look glossy but not dry, and, when you lift the whisk from the mixture, a peak should form in the bowl and hold.",
-    "Once the chocolate has melted completely, turn off the heat but leave the bowl over the saucepan. Holding the bowl with a kitchen towel, add the egg yolks one at a time, whisking after each addition. If the mixture looks broken, remove the bowl from the saucepan, cool for a minute, then add 1 tablespoon cream and whisk just until shiny and smooth. Whisk in the vanilla. (Don’t worry if it still doesn’t look completely smooth. It will come together in the next step.)",
-    "Add a quarter of the beaten whites to the chocolate mixture and stir gently with a flexible rubber spatula until incorporated but still a little streaky. This will make it easier to fold in the remaining whites to create an airy mousse by gradually lowering the temperature of the chocolate (tempering) and making the mixture loose.",
-    "Add the rest of the whites and fold them in by running the spatula from 12 o’clock on the bowl to 6 o’clock, then scooping up the chocolate on the bottom and gently folding it over the whites as you move toward 9 o’clock. Rotate the bowl 90 degrees and repeat. Continue folding just until the last streak of white disappears. It’s OK if there are a few lumps of whites left. It’s better to not deflate the batter by folding too much.",
-    "Scoop into a pretty bowl or into individual cups or bowls for serving if you’d like. Otherwise, keep it in the mixing bowl. Refrigerate the mousse uncovered until cool, then cover and refrigerate for at least 4 more hours and preferably 24. The covered mousse can be refrigerated for up to 5 days.",
-    "If you’d like to serve the mousse with whipped cream, whisk heavy cream until soft peaks form. A cup or two of heavy cream is plenty for this amount of mousse. Serve the mousse cold, straight from the refrigerator, with the whipped cream."
+    "Heat ¾ cup cream in a 1-quart heavy saucepan until hot. Whisk together yolks, sugar, and a pinch of salt in a metal bowl until combined well, then add hot cream in a slow stream, whisking until combined. Transfer mixture to saucepan and cook over moderately low heat, stirring constantly, until it registers 160°F on thermometer. Pour custard through a fine-mesh sieve into a bowl and stir in vanilla.",
+    "Melt chocolate in a double boiler or a metal bowl set over a pan of simmering water (or in a glass bowl in a microwave at 50 percent power 3 to 5 minutes), stirring frequently. Whisk custard into chocolate until smooth, then cool.",
+    "Beat remaining 1¼ cups cream in a bowl with an electric mixer until it just holds stiff peaks. Whisk one fourth of cream into chocolate custard to lighten, then fold in remaining cream gently but thoroughly.",
+    "Spoon mousse into eight (6-ounce) stemmed glasses or ramekins and chill, covered, at least 6 hours. Let stand at room temperature about 20 minutes before serving.\nDo ahead: Mousse can be chilled up to 1 day."
   ],
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "name": "Protein",
+      "amount": 9.79,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 41.8,
+      "unit": "G",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 63.7,
+      "unit": "G",
+      "serving_size": 55.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 0.0,
+      "amount": 579.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 46.4,
+      "unit": "G",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 11.6,
+      "unit": "G",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 36.0,
+      "unit": "MG",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 3.52,
+      "unit": "MG",
+      "serving_size": 55.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 10.6,
+      "unit": "MG",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 55.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 25.4,
+      "unit": "G",
+      "serving_size": 55.0,
       "serving_size_unit": "g"
     }
   ]

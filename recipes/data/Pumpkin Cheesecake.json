@@ -1,304 +1,815 @@
 {
   "name": "Pumpkin Cheesecake",
   "categories": [],
-  "servings": null,
-  "minutes": 120,
-  "source_url": "https://cooking.nytimes.com/recipes/1021631-pumpkin-cheesecake",
+  "servings": 16,
+  "minutes": 525,
+  "source_url": "https://www.bettycrocker.com/recipes/pumpkin-cheesecake/138a3815-0a58-4ac5-854a-9253538e5958",
   "image_urls": [
-    "https://static01.nyt.com/images/2020/11/09/dining/ya-pumpkin-cheesecake/ya-pumpkin-cheesecake-square640.jpg",
-    "https://static01.nyt.com/images/2020/11/09/dining/ya-pumpkin-cheesecake/ya-pumpkin-cheesecake-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2020/11/09/dining/ya-pumpkin-cheesecake/ya-pumpkin-cheesecake-superJumbo.jpg"
+    "https://mojo.generalmills.com/api/public/content/hfMqZqmBjUaPfrFaW6Skzg_gmi_hi_res_jpeg.jpeg?v=f3c50ac9&t=b5673970ed9e41549a020b29d456506d"
   ],
   "ingredients": [
     {
-      "name": "35 grams finely crushed graham cracker crumbs from about 15 whole crackers",
-      "amount": 2.0,
-      "unit": "",
+      "name": "graham cracker crumbs",
+      "amount": 1.75,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "225-gram packages full-fat cream cheese not whipped",
-      "amount": 5.5,
-      "unit": "oz",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "all-purpose flour",
-      "amount": 3.0,
-      "unit": "tbsp",
-      "comment": "",
+      "original_string": "1 3/4  cups graham cracker crumbs (about 24 squares)",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.68,
+          "amount": 22.150000000000002,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 44.870000000000005,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 404.85,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2075.0,
+          "unit": "KCAL",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 278.37,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.5999999999999996,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 115.0,
+          "unit": "MG",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 11.469999999999999,
+          "unit": "MG",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 303.0,
+          "unit": "MG",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 647.0,
+          "unit": "MG",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 23.1,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 18.0,
+          "unit": "MG",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 29.15,
+          "unit": "G",
+          "serving_size": 13.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2  tablespoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 355.0,
+          "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.23,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 3.2,
-          "unit": "G",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 3.48,
-          "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Thiamin",
+          "name": "Fatty acids, total trans",
           "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Riboflavin",
-          "amount": 0.329,
-          "unit": "MG",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Niacin",
-          "amount": 5.16,
-          "unit": "MG",
-          "serving_size": 31.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "ground ginger",
-      "amount": 1.0,
-      "unit": "tsp",
+      "name": "butter",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "ground cloves",
-      "amount": 2.5,
-      "unit": "tsp",
-      "comment": "",
+      "original_string": "1/2  cup butter or margarine, melted",
       "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.7,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 2.35,
           "unit": "G",
-          "serving_size": 0.7,
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 12.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.27,
+          "unit": "MG",
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 0.7,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Protein",
+          "name": "Vitamin A, IU",
+          "amount": 3887.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 8.5,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.7,
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Energy",
+          "name": "Fatty acids, total saturated",
           "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 0.7,
+          "unit": "G",
+          "serving_size": 85.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "240 grams canned pumpkin purée",
-      "amount": 1.0,
+      "name": "gold medal™ all-purpose flour",
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4  cup Gold Medal™ all-purpose flour",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.71,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.48,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 357.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.49,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.4,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 20.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.06,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 149.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.445,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folate, total",
+          "amount": 293.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folic acid",
+          "amount": 154.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "vanilla extract",
+      "name": "pumpkin pie spice",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2  teaspoons pumpkin pie spice",
       "nutrition_infos": []
     },
     {
-      "name": "large eggs 1 large egg yolk",
-      "amount": 4.0,
+      "name": "brandy",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "if desired",
+      "original_string": "2  tablespoons brandy, if desired",
+      "nutrition_infos": []
+    },
+    {
+      "name": "can",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1  can (15 oz) pumpkin (not pumpkin pie mix)",
       "nutrition_infos": []
     },
     {
-      "name": "240 milliliters heavy cream",
+      "name": "packages cream cheese",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "softened",
+      "original_string": "4  packages (8 oz each) cream cheese, softened",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packed brown sugar",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1  cup packed brown sugar",
       "nutrition_infos": []
     },
     {
-      "name": "vanilla extract",
-      "amount": 1.5,
-      "unit": "tsp",
+      "name": "granulated sugar",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2/3  cup granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "eggs",
+      "amount": 5.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "5  eggs",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 35.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 571.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 53.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.29,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 107.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 357.0,
+          "unit": "IU",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.3,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 18.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
-    "Prepare the crust: Heat oven to 350 degrees. Coat a 9-inch springform pan with nonstick cooking spray.",
-    "Combine the graham cracker crumbs, sugar, melted butter and dash of salt in a large bowl; stir until all crumbs are moistened. (If making the crumbs from whole crackers, use a food processor to pulse the crackers to a fine consistency, then add the sugar, melted butter and salt, and pulse again to combine.)",
-    "Add the crumb mixture to the springform pan and use the bottom of a measuring cup to press it in an even layer and up the edges of the pan by about 1 inch. Bake until the crust is set, about 10 minutes. Remove from the oven and transfer to a cooling rack. Reduce oven temperature to 300 degrees.",
-    "As the crust cools, make the filling: In the bowl of a stand mixer fitted with the paddle attachment, or in a large bowl using an electric mixer, combine the cream cheese and sugar. Beat on low until smooth and combined, about 1 minute.",
-    "In a small bowl, combine the flour, cinnamon, ginger, nutmeg, cloves and salt. Continuing to mix on low speed, add the spice mixture, pumpkin purée and vanilla to the filling. Mix until smooth, about 1 minute, using a rubber spatula to scrape the bottom and sides of the bowl as needed.",
-    "Increase the mixer speed to medium-low. Add the eggs and egg yolk, one at a time, beating until mostly mixed in before adding the next. Be careful not to overmix!",
-    "Grease the sides of the springform pan again with cooking spray. Pour the filling into the pan and smooth the top with a rubber spatula. Gently tap the bottom of the pan against the counter to release any air bubbles.",
-    "Bake on the middle rack at 300 degrees for 1 hour, or until the sides of the cheesecake are set and the middle jiggles slightly when shaken. To keep from overbaking, look for a 2- to 3-inch round in the center of the cheesecake to jiggle. Try not to open the oven door more than absolutely necessary to check the doneness! The change in temperature can cause the cheesecake to crack.",
-    "Turn the oven off and keep the oven door shut. Keep the cheesecake in the warm oven with the door closed for 1 hour.",
-    "Remove the cheesecake from the oven and carefully run an offset spatula or butter knife along the edge of the pan to loosen. Allow the cheesecake to sit at room temperature on a wire rack until no longer warm, about 1 hour. Transfer the cheesecake to the refrigerator and let rest until completely chilled, about 4 hours or until ready to serve.",
-    "Serve as is, or make the optional whipped cream: Combine the heavy cream, confectioners’ sugar, vanilla and cinnamon in a large bowl and whisk with an electric mixer until soft peaks form. Serve each slice of cheesecake with the cinnamon whipped cream, if using, and a grating of nutmeg, if desired."
+    "Heat oven to 325°F. Grease 9-inch springform pan with shortening. Wrap foil around pan to catch drips. In small bowl, mix cracker crumbs, 2 tablespoons granulated sugar and the melted butter. Press crumb mixture in bottom of pan. Wrap foil around outside of pan to prevent drips. Bake crust 8 to 10 minutes or until set. Cool 5 minutes at room temperature. Refrigerate about 5 minutes or until completely cooled.",
+    "Meanwhile, in another small bowl, whisk flour, pumpkin pie spice, brandy and pumpkin together until well blended; set aside. In large bowl, beat cream cheese with electric mixer on medium speed until smooth and creamy. Gradually beat in brown sugar and 2/3 cup granulated sugar until smooth. On low speed, beat in 1 egg at a time just until blended. Gradually beat in pumpkin mixture until smooth.",
+    "Pour filling over crust. Bake 1 hour 15 minutes to 1 hour 25 minutes or until set but center of cheesecake still jiggles slightly when moved. Turn oven off; open oven door at least 4 inches. Let cheesecake remain in oven 30 minutes.",
+    "Run knife around edge of pan to loosen cheesecake. Cool in pan on wire rack 30 minutes. Refrigerate at least 6 hours or overnight before serving.",
+    "To serve, run knife around edge of pan to loosen cheesecake. Carefully remove side of pan before cutting cheesecake. Store covered in refrigerator."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 9.68,
+      "amount": 22.150000000000002,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 44.870000000000005,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 404.85,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 355.0,
+      "amount": 2075.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.23,
+      "amount": 278.37,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
+      "amount": 3.5999999999999996,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 115.0,
+      "unit": "MG",
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 3.48,
+      "amount": 11.469999999999999,
       "unit": "MG",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 303.0,
+      "unit": "MG",
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
+      "amount": 647.0,
+      "unit": "MG",
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 31.0,
+      "unit": "IU",
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Thiamin",
+      "name": "Sugars, added",
+      "amount": 23.1,
+      "unit": "G",
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 18.0,
+      "unit": "MG",
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Riboflavin",
-      "amount": 0.329,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 5.16,
-      "unit": "MG",
-      "serving_size": 31.0,
+      "unit": "G",
+      "serving_size": 13.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 29.15,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 13.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3887.0,
+      "unit": "IU",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 8.5,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.445,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folate, total",
+      "amount": 293.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folic acid",
+      "amount": 154.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

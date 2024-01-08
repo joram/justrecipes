@@ -15,6 +15,7 @@
       "amount": 4.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 ounces bacon, sliced crosswise 1/4-inch-thick",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +26,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 81.78999999999999,
+          "amount": 160.39,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 1378.0,
+          "amount": 2092.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -74,14 +75,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1686.0,
+          "amount": 40686.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 2860.0,
           "unit": "IU",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -95,14 +96,14 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 171.0,
+          "amount": 385.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 37.9,
+          "amount": 87.9,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -114,6 +115,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 to 3 tablespoons extra-virgin olive oil",
       "nutrition_infos": []
     },
     {
@@ -121,6 +123,7 @@
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 pounds zucchini, cut into 1/3-inch dice (6 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -234,13 +237,59 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup finely chopped white onion",
       "nutrition_infos": []
+    },
+    {
+      "name": "Kosher salt (such as Diamond Crystal) and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "minced garlic",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons minced garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -294,10 +343,148 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "spaghetti",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound spaghetti",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -439,6 +626,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup freshly grated Parmesan, plus more for garnish",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -541,10 +729,11 @@
       ]
     },
     {
-      "name": "chopped chives or dill",
+      "name": "Chopped chives or dill (optional), for serving",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped chives or dill (optional), for serving",
       "nutrition_infos": []
     }
   ],
@@ -567,7 +756,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 81.78999999999999,
+      "amount": 160.39,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -581,7 +770,7 @@
     },
     {
       "name": "Energy",
-      "amount": 1378.0,
+      "amount": 2092.0,
       "unit": "KCAL",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -616,14 +805,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 1686.0,
+      "amount": 40686.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 2860.0,
       "unit": "IU",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -637,14 +826,14 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 171.0,
+      "amount": 385.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 37.9,
+      "amount": 87.9,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"

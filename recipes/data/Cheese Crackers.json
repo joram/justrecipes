@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "all-purpose flour",
-      "amount": 1.6666666666666667,
+      "amount": 1.3333333333333333,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/3 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -67,7 +68,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 3443.0,
+          "amount": 42243.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -103,10 +104,11 @@
       ]
     },
     {
-      "name": "loosely packed grated cabot farms vermont white cheddar about 3 ounces",
+      "name": "loosely packed grated cabot farms vermont white cheddar",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup loosely packed grated Cabot Farms Vermont white Cheddar (about 3 ounces)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -209,10 +211,11 @@
       ]
     },
     {
-      "name": "loosely packed grated pecorino romano cheese about 1 ounce",
+      "name": "loosely packed grated pecorino romano cheese",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2/3 cup loosely packed grated pecorino Romano cheese (about 1 ounce)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -315,10 +318,62 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "cayenne",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon cayenne",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -421,17 +476,27 @@
       ]
     },
     {
+      "name": "cold unsalted butter",
+      "amount": 8.0,
+      "unit": "tbsp",
+      "comment": "cut into 1/4-inch cubes",
+      "original_string": "8 tablespoons (1 stick) cold unsalted butter, cut into 1/4-inch cubes",
+      "nutrition_infos": []
+    },
+    {
       "name": "large egg yolk",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg yolk",
       "nutrition_infos": []
     },
     {
       "name": "pecans",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1/3 cup pecans, finely chopped (about 3 tablespoons)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -559,6 +624,15 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons untoasted white sesame seeds",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ice water",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons ice water",
       "nutrition_infos": []
     }
   ],
@@ -626,7 +700,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 3443.0,
+      "amount": 42243.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

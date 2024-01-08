@@ -15,6 +15,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons grapeseed or coconut oil",
       "nutrition_infos": []
     },
     {
@@ -22,10 +23,11 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 31.7,
+          "amount": 32.47,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -39,42 +41,42 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 145.42,
+          "amount": 149.26999999999998,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 766.0,
+          "amount": 785.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 6.5600000000000005,
+          "amount": 8.870000000000001,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 26.1,
+          "amount": 26.900000000000002,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 33.72,
+          "amount": 34.49,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2527.0,
+          "amount": 42012.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -114,6 +116,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 small yellow onion, diced",
       "nutrition_infos": []
     },
     {
@@ -121,6 +124,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -160,10 +164,19 @@
       ]
     },
     {
+      "name": "small green bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 small green bell pepper, diced",
+      "nutrition_infos": []
+    },
+    {
       "name": "celery stalks",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 celery stalks, diced (about 1 cup)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -209,7 +222,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 272.0,
+          "amount": 280.0,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -266,10 +279,155 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "diced tomatoes",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup diced tomatoes, canned or fresh",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.77,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.85,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 19.0,
+          "unit": "KCAL",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.31,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.8,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 8.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.77,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 185.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "vegetable stock or water if using water",
       "amount": 1.6666666666666667,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups vegetable stock or water (if using water, add 1 vegetable bouillon cube)",
       "nutrition_infos": []
     },
     {
@@ -277,6 +435,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 dried bay leaf",
       "nutrition_infos": []
     },
     {
@@ -284,6 +443,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dulse (seaweed) flakes",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -407,10 +567,19 @@
       ]
     },
     {
+      "name": "each black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 tablespoon Creole seasoning or 1 teaspoon each black pepper, paprika, and dried thyme",
+      "nutrition_infos": []
+    },
+    {
       "name": "old bay seasoning",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon Old Bay seasoning, more to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -524,6 +693,23 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound fresh oyster mushrooms, trimmed and roughly chopped (about 2 cups)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Freshly cooked brown rice, for serving",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly cooked brown rice, for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Lemon wedges, for serving",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Lemon wedges, for serving",
       "nutrition_infos": []
     },
     {
@@ -531,6 +717,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped fresh parsley, for serving",
       "nutrition_infos": []
     }
   ],
@@ -543,7 +730,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 31.7,
+      "amount": 32.47,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -557,42 +744,42 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 145.42,
+      "amount": 149.26999999999998,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 766.0,
+      "amount": 785.0,
       "unit": "KCAL",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.5600000000000005,
+      "amount": 8.870000000000001,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 26.1,
+      "amount": 26.900000000000002,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 33.72,
+      "amount": 34.49,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2527.0,
+      "amount": 42012.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -627,7 +814,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 272.0,
+      "amount": 280.0,
       "unit": "MG",
       "serving_size": 110.0,
       "serving_size_unit": "g"
@@ -661,6 +848,13 @@
       "serving_size_unit": "g"
     },
     {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 130.0,
+      "serving_size_unit": "g"
+    },
+    {
       "name": "Potassium, K",
       "amount": 7826.0,
       "unit": "MG",
@@ -679,13 +873,6 @@
       "amount": 8.8,
       "unit": "MG",
       "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 90.0,
       "serving_size_unit": "g"
     },
     {

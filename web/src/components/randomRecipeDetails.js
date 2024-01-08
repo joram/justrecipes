@@ -1,6 +1,6 @@
 import Recipe from "./recipe";
 import React, {useEffect} from "react";
-import {randomRecipe} from "../utils.py/search_recipes";
+import {randomRecipe} from "../utils/search_recipes";
 
 
 function RandomRecipeDetails({searchTerm}) {

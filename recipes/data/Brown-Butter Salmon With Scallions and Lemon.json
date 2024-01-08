@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "salmon",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "skinless",
+      "original_string": "1 1/2 pounds salmon, skinless or skin-on (1 large fillet or four 6-ounce fillets)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,28 +26,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 7.95,
+          "amount": 116.55,
           "unit": "G",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 2.65,
+          "amount": 9.32,
           "unit": "G",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 139.0,
+          "amount": 1153.0,
           "unit": "KCAL",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 151.0,
           "serving_size_unit": "g"
@@ -74,28 +75,28 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 331.0,
+          "amount": 1131.0,
           "unit": "MG",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 132.0,
+          "amount": 2992.0,
           "unit": "IU",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.8,
+          "amount": 4.8,
           "unit": "MG",
           "serving_size": 151.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 46.0,
+          "amount": 260.0,
           "unit": "MG",
           "serving_size": 151.0,
           "serving_size_unit": "g"
@@ -109,9 +110,196 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 1.32,
+          "amount": 54.65,
           "unit": "G",
           "serving_size": 151.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 lemon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 30.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 300.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 800.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
           "serving_size_unit": "g"
         }
       ]
@@ -120,7 +308,8 @@
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 bunch scallions, thinly sliced",
       "nutrition_infos": []
     }
   ],
@@ -141,28 +330,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 7.95,
+      "amount": 116.55,
       "unit": "G",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 2.65,
+      "amount": 9.32,
       "unit": "G",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 139.0,
+      "amount": 1153.0,
       "unit": "KCAL",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 3.33,
       "unit": "G",
       "serving_size": 151.0,
       "serving_size_unit": "g"
@@ -190,28 +379,28 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 331.0,
+      "amount": 1131.0,
       "unit": "MG",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 132.0,
+      "amount": 2992.0,
       "unit": "IU",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.8,
+      "amount": 4.8,
       "unit": "MG",
       "serving_size": 151.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 46.0,
+      "amount": 260.0,
       "unit": "MG",
       "serving_size": 151.0,
       "serving_size_unit": "g"
@@ -225,7 +414,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 1.32,
+      "amount": 54.65,
       "unit": "G",
       "serving_size": 151.0,
       "serving_size_unit": "g"

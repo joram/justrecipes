@@ -3,8 +3,6 @@ import ImageCarousel from "./imageCarousel";
 import React, {useEffect} from "react";
 
 function RecipeImages({recipe}){
-    console.log("rendering recipe images")
-    console.log(recipe)
     return ImageCarousel(recipe.image_urls);
 }
 
@@ -144,7 +142,7 @@ function Recipe({recipeTitle}){
             </Table.Row>
         </Table.Body>
     </Table>
-    return <Container basic >
+    return <Container>
         <Segment basic><RecipeImages recipe={recipe} /></Segment>
         <Segment basic>{informationTable}</Segment>
     </Container>

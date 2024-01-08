@@ -11,17 +11,35 @@
   ],
   "ingredients": [
     {
+      "name": "85 grams unsalted butter",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 tablespoons/85 grams unsalted butter, melted, plus more for greasing the pan",
+      "nutrition_infos": []
+    },
+    {
       "name": "28 grams all-purpose flour",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 cup/128 grams all-purpose flour",
       "nutrition_infos": []
     },
     {
-      "name": "cup/60 grams dutch-process cocoa powder",
-      "amount": 2.5,
-      "unit": "",
+      "name": "200 grams granulated sugar",
+      "amount": 1.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 cup/200 grams granulated sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dutch-process cocoa powder",
+      "amount": 60.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "2/3 cup/60 grams Dutch-process cocoa powder, sifted if lumpy",
       "nutrition_infos": []
     },
     {
@@ -29,31 +47,32 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 16.7,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 200.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -67,7 +86,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37500.0,
+          "amount": 76850.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -79,6 +98,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -118,17 +138,127 @@
       ]
     },
     {
-      "name": "cup/173 grams sour cream",
-      "amount": 3.5,
-      "unit": "",
+      "name": "fine sea salt",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/2 teaspoon fine sea salt, plus a pinch for the sauce",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sour cream",
+      "amount": 173.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "3/4 cup/173 grams sour cream, at room temperature",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 200.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 50.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 67.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 11.7,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large egg",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg, at room temperature",
       "nutrition_infos": []
     },
     {
@@ -136,6 +266,15 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup boiling water",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Ice cream or whipped cream (optional), for serving",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Ice cream or whipped cream (optional), for serving",
       "nutrition_infos": []
     }
   ],
@@ -151,28 +290,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 3.33,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 16.7,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 6.67,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 0.0,
+      "amount": 200.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -186,9 +325,37 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 37500.0,
+      "amount": 76850.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 6.67,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 67.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 11.7,
+      "unit": "G",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

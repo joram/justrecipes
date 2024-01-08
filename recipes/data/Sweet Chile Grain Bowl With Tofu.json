@@ -11,17 +11,19 @@
   ],
   "ingredients": [
     {
-      "name": "- to 16-ounce package firm or extra-firm tofu",
-      "amount": 7.5,
+      "name": "package firm",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (14- to 16-ounce) package firm or extra-firm tofu",
       "nutrition_infos": []
     },
     {
       "name": "neutral oil",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "such as grapeseed",
+      "original_string": "1/4 cup neutral oil, such as grapeseed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -71,7 +73,8 @@
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "2 garlic cloves, grated or minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -115,27 +118,111 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup ketchup",
       "nutrition_infos": []
     },
     {
       "name": "soy sauce",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
-      "name": "fish sauce or substitute an umami seasoning",
-      "amount": 1.3333333333333333,
+      "name": "fish sauce",
+      "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons fish sauce (or substitute an umami seasoning, such as Yondu or coconut amino acids, or more soy sauce)",
       "nutrition_infos": []
+    },
+    {
+      "name": "chile crisp",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "more",
+      "original_string": "1 tablespoon chile crisp, more to taste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "rice vinegar",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cherry tomatoes",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "halved",
+      "original_string": "1 1/2 cups cherry tomatoes, halved",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -196,10 +283,19 @@
       ]
     },
     {
-      "name": "napa cabbage",
-      "amount": 1.3333333333333333,
-      "unit": "lb",
+      "name": "fine sea",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon fine sea or table salt, more to taste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "napa cabbage",
+      "amount": 1.5,
+      "unit": "lb",
+      "comment": "halved lengthwise,  cored and sliced crosswise 1/2 inch thick",
+      "original_string": "1 1/2 pounds napa cabbage, halved lengthwise, cored and sliced crosswise ½ inch thick",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -305,14 +401,24 @@
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 bunch scallions, thinly sliced",
       "nutrition_infos": []
     },
     {
       "name": "lime",
       "amount": 1.0,
       "unit": "",
+      "comment": "cut into wedges",
+      "original_string": "1 lime, cut into wedges (or use more rice wine vinegar)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cooked grains",
+      "amount": 4.0,
+      "unit": "cup",
       "comment": "",
+      "original_string": "4 cups cooked grains (rice, farro, barley, millet or whatever else you have on hand) or salad greens",
       "nutrition_infos": []
     },
     {
@@ -320,6 +426,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped cilantro, for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -484,24 +591,24 @@
       "serving_size_unit": "g"
     },
     {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {

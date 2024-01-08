@@ -11,14 +11,153 @@
   ],
   "ingredients": [
     {
+      "name": "dark brown sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup dark brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 16.71,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 28.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 266.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1352.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 250.17,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 471.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 135.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.36,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cinnamon sticks",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "slightly bruised",
+      "original_string": "2 cinnamon sticks, slightly bruised",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "brown sugar and cinnamon syrup",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup brown sugar and cinnamon syrup",
+      "nutrition_infos": []
+    },
+    {
       "name": "bourbon",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups bourbon",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 15.879999999999999,
+          "amount": 10.7,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -32,21 +171,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 155.8,
+          "amount": 53.6,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 931.0,
+          "amount": 500.0,
           "unit": "KCAL",
           "serving_size": 28.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 141.0,
+          "amount": 39.3,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -81,14 +220,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 429.0,
+          "amount": 617.0,
           "unit": "MG",
           "serving_size": 28.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 471.0,
+          "amount": 89.0,
           "unit": "MG",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -159,10 +298,11 @@
       ]
     },
     {
-      "name": "cold-pressed apple cider nonalcoholic",
+      "name": "cold-pressed apple cider",
       "amount": 4.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "4 cups cold-pressed apple cider (nonalcoholic)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -258,10 +398,177 @@
       ]
     },
     {
+      "name": "fresh lemon juice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "orange juice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup orange juice (fresh is best)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.83,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 10.8,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 46.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 9.17,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 188.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ice",
+      "amount": 4.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "4 cups ice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "club soda",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "or",
+      "original_string": "2 cups club soda, or to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -311,7 +618,8 @@
       "name": "orange",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into wheels,  for garnish",
+      "original_string": "1 orange, cut into wheels, for garnish (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -356,6 +664,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "nutmeg",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Nutmeg, to taste",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -367,37 +683,72 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 15.879999999999999,
+      "amount": 16.71,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 28.6,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 155.8,
+      "amount": 266.6,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 931.0,
+      "amount": 1352.0,
       "unit": "KCAL",
-      "serving_size": 28.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 141.0,
+      "amount": 250.17,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 471.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 135.7,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 5.36,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
@@ -430,14 +781,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 429.0,
-      "unit": "MG",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 471.0,
+      "amount": 617.0,
       "unit": "MG",
       "serving_size": 28.0,
       "serving_size_unit": "g"
@@ -464,34 +808,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sugars, added",
-      "amount": 35.7,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 5.36,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fatty acids, total monounsaturated",
       "amount": 14.3,
       "unit": "G",
@@ -503,6 +819,20 @@
       "amount": 5.36,
       "unit": "G",
       "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     }
   ]

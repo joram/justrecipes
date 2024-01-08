@@ -13,6 +13,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound medium shrimp",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,7 +31,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 47.64,
+          "amount": 214.64,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -51,7 +52,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.8,
+          "amount": 44.5,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -72,7 +73,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 630.0,
+          "amount": 39930.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -119,6 +120,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 stalks celery, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -221,10 +223,69 @@
       ]
     },
     {
+      "name": "bay leaves",
+      "amount": 3.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "3 bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "olive oil",
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
@@ -232,6 +293,7 @@
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups okra, sliced",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -331,6 +393,7 @@
       "amount": 4.0,
       "unit": "clove",
       "comment": "",
+      "original_string": "4 cloves garlic, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -395,6 +458,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large onion, diced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 large bell pepper, diced",
       "nutrition_infos": []
     },
     {
@@ -402,13 +474,59 @@
       "amount": 14.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 28-ounce can tomatoes, drained and coarsely chopped",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cayenne",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon cayenne",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -511,10 +629,118 @@
       ]
     },
     {
+      "name": "black pepper",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 167.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 41.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dried thyme",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dried thyme",
       "nutrition_infos": []
     },
     {
@@ -522,6 +748,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound lump and/or backfin crab meat",
       "nutrition_infos": []
     },
     {
@@ -529,6 +756,7 @@
       "amount": 24.0,
       "unit": "",
       "comment": "",
+      "original_string": "24 shucked oysters, with liquor",
       "nutrition_infos": []
     }
   ],
@@ -555,7 +783,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 47.64,
+      "amount": 214.64,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -576,7 +804,7 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.8,
+      "amount": 44.5,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -597,7 +825,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 630.0,
+      "amount": 39930.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"

@@ -14,14 +14,16 @@
       "name": "red-skinned potatoes",
       "amount": 5.0,
       "unit": "lb",
-      "comment": "",
+      "comment": " cut into roughly 1-inch chunks",
+      "original_string": "5 pounds red-skinned potatoes, cut into roughly 1-inch chunks",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and smashed",
+      "original_string": "5 garlic cloves, peeled and smashed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -53,7 +55,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 754.0,
+          "amount": 39554.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -65,13 +67,82 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup olive oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "juice of 1/2 lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Juice of 1/2 lemon (2 tablespoons)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons kosher salt, plus more for seasoning",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 89.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
       "nutrition_infos": []
     },
     {
       "name": "parmigiano-reggiano",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "8 ounces Parmigiano-Reggiano, grated (about 2 1/4 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -179,6 +250,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "leaves of 1 small bunch flat-leaf parsley",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Leaves of 1 small bunch flat-leaf parsley",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -217,9 +296,16 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 754.0,
+      "amount": 39554.0,
       "unit": "MG",
       "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 89.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -268,13 +354,6 @@
       "name": "Sugars, added",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 89.0,
-      "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

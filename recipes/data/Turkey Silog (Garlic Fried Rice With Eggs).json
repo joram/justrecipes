@@ -11,31 +11,94 @@
   ],
   "ingredients": [
     {
-      "name": "canola or other neutral oil",
+      "name": "canola",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup canola or other neutral oil, plus more as needed",
       "nutrition_infos": []
     },
     {
       "name": "to 12 garlic cloves",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": ",  peeled and ends trimmed",
+      "original_string": "8 to 12 garlic cloves, to taste, peeled and ends trimmed",
       "nutrition_infos": []
     },
     {
-      "name": "2 cups leftover gravy omit if using ham",
+      "name": "kosher salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 35.7,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 571.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38907.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 18.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "day-old cooked white jasmine rice",
+      "amount": 8.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "8 cups day-old cooked white jasmine rice",
       "nutrition_infos": []
     },
     {
-      "name": "leftover turkey or ham",
-      "amount": 1.3333333333333333,
+      "name": "/2 cups leftover gravy",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 to 1 1/2 cups leftover gravy (omit if using ham)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "leftover turkey",
+      "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 1/2 pounds leftover turkey or ham, sliced 1/4-inch thick",
       "nutrition_infos": []
     },
     {
@@ -43,6 +106,7 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -160,28 +224,42 @@
       "name": "Protein",
       "amount": 3.57,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 35.7,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 57.1,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 571.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38907.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 18.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -213,13 +291,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 107.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin A, IU",
       "amount": 357.0,
       "unit": "IU",
@@ -229,13 +300,6 @@
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 4.3,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 18.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

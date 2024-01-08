@@ -1,259 +1,521 @@
 {
   "name": "Onion Tart",
   "categories": [],
-  "servings": 6,
-  "minutes": 105,
-  "source_url": "https://cooking.nytimes.com/recipes/1021594-onion-tart",
+  "servings": 8,
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/onion-tart-5d4d9d6ade136d00080c21a1",
   "image_urls": [
-    "https://static01.nyt.com/images/2020/11/08/magazine/08mag-Eat/08mag-Eat-square640.jpg",
-    "https://static01.nyt.com/images/2020/11/08/magazine/08mag-Eat/08mag-Eat-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2020/11/08/magazine/08mag-Eat/08mag-Eat-superJumbo.jpg"
+    "https://assets.epicurious.com/photos/55eee650ad4e361c200f73bc/16:9/w_2704,h_1521,c_limit/56390030_onion-tart.jpg",
+    "https://assets.epicurious.com/photos/55eee650ad4e361c200f73bc/4:3/w_2408,h_1806,c_limit/56390030_onion-tart.jpg",
+    "https://assets.epicurious.com/photos/55eee650ad4e361c200f73bc/1:1/w_1808,h_1808,c_limit/56390030_onion-tart.jpg"
   ],
   "ingredients": [
     {
-      "name": "55 grams all-purpose flour",
-      "amount": 2.0,
-      "unit": "",
+      "name": "flour",
+      "amount": 350.0,
+      "unit": "g",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "yellow onions",
-      "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
+      "original_string": "350 g (12 ounces/2 1/3 cups) plain (all-purpose) flour",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.68,
+          "amount": 31.240000000000002,
           "unit": "G",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 37.6,
           "unit": "G",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 7.43,
+          "amount": 140.26999999999998,
           "unit": "G",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 30.0,
+          "amount": 1080.0,
           "unit": "KCAL",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 6.08,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 2.0,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 27.0,
-          "unit": "MG",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.49,
+          "amount": 9.56,
           "unit": "MG",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 3.0,
+          "amount": 1337.0,
           "unit": "MG",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Vitamin A, IU",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 8.1,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
+          "name": "Thiamin",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.34,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.0,
+          "unit": "MG",
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 148.0,
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cold unsalted butter",
+      "amount": 180.0,
+      "unit": "g",
+      "comment": "chopped",
+      "original_string": "180 g (6 1/2 ounces) cold unsalted butter, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cold water",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons cold water",
+      "nutrition_infos": []
+    },
+    {
+      "name": "brown onions",
+      "amount": 1.0,
+      "unit": "kg",
+      "comment": "roughly chopped",
+      "original_string": "1 kg (2 pounds 4 ounces/about 6) brown onions, roughly chopped or sliced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "olive oil",
+      "amount": 60.0,
+      "unit": "ml",
+      "comment": "",
+      "original_string": "60 ml (1/4 cup) olive oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "egg yolks",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 egg yolks",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ml",
+      "amount": 250.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "250 ml (1 cup) pure cream (35% fat)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 17.9,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 214.0,
+          "unit": "KCAL",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.29,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 804.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 62.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.36,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "a 1/4 tsp of freshly grated nutmeg",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Pinch of freshly grated nutmeg",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sea salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Sea salt and freshly ground black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 23.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 533.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 4.67,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 533.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 148.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "rendered bacon fat or lard",
-      "amount": 2.0,
-      "unit": "tbsp",
+      "name": "tin with a removable base",
+      "amount": 27.0,
+      "unit": "cm",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "large egg",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "0 milliliters heavy cream",
-      "amount": 1.5,
-      "unit": "",
-      "comment": "",
+      "original_string": "26–28 cm (10 1/4–11 inch) tart (flan) tin with a removable base",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Blend flour and salt in the bowl of a food processor. Scatter butter over flour, top with lid and pulse 12 pulses to cut butter into flour to a coarse meal consistency.",
-    "Dump butter-flour mixture into a medium stainless bowl. Make a well in the center and pour ice-cold water into the well.",
-    "Using a flexible plastic dough scraper instead of your warm hands, bring the dough together by folding and pressing. Be firm and brisk and get the dough past its shaggy stage into a neat disk, trying to avoid using your hands or too much kneading. Refrigerate the dough for 30 minutes. Heat the oven to 375 degrees.",
-    "Meanwhile, cut the onions in half and peel them. Slice the halves with the ribs (root end to sprout end direction), not against, to create julienne slices rather than half moons.",
-    "In a wide sauté pan over medium-low heat, melt the bacon fat and slowly sweat the onions until they are caramelized. Take all the minutes you need — 25 or so — to let them soften to translucent, then to let the water they release start to evaporate, then to allow the sugars they contain to start to brown in the pan, so that you end up with soft, sweet and evenly browned onions. This is achieved by a slow caramelization. Set onions aside to cool.",
-    "Roll tart dough out to a 1/4-inch-thick round, and drape over a round 10-inch fluted false-bottom tart pan. Lay dough into the pan, gently pressing into the bottom, and roll the pin across the pan to cut off the excess dough. Use your fingers to press the edges into the flutes, accentuating the shape of the dough edge. Dock the bottom of the dough with the tines of a fork, weight the pastry with beans or weight and blind-bake for 25 minutes.",
-    "In a bowl, beat the egg with the cream. Stir in the caramelized onions. Season with pepper, nutmeg and salt to taste. Stir well, and make sure the onions are all evenly coated with the custard.",
-    "Remove tart shell from oven, and slip it onto a baking sheet. Remove weights, fill with the onion-custard mixture and distribute it evenly. Return tart to oven on the sheet, and bake for 25 minutes, or until custard has set, the tops of the onions start to achieve a deeper brown and the dough is dark golden brown at the edges.",
-    "Remove from the ring, and allow to cool just a few minutes on the rack, so that the piping hot tart shell can kind of tighten up enough to be sliced with a sharp chef’s knife. (In the first few minutes straight out of the oven, the dough is kind of soft from the heat, possibly giving you the false impression that you have a soggy tart. Let it sit on the rack just to shake off this initial soft stage and to recrisp and refirm, which it will.) Cut into wedges, and serve while hot."
+    "To make the pastry, process the flour, butter and water together in a food processor for a few minutes until a rough dough forms. Remove, wrap in plastic wrap and refrigerate for 30 minutes.",
+    "Preheat the oven to 180°C (350°F/Gas 4).",
+    "Roll the dough out on a floured bench and gently press into the tin. Trim the pastry to fit and reserve the left-over pastry to patch any cracks.",
+    "To blind-bake the tart, line the pastry shell with foil and fill with baking weights or uncooked rice or beans. Bake until cooked, about 20 minutes. Remove the foil and weights and bake for an additional 15–20 minutes until lightly golden. If there are any cracks, patch with the left- over pastry.",
+    "While the tart shell is baking, prepare the filling.",
+    "In a large frying pan over low to medium heat, sauté the onion in the oil until very soft and light brown. This may take up to an hour. Set aside to cool slightly. Beat the egg yolks with the cream. Add the nutmeg and season well with salt and pepper. Stir the onion through the cream mixture.",
+    "Carefully fill the pastry shell with the filling, place in the oven and bake for 40–45 minutes, or until the filling is set. Serve warm or at room temperature."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.68,
+      "amount": 31.240000000000002,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 37.6,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 7.43,
+      "amount": 140.26999999999998,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 30.0,
+      "amount": 1080.0,
       "unit": "KCAL",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 6.08,
-      "unit": "G",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 2.0,
-      "unit": "G",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 27.0,
-      "unit": "MG",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.49,
+      "amount": 9.56,
       "unit": "MG",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 3.0,
+      "amount": 1337.0,
       "unit": "MG",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 8.1,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
+      "name": "Thiamin",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.34,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 1.79,
+      "unit": "G",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 62.0,
+      "unit": "MG",
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
+      "amount": 5.36,
+      "unit": "G",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

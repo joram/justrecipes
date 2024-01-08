@@ -11,10 +11,78 @@
   ],
   "ingredients": [
     {
+      "name": "Kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 50.7,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 32.68,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 73.2,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 775.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40818.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "very ripe tomatoes",
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 pounds very ripe tomatoes, coarsely chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh thyme or oregano leaves",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon fresh thyme or oregano leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon red-pepper flakes, plus more as needed",
       "nutrition_infos": []
     },
     {
@@ -22,31 +90,32 @@
       "amount": 2.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "2 ounces Parmesan cheese, coarsely grated, plus more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 50.7,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 32.68,
+          "amount": 30.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 73.2,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 775.0,
+          "amount": 400.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -81,7 +150,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2018.0,
+          "amount": 2000.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -128,6 +197,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound fusilli or another spiral pasta",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -234,6 +304,7 @@
       "amount": 2.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 (4-ounce) log goat cheese, crumbled",
       "nutrition_infos": []
     }
   ],
@@ -249,28 +320,42 @@
       "name": "Protein",
       "amount": 50.7,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 32.68,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 73.2,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 775.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40818.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 100.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -302,13 +387,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 2018.0,
-      "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin A, IU",
       "amount": 0.0,
       "unit": "IU",
@@ -318,13 +396,6 @@
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 100.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"

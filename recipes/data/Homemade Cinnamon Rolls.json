@@ -15,13 +15,23 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup/240 grams whole milk",
       "nutrition_infos": []
     },
     {
-      "name": "0 grams all-purpose flour",
-      "amount": 2.5,
-      "unit": "",
+      "name": "4 cups/540 grams all-purpose flour",
+      "amount": 34.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "1/4 cup/34 grams plus 4 cups/540 grams all-purpose flour",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ice-cold water",
+      "amount": 58.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/4 cup/58 grams ice-cold water",
       "nutrition_infos": []
     },
     {
@@ -29,6 +39,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 large eggs (150 grams), cold from the refrigerator",
       "nutrition_infos": []
     },
     {
@@ -36,10 +47,11 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon active dry yeast",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 16.13,
+          "amount": 6.45,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -53,14 +65,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 138.7,
+          "amount": 389.5,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 807.0,
+          "amount": 1202.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -75,10 +87,92 @@
       ]
     },
     {
+      "name": "granulated sugar",
+      "amount": 50.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/4 cup/50 grams granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 229.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "kosher salt such as diamond crystal or 3/4 teaspoons coarse kosher salt such as morton",
+      "amount": 1.3333333333333333,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons kosher salt (such as Diamond Crystal) or ¾ teaspoons coarse kosher salt (such as Morton)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "116 grams unsalted butter",
+      "amount": 8.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "8 tablespoons/116 grams unsalted butter, cut into 1-inch pieces, at cool room temperature, plus more for the bowl",
+      "nutrition_infos": []
+    },
+    {
       "name": "116 grams speculoos cookies",
       "amount": 4.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 ounces/116 grams speculoos cookies, such as Lotus brand (about 15), lightly crushed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -110,14 +204,14 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 32.23,
+          "amount": 29.0,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 6.4,
+          "amount": 3.2,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -146,102 +240,209 @@
       ]
     },
     {
-      "name": "all-purpose flour",
-      "amount": 1.0,
-      "unit": "",
+      "name": "demerara sugar",
+      "amount": 100.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "1/2 cup/100 grams Demerara sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.68,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 355.0,
+          "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.23,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 3.2,
-          "unit": "G",
-          "serving_size": 31.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 3.48,
-          "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground cinnamon",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon ground cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
-          "name": "Thiamin",
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1250.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.5,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
-          "name": "Riboflavin",
-          "amount": 0.329,
+          "name": "Sodium, Na",
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
-          "name": "Niacin",
-          "amount": 5.16,
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "/2 teaspoon morton kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 teaspoon Diamond Crystal kosher salt or ½ teaspoon Morton kosher salt",
+      "nutrition_infos": []
+    },
+    {
+      "name": "170 grams unsalted butter",
+      "amount": 12.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "12 tablespoons/170 grams unsalted butter, at room temperature",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Room-temperature unsalted butter, for the pan",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Room-temperature unsalted butter, for the pan",
+      "nutrition_infos": []
+    },
+    {
+      "name": "All-purpose flour, for rolling",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "All-purpose flour, for rolling",
+      "nutrition_infos": []
     },
     {
       "name": "113 grams cream cheese",
       "amount": 4.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 ounces/113 grams cream cheese, at room temperature",
+      "nutrition_infos": []
+    },
+    {
+      "name": "0 grams confectioners’ sugar",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 cup/110 grams confectioners’ sugar",
       "nutrition_infos": []
     },
     {
@@ -249,6 +450,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon vanilla extract",
+      "nutrition_infos": []
+    },
+    {
+      "name": "85 grams unsalted butter",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 tablespoons/85 grams unsalted butter, at room temperature",
       "nutrition_infos": []
     }
   ],
@@ -271,7 +481,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 16.13,
+      "amount": 6.45,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -285,14 +495,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 138.7,
+      "amount": 389.5,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 807.0,
+      "amount": 1202.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -306,14 +516,28 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 32.23,
+      "amount": 229.0,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 6.4,
+      "amount": 3.2,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -333,38 +557,31 @@
       "serving_size_unit": "g"
     },
     {
+      "name": "Calcium, Ca",
+      "amount": 1250.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
       "name": "Iron, Fe",
-      "amount": 3.48,
+      "amount": 12.5,
       "unit": "MG",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
-      "name": "Thiamin",
+      "name": "Potassium, K",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 31.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
-      "name": "Riboflavin",
-      "amount": 0.329,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 5.16,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
+      "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
-      "unit": "G",
-      "serving_size": 31.0,
+      "unit": "IU",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

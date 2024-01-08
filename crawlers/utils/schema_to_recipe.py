@@ -1,3 +1,5 @@
+import re
+import traceback
 from typing import Optional
 
 from bs4 import BeautifulSoup
@@ -88,21 +90,32 @@ def _parse_ingredients(data):
     if ingredient_strings is None:
         return None
     ingredients = []
-    for ingredient_string in ingredient_strings:
+    def _clean_ingredient(ingredient_string):
+        original = ingredient_string
+        if "</" in ingredient_string:
+            soup = BeautifulSoup(ingredient_string, 'html.parser')
+            ingredient_string = soup.get_text()
+
         ingredient_string = ingredient_string.lower()
-        ingredient_string = ingredient_string.split(",")[0]
-        ingredient_string = ingredient_string.split("and")[0]
-        ingredient_string = ingredient_string.replace("/", " ", 1)
-        for bad_word in ["optional", "plus more", "plus", "to taste", "(", ")"]:
+        ingredient_string = re.sub(r'\(.*\)', '', ingredient_string)
+
+        if " plus " in ingredient_string:
+            ingredient_string = ingredient_string.split(" plus ")[0]
+
+        for unit in ["cups", "cup", "tablespoons", "ounce", "ounces", "pound", "pounds"]:
+            bad_s = f" {unit}/"
+            if bad_s in ingredient_string:
+                ingredient_string = ingredient_string.split(bad_s)[1]
+            if f"-{unit}" in ingredient_string:
+                ingredient_string = ingredient_string.replace(f"-{unit}", f" {unit}")
+
+        for bad_word in ["optional", "to taste", "for serving"]:
             ingredient_string = ingredient_string.replace(bad_word, "")
         if "</" in ingredient_string:
             soup = BeautifulSoup(ingredient_string, 'html.parser')
             ingredient_string = soup.get_text()
         ingredient_string = ingredient_string.strip()
-
-        ingredient_string = ingredient_string.replace("pinch", "a 1/4tsp")
-        while "  " in ingredient_string:
-            ingredient_string = ingredient_string.replace("  ", " ")
+        ingredient_string = ingredient_string.replace("pinch", "a 1/4 tsp")
 
         substitute_words = {
             "¼": "1/4",
@@ -122,24 +135,29 @@ def _parse_ingredients(data):
         for word, replacement in substitute_words.items():
             ingredient_string = ingredient_string.replace(word, replacement)
 
-        is_a_seasoning = False
-        seasonings = ["lemon", "parsely", "spray", "leaves", "ice", "salt", "pepper", "sugar", "cinnamon", "nutmeg", "cumin", "paprika", "chili powder", "chili flakes", "chili", "chile", "chiles", "chilies", "chili pepper", "chili peppers", "chile pepper", "chile peppers", "chili paste", "chile paste", "chili sauce", "chile sauce", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste", "chili powder", "chile powder", "chili flakes", "chile flakes", "chili oil", "chile oil", "chili sauce", "chile sauce", "chili paste", "chile paste"]
-        for seasoning in seasonings:
-            if seasoning in ingredient_string:
-                is_a_seasoning = True
-                break
-        if is_a_seasoning:
-            continue
+        if " or " in ingredient_string:
+            ingredient_string = ingredient_string.split(" or ")[0]
 
+        while "  " in ingredient_string:
+            ingredient_string = ingredient_string.replace("  ", " ")
+        ingredient_string = ingredient_string.rstrip(",")
+
+        return ingredient_string
+
+    for ingredient_string in ingredient_strings:
+        original_ingredient_string = ingredient_string
+        ingredient_string = _clean_ingredient(ingredient_string)
         try:
             parsed_ingredient = parse_ingredient(ingredient_string)
         except Exception as e:
+            # n = 100 - len(original_ingredient_string)
+            # print(original_ingredient_string + " " * n, "=>", ingredient_string)
             parsed_ingredient = ParsedIngredient(
                 name=ingredient_string,
                 quantity=1,
                 unit="",
                 comment="",
-                original_string=ingredient_string,
+                original_string=original_ingredient_string,
             )
 
         nutrients_infos = []
@@ -149,6 +167,7 @@ def _parse_ingredients(data):
             unit=parsed_ingredient.unit,
             comment=parsed_ingredient.comment,
             nutrition_infos=nutrients_infos,
+            original_string=original_ingredient_string,
         )
         ingredients.append(ingredient)
     return ingredients
@@ -159,8 +178,17 @@ def _parse_instructions(data):
     if instructions is None:
         return None
 
+
     if isinstance(instructions[0], dict):
-        return [inst["text"] for inst in instructions]
+        if instructions[0].get("@type") == "HowToSection":
+            instructions = [inst["itemListElement"] for inst in instructions]
+            instructions = [item["text"] for sublist in instructions for item in sublist]
+            return instructions
+        try:
+            return [inst["text"] for inst in instructions]
+        except:
+            print(instructions)
+            raise
 
     return instructions
 
@@ -199,6 +227,9 @@ async def create_recipe(data, url) -> Optional[Recipe]:
                 total_nutrition_infos[nutrient.name].amount += nutrient.amount
 
     def _to_recipe():
+        insructions = _parse_instructions(data)
+        if insructions is None:
+            return None
         return Recipe(
             name=data.get("name", ""),
             categories=_parse_categories(data),
@@ -207,7 +238,7 @@ async def create_recipe(data, url) -> Optional[Recipe]:
             source_url=url,
             image_urls=_parse_images(data),
             ingredients=ingredients,
-            instructions=_parse_instructions(data),
+            instructions=insructions,
             notes=_parse_notes(data),
             nutrition_infos=total_nutrition_infos.values(),
         )
@@ -216,5 +247,4 @@ async def create_recipe(data, url) -> Optional[Recipe]:
         return _to_recipe()
     except Exception as e:
         print(f"Error creating recipe for {url}")
-        print(e)
         return None

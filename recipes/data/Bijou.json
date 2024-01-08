@@ -11,10 +11,111 @@
   ],
   "ingredients": [
     {
+      "name": "Ice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Ice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 11.1,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 111.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1670.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dry gin",
       "amount": 1.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 ounce dry gin, such as Plymouth",
       "nutrition_infos": []
     },
     {
@@ -22,6 +123,7 @@
       "amount": 1.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 ounce sweet vermouth",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -65,6 +167,7 @@
       "amount": 3.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "3/4 ounce green Chartreuse",
       "nutrition_infos": []
     },
     {
@@ -72,13 +175,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 to 2 dashes orange bitters",
       "nutrition_infos": []
     },
     {
-      "name": "maraschino cherry",
+      "name": "Maraschino cherry, for garnish",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Maraschino cherry, for garnish",
       "nutrition_infos": []
     }
   ],
@@ -91,35 +196,91 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 9.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 11.1,
       "unit": "G",
-      "serving_size": 9.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 9.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 111.0,
       "unit": "KCAL",
-      "serving_size": 9.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 1670.0,
       "unit": "MG",
-      "serving_size": 9.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     }
   ]

@@ -14,7 +14,8 @@
       "name": "goat cheese",
       "amount": 10.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "at room temperature",
+      "original_string": "10 ounces goat cheese, at room temperature",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -74,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 350679.0,
+          "amount": 380679.0,
           "unit": "MG",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -120,7 +121,8 @@
       "name": "cream cheese",
       "amount": 4.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "at room temperature",
+      "original_string": "4 ounces cream cheese, at room temperature",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -223,10 +225,126 @@
       ]
     },
     {
+      "name": "freshly squeezed lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons freshly squeezed lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 30000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "thick-cut bacon",
       "amount": 5.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "cut in 1/2-inch thick",
+      "original_string": "5 ounces thick-cut bacon, cut in 1/2-inch thick",
       "nutrition_infos": [
         {
           "name": "Total Sugars",
@@ -248,7 +366,8 @@
       "name": "medjool dates",
       "amount": 10.0,
       "unit": "",
-      "comment": "",
+      "comment": "pitted and cut into quarters lengthwise",
+      "original_string": "10 Medjool dates, pitted and cut into quarters lengthwise, or roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -351,17 +470,19 @@
       ]
     },
     {
-      "name": "honey",
+      "name": "honey, red-pepper flakes, black pepper, flaky salt, toasted sliced almonds",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Honey, red-pepper flakes, black pepper, flaky salt, toasted sliced almonds or chopped pistachios, for garnish (optional)",
       "nutrition_infos": []
     },
     {
-      "name": "crusty bread",
+      "name": "crusty bread, grainy crackers, endive",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crusty bread, grainy crackers, endive or fennel, for serving",
       "nutrition_infos": []
     }
   ],
@@ -430,7 +551,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 350679.0,
+      "amount": 380679.0,
       "unit": "MG",
       "serving_size": 28.0,
       "serving_size_unit": "g"
@@ -482,6 +603,13 @@
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

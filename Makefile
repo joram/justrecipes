@@ -1,17 +1,6 @@
 crawl:
 	PYTHONPATH=. ./crawlers/crawl.py
 
-build_web:
-	cd web; npm run build
-
-web_update_recipes:
-	cd web; ./update_recipes.py
-
-deploy_web: web_update_recipes build_web
-	aws s3 sync --size-only web/build/recipes s3://recipes.oram.ca/recipes --acl public-read
-	aws s3 sync --exclude "recipes/*" web/build s3://recipes.oram.ca --acl public-read
-	aws cloudfront create-invalidation --distribution-id E3JC9BZDT14T0U --paths "/*"
-
 start_mobile_project:
 	npx react-native init mobile
 	mkdir mobile/android/app/src/main/assets
@@ -38,7 +27,3 @@ deploy_mobile:
 	aws s3 cp mobile.apk s3://recipes.oram.ca/mobile.apk --acl public-read
 	rm mobile.apk
 	aws cloudfront create-invalidation --distribution-id E3JC9BZDT14T0U --paths "/mobile.apk"
-
-bash:
-	docker build -t joram87/mobile_builder -f Dockerfile.mobile.builder .
-	docker run -v ./mobile:/app -it joram87/mobile_builder bash

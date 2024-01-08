@@ -11,130 +11,419 @@
   ],
   "ingredients": [
     {
-      "name": "3 grams raw shelled pumpkin seeds pepitas",
-      "amount": 1.0,
-      "unit": "",
+      "name": "raw shelled pumpkin seeds",
+      "amount": 113.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "1 cup/113 grams raw shelled pumpkin seeds (pepitas)",
       "nutrition_infos": []
     },
     {
       "name": "recipe flaky pie crust",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chilled",
+      "original_string": "1 recipe <a href=\"https://cooking.nytimes.com/recipes/1024800-flaky-pie-crust\">Flaky Pie Crust</a>, chilled",
       "nutrition_infos": []
     },
     {
-      "name": "all-purpose flour",
+      "name": "all-purpose flour, for rolling dough",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "All-purpose flour, for rolling dough",
+      "nutrition_infos": []
+    },
+    {
+      "name": "heavy cream",
+      "amount": 160.0,
+      "unit": "ml",
+      "comment": "at room temperature",
+      "original_string": "2/3 cup/160 milliliters heavy cream, at room temperature",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 21.68,
+          "amount": 13.4,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 10.0,
+          "amount": 132.38,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 138.91,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 495.0,
+          "amount": 1254.0,
           "unit": "KCAL",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.23,
+          "amount": 6.67,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.2,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1306.0,
+          "unit": "MG",
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 5.48,
+          "amount": 15.719999999999999,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 140.0,
+          "amount": 39173.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 51.0,
+          "unit": "IU",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 751.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 79.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 57.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "4 tablespoons/57 grams unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3063.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "milliliters",
+      "amount": 60.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/4 cup/60 milliliters plus 2 tablespoons maple syrup",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.4,
+          "unit": "G",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.78,
+          "unit": "G",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 7.24,
+          "unit": "G",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Water",
+          "amount": 89.9,
+          "unit": "G",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.22,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Magnesium, Mg",
+          "amount": 4.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Phosphorus, P",
+          "amount": 28.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Zinc, Zn",
+          "amount": 0.51,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Copper, Cu",
+          "amount": 0.061,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iodine, I",
+          "amount": 4.0,
+          "unit": "UG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Manganese, Mn",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Selenium, Se",
+          "amount": 1.0,
+          "unit": "UG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 203.0,
+          "unit": "IU",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 51.0,
+          "unit": "IU",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin E (label entry primarily)",
+          "amount": 1.0,
+          "unit": "IU",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 6.1,
+          "unit": "MG",
+          "serving_size": 148.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Thiamin",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 148.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Riboflavin",
-          "amount": 0.329,
+          "amount": 0.101,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 148.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Niacin",
-          "amount": 5.16,
+          "amount": 0.709,
           "unit": "MG",
-          "serving_size": 31.0,
+          "serving_size": 148.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Fatty acids, total saturated",
+          "name": "Pantothenic acid",
+          "amount": 0.304,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin B-6",
+          "amount": 0.041,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Biotin",
           "amount": 3.0,
-          "unit": "G",
-          "serving_size": 31.0,
+          "unit": "UG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin B-12",
+          "amount": 0.17,
+          "unit": "UG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Choline, total",
+          "amount": 11.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Inositol",
+          "amount": 3.0,
+          "unit": "MG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin K (phylloquinone)",
+          "amount": 5.4,
+          "unit": "UG",
+          "serving_size": 148.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folic acid",
+          "amount": 10.0,
+          "unit": "UG",
+          "serving_size": 148.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "cup/160 milliliters heavy cream",
-      "amount": 2.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/60 milliliters 2 tablespoons maple syrup",
-      "amount": 2.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
       "name": "large eggs",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "at room temperature",
+      "original_string": "4 large eggs, at room temperature",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -223,17 +512,178 @@
       ]
     },
     {
+      "name": "packed dark brown sugar",
+      "amount": 55.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1/4 cup/55 grams packed dark brown sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "vanilla extract",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons vanilla extract",
       "nutrition_infos": []
     },
     {
-      "name": "ground cloves",
-      "amount": 4.5,
+      "name": "ground cinnamon",
+      "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons ground cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1250.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.5,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "diamond crystal kosher salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon Diamond Crystal kosher salt or ½ teaspoon Morton kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground allspice",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon ground allspice",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -273,10 +723,55 @@
       ]
     },
     {
-      "name": "can unsweetened pumpkin purée",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "ground cloves",
+      "amount": 4.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/8 teaspoon ground cloves",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsweetened pumpkin purée",
+      "amount": 1.0,
+      "unit": "can",
+      "comment": "",
+      "original_string": "1 (15-ounce) can unsweetened pumpkin purée",
       "nutrition_infos": []
     },
     {
@@ -284,6 +779,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Unsweetened whipped cream, for serving",
       "nutrition_infos": []
     }
   ],
@@ -300,107 +796,254 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 21.68,
+      "amount": 13.4,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 10.0,
+      "amount": 132.38,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 138.91,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 495.0,
+      "amount": 1254.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.23,
+      "amount": 6.67,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
-      "unit": "G",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 5.48,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 140.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Thiamin",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Riboflavin",
-      "amount": 0.329,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 5.16,
-      "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 3.0,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 56.0,
+      "amount": 1306.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 15.719999999999999,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 71.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39173.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 51.0,
+      "unit": "IU",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 370.0,
+      "amount": 751.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 79.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3063.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Water",
+      "amount": 89.9,
+      "unit": "G",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Magnesium, Mg",
+      "amount": 4.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Phosphorus, P",
+      "amount": 28.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Zinc, Zn",
+      "amount": 0.51,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Copper, Cu",
+      "amount": 0.061,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iodine, I",
+      "amount": 4.0,
+      "unit": "UG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Manganese, Mn",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Selenium, Se",
+      "amount": 1.0,
+      "unit": "UG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin E (label entry primarily)",
+      "amount": 1.0,
+      "unit": "IU",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 6.1,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.101,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 0.709,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Pantothenic acid",
+      "amount": 0.304,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin B-6",
+      "amount": 0.041,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Biotin",
+      "amount": 3.0,
+      "unit": "UG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin B-12",
+      "amount": 0.17,
+      "unit": "UG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Choline, total",
+      "amount": 11.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Inositol",
+      "amount": 3.0,
+      "unit": "MG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin K (phylloquinone)",
+      "amount": 5.4,
+      "unit": "UG",
+      "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folic acid",
+      "amount": 10.0,
+      "unit": "UG",
+      "serving_size": 148.0,
       "serving_size_unit": "g"
     }
   ]

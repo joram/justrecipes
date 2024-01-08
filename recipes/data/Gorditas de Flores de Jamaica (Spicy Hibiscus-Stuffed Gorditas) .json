@@ -11,10 +11,71 @@
   ],
   "ingredients": [
     {
+      "name": "ancho chiles 36 grams",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 ancho chiles (36 grams), stemmed and seeded ",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.9799999999999995,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 193.16,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 175.64000000000001,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2484.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 78524.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "grams",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 guajillo chile (11 grams), stemmed and seeded ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "2 grams",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 to 2 cascabel chiles or chiles de árbol (6 to 12 grams), stemmed and seeded (1 for medium, 2 for spicy)",
+      "nutrition_infos": []
+    },
+    {
       "name": "dried oregano",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dried oregano, preferably Mexican ",
       "nutrition_infos": []
     },
     {
@@ -22,66 +83,67 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon coriander seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.28,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 193.16,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 121.5,
+          "amount": 89.2,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2174.0,
+          "amount": 351.0,
           "unit": "KCAL",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 54.82,
+          "amount": 59.75,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 4.1,
+          "amount": 6.199999999999999,
           "unit": "G",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 33.0,
+          "amount": 61.0,
           "unit": "MG",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.18,
+          "amount": 1.94,
           "unit": "MG",
           "serving_size": 37.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 510.0,
+          "amount": 68.0,
           "unit": "MG",
           "serving_size": 37.0,
           "serving_size_unit": "g"
@@ -124,10 +186,19 @@
       ]
     },
     {
+      "name": "cumin seeds",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon cumin seeds",
+      "nutrition_infos": []
+    },
+    {
       "name": "bay leaf",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 bay leaf",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -181,10 +252,106 @@
       ]
     },
     {
+      "name": "black peppercorns",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon black peppercorns ",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "kosher salt such as diamond crystal",
+      "amount": 4.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "4 teaspoons kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "90 grams dried flor de jamaica hibiscus flowers",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups/90 grams dried flor de jamaica (hibiscus flowers), picked through",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -287,10 +454,62 @@
       ]
     },
     {
+      "name": "-inch stick canela ceylon cinnamon or 1-inch stick cassia cinnamon",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (3-inch) stick canela (Ceylon cinnamon) or (1-inch) stick cassia cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "extra-virgin olive oil",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -369,6 +588,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large sweet potato (340 grams), peeled and chopped into 1/2-inch pieces",
       "nutrition_infos": []
     },
     {
@@ -376,6 +596,7 @@
       "amount": 1.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/2 medium white onion, chopped",
       "nutrition_infos": []
     },
     {
@@ -383,6 +604,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 garlic cloves, finely grated",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -423,9 +645,10 @@
     },
     {
       "name": "fresh yellow",
-      "amount": 2.6666666666666665,
+      "amount": 794.0,
       "unit": "g",
       "comment": "",
+      "original_string": "1 3/4 pounds/794 grams fresh yellow, blue, pink, or white fine-grind corn masa for tortillas (or 2 1/2 cups masa harina, see Tip)",
       "nutrition_infos": []
     },
     {
@@ -433,6 +656,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -507,10 +731,55 @@
       ]
     },
     {
+      "name": "kosher salt such as diamond crystal",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "refried black beans",
       "amount": 1.3333333333333333,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups refried black beans",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -611,6 +880,113 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "Sliced iceberg lettuce, chopped onion, chopped cilantro, crema and crumbled queso fresco, for serving",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Sliced iceberg lettuce, chopped onion, chopped cilantro, crema and crumbled queso fresco, for serving",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.7,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 7.04,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 28.0,
+          "unit": "KCAL",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 4.93,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.1,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 28.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.76,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 148.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 14.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 142.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -628,63 +1004,63 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.28,
+      "amount": 3.9799999999999995,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 193.16,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 121.5,
+      "amount": 175.64000000000001,
       "unit": "G",
-      "serving_size": 37.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2174.0,
+      "amount": 2484.0,
       "unit": "KCAL",
-      "serving_size": 37.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 78524.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 54.82,
+      "amount": 59.75,
       "unit": "G",
       "serving_size": 37.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 4.1,
+      "amount": 6.199999999999999,
       "unit": "G",
       "serving_size": 37.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 33.0,
+      "amount": 61.0,
       "unit": "MG",
       "serving_size": 37.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.18,
-      "unit": "MG",
-      "serving_size": 37.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 510.0,
+      "amount": 1.94,
       "unit": "MG",
       "serving_size": 37.0,
       "serving_size_unit": "g"
@@ -736,6 +1112,20 @@
       "amount": 26.6,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 148.0,
+      "unit": "MG",
+      "serving_size": 142.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 142.0,
       "serving_size_unit": "g"
     }
   ]

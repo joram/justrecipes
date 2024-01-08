@@ -15,6 +15,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -60,7 +61,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1390.0,
+          "amount": 31390.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -86,6 +87,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Several sprigs thyme",
       "nutrition_infos": []
     },
     {
@@ -93,6 +95,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -149,14 +152,16 @@
       "name": "cup sun-dried tomatoes",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "roughly chopped",
+      "original_string": "1 cup sun-dried tomatoes, roughly chopped",
       "nutrition_infos": []
     },
     {
       "name": "capers",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "drained if necessary",
+      "original_string": "2 tablespoons capers, drained if necessary",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -259,24 +264,134 @@
       ]
     },
     {
-      "name": "fish stock or dry white wine",
+      "name": "fish stock",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup fish stock or dry white wine",
       "nutrition_infos": []
     },
     {
       "name": "to 24 large shrimp",
       "amount": 16.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "16 to 24 large shrimp, peeled",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 30000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "chopped fresh basil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped fresh basil",
       "nutrition_infos": []
     }
   ],
@@ -331,7 +446,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 1390.0,
+      "amount": 31390.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -382,6 +497,20 @@
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }

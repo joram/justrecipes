@@ -17,6 +17,7 @@ class Ingredient(BaseModel):
     amount: float
     unit: str
     comment: str
+    original_string: str
     nutrition_infos: List[NutritionalInfo]
 
 

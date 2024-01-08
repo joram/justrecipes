@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 6,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/turkey-pot-pie-52985381",
+  "source_url": "https://www.epicurious.com/recipes/member/views/turkey-pot-pie-5fc9151e46635f225f5bd5a6",
   "image_urls": [
     "https://assets.epicurious.com/photos/5609a74862fa7a9917c25a6c/16:9/w_1024,h_576,c_limit/355790_hires.jpg",
     "https://assets.epicurious.com/photos/5609a74862fa7a9917c25a6c/4:3/w_1032,h_774,c_limit/355790_hires.jpg",
@@ -11,14 +11,87 @@
   ],
   "ingredients": [
     {
-      "name": "extra-virgin olive oil",
+      "name": "unsalted butter",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon unsalted butter",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 1.77,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 171.89999999999998,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.65,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1536.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 310.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 63.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "extra-virgin olive oil",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon extra-virgin olive oil",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -32,21 +105,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 2.65,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 822.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 310.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -93,6 +166,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped onion",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -135,7 +209,8 @@
       "name": "button mushrooms",
       "amount": 6.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "stems trimmed,  caps cut in half then thickly sliced crosswise",
+      "original_string": "6 ounces button mushrooms, stems trimmed, caps cut in half then thickly sliced crosswise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -238,10 +313,35 @@
       ]
     },
     {
-      "name": "4 cups gravy",
+      "name": "thinly sliced peeled carrots",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup thinly sliced peeled carrots (about 2 carrots)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "diced leftover cooked vegetables",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup diced leftover cooked vegetables (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "diced cooked turkey",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2 cups diced cooked turkey (7 to 8 ounces)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "/4 cups gravy",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 to 1 1/4 cups gravy",
       "nutrition_infos": []
     },
     {
@@ -249,13 +349,23 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon chopped fresh thyme",
       "nutrition_infos": []
     },
     {
       "name": "frozen green peas",
       "amount": 2.5,
       "unit": "cup",
+      "comment": "thawed",
+      "original_string": "1/4 cup frozen green peas, thawed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh italian parsley",
+      "amount": 1.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon chopped fresh Italian parsley plus additional parsley leaves for crust",
       "nutrition_infos": []
     },
     {
@@ -263,13 +373,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "",
       "nutrition_infos": []
     },
     {
       "name": "egg white",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten to blend with 1 teaspoon water",
+      "original_string": "1 egg white, beaten to blend with 1 teaspoon water (for glaze)",
       "nutrition_infos": []
     },
     {
@@ -277,6 +389,7 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 9-inch purchased pie crust",
       "nutrition_infos": []
     },
     {
@@ -284,6 +397,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Cranberry sauce",
       "nutrition_infos": []
     }
   ],
@@ -298,56 +412,63 @@
       "name": "Protein",
       "amount": 1.77,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 171.89999999999998,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 2.65,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 822.0,
+      "amount": 1536.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 310.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 13.3,
+      "amount": 63.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {

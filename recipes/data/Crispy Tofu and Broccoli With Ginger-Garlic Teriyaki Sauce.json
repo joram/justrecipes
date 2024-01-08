@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "package extra firm tofu",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "drained",
+      "original_string": "2 (14-ounce) package extra firm tofu, drained ",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Neutral oil ",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,14 +41,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 64.71,
+          "amount": 164.70999999999998,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1191.0,
+          "amount": 1566.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -72,13 +74,23 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup cornstarch",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such Diamond Crystal) and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "broccoli",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into small 1-inch florets,  stems reserved for another use",
+      "original_string": "1 pound broccoli, cut into small 1-inch florets, stems reserved for another use",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -110,7 +122,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 34.48,
+          "amount": 134.48,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -181,17 +193,35 @@
       ]
     },
     {
-      "name": "toasted white sesame seeds",
+      "name": "chopped cilantro leaves, for topping",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped cilantro leaves, for topping (optional)",
       "nutrition_infos": []
     },
     {
-      "name": "soy sauce or tamari",
+      "name": "toasted white sesame seeds, for topping",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Toasted white sesame seeds, for topping (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cooked rice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooked rice, for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "soy sauce",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup soy sauce or tamari",
       "nutrition_infos": []
     },
     {
@@ -199,6 +229,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup mirin",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -270,20 +301,88 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup sake",
       "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "-inch piece ginger",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and grated",
+      "original_string": "1-inch piece ginger, peeled and grated",
       "nutrition_infos": []
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and grated",
+      "original_string": "1 garlic clove, peeled and grated",
       "nutrition_infos": []
     }
   ],
@@ -315,14 +414,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 64.71,
+      "amount": 164.70999999999998,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1191.0,
+      "amount": 1566.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -343,7 +442,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 34.48,
+      "amount": 134.48,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"

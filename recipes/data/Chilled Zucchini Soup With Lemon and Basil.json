@@ -15,6 +15,7 @@
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 pounds zucchini, trimmed and roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +26,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 99.55,
+          "amount": 6.25,
           "unit": "G",
           "serving_size": 95.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 1144.0,
+          "amount": 344.0,
           "unit": "KCAL",
           "serving_size": 95.0,
           "serving_size_unit": "g"
@@ -116,7 +117,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 95.0,
           "serving_size_unit": "g"
@@ -124,10 +125,27 @@
       ]
     },
     {
+      "name": "ounces",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 cups basil leaves (about 2 ounces), plus more to serve",
+      "nutrition_infos": []
+    },
+    {
       "name": "roasted cashews 5 ounces",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup roasted cashews (5 ounces), plus ¼ cup chopped roasted cashews to serve",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lemon juice from 2 lemons",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 tablespoons lemon juice (from 2 lemons), plus more if needed",
       "nutrition_infos": []
     },
     {
@@ -135,6 +153,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 garlic cloves, roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -178,6 +197,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons white (shiro) miso",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -284,6 +304,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups vegetable stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -393,82 +414,28 @@
       ]
     },
     {
-      "name": "extra-virgin olive oil",
+      "name": "Kosher salt and black pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 93.3,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 800.0,
-          "unit": "KCAL",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 13.3,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total monounsaturated",
-          "amount": 66.7,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total polyunsaturated",
-          "amount": 13.3,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Ice cubes (optional)",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Ice cubes (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "Extra-virgin olive oil, to serve",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Extra-virgin olive oil, to serve",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -486,7 +453,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 99.55,
+      "amount": 6.25,
       "unit": "G",
       "serving_size": 95.0,
       "serving_size_unit": "g"
@@ -500,7 +467,7 @@
     },
     {
       "name": "Energy",
-      "amount": 1144.0,
+      "amount": 344.0,
       "unit": "KCAL",
       "serving_size": 95.0,
       "serving_size_unit": "g"
@@ -577,7 +544,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 13.3,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 95.0,
       "serving_size_unit": "g"
@@ -594,20 +561,6 @@
       "amount": 0.8,
       "unit": "G",
       "serving_size": 245.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total monounsaturated",
-      "amount": 66.7,
-      "unit": "G",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total polyunsaturated",
-      "amount": 13.3,
-      "unit": "G",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]
