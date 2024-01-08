@@ -25,6 +25,56 @@
       "nutrition_infos": []
     },
     {
+      "name": "neutral oil",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 8.82,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.35,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 45.9,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1149.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 423.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 90.23,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "brioche hamburger buns",
       "amount": 4.0,
       "unit": "",
@@ -122,6 +172,13 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "condiments such as mayonnaise",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -137,28 +194,42 @@
       "name": "Protein",
       "amount": 8.82,
       "unit": "G",
-      "serving_size": 56.69900131225586,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 7.05,
+      "amount": 100.35,
       "unit": "G",
-      "serving_size": 56.69900131225586,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 45.9,
       "unit": "G",
-      "serving_size": 56.69900131225586,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 282.0,
+      "amount": 1149.0,
       "unit": "KCAL",
-      "serving_size": 56.69900131225586,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 423.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 90.23,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -190,13 +261,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 423.0,
-      "unit": "MG",
-      "serving_size": 56.69900131225586,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -214,13 +278,6 @@
       "name": "Cholesterol",
       "amount": 26.0,
       "unit": "MG",
-      "serving_size": 56.69900131225586,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 3.53,
-      "unit": "G",
       "serving_size": 56.69900131225586,
       "serving_size_unit": "g"
     }

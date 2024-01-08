@@ -10,8 +10,15 @@
   ],
   "ingredients": [
     {
-      "name": "tablespoons/14 grams ground flaxseed",
+      "name": "14 grams ground flaxseed",
       "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coconut oil",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
       "nutrition_infos": []
@@ -52,7 +59,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -66,7 +73,7 @@
         },
         {
           "name": "Energy",
-          "amount": 625.0,
+          "amount": 1554.0,
           "unit": "KCAL",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -131,11 +138,82 @@
       "nutrition_infos": []
     },
     {
-      "name": "2 tablespoons/252 grams vegan butter preferably earth balance",
+      "name": "2 tablespoons 252 grams vegan butter preferably earth balance",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 929.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 35.7,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 42.9,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 17.9,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cup/118 milliliters unsweetened almond milk",
@@ -174,9 +252,9 @@
       ]
     },
     {
-      "name": "-ounce/255-gram bag vegan chocolate chips",
+      "name": "255-gram bag vegan chocolate chips",
       "amount": 5.0,
-      "unit": "",
+      "unit": "oz",
       "comment": "",
       "nutrition_infos": []
     }
@@ -201,7 +279,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
@@ -215,7 +293,7 @@
     },
     {
       "name": "Energy",
-      "amount": 625.0,
+      "amount": 1554.0,
       "unit": "KCAL",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
@@ -225,6 +303,41 @@
       "amount": 29820.0,
       "unit": "MG",
       "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 35.7,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 42.9,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 17.9,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

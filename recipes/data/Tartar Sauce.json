@@ -2,28 +2,85 @@
   "name": "Tartar Sauce",
   "categories": [],
   "servings": 1,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/tartar-sauce-52816991",
+  "minutes": 5,
+  "source_url": "https://cooking.nytimes.com/recipes/4554-tartar-sauce",
   "image_urls": [
-    "https://assets.epicurious.com/photos/57892eae1edb4f17303e3eec/master/w_1000,h_667,c_limit/tartar-sauce.jpg"
+    "https://static01.nyt.com/applications/cooking/d26096f/assets/11.jpg?1"
   ],
   "ingredients": [
     {
-      "name": "mayonnaise",
+      "name": "large egg yolk",
       "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "white-wine or cider vinegar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dijon-style mustard",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 957.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2400.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "vegetable oil",
+      "amount": 3.5,
       "unit": "cup",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.33,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 78.6,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -37,28 +94,28 @@
         },
         {
           "name": "Energy",
-          "amount": 847.0,
+          "amount": 857.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.33,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 87.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -72,14 +129,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 7.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1400.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -92,15 +149,8 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Cholesterol",
-          "amount": 36.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -114,7 +164,21 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 10.7,
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 57.1,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -122,219 +186,93 @@
       ]
     },
     {
-      "name": "finely chopped dill pickle",
-      "amount": 2.5,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "chopped green onion",
+      "name": "finely chopped onion",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 3.33,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 33.0,
-          "unit": "KCAL",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 3.33,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 3.3,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 73.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "nutrition_infos": []
     },
     {
-      "name": "drained capers",
-      "amount": 1.0,
+      "name": "chopped drained capers",
+      "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "chopped fresh parsley",
-      "amount": 1.0,
+      "name": "chopped cornichons or sour pickles",
+      "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "dijon mustard",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 100.0,
-          "unit": "KCAL",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 900.0,
-          "unit": "MG",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "dried tarragon",
-      "amount": 1.5,
-      "unit": "tsp",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "worcestershire sauce",
-      "amount": 1.5,
-      "unit": "tsp",
+      "name": "finely chopped parsley",
+      "amount": 3.0,
+      "unit": "tbsp",
       "comment": "",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Whisk all ingredients in medium bowl to blend. Season with salt and pepper. Cover; chill at least 1 hour and up to 2 days."
+    "Place egg yolk in a mixing bowl and add vinegar, mustard, salt",
+    "Add oil gradually, beating vigorously with whisk. Add lemon juice.",
+    "Add remaining ingredients and blend well. Cover and chill."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.33,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 78.6,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 847.0,
+      "amount": 957.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 2400.0,
+      "unit": "MG",
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.33,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.3,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 87.0,
+      "amount": 0.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -348,14 +286,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 7.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 1400.0,
+      "amount": 0.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -368,15 +299,8 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Cholesterol",
-      "amount": 36.0,
+      "amount": 0.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -390,7 +314,21 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 10.7,
+      "amount": 14.3,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 25.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 57.1,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"

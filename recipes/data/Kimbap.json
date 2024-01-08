@@ -12,17 +12,67 @@
   "ingredients": [
     {
       "name": "packed cups raw spinach about 3 ounces",
-      "amount": 1.5,
+      "amount": 1.3333333333333333,
       "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
     {
       "name": "sesame oil",
-      "amount": 1.5,
+      "amount": 1.3333333333333333,
       "unit": "tsp",
       "comment": "",
       "nutrition_infos": []
+    },
+    {
+      "name": "neutral oil",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 39.27,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 129.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 96.13,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1634.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 574.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 111.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "medium or large carrot",
@@ -32,28 +82,28 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 39.27,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 35.7,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 96.13,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 767.0,
+          "amount": 17.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -95,7 +145,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 574.0,
+          "amount": 467.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -123,7 +173,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 25.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -387,28 +437,42 @@
       "name": "Protein",
       "amount": 39.27,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 35.7,
+      "amount": 129.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 96.13,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 767.0,
+      "amount": 1634.0,
       "unit": "KCAL",
-      "serving_size": 30.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 574.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 111.7,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -447,13 +511,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 574.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -470,13 +527,6 @@
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
-      "unit": "G",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 25.0,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"

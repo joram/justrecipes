@@ -11,18 +11,82 @@
   ],
   "ingredients": [
     {
-      "name": "bread flour about 2 1/4 cups",
+      "name": "bread flour about 2 1 4 cups",
       "amount": 300.0,
       "unit": "g",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "/4 teaspoon",
+      "name": "4 teaspoon",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.4,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 97.08,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 13.49,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 898.0,
+          "unit": "KCAL",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.12,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.1,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 594.0,
+          "unit": "MG",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1453.0,
+          "unit": "IU",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 9.899999999999999,
+          "unit": "MG",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "milliliters",
@@ -39,7 +103,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 97.08,
+          "amount": 3.78,
           "unit": "G",
           "serving_size": 148.0,
           "serving_size_unit": "g"
@@ -277,6 +341,13 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "semolina or cornmeal",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -292,21 +363,63 @@
       "name": "Protein",
       "amount": 1.4,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 97.08,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 7.24,
+      "amount": 13.49,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 898.0,
+      "unit": "KCAL",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 3.12,
+      "unit": "G",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 3.1,
+      "unit": "G",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 594.0,
+      "unit": "MG",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1453.0,
+      "unit": "IU",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 9.899999999999999,
+      "unit": "MG",
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
@@ -380,13 +493,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 203.0,
-      "unit": "IU",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 51.0,
       "unit": "IU",
@@ -397,13 +503,6 @@
       "name": "Vitamin E (label entry primarily)",
       "amount": 1.0,
       "unit": "IU",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 6.1,
-      "unit": "MG",
       "serving_size": 148.0,
       "serving_size_unit": "g"
     },
@@ -482,20 +581,6 @@
       "amount": 10.0,
       "unit": "UG",
       "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 867.0,
-      "unit": "KCAL",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {

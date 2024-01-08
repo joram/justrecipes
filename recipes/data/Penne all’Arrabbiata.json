@@ -1,133 +1,303 @@
 {
   "name": "Penne all’Arrabbiata",
   "categories": [],
-  "servings": 4,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/mario-batalis-penne-allarrabbiata-573e49c0d44d8a8c0ea68d1c",
+  "servings": 6,
+  "minutes": 30,
+  "source_url": "https://cooking.nytimes.com/recipes/1015236-penne-allarrabbiata",
   "image_urls": [
-    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
+    "https://static01.nyt.com/images/2015/12/21/dining/21COOKING_PENNEARRABBIATA/21COOKING_PENNEARRABBIATA-square640.jpg",
+    "https://static01.nyt.com/images/2015/12/21/dining/21COOKING_PENNEARRABBIATA/21COOKING_PENNEARRABBIATA-superJumbo.jpg"
   ],
   "ingredients": [
     {
-      "name": "extra virgin olive oil",
-      "amount": 2.5,
-      "unit": "cup",
+      "name": "extra-virgin olive oil",
+      "amount": 4.0,
+      "unit": "tbsp",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 34.0,
+          "amount": 61.29,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 115.05,
+          "amount": 125.25,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 90.2,
+          "amount": 91.63,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1633.0,
+          "amount": 1646.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 12.3,
-          "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2000.0,
+          "amount": 749.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 33.3,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "garlic cloves",
-      "amount": 3.0,
-      "unit": "",
+      "name": "tomato paste",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 6.06,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 18.2,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 100.0,
+          "amount": 91.0,
           "unit": "KCAL",
-          "serving_size": 5.0,
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 12.32,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 16.3,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1215.0,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 9.61,
+          "unit": "MG",
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40.0,
+          "amount": 61.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1905.0,
+          "unit": "IU",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 22.799999999999997,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "plum tomatoes",
-      "amount": 2.0,
-      "unit": "lb",
+      "name": "chopped tomatoes",
+      "amount": 1.3333333333333333,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Calcium, Ca",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.11,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 385.0,
+          "unit": "IU",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.6,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 1.23,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.2,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 22.0,
+          "unit": "KCAL",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 88.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "penne",
@@ -179,7 +349,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1000.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 57.0,
           "serving_size_unit": "g"
@@ -214,7 +384,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 100.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 57.0,
           "serving_size_unit": "g"
@@ -236,21 +406,21 @@
       ]
     },
     {
-      "name": "freshly grated pecorino romano cheese",
+      "name": "freshly grated parmigiano-reggiano for serving",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 20.0,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 20.0,
+          "amount": 30.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -285,7 +455,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1000.0,
+          "amount": 1200.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -299,14 +469,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1960.0,
+          "amount": 600.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -343,113 +513,128 @@
     }
   ],
   "instructions": [
-    "Bring a large pot of water to a boil and add salt. Put the olive oil in a large skillet over medium-high heat and add the garlic and chiles. Cook, stirring occasionally, until the garlic is browned, 5 minutes or so. Turn off the heat and wait a couple of minutes.",
-    "If you want the dish very hot, leave some or all of the chiles in the skillet; otherwise, remove some or all of them. Turn the heat back to medium-high and add the tomatoes, along with some salt and pepper. Cook, stirring occasionally, until the mixture becomes saucy, 10 to 15 minutes. (After about 5 minutes, you can start to cook the pasta.)",
-    "Cook the pasta until it is tender but not mushy, then drain and sauce it. Taste and adjust the seasoning, then garnish with parsley and cheese and serve."
+    "Bring 6 quarts of water to a boil  in a large pot, and add 3 tablespoons kosher salt.",
+    "Meanwhile, put 4 tablespoons olive oil in a large sauté pan over medium heat, and then add the tomato paste and pepper flakes; reduce the heat to low and stir just until fragrant, about 4 minutes. Stir in the tomatoes, and remove from the heat.",
+    "Drop the pasta into the boiling water, and cook until al dente. Drain the pasta, reserving 1/4  cup of the pasta water.",
+    "Add the pasta and the reserved pasta water to the tomato sauce, stir and toss over medium heat until the pasta is well coated. Season with salt if necessary, then add the remaining oil, tossing well. Serve immediately, with grated Parmigiano-Reggiano on the side."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 34.0,
+      "amount": 61.29,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 115.05,
+      "amount": 125.25,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 90.2,
+      "amount": 91.63,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1633.0,
+      "amount": 1646.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 12.3,
-      "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2000.0,
+      "amount": 749.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 33.3,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 1000.0,
-      "unit": "MG",
-      "serving_size": 57.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 6.32,
-      "unit": "MG",
-      "serving_size": 57.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 57.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 57.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 100.0,
       "unit": "MG",
-      "serving_size": 57.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 33.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 12.32,
+      "unit": "G",
+      "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 16.3,
+      "unit": "G",
+      "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 1215.0,
+      "unit": "MG",
+      "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 9.61,
+      "unit": "MG",
+      "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1905.0,
+      "unit": "IU",
+      "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 22.799999999999997,
+      "unit": "MG",
+      "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"

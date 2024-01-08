@@ -1,24 +1,123 @@
 {
   "name": "Black Bean Soup",
   "categories": [],
-  "servings": 6,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/black-bean-soup-52832361",
+  "servings": 8,
+  "minutes": 160,
+  "source_url": "https://cooking.nytimes.com/recipes/1107-black-bean-soup",
   "image_urls": [
-    "/verso/static/epicurious/assets/logo-seo.png"
+    "https://static01.nyt.com/applications/cooking/d26096f/assets/4.jpg?1"
   ],
   "ingredients": [
     {
-      "name": "dried black beans",
+      "name": "black beans",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.04,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 58.92,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 473.0,
+          "unit": "KCAL",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.47,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 733.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.1300000000000001,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 338.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 5253.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 67.0,
+          "unit": "MG",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 11.7,
+          "unit": "G",
+          "serving_size": 125.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "olive oil",
-      "amount": 2.5,
-      "unit": "cup",
+      "name": "water to cover 2 to 3 quarts",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
@@ -30,66 +129,313 @@
       "nutrition_infos": []
     },
     {
-      "name": "garlic cloves",
+      "name": "carrot",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "stalks celery",
       "amount": 3.0,
       "unit": "",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.33,
+          "amount": 0.91,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 16.7,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 26.67,
+          "amount": 4.55,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 300.0,
+          "amount": 18.0,
           "unit": "KCAL",
-          "serving_size": 5.0,
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.8,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 36.0,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.33,
+          "unit": "MG",
+          "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 90.0,
+          "amount": 91.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 91.0,
+          "unit": "IU",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 88.2,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "dried oregano",
+      "name": "herb bouquet parsley",
       "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 5000.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "mace",
+      "amount": 2.5,
       "unit": "tsp",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "or more water",
-      "amount": 4.0,
+      "name": "garlic",
+      "amount": 3.0,
+      "unit": "clove",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 33.3,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 167.0,
+          "unit": "KCAL",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 667.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 80.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "of dark rum",
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
       "nutrition_infos": []
     },
     {
       "name": "sour cream",
-      "amount": 1.0,
-      "unit": "",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": [
         {
@@ -156,83 +502,132 @@
           "serving_size_unit": "g"
         }
       ]
-    },
-    {
-      "name": "chopped fresh cilantro",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Place beans in large Dutch oven. Add enough water to cover by 5 inches. Simmer until beans are tender, about 2 hours.",
-    "Heat oil in large skillet over medium-high heat. Add peppers, onion and garlic. Sauté until brown, about 10 minutes. Add oregano and cumin; stir 1 minute. Add to beans. Add 4 cups water. Bring to boil. Reduce heat; simmer until mixture thickens, stirring often, about 45 minutes. Season with salt and pepper. (Can be made 1 day ahead. Cover; chill. Bring to simmer before serving thinning with more water if too thick.)",
-    "Ladle soup into bowls. Serve with sour cream, cilantro and jalapeños."
+    "Pick over the beans. Put them in a large saucepan and add water to cover. Bring to boil, drain and add fresh water to cover.",
+    "Add the remaining ingredients except the rum and sour cream and simmer, covered, for about two hours, or until the beans are tender. Add more water as necessary and stir frequently.",
+    "When the beans are cooked, puree them in a food processor until smooth. Serve the soup in heated bowls garnished with a teaspoon of rum and a dollop of sour cream."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.33,
+      "amount": 9.04,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 16.7,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 26.67,
+      "amount": 58.92,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 300.0,
+      "amount": 473.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 90.0,
-      "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.67,
+      "amount": 7.47,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 5.0,
+      "unit": "G",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 733.0,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 1.1300000000000001,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 338.0,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 5253.0,
+      "unit": "MG",
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 67.0,
       "unit": "MG",
-      "serving_size": 30.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 11.7,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 91.0,
+      "unit": "IU",
+      "serving_size": 110.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 88.2,
+      "unit": "MG",
+      "serving_size": 110.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

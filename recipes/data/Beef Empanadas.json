@@ -1,50 +1,576 @@
 {
   "name": "Beef Empanadas",
   "categories": [],
-  "servings": 10,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/beef-empanadas-53013381",
+  "servings": 40,
+  "minutes": 120,
+  "source_url": "https://cooking.nytimes.com/recipes/1020490-beef-empanadas",
   "image_urls": [
-    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
+    "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex10-empanada/08Filipinorex10-empanada-square640.jpg",
+    "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex10-empanada/merlin_160617843_14011642-342a-4f0e-93d5-4c962d75621c-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex10-empanada/merlin_160617843_14011642-342a-4f0e-93d5-4c962d75621c-superJumbo.jpg"
   ],
   "ingredients": [
     {
-      "name": "hard-boiled large eggs",
+      "name": "eggs",
       "amount": 2.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 32.01,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 251.93,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 101.13,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2811.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 68.1,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 220.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.08,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 543.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2877.0,
+          "unit": "IU",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 22.5,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 104.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 136.12,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "medium onion",
-      "amount": 1.5,
+      "name": "milk",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.75,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 5.42,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 67.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 131.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 297.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 56.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1000.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 42.0,
+          "unit": "IU",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 15.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 2.08,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cups/575 grams all-purpose flour",
+      "amount": 2.3333333333333335,
       "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "olive oil",
+      "name": "white vinegar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "vegetable oil",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 857.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "garlic clove",
+      "name": "tomato paste",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.06,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 18.2,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 91.0,
+          "unit": "KCAL",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 9.09,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.0,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.18,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 61.0,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1520.0,
+          "unit": "IU",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 18.2,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 33.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "small yellow onion",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "dried oregano",
+      "name": "garlic cloves",
+      "amount": 3.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 100.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "medium russet potato",
       "amount": 1.5,
-      "unit": "tsp",
+      "unit": "",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "ground beef chuck",
+      "name": "raisins",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground beef",
       "amount": 3.5,
       "unit": "lb",
       "comment": "",
@@ -72,22 +598,8 @@
         },
         {
           "name": "Energy",
-          "amount": 259.0,
+          "amount": 250.0,
           "unit": "KCAL",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
@@ -106,29 +618,8 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Potassium, K",
-          "amount": 268.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Sodium, Na",
           "amount": 67.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -141,15 +632,8 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Fatty acids, total trans",
-          "amount": 1.34,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Fatty acids, total saturated",
-          "amount": 7.14,
+          "amount": 8.04,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -157,156 +641,325 @@
       ]
     },
     {
-      "name": "raisins",
-      "amount": 2.0,
+      "name": "2 teaspoon oyster sauce",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "nutrition_infos": []
+    },
+    {
+      "name": "soy sauce",
+      "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
       "nutrition_infos": []
     },
     {
-      "name": "chopped pimiento-stuffed olives",
-      "amount": 1.3333333333333333,
-      "unit": "tbsp",
+      "name": "chicken stock",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.63,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 8.0,
+          "unit": "KCAL",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 122.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 212.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.4,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "0 frozen empanada pastry disks",
-      "amount": 1.0,
-      "unit": "",
+      "name": "bottle neutral oil",
+      "amount": 24.5,
+      "unit": "oz",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "about 4 cups vegetable oil",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "special equipment: deep-fry thermometer",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 867.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 86.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
-    "Cut each egg crosswise into 10 thin slices.",
-    "Cook the onion in the olive oil in a heavy medium skillet over medium heat, stirring frequently, until softened. Add the garlic, cumin, and oregano and cook, stirring, 1 minute. Stir in the beef and cook, breaking up lumps with a fork, until no longer pink, about 4 minutes.",
-    "Add the raisins, olives, salt, pepper, and tomatoes with reserved juice, then cook, stirring occasionally, until the liquid is reduced but the mixture is still moist, about 5 minutes. Spread on a plate to cool.",
-    "Preheat the oven to 200°F, with the rack in the middle.",
-    "Lay a large sheet of plastic wrap on a dampened work surface (to help keep plastic in place), then roll out an empanada disk on the wrap to measure about 6 inches. Place 3 tablespoons of meat mixture on the disk and top with 2 slices of egg. Moisten the edges of the disk with water and fold over to form a semicircle, then crimp with a fork. Make 9 more empanadas in the same manner.",
-    "Heat 3/4 inch of vegetable oil in a deep 12-inch skillet over medium heat until it registers 360°F on a deep-fry thermometer. Fry the empanadas, 2 or 3 at a time, turning once, until crisp and golden, 4 to 6 minutes per batch.",
-    "Transfer the empanadas to a shallow baking pan and keep warm in the oven. Return oil to 360°F between frying batches.",
-    "The EMPANADAS can be brushed with oil and baked on an oiled baking sheet in a 425°F oven until golden, about 10 minutes. (They will not be as crisp as fried empanadas.)"
+    "Prepare the empanada dough: In a medium bowl, beat the eggs with the milk and 1/2 teaspoon salt. In a large bowl, combine the flour and 1 tablespoon salt, and mix well. Add the butter and incorporate it into the flour using your hands or a food processor. Combine until mixture is sandy. Combine the egg mixture, vinegar and 2/3 cup ice water, whisking to break up the egg. Add egg mixture to flour mixture, and beat with a fork to bring dough together.",
+    "Sprinkle a light layer of flour over a work surface. Place the dough on top. Bring dough together by pressing and folding dough onto itself a few times with the palms of your hands. Being careful not to overwork, split dough in half and form into two equal logs about the thickness of a small sausage, 1 1/2- to 2-inches thick. Wrap with plastic wrap and refrigerate until firm, about 1 hour.",
+    "While the dough rests, prepare the filling: In a large skillet, heat the oil over medium-high and bring to a shimmer. Add the tomato paste and toast, stirring frequently, until darkened and caramelized, about 3 minutes. Add the onion, bell peppers, garlic, salt and pepper, and cook, stirring occasionally, until slightly softened, about 5 minutes.",
+    "Add the potato and raisins, and cook, stirring, until mixture starts to caramelize, 8 to 10 minutes. Reduce the heat to medium and cook, stirring occasionally, until softened, about 5 minutes.",
+    "Add the beef, increase the temperature to medium-high and cook, stirring occasionally, until beef is cooked through, about 10 minutes. Stir in oyster sauce and soy sauce until coated, then stir in chicken stock. (Mixture should be glossy but not overtly wet; cook for another 5 minutes or so to reduce liquid, if need be.) Transfer to a sheet pan, dispersing in a thin layer, and refrigerate until chilled, at least 20 minutes.",
+    "Fill a small bowl with some cool water for sealing your empanadas, and another small bowl with flour for dusting. Working with one log at a time, remove dough from fridge. Cut each log in half crosswise, then cut each half crosswise into 10 equal pieces, which will be the shape of thick coins. Using a bit of flour, dust your work surface. Round each coin slightly using your thumb and forefinger and on your surface with your hands press each coin lightly to coax it into a flat round shape. Switch to a rolling pin and roll each piece of empanada dough into a 4 1/2-inch circle. You can lightly dust and stack your circles off to the side or transfer them to a parchment lined baking sheet and chill until you are ready to assemble (they are easier to work with when kept cool). Repeat with remaining log. When you have all your pieces rolled out, you are ready to assemble your empanadas. Place about 1 1/2 tablespoons of the meat filling in the center of each circle, leaving at least a 1/2-inch border. Using a brush or your finger, wet the edges of the dough with water and fold the crust over the filling, forming half-moon empanada shapes, sealing out as much air as possible. Crimp the edges of the empanada with the tines of a fork to seal.",
+    "In a large heavy Dutch oven or pot, heat about 2 inches of oil over medium-high. Heat oil to 365 degrees. Working in batches so as not to crowd the pan, maintaining an even heat, fry the empanadas, turning frequently, until they start to bob, 4 to 5 minutes. (They should be crisp and golden brown, the pastry should be cooked through and the meat should be warmed through.) Transfer to a paper-towel lined baking sheet and fry remaining empanadas. Serve warm."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 17.0,
+      "amount": 32.01,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 19.6,
+      "amount": 251.93,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 101.13,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 259.0,
+      "amount": 2811.0,
       "unit": "KCAL",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 68.1,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 3.0,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 18.0,
+      "amount": 220.0,
       "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.61,
+      "amount": 5.08,
       "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 268.0,
-      "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 67.0,
+      "amount": 543.0,
       "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 2877.0,
       "unit": "IU",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "amount": 22.5,
       "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 71.0,
+      "amount": 104.0,
       "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
-      "amount": 1.34,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 7.14,
+      "amount": 136.12,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 297.0,
+      "unit": "MG",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 42.0,
+      "unit": "IU",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 25.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 57.1,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.4,
+      "unit": "G",
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     }
   ]

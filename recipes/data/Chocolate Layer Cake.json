@@ -26,41 +26,41 @@
     },
     {
       "name": "baking soda",
-      "amount": 1.5,
+      "amount": 1.3333333333333333,
       "unit": "tsp",
       "comment": "",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.68,
+          "amount": 14.68,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 74.2,
+          "amount": 126.7,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 355.0,
+          "amount": 855.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 37500.0,
+          "amount": 37512.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -69,7 +69,7 @@
     },
     {
       "name": "baking powder",
-      "amount": 1.5,
+      "amount": 1.3333333333333333,
       "unit": "tsp",
       "comment": "",
       "nutrition_infos": [
@@ -103,7 +103,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 3330.0,
+          "amount": 3380.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -118,9 +118,9 @@
       ]
     },
     {
-      "name": "cup/80 grams unsweetened dutch-process cocoa powder",
+      "name": "80 grams unsweetened dutch-process cocoa powder",
       "amount": 1.0,
-      "unit": "",
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": []
     },
@@ -132,9 +132,9 @@
       "nutrition_infos": []
     },
     {
-      "name": "cup/240 grams crème fraîche",
+      "name": "240 grams crème fraîche",
       "amount": 1.0,
-      "unit": "",
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": []
     },
@@ -160,16 +160,115 @@
       "nutrition_infos": []
     },
     {
-      "name": "ounces/226 grams semisweet chocolate 54 to 64 percent cacao",
+      "name": "226 grams semisweet chocolate 54 to 64 percent cacao",
       "amount": 8.0,
-      "unit": "",
+      "unit": "oz",
       "comment": "",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 40.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 52.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 38.23,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 50.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.48,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 12.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 22.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "cup/240 grams whole milk",
+      "name": "240 grams whole milk",
       "amount": 1.0,
-      "unit": "",
+      "unit": "cup",
       "comment": "",
       "nutrition_infos": []
     },
@@ -305,65 +404,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 9.68,
+      "amount": 14.68,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 40.0,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 126.7,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 355.0,
+      "amount": 855.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 37500.0,
+      "amount": 37512.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 3330.0,
+      "amount": 3380.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.23,
+      "amount": 38.23,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 40.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
+      "amount": 10.7,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 40.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 3.48,
+      "amount": 12.48,
       "unit": "MG",
-      "serving_size": 31.0,
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 22.5,
+      "unit": "G",
+      "serving_size": 40.0,
       "serving_size_unit": "g"
     },
     {
@@ -384,13 +518,6 @@
       "name": "Niacin",
       "amount": 5.16,
       "unit": "MG",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     }
