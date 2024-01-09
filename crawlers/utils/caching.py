@@ -6,7 +6,7 @@ from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
-from playwright.async_api import async_playwright
+from playwright.sync_api import sync_playwright
 
 
 def _cache_path(resource):
@@ -102,7 +102,7 @@ class GetMethod(enum.Enum):
     PLAYWRIGHT = 2
 
 
-async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
+def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
     if method == GetMethod.REQUESTS:
         try:
             content = requests.get(url, timeout=300).content.decode("utf-8")
@@ -112,14 +112,14 @@ async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
             return None
 
     elif method == GetMethod.PLAYWRIGHT:
-        async def _get_content_async(url):
-            p = await async_playwright().start()
-            browser = await p.chromium.launch(headless=True)
+        def _get_content_sync(url):
+            p = sync_playwright().start()
+            browser = p.chromium.launch(headless=True)
             user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " \
                             "AppleWebKit/537.36 (KHTML, like Gecko) " \
                             "Chrome/90.0.4430.212 Safari/537.36"
 
-            page = await browser.new_page(user_agent=user_agent)
+            page = browser.new_page(user_agent=user_agent)
             retries = 0
             while True:
                 if retries >= 3:
@@ -127,7 +127,7 @@ async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
                     return None
                 try:
                     referrer = "https://"+url.split("/")[2]
-                    response = await page.goto(url, referer=referrer, timeout=10000)
+                    response = page.goto(url, referer=referrer, timeout=10000)
                     if response.status == 200:
                         break
                     retries += 1
@@ -136,15 +136,15 @@ async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
                     print("retrying")
                     retries += 1
                     time.sleep(1)
-            content = await page.content()
-            await page.close()
+            content = page.content()
+            page.close()
             return content
-        return await _get_content_async(url)
+        return _get_content_sync(url)
     else:
         raise Exception(f"Unknown method {method}")
 
 
-async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[str]:
+def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[str]:
     if cache_url is None:
         cache_url = url
 
@@ -160,17 +160,17 @@ async def get_cached(url: str, cache_url: Optional[str] = None, attempts=0) -> O
             if "403 Forbidden" in content.decode("utf-8"):
                 remove_cached(cache_url)
                 time.sleep(1)
-                return await get_cached(url, attempts=attempts + 1)
+                return get_cached(url, attempts=attempts + 1)
             if len(content) == 0:
                 remove_cached(cache_url)
-                return await get_cached(url, attempts=attempts+1)
+                return get_cached(url, attempts=attempts+1)
             return content
 
     folder = os.path.dirname(path)
     os.makedirs(folder, exist_ok=True)
     with open(path, "w") as f:
         time.sleep(1)
-        content = await _get_content(url, method=GetMethod.REQUESTS)
+        content = _get_content(url, method=GetMethod.REQUESTS)
         if content is None:
             return None
         f.write(content)

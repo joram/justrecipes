@@ -92,6 +92,7 @@ def _parse_ingredients(data):
     ingredients = []
     def _clean_ingredient(ingredient_string):
         original = ingredient_string
+
         if "</" in ingredient_string:
             soup = BeautifulSoup(ingredient_string, 'html.parser')
             ingredient_string = soup.get_text()
@@ -131,6 +132,7 @@ def _parse_ingredients(data):
             "⅖": "2/5",
             "⅗": "3/5",
             "⅘": "4/5",
+            " ": " ",
         }
         for word, replacement in substitute_words.items():
             ingredient_string = ingredient_string.replace(word, replacement)
@@ -214,14 +216,14 @@ def _parse_images(data):
     return images
 
 
-async def create_recipe(data, url) -> Optional[Recipe]:
+def create_recipe(data, url) -> Optional[Recipe]:
     ingredients = _parse_ingredients(data)
     if ingredients is None:
         import pprint
         pprint.pprint(data)
     total_nutrition_infos = {}
     for ingredient in ingredients:
-        ingredient.nutrition_infos = await ingredient_to_nutrients_infos(ingredient)
+        ingredient.nutrition_infos = ingredient_to_nutrients_infos(ingredient)
         for nutrient in ingredient.nutrition_infos:
             if nutrient.name not in total_nutrition_infos:
                 total_nutrition_infos[nutrient.name] = nutrient

@@ -334,7 +334,7 @@ recipe_websites = [
 ]
 
 
-async def recipe_urls():
+def recipe_urls():
 
     def is_recipe_url(soup) -> bool:
 
@@ -394,7 +394,7 @@ async def recipe_urls():
                 yield urls[index], index, len(urls)
 
     for url, index, total in _interleaved_urls():
-        content = await get_cached(url)
+        content = get_cached(url)
         if content is None:
             continue
         if is_recipe_url(BeautifulSoup(content, "html.parser")):

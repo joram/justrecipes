@@ -14,12 +14,9 @@ load_dotenv()
 api_key = os.environ.get("FDA_API_KEY")
 
 
-async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) -> Optional[dict]:
+def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) -> Optional[dict]:
     url = f"https://api.nal.usda.gov/fdc/v1/foods/search?api_key={api_key}&query={ingredient.name}&pageSize=1&page={page}"
     cache_url = f"https://api.nal.usda.gov/fdc/v1/foods/search?query={ingredient.name}&pageSize=1&page={page}"
-
-    if "/" in ingredient.name:
-        return None
 
     attempts = 0
     content = None
@@ -27,7 +24,7 @@ async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) ->
         if attempts >= 3:
             return None
         try:
-            content = await get_cached_request(url, cache_url)
+            content = get_cached_request(url, cache_url)
             break
         except Exception as e:
             attempts += 1
@@ -66,12 +63,33 @@ def _convert_serving_size_to_grams(value, units):
     if units == "ml":
         return value * 1
 
+def convert_ingredient_using_golden_file(ingredient_string):
+    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "test_golden_file.json")
+    with open(path) as f:
+        content = f.read()
+        hard_strings = json.loads(content)
+        return hard_strings.get(ingredient_string, ingredient_string)
 
-async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInfo]:
+def add_ingredient_to_test_golden_file(ingredient_string):
+    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "test_golden_file.json")
 
-    for not_food_words in ["pan", "plate"]:
-        if not_food_words in ingredient.name:
-            return []
+    if not os.path.exists(path):
+        hard_strings = {}
+    else:
+        with open(path) as f:
+            content = f.read()
+            hard_strings = json.loads(content)
+    hard_strings[ingredient_string] = ""
+
+    with open(path, "w") as f:
+        f.write(json.dumps(hard_strings, indent=2, sort_keys=True))
+
+
+def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInfo]:
+
+    # for not_food_words in ["pan", "plate", "1/4 tsp", "1/2 tsp"]:
+    #     if not_food_words in ingredient.name:
+    #         return []
 
     data = {}
     good_data = False
@@ -82,9 +100,10 @@ async def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[Nutritio
             return []
 
         page += 1
-        data = await _get_cached_fda_info_for_ingredient(ingredient, page)
+        data = _get_cached_fda_info_for_ingredient(ingredient, page)
         if data is None or "Internal Server Error" in str(data):
             print("Internal Server Error for ingredient: ", ingredient.name)
+            add_ingredient_to_test_golden_file(ingredient.original_string)
             time.sleep(1)
             attempts += 1
             continue
