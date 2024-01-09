@@ -11,12 +11,97 @@
   ],
   "ingredients": [
     {
-      "name": "56 grams all-purpose flour",
-      "amount": 2.0,
-      "unit": "",
+      "name": "all-purpose flour",
+      "amount": 256.0,
+      "unit": "g",
       "comment": "",
       "original_string": "2 cups/256 grams all-purpose flour",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 16.58,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 118.05,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 455.02000000000004,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2482.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 255.13,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 41.27,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 76728.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 77.08,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dark brown sugar",
@@ -27,42 +112,42 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 6.9,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 118.05,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 380.82,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2127.0,
+          "amount": 375.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 251.9,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 76728.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -83,7 +168,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 77.08,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -92,7 +177,7 @@
     },
     {
       "name": "baking powder",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "1 1/2 teaspoons baking powder",
@@ -302,7 +387,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 37.79,
+          "amount": 12.5,
           "unit": "MG",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -397,7 +482,7 @@
     },
     {
       "name": "whole milk",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
       "original_string": "1 1/4 cups whole milk",
@@ -510,7 +595,7 @@
       ]
     },
     {
-      "name": "unsulfured molasses not blackstrap",
+      "name": "unsulfured molasses",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
@@ -692,7 +777,7 @@
       "name": "unsalted butter",
       "amount": 3.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "melted",
       "original_string": "3 tablespoons unsalted butter, melted",
       "nutrition_infos": [
         {
@@ -803,44 +888,86 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 6.9,
+      "amount": 16.58,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 118.05,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 380.82,
+      "amount": 455.02000000000004,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2127.0,
+      "amount": 2482.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 251.9,
+      "amount": 255.13,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 3.2,
+      "unit": "G",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 41.27,
+      "unit": "MG",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 76728.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 77.08,
+      "unit": "G",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
@@ -858,13 +985,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 77.08,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Calcium, Ca",
       "amount": 5643.0,
       "unit": "MG",
@@ -874,20 +994,6 @@
     {
       "name": "Cholesterol",
       "amount": 247.0,
-      "unit": "MG",
-      "serving_size": 0.800000011920929,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 0.800000011920929,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 37.79,
       "unit": "MG",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"

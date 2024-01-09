@@ -1,65 +1,250 @@
 {
   "name": "Ribollita",
   "categories": [],
-  "servings": 4,
-  "minutes": 50,
-  "source_url": "https://cooking.nytimes.com/recipes/1016052-ribollita",
+  "servings": 8,
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/ribollita-53078221",
   "image_urls": [
-    "https://static01.nyt.com/images/2014/02/19/dining/19JPFLEX1/19JPFLEX1-square640.jpg",
-    "https://static01.nyt.com/images/2014/02/19/dining/19JPFLEX1/19JPFLEX1-superJumbo.jpg"
+    "/verso/static/epicurious/assets/logo-seo.png"
   ],
   "ingredients": [
     {
-      "name": "olive oil",
-      "amount": 5.0,
-      "unit": "tbsp",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "small onion",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "carrot",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "celery stalk",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
+      "name": "water",
+      "amount": 13.0,
+      "unit": "cup",
+      "comment": "divided",
+      "original_string": "13 cups (or more) water, divided",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 20.91,
+          "amount": 10.31,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 104.85,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 85.75,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1284.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 20.910000000000004,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40344.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dried cannellini",
+      "amount": 1.25,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/4 cups dried cannellini (white kidney beans; about 8 ounces)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large fresh sage leaves",
+      "amount": 12.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "12 large fresh sage leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "garlic cloves; 5 sliced",
+      "amount": 8.0,
+      "unit": "",
+      "comment": "3 chopped",
+      "original_string": "8 garlic cloves; 5 sliced, 3 chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fine sea salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "divided",
+      "original_string": "2 teaspoons (or more) fine sea salt, divided",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "extra-virgin olive oil",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "6 tablespoons extra-virgin olive oil, divided, plus additional for drizzling",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 20.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 18.14,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "large onion",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "1 large onion, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large celery stalks",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "diced",
+      "original_string": "2 large celery stalks, diced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.91,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 30.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 24.55,
+          "amount": 4.55,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 518.0,
+          "amount": 18.0,
           "unit": "KCAL",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -73,35 +258,35 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 1.8,
+          "amount": 5.7,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1236.0,
+          "amount": 83.0,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.33,
+          "amount": 7.94,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 991.0,
+          "amount": 91.0,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 91.0,
+          "amount": 414.0,
           "unit": "IU",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -115,7 +300,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 100.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -129,7 +314,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 20.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -137,299 +322,445 @@
       ]
     },
     {
-      "name": "minced garlic",
+      "name": "medium carrot",
       "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "1 medium carrot, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large unpeeled yukon gold potato",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "scrubbed,  cut into 1/2-inch cubes",
+      "original_string": "1 large unpeeled Yukon Gold potato, scrubbed, cut into 1/2-inch cubes",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 2.42,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 8.06,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 16.9,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 100.0,
+          "amount": 145.0,
           "unit": "KCAL",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "cooked or canned cannellini beans",
-      "amount": 2.0,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "can whole peeled tomatoes",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "vegetable stock or water",
-      "amount": 4.0,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "fresh rosemary sprig",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "fresh thyme sprig",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "chopped kale or escarole",
-      "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "large",
-      "amount": 4.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "small red onion",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "freshly grated parmesan",
-      "amount": 1.5,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 20.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 30.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 400.0,
-          "unit": "KCAL",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 0.81,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 1.6,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1200.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 0.87,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 900.0,
+          "amount": 387.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 323.0,
           "unit": "IU",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 100.0,
+          "amount": 20.0,
           "unit": "MG",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 20.0,
+          "amount": 4.84,
           "unit": "G",
-          "serving_size": 5.0,
+          "serving_size": 124.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "small fennel bulb",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "trimmed,  quartered through core,  sliced crosswise",
+      "original_string": "1 small fennel bulb, trimmed, quartered through core, sliced crosswise",
+      "nutrition_infos": []
+    },
+    {
+      "name": "/4 tsp of dried thyme",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 large pinch of dried thyme",
+      "nutrition_infos": []
+    },
+    {
+      "name": "small bunch black kale",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "* cut crosswise into 1-inch ribbons",
+      "original_string": "1 small bunch black kale,* cut crosswise into 1-inch ribbons (about 6 cups)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "small bunch green chard",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 small bunch green chard (about 4 large leaves), center stem removed, cut crosswise into 1-inch-wide ribbons (about 6 cups)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thinly sliced savoy cabbage",
+      "amount": 4.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "4 cups thinly sliced savoy cabbage",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large plum tomatoes",
+      "amount": 5.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "5 large plum tomatoes, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "-inch square parmesan cheese rind",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 2-inch square Parmesan cheese rind",
+      "nutrition_infos": []
+    },
+    {
+      "name": "a 1/4 tsp of dried crushed red pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Pinch of dried crushed red pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cups",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 cups (or more) Light Vegetable Broth or good-quality canned vegetable broth (such as Swanson)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "-inch-thick slices country white bread",
+      "amount": 6.5,
+      "unit": "",
+      "comment": "coarsely torn with crusts",
+      "original_string": "6 1/2-inch-thick slices country white bread, coarsely torn with crusts",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.98,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.49,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 53.5,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 279.0,
+          "unit": "KCAL",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 9.3,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.3,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 47.0,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 6.74,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 93.0,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 558.0,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.698,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folate, total",
+          "amount": 251.0,
+          "unit": "UG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Folic acid",
+          "amount": 233.0,
+          "unit": "UG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 7.0,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 43.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 43.0,
           "serving_size_unit": "g"
         }
       ]
     }
   ],
   "instructions": [
-    "Put 2 tablespoons of the oil in a large pot over medium heat. When it’s hot, add onion, carrot, celery and garlic; sprinkle with salt and pepper and cook, stirring occasionally, until vegetables are soft, 5 to 10 minutes.\n",
-    "Heat the oven to 500 degrees. Drain the beans; if they’re canned, rinse them as well. Add them to the pot along with tomatoes and their juices and stock, rosemary and thyme. Bring to a boil, then reduce heat so the soup bubbles steadily; cover and cook, stirring once or twice to break up the tomatoes, until the flavors meld, 15 to 20 minutes.\n",
-    "Fish out and discard rosemary and thyme stems, if you like, and stir in kale. Taste and adjust seasoning. Lay bread slices on top of the stew so they cover the top and overlap as little as possible. Scatter red onion slices over the top, drizzle with the remaining 3 tablespoons oil and sprinkle with Parmesan.\n ",
-    "Put the pot in the oven and bake until the bread, onions and cheese are browned and crisp, 10 to 15 minutes. (If your pot fits under the broiler, you can also brown the top there.) Divide the soup and bread among 4 bowls and serve."
+    "Combine 8 cups water, beans, sage, and sliced garlic in large saucepan. Bring to boil; reduce heat to low, cover, and simmer until beans are tender, stirring occasionally and adding more water by 1/4 cupfuls to keep beans submerged, 2 to 2 1/2 hours, depending on age of beans. Add 1 teaspoon sea salt; simmer 10 minutes. Uncover and cool beans in liquid. DO AHEAD: Can be made 1 day ahead. Cover and chill in cooking liquid.",
+    "Heat 3 tablespoons oil in large pot over medium heat. Add onion; sprinkle with sea salt. Cook until onion is translucent, stirring often, about 5 minutes. Add chopped garlic; stir 2 minutes. Add celery, carrot, potato, fennel, and thyme; cook until vegetables are tender and begin to turn brown in spots, stirring often, 15 to 18 minutes. Add kale, chard, cabbage, tomatoes, Parmesan rind, 5 cups water, and 1 teaspoon sea salt. Bring to boil; reduce heat to medium-low, cover, and simmer until vegetables are very tender, about 1 1/2 hours. Add beans with cooking liquid and crushed red pepper. Add 2 cups broth. Season with salt and generous amount of pepper. DO AHEAD: Can be made 1 day ahead. Cool, cover, and chill. Rewarm before continuing.",
+    "Add bread to soup and simmer, stirring often to break up bread into smaller pieces and adding more broth by 1/2 cupfuls to thin, if desired. Season with sea salt and pepper.",
+    "Divide ribollita among bowls, drizzle with oil, and serve.",
+    "Also called Tuscan kale, dinosaur kale, lacinato kale, or cavolo nero_, black kale has long, narrow dark green leaves; available at some supermarkets and farmers' markets._"
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 20.91,
+      "amount": 10.31,
       "unit": "G",
-      "serving_size": 110.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 30.0,
+      "amount": 104.85,
       "unit": "G",
-      "serving_size": 110.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 24.55,
+      "amount": 85.75,
       "unit": "G",
-      "serving_size": 110.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 518.0,
+      "amount": 1284.0,
       "unit": "KCAL",
-      "serving_size": 110.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
+      "amount": 20.910000000000004,
+      "unit": "G",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40344.0,
+      "unit": "MG",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 20.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 110.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 18.14,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 1.8,
+      "amount": 5.7,
       "unit": "G",
       "serving_size": 110.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1236.0,
+      "amount": 83.0,
       "unit": "MG",
       "serving_size": 110.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.33,
-      "unit": "MG",
-      "serving_size": 110.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 991.0,
+      "amount": 7.94,
       "unit": "MG",
       "serving_size": 110.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 91.0,
+      "amount": 414.0,
       "unit": "IU",
       "serving_size": 110.0,
       "serving_size_unit": "g"
@@ -442,24 +773,52 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 100.0,
+      "name": "Potassium, K",
+      "amount": 93.0,
       "unit": "MG",
-      "serving_size": 110.0,
+      "serving_size": 43.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total trans",
+      "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
-      "unit": "G",
-      "serving_size": 110.0,
+      "unit": "IU",
+      "serving_size": 43.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 20.0,
+      "name": "Thiamin",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 43.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.698,
+      "unit": "MG",
+      "serving_size": 43.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folate, total",
+      "amount": 251.0,
+      "unit": "UG",
+      "serving_size": 43.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Folic acid",
+      "amount": 233.0,
+      "unit": "UG",
+      "serving_size": 43.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 7.0,
       "unit": "G",
-      "serving_size": 110.0,
+      "serving_size": 43.0,
       "serving_size_unit": "g"
     }
   ]

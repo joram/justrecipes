@@ -14,12 +14,12 @@
       "name": "neutral oil",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "such as safflower",
       "original_string": "1/4 cup neutral oil, such as safflower or canola",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 10.7,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -33,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 295.0,
+          "amount": 303.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1842.0,
+          "amount": 1902.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40.0,
+          "amount": 113.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -65,7 +65,7 @@
       "name": "garlic cloves",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
       "original_string": "5 garlic cloves, minced",
       "nutrition_infos": [
         {
@@ -106,16 +106,52 @@
       ]
     },
     {
-      "name": "ground cori",
+      "name": "ground coriander",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
       "original_string": "1 tablespoon ground coriander",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "ground sweet paprika",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "1 1/2 teaspoons ground sweet paprika",
@@ -158,7 +194,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 100.0,
+          "amount": 104.0,
           "unit": "G",
           "serving_size": 2.0,
           "serving_size_unit": "g"
@@ -172,7 +208,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1000.0,
+          "amount": 1133.0,
           "unit": "MG",
           "serving_size": 2.0,
           "serving_size_unit": "g"
@@ -200,7 +236,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 7.0,
           "unit": "MG",
           "serving_size": 2.0,
           "serving_size_unit": "g"
@@ -338,7 +374,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 0.0,
+          "amount": 233.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -456,12 +492,12 @@
       "name": "boneless",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "skinless chicken thighs,  cut into 1-inch cubes",
       "original_string": "2 pounds boneless, skinless chicken thighs, cut into 1-inch cubes",
       "nutrition_infos": []
     },
     {
-      "name": "Salt and black pepper",
+      "name": "salt and black pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -469,17 +505,123 @@
       "nutrition_infos": []
     },
     {
-      "name": "percent or whole-milk",
+      "name": "plain greek yogurt",
       "amount": 1.5,
-      "unit": "",
+      "unit": "cup",
       "comment": "",
       "original_string": "1/2 cup plain Greek yogurt (2 percent or whole-milk)",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 8.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 60.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 4.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 133.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 233.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 73.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 7.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "2 tablespoons mayonnaise",
+      "name": "cup",
       "amount": 2.5,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
       "original_string": "1/4 cup plus 2 tablespoons mayonnaise",
       "nutrition_infos": []
@@ -594,7 +736,7 @@
       ]
     },
     {
-      "name": "A big pinch of granulated garlic",
+      "name": "a big a 1/4 tsp of granulated garlic",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -602,7 +744,7 @@
       "nutrition_infos": []
     },
     {
-      "name": "A big pinch of granulated onion",
+      "name": "a big a 1/4 tsp of granulated onion",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -610,7 +752,7 @@
       "nutrition_infos": []
     },
     {
-      "name": "Salt and black pepper",
+      "name": "salt and black pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -618,7 +760,7 @@
       "nutrition_infos": []
     },
     {
-      "name": "To Serve:",
+      "name": "to serve:",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -629,7 +771,7 @@
       "name": "small head iceberg lettuce",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "shredded",
       "original_string": "1 small head iceberg lettuce, shredded",
       "nutrition_infos": []
     },
@@ -637,12 +779,12 @@
       "name": "medium tomatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "diced",
       "original_string": "2 medium tomatoes, diced",
       "nutrition_infos": []
     },
     {
-      "name": "Warm pita bread and hot sauce (optional)",
+      "name": "warm pita bread and hot sauce",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -660,7 +802,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 10.7,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -674,21 +816,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 295.0,
+      "amount": 303.0,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1842.0,
+      "amount": 1902.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 113.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -702,7 +844,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 100.0,
+      "amount": 104.0,
       "unit": "G",
       "serving_size": 2.0,
       "serving_size_unit": "g"
@@ -716,7 +858,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1000.0,
+      "amount": 1133.0,
       "unit": "MG",
       "serving_size": 2.0,
       "serving_size_unit": "g"
@@ -737,7 +879,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 7.0,
       "unit": "MG",
       "serving_size": 2.0,
       "serving_size_unit": "g"
@@ -751,7 +893,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 0.0,
+      "amount": 233.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

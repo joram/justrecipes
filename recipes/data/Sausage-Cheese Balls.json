@@ -14,7 +14,113 @@
       "unit": "cup",
       "comment": "",
       "original_string": "3  cups Bisquick™ Original Pancake & Baking Mix",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 73.14,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 70.76,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 81.85,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 814.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 10.35,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 2131.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.61,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 575.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 3639.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 4.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 215.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.02,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 43.42,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "uncooked bulk pork sausage",
@@ -33,28 +139,28 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 67.05,
+          "amount": 23.3,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 66.63,
+          "amount": 33.3,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 8.75,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1931.0,
+          "amount": 700.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -68,14 +174,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 472.0,
+          "amount": 117.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2723.0,
+          "amount": 667.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -89,7 +195,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 215.0,
+          "amount": 100.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -103,7 +209,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 42.08,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -140,14 +246,14 @@
         },
         {
           "name": "Energy",
-          "amount": 467.0,
+          "amount": 400.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 5.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -344,57 +450,85 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 67.05,
+      "amount": 73.14,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 66.63,
+      "amount": 70.76,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 8.75,
+      "amount": 81.85,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 814.0,
+      "unit": "KCAL",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 10.35,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 2.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1931.0,
+      "amount": 2131.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 3.61,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 472.0,
+      "amount": 575.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2723.0,
+      "amount": 3639.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 55.0,
-      "unit": "IU",
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 4.7,
+      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
@@ -407,37 +541,23 @@
     },
     {
       "name": "Fatty acids, total trans",
-      "amount": 0.0,
+      "amount": 0.02,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 42.08,
+      "amount": 43.42,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Energy",
-      "amount": 467.0,
-      "unit": "KCAL",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 5.0,
-      "unit": "G",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 5.0,
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 55.0,
+      "unit": "IU",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

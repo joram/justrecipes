@@ -11,12 +11,27 @@
   ],
   "ingredients": [
     {
-      "name": "to 6 slices",
+      "name": "thick-cut bacon",
       "amount": 4.0,
-      "unit": "",
+      "unit": "oz",
       "comment": "",
       "original_string": "4 ounces thick-cut bacon (4 to 6 slices)",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Total Sugars",
+          "amount": 6.45,
+          "unit": "G",
+          "serving_size": 24.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 24.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "ricotta cheese",
@@ -34,7 +49,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 40.0,
+          "amount": 133.3,
           "unit": "G",
           "serving_size": 62.0,
           "serving_size_unit": "g"
@@ -48,7 +63,7 @@
         },
         {
           "name": "Energy",
-          "amount": 780.0,
+          "amount": 1580.0,
           "unit": "KCAL",
           "serving_size": 62.0,
           "serving_size_unit": "g"
@@ -118,7 +133,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 23.32,
+          "amount": 36.620000000000005,
           "unit": "G",
           "serving_size": 62.0,
           "serving_size_unit": "g"
@@ -129,7 +144,7 @@
       "name": "garlic",
       "amount": 1.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "finely grated",
       "original_string": "1 clove garlic, finely grated or minced",
       "nutrition_infos": [
         {
@@ -235,8 +250,8 @@
       ]
     },
     {
-      "name": "- to 10-ounce ball of regular or whole-wheat pizza dough",
-      "amount": 5.0,
+      "name": "1",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
       "original_string": "1 (9- to 10-ounce) ball of regular or whole-wheat pizza dough, room temperature (<a href=\"https://cooking.nytimes.com/recipes/1016230-robertas-pizza-dough\">see recipe</a>)",
@@ -244,7 +259,7 @@
     },
     {
       "name": "shredded fresh mozzarella",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
       "original_string": "1 1/2 cups shredded fresh mozzarella",
@@ -377,7 +392,7 @@
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "cold",
       "original_string": "2 large eggs, cold",
       "nutrition_infos": [
         {
@@ -467,7 +482,7 @@
       ]
     },
     {
-      "name": "Flaky sea salt, for serving",
+      "name": "flaky sea salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -511,12 +526,83 @@
       ]
     },
     {
-      "name": "Extra-virgin olive oil, for serving",
+      "name": "extra-virgin olive oil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "original_string": "Extra-virgin olive oil, for serving",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -530,6 +616,20 @@
   "notes": [],
   "nutrition_infos": [
     {
+      "name": "Total Sugars",
+      "amount": 6.45,
+      "unit": "G",
+      "serving_size": 24.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 24.0,
+      "serving_size_unit": "g"
+    },
+    {
       "name": "Protein",
       "amount": 41.68,
       "unit": "G",
@@ -538,7 +638,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 40.0,
+      "amount": 133.3,
       "unit": "G",
       "serving_size": 62.0,
       "serving_size_unit": "g"
@@ -552,15 +652,8 @@
     },
     {
       "name": "Energy",
-      "amount": 780.0,
+      "amount": 1580.0,
       "unit": "KCAL",
-      "serving_size": 62.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 6.45,
-      "unit": "G",
       "serving_size": 62.0,
       "serving_size_unit": "g"
     },
@@ -614,15 +707,8 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 62.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fatty acids, total saturated",
-      "amount": 23.32,
+      "amount": 36.620000000000005,
       "unit": "G",
       "serving_size": 62.0,
       "serving_size_unit": "g"
@@ -639,6 +725,20 @@
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

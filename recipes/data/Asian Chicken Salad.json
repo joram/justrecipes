@@ -13,17 +13,70 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup soy sauce",
       "nutrition_infos": []
+    },
+    {
+      "name": "seasoned rice vinegar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons seasoned rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 5.92,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 40.9,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1134.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 30.23,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 3013.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vegetable oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.92,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -37,21 +90,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 14.2,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1034.0,
+          "amount": 857.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 3.53,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -65,7 +118,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 631.0,
+          "amount": 31.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -79,14 +132,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 829.0,
+          "amount": 229.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 21543.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -140,6 +193,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon Asian sesame oil",
       "nutrition_infos": []
     },
     {
@@ -147,6 +201,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon Dijon mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -190,20 +245,31 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon finely grated peeled fresh ginger",
       "nutrition_infos": []
     },
     {
-      "name": "coarsely shredded cooked chicken about 1 pound",
+      "name": "dried hot red pepper flakes",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon dried hot red pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarsely shredded cooked chicken",
       "amount": 4.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "4 cups coarsely shredded cooked chicken (about 1 pound)",
       "nutrition_infos": []
     },
     {
       "name": "napa cabbage",
       "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 1-inch pieces",
+      "original_string": "1/2 pound Napa cabbage, cut into 1-inch pieces (3 1/2 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -309,7 +375,8 @@
       "name": "snow peas",
       "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut diagonally into 1-inch pieces",
+      "original_string": "1/4 pound snow peas, cut diagonally into 1-inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -412,123 +479,19 @@
       ]
     },
     {
-      "name": "seedless cucumber usually plastic-wrapped",
+      "name": "seedless cucumber",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 600.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 600.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 20000.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3)",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "comment": "quartered lengthwise and cut into 1/2-inch pieces",
+      "original_string": "1 seedless cucumber (usually plastic-wrapped), quartered lengthwise and cut into 1/2-inch pieces",
+      "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "3 scallions, finely chopped",
       "nutrition_infos": []
     },
     {
@@ -536,6 +499,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped fresh cilantro",
       "nutrition_infos": []
     }
   ],
@@ -549,35 +513,42 @@
       "name": "Protein",
       "amount": 5.92,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 100.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 14.2,
+      "amount": 40.9,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1034.0,
+      "amount": 1134.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.53,
+      "amount": 30.23,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 3013.0,
+      "unit": "MG",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -589,7 +560,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 631.0,
+      "amount": 31.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -603,14 +574,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 829.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 21543.0,
+      "amount": 229.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -669,20 +633,6 @@
       "amount": 12.9,
       "unit": "MG",
       "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3)",
-      "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

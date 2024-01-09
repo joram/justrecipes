@@ -15,38 +15,43 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "links fully cooked chorizo sausage not dried",
+      "name": "links fully cooked chorizo sausage",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced into coins",
+      "original_string": "4 links fully cooked chorizo sausage (not dried, about 13 ounces), thinly sliced into coins",
       "nutrition_infos": []
     },
     {
       "name": "crimini mushrooms",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "8 ounces crimini mushrooms, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "large or 2 small bunches curly kale",
+      "name": "large",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large or 2 small bunches curly kale, ribs and stems removed, coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "marinara sauce",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups marinara sauce",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 4.55,
+          "amount": 14.23,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -60,28 +65,28 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 10.219999999999999,
+          "amount": 84.42,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 115.0,
+          "amount": 470.0,
           "unit": "KCAL",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 7.4,
+          "amount": 10.629999999999999,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.8,
+          "amount": 4.0,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -95,14 +100,14 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.86,
+          "amount": 4.34,
           "unit": "MG",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 376.0,
+          "amount": 39176.0,
           "unit": "MG",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -146,30 +151,170 @@
     },
     {
       "name": "dried oregano",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons dried oregano",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fresh pizza dough",
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 pounds fresh pizza dough",
       "nutrition_infos": []
     },
     {
-      "name": "all-purpose flour for rolling",
+      "name": "all-purpose flour",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "All-purpose flour (for rolling)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.68,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 74.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 355.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.48,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "shredded mozzarella about 4 cups",
+      "name": "shredded mozzarella",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound shredded mozzarella (about 4 cups)",
       "nutrition_infos": []
     },
     {
@@ -177,6 +322,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
@@ -184,6 +330,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -284,7 +431,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 4.55,
+      "amount": 14.23,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
@@ -298,28 +445,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 10.219999999999999,
+      "amount": 84.42,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 115.0,
+      "amount": 470.0,
       "unit": "KCAL",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 7.4,
+      "amount": 10.629999999999999,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.8,
+      "amount": 4.0,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
@@ -333,14 +480,14 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.86,
+      "amount": 4.34,
       "unit": "MG",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 376.0,
+      "amount": 39176.0,
       "unit": "MG",
       "serving_size": 125.0,
       "serving_size_unit": "g"
@@ -378,6 +525,27 @@
       "amount": 2.48,
       "unit": "G",
       "serving_size": 125.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {

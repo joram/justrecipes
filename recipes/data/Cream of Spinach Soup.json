@@ -12,21 +12,24 @@
       "name": "package frozen spinach soufflé",
       "amount": 5.5,
       "unit": "oz",
-      "comment": "",
+      "comment": "thawed",
+      "original_string": "1 10-ounce package frozen spinach soufflé, thawed",
       "nutrition_infos": []
     },
     {
       "name": "can cream of potato soup",
-      "amount": 3.5,
+      "amount": 5.75,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 10 1/2-ounce can cream of potato soup",
       "nutrition_infos": []
     },
     {
       "name": "milk",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -44,14 +47,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 12.09,
+          "amount": 78.79,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 267.0,
+          "amount": 600.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -65,7 +68,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 131.0,
+          "amount": 568.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -86,7 +89,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 1000.0,
+          "amount": 1190.0,
           "unit": "IU",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -119,6 +122,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup sour cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -189,15 +193,132 @@
       "name": "green onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "1 green onion, sliced",
       "nutrition_infos": []
     },
     {
-      "name": "a 1/4tsp of dried thyme",
+      "name": "fresh lemon juice",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "a 1/4 tsp of dried thyme",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Pinch of dried thyme",
       "nutrition_infos": []
+    },
+    {
+      "name": "pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 333.0,
+          "unit": "KCAL",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 33.3,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 437.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 28.9,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 190.0,
+          "unit": "IU",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 21.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -221,14 +342,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 12.09,
+      "amount": 78.79,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 267.0,
+      "amount": 600.0,
       "unit": "KCAL",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -242,7 +363,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 131.0,
+      "amount": 568.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -263,7 +384,7 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 1000.0,
+      "amount": 1190.0,
       "unit": "IU",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -294,6 +415,27 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 33.3,
+      "unit": "G",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 28.9,
+      "unit": "MG",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 21.0,
+      "unit": "MG",
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     }
   ]

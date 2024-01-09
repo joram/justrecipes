@@ -14,21 +14,75 @@
       "name": "fresh tomatillos",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "husked,  rinsed,  and quartered",
+      "original_string": "1 pound fresh tomatillos, husked, rinsed, and quartered",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh serrano chile",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "seeded and chopped",
+      "original_string": "1 fresh serrano chile, seeded and chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 37.47,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 142.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 6.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 848.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large white onion",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 4 wedges",
+      "original_string": "1/2 large white onion, cut into 4 wedges",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 garlic cloves, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -46,21 +100,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 30.8,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 142.0,
+          "amount": 100.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 48.0,
+          "amount": 40.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -72,6 +126,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -122,6 +177,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped cilantro",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -229,6 +285,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "fresh lime juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon fresh lime juice",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -240,35 +304,42 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 30.8,
+      "amount": 37.47,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 142.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 6.7,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 48.0,
+      "amount": 848.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -276,13 +347,6 @@
       "amount": 10.8,
       "unit": "G",
       "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

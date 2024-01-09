@@ -14,7 +14,8 @@
       "name": "chuck meat",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 1 1/2-inch cubes",
+      "original_string": "2 pounds chuck meat, cut into 1 1/2-inch cubes",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -60,7 +62,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 416.0,
+          "amount": 39216.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -100,6 +102,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
@@ -107,6 +110,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup red wine",
       "nutrition_infos": []
     },
     {
@@ -114,6 +118,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup beef stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -223,17 +228,77 @@
       ]
     },
     {
+      "name": "bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "fresh thyme",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 tablespoon fresh thyme, minced",
       "nutrition_infos": []
     },
     {
       "name": "potatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and cubed into 1 inch pieces",
+      "original_string": "2 potatoes, peeled and cubed into 1 inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -409,7 +474,8 @@
       "name": "stalks celery",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "2 stalks celery, sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -515,7 +581,8 @@
       "name": "carrots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and sliced",
+      "original_string": "2 carrots, peeled and sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -621,14 +688,16 @@
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped into cubes",
+      "original_string": "1 large onion, chopped into cubes",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -666,6 +735,65 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "can unsalted diced tomatoes",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 15 oz can unsalted diced tomatoes",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -715,7 +843,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 416.0,
+      "amount": 39216.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

@@ -11,7 +11,7 @@
   ],
   "ingredients": [
     {
-      "name": "bone-in chicken thighs or breasts",
+      "name": "bone-in chicken thighs",
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
@@ -19,7 +19,14 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 32.28,
+          "amount": 23.08,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 127.47,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -33,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 1465.0,
+          "amount": 1422.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -53,29 +60,57 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Total fat (NLEA)",
-          "amount": 15.7,
-          "unit": "G",
+          "name": "Calcium, Ca",
+          "amount": 154.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.89,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 188.0,
+          "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40396.0,
+          "amount": 79824.0,
           "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 4.0,
+          "unit": "IU",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 50136.0,
+          "amount": 50089.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
           "name": "Fatty acids, total saturated",
-          "amount": 104.41000000000001,
+          "amount": 103.56,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -86,7 +121,7 @@
       "name": "small white onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut in half",
       "original_string": "1 small white onion, cut in half",
       "nutrition_infos": []
     },
@@ -114,7 +149,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 112.27,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -153,7 +188,7 @@
       "name": "fresh tomatillos",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "husked,  rinsed and cut into quarters",
       "original_string": "1 pound fresh tomatillos, husked, rinsed and cut into quarters (use canned if you can't find fresh)",
       "nutrition_infos": []
     },
@@ -161,7 +196,7 @@
       "name": "small white onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and chopped",
       "original_string": "1 small white onion, peeled and chopped",
       "nutrition_infos": []
     },
@@ -169,12 +204,12 @@
       "name": "of garlic",
       "amount": 1.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "peeled and chopped",
       "original_string": "1 clove of garlic, peeled and chopped",
       "nutrition_infos": []
     },
     {
-      "name": "serrano chiles or more",
+      "name": "serrano chiles",
       "amount": 2.0,
       "unit": "",
       "comment": "",
@@ -228,23 +263,59 @@
       "name": "to 5 tender stems of fresh cilantro",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "with leaves,  roughly chopped",
       "original_string": "4 to 5 tender stems of fresh cilantro, with leaves, roughly chopped",
       "nutrition_infos": []
     },
     {
-      "name": "Salt to taste",
+      "name": "salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "original_string": "Salt to taste",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "neutral oil",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "like canola",
       "original_string": "1/2 cup neutral oil, like canola",
       "nutrition_infos": [
         {
@@ -342,7 +413,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 145.0,
+          "amount": 45.0,
           "unit": "MG",
           "serving_size": 44.0,
           "serving_size_unit": "g"
@@ -392,7 +463,7 @@
       ]
     },
     {
-      "name": "crumbled queso fresco or cotija cheese",
+      "name": "crumbled queso fresco",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
@@ -496,7 +567,7 @@
       "name": "medium-size white onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and chopped",
       "original_string": "1 medium-size white onion, peeled and chopped (optional)",
       "nutrition_infos": []
     }
@@ -512,7 +583,14 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 32.28,
+      "amount": 23.08,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 127.47,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -526,7 +604,7 @@
     },
     {
       "name": "Energy",
-      "amount": 1465.0,
+      "amount": 1422.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -546,52 +624,59 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Total fat (NLEA)",
-      "amount": 15.7,
-      "unit": "G",
+      "name": "Calcium, Ca",
+      "amount": 154.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 3.89,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 188.0,
+      "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40396.0,
+      "amount": 79824.0,
       "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 4.0,
+      "unit": "IU",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 50136.0,
+      "amount": 50089.0,
       "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 104.41000000000001,
+      "amount": 103.56,
       "unit": "G",
       "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total lipid (fat)",
-      "amount": 112.27,
-      "unit": "G",
-      "serving_size": 0.800000011920929,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 145.0,
-      "unit": "MG",
-      "serving_size": 44.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 3.27,
-      "unit": "MG",
-      "serving_size": 44.0,
       "serving_size_unit": "g"
     },
     {
@@ -606,20 +691,6 @@
       "amount": 2.7,
       "unit": "MG",
       "serving_size": 44.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

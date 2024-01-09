@@ -11,17 +11,19 @@
   ],
   "ingredients": [
     {
-      "name": "240 ml pilsner-style beer",
-      "amount": 1.0,
-      "unit": "cup",
+      "name": "pilsner-style beer",
+      "amount": 240.0,
+      "unit": "ml",
       "comment": "",
+      "original_string": "1 cup/240 ml pilsner-style beer",
       "nutrition_infos": []
     },
     {
-      "name": "455 g gruyère cheese",
+      "name": "lb/455 g gruyère cheese",
       "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
+      "unit": "",
+      "comment": "shredded",
+      "original_string": "1 lb/455 g Gruyère cheese, shredded",
       "nutrition_infos": []
     },
     {
@@ -29,13 +31,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tbsp cornstarch",
       "nutrition_infos": []
     },
     {
-      "name": "sweet bavarian mustard or store-bought dijon mustard",
+      "name": "sweet bavarian mustard",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 tsp Sweet Bavarian Mustard or store-bought Dijon mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -74,7 +78,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 39200.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -86,7 +90,130 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Dash of Worcestershire sauce",
       "nutrition_infos": []
+    },
+    {
+      "name": "a 1/4 tsp of paprika",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Pinch of paprika",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fine sea salt, such as fleur de sel",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fine sea salt, such as fleur de sel or sel gris",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39200.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -132,9 +259,72 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 39200.0,
       "unit": "MG",
       "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

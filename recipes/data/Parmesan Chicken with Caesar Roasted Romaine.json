@@ -12,67 +12,178 @@
       "name": "skinless",
       "amount": 5.5,
       "unit": "oz",
+      "comment": "boneless chicken breasts",
+      "original_string": "4 7-ounce skinless, boneless chicken breasts",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt, freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt, freshly ground pepper",
       "nutrition_infos": []
     },
     {
       "name": "grated parmesan",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "pecorino",
+      "original_string": "1/2 cup grated Parmesan, Pecorino, or Asiago cheese (about 1 1/2 ounces)",
       "nutrition_infos": []
     },
     {
-      "name": "panko japanese breadcrumbs",
+      "name": "panko",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/2 cup panko (Japanese breadcrumbs)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 42.18,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 133.54,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 101.60000000000001,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1742.0,
+          "unit": "KCAL",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 8.08,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 6.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 659.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.74,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 6714.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1790.0,
+          "unit": "IU",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 67.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 19.75,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "extra-virgin olive oil",
       "amount": 3.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "3 tablespoons extra-virgin olive oil, divided",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 27.88,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 99.97,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 23.53,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1085.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 5646.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 67.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -86,7 +197,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 14.63,
+          "amount": 13.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -112,13 +223,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons chopped flat-leaf parsley",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped,  divided",
+      "original_string": "2 garlic cloves, chopped, divided",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -161,7 +274,8 @@
       "name": "large hearts of romaine",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved lengthwise",
+      "original_string": "2 large hearts of romaine, halved lengthwise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -207,14 +321,14 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 302.0,
+          "amount": 35.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 5.74,
+          "amount": 0.94,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -274,7 +388,8 @@
       "name": "anchovy fillets packed in oil",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "drained,  chopped",
+      "original_string": "4 anchovy fillets packed in oil, drained, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -377,10 +492,118 @@
       ]
     },
     {
-      "name": "ingredient info: panko is available in the asian foods section of most supermarkets",
+      "name": "lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut into 8 wedges",
+      "original_string": "1 lemon, cut into 8 wedges",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 30.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 300.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 800.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ingredient info: panko is available in the asian foods section of most supermarkets and at asian markets.",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Ingredient info: Panko is available in the Asian foods section of most supermarkets and at Asian markets.",
       "nutrition_infos": []
     }
   ],
@@ -392,58 +615,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 27.88,
+      "amount": 42.18,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 99.97,
+      "amount": 133.54,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 23.53,
+      "amount": 101.60000000000001,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1085.0,
+      "amount": 1742.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 8.08,
+      "unit": "G",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 6.0,
+      "unit": "G",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 659.0,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 5.74,
+      "unit": "MG",
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 5646.0,
+      "amount": 6714.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1790.0,
+      "unit": "IU",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 4.0,
+      "unit": "MG",
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 67.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 14.63,
+      "amount": 19.75,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
@@ -458,34 +723,6 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 1.18,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 2.4,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 302.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 5.74,
-      "unit": "MG",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -507,20 +744,6 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

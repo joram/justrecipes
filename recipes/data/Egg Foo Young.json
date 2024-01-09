@@ -11,28 +11,73 @@
   ],
   "ingredients": [
     {
-      "name": "neutral oil such as vegetable or canola",
+      "name": "neutral oil",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 tablespoon neutral oil (such as vegetable or canola)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 29.6,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 196.6,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1989.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 493.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 99.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "minced garlic",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 29.6,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 103.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -46,14 +91,14 @@
         },
         {
           "name": "Energy",
-          "amount": 1122.0,
+          "amount": 100.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 493.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -67,7 +112,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -76,9 +121,10 @@
     },
     {
       "name": "low-sodium chicken broth",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups low-sodium chicken broth",
       "nutrition_infos": []
     },
     {
@@ -86,6 +132,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons oyster sauce",
       "nutrition_infos": []
     },
     {
@@ -93,6 +140,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon low-sodium soy sauce",
       "nutrition_infos": []
     },
     {
@@ -100,6 +148,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons cornstarch",
       "nutrition_infos": []
     },
     {
@@ -107,6 +156,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -174,10 +224,19 @@
       ]
     },
     {
-      "name": "neutral oil such as vegetable or canola",
+      "name": "kosher salt and black pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "neutral oil , for shallow frying",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Neutral oil (such as vegetable or canola), for shallow frying",
       "nutrition_infos": []
     },
     {
@@ -185,6 +244,7 @@
       "amount": 6.0,
       "unit": "",
       "comment": "",
+      "original_string": "6 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -276,7 +336,8 @@
       "name": "medium cleaned shrimp",
       "amount": 6.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "halved lengthwise and coarsely chopped",
+      "original_string": "6 ounces medium cleaned shrimp, halved lengthwise and coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -386,10 +447,11 @@
       ]
     },
     {
-      "name": "3 ounces mung bean sprouts or any combination of shredded cabbage",
-      "amount": 1.3333333333333333,
-      "unit": "cup",
+      "name": "cups",
+      "amount": 1.5,
+      "unit": "",
       "comment": "",
+      "original_string": "1 1/2 cups (3 ounces) mung bean sprouts (or any combination of shredded cabbage, shredded carrots, finely chopped onions and thinly sliced scallions)",
       "nutrition_infos": []
     },
     {
@@ -397,6 +459,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup finely chopped scallions, plus more for serving ",
       "nutrition_infos": []
     }
   ],
@@ -413,47 +476,47 @@
       "name": "Protein",
       "amount": 29.6,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 103.3,
+      "amount": 196.6,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 20.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1122.0,
+      "amount": 1989.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 493.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 99.7,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
-      "unit": "G",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 13.0,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"

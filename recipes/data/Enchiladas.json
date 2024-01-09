@@ -3,7 +3,7 @@
   "categories": [],
   "servings": 8,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/enchiladas-52902471",
+  "source_url": "https://www.epicurious.com/recipes/member/views/enchiladas-53003771",
   "image_urls": [
     "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
   ],
@@ -12,7 +12,8 @@
       "name": "corn",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "grapeseed",
+      "original_string": "1 cup corn, grapeseed, or other neutral oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,14 +31,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 96.11999999999999,
+          "amount": 146.11999999999998,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 475.0,
+          "amount": 975.0,
           "unit": "KCAL",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -58,14 +59,14 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 37.0,
+          "amount": 1037.0,
           "unit": "MG",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 4.78,
+          "amount": 58.78,
           "unit": "MG",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -125,7 +126,8 @@
       "name": "garlic cloves",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "5 garlic cloves, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -168,7 +170,8 @@
       "name": "onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and quartered",
+      "original_string": "1 onion, peeled and quartered",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -295,7 +298,8 @@
       "name": "tomatoes",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "cored and quartered",
+      "original_string": "4 tomatoes, cored and quartered",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -398,10 +402,127 @@
       ]
     },
     {
+      "name": "dried mild chiles",
+      "amount": 6.0,
+      "unit": "",
+      "comment": "like guajillo",
+      "original_string": "6 dried mild chiles, like guajillo or California, stemmed and seeded",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground cumin",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons ground cumin, plus more to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 54.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and black pepper to taste",
+      "nutrition_infos": []
+    },
+    {
       "name": "chicken stock",
       "amount": 1.0,
       "unit": "qt",
-      "comment": "",
+      "comment": "preferably homemade",
+      "original_string": "1 quart chicken stock, preferably homemade (page 160)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -511,10 +632,11 @@
       ]
     },
     {
-      "name": "about 2 cups cooked",
+      "name": "about 2 cups cooked, shredded chicken",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "About 2 cups cooked, shredded chicken",
       "nutrition_infos": []
     },
     {
@@ -522,13 +644,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Forty 5-inch corn tortillas",
       "nutrition_infos": []
     },
     {
-      "name": "queso chihuahua page 85",
+      "name": "queso chihuahua",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup queso Chihuahua (page 85), or shredded Cheddar or Monterey Jack cheese",
       "nutrition_infos": []
     }
   ],
@@ -556,14 +680,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 96.11999999999999,
+      "amount": 146.11999999999998,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 475.0,
+      "amount": 975.0,
       "unit": "KCAL",
       "serving_size": 125.0,
       "serving_size_unit": "g"
@@ -584,14 +708,14 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 37.0,
+      "amount": 1037.0,
       "unit": "MG",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 4.78,
+      "amount": 58.78,
       "unit": "MG",
       "serving_size": 125.0,
       "serving_size_unit": "g"

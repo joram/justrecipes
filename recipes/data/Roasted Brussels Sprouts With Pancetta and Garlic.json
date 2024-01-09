@@ -14,18 +14,19 @@
       "name": "brussels sprouts",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "trimmed and halved",
+      "original_string": "1 lb. brussels sprouts, trimmed and halved (quartered if large)",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.53,
+          "amount": 21.43,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 132.6,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 853.0,
+          "amount": 1282.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -74,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 18.0,
+          "amount": 1478.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -95,7 +96,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 89.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -109,7 +110,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 27.6,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -120,14 +121,87 @@
       "name": "oz. pancetta",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "comment": "minced",
+      "original_string": "2 oz. pancetta, minced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 17.9,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 39.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 429.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1460.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 89.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 garlic clove, minced",
       "nutrition_infos": []
     },
     {
@@ -135,6 +209,7 @@
       "amount": 6.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1½ tsp. extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -207,6 +282,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "kosher salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and freshly ground black pepper",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -218,14 +301,14 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.53,
+      "amount": 21.43,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 132.6,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -239,7 +322,7 @@
     },
     {
       "name": "Energy",
-      "amount": 853.0,
+      "amount": 1282.0,
       "unit": "KCAL",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -274,7 +357,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 18.0,
+      "amount": 1478.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -295,7 +378,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 89.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -309,7 +392,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 13.3,
+      "amount": 27.6,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"

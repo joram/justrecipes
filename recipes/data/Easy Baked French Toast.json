@@ -11,7 +11,7 @@
   ],
   "ingredients": [
     {
-      "name": "Unsalted butter, for greasing and serving",
+      "name": "unsalted butter, for greasing and serving",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -20,7 +20,7 @@
     },
     {
       "name": "whole milk",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
       "original_string": "1 1/4 cups whole milk",
@@ -41,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 130.42,
+          "amount": 217.12,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 207.0,
+          "amount": 540.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 5.0,
+          "amount": 91.7,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -69,7 +69,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1431.0,
+          "amount": 1531.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -83,14 +83,14 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 167.0,
+          "amount": 450.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 39494.0,
+          "amount": 39496.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -226,15 +226,15 @@
       ]
     },
     {
-      "name": "2 tablespoons granulated sugar",
+      "name": "cup",
       "amount": 2.5,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
       "original_string": "1/4 cup plus 2 tablespoons granulated sugar",
       "nutrition_infos": []
     },
     {
-      "name": "Salt",
+      "name": "salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -244,41 +244,41 @@
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "slices s",
+      "name": "slices sandwich bread",
       "amount": 4.0,
       "unit": "",
       "comment": "",
@@ -393,12 +393,69 @@
       ]
     },
     {
-      "name": "Maple syrup, for serving",
+      "name": "maple syrup",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "original_string": "Maple syrup, for serving",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 86.7,
+          "unit": "G",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 333.0,
+          "unit": "KCAL",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 86.7,
+          "unit": "G",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 283.0,
+          "unit": "MG",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 60.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -426,21 +483,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 130.42,
+      "amount": 217.12,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 207.0,
+      "amount": 540.0,
       "unit": "KCAL",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 5.0,
+      "amount": 91.7,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -454,7 +511,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1431.0,
+      "amount": 1531.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -468,14 +525,14 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 167.0,
+      "amount": 450.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 39494.0,
+      "amount": 39496.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"

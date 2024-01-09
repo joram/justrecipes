@@ -11,17 +11,35 @@
   ],
   "ingredients": [
     {
+      "name": "unsalted butter, for greasing",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Unsalted butter, for greasing",
+      "nutrition_infos": []
+    },
+    {
+      "name": "frozen diced",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound frozen diced or shredded hash browns ",
+      "nutrition_infos": []
+    },
+    {
       "name": "olive oil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "bulk breakfast sausage or italian sausage",
+      "name": "bulk breakfast sausage",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound bulk breakfast sausage or Italian sausage, casings removed (or 12 ounces smoked bacon, cooked; see Tip)",
       "nutrition_infos": []
     },
     {
@@ -29,17 +47,18 @@
       "amount": 12.0,
       "unit": "",
       "comment": "",
+      "original_string": "12 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
-          "amount": 5.42,
+          "amount": 172.42,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 41.7,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -88,7 +107,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 12694.0,
+          "amount": 51494.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -121,6 +140,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -230,10 +250,62 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "italian seasoning",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon Italian seasoning",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -301,17 +373,126 @@
       ]
     },
     {
-      "name": "8 ounces shredded sharp cheddar",
-      "amount": 2.0,
-      "unit": "cup",
+      "name": "black pepper",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 167.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 41.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "shredded sharp cheddar",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "2 cups/8 ounces shredded sharp Cheddar ",
       "nutrition_infos": []
     },
     {
-      "name": "chopped fresh scallions or chives",
+      "name": "chopped fresh scallions",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped fresh scallions or chives (optional), for serving",
       "nutrition_infos": []
     }
   ],
@@ -326,14 +507,14 @@
   "nutrition_infos": [
     {
       "name": "Carbohydrate, by difference",
-      "amount": 5.42,
+      "amount": 172.42,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 41.7,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -382,7 +563,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 12694.0,
+      "amount": 51494.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -427,6 +608,13 @@
       "amount": 42.0,
       "unit": "IU",
       "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     }
   ]

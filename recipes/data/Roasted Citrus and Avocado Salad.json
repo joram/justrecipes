@@ -11,17 +11,99 @@
   ],
   "ingredients": [
     {
-      "name": "blood or valencia orange",
+      "name": "blood",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 blood or Valencia orange, sliced 1/8\" thick, seeds removed",
       "nutrition_infos": []
+    },
+    {
+      "name": "meyer",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 Meyer or regular lemon, sliced 1/8\" thick, seeds removed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 70.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 267.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 63.3,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "olive oil",
       "amount": 4.0,
       "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "4 tablespoons olive oil, divided",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt, freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt, freshly ground pepper",
       "nutrition_infos": []
     },
     {
@@ -29,27 +111,47 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "",
       "nutrition_infos": []
     },
     {
       "name": "small red onion",
       "amount": 2.5,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1/4 small red onion, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "watercress or arugula",
+      "name": "fresh meyer",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons fresh Meyer or regular lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "watercress",
       "amount": 1.0,
       "unit": "bunch",
       "comment": "",
+      "original_string": "1 bunch watercress or arugula, thick stems trimmed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh mint leaves",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup fresh mint leaves",
       "nutrition_infos": []
     },
     {
       "name": "avocado",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into wedges",
+      "original_string": "1 avocado, cut into wedges",
       "nutrition_infos": []
     }
   ],
@@ -60,5 +162,69 @@
     "Add avocado and very gently toss until lightly dressed (you don't want to crush the avocado)."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 70.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 267.0,
+      "unit": "KCAL",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 63.3,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

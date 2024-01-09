@@ -19,19 +19,11 @@
       "nutrition_infos": []
     },
     {
-      "name": "minced garlic about 2 large cloves",
+      "name": "minced garlic",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
       "original_string": "1 tablespoon minced garlic (about 2 large cloves)",
-      "nutrition_infos": []
-    },
-    {
-      "name": "dijon mustard",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "1 tablespoon Dijon mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -49,21 +41,79 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 173.67,
+          "amount": 193.67,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 400.0,
+          "amount": 500.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40700.0,
+          "amount": 40500.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dijon mustard",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon Dijon mustard",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 100.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 900.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -74,13 +124,13 @@
       "name": "dried thyme",
       "amount": 2.0,
       "unit": "tsp",
-      "comment": "",
+      "comment": "rosemary",
       "original_string": "2 teaspoons dried thyme, rosemary or oregano (or 1 tablespoon fresh), or 2 teaspoons Italian seasoning",
       "nutrition_infos": []
     },
     {
-      "name": "kosher salt such as diamond crystal",
-      "amount": 1.3333333333333333,
+      "name": "kosher salt",
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "1 1/2 teaspoons kosher salt (such as Diamond Crystal), plus more for serving",
@@ -89,35 +139,42 @@
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 39000.0,
+          "amount": 38800.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         }
       ]
@@ -222,7 +279,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 3.33,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -340,12 +397,12 @@
       "name": "to 8 skin-on",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "bone-in chicken thighs ,  patted dry",
       "original_string": "6 to 8 skin-on, bone-in chicken thighs (about 3 pounds), patted dry",
       "nutrition_infos": []
     },
     {
-      "name": "Chopped fresh parsley, for serving (optional)",
+      "name": "chopped fresh parsley",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -377,23 +434,44 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 173.67,
+      "amount": 193.67,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 400.0,
+      "amount": 500.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40700.0,
+      "amount": 40500.0,
       "unit": "MG",
       "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 3.33,
+      "unit": "G",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -435,27 +513,6 @@
       "name": "Vitamin C, total ascorbic acid",
       "amount": 4.0,
       "unit": "MG",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 3.33,
-      "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     }

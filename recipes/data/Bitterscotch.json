@@ -12,7 +12,7 @@
   "ingredients": [
     {
       "name": "scotch",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "oz",
       "comment": "",
       "original_string": "1 1/2 ounces Scotch",
@@ -43,7 +43,7 @@
       "nutrition_infos": []
     },
     {
-      "name": "Ice",
+      "name": "ice",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -121,7 +121,7 @@
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
+          "amount": 600.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -143,12 +143,55 @@
       ]
     },
     {
-      "name": "Lemon peel, for serving",
+      "name": "lemon peel",
       "amount": 1.0,
       "unit": "",
       "comment": "",
       "original_string": "Lemon peel, for serving",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 600.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -228,7 +271,7 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "amount": 600.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"

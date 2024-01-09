@@ -11,58 +11,50 @@
   ],
   "ingredients": [
     {
-      "name": "113 grams semisweet chocolate",
-      "amount": 4.0,
-      "unit": "oz",
-      "comment": "",
-      "original_string": "4 ounces/113 grams semisweet chocolate, finely chopped (¾ cup)",
-      "nutrition_infos": []
-    },
-    {
-      "name": "unsweetened cocoa powder",
-      "amount": 42.0,
+      "name": "semisweet chocolate",
+      "amount": 113.0,
       "unit": "g",
-      "comment": "",
-      "original_string": "1/2 cup/42 grams unsweetened cocoa powder, preferably Dutch-processed",
+      "comment": "finely chopped",
+      "original_string": "4 ounces/113 grams semisweet chocolate, finely chopped (¾ cup)",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 41.68,
+          "amount": 46.68,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 98.6,
+          "amount": 138.6,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 334.2,
+          "amount": 384.2,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2159.0,
+          "amount": 2709.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 203.23,
+          "amount": 243.23,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 43.2,
+          "amount": 48.2,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -76,7 +68,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 25.48,
+          "amount": 27.28,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -90,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 39140.0,
+          "amount": 38940.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -99,6 +91,13 @@
           "name": "Vitamin D (D2 + D3)",
           "amount": 0.0,
           "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 140.0,
+          "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
@@ -118,7 +117,114 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 53.0,
+          "amount": 88.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsweetened cocoa powder",
+      "amount": 42.0,
+      "unit": "g",
+      "comment": "preferably dutch-processed",
+      "original_string": "1/2 cup/42 grams unsweetened cocoa powder, preferably Dutch-processed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 60.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 200.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 40.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 120.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 20.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1520.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -201,7 +307,7 @@
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "at room temperature",
       "original_string": "2 large eggs, at room temperature",
       "nutrition_infos": [
         {
@@ -428,7 +534,7 @@
       ]
     },
     {
-      "name": "kosher salt diamond crystal",
+      "name": "kosher salt",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
@@ -438,42 +544,49 @@
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 39000.0,
+          "amount": 38800.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         }
       ]
     },
     {
       "name": "peppermint extract",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "1 1/2 teaspoons peppermint extract",
@@ -573,7 +686,7 @@
       ]
     },
     {
-      "name": "crushed peppermint c",
+      "name": "crushed peppermint candy",
       "amount": 41.0,
       "unit": "g",
       "comment": "",
@@ -594,42 +707,42 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 41.68,
+      "amount": 46.68,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 98.6,
+      "amount": 138.6,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 334.2,
+      "amount": 384.2,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2159.0,
+      "amount": 2709.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 203.23,
+      "amount": 243.23,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 43.2,
+      "amount": 48.2,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -643,7 +756,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 25.48,
+      "amount": 27.28,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -657,7 +770,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 39140.0,
+      "amount": 38940.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -666,6 +779,13 @@
       "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
       "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 140.0,
+      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
@@ -685,7 +805,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 53.0,
+      "amount": 88.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -695,13 +815,6 @@
       "amount": 2860.0,
       "unit": "IU",
       "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 100.0,
-      "unit": "G",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

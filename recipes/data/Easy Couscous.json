@@ -11,23 +11,94 @@
   ],
   "ingredients": [
     {
-      "name": "vegetable or chicken stock",
-      "amount": 1.3333333333333333,
+      "name": "vegetable",
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
       "original_string": "1 1/2 cups vegetable or chicken stock, or water",
       "nutrition_infos": []
     },
     {
-      "name": "extra-virgin olive oil or unsalted butter",
+      "name": "extra-virgin olive oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
       "original_string": "2 tablespoons extra-virgin olive oil or unsalted butter",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 77.8,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1178.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "Salt, for seasoning",
+      "name": "salt, for seasoning",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -36,7 +107,7 @@
     },
     {
       "name": "couscous",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
       "original_string": "1 1/2 cups couscous",
@@ -142,7 +213,7 @@
       ]
     },
     {
-      "name": "finely chopped parsley",
+      "name": "finely chopped parsley and/or 1/2 teaspoon lemon zest",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
@@ -160,28 +231,70 @@
       "name": "Protein",
       "amount": 13.3,
       "unit": "G",
-      "serving_size": 45.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 93.3,
       "unit": "G",
-      "serving_size": 45.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 77.8,
       "unit": "G",
-      "serving_size": 45.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 378.0,
+      "amount": 1178.0,
       "unit": "KCAL",
-      "serving_size": 45.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 66.7,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -220,37 +333,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 45.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 45.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 45.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 45.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 45.0,
       "serving_size_unit": "g"
     }

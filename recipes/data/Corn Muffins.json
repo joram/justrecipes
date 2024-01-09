@@ -3,16 +3,89 @@
   "categories": [],
   "servings": 1,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/corn-muffins-52874821",
+  "source_url": "https://www.epicurious.com/recipes/member/views/corn-muffins-53102971",
   "image_urls": [
     "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
   ],
   "ingredients": [
     {
+      "name": "cooking spray",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooking spray",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 20.58,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.37,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 409.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "all-purpose flour",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -65,7 +138,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10800.0,
+          "amount": 10996.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -101,10 +174,11 @@
       ]
     },
     {
-      "name": "yellow or white cornmeal",
+      "name": "yellow",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup yellow or white cornmeal",
       "nutrition_infos": []
     },
     {
@@ -112,6 +186,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -162,27 +237,81 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup fat-free milk",
       "nutrition_infos": []
     },
     {
-      "name": "egg substitute or 1 large egg",
+      "name": "egg substitute",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4 cup egg substitute or 1 large egg",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.9,
+          "unit": "G",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.17,
+          "unit": "G",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 54.0,
+          "unit": "KCAL",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 163.0,
+          "unit": "MG",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 196.0,
+          "unit": "MG",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 46.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "canola or corn oil",
+      "name": "canola",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon canola or corn oil",
       "nutrition_infos": []
     },
     {
       "name": "light tub margarine",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "melted",
+      "original_string": "1 tablespoon light tub margarine, melted",
       "nutrition_infos": []
     }
   ],
@@ -230,30 +359,65 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 9.68,
+      "amount": 20.58,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 74.2,
+      "amount": 76.37,
       "unit": "G",
-      "serving_size": 31.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 355.0,
+      "amount": 409.0,
       "unit": "KCAL",
-      "serving_size": 31.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -279,7 +443,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10800.0,
+      "amount": 10996.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -306,17 +470,17 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 31.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Calcium, Ca",
       "amount": 3330.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 163.0,
+      "unit": "MG",
+      "serving_size": 46.0,
       "serving_size_unit": "g"
     }
   ]

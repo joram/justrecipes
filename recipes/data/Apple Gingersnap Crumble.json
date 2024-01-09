@@ -19,35 +19,35 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 9.68,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 78.6,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 564.3,
+          "amount": 638.5,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1177.0,
+          "amount": 2246.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 310.4,
+          "amount": 313.63,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -75,7 +75,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 50.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -148,9 +148,9 @@
       ]
     },
     {
-      "name": "20 grams cornstarch",
-      "amount": 3.0,
-      "unit": "tbsp",
+      "name": "cornstarch",
+      "amount": 20.0,
+      "unit": "g",
       "comment": "",
       "original_string": "3 tablespoons/20 grams cornstarch",
       "nutrition_infos": []
@@ -199,7 +199,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.2,
+          "amount": 6.4,
           "unit": "G",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -213,7 +213,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 25.23,
+          "amount": 28.71,
           "unit": "MG",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -241,7 +241,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 214.0,
           "unit": "MG",
           "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
@@ -280,9 +280,9 @@
     },
     {
       "name": "apples",
-      "amount": 4.0,
+      "amount": 2.75,
       "unit": "kg",
-      "comment": "",
+      "comment": "peeled and cut into 1/4-inch slices",
       "original_string": "6 pounds/2 3/4 kilograms apples, peeled and cut into 1/4-inch slices (about 11 large)",
       "nutrition_infos": [
         {
@@ -357,7 +357,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 65.0,
+          "amount": 2925.0,
           "unit": "IU",
           "serving_size": 154.0,
           "serving_size_unit": "g"
@@ -393,36 +393,178 @@
       ]
     },
     {
-      "name": "80 grams fresh or frozen cranberries",
-      "amount": 1.0,
-      "unit": "cup",
+      "name": "fresh",
+      "amount": 80.0,
+      "unit": "g",
       "comment": "",
       "original_string": "1 cup/80 grams fresh or frozen cranberries",
       "nutrition_infos": []
     },
     {
-      "name": "30 milliliters lemon juice",
-      "amount": 2.0,
-      "unit": "tbsp",
+      "name": "lemon juice",
+      "amount": 30.0,
+      "unit": "ml",
       "comment": "",
       "original_string": "2 tablespoons/30 milliliters lemon juice",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "9 grams cold unsalted butter",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
+      "name": "cold unsalted butter",
+      "amount": 29.0,
+      "unit": "g",
+      "comment": "cubed",
       "original_string": "2 tablespoons/29 grams cold unsalted butter, cubed",
       "nutrition_infos": []
     },
     {
-      "name": "50 grams all-purpose flour",
-      "amount": 2.0,
-      "unit": "",
+      "name": "all-purpose flour",
+      "amount": 250.0,
+      "unit": "g",
       "comment": "",
       "original_string": "2 cups/250 grams all-purpose flour",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.68,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 74.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 355.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.48,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dark brown sugar",
@@ -498,7 +640,7 @@
     },
     {
       "name": "ground ginger",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "2 1/2 teaspoons ground ginger",
@@ -767,12 +909,76 @@
       ]
     },
     {
-      "name": "142 grams unsalted butter",
-      "amount": 10.0,
-      "unit": "tbsp",
-      "comment": "",
+      "name": "unsalted butter",
+      "amount": 142.0,
+      "unit": "g",
+      "comment": "melted",
       "original_string": "10 tablespoons/142 grams unsalted butter, melted",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "0 milliliters molasses",
@@ -783,16 +989,16 @@
       "nutrition_infos": []
     },
     {
-      "name": "473 milliliters cold heavy cream",
-      "amount": 2.0,
-      "unit": "cup",
+      "name": "cold heavy cream",
+      "amount": 473.0,
+      "unit": "ml",
       "comment": "",
       "original_string": "2 cups/473 milliliters cold heavy cream",
       "nutrition_infos": []
     },
     {
-      "name": "5 grams confectioners’ sugar",
-      "amount": 1.0,
+      "name": "to 15 grams confectioners’ sugar",
+      "amount": 7.0,
       "unit": "",
       "comment": "",
       "original_string": "1 to 2 tablespoons/7 to 15 grams confectioners’ sugar",
@@ -820,35 +1026,35 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 9.68,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 564.3,
+      "amount": 638.5,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1177.0,
+      "amount": 2246.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 310.4,
+      "amount": 313.63,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -876,14 +1082,14 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 50.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.2,
+      "amount": 6.4,
       "unit": "G",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
@@ -897,7 +1103,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 25.23,
+      "amount": 28.71,
       "unit": "MG",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
@@ -918,14 +1124,14 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
       "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 65.0,
+      "amount": 2925.0,
       "unit": "IU",
       "serving_size": 154.0,
       "serving_size_unit": "g"
@@ -935,6 +1141,27 @@
       "amount": 3.1,
       "unit": "MG",
       "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     }
   ]

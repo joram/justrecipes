@@ -9,17 +9,97 @@
   ],
   "ingredients": [
     {
-      "name": "guanciale unsmoked cured hog jowl or pancetta",
+      "name": "guanciale",
       "amount": 5.0,
       "unit": "oz",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "5 oz guanciale (unsmoked cured hog jowl) or pancetta",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 99.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 140.29,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.77,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1926.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 43074.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 637.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 67.19999999999999,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "medium onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 medium onion, finely chopped",
       "nutrition_infos": []
     },
     {
@@ -27,6 +107,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup dry white wine",
       "nutrition_infos": []
     },
     {
@@ -34,31 +115,32 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 lb spaghetti",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 88.80000000000001,
+          "amount": 12.5,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 75.99000000000001,
+          "amount": 1.79,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 76.77,
+          "amount": 73.2,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1319.0,
+          "amount": 357.0,
           "unit": "KCAL",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -93,7 +175,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2564.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -135,7 +217,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 548.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -149,7 +231,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 45.8,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -175,6 +257,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -264,9 +347,10 @@
     },
     {
       "name": "parmigiano-reggiano",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "oz",
-      "comment": "",
+      "comment": "finely grated",
+      "original_string": "1 1/2 oz Parmigiano-Reggiano, finely grated (3/4 cup)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -379,7 +463,8 @@
       "name": "pecorino romano",
       "amount": 3.5,
       "unit": "oz",
-      "comment": "",
+      "comment": "finely grated",
+      "original_string": "3/4 oz Pecorino Romano, finely grated (1/3 cup)",
       "nutrition_infos": [
         {
           "name": "Fiber, total dietary",
@@ -487,6 +572,94 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "coarsely ground black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon coarsely ground black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -499,44 +672,79 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 88.80000000000001,
+      "amount": 99.5,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 75.99000000000001,
+      "amount": 140.29,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 76.77,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1319.0,
+      "amount": 1926.0,
       "unit": "KCAL",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 3.57,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
       "amount": 3.6,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 43074.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 637.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 67.19999999999999,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -549,13 +757,6 @@
     {
       "name": "Iron, Fe",
       "amount": 5.21,
-      "unit": "MG",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 2564.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -596,27 +797,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 548.0,
-      "unit": "MG",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 45.8,
-      "unit": "G",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fatty acids, total monounsaturated",
       "amount": 0.0,
       "unit": "G",
@@ -641,13 +821,6 @@
       "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
       "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

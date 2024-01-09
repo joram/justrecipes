@@ -11,12 +11,76 @@
   ],
   "ingredients": [
     {
-      "name": "tablespoons unsalted butter",
+      "name": "unsalted butter",
       "amount": 2.0,
-      "unit": "",
+      "unit": "tbsp",
       "comment": "",
       "original_string": "2 tablespoons unsalted butter, plus more for greasing the pan",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 66.9,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 178.05,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 62.52,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2152.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 42261.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 5117.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 447.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 117.08,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fine plain dry bread crumbs",
@@ -43,28 +107,28 @@
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 66.9,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 99.45,
+          "amount": 30.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 62.52,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1438.0,
+          "amount": 400.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -99,14 +163,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 42261.0,
+          "amount": 2400.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 2257.0,
+          "amount": 0.0,
           "unit": "IU",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -120,7 +184,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 233.0,
+          "amount": 100.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -134,7 +198,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 67.08,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -564,28 +628,63 @@
       "name": "Protein",
       "amount": 66.9,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 99.45,
+      "amount": 178.05,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 62.52,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1438.0,
+      "amount": 2152.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 42261.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 5117.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 447.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 117.08,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -617,44 +716,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 42261.0,
-      "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 2257.0,
-      "unit": "IU",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 4.3,
       "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 233.0,
-      "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 67.08,
-      "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },

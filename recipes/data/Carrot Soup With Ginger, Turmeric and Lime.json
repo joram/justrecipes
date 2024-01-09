@@ -14,7 +14,7 @@
       "name": "coconut oil",
       "amount": 3.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "vegetable oil",
       "original_string": "3 tablespoons coconut oil, vegetable oil or ghee",
       "nutrition_infos": []
     },
@@ -22,7 +22,7 @@
       "name": "medium onions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
       "original_string": "2 medium onions, thinly sliced (about 3 cups)",
       "nutrition_infos": []
     },
@@ -57,7 +57,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 145.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -93,20 +93,155 @@
       ]
     },
     {
-      "name": "tablespoon turmeric",
+      "name": "turmeric",
       "amount": 1.0,
-      "unit": "",
+      "unit": "tbsp",
       "comment": "",
       "original_string": "1 tablespoon turmeric",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 31.2,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 45.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 28600.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "toasted",
+      "name": "toasted and ground coriander",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
       "original_string": "1/2 teaspoon toasted and ground coriander",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cayenne",
@@ -216,7 +351,7 @@
       ]
     },
     {
-      "name": "Salt",
+      "name": "salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -226,35 +361,35 @@
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
@@ -263,7 +398,7 @@
       "name": "young carrots",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled and cut into 1-inch pieces",
       "original_string": "2 pounds young carrots, peeled and cut into 1-inch pieces",
       "nutrition_infos": []
     },
@@ -271,7 +406,7 @@
       "name": "small daikon radish",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled,  halved lengthwise and sliced 1/4 inch thick",
       "original_string": "1 small daikon radish, peeled, halved lengthwise and sliced 1/4 inch thick (about 2 cups)",
       "nutrition_infos": []
     },
@@ -394,12 +529,12 @@
       "name": "serrano pepper",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
       "original_string": "1 serrano pepper, finely chopped",
       "nutrition_infos": []
     },
     {
-      "name": "Cilantro leaves, for garnish (optional)",
+      "name": "cilantro leaves, for garnish",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -407,7 +542,7 @@
       "nutrition_infos": []
     },
     {
-      "name": "Lime wedges, for serving",
+      "name": "lime wedges",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -440,7 +575,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 145.0,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -474,52 +609,52 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fiber, total dietary",
+      "name": "Total Sugars",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 31.2,
+      "unit": "G",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 45.0,
       "unit": "MG",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
       "amount": 28600.0,
       "unit": "IU",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 0.7,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 0.7,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]
