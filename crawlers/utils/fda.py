@@ -21,12 +21,16 @@ async def _get_cached_fda_info_for_ingredient(ingredient: Ingredient, page=1) ->
     if "/" in ingredient.name:
         return None
 
+    attempts = 0
     content = None
     while True:
+        if attempts >= 3:
+            return None
         try:
             content = await get_cached_request(url, cache_url)
             break
         except Exception as e:
+            attempts += 1
             print("Error getting cached request for url: ", url)
             time.sleep(1)
             continue

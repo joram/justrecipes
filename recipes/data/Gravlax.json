@@ -1,941 +1,174 @@
 {
   "name": "Gravlax",
   "categories": [],
-  "servings": 7,
+  "servings": 12,
   "minutes": null,
-  "source_url": "https://cooking.nytimes.com/recipes/1019005-gravlax",
+  "source_url": "https://www.epicurious.com/recipes/member/views/gravlax-58390501",
   "image_urls": [
-    "https://static01.nyt.com/images/2017/10/26/dining/26cooking-gravlax/26cooking-gravlax-square640.jpg",
-    "https://static01.nyt.com/images/2017/10/26/dining/26cooking-gravlax/26cooking-gravlax-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2017/10/26/dining/26cooking-gravlax/26cooking-gravlax-superJumbo.jpg"
+    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
   ],
   "ingredients": [
     {
-      "name": "fresh dill",
-      "amount": 2.0,
-      "unit": "bunch",
-      "comment": "rinsed and dried",
-      "original_string": "2 bunches fresh dill, rinsed and dried",
-      "nutrition_infos": []
-    },
-    {
-      "name": "mint",
+      "name": "salt",
       "amount": 1.0,
-      "unit": "bunch",
-      "comment": "rinsed and dried",
-      "original_string": "1 bunch mint, rinsed and dried",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 32.8,
-          "unit": "G",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 85.67999999999999,
-          "unit": "G",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 283.7,
-          "unit": "G",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 2146.0,
-          "unit": "KCAL",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 276.14,
-          "unit": "G",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 40310.0,
-          "unit": "MG",
-          "serving_size": 1.899999976158142,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "basil",
-      "amount": 1.0,
-      "unit": "bunch",
-      "comment": "rinsed and dried",
-      "original_string": "1 bunch basil, rinsed and dried",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 0.30000001192092896,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 0.30000001192092896,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 0.30000001192092896,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 0.30000001192092896,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 0.30000001192092896,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "sugar",
-      "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "original_string": "1/2 cup sugar",
+      "original_string": "1 cup salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 4.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 4.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 100.0,
           "unit": "G",
-          "serving_size": 4.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 100.0,
-          "unit": "G",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "kosher",
-      "amount": 2.0,
-      "unit": "cup",
-      "comment": "",
-      "original_string": "1/3 cup kosher or coarse salt",
-      "nutrition_infos": []
-    },
-    {
-      "name": "salmon fillet",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "center cut,  with skin,  rinsed and patted dry",
-      "original_string": "1 salmon fillet (1 1/4 to 1 1/2 pounds), center cut, with skin, rinsed and patted dry",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 22.1,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 7.08,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 150.0,
-          "unit": "KCAL",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 165.0,
-          "unit": "MG",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.64,
-          "unit": "MG",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 62.0,
-          "unit": "MG",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 177.0,
-          "unit": "IU",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 109.0,
-          "unit": "MG",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 11.58,
-          "unit": "G",
-          "serving_size": 113.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "plain greek yogurt",
-      "amount": 1.5,
-      "unit": "cup",
-      "comment": "",
-      "original_string": "1/2 cup plain Greek yogurt",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 10.7,
-          "unit": "G",
           "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 8.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 60.0,
-          "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 4.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 133.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 340.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 73.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3)",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 7.1,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 7.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "mayonnaise",
-      "amount": 3.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "3 tablespoons mayonnaise",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 78.6,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 714.0,
-          "unit": "KCAL",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 14.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 7.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 500.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 36.0,
-          "unit": "MG",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 10.7,
-          "unit": "G",
-          "serving_size": 14.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "white balsamic vinegar",
-      "amount": 2.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "2 tablespoons white balsamic vinegar",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 60.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 267.0,
-          "unit": "KCAL",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 60.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "freshly squeezed lemon juice",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "1 tablespoon freshly squeezed lemon juice",
-      "nutrition_infos": []
-    },
-    {
-      "name": "minced dill fronds",
-      "amount": 5.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "5 tablespoons minced dill fronds",
-      "nutrition_infos": []
-    },
-    {
-      "name": "fine sea salt",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "original_string": "Fine sea salt, to taste",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.399999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.399999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.399999976158142,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 1.399999976158142,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "whole-grain crackers",
-      "amount": 1.0,
-      "unit": "",
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "cup",
       "comment": "",
-      "original_string": "Whole-grain crackers or thin-sliced dark bread",
-      "nutrition_infos": []
-    },
-    {
-      "name": "pickled onions",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "original_string": "Pickled onions, optional",
+      "original_string": "2 cups sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 10.7,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 54.0,
+          "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 7.14,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 18.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
           "amount": 100.0,
-          "unit": "MG",
-          "serving_size": 1.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 375.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 7.1,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "lemon wedges",
+      "name": "of dill",
+      "amount": 1.0,
+      "unit": "bunch",
+      "comment": "stems and all,  chopped",
+      "original_string": "1 bunch of dill, stems and all, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "one 2- to 3 pound salmon fillet, pinbones removed",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "original_string": "Lemon wedges",
+      "original_string": "One 2- to 3-pound salmon fillet, pinbones removed",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Two to three days ahead of time, mix the herbs together, and use half of them to cover the bottom of an 8- or 9-inch square nonreactive pan. Mix the sugar and salt together. Using the point of a small knife, poke some holes in the skin side of the salmon, then rub the sugar-salt blend over both sides of the fish. Place it in the pan, and cover with the remaining herbs. Press a piece of plastic wrap against the fish (let it hang over the sides of the pan), top with a board or plate and then pile on some heavy cans to put even pressure on the salmon. Refrigerate for 2-3 days, turning the fish a couple of times a day.",
-    "Mix all the ingredients together, cover and refrigerate for up to 2 days. Stir before using.",
-    "Scrape the herbs away from the salmon, and rinse the fish under cold running water; pat dry. Using a long, thin-bladed knife, cut the fish into 1/8-inch-thick slices. Arrange on a platter, and serve with the spread; crackers or bread; onions, if you’re using them; and lemon wedges. Spread the dill mixture on the crackers or over the fish — it’s good both ways — top with onion and finish with a squirt of lemon juice."
+    "Mix together the salt, sugar, and dill. Put the salmon, skin side down, on a large sheet of plastic wrap. Cover the flesh side of the salmon with the salt mixture, being sure to coat it completely (there will be lots of salt mix; just pile it in there).",
+    "Wrap the fish well. If the air temperature is below 70°F and it is not too inconvenient, let it rest outside the refrigerator for about 6 hours, then refrigerate for 18 to 24 hours more. Otherwise, refrigerate immediately for about 36 hours.",
+    "Unwrap the salmon and rinse off the cure. Dry, then slice on the bias. Serve plain or with lemon wedges, crème fraîche, sour cream, or a light vinaigrette.",
+    "Low-Salt Gravlax: Use 1/2 cup salt and 1/4 cup sugar. Combine a couple of chopped bay leaves, 1/4 cup minced shallot, and 1 teaspoon cracked black pepper with the dill. Refrigerate for 48 hours and proceed as directed.",
+    "Citrus Gravlax: Use 1 cup each salt and sugar, combined with the grated zests of 2 oranges, 2 lemons, 2 limes, and 2 grapefruit, 2 tablespoons juniper berries; 1 tablespoon cracked coriander seeds; and 1 bunch of dill, stems and all. Marinate for 12 to 24 hours."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 32.8,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.899999976158142,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 85.67999999999999,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.899999976158142,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 283.7,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.899999976158142,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2146.0,
+      "amount": 375.0,
       "unit": "KCAL",
-      "serving_size": 1.899999976158142,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 276.14,
-      "unit": "G",
-      "serving_size": 1.899999976158142,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40310.0,
-      "unit": "MG",
-      "serving_size": 1.899999976158142,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 165.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 0.64,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 177.0,
-      "unit": "IU",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 109.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 11.58,
-      "unit": "G",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 340.0,
+      "amount": 39300.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin D (D2 + D3)",
-      "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 7.1,
+      "name": "Total Sugars",
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 14.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     }
   ]

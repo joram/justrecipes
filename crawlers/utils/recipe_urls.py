@@ -324,12 +324,13 @@ recipe_websites = [
     "https://www.allrecipes.com/",
     "https://www.foodnetwork.com/",
     "https://www.simplyrecipes.com/",
-    # "https://www.food.com/",
+    "https://www.food.com/",
+    "https://www.bettycrocker.com/",
+    "https://www.bonappetit.com/",
+
     # "https://www.tasteofhome.com/",
     # "https://www.myrecipes.com/",
     # "https://www.delish.com/",
-    "https://www.bettycrocker.com/",
-    "https://www.bonappetit.com/",
 ]
 
 

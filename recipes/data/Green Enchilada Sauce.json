@@ -12,14 +12,14 @@
   "ingredients": [
     {
       "name": "chicken stock",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
       "original_string": "2 1/2 cups chicken stock",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 6.699999999999999,
+          "amount": 9.049999999999999,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -33,14 +33,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 156.8,
+          "amount": 160.32999999999998,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 963.0,
+          "amount": 987.0,
           "unit": "KCAL",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -54,35 +54,35 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 1.9000000000000001,
+          "amount": 4.3,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 14.0,
+          "amount": 113.0,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.3399999999999999,
+          "amount": 3.69,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 122.0,
+          "amount": 681.0,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40253.0,
+          "amount": 40329.0,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -128,7 +128,7 @@
       "name": "tomatillos",
       "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "husked,  washed and halved",
       "original_string": "1/2 pound tomatillos, husked, washed and halved",
       "nutrition_infos": [
         {
@@ -203,7 +203,7 @@
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 10.6,
+          "amount": 38.8,
           "unit": "MG",
           "serving_size": 130.0,
           "serving_size_unit": "g"
@@ -235,7 +235,7 @@
       "name": "small onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
       "original_string": "1 small onion, chopped",
       "nutrition_infos": []
     },
@@ -243,7 +243,7 @@
       "name": "small green bell peppers",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "stemmed,  seeded and chopped",
       "original_string": "2 small green bell peppers, stemmed, seeded and chopped",
       "nutrition_infos": []
     },
@@ -251,7 +251,7 @@
       "name": "poblano chile",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "stemmed,  seeded and chopped",
       "original_string": "1 poblano chile, stemmed, seeded and chopped",
       "nutrition_infos": [
         {
@@ -358,17 +358,137 @@
       "name": "to 2 jalapeños",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "stemmed,  halved and seeded",
       "original_string": "1 to 2 jalapeños, stemmed, halved and seeded",
       "nutrition_infos": []
     },
     {
-      "name": "spinach about 6 ounces",
+      "name": "spinach",
       "amount": 1.0,
       "unit": "bunch",
       "comment": "",
       "original_string": "1 bunch spinach (about 6 ounces)",
-      "nutrition_infos": []
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 24.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.4,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 99.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.35,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 559.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 76.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Manganese, Mn",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 28.2,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin K (phylloquinone)",
+          "amount": 484.0,
+          "unit": "UG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vegetable oil",
@@ -557,7 +677,7 @@
       ]
     },
     {
-      "name": "Salt",
+      "name": "salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
@@ -567,35 +687,35 @@
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 1.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
@@ -610,7 +730,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 6.699999999999999,
+      "amount": 9.049999999999999,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
@@ -624,14 +744,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 156.8,
+      "amount": 160.32999999999998,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 963.0,
+      "amount": 987.0,
       "unit": "KCAL",
       "serving_size": 245.0,
       "serving_size_unit": "g"
@@ -645,35 +765,35 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 1.9000000000000001,
+      "amount": 4.3,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 14.0,
+      "amount": 113.0,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.3399999999999999,
+      "amount": 3.69,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 122.0,
+      "amount": 681.0,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40253.0,
+      "amount": 40329.0,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
@@ -722,9 +842,23 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 10.6,
+      "amount": 38.8,
       "unit": "MG",
       "serving_size": 130.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Manganese, Mn",
+      "amount": 1.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin K (phylloquinone)",
+      "amount": 484.0,
+      "unit": "UG",
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {

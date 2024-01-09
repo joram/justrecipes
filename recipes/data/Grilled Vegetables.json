@@ -2,57 +2,445 @@
   "name": "Grilled Vegetables",
   "categories": [],
   "servings": 4,
-  "minutes": 40,
-  "source_url": "https://cooking.nytimes.com/recipes/4113-grilled-vegetables",
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/grilled-vegetables-58392344",
   "image_urls": [
-    "https://static01.nyt.com/applications/cooking/d26096f/assets/2.jpg?1"
+    "https://assets.epicurious.com/photos/54ac04f919925f464b3a5e1b/master/w_619,h_619,c_limit/51238080_grilled-vegetables_1x1.jpg"
   ],
   "ingredients": [
     {
-      "name": "red",
-      "amount": 1.3333333333333333,
-      "unit": "lb",
+      "name": "garlic cloves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "crushed with a garlic press",
+      "original_string": "2 garlic cloves, crushed with a garlic press",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 23.53,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 124.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39346.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "red wine vinegar",
+      "amount": 1.0,
+      "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 tablespoon red wine vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "olive oil",
       "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup olive oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 4.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/8 teaspoon freshly ground pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large red onion",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "peeled and root end trimmed slightly,  leaving end intact",
+      "original_string": "1 large red onion, peeled and root end trimmed slightly, leaving end intact",
+      "nutrition_infos": []
+    },
+    {
+      "name": "eggplant",
+      "amount": 1.5,
+      "unit": "lb",
+      "comment": "halved crosswise,  then cut lengthwise into 1\"-thick strips",
+      "original_string": "1 1/2-pound eggplant, halved crosswise, then cut lengthwise into 1\"-thick strips",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 large bell pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "mixed green and yellow zucchini",
+      "amount": 2.5,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "2 1/2 pound mixed green and yellow zucchini (about 5)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 24.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 24.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 260.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 6.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 529.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "plum tomatoes",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "halved lengthwise",
+      "original_string": "2 plum tomatoes, halved lengthwise",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarsely chopped fresh parsley",
+      "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons coarsely chopped fresh parsley",
       "nutrition_infos": []
     },
     {
-      "name": "onions",
+      "name": "coarsely chopped fresh basil",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons coarsely chopped fresh basil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "four 12\" skewers, soaked in water for 30 minutes if wooden",
       "amount": 1.0,
-      "unit": "lb",
+      "unit": "",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "japanese eggplant or other small eggplant",
-      "amount": 1.3333333333333333,
-      "unit": "lb",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "reduced-fat turkey sausages see note",
-      "amount": 12.0,
-      "unit": "oz",
-      "comment": "",
+      "original_string": "Four 12\" skewers, soaked in water for 30 minutes if wooden",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "If cooking this meal on an outdoor grill, prepare fire in grill.",
-    "Wash, trim and seed peppers; cut into 1/4-inch thick rings. Brush cut sides lightly with a little oil.",
-    "Prepare oven-top grill if not using an outdoor grill.",
-    "Peel and slice onions into 1/4-inch-thick rings. Arrange onions and peppers on grill and cook.",
-    "Wash, trim and slice eggplant in half lengthwise. Brush with oil and add to grill. Turn vegetables as they begin to brown. They may be turned several times. As they soften remove from grill and place in serving bowl.",
-    "Cut sausages into bite-size pieces and cook in skillet according to package directions; drain and add to vegetables.",
-    "Wash, dry and coarsely cut basil leaves and add. Season with pepper and serve with a crusty, peasant bread."
+    "Prepare grill for direct-heat cooking over hot charcoal (medium-high heat or gas).",
+    "Whisk together garlic, vinegar, oil, salt, and pepper in a large bowl, then set aside 2/3 of vinaigrette for brushing.",
+    "Halve onion lengthwise and cut halves lengthwise into 1/2\"-wide wedges. Thread 1/2\" apart onto skewers (to hold layers together). Brush onion and eggplant with some reserved vinaigrette.",
+    "Oil grill rack, then grill pepper with onion and eggplant, covered only if using a gas grill, turning occasionally with tongs, until onion and eggplant are very tender, 6-10 minutes; transfer to a large rimmed baking sheet. Continue to grill pepper, turning it until skin is blackened, 1-2 minutes longer. Put pepper in a deep bowl and cover with a plate, then let stand while grilling remaining vegetables.",
+    "Quarter zucchini lengthwise; brush them and tomatoes with reserved vinaigrette. Grill, covered only if using a gas grill, turning tomatoes less frequently than zucchini, until tomatoes are just blistered, about 3 minutes; transfer to baking sheet. Continue to grill zucchini, turning, until just tender, 1-3 minutes longer.",
+    "Peel pepper and thinly slice flesh. Cut tomatoes into wedges and chop remaining vegetables. Add to bowl of vinaigrette along with herbs and salt to taste, tossing to coat."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 1.18,
+      "unit": "G",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 23.53,
+      "unit": "G",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 124.0,
+      "unit": "KCAL",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39346.0,
+      "unit": "MG",
+      "serving_size": 5.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 2.35,
+      "unit": "G",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 1.2,
+      "unit": "G",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 24.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 260.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 529.0,
+      "unit": "IU",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

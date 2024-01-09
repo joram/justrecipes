@@ -2,836 +2,337 @@
   "name": "Wonton Soup",
   "categories": [],
   "servings": 4,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/wonton-soup-5aaff972218b9d588303ccb0",
+  "minutes": 10,
+  "source_url": "https://cooking.nytimes.com/recipes/1023824-wonton-soup",
   "image_urls": [
-    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
+    "https://static01.nyt.com/images/2023/01/18/multimedia/13korex5-soup-zblc/12korex5-soup-zblc-square640.jpg",
+    "https://static01.nyt.com/images/2023/01/18/multimedia/13korex5-soup-zblc/12korex5-soup-zblc-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2023/01/18/multimedia/13korex5-soup-zblc/12korex5-soup-zblc-superJumbo.jpg"
   ],
   "ingredients": [
     {
-      "name": "small clove garlic",
+      "name": "salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "original_string": "1 small clove garlic",
-      "nutrition_infos": []
-    },
-    {
-      "name": "chopped cilantro",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
-      "original_string": "1 teaspoon chopped cilantro",
+      "original_string": "Salt",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 20.35,
+          "amount": 1.77,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 23.07,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 11.05,
+          "amount": 1.77,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 286.0,
+          "amount": 13.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Total Sugars",
-          "amount": 3.74,
-          "unit": "G",
+          "name": "Sodium, Na",
+          "amount": 39366.0,
+          "unit": "MG",
           "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "quarts chicken stock",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "preferably homemade",
+      "original_string": "2 quarts chicken stock, preferably homemade (see Tip)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "baby bok choy",
+      "amount": 12.0,
+      "unit": "",
+      "comment": "cut in halves",
+      "original_string": "12 baby bok choy, cut in halves or quarters lengthwise",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.77,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 1.77,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 13.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.88,
+          "unit": "G",
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 5.6,
+          "amount": 0.9,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 67.0,
+          "amount": 106.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.16,
+          "amount": 0.88,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 0.0,
+          "amount": 257.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 30945.0,
+          "amount": 66.0,
           "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin D (D2 + D3)",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.4,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 71.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 8.04,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "ground pork",
-      "amount": 4.0,
-      "unit": "oz",
-      "comment": "",
-      "original_string": "4 ounces ground pork",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 14.3,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 22.3,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.89,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 259.0,
-          "unit": "KCAL",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.96,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 286.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 333.0,
-          "unit": "IU",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 20.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 71.0,
-          "unit": "MG",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 8.04,
-          "unit": "G",
-          "serving_size": 112.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "-inch-square wonton wrappers",
-      "amount": 7.5,
-      "unit": "",
-      "comment": "",
-      "original_string": "12 3-inch-square wonton wrappers",
-      "nutrition_infos": []
-    },
-    {
-      "name": "mushrooms",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
-      "original_string": "8 ounces mushrooms",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 2.31,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.77,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 3.08,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 23.0,
-          "unit": "KCAL",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 2.3,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 308.0,
-          "unit": "MG",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 130.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "canola oil",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "1 tablespoon canola oil",
-      "nutrition_infos": []
-    },
-    {
-      "name": "shredded chinese",
-      "amount": 1.0,
-      "unit": "cup",
-      "comment": "",
-      "original_string": "1 cup shredded Chinese or Napa cabbage",
-      "nutrition_infos": []
-    },
-    {
-      "name": "chicken broth",
-      "amount": 3.0,
-      "unit": "can",
-      "comment": "",
-      "original_string": "3 (14-ounce) cans chicken broth",
-      "nutrition_infos": [
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 245.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin D (D2 + D3), International Units",
           "amount": 0.0,
           "unit": "IU",
-          "serving_size": 245.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Cholesterol",
-          "amount": 0.0,
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 45.1,
           "unit": "MG",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Protein",
-          "amount": 0.41,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.41,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 4.0,
-          "unit": "KCAL",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.41,
-          "unit": "G",
-          "serving_size": 245.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 351.0,
-          "unit": "MG",
-          "serving_size": 245.0,
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sugars, added",
-          "amount": 0.4,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 245.0,
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 245.0,
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "salt and pepper",
+      "name": "fresh wonton noodles",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "8 ounces fresh wonton noodles (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh",
+      "amount": 20.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "20 fresh or unthawed frozen <a href=\"https://cooking.nytimes.com/recipes/1023822-wontons\">wontons</a>",
+      "nutrition_infos": []
+    },
+    {
+      "name": "scallion",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "thinly sliced",
+      "original_string": "1 scallion, thinly sliced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "soy sauce, red vinegar, chile oil",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "original_string": "Salt and pepper",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 30000.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A",
-          "amount": 0.0,
-          "unit": "UG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "green onions",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "original_string": "2 green onions",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 3.33,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 6.67,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 3.33,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 3.3,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 67.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 1.2,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 333.0,
-          "unit": "IU",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 20.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "Soy sauce, red vinegar, chile oil or chile crisp, for serving",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "To prepare the wontons: Smash the garlic clove by placing it on a cutting board, laying the blade of a large knife flat on top of the garlic, and pressing the knife with the heel of your hand. Remove the papery skin and finely chop the garlic.",
-    "Place the garlic, cilantro, and ground pork in a small bowl and mix well.",
-    "Dip your finger in water and wet the entire edge of 1 wonton wrapper. Place a small spoonful of the pork mixture in the center of the wrapper and fold in half to form a triangle. Firmly press the edges to seal the wonton. Just before you seal the last edge, push gently around the filling to remove any air pockets. Repeat the process with the remaining wrappers and filling.",
-    "Lay the finished wontons on a plate or baking sheet, keeping them separate. (If the wontons touch they will stick together and tear holes in the wrappers.)",
-    "To prepare the soup: Cut the mushrooms into 1/4-inch-thick slices. Heat the oil in a large saucepan over medium-high heat and add the mushrooms. Cook for 10 minutes, or until the mushrooms are tender. (It is normal for the mushrooms to release liquid as they cook; it will cook away before they begin to brown.) Add the cabbage and cook for 2 minutes, or until the cabbage is wilted. Add the chicken broth to the pan and bring to a boil. Season to taste with salt and pepper. Decrease the heat to medium and add the wontons. Cook for 3 to 4 minutes, or until the wontons float to the top of the pan.",
-    "Cut off the root ends of the green onions and thinly slice the white and about 1 inch of the green parts. Ladle the soup into bowls and sprinkle with the green onions over the top.",
-    "Although we didn’t use this method in any of these recipes, we made this mistake in earlier attempts at making creamed soups, so we decided we better mention it just in case. When you puree hot ingredients, it is a good idea to blend them in small batches and make sure to put a towel over the blender and hold the top down firmly. Because the hot ingredients release a lot of steam when pureed, putting the top on the blender will trap the steam inside; it will build up and eventually blow the top off of the blender and spray hot liquid everywhere, and we do mean everywhere. It will spray all over you, the counter, the walls, and even the ceiling. And believe me, there is nothing fun about standing at the sink running cold water over your burns while soup is dripping on your head."
+    "Bring a large pot of salted water to a boil. In another large saucepan, bring the chicken stock to a boil. Add the bok choy to the stock, immersing all of it, then immediately turn the heat to the lowest setting. Let stand until ready to serve, 5 to 10 minutes. Season broth with salt, to taste.",
+    "If serving with noodles, cook the noodles in the boiling water according to the package’s directions. Transfer to serving bowls with tongs or chopsticks, and bring the water back to a boil. Drop the wontons into the boiling water and gently stir to make sure they don’t stick to one another or to the bottom of the pot. When the water returns to a rapid boil, add 2 cups cold water, then adjust the heat to maintain a steady simmer. Once the wontons float on the surface, continue to simmer for 2 minutes. The dough should look slightly translucent.",
+    "Using a spider or slotted spoon, divide the wontons among the serving bowls, then divide the bok choy and broth among the bowls. Serve immediately with scallion and soy sauce, vinegar, chile oil or chile crisp."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 20.35,
+      "amount": 1.77,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 23.07,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 11.05,
+      "amount": 1.77,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 286.0,
+      "amount": 13.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Total Sugars",
-      "amount": 3.74,
-      "unit": "G",
+      "name": "Sodium, Na",
+      "amount": 39366.0,
+      "unit": "MG",
       "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.88,
+      "unit": "G",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 5.6,
+      "amount": 0.9,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 67.0,
+      "amount": 106.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.16,
+      "amount": 0.88,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 0.0,
+      "amount": 257.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 30945.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3)",
-      "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.4,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 71.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 8.04,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 333.0,
-      "unit": "IU",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 20.0,
-      "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 245.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A",
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 45.1,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
       "amount": 0.0,
-      "unit": "UG",
-      "serving_size": 1.0,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     }
   ]

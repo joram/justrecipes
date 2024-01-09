@@ -17,4 +17,5 @@ def get_schema_data(soup: BeautifulSoup):
         schema_type = schema_data.get("@type", "wrong")
         if schema_type == ["Recipe"]:
             schema_data["@type"] = "Recipe"
-        yield schema_data
+        if schema_data.get("@type") == "Recipe":
+            yield schema_data

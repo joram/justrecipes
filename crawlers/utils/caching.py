@@ -105,7 +105,7 @@ class GetMethod(enum.Enum):
 async def _get_content(url: str, method:GetMethod.PLAYWRIGHT):
     if method == GetMethod.REQUESTS:
         try:
-            content = requests.get(url).content.decode("utf-8")
+            content = requests.get(url, timeout=300).content.decode("utf-8")
             return content
         except Exception as e:
             print(e)

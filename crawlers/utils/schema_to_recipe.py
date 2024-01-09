@@ -216,7 +216,9 @@ def _parse_images(data):
 
 async def create_recipe(data, url) -> Optional[Recipe]:
     ingredients = _parse_ingredients(data)
-
+    if ingredients is None:
+        import pprint
+        pprint.pprint(data)
     total_nutrition_infos = {}
     for ingredient in ingredients:
         ingredient.nutrition_infos = await ingredient_to_nutrients_infos(ingredient)
