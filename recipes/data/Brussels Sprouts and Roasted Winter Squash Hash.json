@@ -11,20 +11,22 @@
   "ingredients": [
     {
       "name": "winter squash",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "like butternut,  halved,  seeds and membranes scraped away",
+      "original_string": "1 1/2 pounds winter squash, like butternut, halved, seeds and membranes scraped away",
       "nutrition_infos": []
     },
     {
       "name": "brussels sprouts",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "preferably small ones",
+      "original_string": "1 pound brussels sprouts, preferably small ones",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.59,
+          "amount": 12.45,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -38,14 +40,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 47.61,
+          "amount": 80.91,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1044.0,
+          "amount": 1189.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -80,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 119.0,
+          "amount": 39424.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -127,6 +129,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -197,14 +200,16 @@
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "sliced thin",
+      "original_string": "1 bunch scallions, sliced thin",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -244,10 +249,63 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "freshly ground pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "tomato paste",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "dissolved in 1/4 cup water",
+      "original_string": "2 tablespoons tomato paste, dissolved in 1/4 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -350,10 +408,118 @@
       ]
     },
     {
-      "name": "poached eggs for serving",
+      "name": "cooked black rice",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup cooked black rice",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 33.3,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 145.0,
+          "unit": "KCAL",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 5.0,
+          "unit": "MG",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 210.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "poached eggs",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Poached eggs for serving optional",
       "nutrition_infos": []
     }
   ],
@@ -366,7 +532,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 9.59,
+      "amount": 12.45,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -380,14 +546,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 47.61,
+      "amount": 80.91,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1044.0,
+      "amount": 1189.0,
       "unit": "KCAL",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -422,7 +588,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 119.0,
+      "amount": 39424.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"

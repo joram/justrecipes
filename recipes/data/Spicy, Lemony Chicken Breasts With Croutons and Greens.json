@@ -11,38 +11,90 @@
   ],
   "ingredients": [
     {
+      "name": "slices crusty bread",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 slices crusty bread (about 3/4-inch thick)",
+      "nutrition_infos": []
+    },
+    {
       "name": "olive oil",
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons olive oil",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh lemon zest",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon fresh lemon zest plus 1/4 cup lemon juice (from 1 to 2 lemons)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 24.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "1 garlic clove, grated or finely chopped",
       "nutrition_infos": []
     },
     {
-      "name": "fresh",
+      "name": "dried oregano",
       "amount": 1.0,
-      "unit": "tbsp",
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dried oregano or thyme (or 1 tablespoon fresh)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "to 1 teaspoon red-pepper flakes",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/2 to 1 teaspoon red-pepper flakes, to taste",
       "nutrition_infos": []
     },
     {
       "name": "boneless",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "skinless chicken breasts",
+      "original_string": "4 boneless, skinless chicken breasts (1 1/2 to 2 pounds)",
       "nutrition_infos": []
     },
     {
-      "name": "small heads little gem lettuce or 1 romaine heart",
+      "name": "small heads little gem lettuce",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 small heads Little Gem lettuce or 1 romaine heart, leaves separated and torn into bite-size pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -67,7 +119,7 @@
         },
         {
           "name": "Energy",
-          "amount": 18.0,
+          "amount": 24.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -88,28 +140,14 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 24.0,
+          "amount": 35.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.85,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Magnesium, Mg",
-          "amount": 9.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Phosphorus, P",
-          "amount": 24.0,
+          "amount": 0.94,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -129,72 +167,9 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Copper, Cu",
-          "amount": 0.094,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Manganese, Mn",
+          "name": "Vitamin D (D2 + D3), International Units",
           "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 8820.0,
           "unit": "IU",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 4.2,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Thiamin",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Riboflavin",
-          "amount": 0.08,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Niacin",
-          "amount": 0.471,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Pantothenic acid",
-          "amount": 0.235,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin B-6",
-          "amount": 0.094,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin K (phylloquinone)",
-          "amount": 104.0,
-          "unit": "UG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
@@ -234,7 +209,14 @@
       "name": "Protein",
       "amount": 1.18,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 106.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 24.0,
+      "unit": "KCAL",
+      "serving_size": 106.0,
       "serving_size_unit": "g"
     },
     {
@@ -248,13 +230,6 @@
       "name": "Carbohydrate, by difference",
       "amount": 3.53,
       "unit": "G",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 18.0,
-      "unit": "KCAL",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
@@ -274,28 +249,14 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 24.0,
+      "amount": 35.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.85,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Magnesium, Mg",
-      "amount": 9.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Phosphorus, P",
-      "amount": 24.0,
+      "amount": 0.94,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -315,72 +276,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Copper, Cu",
-      "amount": 0.094,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Manganese, Mn",
+      "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 8820.0,
       "unit": "IU",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 4.2,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Thiamin",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Riboflavin",
-      "amount": 0.08,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 0.471,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Pantothenic acid",
-      "amount": 0.235,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin B-6",
-      "amount": 0.094,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin K (phylloquinone)",
-      "amount": 104.0,
-      "unit": "UG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },

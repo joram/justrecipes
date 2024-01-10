@@ -14,7 +14,16 @@
       "name": "skinless",
       "amount": 4.0,
       "unit": "",
+      "comment": "boneless chicken breasts",
+      "original_string": "4 skinless, boneless chicken breasts (about 2 pounds)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt, freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt, freshly ground pepper",
       "nutrition_infos": []
     },
     {
@@ -22,13 +31,111 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "",
       "nutrition_infos": []
+    },
+    {
+      "name": "thin slices prosciutto",
+      "amount": 8.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "8 thin slices prosciutto",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thin slices provolone cheese",
+      "amount": 8.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "8 thin slices provolone cheese",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh basil leaves",
+      "amount": 32.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "32 fresh basil leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "3 tablespoons unsalted butter, divided",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 178.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1592.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 554.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 64.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vegetable oil",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -60,28 +167,28 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 3.57,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 3.6,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 0.0,
+          "amount": 36.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 3.21,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -145,17 +252,111 @@
       ]
     },
     {
-      "name": "mixed mushrooms such as crimini",
+      "name": "mixed mushrooms",
       "amount": 4.0,
       "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
+      "comment": "torn",
+      "original_string": "4 cups mixed mushrooms (such as crimini, chanterelle, and maitake), torn or chopped into small pieces",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 21.0,
+          "unit": "KCAL",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.6,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 36.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.21,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 554.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "low-sodium chicken broth",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups low-sodium chicken broth",
       "nutrition_infos": []
     },
     {
@@ -163,6 +364,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon red wine vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -202,10 +404,11 @@
       ]
     },
     {
-      "name": "mixed chopped fresh herbs such as basil",
+      "name": "mixed chopped fresh herbs",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons mixed chopped fresh herbs (such as basil, parsley, and chives)",
       "nutrition_infos": []
     }
   ],
@@ -220,84 +423,49 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 1.79,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 100.0,
+      "amount": 178.6,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 2.86,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 857.0,
+      "amount": 1592.0,
       "unit": "KCAL",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 554.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
       "unit": "IU",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -311,8 +479,50 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 14.3,
+      "amount": 64.3,
       "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 3.57,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 3.6,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 36.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 3.21,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },
@@ -328,6 +538,13 @@
       "amount": 57.1,
       "unit": "G",
       "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     }
   ]

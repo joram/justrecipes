@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "all-purpose flour",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 230.5,
+          "amount": 219.7,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1138.0,
+          "amount": 1096.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 18.97,
+          "amount": 8.17,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -67,7 +68,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10808.0,
+          "amount": 50100.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -104,16 +105,18 @@
     },
     {
       "name": "whole-wheat flour",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups whole-wheat flour",
       "nutrition_infos": []
     },
     {
       "name": "cornmeal",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups cornmeal",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -224,9 +227,10 @@
     },
     {
       "name": "old-fashioned rolled oats",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/4 cups old-fashioned rolled oats",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -361,6 +365,15 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup toasted wheat germ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packed light brown sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup packed light brown sugar",
       "nutrition_infos": []
     },
     {
@@ -368,6 +381,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -414,60 +428,79 @@
       ]
     },
     {
-      "name": "water",
-      "amount": 1.0,
-      "unit": "tbsp",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 240.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 240.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 10.8,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 240.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 42.0,
+          "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 240.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 10.8,
-          "unit": "G",
-          "serving_size": 240.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 8.0,
+          "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 240.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "sticks cold unsalted butter",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "cut into tablespoon pieces",
+      "original_string": "1 1/2 sticks (3/4 cup) cold unsalted butter, cut into tablespoon pieces",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 cup plus 1 tablespoon water",
+      "nutrition_infos": []
     },
     {
       "name": "chopped fresh flat-leaf parsley",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped fresh flat-leaf parsley",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh mint leaves",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup chopped fresh mint leaves",
       "nutrition_infos": []
     },
     {
@@ -475,6 +508,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
@@ -482,13 +516,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "",
       "nutrition_infos": []
     },
     {
-      "name": "a pastry or bench scraper; a dog-biscuit cookie cutter*",
+      "name": "a pastry",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "a pastry or bench scraper; a dog-biscuit cookie cutter*",
       "nutrition_infos": []
     }
   ],
@@ -519,21 +555,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 230.5,
+      "amount": 219.7,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1138.0,
+      "amount": 1096.0,
       "unit": "KCAL",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 18.97,
+      "amount": 8.17,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -554,7 +590,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10808.0,
+      "amount": 50100.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

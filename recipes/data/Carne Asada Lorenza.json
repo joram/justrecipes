@@ -14,28 +14,40 @@
       "name": "large white onion",
       "amount": 2.5,
       "unit": "",
-      "comment": "",
+      "comment": "for cleaning the grill",
+      "original_string": "1/4 large white onion, for cleaning the grill",
       "nutrition_infos": []
     },
     {
-      "name": "beef fat cut from the meat",
+      "name": "beef fat , tallow",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Beef fat (cut from the meat, if fatty), tallow or vegetable oil, for greasing the grill",
       "nutrition_infos": []
     },
     {
       "name": "chuck roll",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "sliced into 1/2-inch steaks",
+      "original_string": "2 pounds chuck roll, sliced into 1/2-inch steaks",
       "nutrition_infos": []
     },
     {
       "name": "top sirloin",
       "amount": 2.0,
       "unit": "lb",
+      "comment": "sliced into 1/2-inch steaks",
+      "original_string": "2 pounds top sirloin, sliced into 1/2-inch steaks",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher",
+      "amount": 4.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "4 teaspoons kosher or sea salt (about 1 teaspoon per pound of meat), or to taste, plus more for salting tortillas",
       "nutrition_infos": []
     },
     {
@@ -43,31 +55,32 @@
       "amount": 12.0,
       "unit": "",
       "comment": "",
+      "original_string": "12 corn tortillas",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 24.18,
+          "amount": 47.08,
           "unit": "G",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 19.29,
+          "amount": 20.72,
           "unit": "G",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 45.38,
+          "amount": 106.33999999999999,
           "unit": "G",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 448.0,
+          "amount": 679.0,
           "unit": "KCAL",
           "serving_size": 36.0,
           "serving_size_unit": "g"
@@ -81,35 +94,35 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.8,
+          "amount": 34.199999999999996,
           "unit": "G",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 787.0,
+          "amount": 758.0,
           "unit": "MG",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.54,
+          "amount": 6.0,
           "unit": "MG",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 0.0,
+          "amount": 1200.0,
           "unit": "MG",
           "serving_size": 36.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1965.0,
+          "amount": 1626.0,
           "unit": "MG",
           "serving_size": 36.0,
           "serving_size_unit": "g"
@@ -145,16 +158,108 @@
       ]
     },
     {
-      "name": "frijoles de fiesta fiesta refried beans see recipe",
+      "name": "frijoles de fiesta",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Frijoles de Fiesta (Fiesta Refried Beans) (<a href=\"https://cooking.nytimes.com/recipes/1021290-refried-beans\">see recipe</a>)",
       "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 22.9,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.43,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 60.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 229.0,
+          "unit": "KCAL",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 31.4,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 6.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1200.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 14.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 113.0,
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
           "serving_size_unit": "g"
         }
       ]
@@ -163,7 +268,8 @@
       "name": "asadero",
       "amount": 12.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "quesadilla,  monterey jack",
+      "original_string": "12 ounces asadero, quesadilla, Monterey Jack or Oaxaca cheese, grated (about 3 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -237,7 +343,7 @@
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 5.1,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -266,82 +372,119 @@
       ]
     },
     {
-      "name": "salsa tatemada norteña fire-roasted salsa see recipe",
+      "name": "salsa tatemada norteña",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Salsa Tatemada Norteña (Fire-Roasted Salsa) (<a href=\"https://cooking.nytimes.com/recipes/1021291-fire-roasted-salsa\">see recipe</a>)",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 5.71,
+          "amount": 6.67,
           "unit": "G",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 31.0,
+          "amount": 33.0,
           "unit": "KCAL",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 2.86,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 29.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.54,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 820.0,
+          "amount": 467.0,
           "unit": "MG",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Vitamin A, IU",
+          "name": "Vitamin D (D2 + D3), International Units",
           "amount": 0.0,
           "unit": "IU",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 5.1,
+          "name": "Cholesterol",
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 35.0,
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "chile verde guacamole",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Chile Verde Guacamole (<a href=\"https://cooking.nytimes.com/recipes/1021293-guacamole\">see recipe</a>)",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -358,28 +501,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 24.18,
+      "amount": 47.08,
       "unit": "G",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 19.29,
+      "amount": 20.72,
       "unit": "G",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 45.38,
+      "amount": 106.33999999999999,
       "unit": "G",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 448.0,
+      "amount": 679.0,
       "unit": "KCAL",
       "serving_size": 36.0,
       "serving_size_unit": "g"
@@ -393,35 +536,35 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.8,
+      "amount": 34.199999999999996,
       "unit": "G",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 787.0,
+      "amount": 758.0,
       "unit": "MG",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.54,
+      "amount": 6.0,
       "unit": "MG",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 0.0,
+      "amount": 1200.0,
       "unit": "MG",
       "serving_size": 36.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 1965.0,
+      "amount": 1626.0,
       "unit": "MG",
       "serving_size": 36.0,
       "serving_size_unit": "g"
@@ -463,7 +606,7 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 5.1,
+      "amount": 0.0,
       "unit": "MG",
       "serving_size": 28.0,
       "serving_size_unit": "g"

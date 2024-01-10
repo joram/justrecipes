@@ -14,7 +14,8 @@
       "name": "green cardamom pods",
       "amount": 32.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely crushed in a mortar and pestle",
+      "original_string": "32 green cardamom pods, coarsely crushed in a mortar and pestle",
       "nutrition_infos": []
     },
     {
@@ -22,17 +23,56 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 tsp. ground ginger",
       "nutrition_infos": []
     },
     {
-      "name": "ctc assam tea such as red label",
-      "amount": 2.0,
-      "unit": "tbsp",
-      "comment": "",
+      "name": "whole black peppercorn",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "coarsely crushed in a mortar and pestle",
+      "original_string": "1 tsp. whole black peppercorn, coarsely crushed in a mortar and pestle",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 3.75,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 469.0,
+          "unit": "KCAL",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 111.47,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ctc assam tea",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 Tbsp. CTC Assam tea (such as Red Label, Tea India, 24 Mantra Organic, or Wagh Bakri)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -46,21 +86,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 12.18,
+          "amount": 112.18,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 94.0,
+          "amount": 27.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 11.469999999999999,
+          "amount": 6.47,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -141,7 +181,8 @@
       "name": "milk",
       "amount": 3.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "dairy",
+      "original_string": "3 cups milk, dairy or plant-based",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -228,6 +269,71 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 4.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "4 tsp. granulated sugar or jaggery, divided, or to taste.",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -242,7 +348,28 @@
       "name": "Protein",
       "amount": 3.75,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.699999988079071,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 469.0,
+      "unit": "KCAL",
+      "serving_size": 0.699999988079071,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 111.47,
+      "unit": "G",
+      "serving_size": 0.699999988079071,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 0.699999988079071,
       "serving_size_unit": "g"
     },
     {
@@ -254,21 +381,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 12.18,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 94.0,
-      "unit": "KCAL",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 11.469999999999999,
+      "amount": 112.18,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -326,13 +439,6 @@
       "name": "Cholesterol",
       "amount": 15.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

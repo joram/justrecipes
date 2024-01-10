@@ -14,7 +14,16 @@
       "name": "boneless pork shoulder",
       "amount": 2.0,
       "unit": "lb",
+      "comment": "trimmed of more than 1/4-inch fat",
+      "original_string": "2 to 2 1/2 pounds boneless pork shoulder, trimmed of more than 1/4-inch fat",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     },
     {
@@ -22,10 +31,11 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 1.64,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -39,21 +49,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 26.56,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 900.0,
+          "amount": 933.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40.0,
+          "amount": 179.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -99,7 +109,8 @@
       "name": "garlic cloves",
       "amount": 10.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and smashed",
+      "original_string": "10 garlic cloves, peeled and smashed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -139,10 +150,133 @@
       ]
     },
     {
+      "name": "red-pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fire-roasted crushed",
+      "amount": 3.0,
+      "unit": "can",
+      "comment": "",
+      "original_string": "3 (14-ounce) cans fire-roasted crushed or diced tomatoes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.64,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.56,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 33.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 4.92,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 21.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.66,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 343.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 139.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "red wine",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup red wine",
       "nutrition_infos": []
     },
     {
@@ -150,6 +284,7 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 basil sprigs",
       "nutrition_infos": []
     }
   ],
@@ -164,7 +299,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 1.64,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -178,21 +313,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 26.56,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 900.0,
+      "amount": 933.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 179.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -230,6 +365,55 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 4.92,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 1.6,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 21.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.66,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 343.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

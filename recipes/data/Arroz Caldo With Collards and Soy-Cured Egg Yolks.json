@@ -15,6 +15,7 @@
       "amount": 6.0,
       "unit": "",
       "comment": "",
+      "original_string": "6 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +33,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 83.38999999999999,
+          "amount": 83.66999999999999,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -74,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 406.0,
+          "amount": 408.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -120,7 +121,8 @@
       "name": "neutral oil",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "such as canola",
+      "original_string": "2 tablespoons neutral oil, such as canola",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -170,14 +172,16 @@
       "name": "medium yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 medium yellow onion, minced",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "8 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -218,16 +222,77 @@
     },
     {
       "name": "bone-in",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "skin-on chicken flats and drumettes",
+      "original_string": "2 1/2 pounds bone-in, skin-on chicken flats and drumettes",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "jasmine",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup jasmine or other long-grain rice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "chicken stock",
       "amount": 10.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "10 cups chicken stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -340,7 +405,8 @@
       "name": "collard greens",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "leaves ripped off stems,  stems discarded and leaves roughly chopped",
+      "original_string": "1 pound collard greens, leaves ripped off stems, stems discarded and leaves roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -443,17 +509,19 @@
       ]
     },
     {
-      "name": "-inch pieces skin-on ginger",
+      "name": "fresh ginger",
       "amount": 2.0,
-      "unit": "",
-      "comment": "",
+      "unit": "piece",
+      "comment": "peeled and julienned,  for garnish",
+      "original_string": "2 (2-inch) pieces skin-on ginger, each crushed into a few pieces, plus 1 (1-inch) piece fresh ginger, peeled and julienned, for garnish",
       "nutrition_infos": []
     },
     {
-      "name": "large a 1/4tspes of saffron",
+      "name": "large a 1/4 tspes of saffron",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large pinches of saffron",
       "nutrition_infos": []
     },
     {
@@ -461,6 +529,7 @@
       "amount": 6.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "6 teaspoons soy sauce",
       "nutrition_infos": []
     },
     {
@@ -468,13 +537,129 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons fish sauce",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh calamansi",
+      "amount": 6.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "6 fresh calamansi or lemon wedges, for serving",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.28,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 bunch scallions, thinly sliced, for serving",
       "nutrition_infos": []
     }
   ],
@@ -504,7 +689,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 83.38999999999999,
+      "amount": 83.66999999999999,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -546,7 +731,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 406.0,
+      "amount": 408.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -605,6 +790,13 @@
       "amount": 0.4,
       "unit": "G",
       "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

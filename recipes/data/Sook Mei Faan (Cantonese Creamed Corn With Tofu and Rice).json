@@ -12,23 +12,26 @@
   "ingredients": [
     {
       "name": "packages silken tofu",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "drained",
+      "original_string": "2 (14-ounce) packages silken tofu, drained",
       "nutrition_infos": []
     },
     {
-      "name": "corn kernels 1 pound",
+      "name": "corn kernels",
       "amount": 3.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "from 3 large cobs",
+      "original_string": "3 cups corn kernels (1 pound), from 3 large cobs or thawed from frozen",
       "nutrition_infos": []
     },
     {
       "name": "neutral oil",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "such as grapeseed,  vegetable",
+      "original_string": "1 tablespoon neutral oil, such as grapeseed, vegetable or canola, plus more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -60,7 +63,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 245.0,
+          "amount": 39045.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -75,31 +78,85 @@
       ]
     },
     {
-      "name": "-inch piece ginger",
+      "name": "ginger",
       "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "unit": "piece",
+      "comment": "peeled and finely chopped",
+      "original_string": "1 (1-inch) piece ginger, peeled and finely chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 12.020000000000001,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 garlic clove, finely chopped",
       "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely sliced",
+      "original_string": "2 scallions, finely sliced, plus more for serving",
       "nutrition_infos": []
     },
     {
       "name": "vegetable stock",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups vegetable stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -131,7 +188,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 12.020000000000001,
+          "amount": 1.22,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -209,10 +266,70 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "white pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "White pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "water",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 teaspoons cornstarch mixed with 2 tablespoons water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -257,6 +374,30 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "steamed rice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Steamed rice, for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cilantro leaves and tender stems, for garnish",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cilantro leaves and tender stems, for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sesame oil",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Sesame oil or chile oil, for drizzling",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -297,7 +438,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 245.0,
+      "amount": 39045.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -313,7 +454,14 @@
       "name": "Total Sugars",
       "amount": 12.020000000000001,
       "unit": "G",
-      "serving_size": 245.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
@@ -355,13 +503,6 @@
       "name": "Sugars, added",
       "amount": 0.8,
       "unit": "G",
-      "serving_size": 245.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },

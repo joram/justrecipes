@@ -1,64 +1,119 @@
 {
   "name": "Tiramisu",
   "categories": [],
-  "servings": null,
-  "minutes": 10,
-  "source_url": "https://cooking.nytimes.com/recipes/2830-tiramisu",
+  "servings": 6,
+  "minutes": null,
+  "source_url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/tiramisu-recipe-1913608",
   "image_urls": [
-    "https://static01.nyt.com/applications/cooking/d26096f/assets/15.jpg?1"
+    "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/9/30/0/ei1a05_tiramisu.jpg.rend.hgtvcom.1280.1280.suffix/1391446606315.jpeg",
+    "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/9/30/0/ei1a05_tiramisu.jpg.rend.hgtvcom.1280.960.suffix/1391446606315.jpeg",
+    "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/9/30/0/ei1a05_tiramisu.jpg.rend.hgtvcom.1280.720.suffix/1391446606315.jpeg"
   ],
   "ingredients": [
     {
-      "name": "egg yolks",
-      "amount": 5.0,
+      "name": "*6 egg yolks",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "*6 egg yolks",
       "nutrition_infos": []
     },
     {
-      "name": "mascarpone cheese",
-      "amount": 2.0,
-      "unit": "cup",
+      "name": "sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 28.33,
+          "amount": 9.39,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 64.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 154.82999999999998,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 954.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 103.33,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 33.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "mascarpone cheese",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound mascarpone cheese",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 89.2,
+          "amount": 36.7,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 60.0,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1017.0,
+          "amount": 367.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 10.0,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 50.0,
+          "amount": 6.1,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -72,21 +127,21 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 36.0,
+          "amount": 9.09,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 100.0,
+          "amount": 585.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 66.0,
+          "amount": 33.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -100,14 +155,14 @@
         },
         {
           "name": "Sugars, added",
-          "amount": 0.0,
+          "amount": 51.5,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 284.0,
+          "amount": 117.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -121,7 +176,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 53.4,
+          "amount": 44.9,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -129,229 +184,184 @@
       ]
     },
     {
-      "name": "heavy cream",
-      "amount": 1.0,
+      "name": "strong espresso",
+      "amount": 1.5,
       "unit": "cup",
+      "comment": "cooled",
+      "original_string": "1 1/2 cups strong espresso, cooled",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dark rum",
+      "amount": 2.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons dark rum",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packaged ladyfingers",
+      "amount": 24.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "24 packaged ladyfingers",
+      "nutrition_infos": []
+    },
+    {
+      "name": "bittersweet chocolate shavings",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "for garnish",
+      "original_string": "1/2 cup bittersweet chocolate shavings, for garnish",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 6.06,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 40.0,
+          "amount": 27.3,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 6.67,
+          "amount": 51.5,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 400.0,
+          "amount": 212.0,
           "unit": "KCAL",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 6.67,
-          "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 6.1,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 9.09,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 0.0,
+          "amount": 485.0,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 33.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Vitamin D (D2 + D3), International Units",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 15.0,
+          "name": "Sugars, added",
+          "amount": 51.5,
+          "unit": "G",
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 167.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 26.7,
+          "amount": 18.2,
           "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "to 9 double ladyfingers or champagne biscuits",
-      "amount": 6.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "freshly made espresso coffee",
-      "amount": 3.5,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cocoa powder",
-      "amount": 2.5,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 25.0,
-          "unit": "G",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 12.5,
-          "unit": "G",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 50.0,
-          "unit": "G",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 250.0,
-          "unit": "KCAL",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 50.0,
-          "unit": "G",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 36.0,
-          "unit": "MG",
-          "serving_size": 4.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 4.0,
+          "serving_size": 33.0,
           "serving_size_unit": "g"
         }
       ]
     }
   ],
   "instructions": [
-    "Beat the yolks with the sugar until the mixture is thickened and light lemon colored. Add the mascarpone and beat until thoroughly blended.",
-    "Whip the cream and fold the cheese mixture into it.",
-    "Dip the ladyfingers in the espresso and arrange them on a serving dish measuring about 9 1/2 by 13 1/2 by 2 inches. Pour in the cheese and cream mixture and smooth over the top.",
-    "Put the cocoa in a small sieve and dust the top of the dessert evenly. Refrigerate."
+    "In a large bowl, using an electric mixer with whisk attachment, beat egg yolks and sugar until thick and pale, about 5 minutes. Add mascarpone cheese and beat until smooth. Add 1 tablespoon of espresso and mix until thoroughly combined.",
+    "In a small shallow dish, add remaining espresso and rum. Dip each ladyfinger into espresso for only 5 seconds. Letting the ladyfingers soak too long will cause them to fall apart. Place the soaked ladyfinger on the bottom of a 13 by 9 inch baking dish, breaking them in half if necessary in order to fit the bottom.",
+    "Spread evenly 1/2 of the mascarpone mixture over the ladyfingers. Arrange another layer of soaked ladyfingers and top with remaining mascarpone mixture.",
+    "Cover tiramisu with plastic wrap and refrigerate for at least 2 hours, up to 8 hours.",
+    "Before serving, sprinkle with chocolate shavings."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 28.33,
+      "amount": 9.39,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 89.2,
+      "amount": 64.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 60.0,
+      "amount": 154.82999999999998,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1017.0,
+      "amount": 954.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 10.0,
+      "amount": 103.33,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 33.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 50.0,
+      "amount": 6.1,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -365,21 +375,14 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 36.0,
+      "amount": 9.09,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 100.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 66.0,
+      "amount": 585.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -393,14 +396,14 @@
     },
     {
       "name": "Sugars, added",
-      "amount": 0.0,
+      "amount": 51.5,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 284.0,
+      "amount": 117.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -414,16 +417,9 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 53.4,
+      "amount": 44.9,
       "unit": "G",
       "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 15.0,
       "serving_size_unit": "g"
     }
   ]

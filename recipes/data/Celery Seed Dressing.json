@@ -9,17 +9,158 @@
   ],
   "ingredients": [
     {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40000.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dry mustard",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon dry mustard",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "onion juice",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons onion juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 700.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vinegar",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup vinegar",
       "nutrition_infos": []
     },
     {
@@ -27,13 +168,115 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "celery seed",
-      "amount": 1.3333333333333333,
+      "name": "paprika",
+      "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon paprika",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 20000.0,
+          "unit": "IU",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "celery seed",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons celery seed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -96,49 +339,91 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 0.0,
+      "amount": 375.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
+      "amount": 40000.0,
+      "unit": "MG",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 20000.0,
+      "unit": "IU",
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     }
   ]

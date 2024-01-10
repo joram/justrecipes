@@ -12,57 +12,32 @@
       "name": "italian turkey sausage",
       "amount": 3.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "casing discarded",
+      "original_string": "3 ounces Italian turkey sausage, casing discarded",
       "nutrition_infos": []
     },
     {
-      "name": "bottled minced garlic or 2 medium garlic cloves",
+      "name": "bottled minced garlic",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 20.0,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 100.0,
-          "unit": "KCAL",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 40.0,
-          "unit": "MG",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "1 teaspoon bottled minced garlic or 2 medium garlic cloves, minced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped green bell pepper",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup chopped green bell pepper",
+      "nutrition_infos": []
     },
     {
       "name": "chopped onion",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped onion",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -94,7 +69,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 39300.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -102,25 +77,147 @@
       ]
     },
     {
+      "name": "presliced fresh button mushrooms",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "8 ounces presliced fresh button mushrooms",
+      "nutrition_infos": []
+    },
+    {
       "name": "fat-free",
       "amount": 3.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "low-sodium chicken broth",
+      "original_string": "3 cups fat-free, low-sodium chicken broth",
+      "nutrition_infos": []
+    },
+    {
+      "name": "can no-salt-added chick-peas",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "rinsed and drained",
+      "original_string": "1 15-ounce can no-salt-added chick-peas, rinsed and drained",
+      "nutrition_infos": []
+    },
+    {
+      "name": "can no-salt-added diced tomatoes",
+      "amount": 7.75,
+      "unit": "oz",
+      "comment": "undrained",
+      "original_string": "1 14.5-ounce can no-salt-added diced tomatoes, undrained",
       "nutrition_infos": []
     },
     {
       "name": "dried basil",
       "amount": 1.0,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "1 teaspoon dried basil, crumbled",
       "nutrition_infos": []
     },
     {
       "name": "dried oregano",
       "amount": 1.5,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "1/2 teaspoon dried oregano, crumbled",
       "nutrition_infos": []
+    },
+    {
+      "name": "crushed red pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon crushed red pepper flakes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 50000.0,
+          "unit": "IU",
+          "serving_size": 0.4000000059604645,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -169,35 +266,42 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 100.0,
+      "amount": 0.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 39300.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 50000.0,
+      "unit": "IU",
+      "serving_size": 0.4000000059604645,
       "serving_size_unit": "g"
     }
   ]

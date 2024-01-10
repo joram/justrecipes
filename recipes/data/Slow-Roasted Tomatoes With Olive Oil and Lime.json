@@ -11,17 +11,92 @@
   ],
   "ingredients": [
     {
+      "name": "ice cubes, as needed",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Ice cubes, as needed",
+      "nutrition_infos": []
+    },
+    {
       "name": "medium",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "ripe but firm round tomatoes",
+      "original_string": "4 medium, ripe but firm round tomatoes",
       "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 110.4,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1205.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 101.49,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38700.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "limes",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 limes",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +107,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 67.0,
           "serving_size_unit": "g"
@@ -46,7 +121,7 @@
         },
         {
           "name": "Energy",
-          "amount": 830.0,
+          "amount": 30.0,
           "unit": "KCAL",
           "serving_size": 67.0,
           "serving_size_unit": "g"
@@ -116,7 +191,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 67.0,
           "serving_size_unit": "g"
@@ -124,10 +199,19 @@
       ]
     },
     {
+      "name": "pure lemon",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon pure lemon or lime oil or extract (see Tip), optional",
+      "nutrition_infos": []
+    },
+    {
       "name": "extra-virgin olive oil",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "preferably mild and fruity",
+      "original_string": "1/2 cup extra-virgin olive oil, preferably mild and fruity",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -200,6 +284,65 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "maldon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Maldon or other flaky sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38700.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -216,35 +359,56 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 67.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 67.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 10.4,
+      "amount": 110.4,
       "unit": "G",
-      "serving_size": 67.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 830.0,
+      "amount": 1205.0,
       "unit": "KCAL",
-      "serving_size": 67.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 1.49,
+      "amount": 101.49,
       "unit": "G",
-      "serving_size": 67.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38700.0,
+      "unit": "MG",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -269,13 +433,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 67.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin A, IU",
       "amount": 75.0,
       "unit": "IU",
@@ -293,20 +450,6 @@
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 67.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 67.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 13.3,
-      "unit": "G",
       "serving_size": 67.0,
       "serving_size_unit": "g"
     },

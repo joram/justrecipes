@@ -11,35 +11,112 @@
   ],
   "ingredients": [
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "raisins",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "preferably yellow",
+      "original_string": "1/3 cup raisins, preferably yellow",
       "nutrition_infos": []
     },
     {
-      "name": "olive oil",
-      "amount": 1.5,
+      "name": "granulated sugar",
+      "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "total",
-      "amount": 2.0,
-      "unit": "lb",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "orecchiette or other shaped pasta",
-      "amount": 12.0,
-      "unit": "oz",
-      "comment": "",
+      "original_string": "2 tablespoons granulated sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 12.5,
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 200.37,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 868.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 103.57,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 3150.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cup",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/2 cup plus 2 tablespoons olive oil, plus more if desired",
+      "nutrition_infos": []
+    },
+    {
+      "name": "small italian eggplants",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "trimmed and cut into 3/4-inch cubes",
+      "original_string": "2 small Italian eggplants (2 pounds total), trimmed and cut into 3/4-inch cubes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "orecchiette",
+      "amount": 12.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "12 ounces orecchiette or other shaped pasta",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.7,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -53,14 +130,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 93.16999999999999,
+          "amount": 76.8,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 493.0,
+          "amount": 357.0,
           "unit": "KCAL",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -74,14 +151,49 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 7.2,
+          "amount": 5.4,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
+          "name": "Calcium, Ca",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.2199999999999998,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
           "name": "Sodium, Na",
-          "amount": 3150.0,
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 357.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.3,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -103,10 +215,11 @@
       ]
     },
     {
-      "name": "finely chopped shallot about 1 small shallot",
+      "name": "finely chopped shallot",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup finely chopped shallot (about 1 small shallot)",
       "nutrition_infos": []
     },
     {
@@ -114,6 +227,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup pine nuts",
       "nutrition_infos": []
     },
     {
@@ -121,6 +235,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons drained brined capers",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -198,7 +313,8 @@
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "2 garlic cloves, finely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -238,10 +354,27 @@
       ]
     },
     {
+      "name": "red-pepper flakes",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packed cup thinly sliced fresh basil leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/3 packed cup thinly sliced fresh basil leaves, plus more leaves for garnish",
+      "nutrition_infos": []
+    },
+    {
       "name": "red wine vinegar",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons red wine vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -281,10 +414,11 @@
       ]
     },
     {
-      "name": "fresh ricotta or burrata about 8 ounces",
+      "name": "fresh ricotta",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup fresh ricotta or burrata (about 8 ounces)",
       "nutrition_infos": []
     }
   ],
@@ -300,63 +434,63 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 12.5,
+      "amount": 10.7,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 1.79,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 93.16999999999999,
+      "amount": 200.37,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 493.0,
+      "amount": 868.0,
       "unit": "KCAL",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 3.57,
+      "amount": 103.57,
       "unit": "G",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 7.2,
-      "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 3150.0,
       "unit": "MG",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 5.4,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -365,28 +499,35 @@
       "name": "Calcium, Ca",
       "amount": 71.0,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.29,
+      "amount": 3.2199999999999998,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
       "amount": 357.0,
       "unit": "IU",
-      "serving_size": 28.0,
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 4.3,
       "unit": "MG",
-      "serving_size": 28.0,
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     }
   ]

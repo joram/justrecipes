@@ -11,10 +11,91 @@
   ],
   "ingredients": [
     {
-      "name": "340-gram bag marshmallows preferably st",
-      "amount": 6.5,
-      "unit": "oz",
+      "name": "unsalted butter",
+      "amount": 113.0,
+      "unit": "g",
+      "comment": "preferably european-style",
+      "original_string": "1/2 cup/113 grams unsalted butter, preferably European-style, plus extra for greasing",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1214.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "1 (12-ounce/340-gram) bag marshmallows (preferably standard size)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "teaspoons/5 grams kosher salt",
+      "amount": 1.25,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 1/4 teaspoons/5 grams kosher salt (such as Diamond Crystal)",
       "nutrition_infos": []
     },
     {
@@ -22,6 +103,15 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
+      "nutrition_infos": []
+    },
+    {
+      "name": "rice krispies cereal",
+      "amount": 180.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "6 cups/180 grams Rice Krispies cereal",
       "nutrition_infos": []
     },
     {
@@ -29,6 +119,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Rainbow sprinkles (optional, but highly recommended)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -129,6 +220,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "flaky salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Flaky salt (optional)",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -146,28 +245,63 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 500.0,
+      "amount": 1214.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -199,44 +333,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }

@@ -12,21 +12,24 @@
       "name": "double-crust pie dough",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "preferably made with shortening",
+      "original_string": "1 double-crust pie dough,preferably made with shortening",
       "nutrition_infos": []
     },
     {
       "name": "coarsely ground sirloin",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "lb",
-      "comment": "",
+      "comment": "flank",
+      "original_string": "1 1/4 pounds coarsely ground sirloin,flank or chuck steak (or you maychop into 1/4-inch dice)",
       "nutrition_infos": []
     },
     {
       "name": "russet potatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled andthinly sliced",
+      "original_string": "2 russet potatoes, peeled andthinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -107,7 +110,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 30000.0,
           "unit": "MG",
           "serving_size": 148.0,
           "serving_size_unit": "g"
@@ -195,21 +198,131 @@
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved and thinly sliced",
+      "original_string": "1 large onion, halved and thinly sliced",
       "nutrition_infos": []
     },
     {
       "name": "medium rutabaga",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled andthinly sliced",
+      "original_string": "1 medium rutabaga, peeled andthinly sliced",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and pepper to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 30000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "butter",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -400,7 +513,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 30000.0,
       "unit": "MG",
       "serving_size": 148.0,
       "serving_size_unit": "g"
@@ -480,6 +593,13 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 148.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

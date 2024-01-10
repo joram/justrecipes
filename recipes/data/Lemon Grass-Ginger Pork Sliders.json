@@ -12,7 +12,8 @@
       "name": "ground pork",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "preferably pork shoulder",
+      "original_string": "1 pound ground pork, preferably pork shoulder or another fatty cut",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -72,14 +73,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 286.0,
+          "amount": 39586.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 28600.0,
           "unit": "IU",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -119,6 +120,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon turmeric",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -221,10 +223,19 @@
       ]
     },
     {
+      "name": "chopped lemon grass",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons chopped lemon grass ",
+      "nutrition_infos": []
+    },
+    {
       "name": "chopped garlic",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons chopped garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -282,6 +293,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped shallots",
       "nutrition_infos": []
     },
     {
@@ -289,6 +301,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons minced ginger",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -328,24 +341,186 @@
       ]
     },
     {
-      "name": "finely chopped",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chilled cooked white rice",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chilled cooked white rice",
       "nutrition_infos": []
     },
     {
-      "name": "about 1 4 cup peanut oil",
-      "amount": 1.0,
-      "unit": "",
+      "name": "cayenne",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon cayenne or other red chile powder",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 28600.0,
+          "unit": "IU",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "finely chopped",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "seeded plum tomatoes",
+      "original_string": "1/4 cup finely chopped, seeded plum tomatoes",
       "nutrition_infos": []
     },
     {
-      "name": "cilantro sprigs",
+      "name": "about 1/4 cup peanut oil and more for oiling the plate",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "About 1/4 cup peanut oil and more for oiling the plate",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cilantro sprigs, for garnish",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cilantro sprigs, for garnish",
       "nutrition_infos": []
     }
   ],
@@ -416,14 +591,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 286.0,
+      "amount": 39586.0,
       "unit": "MG",
       "serving_size": 112.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 28600.0,
       "unit": "IU",
       "serving_size": 112.0,
       "serving_size_unit": "g"

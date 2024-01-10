@@ -11,17 +11,70 @@
   ],
   "ingredients": [
     {
-      "name": "pounds",
+      "name": "large cucumbers",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled in alternating vertical stripes,  seeded,  then cut on the bias 1/4-inch thick",
+      "original_string": "2 large cucumbers (about 1 1/2 pounds), peeled in alternating vertical stripes, seeded, then cut on the bias 1/4-inch thick",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 857.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vegetable oil",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -139,37 +192,122 @@
     },
     {
       "name": "package extra-firm tofu",
-      "amount": 7.5,
-      "unit": "oz",
-      "comment": "",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "crumbled",
+      "original_string": "1 (14-ounce) package extra-firm tofu, crumbled",
       "nutrition_infos": []
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 garlic clove, finely chopped",
       "nutrition_infos": []
     },
     {
-      "name": "finely chopped scallions",
+      "name": "finely chopped scallions, toasted white sesame seeds and steamed rice",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Finely chopped scallions, toasted white sesame seeds and steamed rice, for serving (optional)",
       "nutrition_infos": []
     },
     {
-      "name": "soy sauce or tamari",
+      "name": "freshly ground white pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground white pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "soy sauce",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons soy sauce or tamari",
       "nutrition_infos": []
+    },
+    {
+      "name": "rice vinegar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "sesame oil",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon sesame oil",
       "nutrition_infos": []
     },
     {
@@ -177,6 +315,23 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon cornstarch",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sichuan chile flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon Sichuan chile flakes",
       "nutrition_infos": []
     }
   ],
@@ -194,28 +349,42 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 100.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 857.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38800.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -254,23 +423,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
     },

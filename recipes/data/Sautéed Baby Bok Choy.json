@@ -14,18 +14,20 @@
       "name": "neutral cooking oil",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "like canola",
+      "original_string": "2 tablespoons neutral cooking oil, like canola",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and minced",
+      "original_string": "2 garlic cloves, peeled and minced",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 1.77,
+          "amount": 3.4,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -39,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 21.77,
+          "amount": 22.18,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 113.0,
+          "amount": 121.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 106.0,
+          "amount": 318.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -64,14 +66,24 @@
       "name": "-inch piece ginger root",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and minced",
+      "original_string": "1 ½-inch piece ginger root, peeled and minced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "or",
+      "original_string": "¼ teaspoon red-pepper flakes, or to taste",
       "nutrition_infos": []
     },
     {
       "name": "of baby bok choy",
       "amount": 4.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "approximately 11/2 pounds,  cleaned,  with the ends trimmed",
+      "original_string": "4 bunches of baby bok choy, approximately 1½ pounds, cleaned, with the ends trimmed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -103,7 +115,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.88,
+          "amount": 1.29,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -131,7 +143,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 257.0,
+          "amount": 379.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -159,7 +171,7 @@
         },
         {
           "name": "Sugars, added",
-          "amount": 0.0,
+          "amount": 0.4,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -192,20 +204,129 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon soy sauce",
       "nutrition_infos": []
     },
     {
-      "name": "chicken stock or water",
+      "name": "chicken stock",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 tablespoon chicken stock or water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.63,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 8.0,
+          "unit": "KCAL",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 122.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 212.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.4,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "toasted sesame oil for drizzling",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Toasted sesame oil for drizzling",
       "nutrition_infos": []
     }
   ],
@@ -219,7 +340,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 1.77,
+      "amount": 3.4,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -233,28 +354,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 21.77,
+      "amount": 22.18,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 113.0,
+      "amount": 121.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 106.0,
+      "amount": 318.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.88,
+      "amount": 1.29,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -282,7 +403,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 257.0,
+      "amount": 379.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -303,7 +424,7 @@
     },
     {
       "name": "Sugars, added",
-      "amount": 0.0,
+      "amount": 0.4,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"

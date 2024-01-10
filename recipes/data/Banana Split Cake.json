@@ -13,20 +13,122 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups crushed graham crackers",
       "nutrition_infos": []
     },
     {
-      "name": "3 sticks butter",
+      "name": "butter",
       "amount": 3.5,
       "unit": "lb",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3/4 pound (3 sticks) butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 4.75,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 55.7,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 139.45,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 983.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 134.78,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 95.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.56,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 107.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3887.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 8.5,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 18.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 45.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "eggs",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -37,28 +139,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 55.7,
+          "amount": 35.7,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 137.1,
+          "amount": 57.1,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 971.0,
+          "amount": 571.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 133.6,
+          "amount": 53.6,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -121,7 +223,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 45.0,
+          "amount": 25.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -129,24 +231,35 @@
       ]
     },
     {
-      "name": "one 20-ounce can crushed pineapple",
+      "name": "one 16 ounce box powdered sugar",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "One 16-ounce box powdered sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "one 20 ounce can crushed pineapple, drained",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "One 20-ounce can crushed pineapple, drained",
       "nutrition_infos": []
     },
     {
       "name": "to 3 bananas",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "2 to 3 bananas, sliced",
       "nutrition_infos": []
     },
     {
-      "name": "one 12-ounce container cool whip",
+      "name": "one 12 ounce container cool whip",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "One 12-ounce container Cool Whip",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -221,100 +334,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.57,
+      "amount": 4.75,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 55.7,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 137.1,
+      "amount": 139.45,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 971.0,
+      "amount": 983.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 133.6,
+      "amount": 134.78,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 1.2,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 71.0,
+      "amount": 95.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.29,
+      "amount": 2.56,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 107.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 357.0,
+      "amount": 3887.0,
       "unit": "IU",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 4.3,
+      "amount": 8.5,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 18.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 45.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     }
   ]

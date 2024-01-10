@@ -15,6 +15,7 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup olive oil, plus more to grease pan",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup cocoa powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,14 +41,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 174.2,
+          "amount": 274.2,
           "unit": "G",
           "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1295.0,
+          "amount": 1670.0,
           "unit": "KCAL",
           "serving_size": 4.0,
           "serving_size_unit": "g"
@@ -67,7 +69,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 38440.0,
+          "amount": 77240.0,
           "unit": "MG",
           "serving_size": 4.0,
           "serving_size_unit": "g"
@@ -78,7 +80,8 @@
       "name": "unsweetened chocolate",
       "amount": 2.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "2 ounces unsweetened chocolate, finely chopped",
       "nutrition_infos": []
     },
     {
@@ -86,6 +89,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -124,7 +128,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 43.23,
+          "amount": 143.23000000000002,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -178,6 +182,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large egg yolks",
       "nutrition_infos": []
     },
     {
@@ -185,13 +190,66 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
-      "name": "all-purpose flour",
-      "amount": 2.6666666666666665,
+      "name": "sugar",
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "all-purpose flour",
+      "amount": 1.75,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 3/4 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -280,10 +338,62 @@
       ]
     },
     {
-      "name": "bittersweet chocolate",
-      "amount": 1.6666666666666667,
-      "unit": "oz",
+      "name": "kosher salt",
+      "amount": 3.5,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "3/4 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "bittersweet chocolate",
+      "amount": 2.5,
+      "unit": "oz",
+      "comment": "coarsely chopped",
+      "original_string": "2 1/2 ounces bittersweet chocolate, coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -383,13 +493,15 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups shredded sweetened coconut",
       "nutrition_infos": []
     },
     {
-      "name": "fleur de sel",
+      "name": "fleur de sel, for sprinkling",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fleur de sel, for sprinkling",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -480,14 +592,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 174.2,
+      "amount": 274.2,
       "unit": "G",
       "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1295.0,
+      "amount": 1670.0,
       "unit": "KCAL",
       "serving_size": 4.0,
       "serving_size_unit": "g"
@@ -508,14 +620,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 38440.0,
+      "amount": 77240.0,
       "unit": "MG",
       "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 43.23,
+      "amount": 143.23000000000002,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"

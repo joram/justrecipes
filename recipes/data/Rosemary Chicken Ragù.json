@@ -11,10 +11,83 @@
   ],
   "ingredients": [
     {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.06,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 135.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 44.870000000000005,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1438.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39868.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 4380.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 58.33,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "tomato paste",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +105,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 38.2,
+          "amount": 18.2,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 191.0,
+          "amount": 91.0,
           "unit": "KCAL",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 9.09,
+          "amount": 12.42,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -74,7 +147,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 101.0,
+          "amount": 61.0,
           "unit": "MG",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -120,7 +193,8 @@
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely grated",
+      "original_string": "6 garlic cloves, finely grated or chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -164,41 +238,170 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 anchovy fillets",
       "nutrition_infos": []
     },
     {
-      "name": "rosemary sprig or 3 4 teaspoon dried",
+      "name": "red-pepper flakes",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "rosemary sprig",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 rosemary sprig (or 3/4 teaspoon dried)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 56.7,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 533.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 467.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 8.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dry white wine",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup dry white wine (optional)",
       "nutrition_infos": []
     },
     {
-      "name": "boneless",
-      "amount": 1.3333333333333333,
-      "unit": "lb",
+      "name": "to 2 pounds boneless",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "skinless chicken thighs",
+      "original_string": "1 1/2 to 2 pounds boneless, skinless chicken thighs",
+      "nutrition_infos": []
+    },
+    {
+      "name": "crushed",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
+      "original_string": "1 (28-ounce) can crushed or whole tomatoes",
       "nutrition_infos": []
     },
     {
-      "name": "can crushed or whole tomatoes",
-      "amount": 14.5,
-      "unit": "oz",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "long noodles like pappardelle or fettuccine",
+      "name": "long noodles like pappardelle",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound long noodles like pappardelle or fettuccine ",
       "nutrition_infos": []
     },
     {
@@ -206,6 +409,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Grated Parmesan, for serving",
       "nutrition_infos": []
     }
   ],
@@ -222,33 +426,68 @@
       "name": "Protein",
       "amount": 6.06,
       "unit": "G",
-      "serving_size": 33.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 135.3,
       "unit": "G",
-      "serving_size": 33.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 38.2,
+      "amount": 44.870000000000005,
       "unit": "G",
-      "serving_size": 33.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 191.0,
+      "amount": 1438.0,
       "unit": "KCAL",
-      "serving_size": 33.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39868.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 4380.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 58.33,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 9.09,
+      "amount": 12.42,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
@@ -275,44 +514,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 101.0,
-      "unit": "MG",
-      "serving_size": 33.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 1520.0,
-      "unit": "IU",
-      "serving_size": 33.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 18.2,
       "unit": "MG",
-      "serving_size": 33.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 33.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 33.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     }

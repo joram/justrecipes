@@ -10,17 +10,91 @@
   ],
   "ingredients": [
     {
-      "name": "seckel pears or bosc or bartlett",
+      "name": "lemons",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "juiced",
+      "original_string": "2 lemons, juiced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 36.580000000000005,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 5.36,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 71.63,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 685.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 60.949999999999996,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 36.9,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 764.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 138.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "seckel pears",
       "amount": 24.0,
       "unit": "",
       "comment": "",
+      "original_string": "24 Seckel pears (or Bosc or Bartlett, but they may need to be quartered to fit the jar)",
       "nutrition_infos": []
     },
     {
-      "name": "2",
-      "amount": 1.0,
+      "name": "/3 cup sugar",
+      "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 and 2/3 cup sugar ",
       "nutrition_infos": []
     },
     {
@@ -28,6 +102,7 @@
       "amount": 6.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "6 whole star anise",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -38,7 +113,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 33.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -59,7 +134,7 @@
         },
         {
           "name": "Energy",
-          "amount": 333.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -71,6 +146,7 @@
       "amount": 6.0,
       "unit": "",
       "comment": "",
+      "original_string": "6 vanilla beans",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -123,7 +199,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 3.86,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -151,7 +227,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 71.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -165,9 +241,116 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 1.79,
           "unit": "G",
           "serving_size": 3.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "pink peppercorns",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons pink peppercorns",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 35.7,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 5.36,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 28.6,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 321.0,
+          "unit": "KCAL",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.9,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.86,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 28.0,
           "serving_size_unit": "g"
         }
       ]
@@ -184,64 +367,71 @@
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "name": "Protein",
+      "amount": 36.580000000000005,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 5.36,
+      "unit": "G",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 33.3,
+      "amount": 71.63,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Protein",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 333.0,
+      "amount": 685.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 33.3,
+      "amount": 60.949999999999996,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 33.3,
+      "amount": 36.9,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 667.0,
+      "amount": 764.0,
       "unit": "MG",
-      "serving_size": 3.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 138.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 1000.0,
+      "unit": "MG",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 3.86,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -262,7 +452,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 71.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -276,7 +466,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 1.79,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"

@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "dried rice vermicelli",
+      "amount": 5.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "5 ounces dried rice vermicelli",
+      "nutrition_infos": []
+    },
+    {
       "name": "dried shiitake mushrooms",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 dried shiitake mushrooms",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +41,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 117.1,
+          "amount": 260.1,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -60,7 +69,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 107.0,
+          "amount": 38907.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -79,6 +88,7 @@
       "amount": 5.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "5 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -198,7 +208,8 @@
       "name": "eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "2 eggs, lightly beaten",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -304,28 +315,83 @@
       "name": "large shallots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "2 large shallots, thinly sliced",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large carrot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into thin matchsticks",
+      "original_string": "1 large carrot, cut into thin matchsticks (about 2 1/2 cups)",
       "nutrition_infos": []
     },
     {
       "name": "small green cabbage",
       "amount": 2.5,
       "unit": "",
-      "comment": "",
+      "comment": "shredded",
+      "original_string": "1/4 small green cabbage, shredded (about 2 1/2 cups)",
       "nutrition_infos": []
     },
     {
-      "name": "baked or smoked tofu",
+      "name": "baked",
       "amount": 8.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "8 ounces baked or smoked tofu, cut into thin matchsticks (about 2 cups)",
       "nutrition_infos": []
     },
     {
@@ -333,13 +399,88 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons soy sauce",
       "nutrition_infos": []
+    },
+    {
+      "name": "ground white pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon ground white pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 143.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.699999988079071,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fresh cilantro",
       "amount": 2.5,
       "unit": "cup",
+      "comment": "roughly chopped",
+      "original_string": "1/4 cup fresh cilantro, roughly chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chile oil",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Chile oil, for serving",
       "nutrition_infos": []
     }
   ],
@@ -368,7 +509,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 117.1,
+      "amount": 260.1,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -396,7 +537,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 107.0,
+      "amount": 38907.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

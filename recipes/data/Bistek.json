@@ -11,10 +11,11 @@
   ],
   "ingredients": [
     {
-      "name": "2 pounds",
-      "amount": 1.5,
+      "name": "2",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 (1-inch-thick) rib-eye steaks (about 1 1/2 pounds)",
       "nutrition_infos": []
     },
     {
@@ -22,13 +23,73 @@
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons good-quality olive oil",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh bay leaves",
+      "amount": 10.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "10 fresh bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 814.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic cloves",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": "each clove smashed into 3 to 4 pieces",
+      "original_string": "8 garlic cloves, each clove smashed into 3 to 4 pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -71,7 +132,104 @@
       "name": "large white onion",
       "amount": 1.0,
       "unit": "",
+      "comment": "peeled and sliced crosswise into 3/4-inch-thick rounds",
+      "original_string": "1 large white onion, peeled and sliced crosswise into 3/4-inch-thick rounds",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup fresh lemon juice (from 2 to 3 whole lemons)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh orange juice",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons fresh orange juice (from 1/2 orange)",
       "nutrition_infos": []
     },
     {
@@ -79,6 +237,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup soy sauce",
       "nutrition_infos": []
     }
   ],
@@ -96,35 +255,70 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 20.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 100.0,
+      "amount": 814.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 40.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

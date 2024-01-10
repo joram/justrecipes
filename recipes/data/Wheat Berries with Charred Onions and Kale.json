@@ -12,16 +12,18 @@
   "ingredients": [
     {
       "name": "wheat berries",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups wheat berries",
       "nutrition_infos": []
     },
     {
       "name": "medium onions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved,  divided",
+      "original_string": "2 medium onions, halved, divided",
       "nutrition_infos": []
     },
     {
@@ -29,20 +31,82 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 sprigs thyme",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon kosher salt plus more",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.54,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.88,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 9.73,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 53.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38844.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "olive oil",
       "amount": 8.0,
       "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "8 tablespoons olive oil, divided",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Freshly ground black pepper",
       "nutrition_infos": []
     },
     {
       "name": "kale",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "stemmed,  leaves torn into 2\" pieces",
+      "original_string": "1 bunch kale, stemmed, leaves torn into 2\" pieces (about 8 packed cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -236,10 +300,19 @@
       ]
     },
     {
-      "name": "ingredient info: wheat berries",
+      "name": "fresh lemon juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ingredient info: wheat berries, also called hard wheat, are available at most natural foods stores.",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Ingredient info: Wheat berries, also called hard wheat, are available at most natural foods stores.",
       "nutrition_infos": []
     }
   ],
@@ -253,28 +326,42 @@
       "name": "Protein",
       "amount": 3.54,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.88,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 9.73,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 53.0,
       "unit": "KCAL",
-      "serving_size": 113.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38844.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -322,13 +409,6 @@
     {
       "name": "Potassium, K",
       "amount": 447.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 44.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -414,13 +494,6 @@
       "name": "Vitamin K (phylloquinone)",
       "amount": 828.0,
       "unit": "UG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },

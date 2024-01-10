@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
-      "name": "large onion",
+      "name": "2",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 (28- to 32-oz) cans whole tomatoes in juice (preferably organic)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large onion",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 large onion, coarsely chopped (2 1/4 cups)",
       "nutrition_infos": []
     },
     {
@@ -22,6 +31,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons finely chopped garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,21 +49,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 14.3,
+          "amount": 164.3,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 57.0,
+          "amount": 932.0,
           "unit": "KCAL",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -67,21 +77,21 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 0.0,
+          "amount": 1000.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 54.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 14.0,
+          "amount": 39314.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -124,10 +134,19 @@
       ]
     },
     {
+      "name": "finely chopped fresh jalapeño chile including seeds",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon finely chopped fresh jalapeño chile including seeds",
+      "nutrition_infos": []
+    },
+    {
       "name": "finely chopped peeled fresh ginger",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons finely chopped peeled fresh ginger",
       "nutrition_infos": []
     },
     {
@@ -135,14 +154,211 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "reduced-sodium chicken broth 18 fl oz",
-      "amount": 2.3333333333333335,
+      "name": "ground cumin",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon ground cumin",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 54.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "reduced-sodium chicken broth",
+      "amount": 2.25,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/4 cups reduced-sodium chicken broth (18 fl oz)",
       "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "or",
+      "original_string": "1 tablespoon sugar, or to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "or",
+      "original_string": "2 teaspoons salt, or to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -168,21 +384,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 14.3,
+      "amount": 164.3,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 57.0,
+      "amount": 932.0,
       "unit": "KCAL",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
@@ -196,21 +412,21 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 0.0,
+      "amount": 1000.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 54.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 14.0,
+      "amount": 39314.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
@@ -248,6 +464,13 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 7.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 2.0,
       "serving_size_unit": "g"
     }
   ]

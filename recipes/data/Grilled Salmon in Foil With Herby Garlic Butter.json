@@ -15,24 +15,93 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 Tbsp. honey",
       "nutrition_infos": []
+    },
+    {
+      "name": "diamond crystal",
+      "amount": 6.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1½ tsp. Diamond Crystal or 1 tsp. Morton kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 18.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 81.69999999999999,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 920.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39270.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "finely grated lemon zest",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 tsp. finely grated lemon zest",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "6 garlic cloves, finely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 18.6,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 3.1,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -46,16 +115,88 @@
         },
         {
           "name": "Energy",
-          "amount": 206.0,
+          "amount": 100.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 270.0,
+          "amount": 40.0,
           "unit": "MG",
           "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "room temperature",
+      "original_string": "4 Tbsp. unsalted butter, room temperature",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3302.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 280.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.88,
+          "unit": "G",
+          "serving_size": 14.0,
           "serving_size_unit": "g"
         }
       ]
@@ -65,13 +206,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 Tbsp. finely chopped dill, plus more for serving",
       "nutrition_infos": []
     },
     {
       "name": "boneless salmon fillet",
       "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
+      "unit": "",
+      "comment": "preferably skin-on",
+      "original_string": "1 (1 lb.) boneless salmon fillet, preferably skin-on",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -172,6 +315,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "divided",
+      "original_string": "4 Tbsp. fresh lemon juice, divided",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -186,35 +337,63 @@
       "name": "Protein",
       "amount": 18.6,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 3.1,
+      "amount": 81.69999999999999,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 20.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 206.0,
+      "amount": 920.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 270.0,
+      "amount": 39270.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3302.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 280.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.88,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -246,37 +425,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 442.0,
-      "unit": "IU",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 66.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.88,
-      "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     }

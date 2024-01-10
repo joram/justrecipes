@@ -13,45 +13,92 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely diced",
+      "original_string": "1 large onion, finely diced (about 2 cups)",
       "nutrition_infos": []
     },
     {
-      "name": "ground veal",
+      "name": "salt",
       "amount": 2.0,
-      "unit": "lb",
+      "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 85.71,
           "unit": "G",
-          "serving_size": 113.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 50.31,
           "unit": "G",
-          "serving_size": 113.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 74.55,
           "unit": "G",
-          "serving_size": 113.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 1091.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 42515.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground veal",
+      "amount": 2.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "2 pounds ground veal",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 19.5,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 5.31,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 133.0,
           "unit": "KCAL",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -86,7 +133,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 3215.0,
+          "amount": 84.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -133,6 +180,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -225,6 +273,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2/3 cup bread crumbs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -352,6 +401,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup grated Parmesan cheese",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -457,14 +507,16 @@
       "name": "carrot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely diced",
+      "original_string": "1 carrot, finely diced (about 1 cup)",
       "nutrition_infos": []
     },
     {
       "name": "celery stalk",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely diced",
+      "original_string": "1 celery stalk, finely diced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -571,13 +623,23 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped fresh parsley",
       "nutrition_infos": []
     },
     {
-      "name": "dried",
+      "name": "chopped fresh oregano",
       "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon chopped fresh oregano or 1 teaspoon dried",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon freshly ground black pepper",
       "nutrition_infos": []
     }
   ],
@@ -595,28 +657,35 @@
       "name": "Protein",
       "amount": 85.71,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 50.31,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 74.55,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 1091.0,
       "unit": "KCAL",
-      "serving_size": 113.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 42515.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -643,13 +712,6 @@
     {
       "name": "Iron, Fe",
       "amount": 6.890000000000001,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 3215.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"

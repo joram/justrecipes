@@ -11,16 +11,18 @@
   "ingredients": [
     {
       "name": "savoy cabbage",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 1/2 pounds savoy cabbage",
       "nutrition_infos": []
     },
     {
-      "name": "1 tablespoon canola oil",
+      "name": "cup",
       "amount": 2.5,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
+      "original_string": "1/4 cup plus 1 tablespoon canola oil",
       "nutrition_infos": []
     },
     {
@@ -28,6 +30,7 @@
       "amount": 2.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "2 whole cloves",
       "nutrition_infos": []
     },
     {
@@ -35,6 +38,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon black mustard seeds",
+      "nutrition_infos": []
+    },
+    {
+      "name": "curry leaves",
+      "amount": 20.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "20 curry leaves",
       "nutrition_infos": []
     },
     {
@@ -42,6 +54,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 bay leaf",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -80,7 +93,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 281.0,
+          "amount": 39081.0,
           "unit": "MG",
           "serving_size": 0.5,
           "serving_size_unit": "g"
@@ -99,6 +112,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons finely chopped shallot",
       "nutrition_infos": []
     },
     {
@@ -106,6 +120,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons finely chopped garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -211,7 +226,8 @@
       "name": "peeled",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "julienned fresh ginger",
+      "original_string": "2 tablespoons peeled, julienned fresh ginger",
       "nutrition_infos": []
     },
     {
@@ -219,6 +235,7 @@
       "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1/2 tablespoon ground turmeric",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -258,17 +275,27 @@
       ]
     },
     {
-      "name": "chopped fresh or canned tomato",
+      "name": "to 2 tablespoons finely chopped seeded jalapeño pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 to 2 tablespoons finely chopped seeded jalapeño pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped fresh or canned tomato",
       "nutrition_infos": []
     },
     {
       "name": "vegetable broth",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups vegetable broth",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -369,6 +396,57 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -415,7 +493,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 281.0,
+      "amount": 39081.0,
       "unit": "MG",
       "serving_size": 0.5,
       "serving_size_unit": "g"

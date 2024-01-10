@@ -15,6 +15,7 @@
       "amount": 3.0,
       "unit": "head",
       "comment": "",
+      "original_string": "3 heads garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,7 +26,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 133.3,
+          "amount": 211.9,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -39,7 +40,7 @@
         },
         {
           "name": "Energy",
-          "amount": 1534.0,
+          "amount": 2248.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -53,7 +54,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 73.0,
+          "amount": 38873.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -79,13 +80,15 @@
       "amount": 6.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "6 teaspoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "neutral oil",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "such as canola",
+      "original_string": "1 cup neutral oil, such as canola or vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -124,7 +127,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 113.4,
+          "amount": 163.4,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -135,7 +138,8 @@
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced crosswise",
+      "original_string": "6 garlic cloves, thinly sliced crosswise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -175,10 +179,62 @@
       ]
     },
     {
-      "name": "red or russet potatoes see tip",
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 381.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "red",
       "amount": 4.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "4 pounds red or russet potatoes (see Tip)",
       "nutrition_infos": []
     },
     {
@@ -186,6 +242,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -288,11 +345,158 @@
       ]
     },
     {
+      "name": "fresh bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 fresh bay leaves, or 4 dried bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "minced fresh rosemary",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced fresh rosemary, plus more for garnish",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh thyme leaves",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon fresh thyme leaves, plus more for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "cut into small cubes",
+      "original_string": "3/4 cup unsalted butter (1 1/2 sticks), cut into small cubes, plus more for serving",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -315,7 +519,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 133.3,
+      "amount": 211.9,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -329,7 +533,7 @@
     },
     {
       "name": "Energy",
-      "amount": 1534.0,
+      "amount": 2248.0,
       "unit": "KCAL",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -343,7 +547,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 73.0,
+      "amount": 38873.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -364,9 +568,16 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 113.4,
+      "amount": 163.4,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 381.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -405,10 +616,10 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 167.0,
-      "unit": "MG",
-      "serving_size": 15.0,
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

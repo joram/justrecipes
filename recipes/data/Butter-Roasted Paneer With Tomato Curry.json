@@ -11,10 +11,11 @@
   ],
   "ingredients": [
     {
-      "name": "4 pounds paneer",
+      "name": "/4 pounds paneer",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 1-inch cubes",
+      "original_string": "1 to 1 1/4 pounds paneer, cut into 1-inch cubes (2 to 3 packages, depending on size)",
       "nutrition_infos": []
     },
     {
@@ -22,52 +23,127 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 to 6 tablespoons plain whole-milk Greek yogurt",
       "nutrition_infos": []
     },
     {
-      "name": "neutral oil",
-      "amount": 2.0,
+      "name": "ghee",
+      "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons ghee or unsalted butter, melted",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 11.2,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 106.39999999999999,
+          "amount": 206.4,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 76.4,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1357.0,
+          "amount": 2257.0,
           "unit": "KCAL",
-          "serving_size": 15.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 1640.0,
           "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 147.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "kosher salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "neutral oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "such as vegetable,  safflower",
+      "original_string": "2 tablespoons neutral oil, such as vegetable, safflower or grapeseed oil",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 867.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 87.2,
+          "amount": 86.7,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -75,31 +151,51 @@
       ]
     },
     {
+      "name": "cumin seeds",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon cumin seeds",
+      "nutrition_infos": []
+    },
+    {
       "name": "fenugreek seeds",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon fenugreek seeds (optional)",
       "nutrition_infos": []
     },
     {
       "name": "cardamom pods",
       "amount": 2.0,
       "unit": "",
+      "comment": "cracked",
+      "original_string": "2 cardamom pods, cracked",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cinnamon stick",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "1 cinnamon stick",
       "nutrition_infos": []
     },
     {
       "name": "medium yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 medium yellow onion, finely chopped",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "3 garlic cloves, minced or finely grated",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -139,10 +235,11 @@
       ]
     },
     {
-      "name": "finely grated fresh ginger from about 3 4-inch piece",
+      "name": "finely grated fresh ginger",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons finely grated fresh ginger (from about 3/4-inch piece)",
       "nutrition_infos": []
     },
     {
@@ -150,6 +247,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons garam masala",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -249,6 +347,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon ground turmeric",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -288,10 +387,27 @@
       ]
     },
     {
-      "name": "can whole plum tomatoes",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "a 1/4 tsp of ground cayenne",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Pinch of ground cayenne or red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "whole plum tomatoes",
+      "amount": 1.0,
+      "unit": "can",
+      "comment": "",
+      "original_string": "1 (15-ounce) can whole plum tomatoes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarsely chopped cilantro leaves and tender stems",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup coarsely chopped cilantro leaves and tender stems, plus more for garnish",
       "nutrition_infos": []
     }
   ],
@@ -309,42 +425,56 @@
       "name": "Protein",
       "amount": 11.2,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 106.39999999999999,
+      "amount": 206.4,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 76.4,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1357.0,
+      "amount": 2257.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 1640.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 300.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 87.2,
+      "amount": 147.2,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -379,20 +509,6 @@
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }

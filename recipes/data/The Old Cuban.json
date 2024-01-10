@@ -10,24 +10,114 @@
   ],
   "ingredients": [
     {
-      "name": "2 tablespoons simple syrup",
+      "name": "mint leaves",
+      "amount": 6.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "6 mint leaves, plus the tip of a mint sprig for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lime juice",
+      "amount": 3.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "3/4 ounce (1 1/2 tablespoons) lime juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 33.3,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "simple syrup",
       "amount": 1.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "see note",
+      "original_string": "1 ounce (2 tablespoons) simple syrup, see note",
       "nutrition_infos": []
     },
     {
-      "name": "3 tablespoons amber rum",
-      "amount": 1.3333333333333333,
+      "name": "amber rum",
+      "amount": 1.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 1/2 ounces (3 tablespoons) amber rum",
       "nutrition_infos": []
     },
     {
-      "name": "or 2 dashes angostura bitters",
+      "name": "1",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 or 2 dashes Angostura bitters",
       "nutrition_infos": []
     },
     {
@@ -35,6 +125,15 @@
       "amount": 2.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "2 ounces Champagne",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lime slice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 lime slice",
       "nutrition_infos": []
     }
   ],
@@ -43,5 +142,76 @@
     "With a knife, slit the lime slice halfway through and pierce it with the mint sprig. Perch it on the rim of the glass."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 6.67,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 3.33,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 100.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 33.3,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

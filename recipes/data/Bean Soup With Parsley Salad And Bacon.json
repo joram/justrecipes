@@ -13,13 +13,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon olive oil",
       "nutrition_infos": []
     },
     {
       "name": "garlic",
       "amount": 3.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "peeled and minced",
+      "original_string": "3 cloves garlic, peeled and minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -58,7 +60,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 3501.0,
+          "amount": 81601.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -83,42 +85,107 @@
       "name": "medium onions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and diced",
+      "original_string": "2 medium onions, peeled and diced",
       "nutrition_infos": []
     },
     {
       "name": "dried navy beans",
       "amount": 3.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "soaked overnight and drained",
+      "original_string": "3 cups dried navy beans, soaked overnight and drained",
       "nutrition_infos": []
     },
     {
       "name": "quarts chicken broth",
       "amount": 3.0,
       "unit": "",
+      "comment": "homemade",
+      "original_string": "3 quarts chicken broth, homemade or low-sodium canned",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 2.25,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "2 1/4 teaspoons kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 189.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground pepper to taste",
       "nutrition_infos": []
     },
     {
       "name": "chopped fresh rosemary",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons chopped fresh rosemary",
       "nutrition_infos": []
     },
     {
       "name": "chopped fresh thyme",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons chopped fresh thyme",
       "nutrition_infos": []
     },
     {
       "name": "slab bacon",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 3/4-inch-thick slices,  then across into 1/4-inch-wide strips",
+      "original_string": "1 pound slab bacon, cut into 3/4-inch-thick slices, then across into 1/4-inch-wide strips",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -199,7 +266,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 189.0,
+          "amount": 100.0,
           "unit": "MG",
           "serving_size": 10.0,
           "serving_size_unit": "g"
@@ -222,9 +289,10 @@
     },
     {
       "name": "italian parsley",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "very coarsely chopped",
+      "original_string": "1 1/2 cups Italian parsley, very coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -264,17 +332,79 @@
       ]
     },
     {
+      "name": "fresh lemon juice",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 tablespoons fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
       "name": "olive oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground pepper to taste",
       "nutrition_infos": []
     },
     {
       "name": "-inch-thick rounds french baguette",
-      "amount": 7.666666666666667,
+      "amount": 18.25,
       "unit": "",
-      "comment": "",
+      "comment": "about 1 inch in diameter",
+      "original_string": "18 1/4-inch-thick rounds French baguette, about 1 inch in diameter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -385,16 +515,18 @@
     },
     {
       "name": "olive oil",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "large head roasted garlic",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cloves separated",
+      "original_string": "1 large head roasted garlic, cloves separated",
       "nutrition_infos": []
     },
     {
@@ -402,6 +534,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup shaved Parmesan cheese",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -549,7 +682,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 3501.0,
+      "amount": 81601.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -566,6 +699,13 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 189.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -593,13 +733,6 @@
       "name": "Vitamin A, IU",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 10.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 189.0,
-      "unit": "MG",
       "serving_size": 10.0,
       "serving_size_unit": "g"
     },

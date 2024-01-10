@@ -11,17 +11,78 @@
   ],
   "ingredients": [
     {
-      "name": "or 2 9-ounce containers brussels sprouts",
+      "name": "pound",
       "amount": 1.0,
-      "unit": "lb",
+      "unit": "",
       "comment": "",
+      "original_string": "1 pound or 2 (9-ounce) containers brussels sprouts",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 23.33,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 151.63,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 195.33,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1623.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40316.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 8.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "small shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "halved",
+      "original_string": "1 small shallot, halved",
       "nutrition_infos": []
     },
     {
@@ -29,38 +90,39 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons sherry vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 23.33,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 151.63,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 28.33,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1623.0,
+          "amount": 23.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1516.0,
+          "amount": 16.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -79,6 +141,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon Dijon mustard",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -118,17 +181,126 @@
       ]
     },
     {
-      "name": "honey or maple syrup",
+      "name": "honey",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon honey or maple syrup",
       "nutrition_infos": []
+    },
+    {
+      "name": "black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 167.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 56.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 345.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 18.3,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "extra-virgin olive oil",
       "amount": 5.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "5 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -167,7 +339,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 8.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -181,7 +353,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 18.3,
+          "amount": 13.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -204,9 +376,10 @@
     },
     {
       "name": "pecorino sardo",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 1/2 ounces Pecorino Sardo, or other sharp sheep’s milk cheese, shaved with a vegetable peeler (about 1 scant cup)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -238,28 +411,28 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 10.0,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 60.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 15.0,
+          "amount": 1.7,
           "unit": "G",
           "serving_size": 60.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 345.0,
+          "amount": 75.0,
           "unit": "MG",
           "serving_size": 60.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 5.0,
+          "amount": 1.67,
           "unit": "MG",
           "serving_size": 60.0,
           "serving_size_unit": "g"
@@ -319,7 +492,8 @@
       "name": "whole raw almonds",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "roughly chopped",
+      "original_string": "1/3 cup whole raw almonds, roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -435,35 +609,42 @@
       "name": "Protein",
       "amount": 23.33,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 151.63,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 28.33,
+      "amount": 195.33,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 1623.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 1516.0,
+      "amount": 40316.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 8.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -474,17 +655,52 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 8.0,
+      "name": "Total Sugars",
+      "amount": 10.0,
+      "unit": "G",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 56.7,
+      "unit": "G",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 345.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 5.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 18.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
@@ -499,34 +715,6 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 10.0,
-      "unit": "G",
-      "serving_size": 60.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 15.0,
-      "unit": "G",
-      "serving_size": 60.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 345.0,
-      "unit": "MG",
-      "serving_size": 60.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 5.0,
-      "unit": "MG",
-      "serving_size": 60.0,
       "serving_size_unit": "g"
     },
     {

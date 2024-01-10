@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
-      "name": "1 2 pounds boneless pork shoulder",
+      "name": "1/2 pounds boneless pork shoulder",
       "amount": 3.0,
       "unit": "",
+      "comment": "trimmed of more than 1/4-inch fat",
+      "original_string": "3 to 3 1/2 pounds boneless pork shoulder, trimmed of more than 1/4-inch fat",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     },
     {
@@ -22,10 +31,11 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 0.41,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -39,21 +49,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 120.41,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 900.0,
+          "amount": 1279.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 40.0,
+          "amount": 391.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -96,31 +106,86 @@
       ]
     },
     {
-      "name": "store-bought or homemade barbecue sauce",
+      "name": "store-bought",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup store-bought or homemade barbecue sauce",
       "nutrition_infos": []
     },
     {
       "name": "canned chipotle in adobo",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 canned chipotle in adobo, finely chopped, plus more to taste",
       "nutrition_infos": []
+    },
+    {
+      "name": "light brown sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons light brown sugar, plus more to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.41,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and coarsely chopped",
+      "original_string": "1 large yellow onion, peeled and coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "4 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -160,17 +225,125 @@
       ]
     },
     {
-      "name": "chicken broth or water",
+      "name": "chicken broth",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 cups chicken broth or water",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 4.0,
+          "unit": "KCAL",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 351.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.4,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "cans pinto beans not drained",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "2",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "2 (14-ounce) cans pinto beans (not drained)",
       "nutrition_infos": []
     }
   ],
@@ -185,7 +358,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 0.41,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -199,21 +372,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.0,
+      "amount": 120.41,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 900.0,
+      "amount": 1279.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 40.0,
+      "amount": 391.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -251,6 +424,55 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 100.41,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.4,
+      "unit": "G",
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     }
   ]

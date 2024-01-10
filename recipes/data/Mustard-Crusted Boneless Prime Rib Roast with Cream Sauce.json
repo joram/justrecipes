@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "boneless prime rib roast",
-      "amount": 3.5,
-      "unit": "lb",
-      "comment": "",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "trimmed,  tied",
+      "original_string": "1 (6-pound) boneless prime rib roast, trimmed, tied",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -46,7 +47,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 43550.0,
+          "amount": 55350.0,
           "unit": "MG",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
@@ -68,53 +69,19 @@
       ]
     },
     {
-      "name": "store-bought or homemade montreal-style steak seasoning",
+      "name": "store-bought",
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 0.0,
-          "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 27000.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "4 tablespoons store-bought or homemade Montreal-style steak seasoning, divided",
+      "nutrition_infos": []
     },
     {
       "name": "sour cream",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup sour cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -186,6 +153,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup prepared horseradish",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -232,10 +200,70 @@
       ]
     },
     {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dijon mustard",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "divided",
+      "original_string": "1/2 cup Dijon mustard, divided",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -273,6 +301,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "melted unsalted butter",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup (1/2 stick) melted unsalted butter",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -314,7 +350,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 43550.0,
+      "amount": 55350.0,
       "unit": "MG",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"

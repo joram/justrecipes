@@ -15,6 +15,7 @@
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -82,38 +83,115 @@
       ]
     },
     {
-      "name": "soy sauce or tamari",
+      "name": "soy sauce",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons soy sauce or tamari",
       "nutrition_infos": []
+    },
+    {
+      "name": "rice vinegar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "honey",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon honey",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece fresh ginger",
-      "amount": 1.5,
+      "name": "1",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (2-inch) piece fresh ginger, peeled and finely grated (about 1 tablespoon)",
       "nutrition_infos": []
     },
     {
       "name": "garlic clove",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely grated",
+      "original_string": "1 garlic clove, finely grated",
       "nutrition_infos": []
     },
     {
       "name": "broccoli",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "trimmed and cut into florets,  thick stems discarded",
+      "original_string": "1 pound broccoli, trimmed and cut into florets, thick stems discarded",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -219,7 +297,8 @@
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "trimmed and cut diagonally into 1 1/2-inch segments",
+      "original_string": "2 scallions, trimmed and cut diagonally into 1 1/2-inch segments, plus thinly sliced scallions for garnish",
       "nutrition_infos": []
     },
     {
@@ -227,13 +306,23 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon olive oil, plus more for brushing the salmon",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "skin-on salmon fillets",
-      "amount": 5.0,
-      "unit": "oz",
+      "amount": 4.0,
+      "unit": "",
       "comment": "",
+      "original_string": "4 (6-ounce) skin-on salmon fillets",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -340,6 +429,7 @@
       "amount": 1.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/2 lime, for serving",
       "nutrition_infos": []
     },
     {
@@ -347,6 +437,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Sesame seeds, for serving",
       "nutrition_infos": []
     }
   ],
@@ -427,7 +518,14 @@
       "name": "Total Sugars",
       "amount": 1.18,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -462,13 +560,6 @@
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }

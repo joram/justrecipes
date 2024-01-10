@@ -9,35 +9,108 @@
   ],
   "ingredients": [
     {
-      "name": "shallots",
+      "name": "unsalted butter",
       "amount": 2.0,
-      "unit": "",
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons unsalted butter",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 5.02,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 43.33,
+          "amount": 121.92999999999999,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 49.480000000000004,
           "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1344.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 323.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 393.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 78.78,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "shallots",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "minced",
+      "original_string": "2 shallots, minced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 13.3,
+          "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 630.0,
+          "amount": 67.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -72,7 +145,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 323.0,
+          "amount": 20.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -93,14 +166,14 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 179.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 28.78,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -111,7 +184,8 @@
       "name": "medium potatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and diced",
+      "original_string": "2 medium potatoes, peeled and diced",
       "nutrition_infos": []
     },
     {
@@ -119,6 +193,7 @@
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -169,6 +244,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chicken stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -278,10 +354,55 @@
       ]
     },
     {
+      "name": "coarse salt and freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Coarse salt and freshly ground pepper to taste",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "sorrel",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 1/2 pounds sorrel",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -395,6 +516,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup buttermilk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -494,6 +616,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -594,6 +717,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "chopped sorrel leaves for garnishing",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Chopped sorrel leaves for garnishing",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -608,28 +739,63 @@
       "name": "Protein",
       "amount": 5.02,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 43.33,
+      "amount": 121.92999999999999,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 49.480000000000004,
       "unit": "G",
-      "serving_size": 30.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 630.0,
+      "amount": 1344.0,
       "unit": "KCAL",
-      "serving_size": 30.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 323.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 393.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 78.78,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -661,37 +827,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 323.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.5,
       "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 179.0,
-      "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 28.78,
-      "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
@@ -712,13 +850,6 @@
     {
       "name": "Sugars, added",
       "amount": 13.700000000000001,
-      "unit": "G",
-      "serving_size": 245.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"

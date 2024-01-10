@@ -10,9 +10,10 @@
   "ingredients": [
     {
       "name": "all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups all-purpose flour, plus more for work surface",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -23,21 +24,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 3.23,
+          "amount": 81.83,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 141.9,
+          "amount": 266.9,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 678.0,
+          "amount": 1392.0,
           "unit": "KCAL",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -58,14 +59,14 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 8.13,
+          "amount": 20.630000000000003,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 26700.0,
+          "amount": 66000.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -93,7 +94,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 50.0,
           "unit": "G",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -105,6 +106,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup whole wheat flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -185,7 +187,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 214.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -211,13 +213,59 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup untoasted wheat germ",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "baking soda",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -257,10 +305,198 @@
       ]
     },
     {
+      "name": "ground cinnamon",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon ground cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1250.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.5,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "room temperature",
+      "original_string": "1 cup (2 sticks) unsalted butter, room temperature",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "packed light brown sugar",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup packed light brown sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "honey",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons honey",
       "nutrition_infos": []
     }
   ],
@@ -282,21 +518,21 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 3.23,
+      "amount": 81.83,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 141.9,
+      "amount": 266.9,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 678.0,
+      "amount": 1392.0,
       "unit": "KCAL",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -317,14 +553,14 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 8.13,
+      "amount": 20.630000000000003,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 26700.0,
+      "amount": 66000.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -352,14 +588,14 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 50.0,
       "unit": "G",
       "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"
@@ -369,6 +605,34 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 1250.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

@@ -9,45 +9,175 @@
   ],
   "ingredients": [
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 18.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39662.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "fresh chinese egg noodles",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound fresh Chinese egg noodles",
       "nutrition_infos": []
     },
     {
       "name": "soy sauce",
       "amount": 3.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "or",
+      "original_string": "3 tablespoons soy sauce, or to taste",
       "nutrition_infos": []
+    },
+    {
+      "name": "rice vinegar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dark sesame oil",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon dark sesame oil",
       "nutrition_infos": []
     },
     {
-      "name": "barbecued pork page 373 or ham",
+      "name": "chile paste",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons chile paste or oil, plus more to taste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "barbecued pork",
       "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1/2 pound Barbecued Pork (page 373) or ham, sliced",
       "nutrition_infos": []
     },
     {
       "name": "medium cucumber",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled,  seeded,  and shredded",
+      "original_string": "1 medium cucumber, peeled, seeded, and shredded",
       "nutrition_infos": []
     },
     {
       "name": "radishes",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "trimmed and sliced",
+      "original_string": "6 radishes, trimmed and sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -114,7 +244,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 362.0,
+          "amount": 41.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -153,7 +283,8 @@
       "name": "bean sprouts",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "trimmed",
+      "original_string": "1/2 cup bean sprouts, trimmed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -204,6 +335,15 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped scallion for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh cilantro leaves for garnish",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Chopped fresh cilantro leaves for garnish, optional",
       "nutrition_infos": []
     }
   ],
@@ -217,35 +357,63 @@
       "name": "Protein",
       "amount": 1.18,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 3.53,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 18.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39662.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 2.35,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -277,37 +445,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 362.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     }

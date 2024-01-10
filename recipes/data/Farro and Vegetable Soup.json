@@ -10,35 +10,36 @@
   ],
   "ingredients": [
     {
-      "name": "farro spelt",
-      "amount": 1.3333333333333333,
+      "name": "farro",
+      "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "rinsed",
+      "original_string": "1 1/2 cups farro (spelt), rinsed",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 65.53999999999999,
+          "amount": 55.779999999999994,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 94.08,
+          "amount": 94.75,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 196.97,
+          "amount": 164.82,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1891.0,
+          "amount": 1702.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -52,42 +53,35 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 36.1,
+          "amount": 34.6,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 344.0,
+          "amount": 313.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 37.65,
+          "amount": 37.739999999999995,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 628.0,
+          "amount": 39972.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
-          "name": "Vitamin A, IU",
-          "amount": 3818.0,
-          "unit": "IU",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 185.2,
+          "amount": 193.39999999999998,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -112,14 +106,36 @@
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
         }
       ]
     },
     {
       "name": "dried porcini mushrooms",
       "amount": 1.0,
-      "unit": "cup",
+      "unit": "oz",
       "comment": "",
+      "original_string": "1 ounce (about 1 cup) dried porcini mushrooms",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -186,7 +202,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 2220.0,
+          "amount": 3909.0,
           "unit": "IU",
           "serving_size": 9.0,
           "serving_size_unit": "g"
@@ -226,6 +242,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -296,7 +313,8 @@
       "name": "onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 onion, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -423,7 +441,8 @@
       "name": "carrots",
       "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1/2 pound carrots, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -526,24 +545,134 @@
       ]
     },
     {
+      "name": "celery stalks with leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "2 celery stalks with leaves, chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.91,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 4.55,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 18.0,
+          "unit": "KCAL",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.8,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 36.0,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.33,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 91.0,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 91.0,
+          "unit": "IU",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 8.2,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 110.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "cabbage",
       "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "shredded",
+      "original_string": "1/2 pound cabbage, shredded or finely chopped",
       "nutrition_infos": []
     },
     {
       "name": "to 4 large garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": ",  minced",
+      "original_string": "2 to 4 large garlic cloves, to taste, minced",
       "nutrition_infos": []
     },
     {
-      "name": "a bouquet garni made with a bay leaf",
+      "name": "a bouquet garni made with a bay leaf, a few sprigs of thyme and parsley, and a couple of parmesan rinds, all tied in a cheesecloth",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "A bouquet garni made with a bay leaf, a few sprigs of thyme and parsley, and a couple of Parmesan rinds, all tied in a cheesecloth",
       "nutrition_infos": []
     },
     {
@@ -551,6 +680,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -654,9 +784,62 @@
     },
     {
       "name": "quarts water",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
+      "unit": "",
+      "comment": "chicken stock",
+      "original_string": "2 1/2 quarts water, chicken stock or vegetable stock",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "freshly ground pepper",
       "nutrition_infos": []
     },
     {
@@ -664,13 +847,15 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped fresh parsley",
       "nutrition_infos": []
     },
     {
       "name": "gruyère cheese",
       "amount": 2.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated 1/2 cup parmesan may be substituted",
+      "original_string": "2 ounces Gruyère cheese, grated 1/2 cup Parmesan may be substituted",
       "nutrition_infos": []
     }
   ],
@@ -683,28 +868,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 65.53999999999999,
+      "amount": 55.779999999999994,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 94.08,
+      "amount": 94.75,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 196.97,
+      "amount": 164.82,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1891.0,
+      "amount": 1702.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -718,42 +903,35 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 36.1,
+      "amount": 34.6,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 344.0,
+      "amount": 313.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 37.65,
+      "amount": 37.739999999999995,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 628.0,
+      "amount": 39972.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 3818.0,
-      "unit": "IU",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 185.2,
+      "amount": 193.39999999999998,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -777,6 +955,34 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3909.0,
+      "unit": "IU",
+      "serving_size": 9.0,
       "serving_size_unit": "g"
     },
     {

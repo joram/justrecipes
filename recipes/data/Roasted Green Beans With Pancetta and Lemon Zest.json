@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "green beans",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "trimmed",
+      "original_string": "2 1/2 pounds green beans, trimmed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +33,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 8.64,
+          "amount": 175.64,
           "unit": "G",
           "serving_size": 81.0,
           "serving_size_unit": "g"
@@ -53,7 +54,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.5,
+          "amount": 44.2,
           "unit": "G",
           "serving_size": 81.0,
           "serving_size_unit": "g"
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 31.0,
+          "amount": 38831.0,
           "unit": "MG",
           "serving_size": 81.0,
           "serving_size_unit": "g"
@@ -117,33 +118,186 @@
       ]
     },
     {
+      "name": "package diced pancetta",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (4-ounce) package diced pancetta",
+      "nutrition_infos": []
+    },
+    {
       "name": "olive oil",
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "zest",
+      "name": "kosher salt",
       "amount": 1.0,
-      "unit": "",
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon kosher salt, plus more to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 106.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 106.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 167.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 41.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "zest and juice of 1 lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Zest and juice of 1 lemon",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -168,7 +322,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 8.64,
+      "amount": 175.64,
       "unit": "G",
       "serving_size": 81.0,
       "serving_size_unit": "g"
@@ -189,7 +343,7 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.5,
+      "amount": 44.2,
       "unit": "G",
       "serving_size": 81.0,
       "serving_size_unit": "g"
@@ -217,7 +371,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 31.0,
+      "amount": 38831.0,
       "unit": "MG",
       "serving_size": 81.0,
       "serving_size_unit": "g"
@@ -248,6 +402,20 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 81.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     }
   ]

@@ -11,133 +11,559 @@
   ],
   "ingredients": [
     {
-      "name": "4 pound chicken wings",
+      "name": "/4 pound chicken wings",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 to 1 1/4 pound chicken wings",
       "nutrition_infos": []
     },
     {
-      "name": "chicken or turkey stock or water",
+      "name": "fine salt",
+      "amount": 1.25,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/4 teaspoons fine salt, plus more as needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "tablespoon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 tablespoon plus 1/4 teaspoon chile powder, such as King’s Pepper, plus more to taste (or use cayenne pepper)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 54.67,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 15.580000000000002,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 133.35999999999999,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1011.0,
+          "unit": "KCAL",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 32.370000000000005,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 30.3,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 518.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 27.200000000000003,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 11389.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 4012.0,
+          "unit": "IU",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 46.099999999999994,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 197.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.89,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chicken",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3 cups chicken or turkey stock or water, plus more as needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 21.4,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 107.0,
+          "unit": "KCAL",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 179.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 45.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.89,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "can tomato sauce",
-      "amount": 4.5,
-      "unit": "oz",
+      "name": "tomato sauce",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 (8-ounce) can tomato sauce",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.64,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.56,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 33.0,
+          "unit": "KCAL",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.28,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.6,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.18,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 313.0,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 33.0,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 492.0,
+          "unit": "IU",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 3.9,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "small red onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 small red onion, coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "chopped red",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "yellow",
+      "original_string": "1/2 cup chopped red, yellow or orange bell pepper",
       "nutrition_infos": []
     },
     {
-      "name": "curry powder",
-      "amount": 2.0,
-      "unit": "tbsp",
+      "name": "habanero",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "1 habanero or Scotch bonnet chile, seeded (optional)",
       "nutrition_infos": [
         {
-          "name": "Protein",
-          "amount": 23.06,
-          "unit": "G",
-          "serving_size": 5.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Total lipid (fat)",
-          "amount": 0.89,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 58.2,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 471.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 9.09,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 23.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 461.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 23.96,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 116.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 10520.0,
+          "amount": 600.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "curry powder",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons curry powder",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 40.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 300.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 400.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 21.6,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 10200.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 3520.0,
+          "amount": 2000.0,
           "unit": "IU",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 42.2,
+          "amount": 24.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 152.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -153,9 +579,10 @@
     },
     {
       "name": "tomato paste",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 1/2 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -258,24 +685,27 @@
       ]
     },
     {
-      "name": "olive or vegetable oil",
+      "name": "olive",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup olive or vegetable oil",
       "nutrition_infos": []
     },
     {
-      "name": "can collard greens with their liquid or 1 large bunch collard greens",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "1 (15-ounce) can collard greens (with their liquid) or 1 large bunch collard greens, stems removed, leaves torn into bite-size pieces",
       "nutrition_infos": []
     },
     {
-      "name": "chopped or shredded leftover turkey",
+      "name": "chopped",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chopped or shredded leftover turkey",
       "nutrition_infos": []
     },
     {
@@ -283,13 +713,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 to 2 turkey bones (optional)",
       "nutrition_infos": []
     },
     {
       "name": "large shrimp",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled,  deveined and cut into 1-inch pieces",
+      "original_string": "1 pound large shrimp, peeled, deveined and cut into 1-inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -390,6 +822,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "cooked rice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooked rice, for serving",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -403,114 +843,114 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 23.06,
+      "amount": 54.67,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.89,
+      "amount": 15.580000000000002,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 58.2,
+      "amount": 133.35999999999999,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 471.0,
+      "amount": 1011.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 9.09,
+      "amount": 32.370000000000005,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 23.0,
+      "amount": 30.3,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 461.0,
+      "amount": 518.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 23.96,
+      "amount": 27.200000000000003,
       "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 116.0,
-      "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 10520.0,
+      "amount": 11389.0,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 3520.0,
+      "amount": 4012.0,
       "unit": "IU",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 42.2,
+      "amount": 46.099999999999994,
       "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 152.0,
+      "amount": 197.0,
       "unit": "MG",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 33.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.89,
+      "unit": "G",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 313.0,
+      "unit": "MG",
+      "serving_size": 61.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 112.0,
+      "serving_size": 5.0,
       "serving_size_unit": "g"
     }
   ]

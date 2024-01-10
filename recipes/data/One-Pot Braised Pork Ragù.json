@@ -15,10 +15,11 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 46.06,
+          "amount": 46.89,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 44.870000000000005,
+          "amount": 49.830000000000005,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1791.0,
+          "amount": 1812.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 734.0,
+          "amount": 932.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -92,28 +93,40 @@
       "name": "pork shoulder",
       "amount": 1.0,
       "unit": "lb",
+      "comment": "cut into 1/2-inch cubes",
+      "original_string": "1 pound pork shoulder, cut into ½-inch cubes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "medium carrots",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and finely chopped",
+      "original_string": "3 medium carrots, peeled and finely chopped (1½ cups)",
       "nutrition_infos": []
     },
     {
       "name": "medium yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "diced into small pieces",
+      "original_string": "1 medium yellow onion, diced into small pieces (1½ cups)",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "5 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -157,6 +170,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -188,28 +202,28 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 15.76,
+          "amount": 19.07,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.0,
+          "amount": 3.8,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1200.0,
+          "amount": 1217.0,
           "unit": "MG",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.18,
+          "amount": 2.8400000000000003,
           "unit": "MG",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -259,17 +273,118 @@
       ]
     },
     {
-      "name": "can whole tomatoes",
-      "amount": 14.5,
-      "unit": "oz",
+      "name": "whole tomatoes",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 (28-ounce) can whole tomatoes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.83,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 4.96,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 21.0,
+          "unit": "KCAL",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.31,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.8,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 17.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.66,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 340.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 198.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fresh rosemary sprig",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 fresh rosemary sprig",
       "nutrition_infos": []
     },
     {
@@ -277,6 +392,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 fresh basil sprigs, plus chopped leaves for garnish",
       "nutrition_infos": []
     },
     {
@@ -284,6 +400,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -343,7 +460,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 100.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -386,10 +503,11 @@
       ]
     },
     {
-      "name": "cooked pasta or polenta",
+      "name": "cooked pasta",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Cooked pasta or <a href=\"https://cooking.nytimes.com/recipes/1014527-basic-polenta\">polenta</a>, for serving",
       "nutrition_infos": []
     },
     {
@@ -397,6 +515,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Freshly grated Parmigiano-Reggiano, for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -510,7 +629,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 46.06,
+      "amount": 46.89,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -524,21 +643,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 44.870000000000005,
+      "amount": 49.830000000000005,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1791.0,
+      "amount": 1812.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 734.0,
+      "amount": 932.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -580,28 +699,28 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 15.76,
+      "amount": 19.07,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.0,
+      "amount": 3.8,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1200.0,
+      "amount": 1217.0,
       "unit": "MG",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.18,
+      "amount": 2.8400000000000003,
       "unit": "MG",
       "serving_size": 33.0,
       "serving_size_unit": "g"
@@ -622,16 +741,16 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 100.0,
+      "amount": 340.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 121.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 15.0,
+      "serving_size": 121.0,
       "serving_size_unit": "g"
     }
   ]

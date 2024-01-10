@@ -11,10 +11,11 @@
   ],
   "ingredients": [
     {
-      "name": "250 g dried chickpeas",
+      "name": "dried chickpeas",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup (250 g) dried chickpeas",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 tsp. baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 33.3,
+          "amount": 44.099999999999994,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 167.0,
+          "amount": 209.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 26714.0,
+          "amount": 65508.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -61,67 +63,78 @@
       ]
     },
     {
-      "name": "1.5 liters water",
+      "name": "water",
       "amount": 6.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "6 cups (1.5 liters) water",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 10.8,
           "unit": "G",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 42.0,
           "unit": "KCAL",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 10.8,
           "unit": "G",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 14.0,
+          "amount": 8.0,
           "unit": "MG",
-          "serving_size": 360.0,
+          "serving_size": 240.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "2 tbsp 270 g light tahini paste",
+      "name": "cup",
       "amount": 1.0,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
+      "original_string": "1 cup plus 2 tbsp (270 g) light tahini paste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly squeezed lemon juice",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "4 Tbsp. freshly squeezed lemon juice",
       "nutrition_infos": []
     },
     {
       "name": "garlic",
       "amount": 4.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "crushed",
+      "original_string": "4 cloves garlic, crushed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -180,6 +193,65 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "ice-cold water",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "6 Tbsp. (100 ml) ice-cold water",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -206,30 +278,30 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 33.3,
+      "amount": 44.099999999999994,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 167.0,
+      "amount": 209.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 26714.0,
+      "amount": 65508.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 10.8,
       "unit": "G",
-      "serving_size": 360.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
@@ -251,6 +323,13 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

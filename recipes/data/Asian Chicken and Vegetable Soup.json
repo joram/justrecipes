@@ -13,6 +13,7 @@
       "amount": 6.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "6 cups chicken broth",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -37,7 +38,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.7400000000000002,
+          "amount": 2.08,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -72,21 +73,21 @@
         },
         {
           "name": "Protein",
-          "amount": 4.1899999999999995,
+          "amount": 7.049999999999999,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 16.35,
+          "amount": 47.75,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 81.0,
+          "amount": 224.0,
           "unit": "KCAL",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -125,7 +126,8 @@
       "name": "boneless",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "skinless chicken breasts",
+      "original_string": "8 ounces boneless, skinless chicken breasts",
       "nutrition_infos": []
     },
     {
@@ -133,13 +135,15 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons Chinese black-bean sauce",
       "nutrition_infos": []
     },
     {
       "name": "carrots",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "peeled and cut into medium dice",
+      "original_string": "1 cup carrots, peeled and cut into medium dice",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -245,7 +249,8 @@
       "name": "celery",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "peeled and cut into medium dice",
+      "original_string": "1 cup celery, peeled and cut into medium dice",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -351,7 +356,8 @@
       "name": "shiitake mushrooms",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "peeled and cut into medium dice",
+      "original_string": "1 cup shiitake mushrooms, peeled and cut into medium dice",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -457,8 +463,116 @@
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "2 scallions, thinly sliced",
       "nutrition_infos": []
+    },
+    {
+      "name": "cooked white rice",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup cooked white rice",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.34,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 2.86,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 31.4,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 143.0,
+          "unit": "KCAL",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 105.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -490,7 +604,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.7400000000000002,
+      "amount": 2.08,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
@@ -525,21 +639,21 @@
     },
     {
       "name": "Protein",
-      "amount": 4.1899999999999995,
+      "amount": 7.049999999999999,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 16.35,
+      "amount": 47.75,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 81.0,
+      "amount": 224.0,
       "unit": "KCAL",
       "serving_size": 245.0,
       "serving_size_unit": "g"

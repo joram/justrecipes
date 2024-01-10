@@ -11,10 +11,91 @@
   ],
   "ingredients": [
     {
-      "name": "large boneless skinless chicken breasts 1 pound total",
+      "name": "unsalted butter",
+      "amount": 10.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "10 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 50.8,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 243.70999999999998,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 62.07,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2591.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 850.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 10860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 529.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 110.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "large boneless skinless chicken breasts",
       "amount": 2.0,
       "unit": "",
+      "comment": "patted dry",
+      "original_string": "2 large boneless skinless chicken breasts (1 pound total), patted dry",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
       "nutrition_infos": []
     },
     {
@@ -22,45 +103,46 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 50.8,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 165.11,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 62.07,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1877.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 850.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 315.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -74,7 +156,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 60.0,
+          "amount": 13.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -99,7 +181,8 @@
       "name": "fettuccine",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "linguine",
+      "original_string": "1 pound fettuccine, linguine or spaghetti",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -203,9 +286,10 @@
     },
     {
       "name": "heavy cream",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -308,10 +392,11 @@
       ]
     },
     {
-      "name": "about 2 cups freshly grated parmigiano-reggiano",
+      "name": "freshly grated parmigiano-reggiano",
       "amount": 6.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "6 ounces (about 2 cups) freshly grated Parmigiano-Reggiano",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -414,10 +499,19 @@
       ]
     },
     {
+      "name": "fresh nutmeg, for grating",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fresh nutmeg, for grating (optional)",
+      "nutrition_infos": []
+    },
+    {
       "name": "fresh chopped parsley",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fresh chopped parsley, for serving (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -483,56 +577,63 @@
       "name": "Protein",
       "amount": 50.8,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 165.11,
+      "amount": 243.70999999999998,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 62.07,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1877.0,
+      "amount": 2591.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 850.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 10860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 315.0,
+      "amount": 529.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 60.0,
+      "amount": 110.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -589,13 +690,6 @@
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 83.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 8000.0,
-      "unit": "IU",
-      "serving_size": 2.5,
       "serving_size_unit": "g"
     },
     {

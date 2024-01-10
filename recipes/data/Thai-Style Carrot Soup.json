@@ -12,7 +12,8 @@
       "name": "carrots",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled and coarsely chopped",
+      "original_string": "1 pound carrots, peeled and coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -23,28 +24,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 42.269999999999996,
+          "amount": 142.26999999999998,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 205.0,
+          "amount": 1380.0,
           "unit": "KCAL",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 6.41,
+          "amount": 106.41,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -79,7 +80,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 77.0,
+          "amount": 39377.0,
           "unit": "MG",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -107,7 +108,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 13.3,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -118,7 +119,8 @@
       "name": "garlic",
       "amount": 2.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 cloves garlic, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -179,24 +181,188 @@
       ]
     },
     {
+      "name": "juice of 1 lime",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Juice of 1 lime",
+      "nutrition_infos": []
+    },
+    {
       "name": "unsweetened canned coconut milk",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup unsweetened canned coconut milk",
       "nutrition_infos": []
     },
     {
-      "name": "thai fish sauce nuocmam",
+      "name": "thai fish sauce",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon Thai fish sauce (nuocmam)",
       "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt, or more to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chili oil",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "or",
+      "original_string": "1/4 teaspoon chili oil, or to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced thin",
+      "original_string": "2 scallions, sliced thin",
       "nutrition_infos": []
     }
   ],
@@ -216,28 +382,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 93.3,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 42.269999999999996,
+      "amount": 142.26999999999998,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 205.0,
+      "amount": 1380.0,
       "unit": "KCAL",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.41,
+      "amount": 106.41,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -272,7 +438,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 77.0,
+      "amount": 39377.0,
       "unit": "MG",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -300,7 +466,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 13.3,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"

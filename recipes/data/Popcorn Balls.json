@@ -11,137 +11,393 @@
   ],
   "ingredients": [
     {
-      "name": "mix-ins",
+      "name": "mix-ins, such as candy corn, m&m’s, gummy worms, crushed pretzels, crumbled cookies",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Mix-ins, such as candy corn, M&M’s, gummy worms, crushed pretzels, crumbled cookies or sprinkles (optional)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "bags plain microwave popcorn",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "2/3 cup kernels",
+      "original_string": "2 (3-ounce) bags plain microwave popcorn, 2/3 cup kernels or about 18 cups popped popcorn",
+      "nutrition_infos": []
+    },
+    {
+      "name": "confectioners’ sugar",
+      "amount": 280.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "2 1/3 cups/280 grams confectioners’ sugar ",
+      "nutrition_infos": []
+    },
+    {
+      "name": "mini marshmallows",
+      "amount": 63.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 1/4 cup/63 grams mini marshmallows",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 3.33,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 78.6,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 14.3,
+          "amount": 180.0,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 57.0,
+          "amount": 1447.0,
           "unit": "KCAL",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 11.4,
+          "amount": 116.7,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.1,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 29.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 93.0,
+          "amount": 0.0,
           "unit": "MG",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 38883.0,
           "unit": "MG",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin D (D2 + D3), International Units",
           "amount": 0.0,
           "unit": "IU",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 56.7,
+          "unit": "G",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 214.0,
           "unit": "MG",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "light corn syrup",
+      "amount": 180.0,
+      "unit": "ml",
+      "comment": "",
+      "original_string": "3/4 cup/180 milliliters light corn syrup",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 400.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 60.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 33.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 140.0,
+          "serving_size": 30.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "bags plain microwave popcorn",
-      "amount": 2.5,
-      "unit": "oz",
+      "name": "unsalted butter",
+      "amount": 57.0,
+      "unit": "g",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4 cup/57 grams unsalted butter, plus extra for greasing",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "cup/63 grams mini marshmallows",
-      "amount": 2.0,
-      "unit": "",
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/180 milliliters light corn syrup",
-      "amount": 3.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/2 teaspoon kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "food coloring",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Food coloring (optional)",
       "nutrition_infos": []
     }
   ],
@@ -156,100 +412,135 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 3.33,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 14.3,
+      "amount": 180.0,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 57.0,
+      "amount": 1447.0,
       "unit": "KCAL",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 11.4,
+      "amount": 116.7,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.1,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 29.0,
+      "amount": 0.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 93.0,
+      "amount": 0.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 38883.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 56.7,
+      "unit": "G",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 140.0,
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

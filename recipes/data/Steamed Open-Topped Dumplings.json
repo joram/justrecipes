@@ -13,13 +13,15 @@
       "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1/2 pound lean ground pork",
       "nutrition_infos": []
     },
     {
       "name": "medium shrimp",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled,  deveined,  rinsed and drained;",
+      "original_string": "1 pound medium shrimp, peeled, deveined, rinsed and drained; or 1 pound sea scallops, rinsed and drained",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -79,7 +81,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 536.0,
+          "amount": 39836.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -125,21 +127,32 @@
       "name": "water chestnuts",
       "amount": 3.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "blanched in boiling water for 10 seconds,  refreshed in cold water,  drained and coarsely chopped",
+      "original_string": "3/4 cup water chestnuts, blanched in boiling water for 10 seconds, refreshed in cold water, drained and coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "minced scallions",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 1/2 tablespoons minced scallions",
       "nutrition_infos": []
     },
     {
       "name": "minced ginger root",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 1/2 tablespoons minced ginger root",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chinese rice wine",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons Chinese rice wine or sake",
       "nutrition_infos": []
     },
     {
@@ -147,6 +160,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
@@ -154,6 +168,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons toasted sesame oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -221,10 +236,63 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "egg white",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "1 egg white, lightly beaten",
       "nutrition_infos": []
     },
     {
@@ -232,20 +300,23 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons cornstarch",
       "nutrition_infos": []
     },
     {
-      "name": "safflower or corn oil",
+      "name": "safflower",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons safflower or corn oil",
       "nutrition_infos": []
     },
     {
-      "name": "dumpling skins also called gyoza skins",
+      "name": "dumpling skins",
       "amount": 44.0,
       "unit": "",
       "comment": "",
+      "original_string": "44 dumpling skins (also called gyoza skins)",
       "nutrition_infos": []
     },
     {
@@ -253,6 +324,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup coarsely chopped fresh cilantro",
       "nutrition_infos": []
     },
     {
@@ -260,6 +332,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup soy sauce",
       "nutrition_infos": []
     },
     {
@@ -267,6 +340,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons Chinese black vinegar",
       "nutrition_infos": []
     }
   ],
@@ -335,7 +409,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 536.0,
+      "amount": 39836.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"

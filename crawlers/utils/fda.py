@@ -102,7 +102,7 @@ def ingredient_to_nutrients_infos(ingredient: Ingredient) -> List[NutritionalInf
         page += 1
         data = _get_cached_fda_info_for_ingredient(ingredient, page)
         if data is None or "Internal Server Error" in str(data):
-            print("Internal Server Error for ingredient: ", ingredient.name)
+            print("Internal Server Error for ingredient: ", ingredient.name, "\t"*5, ingredient.original_string)
             add_ingredient_to_test_golden_file(ingredient.original_string)
             time.sleep(1)
             attempts += 1

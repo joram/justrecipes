@@ -10,49 +10,103 @@
   ],
   "ingredients": [
     {
-      "name": "soy or peanut oil",
+      "name": "soy",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup soy or peanut oil",
       "nutrition_infos": []
     },
     {
       "name": "large shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced thin",
+      "original_string": "1 large shallot, sliced thin",
       "nutrition_infos": []
     },
     {
-      "name": "garlic",
-      "amount": 4.0,
-      "unit": "clove",
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 16.4,
           "unit": "G",
-          "serving_size": 3.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 68.52,
           "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 210.61,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 925.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39731.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 94.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "garlic",
+      "amount": 4.0,
+      "unit": "clove",
+      "comment": "slivered",
+      "original_string": "4 cloves garlic, slivered",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 43.61,
+          "amount": 33.3,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 925.0,
+          "amount": 167.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -66,7 +120,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 931.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -91,7 +145,8 @@
       "name": "razor clams",
       "amount": 24.0,
       "unit": "",
-      "comment": "",
+      "comment": "1 1/2 to 2 pounds,  rinsed and scrubbed",
+      "original_string": "24 razor clams, 1 1/2 to 2 pounds, rinsed and scrubbed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -130,7 +185,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 41.7,
           "unit": "G",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -172,7 +227,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 94.0,
+          "amount": 27.0,
           "unit": "MG",
           "serving_size": 55.0,
           "serving_size_unit": "g"
@@ -198,6 +253,7 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup dry white wine",
       "nutrition_infos": []
     },
     {
@@ -205,6 +261,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons sesame oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "juice of 4 limes",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Juice of 4 limes",
       "nutrition_infos": []
     },
     {
@@ -212,13 +277,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons honey",
       "nutrition_infos": []
     },
     {
       "name": "sriracha sauce",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "more",
+      "original_string": "1 1/2 tablespoons sriracha sauce, more to taste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -325,20 +392,130 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon sesame seeds",
       "nutrition_infos": []
+    },
+    {
+      "name": "black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 167.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 41.7,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced thin",
+      "original_string": "2 scallions, sliced thin",
       "nutrition_infos": []
     },
     {
-      "name": "crusty bread for serving",
+      "name": "crusty bread",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crusty bread for serving",
       "nutrition_infos": []
     }
   ],
@@ -352,40 +529,47 @@
       "name": "Protein",
       "amount": 16.4,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 68.52,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 43.61,
+      "amount": 210.61,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 925.0,
       "unit": "KCAL",
-      "serving_size": 3.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39731.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 94.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 667.0,
-      "unit": "MG",
-      "serving_size": 3.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 931.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -413,7 +597,7 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 41.7,
       "unit": "G",
       "serving_size": 55.0,
       "serving_size_unit": "g"
@@ -429,13 +613,6 @@
       "name": "Vitamin A, IU",
       "amount": 667.0,
       "unit": "IU",
-      "serving_size": 55.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 94.0,
-      "unit": "MG",
       "serving_size": 55.0,
       "serving_size_unit": "g"
     },

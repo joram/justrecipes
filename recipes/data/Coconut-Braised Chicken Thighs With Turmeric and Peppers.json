@@ -11,88 +11,103 @@
   ],
   "ingredients": [
     {
-      "name": "coconut oil or neutral oil",
+      "name": "coconut oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons coconut oil or neutral oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground coriander",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons ground coriander",
       "nutrition_infos": [
         {
-          "name": "Protein",
-          "amount": 1.63,
-          "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 5.7,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 0.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.41,
+          "amount": 28.74,
           "unit": "G",
-          "serving_size": 15.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 975.0,
-          "unit": "KCAL",
-          "serving_size": 15.0,
+          "serving_size": 0.5,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 252.0,
+          "amount": 299.0,
           "unit": "MG",
-          "serving_size": 15.0,
+          "serving_size": 0.5,
           "serving_size_unit": "g"
         },
         {
-          "name": "Fatty acids, total saturated",
-          "amount": 86.7,
+          "name": "Protein",
+          "amount": 4.08,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 200.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "ground cori",
-      "amount": 2.0,
-      "unit": "tsp",
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "bone-in",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "skin-on thighs",
+      "original_string": "6 bone-in, skin-on thighs or 4 bone-in, skin-on chicken legs (about 2 1/4 pounds total)",
       "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "4 scallions, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece fresh ginger",
-      "amount": 1.5,
+      "name": "finely chopped fresh lemongrass",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup finely chopped fresh lemongrass (cut from the tender centers of 2 stalks)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "1",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (2-inch) piece fresh ginger, peeled and finely chopped (about 3 tablespoons)",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "3 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -133,9 +148,10 @@
     },
     {
       "name": "ground turmeric",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons ground turmeric",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -175,10 +191,48 @@
       ]
     },
     {
+      "name": "fresh makrut lime leaves",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 fresh makrut lime leaves (optional)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "chicken stock",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chicken stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -210,35 +264,35 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.41,
+          "amount": 3.94,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 1.2,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 0.0,
+          "amount": 1.0,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 1.1,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 122.0,
+          "amount": 171.0,
           "unit": "MG",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -280,7 +334,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 5.06,
           "unit": "G",
           "serving_size": 245.0,
           "serving_size_unit": "g"
@@ -288,17 +342,233 @@
       ]
     },
     {
-      "name": "can light coconut milk",
-      "amount": 7.5,
-      "unit": "oz",
+      "name": "light coconut milk",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 (14-ounce) can light coconut milk",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.27,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 5.7,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 1.27,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 57.0,
+          "unit": "KCAL",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1.0,
+          "unit": "MG",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.25,
+          "unit": "MG",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 49.0,
+          "unit": "MG",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 6.0,
+          "unit": "MG",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.06,
+          "unit": "G",
+          "serving_size": 79.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "fresh cilantro small sprigs",
+      "name": "mini sweet peppers",
+      "amount": 5.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "5 ounces mini sweet peppers (about 7 peppers), trimmed and thinly sliced (or 1 bell pepper, stemmed, seeded and chopped)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 7.06,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 35.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.85,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 41.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 118.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 134.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh cilantro ",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fresh cilantro (small sprigs and chopped leaves) or basil (sliced), for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cooked jasmine rice, rice noodles",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooked jasmine rice, rice noodles or fresh ramen noodles, for serving",
       "nutrition_infos": []
     }
   ],
@@ -312,78 +582,71 @@
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Protein",
-      "amount": 1.63,
-      "unit": "G",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 5.7,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 20.41,
+      "amount": 28.74,
       "unit": "G",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 975.0,
-      "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 252.0,
+      "amount": 299.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 86.7,
+      "name": "Protein",
+      "amount": 4.08,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 200.0,
+      "unit": "KCAL",
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.41,
+      "amount": 3.94,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 1.2,
       "unit": "G",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 0.0,
+      "amount": 1.0,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 1.1,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 122.0,
+      "amount": 171.0,
       "unit": "MG",
       "serving_size": 245.0,
       "serving_size_unit": "g"
@@ -414,6 +677,27 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 5.06,
+      "unit": "G",
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 118.0,
+      "unit": "IU",
+      "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 134.0,
+      "unit": "MG",
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     }
   ]

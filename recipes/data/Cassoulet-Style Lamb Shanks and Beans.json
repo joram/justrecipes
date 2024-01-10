@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "dried white beans",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "such as cannellini",
+      "original_string": "1 1/2 pounds dried white beans, such as cannellini or great Northern",
       "nutrition_infos": []
     },
     {
@@ -22,20 +23,133 @@
       "amount": 2.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "2 whole cloves",
       "nutrition_infos": []
+    },
+    {
+      "name": "small bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 small bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 104.39999999999999,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 911.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39967.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and halved",
+      "original_string": "1 large onion, peeled and halved",
       "nutrition_infos": []
     },
     {
-      "name": "bone-in lamb shanks about 5 pounds total",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "bone-in lamb shanks",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 bone-in lamb shanks (about 5 pounds total)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and freshly ground black pepper",
       "nutrition_infos": []
     },
     {
@@ -43,27 +157,89 @@
       "amount": 2.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "2 whole cloves",
       "nutrition_infos": []
+    },
+    {
+      "name": "small bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 small bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and halved",
+      "original_string": "1 large onion, peeled and halved",
       "nutrition_infos": []
     },
     {
       "name": "medium carrots",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "4 medium carrots, peeled",
       "nutrition_infos": []
     },
     {
       "name": "head garlic",
       "amount": 1.0,
       "unit": "whole",
-      "comment": "",
+      "comment": "cloves separated but unpeeled",
+      "original_string": "1 whole head garlic, cloves separated but unpeeled, plus 1 teaspoon minced garlic",
       "nutrition_infos": []
     },
     {
@@ -71,6 +247,7 @@
       "amount": 1.0,
       "unit": "strip",
       "comment": "",
+      "original_string": "1 strip of orange peel",
       "nutrition_infos": []
     },
     {
@@ -78,6 +255,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon chopped rosemary",
       "nutrition_infos": []
     },
     {
@@ -85,6 +263,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon chopped thyme",
       "nutrition_infos": []
     },
     {
@@ -92,6 +271,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups coarse dry bread crumbs",
       "nutrition_infos": []
     },
     {
@@ -99,6 +279,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons extra-virgin olive oil, plus more for drizzling",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -109,7 +290,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 104.39999999999999,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -123,14 +304,14 @@
         },
         {
           "name": "Energy",
-          "amount": 911.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 667.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -177,6 +358,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped parsley",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -300,42 +482,49 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 104.39999999999999,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 911.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 667.0,
+      "amount": 39967.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -364,13 +553,6 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

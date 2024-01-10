@@ -9,17 +9,99 @@
   ],
   "ingredients": [
     {
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon unsalted butter, plus more for dishes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 12.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 128.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1254.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 173.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 751.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 79.7,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "small shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 small shallot, finely chopped",
       "nutrition_infos": []
     },
     {
-      "name": "fresh morel mushrooms about 1 cup",
+      "name": "fresh morel mushrooms",
       "amount": 8.0,
       "unit": "",
+      "comment": "halved lengthwise",
+      "original_string": "8 fresh morel mushrooms (about 1 cup), halved lengthwise",
+      "nutrition_infos": []
+    },
+    {
+      "name": "coarse salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Coarse salt",
       "nutrition_infos": []
     },
     {
@@ -27,17 +109,18 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 12.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 50.0,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -51,7 +134,7 @@
         },
         {
           "name": "Energy",
-          "amount": 540.0,
+          "amount": 400.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -93,7 +176,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 173.0,
+          "amount": 33.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -107,7 +190,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 537.0,
+          "amount": 167.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -121,7 +204,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 29.7,
+          "amount": 26.7,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -133,6 +216,7 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -221,10 +305,19 @@
       ]
     },
     {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "finely chopped fresh chives",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon finely chopped fresh chives",
       "nutrition_infos": []
     },
     {
@@ -232,6 +325,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crusty bread, for serving",
       "nutrition_infos": []
     }
   ],
@@ -245,28 +339,63 @@
       "name": "Protein",
       "amount": 12.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 50.0,
+      "amount": 128.6,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 6.67,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 540.0,
+      "amount": 1254.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 173.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 751.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 79.7,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -305,37 +434,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 173.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 537.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 29.7,
-      "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     }

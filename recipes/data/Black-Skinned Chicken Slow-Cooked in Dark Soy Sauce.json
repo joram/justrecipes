@@ -14,20 +14,23 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons canola oil",
       "nutrition_infos": []
     },
     {
       "name": "large spanish onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "diced",
+      "original_string": "1 large Spanish onion, diced",
       "nutrition_infos": []
     },
     {
       "name": "garlic",
       "amount": 5.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "smashed",
+      "original_string": "5 cloves garlic, smashed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -52,7 +55,7 @@
         },
         {
           "name": "Energy",
-          "amount": 209.0,
+          "amount": 309.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -66,7 +69,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 20.0,
+          "amount": 920.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -92,27 +95,112 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup Chinese bean paste",
       "nutrition_infos": []
     },
     {
       "name": "chickens",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "head and feet discarded,  cleaned and rinsed",
+      "original_string": "2 2- to 2 1/2-pound chickens, head and feet discarded, cleaned and rinsed",
       "nutrition_infos": []
     },
     {
       "name": "inch-thick piece of unpeeled ginger",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 4 pieces",
+      "original_string": "1 inch-thick piece of unpeeled ginger, cut into 4 pieces",
       "nutrition_infos": []
     },
     {
-      "name": "inch-thick piece unpeeled fresh or frozen galangal",
+      "name": "inch-thick piece unpeeled fresh",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 inch-thick piece unpeeled fresh or frozen galangal, smashed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "thai bird chilies",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 Thai bird chilies",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 100.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 13.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 900.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "wolfberries",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup wolfberries or 1/4 cup finely diced dried apricots",
+      "nutrition_infos": []
+    },
+    {
+      "name": "diced jujubes",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup diced jujubes (also known as hong zao or red dates) or 1/8 cup of dried brown dates, diced",
       "nutrition_infos": []
     },
     {
@@ -120,6 +208,7 @@
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups dark soy sauce",
       "nutrition_infos": []
     },
     {
@@ -127,6 +216,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup cola",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -177,6 +267,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 star anise pod",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -234,13 +325,73 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 cardamom pods",
       "nutrition_infos": []
+    },
+    {
+      "name": "cinnamon sticks",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 cinnamon sticks",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "clove",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 clove",
       "nutrition_infos": []
     }
   ],
@@ -274,7 +425,7 @@
     },
     {
       "name": "Energy",
-      "amount": 209.0,
+      "amount": 309.0,
       "unit": "KCAL",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -288,7 +439,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 20.0,
+      "amount": 920.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -310,6 +461,20 @@
     {
       "name": "Total Sugars",
       "amount": 13.5,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"

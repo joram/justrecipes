@@ -11,49 +11,110 @@
   ],
   "ingredients": [
     {
-      "name": "garlic clove",
-      "amount": 1.0,
-      "unit": "",
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons fresh lemon juice, plus more as needed",
       "nutrition_infos": []
     },
     {
-      "name": "extra-virgin olive oil",
+      "name": "garlic clove",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "finely grated",
+      "original_string": "1 garlic clove, finely grated or minced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
       "amount": 2.5,
-      "unit": "cup",
+      "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon kosher salt, plus more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 17.830000000000002,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 193.73999999999998,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 85.45,
           "unit": "G",
-          "serving_size": 15.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 2049.0,
           "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 78282.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "extra-virgin olive oil",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup extra-virgin olive oil",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 800.0,
+          "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 682.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -100,13 +161,15 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons tahini",
       "nutrition_infos": []
     },
     {
       "name": "brussels sprouts",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cleaned and trimmed",
+      "original_string": "1 pound brussels sprouts, cleaned and trimmed (halved if they’re larger than 1 inch)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -210,9 +273,10 @@
     },
     {
       "name": "eggplant",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 1 1/2-inch pieces",
+      "original_string": "1 1/2 pounds eggplant, cut into 1 1/2-inch pieces",
       "nutrition_infos": []
     },
     {
@@ -220,6 +284,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -294,10 +359,62 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon kosher salt, plus more as needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "quinoa",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup quinoa",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -393,17 +510,35 @@
       ]
     },
     {
-      "name": "honey or agave syrup",
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "honey",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon honey or agave syrup",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large a 1/4 tsp of red-pepper flakes",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Large pinch of red-pepper flakes, plus more for serving",
       "nutrition_infos": []
     },
     {
       "name": "cherry tomatoes",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "quartered",
+      "original_string": "1 cup cherry tomatoes, quartered",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -462,6 +597,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "fresh mint leaves",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fresh mint leaves, for serving",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -478,42 +621,42 @@
       "name": "Protein",
       "amount": 17.830000000000002,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 193.73999999999998,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 85.45,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 2049.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 682.0,
+      "amount": 78282.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {

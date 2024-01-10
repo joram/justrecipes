@@ -15,6 +15,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 garlic head",
       "nutrition_infos": []
     },
     {
@@ -22,13 +23,87 @@
       "amount": 1.5,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1/2 tablespoon olive oil",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 20.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 158.95999999999998,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1534.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 553.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3036.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 285.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 60.7,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "halibut",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "skin removed,  in 4 even fillets",
+      "original_string": "1 pound halibut, skin removed, in 4 even fillets",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,7 +114,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 80.36,
+          "amount": 1.76,
           "unit": "G",
           "serving_size": 170.0,
           "serving_size_unit": "g"
@@ -53,7 +128,7 @@
         },
         {
           "name": "Energy",
-          "amount": 820.0,
+          "amount": 106.0,
           "unit": "KCAL",
           "serving_size": 170.0,
           "serving_size_unit": "g"
@@ -88,7 +163,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 553.0,
+          "amount": 53.0,
           "unit": "MG",
           "serving_size": 170.0,
           "serving_size_unit": "g"
@@ -109,7 +184,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 71.0,
+          "amount": 35.0,
           "unit": "MG",
           "serving_size": 170.0,
           "serving_size_unit": "g"
@@ -123,7 +198,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 10.7,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 170.0,
           "serving_size_unit": "g"
@@ -131,10 +206,27 @@
       ]
     },
     {
+      "name": "kosher salt, as needed",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt, as needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper, as needed",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper, as needed",
+      "nutrition_infos": []
+    },
+    {
       "name": "mayonnaise",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup mayonnaise",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -248,6 +340,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup grated Parmesan",
       "nutrition_infos": []
     }
   ],
@@ -265,28 +358,63 @@
       "name": "Protein",
       "amount": 20.6,
       "unit": "G",
-      "serving_size": 170.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 80.36,
+      "amount": 158.95999999999998,
       "unit": "G",
-      "serving_size": 170.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 170.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 820.0,
+      "amount": 1534.0,
       "unit": "KCAL",
-      "serving_size": 170.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 553.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3036.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 285.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 60.7,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -318,44 +446,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 553.0,
-      "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 176.0,
-      "unit": "IU",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 71.0,
-      "unit": "MG",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 170.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 10.7,
-      "unit": "G",
       "serving_size": 170.0,
       "serving_size_unit": "g"
     },

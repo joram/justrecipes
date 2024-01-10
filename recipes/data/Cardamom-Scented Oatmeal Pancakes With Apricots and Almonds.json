@@ -14,6 +14,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup whole-wheat flour",
       "nutrition_infos": []
     },
     {
@@ -21,6 +22,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -73,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 11032.0,
+          "amount": 50332.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -113,6 +115,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup rolled oats",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -247,6 +250,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup chopped almonds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -374,6 +378,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -424,6 +429,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon ground cardamom",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -463,10 +469,55 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "egg",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 egg",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -566,6 +617,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -658,6 +710,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups cooked oatmeal",
       "nutrition_infos": []
     },
     {
@@ -665,13 +718,15 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup chopped dried apricots",
       "nutrition_infos": []
     },
     {
-      "name": "vegetable or olive oil",
+      "name": "vegetable",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable or olive oil, for frying",
       "nutrition_infos": []
     },
     {
@@ -679,6 +734,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Honey, for serving",
       "nutrition_infos": []
     }
   ],
@@ -740,7 +796,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 11032.0,
+      "amount": 50332.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

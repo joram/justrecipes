@@ -11,17 +11,100 @@
   ],
   "ingredients": [
     {
+      "name": "freshly squeezed lemon juice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup freshly squeezed lemon juice (from 3 to 4 lemons)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 4.76,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 200.9,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 795.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 200.36,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39185.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ice cubes",
+      "amount": 8.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "8 cups ice cubes",
+      "nutrition_infos": []
+    },
+    {
       "name": "liqueur",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chilled",
+      "original_string": "1 cup Pimm’s No. 1 liqueur, chilled",
       "nutrition_infos": []
     },
     {
       "name": "ginger beer",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "chilled",
+      "original_string": "1/2 cup ginger beer, chilled, plus more for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -68,10 +151,129 @@
       ]
     },
     {
-      "name": "fresh basil or mint sprigs",
+      "name": "kosher salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cucumber slices, for garnish",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cucumber slices, for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "strawberry slices, for garnish",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Strawberry slices, for garnish",
+      "nutrition_infos": []
+    },
+    {
+      "name": "orange",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Orange or lemon slices, for garnish",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 4.76,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 90.5,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 381.0,
+          "unit": "KCAL",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 90.5,
+          "unit": "G",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 381.0,
+          "unit": "MG",
+          "serving_size": 21.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh basil",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fresh basil or mint sprigs, for garnish",
       "nutrition_infos": []
     }
   ],
@@ -85,44 +287,65 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 4.76,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 10.4,
+      "amount": 200.9,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 39.0,
+      "amount": 795.0,
       "unit": "KCAL",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 9.86,
+      "amount": 200.36,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 4.0,
+      "amount": 39185.0,
       "unit": "MG",
-      "serving_size": 355.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

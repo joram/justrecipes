@@ -15,6 +15,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 43.97,
+          "amount": 63.97,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1413.0,
+          "amount": 1513.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 3229.0,
+          "amount": 4229.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -89,17 +90,19 @@
       ]
     },
     {
-      "name": "large sweet or hot italian sausages",
+      "name": "large italian sausages",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound large (sweet or hot) Italian sausages",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "2 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -142,14 +145,16 @@
       "name": "medium carrots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and cut into 1/4-inch dice",
+      "original_string": "2 medium carrots, peeled and cut into 1/4-inch dice",
       "nutrition_infos": []
     },
     {
       "name": "celery stalks",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 1/4-inch dice",
+      "original_string": "2 celery stalks, cut into 1/4-inch dice",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -255,7 +260,8 @@
       "name": "small yellow onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into 1/4-inch dice",
+      "original_string": "1 small yellow onion, cut into 1/4-inch dice",
       "nutrition_infos": []
     },
     {
@@ -263,6 +269,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -365,10 +372,19 @@
       ]
     },
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "vegetable stock",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups vegetable stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -478,24 +494,127 @@
       ]
     },
     {
-      "name": "can tomato purée",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "tomato purée",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
+      "original_string": "1 (15-ounce) can tomato purée",
       "nutrition_infos": []
     },
     {
-      "name": "dried brown lentils about 14 ounces",
+      "name": "dried brown lentils",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups dried brown lentils (about 14 ounces), rinsed and picked over (see Tip)",
       "nutrition_infos": []
+    },
+    {
+      "name": "dried bay leaves",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 dried bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 100.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1000.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "finely grated pecorino romano cheese",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "for garnish",
+      "original_string": "1/2 cup finely grated Pecorino Romano cheese, for garnish",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -622,21 +741,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 43.97,
+      "amount": 63.97,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1413.0,
+      "amount": 1513.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 3229.0,
+      "amount": 4229.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"

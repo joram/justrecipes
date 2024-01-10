@@ -11,70 +11,275 @@
   ],
   "ingredients": [
     {
-      "name": "cup/160 milliliters warm whole milk",
-      "amount": 2.5,
-      "unit": "",
+      "name": "warm whole milk",
+      "amount": 160.0,
+      "unit": "ml",
       "comment": "",
+      "original_string": "2/3 cup/160 milliliters warm whole milk, plus more for egg wash",
       "nutrition_infos": []
     },
     {
-      "name": "6 grams active dry yeast",
+      "name": "teaspoons/6 grams active dry yeast",
       "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 teaspoons/6 grams active dry yeast",
+      "nutrition_infos": []
+    },
+    {
+      "name": "teaspoon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 teaspoon plus 2 tablespoons cane sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 52.239999999999995,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 37.73,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 210.21,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1426.0,
+          "unit": "KCAL",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 87.50999999999999,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 12.0,
+          "unit": "G",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 52031.0,
+          "unit": "MG",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1506.0,
+          "unit": "IU",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 3.8,
+          "unit": "MG",
+          "serving_size": 32.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "all-purpose flour",
+      "amount": 298.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "2 1/4 cups/298 grams all-purpose flour, plus more if needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.68,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 74.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 355.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 7.540000000000001,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 12.89,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fine sea salt",
+      "amount": 2.5,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cups/298 grams all-purpose flour",
-      "amount": 2.3333333333333335,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4 teaspoon fine sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "baking powder",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon baking powder ",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 26.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 17.14,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 4.76,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 307.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 3767.0,
+          "amount": 4080.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 11990.0,
+          "amount": 10800.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -86,6 +291,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon ground cardamom (optional)",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -128,7 +334,8 @@
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "each cracked into a separate bowl and beaten",
+      "original_string": "2 large eggs, each cracked into a separate bowl and beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -167,7 +374,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 4.76,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -195,7 +402,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 394.0,
+          "amount": 420.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -209,7 +416,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 7.76,
+          "amount": 3.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -217,10 +424,118 @@
       ]
     },
     {
-      "name": "- or 6-ounce package of the laughing cow original spreadable cheese wedges",
-      "amount": 3.2,
+      "name": "tablespoons",
+      "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 tablespoons plus 1 teaspoon/62 grams melted salted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 8.57,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 12.9,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 68.6,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 400.0,
+          "unit": "KCAL",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.7,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 57.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.06,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 57.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "package of the laughing cow original spreadable cheese wedges",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "chilled",
+      "original_string": "1 (5.4- or 6-ounce) package of The Laughing Cow Original spreadable cheese wedges, chilled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -323,17 +638,125 @@
       ]
     },
     {
-      "name": "cup/60 milliliters sweetened condensed milk",
-      "amount": 2.5,
-      "unit": "",
+      "name": "sweetened condensed milk",
+      "amount": 60.0,
+      "unit": "ml",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4 cup/60 milliliters sweetened condensed milk, plus more to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 7.69,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 7.69,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 56.4,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 333.0,
+          "unit": "KCAL",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 56.4,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 256.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 346.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 90.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 256.0,
+          "unit": "IU",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 26.0,
+          "unit": "MG",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.13,
+          "unit": "G",
+          "serving_size": 39.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "cup/20 grams unsweetened finely shredded coconut flakes",
-      "amount": 2.5,
-      "unit": "",
+      "name": "unsweetened finely shredded coconut flakes",
+      "amount": 20.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "1/4 cup/20 grams unsweetened finely shredded coconut flakes ",
       "nutrition_infos": []
     }
   ],
@@ -347,70 +770,112 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 26.3,
+      "amount": 52.239999999999995,
       "unit": "G",
-      "serving_size": 0.6000000238418579,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 17.14,
+      "amount": 37.73,
       "unit": "G",
-      "serving_size": 0.6000000238418579,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 4.76,
+      "amount": 210.21,
       "unit": "G",
-      "serving_size": 0.6000000238418579,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 307.0,
+      "amount": 1426.0,
       "unit": "KCAL",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 3767.0,
-      "unit": "MG",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 11990.0,
-      "unit": "MG",
-      "serving_size": 0.6000000238418579,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 4.76,
+      "amount": 87.50999999999999,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 12.0,
+      "unit": "G",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 52031.0,
+      "unit": "MG",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 1506.0,
+      "unit": "IU",
+      "serving_size": 32.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 3.8,
+      "unit": "MG",
+      "serving_size": 32.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.0,
+      "amount": 7.540000000000001,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 12.89,
+      "unit": "G",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 4080.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 394.0,
+      "amount": 420.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -423,24 +888,10 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 7.76,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 21.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "name": "Potassium, K",
+      "amount": 346.0,
       "unit": "MG",
-      "serving_size": 21.0,
+      "serving_size": 39.0,
       "serving_size_unit": "g"
     }
   ]

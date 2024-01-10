@@ -15,20 +15,95 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup white miso",
       "nutrition_infos": []
     },
     {
-      "name": "- to 16-ounce block extra-firm tofu",
-      "amount": 7.5,
-      "unit": "",
+      "name": "rice vinegar",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup rice vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 818.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "block extra-firm tofu",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "drained,  patted dry and cut into 1/2-inch-thick matchsticks",
+      "original_string": "1 (14- to 16-ounce) block extra-firm tofu, drained, patted dry and cut into 1/2-inch-thick matchsticks",
       "nutrition_infos": []
     },
     {
       "name": "asparagus",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "tough ends removed,  stalks thinly sliced on a diagonal",
+      "original_string": "1 pound asparagus, tough ends removed, stalks thinly sliced on a diagonal",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,7 +114,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -53,7 +128,7 @@
         },
         {
           "name": "Energy",
-          "amount": 818.0,
+          "amount": 18.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -123,7 +198,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -135,6 +210,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 leek",
       "nutrition_infos": []
     },
     {
@@ -142,6 +218,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -214,6 +291,50 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -228,35 +349,63 @@
       "name": "Protein",
       "amount": 2.35,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 3.53,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 818.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 2.35,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39300.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 13.3,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
@@ -288,37 +437,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 13.3,
-      "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },

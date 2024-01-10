@@ -9,21 +9,138 @@
   ],
   "ingredients": [
     {
-      "name": "unsweetened chocolate i like green & black’s",
+      "name": "unsweetened chocolate",
       "amount": 8.0,
       "unit": "oz",
+      "comment": "finely chopped",
+      "original_string": "8 ounces unsweetened chocolate (I like Green & Black’s), finely chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "tablespoons",
+      "amount": 3.0,
+      "unit": "",
       "comment": "",
+      "original_string": "3 tablespoons plus 1 teaspoon unsalted butter, softened",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 20.57,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 62.9,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 75.27,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 940.0,
+          "unit": "KCAL",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 26.67,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.7,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 113.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 4.0600000000000005,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 230.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 537.0,
+          "unit": "MG",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 29.7,
+          "unit": "G",
+          "serving_size": 35.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "boxes confectioners’ sugar",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 (1-pound) boxes confectioners’ sugar",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "beaten",
+      "original_string": "2 large eggs, beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
-          "amount": 6.67,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -44,21 +161,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 50.0,
+          "amount": 10.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 540.0,
+          "amount": 140.0,
           "unit": "KCAL",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 6.67,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -79,14 +196,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 173.0,
+          "amount": 140.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 537.0,
+          "amount": 370.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -100,7 +217,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 29.7,
+          "amount": 3.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -112,6 +229,7 @@
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -214,11 +332,34 @@
       ]
     },
     {
-      "name": "pure vanilla extract or favorite flavoring",
+      "name": "pure vanilla extract",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 teaspoons pure vanilla extract or favorite flavoring",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -227,87 +368,101 @@
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Carbohydrate, by difference",
-      "amount": 6.67,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Protein",
-      "amount": 12.0,
+      "amount": 20.57,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 50.0,
+      "amount": 62.9,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 75.27,
+      "unit": "G",
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 540.0,
+      "amount": 940.0,
       "unit": "KCAL",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.67,
+      "amount": 26.67,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 5.7,
+      "unit": "G",
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 56.0,
+      "amount": 113.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.0,
+      "amount": 4.0600000000000005,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 173.0,
+      "amount": 230.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 35.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 537.0,
       "unit": "MG",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
       "amount": 29.7,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 35.0,
       "serving_size_unit": "g"
     },
     {

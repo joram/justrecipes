@@ -13,6 +13,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large bunch flat-leaf parsley",
       "nutrition_infos": []
     },
     {
@@ -20,31 +21,32 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons butter",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 1.5899999999999999,
+          "amount": 3.9,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 0.77,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 82.75999999999999,
+          "amount": 85.83999999999999,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 316.0,
+          "amount": 339.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -58,7 +60,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 21.2,
+          "amount": 23.5,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -79,7 +81,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 351.0,
+          "amount": 659.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -126,6 +128,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup minced onion",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -224,21 +227,32 @@
       "name": "medium leek",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "trimmed of hard green parts,  roughly chopped and rinsed",
+      "original_string": "1 medium leek, trimmed of hard green parts, roughly chopped and rinsed",
       "nutrition_infos": []
     },
     {
       "name": "medium parsnip",
       "amount": 1.0,
       "unit": "",
+      "comment": "peeled and chopped",
+      "original_string": "1 medium parsnip, peeled and chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt and freshly ground black pepper",
       "nutrition_infos": []
     },
     {
       "name": "chicken broth",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups chicken broth",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -348,17 +362,118 @@
       ]
     },
     {
-      "name": "mushrooms use button mushrooms mixed with a tablespoon or 2 of reconstituted porcini",
+      "name": "mushrooms",
       "amount": 4.0,
       "unit": "oz",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "4 ounces mushrooms (use button mushrooms mixed with a tablespoon or 2 of reconstituted porcini)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.31,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.77,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.08,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 23.0,
+          "unit": "KCAL",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.3,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 308.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 130.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "minced shallot",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon minced shallot",
       "nutrition_infos": []
     }
   ],
@@ -374,28 +489,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 1.5899999999999999,
+      "amount": 3.9,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 0.77,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 82.75999999999999,
+      "amount": 85.83999999999999,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 316.0,
+      "amount": 339.0,
       "unit": "KCAL",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -409,7 +524,7 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 21.2,
+      "amount": 23.5,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -430,7 +545,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 351.0,
+      "amount": 659.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"

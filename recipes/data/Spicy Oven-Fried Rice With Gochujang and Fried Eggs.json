@@ -11,42 +11,51 @@
   ],
   "ingredients": [
     {
+      "name": "uncooked short-grain brown rice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2 cups uncooked short-grain brown rice, or 4 cups cooked, chilled white rice",
+      "nutrition_infos": []
+    },
+    {
       "name": "neutral oil",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "such as vegetable,  canola",
+      "original_string": "2 tablespoons neutral oil, such as vegetable, canola or grapeseed oil",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 4.81,
+          "amount": 8.14,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 98.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 18.380000000000003,
+          "amount": 71.68,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 958.0,
+          "amount": 1225.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 95.0,
+          "amount": 39862.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -61,17 +70,19 @@
       ]
     },
     {
-      "name": "links turkey or pork sausage about 6 ounces total",
+      "name": "links turkey",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 links turkey or pork sausage (about 6 ounces total), removed from casings",
       "nutrition_infos": []
     },
     {
       "name": "carrots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and sliced into 1/4-inch-thick coins",
+      "original_string": "2 carrots, peeled and sliced into 1/4-inch-thick coins",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -103,7 +114,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 8.76,
+          "amount": 52.059999999999995,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -131,7 +142,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 321.0,
+          "amount": 554.0,
           "unit": "MG",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -177,21 +188,24 @@
       "name": "scallions",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced,  green and white parts separated",
+      "original_string": "4 scallions, sliced, green and white parts separated",
       "nutrition_infos": []
     },
     {
       "name": "fresh shiitake mushrooms",
       "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "stemmed and sliced",
+      "original_string": "1/4 pound fresh shiitake mushrooms, stemmed and sliced",
       "nutrition_infos": []
     },
     {
       "name": "brussels sprouts",
       "amount": 2.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1/4 pound brussels sprouts, thinly sliced (about 1 1/2 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -297,14 +311,181 @@
       "name": "large stalks broccolini",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 large stalks broccolini, chopped (about 1 cup)",
       "nutrition_infos": []
     },
     {
-      "name": "low-sodium tamari or soy sauce",
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "gochujang",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon gochujang (Korean red-pepper paste)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 53.3,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 267.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 43.3,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 233.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 967.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 33.3,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "low-sodium tamari",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons low-sodium tamari or soy sauce",
       "nutrition_infos": []
     },
     {
@@ -312,13 +493,15 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 fried eggs, for serving (optional)",
       "nutrition_infos": []
     },
     {
-      "name": "dark sesame oil",
+      "name": "dark sesame oil, for drizzling",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Dark sesame oil, for drizzling",
       "nutrition_infos": []
     }
   ],
@@ -334,35 +517,35 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 4.81,
+      "amount": 8.14,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 98.3,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 18.380000000000003,
+      "amount": 71.68,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 958.0,
+      "amount": 1225.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 95.0,
+      "amount": 39862.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -376,7 +559,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 8.76,
+      "amount": 52.059999999999995,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -404,7 +587,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 321.0,
+      "amount": 554.0,
       "unit": "MG",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -442,6 +625,13 @@
       "amount": 63.5,
       "unit": "MG",
       "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 33.3,
+      "unit": "G",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     }
   ]

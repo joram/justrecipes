@@ -14,20 +14,31 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon olive oil",
       "nutrition_infos": []
     },
     {
       "name": "medium onions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 medium onions, chopped",
       "nutrition_infos": []
     },
     {
       "name": "large garlic cloves",
       "amount": 3.0,
       "unit": "",
+      "comment": "minced",
+      "original_string": "3 large garlic cloves, minced or put through a press",
+      "nutrition_infos": []
+    },
+    {
+      "name": "medium-size canned jalapeño chiles",
+      "amount": 2.0,
+      "unit": "",
       "comment": "",
+      "original_string": "2 medium-size canned jalapeño chiles (en escabeche), seeded and chopped (about 3 tablespoons chopped)",
       "nutrition_infos": []
     },
     {
@@ -35,27 +46,75 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped green olives",
       "nutrition_infos": []
     },
     {
-      "name": "scant 1 4 cup capers",
+      "name": "scant 1/4 cup capers, drained, rinsed, and chopped",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Scant 1/4 cup capers, drained, rinsed, and chopped",
       "nutrition_infos": []
     },
     {
       "name": "cans tomatoes",
       "amount": 15.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "drained and chopped",
+      "original_string": "2 28-ounce cans tomatoes, drained and chopped",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt (1 to 2 teaspoons)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.03,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 28.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 104.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "yukon gold potatoes",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "scrubbed and diced",
+      "original_string": "1 pound Yukon gold potatoes, scrubbed and diced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -73,14 +132,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 28.0,
+          "amount": 17.6,
           "unit": "G",
           "serving_size": 148.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 104.0,
+          "amount": 74.0,
           "unit": "KCAL",
           "serving_size": 148.0,
           "serving_size_unit": "g"
@@ -172,17 +231,19 @@
       ]
     },
     {
-      "name": "winter squash or zucchini",
+      "name": "winter squash",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound winter squash or zucchini, peeled and diced (about 2 cups diced)",
       "nutrition_infos": []
     },
     {
-      "name": "a bouquet garni made with 2 sprigs each cilantro",
+      "name": "a bouquet garni made with 2 sprigs each cilantro and mint, and 2 bay leaves",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "A bouquet garni made with 2 sprigs each cilantro and mint, and 2 bay leaves",
       "nutrition_infos": []
     },
     {
@@ -190,6 +251,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon oregano",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -244,9 +306,10 @@
     },
     {
       "name": "cooked crabmeat",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 1/2 pounds cooked crabmeat",
       "nutrition_infos": []
     },
     {
@@ -254,6 +317,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped cilantro",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -366,7 +430,8 @@
       "name": "limes",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut in wedges",
+      "original_string": "3 limes, cut in wedges, for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -479,28 +544,35 @@
       "name": "Protein",
       "amount": 2.03,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 28.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 104.0,
       "unit": "KCAL",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39300.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -534,13 +606,6 @@
     {
       "name": "Potassium, K",
       "amount": 419.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
       "unit": "MG",
       "serving_size": 148.0,
       "serving_size_unit": "g"

@@ -12,11 +12,12 @@
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "preferably omega-3 eggs,  beaten",
+      "original_string": "2 large eggs, preferably omega-3 eggs, beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
-          "amount": 170.0,
+          "amount": 295.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -58,21 +59,21 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 173.0,
+          "amount": 1423.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 11.7,
+          "amount": 24.2,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 26840.0,
+          "amount": 66140.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -101,10 +102,19 @@
       ]
     },
     {
+      "name": "packed light brown sugar",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup packed light brown sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "pure vanilla extract",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons pure vanilla extract",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -134,13 +144,15 @@
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups grated fresh zucchini",
       "nutrition_infos": []
     },
     {
       "name": "canola oil",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "preferably expeller-pressed",
+      "original_string": "2/3 cup canola oil, preferably expeller-pressed, plus more for greasing the muffin tins",
       "nutrition_infos": []
     },
     {
@@ -148,6 +160,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -187,10 +200,55 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "unbleached all-purpose flour",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups unbleached all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -314,10 +372,162 @@
       ]
     },
     {
+      "name": "ground cinnamon",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons ground cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1250.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.5,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1167.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground nutmeg",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon ground nutmeg",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "chopped pecans",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped pecans",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -377,7 +587,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 1167.0,
+          "amount": 417.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -445,6 +655,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup golden raisins",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -537,7 +748,7 @@
   "nutrition_infos": [
     {
       "name": "Carbohydrate, by difference",
-      "amount": 170.0,
+      "amount": 295.0,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -579,21 +790,21 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 173.0,
+      "amount": 1423.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 11.7,
+      "amount": 24.2,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 26840.0,
+      "amount": 66140.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -658,7 +869,14 @@
       "name": "Potassium, K",
       "amount": 1167.0,
       "unit": "MG",
-      "serving_size": 30.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -673,13 +891,6 @@
       "amount": 20.0,
       "unit": "G",
       "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin D (D2 + D3), International Units",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 40.0,
       "serving_size_unit": "g"
     }
   ]

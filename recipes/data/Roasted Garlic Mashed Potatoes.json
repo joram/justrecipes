@@ -1,552 +1,138 @@
 {
   "name": "Roasted Garlic Mashed Potatoes",
   "categories": [],
-  "servings": 5,
-  "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/roasted-garlic-mashed-potatoes-5656078e16a5ed045eb3df70",
+  "servings": 6,
+  "minutes": 80,
+  "source_url": "https://www.bettycrocker.com/recipes/roasted-garlic-mashed-potatoes/acae36db-484b-4708-b544-750106fa125c",
   "image_urls": [
-    "/verso/static/epicurious/assets/logo-seo.png"
+    "https://mojo.generalmills.com/api/public/content/wBw5RHHW0Ua-yggBaA40ag_gmi_hi_res_jpeg.jpeg?v=be8a769c&t=b5673970ed9e41549a020b29d456506d"
   ],
   "ingredients": [
     {
-      "name": "large head garlic",
-      "amount": 1.0,
+      "name": "medium russet potatoes",
+      "amount": 6.0,
       "unit": "",
       "comment": "",
-      "original_string": "1 large head garlic",
+      "original_string": "6  medium russet potatoes (about 2 lb)",
       "nutrition_infos": []
     },
     {
-      "name": "olive oil",
+      "name": "unpeeled garlic cloves",
+      "amount": 6.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "6  unpeeled garlic cloves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "olive",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2  tablespoons olive or vegetable oil",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chopped fresh",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
-      "original_string": "1 teaspoon olive oil",
+      "original_string": "1  teaspoon chopped fresh or 1/4 teaspoon dried rosemary leaves",
       "nutrition_infos": []
     },
     {
-      "name": "russet potatoes",
-      "amount": 2.5,
-      "unit": "lb",
-      "comment": "peeled,  cut into 1/2-inch pieces",
-      "original_string": "2 1/2 pounds russet potatoes, peeled, cut into 1/2-inch pieces",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 6.539999999999999,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 33.25,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 169.0,
-          "unit": "KCAL",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 8.53,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 2.5999999999999996,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 171.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 2.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Magnesium, Mg",
-          "amount": 16.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Phosphorus, P",
-          "amount": 41.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 686.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 117.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Zinc, Zn",
-          "amount": 0.2,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Copper, Cu",
-          "amount": 0.054,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 8860.0,
-          "unit": "IU",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 22.4,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Thiamin",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Riboflavin",
-          "amount": 0.023,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Niacin",
-          "amount": 1.08,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin B-6",
-          "amount": 0.135,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 148.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "half and half",
-      "amount": 2.5,
-      "unit": "cup",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
       "comment": "",
-      "original_string": "2/3 cup half and half",
+      "original_string": "1/2  teaspoon salt",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.33,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 30.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 83.0,
+          "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 6.67,
-          "unit": "G",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 133.0,
-          "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 267.0,
-          "unit": "MG",
-          "serving_size": 30.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 117.0,
+          "amount": 39300.0,
           "unit": "MG",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 5330.0,
-          "unit": "IU",
-          "serving_size": 30.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 30.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "butter",
-      "amount": 5.0,
-      "unit": "tbsp",
-      "comment": "cut into 5 pieces",
-      "original_string": "5 tablespoons butter, cut into 5 pieces",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 1.18,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 2.35,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 12.0,
-          "unit": "KCAL",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 1.18,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 1.2,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 24.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 1.27,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 3530.0,
-          "unit": "IU",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 4.2,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 85.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "name": "to 1/2 cup milk",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/3  to 1/2 cup milk",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Preheat oven to 400°F. Place garlic on large square of foil. Drizzle with oil. Wrap foil around garlic to enclose. Bake garlic until soft, about 40 minutes. Cool garlic. Separate cloves. Press garlic cloves between fingertips to release from skins.",
-    "Cook potatoes in large pot of boiling salted water until tender, about 20 minutes. Drain; return potatoes to same pot. Add garlic and mash together.",
-    "Bring half and half to simmer in small saucepan. Add half and half and butter to potatoes; stir to blend. Season with salt and pepper."
+    "Heat oven to 375°F. Scrub potatoes; pierce with fork to allow steam to escape. Wrap garlic cloves in foil. Bake potatoes and garlic 1 hour or until potatoes are soft.",
+    "In 8-inch skillet, heat oil and rosemary over medium heat 2 to 3 minutes, stirring frequently, until rosemary is fragrant.\r\n",
+    "Cut potatoes in half; carefully spoon potatoes into large bowl, discarding skins. Slip skins off cloves of garlic; discard skins. Add garlic, oil mixture and salt to potatoes. Mash until fluffy, adding milk until desired consistency."
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 6.539999999999999,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 33.25,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 169.0,
+      "amount": 0.0,
       "unit": "KCAL",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 8.53,
-      "unit": "G",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 2.5999999999999996,
-      "unit": "G",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 171.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 2.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Magnesium, Mg",
-      "amount": 16.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Phosphorus, P",
-      "amount": 41.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 686.0,
-      "unit": "MG",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 117.0,
+      "amount": 39300.0,
       "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Zinc, Zn",
-      "amount": 0.2,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Copper, Cu",
-      "amount": 0.054,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 8860.0,
-      "unit": "IU",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 22.4,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Thiamin",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Riboflavin",
-      "amount": 0.023,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Niacin",
-      "amount": 1.08,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin B-6",
-      "amount": 0.135,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 148.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 148.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

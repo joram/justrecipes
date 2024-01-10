@@ -13,7 +13,8 @@
       "name": "stale bread",
       "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "sliced about 3/4 to 1 inch thick",
+      "original_string": "1/2 pound stale bread, sliced about 3/4 to 1 inch thick",
       "nutrition_infos": []
     },
     {
@@ -21,6 +22,7 @@
       "amount": 3.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "3/4 ounce dried mushrooms",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -80,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2365.0,
+          "amount": 80965.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -126,14 +128,16 @@
       "name": "swiss chard",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "stemmed and cleaned",
+      "original_string": "8 ounces Swiss chard, stemmed and cleaned",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "1 cut in half,  green shoots removed,  the other minced",
+      "original_string": "2 garlic cloves, 1 cut in half, green shoots removed, the other minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -174,9 +178,10 @@
     },
     {
       "name": "low-fat milk",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups low-fat milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -275,14 +280,16 @@
       "name": "gruyère cheese",
       "amount": 2.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "2 ounces Gruyère cheese, grated (1/2 cup, tightly packed)",
       "nutrition_infos": []
     },
     {
       "name": "parmesan cheese",
       "amount": 1.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "grated",
+      "original_string": "1 ounce Parmesan cheese, grated (1/4 cup, tightly packed)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -389,6 +396,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -460,6 +468,59 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon chopped fresh rosemary",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "freshly ground pepper",
       "nutrition_infos": []
     },
     {
@@ -467,6 +528,7 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -553,6 +615,50 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -622,7 +728,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 2365.0,
+      "amount": 80965.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"

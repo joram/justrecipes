@@ -13,46 +13,99 @@
       "name": "sticks butter",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "more to grease pans",
+      "original_string": "2 sticks butter, more to grease pans",
       "nutrition_infos": []
     },
     {
-      "name": "shortening",
-      "amount": 2.0,
+      "name": "sugar",
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 30.65,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 152.78,
           "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 227.93999999999997,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2189.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 163.6,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 77017.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "shortening",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup shortening",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 127.94000000000001,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1814.0,
+          "amount": 909.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 63.6,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -87,7 +140,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37717.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -127,6 +180,7 @@
       "amount": 5.0,
       "unit": "",
       "comment": "",
+      "original_string": "5 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -233,6 +287,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons vanilla",
       "nutrition_infos": []
     },
     {
@@ -240,13 +295,59 @@
       "amount": 5.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "5 cups cake flour",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "baking soda",
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -290,6 +391,7 @@
       "amount": 5.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "5 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -340,6 +442,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -428,10 +531,19 @@
       ]
     },
     {
+      "name": "of sugar",
+      "amount": 5.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "5 cups of sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "cocoa",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup cocoa",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -544,7 +656,8 @@
       "name": "stick butter",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into pieces",
+      "original_string": "1 stick butter, cut into pieces",
       "nutrition_infos": []
     },
     {
@@ -552,6 +665,7 @@
       "amount": 8.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 15-ounce can evaporated milk",
       "nutrition_infos": []
     },
     {
@@ -559,6 +673,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -672,6 +787,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons vanilla",
       "nutrition_infos": []
     }
   ],
@@ -690,35 +806,42 @@
       "name": "Protein",
       "amount": 30.65,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 152.78,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 127.94000000000001,
+      "amount": 227.93999999999997,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1814.0,
+      "amount": 2189.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 63.6,
+      "amount": 163.6,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 77017.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -745,13 +868,6 @@
     {
       "name": "Potassium, K",
       "amount": 1842.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 37717.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

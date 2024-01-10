@@ -1,48 +1,138 @@
 {
   "name": "Hot Cross Buns",
   "categories": [],
-  "servings": 12,
-  "minutes": 270,
-  "source_url": "https://cooking.nytimes.com/recipes/1023097-hot-cross-buns",
+  "servings": 24,
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/hot-cross-buns-52805401",
   "image_urls": [
-    "https://static01.nyt.com/images/2022/04/08/dining/korex-buns/korex-buns-square640.jpg",
-    "https://static01.nyt.com/images/2022/04/08/dining/korex-buns/merlin_205030770_83fde9b3-f0d7-44d3-8c27-fcaa6b3ec38f-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2022/04/08/dining/korex-buns/merlin_205030770_83fde9b3-f0d7-44d3-8c27-fcaa6b3ec38f-superJumbo.jpg"
+    "https://assets.epicurious.com/photos/5612e5ad928970611e0a7f9c/16:9/w_240,h_135,c_limit/101452.jpg",
+    "https://assets.epicurious.com/photos/5612e5ad928970611e0a7f9c/4:3/w_252,h_189,c_limit/101452.jpg",
+    "https://assets.epicurious.com/photos/5612e5ad928970611e0a7f9c/1:1/w_252,h_252,c_limit/101452.jpg"
   ],
   "ingredients": [
     {
-      "name": "cups/300 grams whole milk",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "teaspoons/7 grams active dry yeast 1 envelope",
-      "amount": 2.3333333333333335,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cups/500 grams bread flour",
-      "amount": 2.6666666666666665,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "ground ginger",
+      "name": "warm milk",
       "amount": 1.0,
-      "unit": "tsp",
+      "unit": "cup",
       "comment": "",
+      "original_string": "1 cup warm milk (105°–115°F.)",
       "nutrition_infos": []
     },
     {
-      "name": "ground cardamom",
+      "name": "two 1/4 ounce packages active dry yeast",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "two 1/4-ounce packages (5 teaspoons) active dry yeast",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/2 cup plus 1 teaspoon granulated sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "all-purpose flour",
+      "amount": 4.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "4 cups all-purpose flour",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 29.18,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 62.5,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 234.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1620.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 138.23000000000002,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 10.98,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40090.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 11.75,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground allspice",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/2 teaspoons ground allspice",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -82,81 +172,719 @@
       ]
     },
     {
-      "name": "large egg",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "cup/120 grams raisins see tip",
-      "amount": 3.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "orange blossom water",
-      "amount": 2.6666666666666665,
+      "name": "cinnamon",
+      "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 408.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sticks cold unsalted butter",
+      "amount": 1.25,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 1/4 sticks (1/2 cup plus 2 tablespoons) cold unsalted butter",
       "nutrition_infos": []
     },
     {
-      "name": "cup/50 grams bread flour see tip",
+      "name": "large eggs",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
+      "nutrition_infos": [
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 12.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 140.0,
+          "unit": "KCAL",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 208.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 140.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 370.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 3.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "large egg yolk",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 large egg yolk",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dried currants",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup dried currants",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 77.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 325.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 72.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 50.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.7,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 25.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "golden raisins",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/3 cup golden raisins",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 80.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 300.0,
+          "unit": "KCAL",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 60.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 50.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.5,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 825.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 40.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "finely grated fresh orange zest",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons finely grated fresh orange zest",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 52.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 500.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 52.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.3,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 75.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 625.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 38.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 8.75,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "finely grated fresh lemon zest",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons finely grated fresh lemon zest",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "superfine granulated sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons superfine granulated sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "pastry dough",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "pastry dough",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Make the dough: Heat the milk in a small saucepan over medium until steaming. Remove from the heat. Transfer 1/4 cup/60 grams hot milk to a small bowl and let cool to 110 to 115 degrees if needed, about 1 minute. It should feel lukewarm if you stick your finger in it. Stir in the yeast and 1 teaspoon sugar. Let stand until foamy, about 5 minutes. If the yeast doesn’t foam, it’s dead and won’t help the dough rise. (You’ll have to buy some more and start over if this happens.)",
-    "Meanwhile, whisk the remaining 1/4 cup sugar with the flour, cinnamon, ginger, cardamom and salt in a large bowl or the bowl of a stand mixer. Add the butter to the milk in the saucepan and stir until it melts.",
-    "When the butter has melted and the milk mixture is lukewarm, pour it into the dry ingredients, along with the yeast mixture and egg. If using a stand mixer, beat with the dough hook on medium-low speed until a smooth elastic ball forms, scraping the bowl and hook occasionally, about 10 minutes. The dough should feel sticky but not stick to your hands. If working by hand, mix the ingredients with your hand until a shaggy dough forms, then knead in the bowl to form a shaggy ball. Transfer to a work surface and continue kneading until smooth and elastic, about 15 minutes. You shouldn’t need to flour your surface, but, if the dough is sticking to it, lightly flour as needed.",
-    "Add the raisins and candied orange peel to the dough and knead them in until evenly distributed. Form the dough into a ball.",
-    "Generously butter a clean large bowl and transfer the dough ball to it. Turn the ball to coat with the butter, then cover the bowl with a clean kitchen towel. Let the dough rise in a warm place until doubled, about 1 1/2 hours.",
-    "Butter a 9-by-13-inch cake pan. Turn the dough out onto a clean work surface and divide into 12 even pieces (90 to 100 grams each) with a bench scraper, sharp knife or your hands. Form a piece into a ball by folding it over itself and pulling the stretchy dough over the fruit bits so they’re not sticking out. Once you have a smooth ball, pinch the seam at the bottom shut and place seam side down on the surface. Cup your hand over the ball and move your hand quickly in a circular motion to tighten the ball into a perfect round. Place in the prepared pan. Repeat with the remaining dough and arrange the balls in a 3-by-4 grid, spacing evenly apart. At this point, you can cover the pan tightly in plastic wrap and refrigerate for up to 1 day.",
-    "Open a large, clean unscented produce, recycling or garbage bag and slip the pan into it. Fill a tall glass with hot water, place next to the pan in the bag and tie the bag shut. (This creates a warm, steamy environment for the dough to rise.) Let the balls rise until their sides are touching, about 1½ hours (longer if the dough has been chilled).",
-    "When the dough is almost done rising, heat the oven to 400 degrees.",
-    "Prepare the topping: If using orange blossom water, stir 1½ teaspoons into ¼ cup/60 grams water in a small bowl. Add the flour and stir into a smooth paste. Transfer to a pastry bag or resealable plastic bag and snip a ⅓-inch hole in one corner. Pipe lines across the centers of the balls in one direction and then again in the opposite direction so that each ball has a cross.",
-    "Bake until risen and browned, 20 to 22 minutes. The internal temperature of a center bun should register 190 degrees. While the buns are baking, heat the sugar and 1 tablespoon water in a small saucepan over medium until the sugar dissolves. Remove from the heat and stir in the remaining ¼ teaspoon orange blossom water, if using. As soon as the buns come out of the oven, brush the syrup evenly over them. Serve hot, warm or at room temperature."
+    "In a small bowl stir together milk, yeast, and 1 teaspoon granulated sugar. Let mixture stand 5 minutes, or until foamy.",
+    "Into a large bowl sift together flour, allspice, cinnamon, salt, and remaining 1/2 cup granulated sugar. Cut butter into bits and with your fingertips or a pastry blender blend into flour mixture until mixture resembles coarse meal. Lightly beat 1 whole egg with egg yolk. Make a well in center of flour mixture and pour in yeast and egg mixtures, currants, raisins, and zests. Stir mixture until a dough is formed. Transfer dough to a floured surface and with floured hands knead until smooth and elastic, about 10 minutes. Transfer dough to an oiled large bowl and turn to coat. Let dough rise, covered with plastic wrap, in a warm place until doubled in bulk, about 1 1/2 hours.",
+    "Butter 2 large baking sheets.",
+    "On a floured surface with floured hands knead dough briefly and form into two 12-inch-long logs. Cut each log crosswise into 12 equal pieces. Form each piece into a ball and arrange about 1 1/2 inches apart on baking sheets. Let buns rise, covered, in a warm place until doubled in bulk, about 45 minutes.",
+    "Preheat oven to 400°F.",
+    "While buns are rising, lightly beat remaining egg with superfine sugar to make an egg glaze. On a lightly floured surface with a floured rolling pin roll out pastry dough into a 20- by 6-inch rectangle (about 1/8 inch thick). With a sharp knife cut rectangle crosswise into 1/8-inch- wide strips.",
+    "Brush buns with egg glaze and arrange 2 pastry strips over center of each bun to form a cross. Trim ends of pastry strips flush with bottoms of buns. Bake buns in upper and lower thirds of oven, switching position of sheets halfway through baking, until golden, about 12 minutes. Transfer buns to a rack to cool slightly. Buns may be made 1 week ahead and frozen, wrapped in foil and put in a sealable plastic bag. Thaw buns and reheat before serving. Serve buns warm or at room temperature."
   ],
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "name": "Protein",
+      "amount": 29.18,
       "unit": "G",
-      "serving_size": 0.7,
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 62.5,
+      "unit": "G",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 234.2,
       "unit": "G",
-      "serving_size": 0.7,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 0.7,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Protein",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 0.7,
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 0.0,
+      "amount": 1620.0,
       "unit": "KCAL",
-      "serving_size": 0.7,
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 138.23000000000002,
+      "unit": "G",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 10.7,
+      "unit": "G",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 10.98,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40090.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 11.75,
+      "unit": "G",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 408.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 208.0,
+      "unit": "MG",
+      "serving_size": 50.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 50.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 825.0,
+      "unit": "MG",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

@@ -11,10 +11,11 @@
   ],
   "ingredients": [
     {
-      "name": "55 grams cake flour",
-      "amount": 2.0,
-      "unit": "",
+      "name": "cake flour",
+      "amount": 255.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "2 cups/255 grams cake flour, plus more for dusting",
       "nutrition_infos": []
     },
     {
@@ -22,17 +23,18 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 3.33,
+          "amount": 15.33,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 3.75,
+          "amount": 13.75,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -46,21 +48,21 @@
         },
         {
           "name": "Energy",
-          "amount": 67.0,
+          "amount": 257.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 3455.0,
+          "amount": 3511.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 10854.0,
+          "amount": 10994.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -72,13 +74,82 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons full-flavored honey",
       "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 cup plus 2 tablespoons/255 grams unsalted butter (2 sticks plus 2 tablespoons), plus more for greasing",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 3.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "3/4 cup plus 1 tablespoon/165 grams granulated sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "bergamots",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 bergamots or Meyer lemons (or 1 lemon and 1 clementine), finely zested",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 50.0,
+          "unit": "KCAL",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 5.0,
+          "unit": "G",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 2.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "loose earl grey tea",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 tablespoon loose Earl Grey tea, finely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -110,7 +181,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 5.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 2.0,
           "serving_size_unit": "g"
@@ -125,17 +196,104 @@
       ]
     },
     {
-      "name": "large eggs 1 large egg white",
+      "name": "large eggs",
       "amount": 3.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3 large eggs plus 1 large egg white, at room temperature",
+      "nutrition_infos": [
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 12.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 140.0,
+          "unit": "KCAL",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 56.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 140.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 385.0,
+          "unit": "MG",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.08,
+          "unit": "G",
+          "serving_size": 50.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "whole milk",
-      "amount": 5.0,
+      "amount": 75.0,
       "unit": "ml",
-      "comment": "",
+      "comment": "slightly warm",
+      "original_string": "5 tablespoons/75 milliliters whole milk, slightly warm",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -257,14 +415,14 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 3.33,
+      "amount": 15.33,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 3.75,
+      "amount": 13.75,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -278,21 +436,21 @@
     },
     {
       "name": "Energy",
-      "amount": 67.0,
+      "amount": 257.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 3455.0,
+      "amount": 3511.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 10854.0,
+      "amount": 10994.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -308,14 +466,35 @@
       "name": "Fiber, total dietary",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 2.0,
       "unit": "MG",
-      "serving_size": 240.0,
+      "serving_size": 50.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 385.0,
+      "unit": "MG",
+      "serving_size": 50.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 50.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 5.08,
+      "unit": "G",
+      "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
@@ -336,27 +515,6 @@
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 42.0,
       "unit": "IU",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 15.0,
-      "unit": "MG",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 2.08,
-      "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     }

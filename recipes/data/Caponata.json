@@ -11,17 +11,63 @@
   ],
   "ingredients": [
     {
-      "name": "small italian eggplants about 4",
+      "name": "small italian eggplants",
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 lb. small Italian eggplants (about 4)",
       "nutrition_infos": []
+    },
+    {
+      "name": "diamond crystal",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 Tbsp. Diamond Crystal or 1¾ tsp. Morton kosher salt (or 2 tsp. fine sea salt), plus more",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.83,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 103.31,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1196.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39182.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "extra-virgin olive oil",
       "amount": 6.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1½ cups extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -99,28 +145,91 @@
       "name": "medium onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 medium onion, chopped",
       "nutrition_infos": []
     },
     {
       "name": "medium celery ribs",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "4 medium celery ribs, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "/4 oz.",
+      "name": "large green sicilian olives",
       "amount": 2.0,
-      "unit": "",
-      "comment": "",
+      "unit": "cup",
+      "comment": "pitted and coarsely chopped",
+      "original_string": "⅓ cup large green Sicilian olives (1¾ oz.), pitted and coarsely chopped",
       "nutrition_infos": []
+    },
+    {
+      "name": "italian capers packed in salt",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "rinsed well",
+      "original_string": "⅓ cup Italian capers packed in salt (1¾ oz.), rinsed well",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 Tbsp. sugar, plus more",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 102.48,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "white wine vinegar",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "⅓ cup white wine vinegar",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -158,6 +267,113 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "whole tomatoes in juice",
+      "amount": 1.0,
+      "unit": "can",
+      "comment": "drained and chopped",
+      "original_string": "1 (14- to 15-oz.) can whole tomatoes in juice, drained and chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.83,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.31,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 21.0,
+          "unit": "KCAL",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 2.48,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.8,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 17.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.6,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 182.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 413.0,
+          "unit": "IU",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 9.9,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 121.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -171,37 +387,37 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 0.83,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 103.31,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 800.0,
+      "amount": 1196.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 39182.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -237,6 +453,48 @@
       "amount": 13.3,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 102.48,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.8,
+      "unit": "G",
+      "serving_size": 121.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 17.0,
+      "unit": "MG",
+      "serving_size": 121.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 0.6,
+      "unit": "MG",
+      "serving_size": 121.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 413.0,
+      "unit": "IU",
+      "serving_size": 121.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 9.9,
+      "unit": "MG",
+      "serving_size": 121.0,
       "serving_size_unit": "g"
     }
   ]

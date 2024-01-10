@@ -10,17 +10,63 @@
   ],
   "ingredients": [
     {
-      "name": "fine or medium cornmeal",
-      "amount": 1.3333333333333333,
+      "name": "fine",
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups fine or medium cornmeal",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.75,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 5.42,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 67.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39356.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "milk",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup milk, or more as needed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -109,10 +155,11 @@
       ]
     },
     {
-      "name": "vegetable or olive oil",
+      "name": "vegetable",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons vegetable or olive oil, plus more for frying",
       "nutrition_infos": []
     },
     {
@@ -120,6 +167,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
@@ -127,6 +175,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup pine nuts",
       "nutrition_infos": []
     },
     {
@@ -134,6 +183,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Honey, for serving",
       "nutrition_infos": []
     }
   ],
@@ -148,28 +198,35 @@
       "name": "Protein",
       "amount": 3.75,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 3.33,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 5.42,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 67.0,
       "unit": "KCAL",
-      "serving_size": 240.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39356.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -189,13 +246,6 @@
     {
       "name": "Potassium, K",
       "amount": 175.0,
-      "unit": "MG",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 56.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"

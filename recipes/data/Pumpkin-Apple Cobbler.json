@@ -9,17 +9,91 @@
   ],
   "ingredients": [
     {
-      "name": "fresh pumpkin or butternut squash",
+      "name": "unsalted butter",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 117.89999999999999,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 352.67,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2490.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 30.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 4650.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 303.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 75.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh pumpkin",
       "amount": 4.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "4 cups fresh pumpkin or butternut squash, peeled and cut in 1- inch cubes",
       "nutrition_infos": []
     },
     {
       "name": "tart apples",
       "amount": 2.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "peeled and cut in 1-inch chunks",
+      "original_string": "2 cups tart apples, peeled and cut in 1-inch chunks",
       "nutrition_infos": []
     },
     {
@@ -27,38 +101,39 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup dark raisins",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 9.0,
+          "amount": 2.33,
           "unit": "G",
           "serving_size": 43.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 39.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 43.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 152.67,
+          "amount": 79.1,
           "unit": "G",
           "serving_size": 43.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1026.0,
+          "amount": 300.0,
           "unit": "KCAL",
           "serving_size": 43.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 61.67,
+          "amount": 261.67,
           "unit": "G",
           "serving_size": 43.0,
           "serving_size_unit": "g"
@@ -86,14 +161,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 30.0,
+          "amount": 12.0,
           "unit": "MG",
           "serving_size": 43.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 1790.0,
+          "amount": 0.0,
           "unit": "IU",
           "serving_size": 43.0,
           "serving_size_unit": "g"
@@ -107,7 +182,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 89.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 43.0,
           "serving_size_unit": "g"
@@ -121,9 +196,60 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 25.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 43.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "light brown sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup light brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
@@ -133,6 +259,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup flour, plus flour for work surface",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -207,10 +334,84 @@
       ]
     },
     {
+      "name": "lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "ground ginger",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon ground ginger",
+      "nutrition_infos": []
+    },
+    {
+      "name": "nutmeg",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon nutmeg",
       "nutrition_infos": []
     },
     {
@@ -218,6 +419,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon ground cloves",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -261,13 +463,80 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Cornmeal biscuit dough",
       "nutrition_infos": []
     },
     {
-      "name": "creme fraiche for serving",
+      "name": "granulated sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "creme fraiche",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Creme fraiche for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -382,33 +651,68 @@
       "name": "Protein",
       "amount": 9.0,
       "unit": "G",
-      "serving_size": 43.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 39.3,
+      "amount": 117.89999999999999,
       "unit": "G",
-      "serving_size": 43.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 152.67,
+      "amount": 352.67,
       "unit": "G",
-      "serving_size": 43.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1026.0,
+      "amount": 2490.0,
       "unit": "KCAL",
-      "serving_size": 43.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 30.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 4650.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 303.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 75.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 61.67,
+      "amount": 261.67,
       "unit": "G",
       "serving_size": 43.0,
       "serving_size_unit": "g"
@@ -435,44 +739,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 30.0,
-      "unit": "MG",
-      "serving_size": 43.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 1790.0,
-      "unit": "IU",
-      "serving_size": 43.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 2.8,
       "unit": "MG",
-      "serving_size": 43.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 89.0,
-      "unit": "MG",
-      "serving_size": 43.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 43.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 25.0,
-      "unit": "G",
       "serving_size": 43.0,
       "serving_size_unit": "g"
     },

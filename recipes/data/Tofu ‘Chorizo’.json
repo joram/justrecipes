@@ -14,20 +14,23 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "small onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 small onion, chopped",
       "nutrition_infos": []
     },
     {
       "name": "garlic",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 tablespoon garlic, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -66,7 +69,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 0.0,
+          "amount": 2000.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -88,17 +91,144 @@
       ]
     },
     {
+      "name": "salt and ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and ground black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "blocks firm tofu",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 blocks firm tofu",
       "nutrition_infos": []
+    },
+    {
+      "name": "chili powder",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon chili powder",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2000.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cumin",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon cumin",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cinnamon",
+      "amount": 4.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/8 teaspoon cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cider vinegar",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon cider vinegar",
       "nutrition_infos": []
     },
     {
@@ -106,6 +236,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped fresh cilantro for garnish",
       "nutrition_infos": []
     },
     {
@@ -113,6 +244,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Chopped scallions for garnish",
       "nutrition_infos": []
     }
   ],
@@ -160,7 +292,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 0.0,
+      "amount": 2000.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -177,6 +309,20 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.5,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     }
   ]

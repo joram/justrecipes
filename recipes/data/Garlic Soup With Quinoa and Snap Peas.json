@@ -11,20 +11,22 @@
   "ingredients": [
     {
       "name": "quarts chicken stock",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "vegetable stock",
+      "original_string": "1 1/2 quarts chicken stock, vegetable stock or water",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "6 garlic cloves, minced or sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 7.859999999999999,
+          "amount": 10.21,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -38,23 +40,75 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 100.0,
+          "amount": 107.06,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1600.0,
+          "amount": 1641.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 647.0,
+          "amount": 39947.0,
           "unit": "MG",
           "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "small",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 small or 2 large sage leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
@@ -64,6 +118,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon extra virgin olive oil (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -95,14 +150,14 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 54.31,
+          "amount": 57.84,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.1,
+          "amount": 4.5,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -135,6 +190,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -180,14 +236,14 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 88.0,
+          "amount": 135.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.7199999999999998,
+          "amount": 4.84,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -237,10 +293,118 @@
       ]
     },
     {
+      "name": "sugar snap peas",
+      "amount": 6.0,
+      "unit": "oz",
+      "comment": "trimmed",
+      "original_string": "6 ounces sugar snap peas, trimmed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 7.06,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 41.0,
+          "unit": "KCAL",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.53,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.4,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 47.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.12,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 372.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "cooked quinoa",
-      "amount": 1.6666666666666667,
+      "amount": 1.3333333333333333,
       "unit": "cup",
-      "comment": "",
+      "comment": "warmed",
+      "original_string": "1 1/3 cups cooked quinoa, warmed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -353,7 +517,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 7.859999999999999,
+      "amount": 10.21,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -367,35 +531,35 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 100.0,
+      "amount": 107.06,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1600.0,
+      "amount": 1641.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 647.0,
+      "amount": 39947.0,
       "unit": "MG",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 54.31,
+      "amount": 57.84,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.1,
+      "amount": 4.5,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -416,14 +580,14 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 88.0,
+      "amount": 135.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.7199999999999998,
+      "amount": 4.84,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -451,16 +615,16 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 172.0,
+      "amount": 372.0,
       "unit": "MG",
-      "serving_size": 140.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 140.0,
+      "serving_size": 85.0,
       "serving_size_unit": "g"
     }
   ]

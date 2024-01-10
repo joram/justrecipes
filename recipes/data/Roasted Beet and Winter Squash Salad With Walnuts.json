@@ -10,70 +10,71 @@
   ],
   "ingredients": [
     {
-      "name": "kabocha or butternut squash",
+      "name": "kabocha",
       "amount": 2.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "2 pounds kabocha or butternut squash",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 2.01,
+          "amount": 18.71,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 160.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 28.21,
+          "amount": 41.510000000000005,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 935.0,
+          "amount": 1602.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 21.83,
+          "amount": 25.159999999999997,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.0,
+          "amount": 8.7,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 24.0,
+          "amount": 124.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 3.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 412.0,
+          "amount": 845.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -122,7 +123,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 13.3,
+          "amount": 19.97,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -133,7 +134,8 @@
       "name": "beets",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "with greens",
+      "original_string": "1 bunch beets, with greens",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -236,10 +238,11 @@
       ]
     },
     {
-      "name": "red wine or sherry vinegar",
+      "name": "red wine",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons red wine or sherry vinegar",
       "nutrition_infos": []
     },
     {
@@ -247,6 +250,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon balsamic vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -300,10 +304,19 @@
       ]
     },
     {
-      "name": "small garlic clove",
+      "name": "salt and freshly ground pepper",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Salt and freshly ground pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "small garlic clove",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "minced",
+      "original_string": "1 small garlic clove, minced or put through a press",
       "nutrition_infos": []
     },
     {
@@ -311,6 +324,7 @@
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -382,20 +396,129 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons walnut oil",
       "nutrition_infos": []
     },
     {
-      "name": "chopped walnuts about 1 1 2 ounces",
+      "name": "chopped walnuts",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3 tablespoons chopped walnuts (about 1 1/2 ounces)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 16.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 66.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 13.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 667.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 6.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 433.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "mixed chopped fresh herbs",
       "amount": 2.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "like parsley,  mint,  tarragon,  chives",
+      "original_string": "2 tablespoons mixed chopped fresh herbs, like parsley, mint, tarragon, chives",
       "nutrition_infos": []
     }
   ],
@@ -410,63 +533,63 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 2.01,
+      "amount": 18.71,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 160.0,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 28.21,
+      "amount": 41.510000000000005,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 935.0,
+      "amount": 1602.0,
       "unit": "KCAL",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 21.83,
+      "amount": 25.159999999999997,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.0,
+      "amount": 8.7,
       "unit": "G",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 24.0,
+      "amount": 124.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 3.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 412.0,
+      "amount": 845.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"
@@ -515,9 +638,23 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 13.3,
+      "amount": 19.97,
       "unit": "G",
       "serving_size": 85.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

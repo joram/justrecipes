@@ -9,10 +9,118 @@
   ],
   "ingredients": [
     {
+      "name": "slices slab bacon",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "coarsely-chopped",
+      "original_string": "2 slices slab bacon, coarsely-chopped",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 28.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 143.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 33.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1605.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 667.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.57,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1860.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 80.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 104.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "neutral oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons neutral oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,14 +138,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 33.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1034.0,
+          "amount": 867.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -59,17 +167,27 @@
       ]
     },
     {
+      "name": "cooked rice",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 cups cooked rice",
+      "nutrition_infos": []
+    },
+    {
       "name": "scallions",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 scallions, chopped",
       "nutrition_infos": []
     },
     {
       "name": "ginger",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 tablespoon ginger, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -126,7 +244,8 @@
       "name": "garlic",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 tablespoon garlic, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -187,10 +306,11 @@
       ]
     },
     {
-      "name": "or 2 eggs",
+      "name": "1",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 or 2 eggs",
       "nutrition_infos": []
     },
     {
@@ -198,6 +318,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons soy sauce",
       "nutrition_infos": []
     }
   ],
@@ -208,79 +329,100 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 28.6,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 93.3,
+      "amount": 143.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 33.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1034.0,
+      "amount": 1605.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 86.7,
-      "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.6000000238418579,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
+      "name": "Fiber, total dietary",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 0.6000000238418579,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 667.0,
       "unit": "MG",
-      "serving_size": 3.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 2.57,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 1860.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 80.0,
       "unit": "MG",
-      "serving_size": 3.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 71.0,
+      "unit": "MG",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 3.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 104.6,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

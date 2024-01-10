@@ -14,6 +14,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup cold whole milk",
       "nutrition_infos": []
     },
     {
@@ -21,6 +22,7 @@
       "amount": 1.0,
       "unit": "envelope",
       "comment": "",
+      "original_string": "1 envelope unflavored gelatin",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -38,21 +40,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 12.09,
+          "amount": 112.09,
           "unit": "G",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 745.0,
+          "amount": 1120.0,
           "unit": "KCAL",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 89.0,
+          "amount": 39389.0,
           "unit": "MG",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
@@ -63,7 +65,8 @@
       "name": "milk",
       "amount": 3.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "heated to boiling",
+      "original_string": "3/4 cup milk, heated to boiling",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -95,7 +98,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 11.67,
+          "amount": 111.67,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -156,6 +159,7 @@
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons dark rum",
       "nutrition_infos": []
     },
     {
@@ -163,13 +167,110 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
-      "name": "package 1 cup semisweet chocolate pieces",
+      "name": "sugar",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 4.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/8 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "package semisweet chocolate pieces",
       "amount": 3.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 6-ounce package (1 cup) semisweet chocolate pieces",
       "nutrition_infos": []
     },
     {
@@ -177,6 +278,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -279,10 +381,19 @@
       ]
     },
     {
+      "name": "ice cubes",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 ice cubes",
+      "nutrition_infos": []
+    },
+    {
       "name": "vanilla",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla",
       "nutrition_infos": []
     }
   ],
@@ -311,28 +422,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 12.09,
+      "amount": 112.09,
       "unit": "G",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 745.0,
+      "amount": 1120.0,
       "unit": "KCAL",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 89.0,
+      "amount": 39389.0,
       "unit": "MG",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 11.67,
+      "amount": 111.67,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"

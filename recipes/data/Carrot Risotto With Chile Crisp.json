@@ -12,34 +12,35 @@
   "ingredients": [
     {
       "name": "carrots",
-      "amount": 2.3333333333333335,
+      "amount": 2.25,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "2 1/4 pounds carrots, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 1.28,
+          "amount": 31.57,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 82.61,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 28.97,
+          "amount": 106.77,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 138.0,
+          "amount": 1315.0,
           "unit": "KCAL",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -53,7 +54,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.6,
+          "amount": 4.800000000000001,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 117.0,
+          "amount": 296.0,
           "unit": "MG",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -95,7 +96,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 259.0,
           "unit": "MG",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -109,7 +110,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 50.89,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -117,24 +118,214 @@
       ]
     },
     {
-      "name": "chicken or vegetable stock",
+      "name": "store-bought",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons store-bought or <a href=\"https://cooking.nytimes.com/recipes/1021202-sichuan-chile-oil\">homemade chile crisp</a>, plus more for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt (such as Diamond Crystal) and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chicken",
       "amount": 5.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "5 cups chicken or vegetable stock",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 21.4,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 107.0,
+          "unit": "KCAL",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 179.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 45.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.89,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "4 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "large shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "1 large shallot, minced",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "3 garlic cloves, finely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -174,24 +365,170 @@
       ]
     },
     {
-      "name": "ground cori",
+      "name": "ground coriander",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/2 teaspoon ground coriander",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dry white wine",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup dry white wine",
       "nutrition_infos": []
     },
     {
-      "name": "finely grated parmesan about 1 1/4 cups",
-      "amount": 1.6666666666666667,
+      "name": "arborio rice",
+      "amount": 10.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 1/2 cups/10 ounces arborio rice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 8.89,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 2.22,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 77.8,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 356.0,
+          "unit": "KCAL",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.2,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 45.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "finely grated parmesan",
+      "amount": 2.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "2 1/2 ounces finely grated Parmesan (about 1 1/4 cups, packed), plus more for serving (optional)",
       "nutrition_infos": []
     }
   ],
@@ -208,28 +545,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 1.28,
+      "amount": 31.57,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 82.61,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 28.97,
+      "amount": 106.77,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 138.0,
+      "amount": 1315.0,
       "unit": "KCAL",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -243,7 +580,7 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.6,
+      "amount": 4.800000000000001,
       "unit": "G",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -271,7 +608,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 117.0,
+      "amount": 296.0,
       "unit": "MG",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -285,7 +622,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 259.0,
       "unit": "MG",
       "serving_size": 78.0,
       "serving_size_unit": "g"
@@ -299,9 +636,23 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 50.89,
       "unit": "G",
       "serving_size": 78.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 56.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 56.0,
       "serving_size_unit": "g"
     }
   ]

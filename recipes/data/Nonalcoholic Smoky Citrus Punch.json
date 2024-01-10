@@ -11,10 +11,83 @@
   ],
   "ingredients": [
     {
+      "name": "lemons",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 lemons, plus more for juicing as needed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.53,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.15,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 203.65,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 756.0,
+          "unit": "KCAL",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 187.41,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 4.6,
+          "unit": "G",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 71.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 138.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 11.0,
+          "unit": "MG",
+          "serving_size": 113.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "oranges",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 oranges",
       "nutrition_infos": [
         {
           "name": "Calcium, Ca",
@@ -110,60 +183,201 @@
       ]
     },
     {
-      "name": "loose-leaf",
-      "amount": 4.0,
-      "unit": "tsp",
+      "name": "granulated sugar",
+      "amount": 3.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup granulated sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 375.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "8 ounces soda water",
-      "amount": 1.0,
-      "unit": "cup",
+      "name": "bags lapsang souchong tea",
+      "amount": 4.0,
+      "unit": "",
       "comment": "",
+      "original_string": "4 bags Lapsang souchong tea (or use 4 teaspoons loose-leaf)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 73.7,
+          "unit": "G",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 263.0,
+          "unit": "KCAL",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 68.4,
+          "unit": "G",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 19.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "soda water",
+      "amount": 8.0,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1 cup/8 ounces soda water",
       "nutrition_infos": []
     },
     {
-      "name": "8 ounces tonic water",
-      "amount": 1.0,
-      "unit": "cup",
+      "name": "tonic water",
+      "amount": 8.0,
+      "unit": "oz",
       "comment": "",
+      "original_string": "1 cup/8 ounces tonic water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 7.92,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 38.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.92,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 10.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "lemon and orange slices",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Lemon and orange slices, for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ice ring",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Ice ring or block, for serving (see Tip)",
       "nutrition_infos": []
     }
   ],
@@ -176,10 +390,66 @@
   "notes": [],
   "nutrition_infos": [
     {
+      "name": "Protein",
+      "amount": 1.53,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 0.15,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 203.65,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 756.0,
+      "unit": "KCAL",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 187.41,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 4.6,
+      "unit": "G",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
       "name": "Calcium, Ca",
-      "amount": 45.0,
+      "amount": 71.0,
       "unit": "MG",
-      "serving_size": 154.0,
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 138.0,
+      "unit": "MG",
+      "serving_size": 113.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 11.0,
+      "unit": "MG",
+      "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
@@ -211,59 +481,17 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Protein",
-      "amount": 0.65,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total lipid (fat)",
-      "amount": 0.15,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Carbohydrate, by difference",
-      "amount": 12.3,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 49.0,
-      "unit": "KCAL",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total Sugars",
-      "amount": 8.44,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 1.9,
-      "unit": "G",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 1.0,
-      "unit": "MG",
-      "serving_size": 154.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
       "serving_size": 154.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     }
   ]

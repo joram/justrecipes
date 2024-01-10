@@ -13,6 +13,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "¼ cup cold milk",
       "nutrition_infos": []
     },
     {
@@ -20,6 +21,7 @@
       "amount": 1.0,
       "unit": "envelope",
       "comment": "",
+      "original_string": "1 envelope unflavored gelatin",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -37,21 +39,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 62.09,
+          "amount": 162.09,
           "unit": "G",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1295.0,
+          "amount": 1670.0,
           "unit": "KCAL",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 89.0,
+          "amount": 39389.0,
           "unit": "MG",
           "serving_size": 1.7999999523162842,
           "serving_size_unit": "g"
@@ -62,7 +64,8 @@
       "name": "milk",
       "amount": 3.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "heated to boiling",
+      "original_string": "¾ cup milk, heated to boiling",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -94,7 +97,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 51.67,
+          "amount": 151.67000000000002,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -155,20 +158,67 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
-      "name": "steen’s cane syrup lyle’s br",
+      "name": "steen’s cane syrup lyle’s brand",
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons Steen’s cane syrup Lyle’s brand or molasses works, too",
       "nutrition_infos": []
+    },
+    {
+      "name": "fine sea salt",
+      "amount": 6.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "5/8 teaspoon fine sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.399999976158142,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "small red beets",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "roasted,  peeled and roughly diced about 6 ounces total",
+      "original_string": "4 small red beets, roasted, peeled and roughly diced about 6 ounces total",
       "nutrition_infos": []
     },
     {
@@ -176,6 +226,7 @@
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons dark rum",
       "nutrition_infos": []
     },
     {
@@ -183,6 +234,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -285,10 +337,70 @@
       ]
     },
     {
+      "name": "ice cubes",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 ice cubes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "vanilla",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla",
       "nutrition_infos": []
     },
     {
@@ -296,6 +408,7 @@
       "amount": 2.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "2 ounces bittersweet chocolate",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -417,28 +530,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 62.09,
+      "amount": 162.09,
       "unit": "G",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1295.0,
+      "amount": 1670.0,
       "unit": "KCAL",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 89.0,
+      "amount": 39389.0,
       "unit": "MG",
       "serving_size": 1.7999999523162842,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 51.67,
+      "amount": 151.67000000000002,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"

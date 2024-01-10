@@ -11,10 +11,55 @@
   ],
   "ingredients": [
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 113.3,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1093.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40760.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "long pasta",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "like spaghetti,  bucatini",
+      "original_string": "1 pound long pasta, like spaghetti, bucatini or linguine",
       "nutrition_infos": []
     },
     {
@@ -22,6 +67,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,28 +78,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 113.3,
+          "amount": 93.3,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 20.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1093.0,
+          "amount": 800.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1460.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -96,10 +142,11 @@
       ]
     },
     {
-      "name": ".5-ounce cans sardines packed in olive oil see tip",
-      "amount": 3.0,
+      "name": "2",
+      "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "not drained",
+      "original_string": "2 (4- to 4.5-ounce) cans sardines packed in olive oil (see Tip), not drained",
       "nutrition_infos": []
     },
     {
@@ -107,13 +154,15 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 anchovy fillets",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "smashed with the side of a chef’s knife then chopped",
+      "original_string": "6 garlic cloves, smashed with the side of a chef’s knife then chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -153,17 +202,27 @@
       ]
     },
     {
-      "name": "about 4 cups cherry tomatoes",
-      "amount": 2.0,
-      "unit": "pint",
+      "name": "red-pepper flakes",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Red-pepper flakes, to taste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "pints/about 4 cups cherry tomatoes",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 pints/about 4 cups cherry tomatoes",
       "nutrition_infos": []
     },
     {
       "name": "pitted black olives",
       "amount": 3.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "very roughly chopped",
+      "original_string": "3/4 cup pitted black olives, very roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -270,13 +329,15 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup drained capers",
       "nutrition_infos": []
     },
     {
-      "name": "small h",
+      "name": "small handful parsley sprigs",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 small handful parsley sprigs, finely chopped",
       "nutrition_infos": []
     }
   ],
@@ -292,35 +353,35 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 113.3,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 20.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 1093.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 1460.0,
+      "amount": 40760.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

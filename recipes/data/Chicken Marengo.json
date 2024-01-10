@@ -9,10 +9,118 @@
   ],
   "ingredients": [
     {
+      "name": "pepper",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.77,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 169.35000000000002,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1316.0,
+          "unit": "KCAL",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.88,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 35.099999999999994,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 437.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 29.7,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2070.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3760.0,
+          "unit": "IU",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 21.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 3.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "boneless",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "skinless chicken breast halves ,  all visible fat discarded",
+      "original_string": "6 boneless, skinless chicken breast halves (about 4 ounces each), all visible fat discarded",
       "nutrition_infos": []
     },
     {
@@ -20,13 +128,15 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "button mushrooms",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "8 ounces button mushrooms, sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -132,35 +242,206 @@
       "name": "medium red onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "1 medium red onion, chopped",
       "nutrition_infos": []
     },
     {
       "name": "medium garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 medium garlic cloves, minced",
       "nutrition_infos": []
     },
     {
-      "name": "marsala or dry white wine regular or nonalcoholic",
+      "name": "can diced no-salt-added tomatoes",
+      "amount": 7.75,
+      "unit": "oz",
+      "comment": "undrained",
+      "original_string": "1 14.5-ounce can diced no-salt-added tomatoes, undrained",
+      "nutrition_infos": []
+    },
+    {
+      "name": "marsala",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/2 cup marsala or dry white wine (regular or nonalcoholic)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 586.0,
+          "unit": "KCAL",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1760.0,
+          "unit": "MG",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3570.0,
+          "unit": "IU",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 7.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "dried oregano",
       "amount": 1.0,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "1 teaspoon dried oregano, crumbled",
       "nutrition_infos": []
     },
     {
       "name": "dried thyme",
       "amount": 1.5,
       "unit": "tsp",
+      "comment": "crumbled",
+      "original_string": "1/2 teaspoon dried thyme, crumbled",
+      "nutrition_infos": []
+    },
+    {
+      "name": "to 1/2 teaspoon crushed red pepper flakes",
+      "amount": 2.5,
+      "unit": "",
       "comment": "",
+      "original_string": "1/4 to 1/2 teaspoon crushed red pepper flakes (optional)",
       "nutrition_infos": []
     }
   ],
@@ -193,56 +474,98 @@
       "name": "Protein",
       "amount": 1.77,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 57.1,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 2.65,
+      "amount": 169.35000000000002,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 22.0,
+      "amount": 1316.0,
       "unit": "KCAL",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.88,
+      "amount": 100.88,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 1.8,
+      "amount": 35.099999999999994,
       "unit": "G",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 0.0,
+      "amount": 437.0,
       "unit": "MG",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.8,
+      "amount": 29.7,
       "unit": "MG",
-      "serving_size": 113.0,
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 2070.0,
+      "unit": "MG",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3760.0,
+      "unit": "IU",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 21.0,
+      "unit": "MG",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 14.3,
+      "unit": "G",
+      "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
@@ -253,37 +576,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 310.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 113.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     }

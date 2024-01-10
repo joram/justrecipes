@@ -11,17 +11,27 @@
   ],
   "ingredients": [
     {
-      "name": "2 tablespoons extra-virgin olive oil",
-      "amount": 3.5,
-      "unit": "cup",
+      "name": "salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cup",
+      "amount": 3.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "3/4 cup plus 2 tablespoons extra-virgin olive oil",
       "nutrition_infos": []
     },
     {
       "name": "large shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely minced",
+      "original_string": "1 large shallot, finely minced",
       "nutrition_infos": []
     },
     {
@@ -29,45 +39,46 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 26.06,
+          "amount": 36.76,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 30.0,
+          "amount": 31.79,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 42.84,
+          "amount": 219.64,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 612.0,
+          "amount": 1344.0,
           "unit": "KCAL",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 9.09,
+          "amount": 112.66,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 3.0,
+          "amount": 4.8,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -81,7 +92,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.18,
+          "amount": 4.11,
           "unit": "MG",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -134,7 +145,8 @@
       "name": "garlic cloves",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "5 garlic cloves, thinly sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -174,17 +186,92 @@
       ]
     },
     {
-      "name": "finely chopped fresh rosemary or 1/4 teaspoon dried",
+      "name": "finely chopped fresh rosemary",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon finely chopped fresh rosemary (or ¼ teaspoon dried)",
       "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon red-pepper flakes",
+      "nutrition_infos": []
+    },
+    {
+      "name": "granulated sugar",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cherry tomatoes",
       "amount": 16.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "halved",
+      "original_string": "16 ounces cherry tomatoes, halved",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -245,24 +332,126 @@
       ]
     },
     {
-      "name": "can small white beans preferably navy or cannellini beans",
-      "amount": 8.0,
-      "unit": "oz",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "orecchiette or other shaped pasta that will cup or grasp the sauce",
-      "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "freshly grated parmesan or pecorino",
+      "name": "1",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (15-ounce) can small white beans (preferably navy or cannellini beans), rinsed (or 1 1/3 cups cooked white beans)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "orecchiette",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound orecchiette (or other shaped pasta that will cup or grasp the sauce) ",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.79,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 76.8,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 357.0,
+          "unit": "KCAL",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.8,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.93,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 56.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly grated parmesan",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly grated Parmesan or pecorino (optional), for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -378,42 +567,42 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 26.06,
+      "amount": 36.76,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 30.0,
+      "amount": 31.79,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 42.84,
+      "amount": 219.64,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 612.0,
+      "amount": 1344.0,
       "unit": "KCAL",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 9.09,
+      "amount": 112.66,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 3.0,
+      "amount": 4.8,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
@@ -427,7 +616,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.18,
+      "amount": 4.11,
       "unit": "MG",
       "serving_size": 33.0,
       "serving_size_unit": "g"

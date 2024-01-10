@@ -11,24 +11,137 @@
   ],
   "ingredients": [
     {
-      "name": "2 pounds",
+      "name": "medium seedless watermelon",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 medium seedless watermelon (10 to 12 pounds)",
       "nutrition_infos": []
     },
     {
-      "name": "wood ash from your smoker or fireplace or 2 teaspoons food-grade sodium hydroxide lye see note",
+      "name": "wood ash",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup wood ash (from your smoker or fireplace) or 2 teaspoons food-grade sodium hydroxide (lye) (see Note)",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 93.3,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 30.9,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 948.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 60910.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dried oregano leaves",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup dried oregano leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cracked black peppercorns",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons cracked black peppercorns",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 4.23,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 19000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "juniper berries",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly crushed with the side of a cleaver",
+      "original_string": "4 juniper berries, lightly crushed with the side of a cleaver or knife to release the flavor",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -39,21 +152,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 93.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 355.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 30.9,
+          "amount": 4.23,
           "unit": "G",
           "serving_size": 355.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 948.0,
+          "amount": 15.0,
           "unit": "KCAL",
           "serving_size": 355.0,
           "serving_size_unit": "g"
@@ -67,7 +180,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 3110.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 355.0,
           "serving_size_unit": "g"
@@ -79,6 +192,15 @@
       "amount": 3.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "3 whole cloves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 fresh or dried bay leaves",
       "nutrition_infos": []
     },
     {
@@ -86,6 +208,7 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup tamari",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -192,6 +315,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons extra-virgin olive oil, plus 2 tablespoons for basting",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -269,7 +393,8 @@
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "6 garlic cloves, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -309,17 +434,19 @@
       ]
     },
     {
-      "name": "- to 5-inch sprigs fresh rosemary",
+      "name": "sprigs fresh rosemary",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 (4- to 5-inch) sprigs fresh rosemary",
       "nutrition_infos": []
     },
     {
-      "name": "wood chips if using the latter",
+      "name": "hardwood chunks",
       "amount": 2.0,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
+      "original_string": "2 hardwood chunks or 1 1/2 cups wood chips (if using the latter, soak in cold water for 30 minutes then drain), plus more as needed",
       "nutrition_infos": []
     }
   ],
@@ -341,42 +468,49 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 93.3,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 30.9,
       "unit": "G",
-      "serving_size": 355.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 948.0,
       "unit": "KCAL",
-      "serving_size": 355.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 60910.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 4.23,
       "unit": "G",
-      "serving_size": 355.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 3110.0,
-      "unit": "MG",
-      "serving_size": 355.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -409,13 +543,6 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
       "serving_size": 15.0,

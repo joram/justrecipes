@@ -10,35 +10,80 @@
   ],
   "ingredients": [
     {
-      "name": "broccoli rabe",
-      "amount": 1.5,
-      "unit": "lb",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 65.58,
           "unit": "G",
-          "serving_size": 85.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 185.5,
           "unit": "G",
-          "serving_size": 85.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 13.75,
           "unit": "G",
-          "serving_size": 85.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 1903.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 41637.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "broccoli rabe",
+      "amount": 1.5,
+      "unit": "lb",
+      "comment": "stems trimmed off and discarded",
+      "original_string": "1/2 pound broccoli rabe, stems trimmed off and discarded or saved for another use",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.35,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 4.71,
+          "unit": "G",
+          "serving_size": 85.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 29.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -80,7 +125,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2337.0,
+          "amount": 41.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -126,7 +171,8 @@
       "name": "roasted garlic",
       "amount": 3.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "3 cloves roasted garlic, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -233,6 +279,7 @@
       "amount": 10.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "10 tablespoons extra virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -304,6 +351,7 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup freshly grated Parmigiano-Reggiano",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -410,6 +458,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup finely chopped fennel bulb",
       "nutrition_infos": []
     },
     {
@@ -417,13 +466,15 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup finely chopped onion",
       "nutrition_infos": []
     },
     {
       "name": "sweet italian sausage",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "casing removed",
+      "original_string": "1 pound sweet Italian sausage, casing removed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -530,6 +581,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chicken stock",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -639,10 +691,11 @@
       ]
     },
     {
-      "name": "about 1 1 4 pounds dried orecchiette",
+      "name": "grams",
       "amount": 500.0,
-      "unit": "g",
+      "unit": "",
       "comment": "",
+      "original_string": "500 grams (about 1 1/4 pounds) dried orecchiette, or fresh (made with 4 cups of flour)",
       "nutrition_infos": []
     }
   ],
@@ -657,28 +710,35 @@
       "name": "Protein",
       "amount": 65.58,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 185.5,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 13.75,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 1903.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 41637.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -712,13 +772,6 @@
     {
       "name": "Potassium, K",
       "amount": 566.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 2337.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"

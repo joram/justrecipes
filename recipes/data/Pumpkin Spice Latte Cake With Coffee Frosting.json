@@ -11,28 +11,39 @@
   ],
   "ingredients": [
     {
-      "name": "0 milliliters coconut oil",
-      "amount": 1.5,
-      "unit": "",
-      "comment": "",
+      "name": "coconut oil",
+      "amount": 120.0,
+      "unit": "ml",
+      "comment": "melted",
+      "original_string": "1/2 cup/120 milliliters coconut oil, melted, plus more for greasing",
       "nutrition_infos": []
     },
     {
-      "name": "can pumpkin purée",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "pumpkin purée",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
+      "original_string": "1 (15-ounce) can pumpkin purée",
+      "nutrition_infos": []
+    },
+    {
+      "name": "packed light",
+      "amount": 146.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "2/3 cup/146 grams packed light or dark brown sugar",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "at room temperature",
+      "original_string": "2 large eggs, at room temperature",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
-          "amount": 180.87,
+          "amount": 1975.8700000000001,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -74,21 +85,21 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 3473.0,
+          "amount": 4723.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 5.48,
+          "amount": 17.98,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 387890.0,
+          "amount": 413890.0,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -121,13 +132,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon vanilla extract",
       "nutrition_infos": []
     },
     {
       "name": "all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 192.0,
       "unit": "g",
       "comment": "",
+      "original_string": "1 1/2 cups/192 grams all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -217,9 +230,10 @@
     },
     {
       "name": "baking powder",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 1/4 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -270,6 +284,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -309,10 +324,118 @@
       ]
     },
     {
+      "name": "ground cinnamon",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon ground cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 125.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1250.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 12.5,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 120.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "ground ginger",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon ground ginger",
       "nutrition_infos": []
     },
     {
@@ -320,6 +443,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon ground cardamom",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -359,10 +483,134 @@
       ]
     },
     {
+      "name": "freshly grated nutmeg",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon freshly grated nutmeg",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fine pink himalayan salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon fine pink Himalayan salt or fine sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 1670.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 26000.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "stick salted butter",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "at room temperature",
+      "original_string": "1/2 cup/1 stick salted butter, at room temperature",
+      "nutrition_infos": []
+    },
+    {
       "name": "cream cheese",
       "amount": 2.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "at room temperature",
+      "original_string": "2 ounces cream cheese, at room temperature",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -465,10 +713,19 @@
       ]
     },
     {
+      "name": "confectioners’ sugar",
+      "amount": 185.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 1/2 cups/185 grams confectioners’ sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "instant espresso powder",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon instant espresso powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -512,6 +769,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon vanilla extract",
       "nutrition_infos": []
     }
   ],
@@ -526,7 +784,7 @@
   "nutrition_infos": [
     {
       "name": "Carbohydrate, by difference",
-      "amount": 180.87,
+      "amount": 1975.8700000000001,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -568,21 +826,21 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 3473.0,
+      "amount": 4723.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 5.48,
+      "amount": 17.98,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 387890.0,
+      "amount": 413890.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
@@ -633,14 +891,14 @@
       "name": "Potassium, K",
       "amount": 120.0,
       "unit": "MG",
-      "serving_size": 30.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 30.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     }
   ]

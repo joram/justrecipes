@@ -11,10 +11,55 @@
   ],
   "ingredients": [
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.18,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 40.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 9.02,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 412.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39333.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "butter",
       "amount": 4.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,21 +70,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 40.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 9.02,
+          "amount": 2.35,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 412.0,
+          "amount": 12.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -74,7 +119,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 33.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -117,10 +162,19 @@
       ]
     },
     {
+      "name": "to 2 tablespoons chile crisp",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 to 2 tablespoons  <a href=\"https://cooking.nytimes.com/recipes/1022366-chile-crisp\">chile crisp</a>, plus more to taste (see Tip)",
+      "nutrition_infos": []
+    },
+    {
       "name": "heavy cream",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -227,20 +281,23 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound dried fettuccine",
       "nutrition_infos": []
     },
     {
       "name": "package baby spinach",
-      "amount": 3.0,
-      "unit": "oz",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "1 (5-ounce) package baby spinach",
       "nutrition_infos": []
     },
     {
-      "name": "ounces",
+      "name": "finely grated parmesan",
       "amount": 3.5,
-      "unit": "",
+      "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup finely grated Parmesan (2 1/4 ounces), plus more for serving",
       "nutrition_infos": []
     }
   ],
@@ -256,28 +313,35 @@
       "name": "Protein",
       "amount": 1.18,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 40.0,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 9.02,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 412.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39333.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -304,13 +368,6 @@
     {
       "name": "Iron, Fe",
       "amount": 1.27,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 33.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"

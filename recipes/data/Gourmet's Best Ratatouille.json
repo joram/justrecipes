@@ -14,7 +14,8 @@
       "name": "onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced thin",
+      "original_string": "1 onion, sliced thin",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -74,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 470.0,
+          "amount": 39770.0,
           "unit": "MG",
           "serving_size": 128.0,
           "serving_size_unit": "g"
@@ -141,7 +142,8 @@
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -185,55 +187,107 @@
       "amount": 5.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "5 Tbsp. olive oil",
       "nutrition_infos": []
     },
     {
       "name": "eggplant",
       "amount": 3.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 1/2\" pieces",
+      "original_string": "¾ lb. eggplant, cut into ½\" pieces (about 3 cups)",
       "nutrition_infos": []
     },
     {
       "name": "small zucchini",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "scrubbed,  quartered lengthwise,  and cut into thin slices",
+      "original_string": "1 small zucchini, scrubbed, quartered lengthwise, and cut into thin slices",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "chopped",
+      "original_string": "1 red bell pepper, chopped",
       "nutrition_infos": []
     },
     {
       "name": "small ripe tomatoes",
       "amount": 3.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "chopped coarse",
+      "original_string": "¾ lb. small ripe tomatoes, chopped coarse (about 1¼ cups)",
       "nutrition_infos": []
     },
     {
       "name": "dried oregano",
       "amount": 2.5,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "¼ tsp. dried oregano, crumbled",
       "nutrition_infos": []
     },
     {
       "name": "dried thyme",
       "amount": 2.5,
       "unit": "tsp",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "¼ tsp. dried thyme, crumbled",
       "nutrition_infos": []
     },
     {
-      "name": "ground cori",
+      "name": "ground coriander",
       "amount": 4.5,
       "unit": "tsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "⅛ tsp. ground coriander",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fennel seeds",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "¼ tsp. fennel seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -271,6 +325,58 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "¾ tsp. salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "torn fresh basil leaves",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "½ cup torn fresh basil leaves",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -338,7 +444,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 470.0,
+      "amount": 39770.0,
       "unit": "MG",
       "serving_size": 128.0,
       "serving_size_unit": "g"

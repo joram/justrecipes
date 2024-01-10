@@ -15,6 +15,7 @@
       "amount": 2.5,
       "unit": "lb",
       "comment": "",
+      "original_string": "1/4 pound butter, or 1/2 cup shortening",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -74,7 +75,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 26863.0,
+          "amount": 68163.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -117,10 +118,27 @@
       ]
     },
     {
+      "name": "dark-brown sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "firmly packed",
+      "original_string": "1 cup dark-brown sugar, firmly packed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lemon extract",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon lemon extract",
+      "nutrition_infos": []
+    },
+    {
       "name": "eggs",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 eggs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -227,6 +245,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup molasses",
       "nutrition_infos": []
     },
     {
@@ -234,6 +253,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -312,6 +332,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -351,10 +372,127 @@
       ]
     },
     {
+      "name": "cinnamon",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "allspice",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon allspice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 2000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "mace",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon mace",
       "nutrition_infos": []
     },
     {
@@ -362,13 +500,59 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon cloves",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "milk",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -457,17 +641,19 @@
       ]
     },
     {
-      "name": "small pieces mixed c",
+      "name": "small pieces mixed candied fruit",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups small pieces mixed candied fruit",
       "nutrition_infos": []
     },
     {
-      "name": "small pieces c",
+      "name": "small pieces candied citron",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup small pieces candied citron",
       "nutrition_infos": []
     },
     {
@@ -475,6 +661,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup raisins",
       "nutrition_infos": []
     },
     {
@@ -482,6 +669,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped pecans",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -669,7 +857,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 26863.0,
+      "amount": 68163.0,
       "unit": "MG",
       "serving_size": 85.0,
       "serving_size_unit": "g"

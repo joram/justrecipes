@@ -10,10 +10,11 @@
   ],
   "ingredients": [
     {
-      "name": "large sweet potatoes about 2 1 4 pounds",
+      "name": "large sweet potatoes",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "scrubbed",
+      "original_string": "3 large sweet potatoes (about 2 1/4 pounds), scrubbed",
       "nutrition_infos": []
     },
     {
@@ -21,6 +22,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons maple syrup",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -45,7 +47,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 110.8,
+          "amount": 117.47,
           "unit": "G",
           "serving_size": 60.0,
           "serving_size_unit": "g"
@@ -59,14 +61,14 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 100.83,
+          "amount": 104.16,
           "unit": "G",
           "serving_size": 60.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 700.0,
+          "amount": 800.0,
           "unit": "MG",
           "serving_size": 60.0,
           "serving_size_unit": "g"
@@ -81,10 +83,90 @@
       ]
     },
     {
+      "name": "lime juice",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons lime juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.4,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 100.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 33.3,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "water",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -135,6 +217,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup chopped pecans",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -287,7 +370,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 110.8,
+      "amount": 117.47,
       "unit": "G",
       "serving_size": 60.0,
       "serving_size_unit": "g"
@@ -301,14 +384,14 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 100.83,
+      "amount": 104.16,
       "unit": "G",
       "serving_size": 60.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 700.0,
+      "amount": 800.0,
       "unit": "MG",
       "serving_size": 60.0,
       "serving_size_unit": "g"
@@ -321,13 +404,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fiber, total dietary",
-      "amount": 10.0,
-      "unit": "G",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Iron, Fe",
       "amount": 2.4,
       "unit": "MG",
@@ -335,7 +411,7 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
+      "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
       "serving_size": 30.0,
@@ -343,8 +419,22 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 0.0,
+      "amount": 33.3,
       "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 10.0,
+      "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 0.0,
+      "unit": "IU",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },

@@ -9,28 +9,102 @@
   ],
   "ingredients": [
     {
-      "name": "medium sweet potatoes about 1 pound",
-      "amount": 2.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "milk",
-      "amount": 1.6666666666666667,
-      "unit": "cup",
-      "comment": "",
+      "name": "unsalted butter",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "comment": "melted",
+      "original_string": "4 tablespoons (1/2 stick) unsalted butter, melted",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 15.75,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 91.92999999999999,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 5.42,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 921.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 50996.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 3860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 599.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 55.08,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "medium sweet potatoes",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 medium sweet potatoes (about 1 pound)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "milk",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 1/2 cups milk",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.75,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 13.33,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -44,7 +118,7 @@
         },
         {
           "name": "Energy",
-          "amount": 207.0,
+          "amount": 67.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -72,7 +146,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10996.0,
+          "amount": 56.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -93,14 +167,14 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 385.0,
+          "amount": 15.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 5.08,
+          "amount": 2.08,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -112,20 +186,146 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon fresh thyme",
       "nutrition_infos": []
     },
     {
-      "name": "finely ground white or yellow cornmeal",
+      "name": "unpacked light brown sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon unpacked light brown sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sea salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons sea salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40000.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.2000000476837158,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "finely ground white",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup finely ground white or yellow cornmeal",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "separated",
+      "original_string": "4 large eggs, separated",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -218,6 +418,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -279,28 +480,63 @@
       "name": "Protein",
       "amount": 15.75,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 13.33,
+      "amount": 91.92999999999999,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 5.42,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 207.0,
+      "amount": 921.0,
       "unit": "KCAL",
-      "serving_size": 240.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 50996.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 599.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 55.08,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -325,20 +561,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 10996.0,
-      "unit": "MG",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin A, IU",
-      "amount": 1000.0,
-      "unit": "IU",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 42.0,
       "unit": "IU",
@@ -346,38 +568,17 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 385.0,
-      "unit": "MG",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 5.08,
-      "unit": "G",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fiber, total dietary",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 1.2000000476837158,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
       "amount": 2.0,
       "unit": "MG",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 1.2000000476837158,
       "serving_size_unit": "g"
     }
   ]

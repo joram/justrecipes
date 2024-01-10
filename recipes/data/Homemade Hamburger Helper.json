@@ -14,11 +14,12 @@
       "name": "neutral oil",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "such as canola",
+      "original_string": "1/4 cup neutral oil, such as canola or vegetable",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 24.14,
+          "amount": 25.77,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 105.27,
+          "amount": 105.67999999999999,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1974.0,
+          "amount": 1982.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 140.0,
+          "amount": 352.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -64,14 +65,24 @@
       "name": "large yellow onion",
       "amount": 1.0,
       "unit": "",
+      "comment": "diced into 1/2-inch pieces",
+      "original_string": "1 large yellow onion, diced into 1/2-inch pieces",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt and black pepper",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "3 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -114,7 +125,8 @@
       "name": "uncooked smoked bacon",
       "amount": 5.0,
       "unit": "strip",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "5 strips uncooked smoked bacon, finely chopped",
       "nutrition_infos": []
     },
     {
@@ -122,6 +134,7 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound ground beef",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -193,20 +206,129 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup dry white wine",
       "nutrition_infos": []
     },
     {
-      "name": "chicken stock or water",
+      "name": "chicken stock",
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3 cups chicken stock or water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 1.63,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.41,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 8.0,
+          "unit": "KCAL",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.08,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 12.5,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 238.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 212.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 0.4,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 245.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "heavy cream",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -245,7 +367,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 12.5,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -266,7 +388,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 116.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -313,6 +435,15 @@
       "amount": 2.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/4 to 1/3 cup hot sauce",
+      "nutrition_infos": []
+    },
+    {
+      "name": "hot smoked paprika",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons hot smoked paprika",
       "nutrition_infos": []
     },
     {
@@ -320,6 +451,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 bay leaf",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -377,6 +509,7 @@
       "amount": 8.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "8 ounces elbow pasta",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -500,10 +633,19 @@
       ]
     },
     {
+      "name": "slices american cheese",
+      "amount": 5.0,
+      "unit": "",
+      "comment": "ripped into small pieces",
+      "original_string": "5 slices American cheese, ripped into small pieces",
+      "nutrition_infos": []
+    },
+    {
       "name": "grated cheddar",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups grated Cheddar",
       "nutrition_infos": []
     },
     {
@@ -511,6 +653,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup finely chopped chives",
       "nutrition_infos": []
     }
   ],
@@ -529,7 +672,7 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 24.14,
+      "amount": 25.77,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -543,21 +686,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 105.27,
+      "amount": 105.67999999999999,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1974.0,
+      "amount": 1982.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 140.0,
+      "amount": 352.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -592,50 +735,50 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 6.67,
+      "amount": 7.08,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
       "amount": 12.5,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 116.0,
+      "amount": 238.0,
       "unit": "MG",
-      "serving_size": 15.0,
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 15.0,
+      "serving_size": 245.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 0.4,
+      "unit": "G",
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 245.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
       "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (1-pound/455-gram) box confectioners’ sugar (3 3/4 cups), plus more if needed",
+      "nutrition_infos": []
+    },
+    {
       "name": "light corn syrup",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons light corn syrup",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +41,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 165.29999999999998,
+          "amount": 177.6,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 653.0,
+          "amount": 695.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 113.6,
+          "amount": 124.6,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -60,7 +69,7 @@
         },
         {
           "name": "Calcium, Ca",
-          "amount": 47.0,
+          "amount": 89.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -88,7 +97,7 @@
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 12.7,
+          "amount": 22.9,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -117,17 +126,35 @@
       ]
     },
     {
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
       "name": "to 4 tablespoons warm water",
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 to 4 tablespoons warm water, plus more as needed",
       "nutrition_infos": []
     },
     {
-      "name": "finely chopped raw not roasted pistachios",
+      "name": "recipe basic sugar cookies",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "dough flavored with 1 teaspoon chopped rosemary and zest of 1 lemon,  cut into 3-inch squares and cooled",
+      "original_string": "1 <a href=\"https://cooking.nytimes.com/recipes/1020651\">recipe Basic Sugar Cookies</a>, dough flavored with 1 teaspoon chopped rosemary and zest of 1 lemon, cut into 3-inch squares and cooled",
+      "nutrition_infos": []
+    },
+    {
+      "name": "finely chopped raw pistachios",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup finely chopped raw (not roasted) pistachios",
       "nutrition_infos": []
     },
     {
@@ -135,6 +162,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons crushed freeze-dried raspberries",
       "nutrition_infos": []
     },
     {
@@ -142,6 +170,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons dried edible rose petals",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -247,7 +276,8 @@
       "name": "pomegranate seeds",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "blotted dry",
+      "original_string": "1/4 cup pomegranate seeds, blotted dry",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -307,7 +337,7 @@
         },
         {
           "name": "Potassium, K",
-          "amount": 236.0,
+          "amount": 527.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -355,6 +385,114 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "pomegranate juice",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons pomegranate juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 12.3,
+          "unit": "G",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 42.0,
+          "unit": "KCAL",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 11.0,
+          "unit": "G",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 42.0,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 291.0,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 44.0,
+          "unit": "IU",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 10.2,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 236.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "confectioners’ sugar",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons confectioners’ sugar",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -383,21 +521,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 165.29999999999998,
+      "amount": 177.6,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 653.0,
+      "amount": 695.0,
       "unit": "KCAL",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 113.6,
+      "amount": 124.6,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -411,7 +549,7 @@
     },
     {
       "name": "Calcium, Ca",
-      "amount": 47.0,
+      "amount": 89.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -439,7 +577,7 @@
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 12.7,
+      "amount": 22.9,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -467,7 +605,7 @@
     },
     {
       "name": "Potassium, K",
-      "amount": 236.0,
+      "amount": 527.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -477,6 +615,13 @@
       "amount": 0.0,
       "unit": "UG",
       "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 44.0,
+      "unit": "IU",
+      "serving_size": 236.0,
       "serving_size_unit": "g"
     }
   ]

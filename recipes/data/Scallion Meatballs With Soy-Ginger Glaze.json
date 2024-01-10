@@ -11,77 +11,354 @@
   ],
   "ingredients": [
     {
-      "name": "soy sauce",
+      "name": "dark brown sugar",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "chopped peeled ginger",
-      "amount": 2.5,
-      "unit": "cup",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "ground cori",
-      "amount": 1.0,
-      "unit": "tsp",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "ground turkey",
-      "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
+      "original_string": "1/2 cup dark brown sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 26.01,
           "unit": "G",
-          "serving_size": 112.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 135.94,
           "unit": "G",
-          "serving_size": 112.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 57.7,
+          "amount": 187.7,
           "unit": "G",
-          "serving_size": 112.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1513.0,
+          "amount": 2038.0,
           "unit": "KCAL",
-          "serving_size": 112.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 54.5,
+          "amount": 181.2,
           "unit": "G",
-          "serving_size": 112.0,
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 252.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 126.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 32.53,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "soy sauce",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "preferably japanese",
+      "original_string": "1/2 cup soy sauce, preferably Japanese or reduced sodium",
+      "nutrition_infos": []
+    },
+    {
+      "name": "mirin sweet rice wine",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup mirin sweet rice wine, or 1/2 cup sake with 1/4 cup sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 30.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 150.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 26.7,
+          "unit": "G",
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
           "amount": 3.2,
           "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 131.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 1.61,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 7.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 26.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 103.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chopped peeled ginger",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup chopped peeled ginger",
+      "nutrition_infos": []
+    },
+    {
+      "name": "ground coriander",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon ground coriander",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "black peppercorns",
+      "amount": 4.0,
+      "unit": "whole",
+      "comment": "",
+      "original_string": "4 whole black peppercorns",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground turkey",
+      "amount": 1.0,
+      "unit": "lb",
+      "comment": "",
+      "original_string": "1 pound ground turkey",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 19.6,
+          "unit": "G",
+          "serving_size": 112.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 7.14,
+          "unit": "G",
+          "serving_size": 112.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 112.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 143.0,
+          "unit": "KCAL",
+          "serving_size": 112.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 112.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 128.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -95,7 +372,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 252.0,
+          "amount": 76.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -116,7 +393,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 103.0,
+          "amount": 71.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -130,7 +407,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 32.53,
+          "amount": 2.23,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -138,17 +415,19 @@
       ]
     },
     {
-      "name": "large or 6 small scallions",
+      "name": "large",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 large or 6 small scallions, finely chopped",
       "nutrition_infos": []
     },
     {
       "name": "cilantro",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "finely chopped about 1 cup",
+      "original_string": "1 bunch cilantro, finely chopped about 1 cup",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -191,7 +470,8 @@
       "name": "egg",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "1 egg, lightly beaten",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -291,6 +571,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons sesame oil",
       "nutrition_infos": []
     },
     {
@@ -298,6 +579,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons soy sauce",
+      "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
       "nutrition_infos": []
     },
     {
@@ -305,6 +595,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -432,63 +723,105 @@
       "name": "Protein",
       "amount": 26.01,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 135.94,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 57.7,
+      "amount": 187.7,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1513.0,
+      "amount": 2038.0,
       "unit": "KCAL",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 54.5,
+      "amount": 181.2,
       "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 3.2,
-      "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 128.0,
-      "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 1.61,
-      "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 252.0,
       "unit": "MG",
-      "serving_size": 112.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 126.7,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 32.53,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 3.2,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 131.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 1.61,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 7.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 103.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -503,34 +836,6 @@
       "amount": 0.0,
       "unit": "MG",
       "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 103.0,
-      "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 32.53,
-      "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Potassium, K",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {

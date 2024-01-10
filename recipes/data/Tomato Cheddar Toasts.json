@@ -14,39 +14,85 @@
       "name": "ripe medium tomatoes",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "2 ripe medium tomatoes, thinly sliced",
       "nutrition_infos": []
     },
     {
-      "name": "mayonnaise",
-      "amount": 1.5,
-      "unit": "cup",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 21.4,
           "unit": "G",
-          "serving_size": 14.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 110.69999999999999,
           "unit": "G",
-          "serving_size": 14.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 7.14,
           "unit": "G",
-          "serving_size": 14.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
           "amount": 1107.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40443.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "mayonnaise",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup mayonnaise",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -88,7 +134,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1143.0,
+          "amount": 500.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -132,9 +178,10 @@
     },
     {
       "name": "finely grated extra-sharp cheddar",
-      "amount": 1.5,
+      "amount": 2.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "1/2 packed cup/2 ounces finely grated extra-sharp Cheddar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -235,6 +282,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "slices crusty bread",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 slices crusty bread",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -247,28 +302,35 @@
       "name": "Protein",
       "amount": 21.4,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 110.69999999999999,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 7.14,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 1107.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40443.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -302,13 +364,6 @@
     {
       "name": "Potassium, K",
       "amount": 78.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 1143.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"

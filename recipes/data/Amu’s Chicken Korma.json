@@ -14,53 +14,106 @@
       "name": "large onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "1 large onion, peeled, plus more for serving",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece ginger",
-      "amount": 1.5,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
+      "name": "ginger",
+      "amount": 1.0,
+      "unit": "piece",
+      "comment": "peeled and thinly sliced",
+      "original_string": "1 (2-inch) piece ginger, peeled and thinly sliced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 21.4,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 101.79,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 20.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1107.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39019.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 345.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "garlic cloves",
       "amount": 4.0,
       "unit": "",
-      "comment": "",
+      "comment": "smashed and peeled",
+      "original_string": "4 garlic cloves, smashed and peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 28.07,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 6.23,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 62.2,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 451.0,
+          "amount": 100.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 530.0,
+          "amount": 40.0,
           "unit": "MG",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -68,17 +121,70 @@
       ]
     },
     {
-      "name": "whole-milk plain or greek-style yogurt",
+      "name": "whole-milk plain",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup whole-milk plain or Greek-style yogurt, plus more for serving",
       "nutrition_infos": []
     },
     {
-      "name": "chicken",
-      "amount": 2.5,
-      "unit": "lb",
+      "name": "kosher salt",
+      "amount": 2.0,
+      "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons kosher salt, plus more to taste",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chicken",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut into 10 pieces,  skin removed",
+      "original_string": "1 (4-pound) chicken, cut into 10 pieces, skin removed, or 3 pounds bone-in chicken parts, skin removed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -110,14 +216,14 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 4.44,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 2.2,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -131,7 +237,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.4,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -173,7 +279,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.89,
+          "amount": 60.89,
           "unit": "G",
           "serving_size": 56.0,
           "serving_size_unit": "g"
@@ -181,194 +287,210 @@
       ]
     },
     {
-      "name": "ghee or neutral oil",
+      "name": "ghee",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "ground cori",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "bay leaf",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
+      "original_string": "1/4 cup ghee or neutral oil",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 900.0,
           "unit": "KCAL",
-          "serving_size": 0.5,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 0.5,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 300.0,
           "unit": "MG",
-          "serving_size": 0.5,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "green cardamom pods",
-      "amount": 3.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "white bread",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 6.67,
-          "unit": "G",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 4.44,
-          "unit": "G",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 42.2,
-          "unit": "G",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 244.0,
-          "unit": "KCAL",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 4.44,
-          "unit": "G",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 2.2,
-          "unit": "G",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 2.4,
-          "unit": "MG",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 311.0,
-          "unit": "MG",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 0.0,
-          "unit": "IU",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 45.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 45.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 45.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 60.0,
           "unit": "G",
-          "serving_size": 45.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "<a href=\"https: /cooking.nytimes.com/recipes/1014916-cucumber-",
+      "name": "ground coriander",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon ground coriander",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "bay leaf",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 bay leaf",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cinnamon stick",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "snapped in half",
+      "original_string": "1 (3-inch) cinnamon stick, snapped in half",
+      "nutrition_infos": []
+    },
+    {
+      "name": "green cardamom pods",
+      "amount": 3.0,
+      "unit": "",
+      "comment": "cracked",
+      "original_string": "3 green cardamom pods, cracked",
+      "nutrition_infos": []
+    },
+    {
+      "name": "small green chiles",
+      "amount": 3.0,
+      "unit": "",
+      "comment": "stemmed",
+      "original_string": "3 small green chiles, stemmed, plus more for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "white bread, mayonnaise, paratha",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "White bread, mayonnaise, paratha or steamed rice, for serving",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cucumber-tomato salad",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "<a href=\"https://cooking.nytimes.com/recipes/1014916-cucumber-and-tomato-salad-with-cilantro-and-mint\">Cucumber-Tomato Salad</a>, for serving (optional)",
       "nutrition_infos": []
     }
   ],
@@ -384,49 +506,56 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 28.07,
+      "amount": 21.4,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 6.23,
+      "amount": 101.79,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 62.2,
+      "amount": 20.0,
       "unit": "G",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 451.0,
+      "amount": 1107.0,
       "unit": "KCAL",
-      "serving_size": 5.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 530.0,
-      "unit": "MG",
-      "serving_size": 5.0,
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 4.44,
+      "amount": 0.0,
       "unit": "G",
-      "serving_size": 56.0,
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39019.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 345.0,
+      "unit": "MG",
+      "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 2.2,
+      "amount": 0.0,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -440,7 +569,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.4,
+      "amount": 0.0,
       "unit": "MG",
       "serving_size": 56.0,
       "serving_size_unit": "g"
@@ -460,13 +589,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Cholesterol",
-      "amount": 45.0,
-      "unit": "MG",
-      "serving_size": 56.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
@@ -475,7 +597,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.89,
+      "amount": 60.89,
       "unit": "G",
       "serving_size": 56.0,
       "serving_size_unit": "g"

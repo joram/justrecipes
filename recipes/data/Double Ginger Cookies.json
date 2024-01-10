@@ -12,9 +12,10 @@
   "ingredients": [
     {
       "name": "organic all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups organic all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 249.1,
+          "amount": 349.09999999999997,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2530.0,
+          "amount": 2905.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 75.0,
+          "amount": 175.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37559.0,
+          "amount": 76859.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -118,9 +119,10 @@
     },
     {
       "name": "organic whole wheat flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups organic whole wheat flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -227,6 +229,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -277,6 +280,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -316,10 +320,55 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "organic ground ginger",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon organic ground ginger",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -363,6 +412,7 @@
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup minced organic crystallized ginger",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -408,7 +458,121 @@
         },
         {
           "name": "Sugars, added",
-          "amount": 75.0,
+          "amount": 175.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "organic cane sugar",
+      "amount": 1.25,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/4 cups organic cane sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -420,6 +584,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons organic ground flaxseed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -540,6 +705,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup organic unsweetened applesauce*",
       "nutrition_infos": []
     },
     {
@@ -547,6 +713,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup organic canola oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -621,17 +788,50 @@
       ]
     },
     {
+      "name": "grated organic lemon zest",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon grated organic lemon zest",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh organic lemon juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon fresh organic lemon juice",
+      "nutrition_infos": []
+    },
+    {
       "name": "organic vanilla extract",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon organic vanilla extract",
       "nutrition_infos": []
     },
     {
-      "name": "*note: tip for parents: snack packs of applesauce come in 1 2-cup servings.",
+      "name": "*note: tip for parents: snack packs of applesauce come in 1/2 cup servings.",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "*Note: Tip for parents: Snack packs of applesauce come in 1/2-cup servings.",
       "nutrition_infos": []
     }
   ],
@@ -662,21 +862,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 249.1,
+      "amount": 349.09999999999997,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2530.0,
+      "amount": 2905.0,
       "unit": "KCAL",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 75.0,
+      "amount": 175.0,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -711,7 +911,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 37559.0,
+      "amount": 76859.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -760,8 +960,15 @@
     },
     {
       "name": "Sugars, added",
-      "amount": 75.0,
+      "amount": 175.0,
       "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
+      "amount": 0.0,
+      "unit": "UG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

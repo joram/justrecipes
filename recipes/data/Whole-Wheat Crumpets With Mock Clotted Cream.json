@@ -14,13 +14,15 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup warm milk",
       "nutrition_infos": []
     },
     {
-      "name": "4 teaspoons yeast",
+      "name": "yeast",
       "amount": 1.0,
-      "unit": "",
+      "unit": "envelope",
       "comment": "",
+      "original_string": "1 envelope (2 1/4 teaspoons) yeast",
       "nutrition_infos": []
     },
     {
@@ -28,27 +30,31 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon honey",
       "nutrition_infos": []
     },
     {
       "name": "warm water",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups warm water",
       "nutrition_infos": []
     },
     {
       "name": "whole-wheat flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups whole-wheat flour",
       "nutrition_infos": []
     },
     {
       "name": "all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -101,7 +107,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10887.0,
+          "amount": 50187.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -137,10 +143,55 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "baking powder",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -191,6 +242,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup mascarpone",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -297,6 +349,7 @@
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "6 tablespoons heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -403,6 +456,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable oil for cooking",
       "nutrition_infos": []
     }
   ],
@@ -465,7 +519,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10887.0,
+      "amount": 50187.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

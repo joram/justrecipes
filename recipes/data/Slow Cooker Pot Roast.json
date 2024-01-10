@@ -14,7 +14,8 @@
       "name": "beef chuck roast",
       "amount": 4.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "cut into 3 chunks",
+      "original_string": "4 pounds beef chuck roast, cut into 3 chunks",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -25,28 +26,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 105.31,
+          "amount": 183.91,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 90.0,
+          "amount": 190.0,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1423.0,
+          "amount": 2512.0,
           "unit": "KCAL",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -74,14 +75,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 120.0,
+          "amount": 38920.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 2860.0,
           "unit": "IU",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -95,7 +96,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 66.0,
+          "amount": 280.0,
           "unit": "MG",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -109,7 +110,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 15.63,
+          "amount": 65.63,
           "unit": "G",
           "serving_size": 113.0,
           "serving_size_unit": "g"
@@ -117,10 +118,19 @@
       ]
     },
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "vegetable oil",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons vegetable oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -237,17 +247,19 @@
       ]
     },
     {
-      "name": "frozen pearl onions or 1 yellow or red onion",
+      "name": "frozen pearl onions",
       "amount": 7.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "7 ounces frozen pearl onions (or 1 yellow or red onion, peeled and cut into wedges)",
       "nutrition_infos": []
     },
     {
       "name": "garlic cloves",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "smashed and peeled",
+      "original_string": "6 garlic cloves, smashed and peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -288,9 +300,10 @@
     },
     {
       "name": "dry red wine",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups dry red wine",
       "nutrition_infos": []
     },
     {
@@ -298,6 +311,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon red wine vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -340,21 +354,96 @@
       "name": "fresh woody herb sprigs",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "such as thyme,  sage",
+      "original_string": "5 fresh woody herb sprigs, such as thyme, sage or rosemary (or 1 teaspoon dried thyme, sage or rosemary)",
       "nutrition_infos": []
     },
     {
-      "name": "2 pounds peeled root vegetables",
+      "name": "/2 pounds peeled root vegetables",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "such as a mix of carrots and parsnips,  cut into 2-inch chunks",
+      "original_string": "1 to 1 1/2 pounds peeled root vegetables, such as a mix of carrots and parsnips, cut into 2-inch chunks",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "at room temperature",
+      "original_string": "2 tablespoons unsalted butter, at room temperature (optional)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "flour",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons flour (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -433,6 +522,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup red wine vinegar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -472,11 +562,128 @@
       ]
     },
     {
-      "name": "frozen pearl onions or 1 yellow or red onion",
+      "name": "granulated sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "frozen pearl onions",
       "amount": 7.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "7 ounces frozen pearl onions (or 1 yellow or red onion, peeled and thinly sliced)",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -497,28 +704,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 105.31,
+      "amount": 183.91,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 90.0,
+      "amount": 190.0,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1423.0,
+      "amount": 2512.0,
       "unit": "KCAL",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -546,14 +753,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 120.0,
+      "amount": 38920.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 2860.0,
       "unit": "IU",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -567,7 +774,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 66.0,
+      "amount": 280.0,
       "unit": "MG",
       "serving_size": 113.0,
       "serving_size_unit": "g"
@@ -581,7 +788,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 15.63,
+      "amount": 65.63,
       "unit": "G",
       "serving_size": 113.0,
       "serving_size_unit": "g"

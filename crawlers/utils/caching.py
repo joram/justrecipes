@@ -51,15 +51,15 @@ def _get_recipe_metadata(content: str) -> Optional[dict]:
     return None
 
 
-async def get_head_recipe(url):
-    content = await get_cached(url)
+def get_head_recipe(url):
+    content = get_cached(url)
     if not content:
         print("no content for url: ", url)
         return None
     return _get_recipe_metadata(content)
 
 
-async def get_cached_request(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[bytes]:
+def get_cached_request(url: str, cache_url: Optional[str] = None, attempts=0) -> Optional[bytes]:
     if cache_url is None:
         cache_url = url
 
@@ -72,7 +72,7 @@ async def get_cached_request(url: str, cache_url: Optional[str] = None, attempts
             content = f.read()
             if len(content) == 0:
                 remove_cached(url)
-                return await get_cached_request(url)
+                return get_cached_request(url)
             return content
 
     folder = os.path.dirname(path)

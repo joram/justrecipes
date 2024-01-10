@@ -9,42 +9,94 @@
   ],
   "ingredients": [
     {
-      "name": "natural applesauce",
+      "name": "sugar",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 23.369999999999997,
           "unit": "G",
-          "serving_size": 111.0,
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 66.7,
           "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 195.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1420.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 113.24,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 66000.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "natural applesauce",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup natural applesauce",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 111.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
           "serving_size": 111.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 95.0,
+          "amount": 11.7,
           "unit": "G",
           "serving_size": 111.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1045.0,
+          "amount": 45.0,
           "unit": "KCAL",
           "serving_size": 111.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 13.24,
+          "amount": 9.91,
           "unit": "G",
           "serving_size": 111.0,
           "serving_size_unit": "g"
@@ -72,7 +124,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 26700.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 111.0,
           "serving_size_unit": "g"
@@ -115,10 +167,19 @@
       ]
     },
     {
-      "name": "large eggl",
+      "name": "diced apples",
+      "amount": 4.0,
+      "unit": "cup",
+      "comment": "approximately 2 pounds",
+      "original_string": "4 cups diced apples (Granny Smith or your favorite), approximately 2 pounds",
+      "nutrition_infos": []
+    },
+    {
+      "name": "large eggland’s best eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "2 large Eggland’s Best eggs, lightly beaten",
       "nutrition_infos": []
     },
     {
@@ -126,6 +187,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup chopped walnuts",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -239,6 +301,7 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -317,6 +380,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -354,6 +418,116 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "cinnamon",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "nutmeg",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon nutmeg",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -379,35 +553,42 @@
       "name": "Protein",
       "amount": 23.369999999999997,
       "unit": "G",
-      "serving_size": 111.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 66.7,
       "unit": "G",
-      "serving_size": 111.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 95.0,
+      "amount": 195.0,
       "unit": "G",
-      "serving_size": 111.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1045.0,
+      "amount": 1420.0,
       "unit": "KCAL",
-      "serving_size": 111.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 13.24,
+      "amount": 113.24,
       "unit": "G",
-      "serving_size": 111.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 66000.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -427,13 +608,6 @@
     {
       "name": "Iron, Fe",
       "amount": 6.6,
-      "unit": "MG",
-      "serving_size": 111.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 26700.0,
       "unit": "MG",
       "serving_size": 111.0,
       "serving_size_unit": "g"

@@ -9,42 +9,88 @@
   ],
   "ingredients": [
     {
-      "name": "about 5 medium russet",
-      "amount": 1.3333333333333333,
+      "name": "russet",
+      "amount": 1.5,
       "unit": "lb",
-      "comment": "",
+      "comment": "idaho",
+      "original_string": "1 1/2 pounds (about 5 medium) russet, Idaho, or other baking potatoes, unpeeled and scrubbed",
       "nutrition_infos": []
     },
     {
-      "name": "vegetable oil",
-      "amount": 2.0,
-      "unit": "tbsp",
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 15.33,
           "unit": "G",
-          "serving_size": 14.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 126.7,
+          "amount": 205.29999999999998,
           "unit": "G",
-          "serving_size": 14.0,
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 6.67,
           "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1911.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39490.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "vegetable oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons vegetable oil",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1197.0,
+          "amount": 857.0,
           "unit": "KCAL",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -86,7 +132,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 190.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -100,7 +146,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 437.0,
+          "amount": 651.0,
           "unit": "MG",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -114,7 +160,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 29.0,
+          "amount": 79.0,
           "unit": "G",
           "serving_size": 14.0,
           "serving_size_unit": "g"
@@ -136,10 +182,11 @@
       ]
     },
     {
-      "name": "about 2 large onions",
+      "name": "onions",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "1 pound (about 2 large) onions, thinly sliced",
       "nutrition_infos": []
     },
     {
@@ -147,6 +194,7 @@
       "amount": 6.0,
       "unit": "",
       "comment": "",
+      "original_string": "6 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -235,10 +283,163 @@
       ]
     },
     {
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "at room temperature",
+      "original_string": "1 tablespoon unsalted butter, at room temperature",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sweet hungarian paprika",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Sweet Hungarian paprika",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 10800.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "sour cream",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups sour cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -319,28 +520,35 @@
       "name": "Protein",
       "amount": 15.33,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 126.7,
+      "amount": 205.29999999999998,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 6.67,
       "unit": "G",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1197.0,
+      "amount": 1911.0,
       "unit": "KCAL",
-      "serving_size": 14.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39490.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -379,13 +587,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 190.0,
-      "unit": "MG",
-      "serving_size": 14.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -394,7 +595,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 437.0,
+      "amount": 651.0,
       "unit": "MG",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -408,7 +609,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 29.0,
+      "amount": 79.0,
       "unit": "G",
       "serving_size": 14.0,
       "serving_size_unit": "g"
@@ -425,6 +626,27 @@
       "amount": 57.1,
       "unit": "G",
       "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 10800.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

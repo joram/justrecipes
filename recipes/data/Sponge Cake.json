@@ -9,10 +9,11 @@
   ],
   "ingredients": [
     {
-      "name": "195 g cake flour",
-      "amount": 1.3333333333333333,
+      "name": "cake flour",
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups (195 g) cake flour",
       "nutrition_infos": []
     },
     {
@@ -20,6 +21,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -37,14 +39,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 140.0,
+          "amount": 515.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -58,9 +60,53 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 10940.0,
+          "amount": 50240.0,
           "unit": "MG",
           "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
           "serving_size_unit": "g"
         }
       ]
@@ -69,7 +115,8 @@
       "name": "large eggs",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "separated,  at room temperature",
+      "original_string": "5 large eggs, separated, at room temperature",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -108,7 +155,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -158,17 +205,70 @@
       ]
     },
     {
-      "name": "60 ml cold water",
+      "name": "cold water",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup (60 ml) cold water",
       "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup (200 g) sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "vanilla extract",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     }
   ],
@@ -202,14 +302,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 140.0,
+      "amount": 515.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -223,7 +323,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 10940.0,
+      "amount": 50240.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -237,7 +337,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"

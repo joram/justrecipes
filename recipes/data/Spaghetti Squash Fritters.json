@@ -14,7 +14,8 @@
       "name": "cooked spaghetti squash",
       "amount": 3.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "strands separated",
+      "original_string": "3 cups cooked spaghetti squash, strands separated (from 1 large squash)",
       "nutrition_infos": []
     },
     {
@@ -22,13 +23,67 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/3 cup arrowroot starch/flour",
       "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 12.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 10.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 140.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39440.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "green onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "1 green onion, sliced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "slices bacon",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "cooked and crumbled",
+      "original_string": "4 slices bacon, cooked and crumbled",
       "nutrition_infos": []
     },
     {
@@ -36,6 +91,7 @@
       "amount": 3.0,
       "unit": "",
       "comment": "",
+      "original_string": "3 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -122,6 +178,14 @@
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "to 2 tablespoons coconut oil",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 to 2 tablespoons coconut oil or cooking fat of your choice",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
@@ -134,37 +198,44 @@
   "notes": [],
   "nutrition_infos": [
     {
-      "name": "Carbohydrate, by difference",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Protein",
       "amount": 12.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 10.0,
       "unit": "G",
-      "serving_size": 50.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 140.0,
       "unit": "KCAL",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 39440.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
@@ -185,13 +256,6 @@
     {
       "name": "Iron, Fe",
       "amount": 2.0,
-      "unit": "MG",
-      "serving_size": 50.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 140.0,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"

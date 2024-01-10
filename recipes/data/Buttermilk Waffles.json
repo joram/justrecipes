@@ -15,6 +15,7 @@
       "amount": 3.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "3 cups all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -67,7 +68,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37640.0,
+          "amount": 76940.0,
           "unit": "MG",
           "serving_size": 31.0,
           "serving_size_unit": "g"
@@ -107,6 +108,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -157,6 +159,7 @@
       "amount": 3.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "¾ teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -196,17 +199,71 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "well-shaken buttermilk",
       "amount": 17.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3¼ cups well-shaken buttermilk",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sticks unsalted butter",
+      "amount": 6.5,
+      "unit": "",
+      "comment": "melted and cooled",
+      "original_string": "1½ sticks (12 tablespoons) unsalted butter, melted and cooled",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "3 large eggs, lightly beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -295,24 +352,27 @@
       ]
     },
     {
-      "name": "vegetable oil for brushing waffle iron",
+      "name": "vegetable oil for brushing waffle iron, if necessary",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable oil for brushing waffle iron, if necessary",
       "nutrition_infos": []
     },
     {
-      "name": "accompaniment: butter",
+      "name": "accompaniment: butter and pure maple syrup",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Accompaniment: butter and pure maple syrup",
       "nutrition_infos": []
     },
     {
-      "name": "a well-seasoned or nonstick belgian or st",
+      "name": "a well-seasoned",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "A well-seasoned or nonstick Belgian or standard waffle iron",
       "nutrition_infos": []
     }
   ],
@@ -375,7 +435,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 37640.0,
+      "amount": 76940.0,
       "unit": "MG",
       "serving_size": 31.0,
       "serving_size_unit": "g"

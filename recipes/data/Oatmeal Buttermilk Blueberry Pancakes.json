@@ -14,6 +14,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup rolled oats",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -31,21 +32,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 221.48000000000002,
+          "amount": 321.48,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1279.0,
+          "amount": 1654.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 18.64,
+          "amount": 118.64,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -87,7 +88,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37732.0,
+          "amount": 77032.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -148,6 +149,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup low-fat milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -247,6 +249,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup whole wheat flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -353,6 +356,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup unbleached all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -480,6 +484,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -530,6 +535,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -569,10 +575,106 @@
       ]
     },
     {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -662,9 +764,10 @@
     },
     {
       "name": "buttermilk",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups buttermilk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -764,6 +867,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
@@ -771,13 +875,15 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons canola oil",
       "nutrition_infos": []
     },
     {
-      "name": "fresh or frozen blueberries",
+      "name": "fresh",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup fresh or frozen blueberries",
       "nutrition_infos": []
     }
   ],
@@ -807,21 +913,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 221.48000000000002,
+      "amount": 321.48,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1279.0,
+      "amount": 1654.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 18.64,
+      "amount": 118.64,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -863,7 +969,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 37732.0,
+      "amount": 77032.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

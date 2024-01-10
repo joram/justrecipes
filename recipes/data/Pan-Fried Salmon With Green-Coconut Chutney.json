@@ -11,24 +11,27 @@
   ],
   "ingredients": [
     {
-      "name": "packed fresh or frozen thawed grated coconut",
+      "name": "packed fresh",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup packed fresh or frozen (thawed) grated coconut",
       "nutrition_infos": []
     },
     {
-      "name": "packed cilantro stems",
+      "name": "packed cilantro stems and leaves",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup packed cilantro stems and leaves",
       "nutrition_infos": []
     },
     {
       "name": "fresh",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "hot green chile,  such as a serrano",
+      "original_string": "1 fresh, hot green chile, such as a serrano or Thai chile, stemmed",
       "nutrition_infos": []
     },
     {
@@ -36,13 +39,145 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons grated fresh ginger",
       "nutrition_infos": []
     },
     {
-      "name": "skin-on salmon fillets about 6 ounces each",
+      "name": "lime juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons lime juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 20.5,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 103.57,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.33,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 9.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.54,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 529.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 77649.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 33.3,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1016.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 376.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "skin-on salmon fillets",
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 skin-on salmon fillets (about 6 ounces each)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -137,7 +272,72 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.89,
+          "amount": 60.89,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ghee",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon ghee or unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 900.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 60.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -149,20 +349,90 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon olive oil",
       "nutrition_infos": []
     },
     {
-      "name": "grapeseed or canola oil",
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "grapeseed",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons grapeseed or canola oil",
       "nutrition_infos": []
     },
     {
-      "name": "black or brown mustard seeds",
+      "name": "black",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon black or brown mustard seeds",
+      "nutrition_infos": []
+    },
+    {
+      "name": "to 12 fresh curry leaves",
+      "amount": 10.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "10 to 12 fresh curry leaves (or 25 to 36 dried curry leaves)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "red-pepper flakes",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "such maras,  urfa",
+      "original_string": "1 teaspoon red-pepper flakes, such Maras, Urfa or Aleppo",
       "nutrition_infos": []
     }
   ],
@@ -179,83 +449,90 @@
       "name": "Protein",
       "amount": 20.5,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 3.57,
+      "amount": 103.57,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 6.67,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Energy",
-      "amount": 116.0,
-      "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 3.33,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
       "amount": 9.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
       "amount": 0.54,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 429.0,
+      "amount": 529.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 49.0,
+      "amount": 77649.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 33.3,
+      "unit": "MG",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 1016.0,
+      "unit": "KCAL",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 76.0,
+      "amount": 376.0,
       "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 0.0,
+      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
@@ -268,7 +545,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.89,
+      "amount": 60.89,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"

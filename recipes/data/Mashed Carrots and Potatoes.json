@@ -10,21 +10,74 @@
   ],
   "ingredients": [
     {
+      "name": "kosher salt",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 2.46,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 11.32,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 50.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38877.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "baking potatoes",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled and cut into chunks",
+      "original_string": "2 pounds baking potatoes, peeled and cut into chunks",
       "nutrition_infos": []
     },
     {
       "name": "carrots",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled and cut into chunks",
+      "original_string": "2 pounds carrots, peeled and cut into chunks",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 2.46,
+          "amount": 1.28,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -38,14 +91,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 11.32,
+          "amount": 8.97,
           "unit": "G",
           "serving_size": 78.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 50.0,
+          "amount": 38.0,
           "unit": "KCAL",
           "serving_size": 78.0,
           "serving_size_unit": "g"
@@ -127,6 +180,7 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2-4 tablespoons butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -229,17 +283,42 @@
       ]
     },
     {
-      "name": "a 1/4tsp saffron",
+      "name": "a 1/4 tsp saffron, crumbled",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Pinch saffron, crumbled",
       "nutrition_infos": []
     },
     {
-      "name": "to 1/2 cup milk or crème fraîche",
+      "name": "grated zest of one lemon",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Grated zest of one lemon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "to 1/2 cup milk",
       "amount": 2.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/4 to 1/2 cup milk or crème fraîche",
       "nutrition_infos": []
     }
   ],
@@ -252,28 +331,42 @@
       "name": "Protein",
       "amount": 2.46,
       "unit": "G",
-      "serving_size": 78.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 78.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 11.32,
       "unit": "G",
-      "serving_size": 78.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 50.0,
       "unit": "KCAL",
-      "serving_size": 78.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 38877.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -312,23 +405,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 77.0,
-      "unit": "MG",
-      "serving_size": 78.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
-      "serving_size": 78.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
       "serving_size": 78.0,
       "serving_size_unit": "g"
     },

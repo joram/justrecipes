@@ -11,10 +11,121 @@
   ],
   "ingredients": [
     {
+      "name": "cold unsalted butter",
+      "amount": 200.0,
+      "unit": "g",
+      "comment": "chopped",
+      "original_string": "200g (about 14 tablespoons) cold unsalted butter, chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "brown sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup (175g) brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 30.029999999999998,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 74.23,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 372.62,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 2189.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 280.5,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 77058.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sugar",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup (165g) white (granulated) sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "vanilla extract",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon vanilla extract",
       "nutrition_infos": []
     },
     {
@@ -22,38 +133,39 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons milk",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 23.36,
+          "amount": 3.75,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 74.23,
+          "amount": 3.33,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 102.62,
+          "amount": 5.42,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1106.0,
+          "amount": 67.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 80.5,
+          "amount": 5.0,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -74,7 +186,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 37758.0,
+          "amount": 56.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -114,6 +226,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 egg",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -166,7 +279,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 7.89,
+          "amount": 11.49,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -209,17 +322,90 @@
       ]
     },
     {
-      "name": "300g plain all-purpose flour",
+      "name": "flour",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 cups (300g) plain (all-purpose) flour",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.67,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 70.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 333.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.6,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.34,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "baking powder",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -270,6 +456,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -309,10 +496,55 @@
       ]
     },
     {
+      "name": "table salt",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon table salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "dark chocolate",
       "amount": 300.0,
       "unit": "g",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "300g dark chocolate, chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -436,37 +668,44 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 23.36,
+      "amount": 30.029999999999998,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 74.23,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 102.62,
+      "amount": 372.62,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1106.0,
+      "amount": 2189.0,
       "unit": "KCAL",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 80.5,
+      "amount": 280.5,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 77058.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -479,13 +718,6 @@
     {
       "name": "Potassium, K",
       "amount": 746.0,
-      "unit": "MG",
-      "serving_size": 240.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 37758.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -527,7 +759,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 7.89,
+      "amount": 11.49,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -543,6 +775,27 @@
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Thiamin",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Riboflavin",
+      "amount": 0.34,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.0,
+      "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },

@@ -12,21 +12,76 @@
       "name": "pork butt roast",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "sliced into very thin steaks",
+      "original_string": "2 pounds pork butt roast, sliced into very thin steaks",
       "nutrition_infos": []
+    },
+    {
+      "name": "fresh lime juice",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup fresh lime juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.779999999999999,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 1.39,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 90.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 397.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 41721.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "medium onion",
       "amount": 2.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/4 medium onion, plus 1 cup chopped",
       "nutrition_infos": []
     },
     {
       "name": "large cloves garlic",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "unpeeled",
+      "original_string": "2 large cloves garlic, unpeeled",
       "nutrition_infos": []
     },
     {
@@ -34,31 +89,32 @@
       "amount": 1.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/2 bar achiote paste",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 6.779999999999999,
+          "amount": 4.0,
           "unit": "G",
           "serving_size": 25.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 1.39,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 25.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 90.5,
+          "amount": 44.0,
           "unit": "G",
           "serving_size": 25.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 397.0,
+          "amount": 200.0,
           "unit": "KCAL",
           "serving_size": 25.0,
           "serving_size_unit": "g"
@@ -93,7 +149,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 2421.0,
+          "amount": 2240.0,
           "unit": "MG",
           "serving_size": 25.0,
           "serving_size_unit": "g"
@@ -136,10 +192,27 @@
       ]
     },
     {
-      "name": "1 tablespoon apple cider vinegar",
+      "name": "cup",
       "amount": 2.5,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
+      "original_string": "1/4 cup plus 1 tablespoon apple cider vinegar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "heaping teaspoon whole cumin seed",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "toasted",
+      "original_string": "1/2 heaping teaspoon whole cumin seed, toasted",
+      "nutrition_infos": []
+    },
+    {
+      "name": "raw unsalted peanuts",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "toasted",
+      "original_string": "2 tablespoons raw unsalted peanuts, toasted",
       "nutrition_infos": []
     },
     {
@@ -147,6 +220,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 small fresh Mexican bay leaf",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cinnamon stick",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (2-inch) cinnamon stick",
       "nutrition_infos": []
     },
     {
@@ -154,6 +236,15 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 cloves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "allspice berries",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 allspice berries",
       "nutrition_infos": []
     },
     {
@@ -161,13 +252,15 @@
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chopped fresh pineapple",
       "nutrition_infos": []
     },
     {
       "name": "limes",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "cut into wedges",
+      "original_string": "5 limes, cut into wedges",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -270,10 +363,19 @@
       ]
     },
     {
+      "name": "salsa of choice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salsa of choice",
+      "nutrition_infos": []
+    },
+    {
       "name": "chopped fresh cilantro",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped fresh cilantro",
       "nutrition_infos": []
     },
     {
@@ -281,6 +383,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup chopped onion",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -320,10 +423,11 @@
       ]
     },
     {
-      "name": "lard or vegetable oil",
+      "name": "lard",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Lard or vegetable oil",
       "nutrition_infos": []
     },
     {
@@ -331,6 +435,7 @@
       "amount": 24.0,
       "unit": "",
       "comment": "",
+      "original_string": "24 corn tortillas",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -447,28 +552,35 @@
       "name": "Protein",
       "amount": 6.779999999999999,
       "unit": "G",
-      "serving_size": 25.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 1.39,
       "unit": "G",
-      "serving_size": 25.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 90.5,
       "unit": "G",
-      "serving_size": 25.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
       "amount": 397.0,
       "unit": "KCAL",
-      "serving_size": 25.0,
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 41721.0,
+      "unit": "MG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
@@ -495,13 +607,6 @@
     {
       "name": "Iron, Fe",
       "amount": 3.42,
-      "unit": "MG",
-      "serving_size": 25.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 2421.0,
       "unit": "MG",
       "serving_size": 25.0,
       "serving_size_unit": "g"

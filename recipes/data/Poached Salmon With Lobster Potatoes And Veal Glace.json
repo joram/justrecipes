@@ -9,10 +9,19 @@
   ],
   "ingredients": [
     {
+      "name": "cup",
+      "amount": 1.5,
+      "unit": "",
+      "comment": "",
+      "original_string": "1/2 cup plus 6 tablespoons unsalted butter",
+      "nutrition_infos": []
+    },
+    {
       "name": "garlic",
       "amount": 1.0,
       "unit": "head",
-      "comment": "",
+      "comment": "halved",
+      "original_string": "1 head garlic, halved",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -23,21 +32,21 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 8.74,
+          "amount": 48.04,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 202.32,
+          "amount": 205.89,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1048.0,
+          "amount": 1441.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -51,7 +60,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 197853.0,
+          "amount": 197871.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -76,7 +85,8 @@
       "name": "onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and coarsely chopped",
+      "original_string": "1 onion, peeled and coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -108,7 +118,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 98.21000000000001,
+          "amount": 101.78,
           "unit": "G",
           "serving_size": 128.0,
           "serving_size_unit": "g"
@@ -143,7 +153,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 318.0,
+          "amount": 2108.0,
           "unit": "IU",
           "serving_size": 128.0,
           "serving_size_unit": "g"
@@ -178,7 +188,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 50.0,
+          "amount": 139.0,
           "unit": "MG",
           "serving_size": 128.0,
           "serving_size_unit": "g"
@@ -192,7 +202,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 2.21,
+          "amount": 27.21,
           "unit": "G",
           "serving_size": 128.0,
           "serving_size_unit": "g"
@@ -203,21 +213,24 @@
       "name": "fennel bulb",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 fennel bulb, coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "leek",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 leek, coarsely chopped",
       "nutrition_infos": []
     },
     {
       "name": "orange",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 orange, coarsely chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -264,17 +277,93 @@
       ]
     },
     {
+      "name": "red bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cored,  seeded and coarsely chopped",
+      "original_string": "1 red bell pepper, cored, seeded and coarsely chopped",
+      "nutrition_infos": []
+    },
+    {
       "name": "chardonnay",
       "amount": 2.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 cups chardonnay",
+      "nutrition_infos": []
+    },
+    {
+      "name": "bay leaves",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 bay leaves",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt and freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and freshly ground pepper to taste",
       "nutrition_infos": []
     },
     {
       "name": "large idaho potato",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "unpeeled",
+      "original_string": "1 large Idaho potato, unpeeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -384,17 +473,126 @@
       ]
     },
     {
-      "name": "creme fraiche or heavy cream",
+      "name": "creme fraiche",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 tablespoons creme fraiche or heavy cream",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 39.3,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 393.0,
+          "unit": "KCAL",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 18.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 1790.0,
+          "unit": "IU",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 89.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cooked",
       "amount": 2.5,
       "unit": "cup",
+      "comment": "chopped lobster meat",
+      "original_string": "2/3 cup cooked, chopped lobster meat",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cooked diced bacon",
+      "amount": 2.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons cooked diced bacon",
       "nutrition_infos": []
     },
     {
@@ -402,6 +600,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons chopped Italian parsley",
       "nutrition_infos": []
     },
     {
@@ -409,6 +608,7 @@
       "amount": 3.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "4 3-ounce skinless salmon fillets",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -525,10 +725,11 @@
       ]
     },
     {
-      "name": "veal glace or duck-",
+      "name": "veal glace",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup veal glace or duck-and-veal demi-glace (see note)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -635,6 +836,7 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons finely julienned tarragon",
       "nutrition_infos": []
     }
   ],
@@ -655,21 +857,21 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 8.74,
+      "amount": 48.04,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 202.32,
+      "amount": 205.89,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1048.0,
+      "amount": 1441.0,
       "unit": "KCAL",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -683,7 +885,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 197853.0,
+      "amount": 197871.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
@@ -704,7 +906,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 98.21000000000001,
+      "amount": 101.78,
       "unit": "G",
       "serving_size": 128.0,
       "serving_size_unit": "g"
@@ -725,7 +927,7 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 318.0,
+      "amount": 2108.0,
       "unit": "IU",
       "serving_size": 128.0,
       "serving_size_unit": "g"
@@ -753,14 +955,14 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 50.0,
+      "amount": 139.0,
       "unit": "MG",
       "serving_size": 128.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 2.21,
+      "amount": 27.21,
       "unit": "G",
       "serving_size": 128.0,
       "serving_size_unit": "g"

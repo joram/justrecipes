@@ -14,7 +14,8 @@
       "name": "sweet potatoes",
       "amount": 2.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "2 pounds sweet potatoes, peeled or unpeeled, cut into 1-inch pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 136.0,
+          "amount": 30136.0,
           "unit": "MG",
           "serving_size": 118.0,
           "serving_size_unit": "g"
@@ -120,7 +121,8 @@
       "name": "neutral oil",
       "amount": 4.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "such as canola",
+      "original_string": "4 tablespoons neutral oil, such as canola or grapeseed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -167,10 +169,126 @@
       ]
     },
     {
+      "name": "salt and pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Salt and pepper",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 30000.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sliced pickled jalapeños",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons sliced pickled jalapeños, plus 3 tablespoons brine",
+      "nutrition_infos": []
+    },
+    {
       "name": "baby spinach",
       "amount": 10.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "kale,  mustard greens",
+      "original_string": "10 ounces baby spinach, kale, mustard greens or arugula",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -276,14 +394,16 @@
       "name": "scallions",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "thinly sliced",
+      "original_string": "3 scallions, thinly sliced",
       "nutrition_infos": []
     },
     {
       "name": "to 3 ounces feta",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "2 to 3 ounces feta, sliced or crumbled",
       "nutrition_infos": []
     }
   ],
@@ -359,7 +479,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 136.0,
+      "amount": 30136.0,
       "unit": "MG",
       "serving_size": 118.0,
       "serving_size_unit": "g"
@@ -390,6 +510,20 @@
       "amount": 86.7,
       "unit": "G",
       "serving_size": 118.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

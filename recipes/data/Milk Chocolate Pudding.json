@@ -11,10 +11,62 @@
   ],
   "ingredients": [
     {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 23.33,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 53.75,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 172.08999999999997,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1042.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 111.67,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 87.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "cornstarch",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons cornstarch",
       "nutrition_infos": []
     },
     {
@@ -22,38 +74,39 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons unsweetened cocoa powder",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 23.33,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 53.75,
+          "amount": 10.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 72.09,
+          "amount": 60.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 667.0,
+          "amount": 200.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 11.67,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -88,7 +141,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 87.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -125,9 +178,10 @@
     },
     {
       "name": "whole milk",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -241,6 +295,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -346,7 +401,8 @@
       "name": "fine-quality milk chocolate",
       "amount": 4.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "4 ounces fine-quality milk chocolate, chopped",
       "nutrition_infos": []
     },
     {
@@ -354,6 +410,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon pure vanilla extract",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -383,6 +440,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "lightly sweetened whipped cream",
       "nutrition_infos": []
     }
   ],
@@ -396,35 +454,42 @@
       "name": "Protein",
       "amount": 23.33,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 53.75,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 72.09,
+      "amount": 172.08999999999997,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 667.0,
+      "amount": 1042.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 11.67,
+      "amount": 111.67,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 87.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
@@ -451,13 +516,6 @@
     {
       "name": "Potassium, K",
       "amount": 1687.0,
-      "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 87.0,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"

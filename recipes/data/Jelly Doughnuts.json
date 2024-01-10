@@ -15,6 +15,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup whole milk",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,21 +33,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 72.12,
+          "amount": 172.12,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 429.0,
+          "amount": 804.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 66.1,
+          "amount": 166.1,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -81,7 +82,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 194.0,
+          "amount": 39494.0,
           "unit": "MG",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -124,10 +125,120 @@
       ]
     },
     {
-      "name": "package active dry yeast 2 1/2 teaspoons",
+      "name": "granulated sugar",
       "amount": 2.0,
-      "unit": "oz",
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons granulated sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (1/4-ounce) package active dry yeast (2 1/2 teaspoons)",
       "nutrition_infos": []
     },
     {
@@ -135,13 +246,15 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons warm water",
       "nutrition_infos": []
     },
     {
-      "name": "to 3 3/4 cups all-purpose flour additional for dusting",
-      "amount": 2.0,
+      "name": "to 3 3/4 cups all-purpose flour",
+      "amount": 3.5,
       "unit": "",
       "comment": "",
+      "original_string": "3 1/2 to 3 3/4 cups all-purpose flour plus additional for dusting",
       "nutrition_infos": []
     },
     {
@@ -149,13 +262,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "About 10 cups vegetable oil",
       "nutrition_infos": []
     },
     {
       "name": "large eggs",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "lightly beaten",
+      "original_string": "2 large eggs, lightly beaten",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -247,7 +362,8 @@
       "name": "raspberry",
       "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "strawberry",
+      "original_string": "1/2 cup raspberry, strawberry, or apricot jam",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -357,10 +473,19 @@
       ]
     },
     {
-      "name": "-inch round cookie cutter",
-      "amount": 1.5,
+      "name": "confectioners sugar for dusting",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Confectioners sugar for dusting",
+      "nutrition_infos": []
+    },
+    {
+      "name": "-inch round cookie cutter",
+      "amount": 1.75,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 2 1/2-inch round cookie cutter",
       "nutrition_infos": []
     },
     {
@@ -368,13 +493,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 deep-fry thermometer",
       "nutrition_infos": []
     },
     {
-      "name": "-inch",
-      "amount": 1.5,
+      "name": "round cookie cutter; a deep-fat thermometer",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 (2-inch) and 1 (2 1/2-inch) round cookie cutter; a deep-fat thermometer",
       "nutrition_infos": []
     }
   ],
@@ -404,21 +531,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 72.12,
+      "amount": 172.12,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 429.0,
+      "amount": 804.0,
       "unit": "KCAL",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 66.1,
+      "amount": 166.1,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
@@ -453,7 +580,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 194.0,
+      "amount": 39494.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"

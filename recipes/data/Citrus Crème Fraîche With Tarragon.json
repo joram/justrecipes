@@ -9,56 +9,173 @@
   ],
   "ingredients": [
     {
-      "name": "crème fraîche or sour cream",
+      "name": "crème fraîche",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "zest of 1 lime",
-      "amount": 1.0,
-      "unit": "",
-      "comment": "",
+      "original_string": "3/4 cup crème fraîche or sour cream",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.26,
+          "amount": 8.59,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 35.099999999999994,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 145.76999999999998,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 947.0,
+          "unit": "KCAL",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 70.9,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 89.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 5.42,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 41605.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 6.3,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 79.0,
+          "unit": "MG",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 17.17,
+          "unit": "G",
+          "serving_size": 30.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "zest of 1 lemon, grated",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Zest of 1 lemon, grated",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "zest of 1 lime, grated",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Zest of 1 lime, grated",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 18.4,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 72.47,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 480.0,
+          "amount": 33.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 34.2,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 1988.0,
+          "amount": 1870.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -66,10 +183,11 @@
       ]
     },
     {
-      "name": "zest of 1 orange",
+      "name": "zest of 1 orange, grated",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Zest of 1 orange, grated",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -172,17 +290,79 @@
       ]
     },
     {
+      "name": "freshly squeezed orange juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon freshly squeezed orange juice",
+      "nutrition_infos": []
+    },
+    {
       "name": "fresh tarragon",
       "amount": 2.0,
       "unit": "tsp",
-      "comment": "",
+      "comment": "chopped",
+      "original_string": "2 teaspoons fresh tarragon, chopped",
       "nutrition_infos": []
     },
     {
       "name": "scallion",
       "amount": 1.0,
       "unit": "",
+      "comment": "minced",
+      "original_string": "1 scallion, minced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "freshly ground pepper",
       "nutrition_infos": []
     }
   ],
@@ -193,99 +373,99 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 5.26,
+      "amount": 8.59,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 18.4,
+      "amount": 35.099999999999994,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 72.47,
+      "amount": 145.76999999999998,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 480.0,
+      "amount": 947.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 34.2,
+      "amount": 70.9,
       "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 1988.0,
-      "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 53.0,
+      "amount": 89.0,
       "unit": "MG",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.89,
+      "amount": 5.42,
       "unit": "MG",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 526.0,
-      "unit": "IU",
-      "serving_size": 38.0,
+      "name": "Sodium, Na",
+      "amount": 41605.0,
+      "unit": "MG",
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 6.3,
       "unit": "MG",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 79.0,
       "unit": "MG",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 38.0,
+      "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 10.5,
+      "amount": 17.17,
       "unit": "G",
+      "serving_size": 30.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 526.0,
+      "unit": "IU",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     }

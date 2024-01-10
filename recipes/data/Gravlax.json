@@ -1,63 +1,80 @@
 {
   "name": "Gravlax",
   "categories": [],
-  "servings": 12,
+  "servings": 8,
   "minutes": null,
-  "source_url": "https://www.epicurious.com/recipes/member/views/gravlax-58390501",
+  "source_url": "https://cooking.nytimes.com/recipes/1020876-gravlax",
   "image_urls": [
-    "/verso/static/epicurious/assets/fallback-image-placeholder.jpeg"
+    "https://static01.nyt.com/images/2020/02/23/magazine/23mag-eat/23mag-eat-square640.jpg",
+    "https://static01.nyt.com/images/2020/02/23/magazine/23mag-eat/23mag-eat-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2020/02/23/magazine/23mag-eat/23mag-eat-superJumbo.jpg"
   ],
   "ingredients": [
     {
-      "name": "salt",
+      "name": "side clean",
       "amount": 1.0,
+      "unit": "",
+      "comment": "fresh and fat alaskan king salmon,  skin on,  pin bones removed,  neatly trimmed of all undesirable bits of fat and tissue",
+      "original_string": "1 side clean, fresh and fat Alaskan king salmon, skin on, pin bones removed, neatly trimmed of all undesirable bits of fat and tissue (about 3 to 3 1/2 pounds total), or 1 fat and gorgeous 2 1/2-pound fillet cut from the widest part of the body",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "original_string": "1 cup salt",
+      "original_string": "1/2 cup kosher salt",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 78.6,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
           "amount": 100.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 375.0,
+          "amount": 1189.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 39300.0,
+          "amount": 39700.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "sugar",
-      "amount": 2.0,
+      "name": "granulated sugar",
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
-      "original_string": "2 cups sugar",
+      "original_string": "1/2 cup granulated sugar",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -100,32 +117,224 @@
           "unit": "MG",
           "serving_size": 4.0,
           "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "of dill",
-      "amount": 1.0,
+      "name": "finely ground black pepper",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup finely ground black pepper",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.7,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dill",
+      "amount": 2.0,
       "unit": "bunch",
-      "comment": "stems and all,  chopped",
-      "original_string": "1 bunch of dill, stems and all, chopped",
+      "comment": "",
+      "original_string": "2 bunches dill (about 4 ounces each), clean and dry, left intact (no need to pick fronds from stem), coarsely chopped (about 2 cups)",
       "nutrition_infos": []
     },
     {
-      "name": "one 2- to 3 pound salmon fillet, pinbones removed",
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup unsalted butter (2 sticks), left at room temperature for an hour (not hard from the fridge yet not so warm as to be greasy)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "dill",
+      "amount": 1.0,
+      "unit": "bunch",
+      "comment": "",
+      "original_string": "1 bunch dill (about 4 ounces), clean and dry, fronds removed from stems, fronds finely chopped (about 3/4 cup)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "medium shallot",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "peeled and finely minced",
+      "original_string": "1 medium shallot, peeled and finely minced",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dijon mustard",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons Dijon mustard",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 100.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 900.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "soft dark pumpernickel sandwich bread",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "original_string": "One 2- to 3-pound salmon fillet, pinbones removed",
+      "original_string": "Soft dark pumpernickel sandwich bread",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Mix together the salt, sugar, and dill. Put the salmon, skin side down, on a large sheet of plastic wrap. Cover the flesh side of the salmon with the salt mixture, being sure to coat it completely (there will be lots of salt mix; just pile it in there).",
-    "Wrap the fish well. If the air temperature is below 70°F and it is not too inconvenient, let it rest outside the refrigerator for about 6 hours, then refrigerate for 18 to 24 hours more. Otherwise, refrigerate immediately for about 36 hours.",
-    "Unwrap the salmon and rinse off the cure. Dry, then slice on the bias. Serve plain or with lemon wedges, crème fraîche, sour cream, or a light vinaigrette.",
-    "Low-Salt Gravlax: Use 1/2 cup salt and 1/4 cup sugar. Combine a couple of chopped bay leaves, 1/4 cup minced shallot, and 1 teaspoon cracked black pepper with the dill. Refrigerate for 48 hours and proceed as directed.",
-    "Citrus Gravlax: Use 1 cup each salt and sugar, combined with the grated zests of 2 oranges, 2 lemons, 2 limes, and 2 grapefruit, 2 tablespoons juniper berries; 1 tablespoon cracked coriander seeds; and 1 bunch of dill, stems and all. Marinate for 12 to 24 hours."
+    "Cure the salmon: Lay salmon skin-side down, flesh-side up in a glass or stainless-steel baking dish. (A large lasagna dish works well.) In a small bowl, toss together the salt, sugar and pepper until blended. Sprinkle the mixture over the salmon evenly, with abandon, until fully covered, as if under a blanket of snow. Use all of it.",
+    "Spread all the chopped dill on top of the cure-covered salmon to make a thick, grassy carpet.",
+    "Lay plastic wrap or parchment paper over the salmon to cover and press down, then place a heavy weight — such as a 2-gallon zip-top bag filled with water — on top, to weigh heavily on the curing fish. Refrigerate just like this, without disturbing, for 5 days, turning the salmon over midway through the cure — on Day 3 — then covering and weighting it again.",
+    "To serve, mix together the softened butter, dill, shallot and mustard until well blended.",
+    "Remove salmon from the cure, which has now become liquid, brushing off the dill with a paper towel, then set fillet on a cutting board.",
+    "With a long, thin, beveled slicing knife tilted toward the horizon, slice salmon thinly, stopping short of cutting through the skin. Generally, you begin slicing a few inches from the tail end and you slice in the direction of the tail, moving your knife back, slice by slice, toward the fatter, wider belly portion of the fillet. The last slices are always hard to get. Once you have shingled the fillet, run your knife between skin and flesh, releasing all the slices, then transfer them to parchment until ready to serve.",
+    "Spread the compound butter on bread, then drape sliced gravlax on top, and eat as open-faced sandwiches."
   ],
   "notes": [],
   "nutrition_infos": [
@@ -133,35 +342,42 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 100.0,
       "unit": "G",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 375.0,
+      "amount": 1189.0,
       "unit": "KCAL",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 39300.0,
+      "amount": 39700.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 0.800000011920929,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 0.800000011920929,
       "serving_size_unit": "g"
     },
     {
@@ -169,6 +385,27 @@
       "amount": 100.0,
       "unit": "G",
       "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     }
   ]

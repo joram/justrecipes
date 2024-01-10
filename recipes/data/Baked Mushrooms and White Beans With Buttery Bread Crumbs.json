@@ -15,13 +15,15 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
       "name": "mixed mushrooms",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "such as cremini,  shiitake",
+      "original_string": "1 pound mixed mushrooms, such as cremini, shiitake or oyster, torn or roughly chopped into bite-size pieces",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +34,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 21.4,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -46,7 +48,7 @@
         },
         {
           "name": "Energy",
-          "amount": 323.0,
+          "amount": 1037.0,
           "unit": "KCAL",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -88,7 +90,7 @@
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 4244.0,
+          "amount": 7104.0,
           "unit": "IU",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -102,14 +104,14 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 71.0,
+          "amount": 285.0,
           "unit": "MG",
           "serving_size": 28.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 14.3,
+          "amount": 64.3,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -117,10 +119,19 @@
       ]
     },
     {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Kosher salt and black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "butter",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon butter",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -226,28 +237,40 @@
       "name": "small shallot",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "1 small shallot, finely chopped",
       "nutrition_infos": []
     },
     {
       "name": "large garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "finely chopped",
+      "original_string": "2 large garlic cloves, finely chopped",
       "nutrition_infos": []
     },
     {
-      "name": "can white beans such as cannellini or great northern",
-      "amount": 8.0,
-      "unit": "oz",
+      "name": "fresh thyme leaves",
+      "amount": 1.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon fresh thyme leaves",
+      "nutrition_infos": []
+    },
+    {
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "drained and rinsed",
+      "original_string": "1 (15-ounce) can white beans (such as cannellini or great Northern), drained and rinsed",
       "nutrition_infos": []
     },
     {
       "name": "feta cheese",
       "amount": 4.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "crumbled",
+      "original_string": "4 ounces feta cheese, crumbled (about 1 cup)",
       "nutrition_infos": [
         {
           "name": "Fiber, total dietary",
@@ -353,7 +376,8 @@
       "name": "vegetable stock",
       "amount": 1.0,
       "unit": "cup",
-      "comment": "",
+      "comment": "chicken stock",
+      "original_string": "1 cup vegetable stock, chicken stock or water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -467,13 +491,95 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons roughly chopped Italian parsley",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "fresh",
       "amount": 3.5,
       "unit": "cup",
+      "comment": "coarse bread crumbs",
+      "original_string": "3/4 cup fresh, coarse bread crumbs or panko",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "Kosher salt and black pepper",
       "nutrition_infos": []
     }
   ],
@@ -494,7 +600,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 21.4,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 28.0,
       "serving_size_unit": "g"
@@ -508,7 +614,7 @@
     },
     {
       "name": "Energy",
-      "amount": 323.0,
+      "amount": 1037.0,
       "unit": "KCAL",
       "serving_size": 28.0,
       "serving_size_unit": "g"
@@ -550,7 +656,7 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 4244.0,
+      "amount": 7104.0,
       "unit": "IU",
       "serving_size": 28.0,
       "serving_size_unit": "g"
@@ -564,14 +670,14 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 71.0,
+      "amount": 285.0,
       "unit": "MG",
       "serving_size": 28.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 14.3,
+      "amount": 64.3,
       "unit": "G",
       "serving_size": 28.0,
       "serving_size_unit": "g"

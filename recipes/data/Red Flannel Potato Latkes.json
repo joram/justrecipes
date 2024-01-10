@@ -10,10 +10,11 @@
   ],
   "ingredients": [
     {
-      "name": "about 2 medium yukon gold or other all-purpose potatoes",
+      "name": "yukon gold",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound (about 2 medium) Yukon Gold or other all-purpose potatoes",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -31,28 +32,28 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 16.9,
+          "amount": 30.4,
           "unit": "G",
           "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 145.0,
+          "amount": 201.0,
           "unit": "KCAL",
           "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.81,
+          "amount": 11.110000000000001,
           "unit": "G",
           "serving_size": 124.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 1.6,
+          "amount": 4.0,
           "unit": "G",
           "serving_size": 124.0,
           "serving_size_unit": "g"
@@ -73,7 +74,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 387.0,
+          "amount": 39687.0,
           "unit": "MG",
           "serving_size": 124.0,
           "serving_size_unit": "g"
@@ -116,24 +117,27 @@
       ]
     },
     {
-      "name": "medium beet about 8 ounces",
+      "name": "medium beet",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "1 medium beet (about 8 ounces), peeled",
       "nutrition_infos": []
     },
     {
-      "name": "half a celery root about 8 ounces",
+      "name": "half a celery root , peeled",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Half a celery root (about 8 ounces), peeled",
       "nutrition_infos": []
     },
     {
       "name": "medium onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "1 medium onion, peeled",
       "nutrition_infos": []
     },
     {
@@ -141,6 +145,59 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
+      "nutrition_infos": []
+    },
+    {
+      "name": "salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
       "nutrition_infos": []
     },
     {
@@ -148,14 +205,115 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Vegetable oil for frying",
       "nutrition_infos": []
     },
     {
-      "name": "apple sauce or sour cream",
+      "name": "apple sauce",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "Apple sauce or sour cream, for serving",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 13.5,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 56.0,
+          "unit": "KCAL",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 10.3,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.4,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 56.0,
+          "unit": "MG",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 126.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -180,28 +338,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 16.9,
+      "amount": 30.4,
       "unit": "G",
       "serving_size": 124.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 145.0,
+      "amount": 201.0,
       "unit": "KCAL",
       "serving_size": 124.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.81,
+      "amount": 11.110000000000001,
       "unit": "G",
       "serving_size": 124.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 1.6,
+      "amount": 4.0,
       "unit": "G",
       "serving_size": 124.0,
       "serving_size_unit": "g"
@@ -222,7 +380,7 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 387.0,
+      "amount": 39687.0,
       "unit": "MG",
       "serving_size": 124.0,
       "serving_size_unit": "g"
@@ -260,6 +418,20 @@
       "amount": 4.84,
       "unit": "G",
       "serving_size": 124.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 56.0,
+      "unit": "MG",
+      "serving_size": 126.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 126.0,
       "serving_size_unit": "g"
     }
   ]

@@ -14,38 +14,48 @@
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 1-pound block firm tofu",
+      "nutrition_infos": []
+    },
+    {
+      "name": "white sugar",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup white sugar",
       "nutrition_infos": []
     },
     {
       "name": "shallots",
       "amount": 5.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and minced",
+      "original_string": "5 shallots, peeled and minced",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 3.75,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 0.62,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 46.599999999999994,
+          "amount": 94.69999999999999,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 234.0,
+          "amount": 459.0,
           "unit": "KCAL",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -59,21 +69,21 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 1.7,
+          "amount": 2.9,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 667.0,
+          "amount": 679.0,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.0,
+          "amount": 0.23,
           "unit": "MG",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -119,7 +129,8 @@
       "name": "garlic",
       "amount": 4.0,
       "unit": "clove",
-      "comment": "",
+      "comment": "peeled and minced",
+      "original_string": "4 cloves garlic, peeled and minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -180,10 +191,11 @@
       ]
     },
     {
-      "name": "peeled",
+      "name": "peeled and minced ginger",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons peeled and minced ginger",
       "nutrition_infos": []
     },
     {
@@ -191,14 +203,131 @@
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons soy sauce",
       "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 1.5,
       "unit": "bunch",
-      "comment": "",
+      "comment": "white and light-green parts only,  thinly sliced",
+      "original_string": "1/2 bunch scallions, white and light-green parts only, thinly sliced",
       "nutrition_infos": []
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Freshly ground black pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "cooked jasmine rice",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Cooked jasmine rice, for serving (optional)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 3.75,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.62,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 48.1,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 225.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 12.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.23,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -211,28 +340,28 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 3.75,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 0.62,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 46.599999999999994,
+      "amount": 94.69999999999999,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 234.0,
+      "amount": 459.0,
       "unit": "KCAL",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -246,21 +375,21 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 1.7,
+      "amount": 2.9,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 667.0,
+      "amount": 679.0,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.0,
+      "amount": 0.23,
       "unit": "MG",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -305,6 +434,13 @@
       "amount": 0.0,
       "unit": "G",
       "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     }
   ]

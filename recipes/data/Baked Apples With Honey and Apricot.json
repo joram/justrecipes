@@ -14,7 +14,88 @@
       "name": "baking apples",
       "amount": 6.0,
       "unit": "",
+      "comment": "such as winesap,  braeburn,  gala",
+      "original_string": "6 baking apples, such as Winesap, Braeburn, Gala or Fuji",
+      "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 4.0,
+      "unit": "tbsp",
       "comment": "",
+      "original_string": "4 tablespoons unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 5.83,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 95.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 217.60000000000002,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1724.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 356.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 56.67,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "diced dried apricots",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup diced dried apricots",
       "nutrition_infos": []
     },
     {
@@ -22,24 +103,25 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup golden raisins",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.83,
+          "amount": 2.5,
           "unit": "G",
           "serving_size": 40.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 217.60000000000002,
+          "amount": 80.0,
           "unit": "G",
           "serving_size": 40.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1010.0,
+          "amount": 300.0,
           "unit": "KCAL",
           "serving_size": 40.0,
           "serving_size_unit": "g"
@@ -81,7 +163,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 356.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 40.0,
           "serving_size_unit": "g"
@@ -95,7 +177,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 6.67,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 40.0,
           "serving_size_unit": "g"
@@ -107,6 +189,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup honey",
       "nutrition_infos": []
     },
     {
@@ -114,10 +197,11 @@
       "amount": 6.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "6 teaspoons apricot jam, plus more for optional glazing",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
-          "amount": 16.7,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 28.0,
           "serving_size_unit": "g"
@@ -209,10 +293,19 @@
       ]
     },
     {
-      "name": "toasted flaked almonds",
+      "name": "white wine",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup white wine or apple juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "toasted flaked almonds",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "for garnish",
+      "original_string": "1/2 cup toasted flaked almonds, for garnish (optional)",
       "nutrition_infos": []
     },
     {
@@ -220,6 +313,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crème fraîche, for serving",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -327,21 +421,63 @@
       "name": "Protein",
       "amount": 5.83,
       "unit": "G",
-      "serving_size": 40.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 95.3,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 217.60000000000002,
       "unit": "G",
-      "serving_size": 40.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1010.0,
+      "amount": 1724.0,
       "unit": "KCAL",
-      "serving_size": 40.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 356.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 56.67,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -380,13 +516,6 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sodium, Na",
-      "amount": 356.0,
-      "unit": "MG",
-      "serving_size": 40.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin D (D2 + D3), International Units",
       "amount": 0.0,
       "unit": "IU",
@@ -394,37 +523,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 6.67,
-      "unit": "G",
-      "serving_size": 40.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Total lipid (fat)",
-      "amount": 16.7,
-      "unit": "G",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 28.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 30.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
     }

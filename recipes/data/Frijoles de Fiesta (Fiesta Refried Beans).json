@@ -14,7 +14,8 @@
       "name": "dried pinto beans",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "rinsed",
+      "original_string": "1 pound dried pinto beans, rinsed (see Note)",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,23 @@
       "amount": 1.5,
       "unit": "",
       "comment": "",
+      "original_string": "1/2 large white onion",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon kosher or sea salt, plus more as needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "dried colorado chiles",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 dried Colorado chiles (also known as California or New Mexico chiles), or guajillo chiles, stemmed and seeded",
       "nutrition_infos": []
     },
     {
@@ -29,10 +47,11 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 to 2 whole canned chipotles in adobo, plus 1 tablespoon adobo sauce",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
-          "amount": 17.9,
+          "amount": 117.9,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -116,7 +135,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 10.7,
+          "amount": 25.0,
           "unit": "G",
           "serving_size": 30.0,
           "serving_size_unit": "g"
@@ -124,17 +143,132 @@
       ]
     },
     {
-      "name": "vegetable oil or lard",
+      "name": "vegetable oil",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "3 tablespoons vegetable oil or lard",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 21.4,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1107.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 25.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 57.1,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "asadero",
       "amount": 8.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "quesadilla,  monterey jack",
+      "original_string": "8 ounces asadero, quesadilla, Monterey Jack or Oaxaca cheese, grated (about 2 cups)",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -237,10 +371,11 @@
       ]
     },
     {
-      "name": "4 cup",
+      "name": "crumbled cotija",
       "amount": 1.0,
-      "unit": "",
-      "comment": "",
+      "unit": "oz",
+      "comment": "for garnish",
+      "original_string": "1 ounce crumbled Cotija (about 1/4 cup), for garnish",
       "nutrition_infos": []
     }
   ],
@@ -258,7 +393,7 @@
   "nutrition_infos": [
     {
       "name": "Total lipid (fat)",
-      "amount": 17.9,
+      "amount": 117.9,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -342,7 +477,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 10.7,
+      "amount": 25.0,
       "unit": "G",
       "serving_size": 30.0,
       "serving_size_unit": "g"
@@ -351,14 +486,28 @@
       "name": "Protein",
       "amount": 21.4,
       "unit": "G",
-      "serving_size": 28.0,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 250.0,
+      "amount": 1107.0,
       "unit": "KCAL",
-      "serving_size": 28.0,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 25.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 57.1,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {

@@ -9,10 +9,62 @@
   ],
   "ingredients": [
     {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "2 cups sugar (evaporated organic cane sugar from Trader Joe’s works well)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 182.2,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 417.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 110.8,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 8.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "water",
       "amount": 4.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "4 cups water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,7 +82,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 82.2,
+          "amount": 10.8,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
@@ -59,10 +111,69 @@
       ]
     },
     {
+      "name": "cinnamon sticks",
+      "amount": 13.5,
+      "unit": "",
+      "comment": "broken up",
+      "original_string": "12-15 cinnamon sticks, broken up",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.5,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "star anise pods",
       "amount": 10.0,
       "unit": "",
       "comment": "",
+      "original_string": "10 star anise pods",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -116,10 +227,69 @@
       ]
     },
     {
+      "name": "whole allspice",
+      "amount": 2.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1/4 ounce whole allspice (a large handful)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "whole cloves",
       "amount": 4.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1/8 ounce whole cloves",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -225,14 +395,16 @@
       "name": "vanilla pod",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced down the center and opened out",
+      "original_string": "1 vanilla pod, sliced down the center and opened out",
       "nutrition_infos": []
     },
     {
       "name": "large ginger root",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "4 to 6 ounces,  grated.",
+      "original_string": "1 large ginger root, 4 to 6 ounces, grated.",
       "nutrition_infos": []
     }
   ],
@@ -245,49 +417,49 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 82.2,
+      "amount": 182.2,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 42.0,
+      "amount": 417.0,
       "unit": "KCAL",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 10.8,
+      "amount": 110.8,
       "unit": "G",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
       "amount": 8.0,
       "unit": "MG",
-      "serving_size": 240.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 1.399999976158142,
+      "serving_size": 0.5,
       "serving_size_unit": "g"
     },
     {

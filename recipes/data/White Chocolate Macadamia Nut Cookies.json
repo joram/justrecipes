@@ -11,56 +11,65 @@
   ],
   "ingredients": [
     {
+      "name": "cup",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 cup plus 6 tablespoons/280 grams granulated sugar",
+      "nutrition_infos": []
+    },
+    {
       "name": "vanilla bean",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 vanilla bean (optional)",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 12.0,
+          "amount": 21.68,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 10.0,
+          "amount": 88.6,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 74.2,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 473.0,
+          "amount": 1542.0,
           "unit": "KCAL",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 3.23,
           "unit": "G",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 37640.0,
+          "amount": 76440.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 370.0,
+          "amount": 584.0,
           "unit": "MG",
           "serving_size": 3.0,
           "serving_size_unit": "g"
@@ -68,10 +77,83 @@
       ]
     },
     {
-      "name": "20 grams nonfat milk powder see tip",
-      "amount": 3.0,
-      "unit": "tbsp",
+      "name": "unsalted butter",
+      "amount": 168.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "12 tablespoons/168 grams unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 53.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "nonfat milk powder",
+      "amount": 20.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "3 tablespoons/20 grams nonfat milk powder (see Tip)",
       "nutrition_infos": []
     },
     {
@@ -79,13 +161,66 @@
       "amount": 2.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "2 teaspoons vanilla extract",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "baking powder",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon baking powder",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -136,6 +271,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "½ teaspoon baking soda",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -179,6 +315,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "¼ teaspoon almond extract",
       "nutrition_infos": []
     },
     {
@@ -186,6 +323,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 large eggs",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -196,7 +334,7 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 3.2,
           "unit": "G",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -238,7 +376,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 2.0,
+          "amount": 5.48,
           "unit": "MG",
           "serving_size": 50.0,
           "serving_size_unit": "g"
@@ -274,24 +412,120 @@
       ]
     },
     {
-      "name": "40 grams all-purpose flour",
-      "amount": 2.0,
-      "unit": "",
+      "name": "all-purpose flour",
+      "amount": 240.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "2 cups/240 grams all-purpose flour",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 9.68,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 74.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 355.0,
+          "unit": "KCAL",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.23,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 3.48,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Thiamin",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Riboflavin",
+          "amount": 0.329,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Niacin",
+          "amount": 5.16,
+          "unit": "MG",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "roughly chopped roasted and salted macadamia nuts",
+      "amount": 130.0,
+      "unit": "g",
+      "comment": "",
+      "original_string": "1 cup/130 grams roughly chopped roasted and salted macadamia nuts, plus more to garnish",
       "nutrition_infos": []
     },
     {
-      "name": "30 grams roughly chopped roasted",
-      "amount": 1.0,
-      "unit": "",
+      "name": "roughly chopped white chocolate",
+      "amount": 160.0,
+      "unit": "g",
       "comment": "",
+      "original_string": "1 cup/160 grams roughly chopped white chocolate, plus more to garnish",
       "nutrition_infos": []
     },
     {
-      "name": "60 grams roughly chopped white chocolate",
+      "name": "flaky salt",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Flaky salt",
       "nutrition_infos": []
     }
   ],
@@ -308,51 +542,72 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 12.0,
+      "amount": 21.68,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 10.0,
+      "amount": 88.6,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.0,
+      "amount": 74.2,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 473.0,
+      "amount": 1542.0,
       "unit": "KCAL",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 3.23,
       "unit": "G",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 37640.0,
+      "amount": 76440.0,
       "unit": "MG",
       "serving_size": 3.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 370.0,
+      "amount": 584.0,
       "unit": "MG",
       "serving_size": 3.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 53.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -364,30 +619,37 @@
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 3.2,
       "unit": "G",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 2.0,
+      "amount": 5.48,
       "unit": "MG",
       "serving_size": 50.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total trans",
+      "name": "Thiamin",
       "amount": 0.0,
-      "unit": "G",
-      "serving_size": 50.0,
+      "unit": "MG",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 3.0,
-      "unit": "G",
-      "serving_size": 50.0,
+      "name": "Riboflavin",
+      "amount": 0.329,
+      "unit": "MG",
+      "serving_size": 31.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Niacin",
+      "amount": 5.16,
+      "unit": "MG",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     }
   ]

@@ -15,6 +15,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,7 +33,7 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 24.55,
+          "amount": 124.55,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -46,14 +47,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 131.0,
+          "amount": 43031.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 525.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -89,24 +90,35 @@
       ]
     },
     {
+      "name": "medium green bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "stemmed,  seeded and roughly chopped",
+      "original_string": "1 medium green bell pepper, stemmed, seeded and roughly chopped",
+      "nutrition_infos": []
+    },
+    {
       "name": "medium white onion",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "roughly chopped",
+      "original_string": "1 medium white onion, roughly chopped",
       "nutrition_infos": []
     },
     {
       "name": "large shallots",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "roughly chopped",
+      "original_string": "3 large shallots, roughly chopped",
       "nutrition_infos": []
     },
     {
       "name": "celery stalks",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "roughly chopped",
+      "original_string": "2 celery stalks, roughly chopped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -138,7 +150,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "G",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -159,7 +171,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.33,
+          "amount": 9.33,
           "unit": "MG",
           "serving_size": 110.0,
           "serving_size_unit": "g"
@@ -212,28 +224,132 @@
       "name": "medium parsley bunch",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "leaves and tender stems roughly chopped",
+      "original_string": "1 medium parsley bunch, leaves and tender stems roughly chopped",
       "nutrition_infos": []
     },
     {
       "name": "small cilantro bunch",
       "amount": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "leaves and tender stems roughly chopped",
+      "original_string": "1 small cilantro bunch, leaves and tender stems roughly chopped",
       "nutrition_infos": []
     },
     {
       "name": "scallions",
       "amount": 1.0,
       "unit": "bunch",
-      "comment": "",
+      "comment": "trimmed and roughly chopped",
+      "original_string": "1 bunch scallions, trimmed and roughly chopped",
       "nutrition_infos": []
+    },
+    {
+      "name": "scotch bonnet",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 Scotch bonnet or habanero chiles, stemmed",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 9.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1620.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 4100.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 525.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "white wine vinegar",
       "amount": 3.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "3 tablespoons white wine vinegar",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -273,10 +389,27 @@
       ]
     },
     {
+      "name": "fresh lime juice",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons fresh lime juice (from 1 large lime)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh thyme leaves",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons fresh thyme leaves",
+      "nutrition_infos": []
+    },
+    {
       "name": "garlic cloves",
       "amount": 8.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled",
+      "original_string": "8 garlic cloves, peeled",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -320,7 +453,59 @@
       "amount": 4.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "4 whole cloves",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons kosher salt (such as Diamond Crystal)",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -346,7 +531,7 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 24.55,
+      "amount": 124.55,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -360,14 +545,14 @@
     },
     {
       "name": "Sodium, Na",
-      "amount": 131.0,
+      "amount": 43031.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 525.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -402,7 +587,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 100.0,
       "unit": "G",
       "serving_size": 110.0,
       "serving_size_unit": "g"
@@ -423,7 +608,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.33,
+      "amount": 9.33,
       "unit": "MG",
       "serving_size": 110.0,
       "serving_size_unit": "g"
@@ -440,6 +625,27 @@
       "amount": 8.2,
       "unit": "MG",
       "serving_size": 110.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 1620.0,
+      "unit": "MG",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     }
   ]

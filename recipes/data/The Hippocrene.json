@@ -10,77 +10,127 @@
   "ingredients": [
     {
       "name": "gin",
-      "amount": 2.0,
+      "amount": 1.25,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 1/4 ounces gin",
       "nutrition_infos": []
     },
     {
-      "name": "ginger liqueur domaine de canton",
+      "name": "ginger liqueur",
       "amount": 3.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "3/4 ounce ginger liqueur (domaine de canton)",
       "nutrition_infos": []
     },
     {
-      "name": "mint tea brewed at double strength",
+      "name": "fresh grapefruit juice",
+      "amount": 1.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1/2 ounce fresh grapefruit juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh lemon juice",
+      "amount": 2.5,
+      "unit": "oz",
+      "comment": "",
+      "original_string": "1/4 ounce fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "mint tea and chilled",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon mint tea (brewed at double strength) and chilled",
       "nutrition_infos": []
     },
     {
       "name": "dry",
       "amount": 2.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "sparkling wine",
+      "original_string": "2 ounces dry, sparkling wine",
       "nutrition_infos": []
     },
     {
-      "name": "fresh basil",
+      "name": "fresh basil, for garnish",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Fresh basil, for garnish",
       "nutrition_infos": []
     },
     {
-      "name": "dash or two grapefruit bitters",
+      "name": "dash",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Dash or two grapefruit bitters",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 5.41,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 2.7,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.28,
+          "amount": 81.1,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1.0,
+          "amount": 378.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 29.7,
           "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 2.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 46.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.7,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 246.0,
+          "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
@@ -92,8 +142,36 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Sugars, added",
+          "name": "Vitamin D (D2 + D3)",
           "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 29.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 1.35,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -109,36 +187,64 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 0.0,
+      "amount": 5.41,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 2.7,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 0.28,
+      "amount": 81.1,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1.0,
+      "amount": 378.0,
       "unit": "KCAL",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 0.0,
+      "amount": 29.7,
       "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 2.7,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 46.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 2.7,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 246.0,
+      "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
@@ -150,8 +256,36 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Sugars, added",
+      "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
+      "unit": "UG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 29.7,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 1.35,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"

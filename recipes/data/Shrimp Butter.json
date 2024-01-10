@@ -13,6 +13,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 chopped onion",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -23,7 +24,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 1.79,
+          "amount": 80.39,
           "unit": "G",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -37,7 +38,7 @@
         },
         {
           "name": "Energy",
-          "amount": 207.0,
+          "amount": 921.0,
           "unit": "KCAL",
           "serving_size": 0.6000000238418579,
           "serving_size_unit": "g"
@@ -55,7 +56,8 @@
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "minced",
+      "original_string": "2 garlic cloves, minced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -99,13 +101,87 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 sprig fresh thyme",
       "nutrition_infos": []
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon unsalted butter",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2949.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 366.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "shell-on shrimp",
       "amount": 1.0,
       "unit": "lb",
       "comment": "",
+      "original_string": "1 pound shell-on shrimp",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -211,7 +287,16 @@
       "name": "sticks butter",
       "amount": 2.0,
       "unit": "",
+      "comment": "softened",
+      "original_string": "2 sticks butter, softened",
+      "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt and freshly ground black pepper",
+      "amount": 1.0,
+      "unit": "",
       "comment": "",
+      "original_string": "kosher salt and freshly ground black pepper",
       "nutrition_infos": []
     }
   ],
@@ -229,7 +314,7 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 1.79,
+      "amount": 80.39,
       "unit": "G",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -243,7 +328,7 @@
     },
     {
       "name": "Energy",
-      "amount": 207.0,
+      "amount": 921.0,
       "unit": "KCAL",
       "serving_size": 0.6000000238418579,
       "serving_size_unit": "g"
@@ -253,6 +338,34 @@
       "amount": 183.0,
       "unit": "MG",
       "serving_size": 0.6000000238418579,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2949.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 366.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
@@ -284,37 +397,9 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 89.0,
-      "unit": "IU",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Vitamin C, total ascorbic acid",
       "amount": 1.1,
       "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 152.0,
-      "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 112.0,
       "serving_size_unit": "g"
     }

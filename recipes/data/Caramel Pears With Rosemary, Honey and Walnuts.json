@@ -14,7 +14,8 @@
       "name": "small",
       "amount": 6.0,
       "unit": "",
-      "comment": "",
+      "comment": "slightly under-ripe pears,  such as bartlett,  unpeeled,  halved and cored",
+      "original_string": "6 small, slightly under-ripe pears, such as Bartlett, unpeeled, halved and cored",
       "nutrition_infos": []
     },
     {
@@ -22,6 +23,7 @@
       "amount": 2.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 star anise pods",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,28 +34,28 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.0,
+          "amount": 78.6,
           "unit": "G",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 151.4,
+          "amount": 251.4,
           "unit": "G",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 300.0,
+          "amount": 1389.0,
           "unit": "KCAL",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 60.0,
+          "amount": 160.0,
           "unit": "G",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
@@ -67,7 +69,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 0.0,
+          "amount": 214.0,
           "unit": "MG",
           "serving_size": 1.399999976158142,
           "serving_size_unit": "g"
@@ -75,10 +77,19 @@
       ]
     },
     {
+      "name": "cinnamon stick",
+      "amount": 1.0,
+      "unit": "piece",
+      "comment": "",
+      "original_string": "1 (2-inch) piece cinnamon stick",
+      "nutrition_infos": []
+    },
+    {
       "name": "fennel seeds",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon fennel seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -122,13 +133,66 @@
       "amount": 2.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "2 whole cloves",
       "nutrition_infos": []
+    },
+    {
+      "name": "light brown sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup light brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "golden raisins",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup golden raisins",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -202,7 +266,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.0,
+          "amount": 50.0,
           "unit": "G",
           "serving_size": 40.0,
           "serving_size_unit": "g"
@@ -214,20 +278,260 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup dark rum",
       "nutrition_infos": []
+    },
+    {
+      "name": "lemon juice",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "unsalted butter",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "cut in small cubes",
+      "original_string": "3 tablespoons unsalted butter, cut in small cubes",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 78.6,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 714.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "mild honey",
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons mild honey",
       "nutrition_infos": []
+    },
+    {
+      "name": "rosemary leaves",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "from a small sprig",
+      "original_string": "1 tablespoon rosemary leaves, from a small sprig",
+      "nutrition_infos": [
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.4,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "roughly chopped walnuts",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup roughly chopped walnuts",
       "nutrition_infos": []
     }
   ],
@@ -247,28 +551,28 @@
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 0.0,
+      "amount": 78.6,
       "unit": "G",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 151.4,
+      "amount": 251.4,
       "unit": "G",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 300.0,
+      "amount": 1389.0,
       "unit": "KCAL",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 60.0,
+      "amount": 160.0,
       "unit": "G",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
@@ -282,7 +586,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 214.0,
       "unit": "MG",
       "serving_size": 1.399999976158142,
       "serving_size_unit": "g"
@@ -324,9 +628,30 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 0.0,
+      "amount": 50.0,
       "unit": "G",
       "serving_size": 40.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 0.4,
       "serving_size_unit": "g"
     }
   ]

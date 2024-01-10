@@ -13,6 +13,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup coarsely chopped onions",
       "nutrition_infos": []
     },
     {
@@ -20,13 +21,15 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup coarsely chopped celery",
       "nutrition_infos": []
     },
     {
       "name": "peeled",
       "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "coarsely chopped carrots",
+      "original_string": "1/4 cup peeled, coarsely chopped carrots",
       "nutrition_infos": []
     },
     {
@@ -34,45 +37,46 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons finely chopped garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 71.69,
+          "amount": 69.27,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 162.54,
+          "amount": 154.48,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 1928.27,
+          "amount": 1911.37,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 2231.0,
+          "amount": 2086.0,
           "unit": "KCAL",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 5.85,
+          "amount": 5.04,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 20.400000000000002,
+          "amount": 18.8,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -86,21 +90,21 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 11.08,
+          "amount": 10.209999999999999,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2160.0,
+          "amount": 41073.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 489.0,
+          "amount": 166.0,
           "unit": "IU",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -114,7 +118,7 @@
         },
         {
           "name": "Cholesterol",
-          "amount": 288.0,
+          "amount": 268.0,
           "unit": "MG",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -128,7 +132,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 42.84,
+          "amount": 38.0,
           "unit": "G",
           "serving_size": 7.0,
           "serving_size_unit": "g"
@@ -140,6 +144,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon extra-virgin olive oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -218,6 +223,7 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon saffron threads",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -257,10 +263,34 @@
       ]
     },
     {
+      "name": "grated lemon zest",
+      "amount": 1.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 teaspoon grated lemon zest",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 106.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "all-purpose flour",
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -353,6 +383,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon fennel seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -396,6 +427,7 @@
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon herbes de Provence",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -435,10 +467,63 @@
       ]
     },
     {
+      "name": "salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 39300.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "freshly ground pepper",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/2 teaspoon freshly ground pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "half bone-in chicken breasts",
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 half bone-in chicken breasts",
       "nutrition_infos": []
     },
     {
@@ -446,6 +531,7 @@
       "amount": 4.0,
       "unit": "",
       "comment": "",
+      "original_string": "4 chicken thighs",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -514,9 +600,10 @@
     },
     {
       "name": "canned plum tomatoes",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "diced,  with liquid",
+      "original_string": "1 1/2 cups canned plum tomatoes, diced, with liquid",
       "nutrition_infos": []
     },
     {
@@ -524,119 +611,31 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup dry white wine",
       "nutrition_infos": []
     },
     {
-      "name": "medium red bliss or yukon gold potatoes",
+      "name": "dried hot red chili pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 dried hot red chili pepper",
+      "nutrition_infos": []
+    },
+    {
+      "name": "medium red bliss",
       "amount": 5.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 2.42,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 8.06,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 16.9,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 145.0,
-          "unit": "KCAL",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 0.81,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 1.6,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 0.87,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 387.0,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin A, IU",
-          "amount": 323.0,
-          "unit": "IU",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 20.0,
-          "unit": "MG",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 4.84,
-          "unit": "G",
-          "serving_size": 124.0,
-          "serving_size_unit": "g"
-        }
-      ]
+      "original_string": "5 medium red bliss or Yukon gold potatoes, scrubbed and halved",
+      "nutrition_infos": []
     },
     {
       "name": "chorizo sausage",
       "amount": 10.0,
       "unit": "oz",
-      "comment": "",
+      "comment": "cut into 1-inch lengths",
+      "original_string": "10 ounces chorizo sausage, cut into 1-inch lengths",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -742,7 +741,8 @@
       "name": "littleneck clams",
       "amount": 24.0,
       "unit": "",
-      "comment": "",
+      "comment": "well scrubbed",
+      "original_string": "24 littleneck clams, well scrubbed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -870,6 +870,7 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon Pernod",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -976,13 +977,15 @@
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon chopped tarragon",
       "nutrition_infos": []
     },
     {
-      "name": "rouille see recipe",
+      "name": "rouille",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Rouille (<a href=\"http://cooking.nytimes.com/recipes/7179-rouille\">see recipe</a>)",
       "nutrition_infos": []
     }
   ],
@@ -996,42 +999,42 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 71.69,
+      "amount": 69.27,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 162.54,
+      "amount": 154.48,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 1928.27,
+      "amount": 1911.37,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 2231.0,
+      "amount": 2086.0,
       "unit": "KCAL",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 5.85,
+      "amount": 5.04,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 20.400000000000002,
+      "amount": 18.8,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"
@@ -1045,21 +1048,21 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 11.08,
+      "amount": 10.209999999999999,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 2160.0,
+      "amount": 41073.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 489.0,
+      "amount": 166.0,
       "unit": "IU",
       "serving_size": 7.0,
       "serving_size_unit": "g"
@@ -1073,7 +1076,7 @@
     },
     {
       "name": "Cholesterol",
-      "amount": 288.0,
+      "amount": 268.0,
       "unit": "MG",
       "serving_size": 7.0,
       "serving_size_unit": "g"
@@ -1087,7 +1090,7 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 42.84,
+      "amount": 38.0,
       "unit": "G",
       "serving_size": 7.0,
       "serving_size_unit": "g"

@@ -10,9 +10,10 @@
   "ingredients": [
     {
       "name": "heavy cream",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "2 1/2 cups heavy cream",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,21 +31,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 6.67,
+          "amount": 206.67000000000002,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 733.0,
+          "amount": 1483.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 6.67,
+          "amount": 206.67000000000002,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -115,10 +116,62 @@
       ]
     },
     {
+      "name": "sugar",
+      "amount": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "3/4 cup sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "vanilla bean",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "split lengthwise and seeds scraped",
+      "original_string": "1/2 vanilla bean, split lengthwise and seeds scraped",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -172,18 +225,78 @@
       ]
     },
     {
-      "name": "large egg yolks",
-      "amount": 5.0,
+      "name": "a 1/4 tsp salt",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Pinch salt",
       "nutrition_infos": []
     },
     {
-      "name": "s",
+      "name": "large egg yolks",
+      "amount": 5.0,
+      "unit": "",
+      "comment": "lightly beaten",
+      "original_string": "5 large egg yolks, lightly beaten",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sanding sugar",
       "amount": 6.0,
       "unit": "tbsp",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "6 tablespoons sanding sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -212,21 +325,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 6.67,
+      "amount": 206.67000000000002,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 733.0,
+      "amount": 1483.0,
       "unit": "KCAL",
       "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 6.67,
+      "amount": 206.67000000000002,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -292,6 +405,13 @@
       "amount": 26.7,
       "unit": "G",
       "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     }
   ]

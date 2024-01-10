@@ -10,24 +10,150 @@
   ],
   "ingredients": [
     {
-      "name": "2 cups grated extra-sharp cheddar",
+      "name": "unsalted butter",
+      "amount": 8.0,
+      "unit": "tbsp",
+      "comment": "softened",
+      "original_string": "8 tablespoons (1 stick) unsalted butter, softened",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 91.89999999999999,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 847.0,
+          "unit": "KCAL",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 40730.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 2860.0,
+          "unit": "IU",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 214.0,
+          "unit": "MG",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 50.0,
+          "unit": "G",
+          "serving_size": 14.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "grated extra-sharp cheddar",
       "amount": 8.0,
       "unit": "oz",
       "comment": "",
+      "original_string": "8 ounces (2 cups) grated extra-sharp Cheddar",
       "nutrition_infos": []
     },
     {
       "name": "unsifted all-purpose flour",
-      "amount": 1.3333333333333333,
+      "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 1/2 cups unsifted all-purpose flour",
       "nutrition_infos": []
+    },
+    {
+      "name": "kosher salt",
+      "amount": 4.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/8 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "ground cayenne",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon ground cayenne",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -38,7 +164,7 @@
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 13.3,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 0.699999988079071,
           "serving_size_unit": "g"
@@ -52,7 +178,7 @@
         },
         {
           "name": "Energy",
-          "amount": 133.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 0.699999988079071,
           "serving_size_unit": "g"
@@ -66,7 +192,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 1930.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 0.699999988079071,
           "serving_size_unit": "g"
@@ -85,6 +211,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Dash of Worcestershire sauce",
       "nutrition_infos": []
     },
     {
@@ -92,13 +219,15 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 large egg",
       "nutrition_infos": []
     },
     {
       "name": "small pimento-stuffed cocktail olives",
       "amount": 50.0,
       "unit": "",
-      "comment": "",
+      "comment": "drained and patted dry",
+      "original_string": "50 small pimento-stuffed cocktail olives, drained and patted dry",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -176,48 +305,69 @@
       "name": "Protein",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.699999988079071,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 13.3,
+      "amount": 91.89999999999999,
       "unit": "G",
-      "serving_size": 0.699999988079071,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.699999988079071,
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 133.0,
+      "amount": 847.0,
       "unit": "KCAL",
-      "serving_size": 0.699999988079071,
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 40730.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 2860.0,
+      "unit": "IU",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 214.0,
+      "unit": "MG",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 14.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 50.0,
+      "unit": "G",
+      "serving_size": 14.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 0.699999988079071,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 1930.0,
-      "unit": "MG",
-      "serving_size": 0.699999988079071,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Cholesterol",
-      "amount": 0.0,
-      "unit": "MG",
       "serving_size": 0.699999988079071,
       "serving_size_unit": "g"
     },
@@ -232,20 +382,6 @@
       "name": "Iron, Fe",
       "amount": 0.0,
       "unit": "MG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total trans",
-      "amount": 0.0,
-      "unit": "G",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fatty acids, total saturated",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }

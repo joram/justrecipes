@@ -11,70 +11,125 @@
   ],
   "ingredients": [
     {
-      "name": "dry white wine or rosé",
+      "name": "dry white wine",
       "amount": 3.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "3/4 cup dry white wine or rosé",
       "nutrition_infos": []
+    },
+    {
+      "name": "light brown sugar",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup light brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.41,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 55.36,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 218.47,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1324.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 211.33,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 58.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "cloves",
       "amount": 2.0,
       "unit": "whole",
       "comment": "",
+      "original_string": "2 whole cloves",
       "nutrition_infos": []
     },
     {
-      "name": "rum or br",
+      "name": "rum",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon rum or brandy (optional)",
       "nutrition_infos": []
     },
     {
       "name": "heavy cream",
-      "amount": 1.6666666666666667,
+      "amount": 2.5,
       "unit": "cup",
-      "comment": "",
+      "comment": "chilled",
+      "original_string": "2 1/2 cups heavy cream, chilled",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.7,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 55.0,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 107.77000000000001,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 906.0,
+          "amount": 400.0,
           "unit": "KCAL",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 103.47,
+          "amount": 6.67,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 9.2,
+          "amount": 10.6,
           "unit": "G",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -88,7 +143,7 @@
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.76,
+          "amount": 1.02,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -102,7 +157,7 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 58.0,
+          "amount": 33.0,
           "unit": "MG",
           "serving_size": 15.0,
           "serving_size_unit": "g"
@@ -138,31 +193,135 @@
       ]
     },
     {
-      "name": "almond or vanilla extract",
+      "name": "confectioners’ sugar",
+      "amount": 2.5,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 1/2 tablespoons confectioners’ sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "almond",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon almond or vanilla extract",
       "nutrition_infos": []
     },
     {
-      "name": "box ladyfingers about 28 ladyfingers",
-      "amount": 3.25,
-      "unit": "oz",
-      "comment": "",
-      "nutrition_infos": []
-    },
-    {
-      "name": "nectarines about 2 pounds",
-      "amount": 6.0,
+      "name": "2",
+      "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "2 (4.5-ounce) box ladyfingers (about 28 ladyfingers)",
       "nutrition_infos": []
+    },
+    {
+      "name": "nectarines",
+      "amount": 6.0,
+      "unit": "",
+      "comment": "pitted and cut in 1/2-inch slices",
+      "original_string": "6 nectarines (about 2 pounds), pitted and cut in 1/2-inch slices",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.71,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.36,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 10.7,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 43.0,
+          "unit": "KCAL",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 7.86,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 1.4,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.26,
+          "unit": "MG",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin A, IU",
+          "amount": 286.0,
+          "unit": "IU",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 23.299999999999997,
+          "unit": "MG",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 140.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "raspberries",
       "amount": 1.5,
       "unit": "pint",
       "comment": "",
+      "original_string": "1/2 pint raspberries",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -265,10 +424,11 @@
       ]
     },
     {
-      "name": "crumbled amaretti cookies",
+      "name": "crumbled amaretti cookies, for topping",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Crumbled amaretti cookies, for topping",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -384,42 +544,49 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 5.7,
+      "amount": 6.41,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 55.0,
+      "amount": 55.36,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 107.77000000000001,
+      "amount": 218.47,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 906.0,
+      "amount": 1324.0,
       "unit": "KCAL",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 103.47,
+      "amount": 211.33,
       "unit": "G",
-      "serving_size": 15.0,
+      "serving_size": 4.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 58.0,
+      "unit": "MG",
+      "serving_size": 4.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 9.2,
+      "amount": 10.6,
       "unit": "G",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -433,7 +600,7 @@
     },
     {
       "name": "Iron, Fe",
-      "amount": 0.76,
+      "amount": 1.02,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -441,13 +608,6 @@
     {
       "name": "Potassium, K",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 15.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 58.0,
       "unit": "MG",
       "serving_size": 15.0,
       "serving_size_unit": "g"
@@ -482,16 +642,16 @@
     },
     {
       "name": "Vitamin A, IU",
-      "amount": 0.0,
+      "amount": 286.0,
       "unit": "IU",
-      "serving_size": 142.0,
+      "serving_size": 140.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 16.9,
+      "amount": 23.299999999999997,
       "unit": "MG",
-      "serving_size": 142.0,
+      "serving_size": 140.0,
       "serving_size_unit": "g"
     },
     {

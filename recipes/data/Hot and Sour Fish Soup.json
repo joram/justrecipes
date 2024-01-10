@@ -12,7 +12,8 @@
       "name": "corn",
       "amount": 1.0,
       "unit": "tbsp",
-      "comment": "",
+      "comment": "grapeseed",
+      "original_string": "1 tablespoon corn, grapeseed, or other neutral oil",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -30,21 +31,21 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 67.42999999999999,
+          "amount": 167.43,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 369.0,
+          "amount": 744.0,
           "unit": "KCAL",
           "serving_size": 125.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 23.92,
+          "amount": 123.92,
           "unit": "G",
           "serving_size": 125.0,
           "serving_size_unit": "g"
@@ -125,7 +126,8 @@
       "name": "garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "2 garlic cloves, sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -168,7 +170,8 @@
       "name": "shallots",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "sliced",
+      "original_string": "2 shallots, sliced",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -267,7 +270,8 @@
       "name": "shrimp",
       "amount": 1.0,
       "unit": "lb",
-      "comment": "",
+      "comment": "peeled,  shells reserved",
+      "original_string": "1 pound shrimp, peeled, shells reserved",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -370,17 +374,27 @@
       ]
     },
     {
-      "name": "fish or chicken stock",
+      "name": "fish",
       "amount": 6.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "6 cups fish or chicken stock, preferably homemade (page 161 or 160), or water",
       "nutrition_infos": []
     },
     {
-      "name": "one 3-inch piece fresh galangal or ginger",
+      "name": "lemongrass stalks",
+      "amount": 3.0,
+      "unit": "",
+      "comment": "trimmed,  smashed,  and cut into 2-inch lengths",
+      "original_string": "3 lemongrass stalks, trimmed, smashed, and cut into 2-inch lengths (page 143)",
+      "nutrition_infos": []
+    },
+    {
+      "name": "one 3-inch piece fresh galangal",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "One 3-inch piece fresh galangal or ginger, sliced and smashed",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -497,10 +511,27 @@
       ]
     },
     {
+      "name": "fresh chiles",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "4 fresh chiles, or to taste, preferably Thai, stemmed, seeded, and chopped, or hot red pepper flakes to taste",
+      "nutrition_infos": []
+    },
+    {
+      "name": "lime leaves",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "preferably fresh,  minced",
+      "original_string": "4 lime leaves, preferably fresh, minced",
+      "nutrition_infos": []
+    },
+    {
       "name": "grated lime zest",
       "amount": 1.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "1 tablespoon grated lime zest",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -547,10 +578,19 @@
       ]
     },
     {
-      "name": "trimmed",
+      "name": "trimmed and sliced button mushrooms",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup trimmed and sliced button mushrooms",
+      "nutrition_infos": []
+    },
+    {
+      "name": "fresh",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup fresh or canned sliced bamboo shoots, drained if canned,",
       "nutrition_infos": []
     },
     {
@@ -558,6 +598,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons nam pla",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -660,10 +701,78 @@
       ]
     },
     {
+      "name": "fresh lime juice",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoons fresh lime juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 2.0,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "2 teaspoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "chopped fresh cilantro leaves",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup chopped fresh cilantro leaves or scallion for garnish",
+      "nutrition_infos": []
+    },
+    {
       "name": "lime wedges",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Lime wedges",
       "nutrition_infos": []
     }
   ],
@@ -691,21 +800,21 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 67.42999999999999,
+      "amount": 167.43,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 369.0,
+      "amount": 744.0,
       "unit": "KCAL",
       "serving_size": 125.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 23.92,
+      "amount": 123.92,
       "unit": "G",
       "serving_size": 125.0,
       "serving_size_unit": "g"

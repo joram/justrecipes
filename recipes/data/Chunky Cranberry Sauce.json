@@ -11,10 +11,19 @@
   ],
   "ingredients": [
     {
+      "name": "1",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 (14-ounce) can whole berry cranberry sauce (I use Ocean Spray)",
+      "nutrition_infos": []
+    },
+    {
       "name": "granny smith apple",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and grated",
+      "original_string": "1/2 Granny Smith apple, peeled and grated",
       "nutrition_infos": []
     },
     {
@@ -22,59 +31,60 @@
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon grated orange zest",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.26,
+          "amount": 19.560000000000002,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 18.4,
+          "amount": 82.69999999999999,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 65.8,
+          "amount": 80.1,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 447.0,
+          "amount": 1090.0,
           "unit": "KCAL",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 34.2,
+          "amount": 37.77,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 7.1,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 53.0,
+          "amount": 160.0,
           "unit": "MG",
           "serving_size": 38.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 1.89,
+          "amount": 4.75,
           "unit": "MG",
           "serving_size": 38.0,
           "serving_size_unit": "g"
@@ -116,7 +126,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 10.5,
+          "amount": 15.86,
           "unit": "G",
           "serving_size": 38.0,
           "serving_size_unit": "g"
@@ -124,17 +134,168 @@
       ]
     },
     {
-      "name": "walnuts or pecans",
+      "name": "freshly squeezed orange juice",
+      "amount": 3.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "3 tablespoons freshly squeezed orange juice",
+      "nutrition_infos": []
+    },
+    {
+      "name": "walnuts",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1/4 cup walnuts or pecans, large-diced",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 64.3,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 14.3,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 643.0,
+          "unit": "KCAL",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.57,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 7.1,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 107.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 2.86,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Magnesium, Mg",
+          "amount": 143.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 429.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Copper, Cu",
+          "amount": 3.21,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Manganese, Mn",
+          "amount": 3.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3), International Units",
+          "amount": 0.0,
+          "unit": "IU",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin B-6",
+          "amount": 0.714,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 5.36,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total monounsaturated",
+          "amount": 8.93,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total polyunsaturated",
+          "amount": 46.4,
+          "unit": "G",
+          "serving_size": 28.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "raisins",
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup raisins",
       "nutrition_infos": []
     }
   ],
@@ -146,56 +307,56 @@
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 5.26,
+      "amount": 19.560000000000002,
       "unit": "G",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 18.4,
+      "amount": 82.69999999999999,
       "unit": "G",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 65.8,
+      "amount": 80.1,
       "unit": "G",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 447.0,
+      "amount": 1090.0,
       "unit": "KCAL",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 34.2,
+      "amount": 37.77,
       "unit": "G",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 0.0,
+      "amount": 7.1,
       "unit": "G",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 53.0,
+      "amount": 160.0,
       "unit": "MG",
       "serving_size": 38.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 1.89,
+      "amount": 4.75,
       "unit": "MG",
       "serving_size": 38.0,
       "serving_size_unit": "g"
@@ -237,9 +398,65 @@
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 10.5,
+      "amount": 15.86,
       "unit": "G",
       "serving_size": 38.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Magnesium, Mg",
+      "amount": 143.0,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 429.0,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Copper, Cu",
+      "amount": 3.21,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Manganese, Mn",
+      "amount": 3.0,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3), International Units",
+      "amount": 0.0,
+      "unit": "IU",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin B-6",
+      "amount": 0.714,
+      "unit": "MG",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total monounsaturated",
+      "amount": 8.93,
+      "unit": "G",
+      "serving_size": 28.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total polyunsaturated",
+      "amount": 46.4,
+      "unit": "G",
+      "serving_size": 28.0,
       "serving_size_unit": "g"
     }
   ]

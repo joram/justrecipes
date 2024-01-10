@@ -14,6 +14,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons olive oil",
       "nutrition_infos": []
     },
     {
@@ -21,6 +22,7 @@
       "amount": 2.0,
       "unit": "tbsp",
       "comment": "",
+      "original_string": "2 tablespoons minced garlic",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -38,14 +40,14 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 154.26999999999998,
+          "amount": 254.26999999999998,
           "unit": "G",
           "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 809.0,
+          "amount": 1184.0,
           "unit": "KCAL",
           "serving_size": 5.0,
           "serving_size_unit": "g"
@@ -74,10 +76,19 @@
       ]
     },
     {
-      "name": "minced or grated onion",
+      "name": "minced",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup minced or grated onion",
+      "nutrition_infos": []
+    },
+    {
+      "name": "peeled thinly sliced carrots",
+      "amount": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 cup peeled thinly sliced carrots",
       "nutrition_infos": []
     },
     {
@@ -85,6 +96,7 @@
       "amount": 14.5,
       "unit": "oz",
       "comment": "",
+      "original_string": "1 28-ounce can plum tomatoes in purée",
       "nutrition_infos": []
     },
     {
@@ -92,6 +104,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup tomato paste",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -123,7 +136,7 @@
         },
         {
           "name": "Total Sugars",
-          "amount": 99.26,
+          "amount": 199.26,
           "unit": "G",
           "serving_size": 33.0,
           "serving_size_unit": "g"
@@ -198,6 +211,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup tomato ketchup",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -300,10 +314,83 @@
       ]
     },
     {
+      "name": "dark brown sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup dark brown sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "bay leaf",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "1 bay leaf",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -357,10 +444,84 @@
       ]
     },
     {
+      "name": "lemon juice",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/2 cup lemon juice",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 5.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "cabbage",
+      "amount": 3.0,
+      "unit": "lb",
+      "comment": "sliced into 1/4-inch-wide ribbons",
+      "original_string": "3 pounds cabbage (tough outer leaves, core and ribs removed), sliced into 1/4-inch-wide ribbons",
+      "nutrition_infos": []
+    },
+    {
       "name": "golden raisins",
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup golden raisins",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -442,10 +603,19 @@
       ]
     },
     {
+      "name": "fresh ground black pepper",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Fresh ground (preferably medium grind) black pepper",
+      "nutrition_infos": []
+    },
+    {
       "name": "sour cream",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Sour cream, optional",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -535,14 +705,14 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 154.26999999999998,
+      "amount": 254.26999999999998,
       "unit": "G",
       "serving_size": 5.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 809.0,
+      "amount": 1184.0,
       "unit": "KCAL",
       "serving_size": 5.0,
       "serving_size_unit": "g"
@@ -570,7 +740,7 @@
     },
     {
       "name": "Total Sugars",
-      "amount": 99.26,
+      "amount": 199.26,
       "unit": "G",
       "serving_size": 33.0,
       "serving_size_unit": "g"
@@ -615,6 +785,13 @@
       "amount": 67.0,
       "unit": "MG",
       "serving_size": 33.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sugars, added",
+      "amount": 100.0,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {

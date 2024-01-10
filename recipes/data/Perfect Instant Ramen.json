@@ -2,58 +2,308 @@
   "name": "Perfect Instant Ramen",
   "categories": [],
   "servings": 1,
-  "minutes": 10,
-  "source_url": "https://cooking.nytimes.com/recipes/1016583-perfect-instant-ramen",
+  "minutes": null,
+  "source_url": "https://www.epicurious.com/recipes/member/views/perfect-instant-ramen-52903381",
   "image_urls": [
-    "https://static01.nyt.com/images/2018/05/01/dining/01COOKING-PERFECTINSTANTRAMEN1/01COOKING-PERFECTINSTANTRAMEN1-square640.jpg",
-    "https://static01.nyt.com/images/2018/05/01/dining/01COOKING-PERFECTINSTANTRAMEN1/01COOKING-PERFECTINSTANTRAMEN1-videoSixteenByNineJumbo1600.jpg",
-    "https://static01.nyt.com/images/2018/05/01/dining/01COOKING-PERFECTINSTANTRAMEN1/01COOKING-PERFECTINSTANTRAMEN1-superJumbo.jpg"
+    "https://assets.epicurious.com/photos/54acc03019925f464b3af2ea/master/w_2000,h_2000,c_limit/51211010_instant-ramen_1x1.jpg"
   ],
   "ingredients": [
     {
-      "name": "pack ramen noodles with flavor packet",
-      "amount": 1.0,
-      "unit": "",
+      "name": "water",
+      "amount": 2.5,
+      "unit": "cup",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "2 1/2 cups water",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 38.39,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 102.6,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 160.04999999999998,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1613.0,
+          "unit": "KCAL",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 69.56,
+          "unit": "G",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1674.0,
+          "unit": "MG",
+          "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
-      "name": "large egg",
+      "name": "pack shin ramyun",
       "amount": 1.0,
       "unit": "",
       "comment": "",
-      "nutrition_infos": []
+      "original_string": "1 pack Shin Ramyun or whatever pack of instant ramen you have",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 10.8,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 13.8,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 69.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 446.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 3.08,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 30.6,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 1383.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 11.24,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 354.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 1490.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin D (D2 + D3)",
+          "amount": 0.0,
+          "unit": "UG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 1.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 32.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 32.15,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "egg",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 egg",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 6.41,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 28.8,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 57.7,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 513.0,
+          "unit": "KCAL",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 54.5,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Calcium, Ca",
+          "amount": 128.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Iron, Fe",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 176.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Vitamin C, total ascorbic acid",
+          "amount": 4.2,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 32.0,
+          "unit": "MG",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 16.0,
+          "unit": "G",
+          "serving_size": 1.0,
+          "serving_size_unit": "g"
+        }
+      ]
     },
     {
       "name": "butter",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon butter",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 21.18,
+          "amount": 1.18,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 60.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 22.35,
+          "amount": 2.35,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 612.0,
+          "amount": 12.0,
           "unit": "KCAL",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -67,21 +317,21 @@
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 21.2,
+          "amount": 1.2,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1224.0,
+          "amount": 24.0,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 8.47,
+          "amount": 1.27,
           "unit": "MG",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -123,7 +373,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 10.0,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 85.0,
           "serving_size_unit": "g"
@@ -131,10 +381,19 @@
       ]
     },
     {
-      "name": "toasted sesame seeds",
+      "name": "slices american cheese",
+      "amount": 2.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "2 slices American cheese",
+      "nutrition_infos": []
+    },
+    {
+      "name": "roasted sesame seeds",
       "amount": 2.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/4 teaspoon roasted sesame seeds",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -240,112 +499,136 @@
       "name": "scallion",
       "amount": 1.5,
       "unit": "",
-      "comment": "",
+      "comment": "green part only,  thinly sliced on a bias",
+      "original_string": "1/2 scallion, green part only, thinly sliced on a bias",
       "nutrition_infos": []
     }
   ],
   "instructions": [
-    "Bring 2 1/2 cups of water to a boil in a small saucepan. Add the noodles and cook for 2 minutes. Add the flavor packet, stir, and continue to cook for another 30 seconds.",
-    "Remove the pan from the heat and carefully add the egg. Do not stir; pull the noodles over the egg and let sit for one minute to poach.",
-    "Carefully transfer everything to a serving bowl, add the butter, cheese and sesame seeds and mix. Garnish with the scallions if desired."
+    "Bring the water to a boil in a small pot. Open the ramen package and add the noodles to the water. Cook the noodles for 2 minutes, then add the flavor pack.",
+    "About 30 seconds before the noodles are done, turn off the heat and crack in the egg—but don't mix it in. Just pull the hot noodles gently over the raw egg and let it sit for a minute to poach.",
+    "Now get a bowl and gently pour everything slowly into it, being careful to not disrupt the egg.",
+    "Add the butter, cheese, and sesame seeds to the bowl. Mix it all around. Garnish with the scallion if you have it.",
+    "Eggy, cheesy goodness.\nGrilled cheese what?"
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 21.18,
+      "amount": 38.39,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 60.0,
+      "amount": 102.6,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 22.35,
+      "amount": 160.04999999999998,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 612.0,
+      "amount": 1613.0,
       "unit": "KCAL",
-      "serving_size": 85.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 1.18,
+      "amount": 69.56,
       "unit": "G",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Fiber, total dietary",
-      "amount": 21.2,
-      "unit": "G",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Calcium, Ca",
-      "amount": 1224.0,
-      "unit": "MG",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Iron, Fe",
-      "amount": 8.47,
-      "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
+      "amount": 1674.0,
+      "unit": "MG",
+      "serving_size": 240.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fiber, total dietary",
+      "amount": 30.6,
+      "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Calcium, Ca",
+      "amount": 1383.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Iron, Fe",
+      "amount": 11.24,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Potassium, K",
+      "amount": 354.0,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
-      "unit": "MG",
-      "serving_size": 85.0,
+      "unit": "UG",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 3530.0,
-      "unit": "IU",
-      "serving_size": 85.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Vitamin C, total ascorbic acid",
-      "amount": 4.2,
-      "unit": "MG",
-      "serving_size": 85.0,
+      "name": "Sugars, added",
+      "amount": 1.5,
+      "unit": "G",
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Cholesterol",
-      "amount": 0.0,
+      "amount": 32.0,
       "unit": "MG",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total trans",
       "amount": 0.0,
       "unit": "G",
-      "serving_size": 85.0,
+      "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fatty acids, total saturated",
-      "amount": 10.0,
+      "amount": 32.15,
       "unit": "G",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin C, total ascorbic acid",
+      "amount": 4.2,
+      "unit": "MG",
+      "serving_size": 1.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 3530.0,
+      "unit": "IU",
       "serving_size": 85.0,
       "serving_size_unit": "g"
     }

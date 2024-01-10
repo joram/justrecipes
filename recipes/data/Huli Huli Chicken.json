@@ -15,6 +15,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup ketchup",
       "nutrition_infos": []
     },
     {
@@ -22,34 +23,119 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup soy sauce",
       "nutrition_infos": []
     },
     {
-      "name": "-inch piece fresh ginger",
-      "amount": 1.0,
-      "unit": "",
+      "name": "packed light",
+      "amount": 1.5,
+      "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup packed light or dark brown sugar",
+      "nutrition_infos": []
+    },
+    {
+      "name": "rice vinegar",
+      "amount": 2.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1/4 cup rice vinegar or apple cider vinegar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total trans",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "fresh ginger",
+      "amount": 1.0,
+      "unit": "piece",
+      "comment": "peeled and finely grated",
+      "original_string": "1 (1-inch) piece fresh ginger, peeled and finely grated",
       "nutrition_infos": []
     },
     {
       "name": "to 3 garlic cloves",
       "amount": 2.0,
       "unit": "",
-      "comment": "",
+      "comment": "peeled and finely grated",
+      "original_string": "2 to 3 garlic cloves, peeled and finely grated",
       "nutrition_infos": []
     },
     {
       "name": "to 4 pounds bone-in",
-      "amount": 2.0,
+      "amount": 3.5,
       "unit": "",
-      "comment": "",
+      "comment": "skin-on chicken pieces",
+      "original_string": "3 1/2 to 4 pounds bone-in, skin-on chicken pieces",
       "nutrition_infos": []
     },
     {
-      "name": "grapeseed or canola oil",
+      "name": "grapeseed",
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Grapeseed or canola oil, for brushing the grill grate",
       "nutrition_infos": []
     }
   ],
@@ -58,5 +144,69 @@
     "When you’re ready to cook, oil your grill grates well. Heat the grill to medium (for charcoal, the grill is ready when you can hold your hand 5 inches above the coals for 5 to 7 seconds). Add the chicken to the grill, cover, and cook 25 to 35 minutes, turning every 5 minutes to keep the chicken from burning, and basting it with the reserved marinade after you turn it, until cooked through. (Cook times will vary depending on sizes and cuts of chicken pieces, so be sure to check for doneness: Meat should not be pink and the juices should run clear.) Serve immediately."
   ],
   "notes": [],
-  "nutrition_infos": []
+  "nutrition_infos": [
+    {
+      "name": "Protein",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total lipid (fat)",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Carbohydrate, by difference",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Energy",
+      "amount": 0.0,
+      "unit": "KCAL",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Total Sugars",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total trans",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 0.0,
+      "unit": "G",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    }
+  ]
 }

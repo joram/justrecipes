@@ -15,6 +15,7 @@
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -32,30 +33,81 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 95.8,
+          "amount": 295.8,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 579.0,
+          "amount": 1329.0,
           "unit": "KCAL",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 24.830000000000002,
+          "amount": 224.82999999999998,
           "unit": "G",
           "serving_size": 240.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 156.0,
+          "amount": 38956.0,
           "unit": "MG",
           "serving_size": 240.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "sugar",
+      "amount": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "original_string": "1 1/2 cups sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
           "serving_size_unit": "g"
         }
       ]
@@ -65,6 +117,7 @@
       "amount": 1.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/2 cup dried rose hips",
       "nutrition_infos": []
     },
     {
@@ -72,6 +125,7 @@
       "amount": 1.0,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1 teaspoon green cardamom pods",
       "nutrition_infos": []
     },
     {
@@ -79,6 +133,7 @@
       "amount": 2.5,
       "unit": "cup",
       "comment": "",
+      "original_string": "1/4 cup rose water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -181,10 +236,19 @@
       ]
     },
     {
+      "name": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "2 tablespoons fresh lemon juice",
+      "nutrition_infos": []
+    },
+    {
       "name": "all-purpose flour",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup all-purpose flour",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -273,10 +337,62 @@
       ]
     },
     {
+      "name": "kosher salt",
+      "amount": 3.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "3/4 teaspoon kosher salt",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 38800.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.800000011920929,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "ground cardamom",
       "amount": 1.5,
       "unit": "tsp",
       "comment": "",
+      "original_string": "1/2 teaspoon ground cardamom",
       "nutrition_infos": [
         {
           "name": "Total lipid (fat)",
@@ -316,10 +432,69 @@
       ]
     },
     {
+      "name": "cinnamon",
+      "amount": 2.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1/4 teaspoon cinnamon",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 0.0,
+          "unit": "KCAL",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Cholesterol",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 0.6000000238418579,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "water",
       "amount": 1.0,
       "unit": "cup",
       "comment": "",
+      "original_string": "1 cup water",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -366,10 +541,70 @@
       ]
     },
     {
+      "name": "stick unsalted butter",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "cut into pieces",
+      "original_string": "1 stick unsalted butter, cut into pieces",
+      "nutrition_infos": []
+    },
+    {
+      "name": "sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoons sugar",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 0.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 375.0,
+          "unit": "KCAL",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 100.0,
+          "unit": "G",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 0.0,
+          "unit": "MG",
+          "serving_size": 4.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
       "name": "large eggs",
       "amount": 3.0,
       "unit": "",
-      "comment": "",
+      "comment": "warmed in very warm water 10 minutes",
+      "original_string": "3 large eggs, warmed in very warm water 10 minutes",
       "nutrition_infos": [
         {
           "name": "Carbohydrate, by difference",
@@ -462,6 +697,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "About 10 cups vegetable oil for frying",
       "nutrition_infos": []
     },
     {
@@ -469,6 +705,7 @@
       "amount": 1.0,
       "unit": "",
       "comment": "",
+      "original_string": "Equipment: a deep-fat thermometer",
       "nutrition_infos": []
     }
   ],
@@ -499,28 +736,28 @@
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 95.8,
+      "amount": 295.8,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 579.0,
+      "amount": 1329.0,
       "unit": "KCAL",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total Sugars",
-      "amount": 24.830000000000002,
+      "amount": 224.82999999999998,
       "unit": "G",
       "serving_size": 240.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Sodium, Na",
-      "amount": 156.0,
+      "amount": 38956.0,
       "unit": "MG",
       "serving_size": 240.0,
       "serving_size_unit": "g"

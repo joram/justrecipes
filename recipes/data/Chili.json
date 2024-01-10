@@ -1,65 +1,118 @@
 {
   "name": "Chili",
   "categories": [],
-  "servings": 4,
-  "minutes": 110,
-  "source_url": "https://www.bettycrocker.com/recipes/chili/c7df2894-907a-4309-a7f9-6e6f5a6c730d",
+  "servings": 7,
+  "minutes": 90,
+  "source_url": "https://cooking.nytimes.com/recipes/1023921-chili",
   "image_urls": [
-    "https://mojo.generalmills.com/api/public/content/jhZZpTm3t0SkVgfmeqxIbg_gmi_hi_res_jpeg.jpeg?v=8d8f0e42&t=b5673970ed9e41549a020b29d456506d"
+    "https://static01.nyt.com/images/2023/03/19/multimedia/19kidsrex-chili--fckg/19kidsrex-chili--fckg-square640.jpg",
+    "https://static01.nyt.com/images/2023/03/19/multimedia/19kidsrex-chili--fckg/19kidsrex-chili--fckg-videoSixteenByNineJumbo1600.jpg",
+    "https://static01.nyt.com/images/2023/03/19/multimedia/19kidsrex-chili--fckg/19kidsrex-chili--fckg-superJumbo.jpg"
   ],
   "ingredients": [
     {
-      "name": "ground beef",
-      "amount": 1.0,
-      "unit": "lb",
-      "comment": "",
-      "original_string": "1  lb ground beef (at least 80% lean)",
+      "name": "neutral oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "comment": "such as grapeseed",
+      "original_string": "2 tablespoons neutral oil, such as grapeseed",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 22.91,
+          "amount": 38.64,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total lipid (fat)",
+          "amount": 122.9,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Carbohydrate, by difference",
+          "amount": 146.24,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Energy",
+          "amount": 1998.0,
+          "unit": "KCAL",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sodium, Na",
+          "amount": 31043.0,
+          "unit": "MG",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fatty acids, total saturated",
+          "amount": 94.74000000000001,
+          "unit": "G",
+          "serving_size": 15.0,
+          "serving_size_unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "ground beef",
+      "amount": 2.0,
+      "unit": "lb",
+      "comment": "preferably 20 percent fat",
+      "original_string": "2 pounds ground beef, preferably 20 percent fat",
+      "nutrition_infos": [
+        {
+          "name": "Protein",
+          "amount": 17.0,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 19.78,
+          "amount": 19.6,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 125.39,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 1055.0,
+          "amount": 250.0,
           "unit": "KCAL",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 1759.0,
+          "amount": 1138.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 63.31,
+          "amount": 76.78999999999999,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 42208.0,
+          "amount": 67.0,
           "unit": "MG",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -73,7 +126,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 8.059999999999999,
+          "amount": 8.04,
           "unit": "G",
           "serving_size": 112.0,
           "serving_size_unit": "g"
@@ -81,11 +134,11 @@
       ]
     },
     {
-      "name": "chopped onions",
+      "name": "salt and pepper",
       "amount": 1.0,
-      "unit": "cup",
+      "unit": "",
       "comment": "",
-      "original_string": "1  cup chopped onions",
+      "original_string": "Salt and pepper",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -103,28 +156,28 @@
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 7.06,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 35.0,
+          "amount": 0.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 8.1,
+          "amount": 9.73,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 8.0,
+          "amount": 44.8,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -145,14 +198,14 @@
         },
         {
           "name": "Sodium, Na",
-          "amount": 12.0,
+          "amount": 30000.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 120.0,
+          "amount": 3.9,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -188,135 +241,63 @@
       ]
     },
     {
-      "name": "garlic",
-      "amount": 2.0,
-      "unit": "clove",
-      "comment": "finely chopped",
-      "original_string": "2  cloves garlic, finely chopped, or 1/4 teaspoon garlic powder",
-      "nutrition_infos": [
-        {
-          "name": "Protein",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total lipid (fat)",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Carbohydrate, by difference",
-          "amount": 33.3,
-          "unit": "G",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Energy",
-          "amount": 167.0,
-          "unit": "KCAL",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 667.0,
-          "unit": "MG",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sodium, Na",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Vitamin C, total ascorbic acid",
-          "amount": 80.0,
-          "unit": "MG",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 3.0,
-          "serving_size_unit": "g"
-        }
-      ]
-    },
-    {
-      "name": "chili powder",
+      "name": "large yellow onion",
       "amount": 1.0,
-      "unit": "tbsp",
-      "comment": "",
-      "original_string": "1  tablespoon chili powder",
+      "unit": "",
+      "comment": "coarsely chopped",
+      "original_string": "1 large yellow onion, coarsely chopped",
+      "nutrition_infos": []
+    },
+    {
+      "name": "garlic cloves",
+      "amount": 4.0,
+      "unit": "",
+      "comment": "finely chopped",
+      "original_string": "4 garlic cloves, finely chopped or grated",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 20.0,
           "unit": "G",
-          "serving_size": 0.5,
+          "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 100.0,
           "unit": "KCAL",
-          "serving_size": 0.5,
+          "serving_size": 5.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 2000.0,
+          "amount": 40.0,
           "unit": "MG",
-          "serving_size": 0.5,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
-          "amount": 0.0,
-          "unit": "MG",
-          "serving_size": 0.5,
+          "serving_size": 5.0,
           "serving_size_unit": "g"
         }
       ]
-    },
-    {
-      "name": "chopped fresh",
-      "amount": 2.0,
-      "unit": "tsp",
-      "comment": "",
-      "original_string": "2  teaspoons chopped fresh or 1 teaspoon dried oregano leaves",
-      "nutrition_infos": []
     },
     {
       "name": "ground cumin",
       "amount": 1.0,
-      "unit": "tsp",
+      "unit": "tbsp",
       "comment": "",
-      "original_string": "1  teaspoon ground cumin",
+      "original_string": "1 tablespoon ground cumin",
       "nutrition_infos": [
         {
           "name": "Protein",
@@ -412,229 +393,265 @@
       ]
     },
     {
-      "name": "salt",
-      "amount": 1.5,
-      "unit": "tsp",
+      "name": "store-bought",
+      "amount": 1.0,
+      "unit": "tbsp",
       "comment": "",
-      "original_string": "1/2  teaspoon salt",
+      "original_string": "1 tablespoon store-bought or <a href=\"https://cooking.nytimes.com/recipes/1019212-robb-walshs-chili-powder?action=click&module=Global%20Search%20Recipe%20Card&pgType=search&rank=1\">homemade</a> chili powder, plus more if needed",
+      "nutrition_infos": []
+    },
+    {
+      "name": "chipotle pepper in adobo",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "1 chipotle pepper in adobo plus 1 teaspoon sauce (or 1 additional tablespoon chili powder)",
       "nutrition_infos": [
         {
           "name": "Protein",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 0.0,
+          "amount": 9.68,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 48.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Total Sugars",
+          "amount": 6.45,
+          "unit": "G",
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Fiber, total dietary",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 39300.0,
+          "amount": 903.0,
           "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 31.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Sugars, added",
+          "amount": 3.2,
+          "unit": "G",
+          "serving_size": 31.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "red pepper sauce",
-      "amount": 1.5,
-      "unit": "tsp",
+      "name": "tomato sauce",
+      "amount": 1.0,
+      "unit": "can",
       "comment": "",
-      "original_string": "1/2  teaspoon red pepper sauce",
+      "original_string": "1 (15-ounce) can tomato sauce ",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.0,
+          "amount": 1.64,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 16.7,
+          "amount": 6.56,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 0.0,
+          "amount": 33.0,
           "unit": "KCAL",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 0.0,
+          "amount": 3.28,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.0,
+          "amount": 1.6,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 6.0,
+          "amount": 1.18,
           "unit": "MG",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
+          "serving_size_unit": "g"
+        },
+        {
+          "name": "Potassium, K",
+          "amount": 1717.0,
+          "unit": "MG",
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 417.0,
+          "amount": 33.0,
           "unit": "MG",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin A, IU",
-          "amount": 0.0,
+          "amount": 492.0,
           "unit": "IU",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Vitamin C, total ascorbic acid",
-          "amount": 40.0,
+          "amount": 3.9,
           "unit": "MG",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total trans",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fatty acids, total saturated",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 6.0,
+          "serving_size": 61.0,
           "serving_size_unit": "g"
         }
       ]
     },
     {
-      "name": "muir glen™ organic diced tomatoes",
+      "name": "unsweetened cocoa powder",
       "amount": 1.0,
-      "unit": "can",
-      "comment": "undrained",
-      "original_string": "1  can (14.5 oz) Muir Glen™ organic diced tomatoes, undrained",
+      "unit": "tbsp",
+      "comment": "",
+      "original_string": "1 tablespoon unsweetened cocoa powder",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 0.91,
+          "amount": 20.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
-          "amount": 0.18,
+          "amount": 10.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 4.33,
+          "amount": 60.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 23.0,
+          "amount": 200.0,
           "unit": "KCAL",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total Sugars",
-          "amount": 2.57,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Fiber, total dietary",
-          "amount": 0.8,
+          "amount": 40.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Calcium, Ca",
-          "amount": 34.0,
+          "amount": 120.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Iron, Fe",
-          "amount": 0.6,
+          "amount": 20.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Potassium, K",
-          "amount": 498.0,
+          "amount": 1520.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 132.0,
+          "amount": 0.0,
           "unit": "MG",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -647,13 +664,6 @@
           "serving_size_unit": "g"
         },
         {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
           "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
@@ -669,7 +679,7 @@
         },
         {
           "name": "Fatty acids, total saturated",
-          "amount": 0.02,
+          "amount": 0.0,
           "unit": "G",
           "serving_size": 1.0,
           "serving_size_unit": "g"
@@ -677,166 +687,125 @@
       ]
     },
     {
-      "name": "progresso™ red kidney beans",
+      "name": "2",
       "amount": 1.0,
-      "unit": "can",
-      "comment": "undrained",
-      "original_string": "1  can (19 oz) Progresso™ red kidney beans, undrained",
+      "unit": "",
+      "comment": "with their liquid",
+      "original_string": "2 (15-ounce) cans beans (such as pinto, black or any bean you like in chili), with their liquid",
+      "nutrition_infos": []
+    },
+    {
+      "name": "apple cider vinegar",
+      "amount": 1.5,
+      "unit": "tsp",
+      "comment": "",
+      "original_string": "1 1/2 teaspoons apple cider vinegar, plus more if needed",
       "nutrition_infos": [
         {
           "name": "Protein",
-          "amount": 5.0,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Total lipid (fat)",
           "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Carbohydrate, by difference",
-          "amount": 14.0,
+          "amount": 0.0,
           "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Energy",
-          "amount": 80.0,
+          "amount": 0.0,
           "unit": "KCAL",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Total Sugars",
-          "amount": 2.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fiber, total dietary",
-          "amount": 6.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Calcium, Ca",
-          "amount": 40.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Iron, Fe",
-          "amount": 1.1,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Potassium, K",
-          "amount": 280.0,
-          "unit": "MG",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         },
         {
           "name": "Sodium, Na",
-          "amount": 280.0,
-          "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Sugars, added",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Cholesterol",
           "amount": 0.0,
           "unit": "MG",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total trans",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
-          "serving_size_unit": "g"
-        },
-        {
-          "name": "Fatty acids, total saturated",
-          "amount": 0.0,
-          "unit": "G",
-          "serving_size": 1.0,
+          "serving_size": 15.0,
           "serving_size_unit": "g"
         }
       ]
+    },
+    {
+      "name": "grated sharp cheddar, sour cream, hot sauce, sliced scallions, chopped white onion, cilantro leaves, crushed tortilla",
+      "amount": 1.0,
+      "unit": "",
+      "comment": "",
+      "original_string": "Grated sharp Cheddar, sour cream, hot sauce, sliced scallions, chopped white onion, cilantro leaves, crushed tortilla or corn chips, for serving (optional)",
+      "nutrition_infos": []
     }
   ],
   "instructions": [
-    "In 3-quart saucepan, cook beef, onions and garlic over medium heat 8 to 10 minutes, stirring occasionally, until beef is thoroughly cooked; drain. ",
-    "Stir in chili powder, oregano, cumin, salt, pepper sauce and tomatoes.",
-    "Heat to boiling over high heat. Reduce heat just enough so mixture bubbles gently. Cover; cook 1 hour, stirring occasionally.",
-    "Stir in kidney beans. Heat to boiling over high heat. Reduce heat just enough so mixture bubbles gently. Cook uncovered about 20 minutes, stirring occasionally, until desired thickness."
+    "Heat the oil in a large pot or Dutch oven over medium-high. Working in batches if necessary to avoid crowding the pot, use your hands to break the beef into small chunks (about 2 inches each) and add a single layer to the pot. Season with salt and pepper, then cook, flipping once, until browned on two sides, 4 to 6 minutes. (Meat won’t be cooked through.) Transfer to a bowl, leaving the fat in the pot. ",
+    "Reduce heat to medium, add the onion and season with salt and pepper. Cook until softened, 3 to 4 minutes. Add the garlic, cumin and chili powder, and stir until fragrant, 1 to 2 minutes. Add the chipotle pepper and adobo sauce, plus the beef and any juices in the bowl. Use a spoon or potato masher to break up the beef into small pieces. Stir in the tomato sauce and cocoa powder. Cover, reduce heat to low and cook, stirring frequently to avoid scorching, until the beef is tender and the sauce is flavorful, 25 to 30 minutes. ",
+    "Add the beans, including their liquid, and cook, uncovered, stirring often, until the liquid is slightly thickened and the beans are warm, 10 to 15 minutes. Let sit for 5 minutes, then stir in the apple cider vinegar. Taste and add salt until chili is rich and loudly spiced. Eat with desired toppings. Chili keeps for up to 3 days refrigerated; warm over low heat and adjust consistency and seasonings with water, salt, vinegar and chili powder. (Leftovers will keep for up to 4 months if frozen.)"
   ],
   "notes": [],
   "nutrition_infos": [
     {
       "name": "Protein",
-      "amount": 22.91,
+      "amount": 38.64,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Total lipid (fat)",
-      "amount": 19.78,
+      "amount": 122.9,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Carbohydrate, by difference",
-      "amount": 125.39,
+      "amount": 146.24,
       "unit": "G",
-      "serving_size": 112.0,
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Energy",
-      "amount": 1055.0,
+      "amount": 1998.0,
       "unit": "KCAL",
-      "serving_size": 112.0,
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Sodium, Na",
+      "amount": 31043.0,
+      "unit": "MG",
+      "serving_size": 15.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Fatty acids, total saturated",
+      "amount": 94.74000000000001,
+      "unit": "G",
+      "serving_size": 15.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Calcium, Ca",
-      "amount": 1759.0,
+      "amount": 1138.0,
       "unit": "MG",
       "serving_size": 112.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Iron, Fe",
-      "amount": 63.31,
-      "unit": "MG",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sodium, Na",
-      "amount": 42208.0,
+      "amount": 76.78999999999999,
       "unit": "MG",
       "serving_size": 112.0,
       "serving_size_unit": "g"
@@ -849,29 +818,22 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Fatty acids, total saturated",
-      "amount": 8.059999999999999,
-      "unit": "G",
-      "serving_size": 112.0,
-      "serving_size_unit": "g"
-    },
-    {
       "name": "Total Sugars",
-      "amount": 8.1,
+      "amount": 9.73,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Fiber, total dietary",
-      "amount": 8.0,
+      "amount": 44.8,
       "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin C, total ascorbic acid",
-      "amount": 120.0,
+      "amount": 3.9,
       "unit": "MG",
       "serving_size": 1.0,
       "serving_size_unit": "g"
@@ -898,30 +860,30 @@
       "serving_size_unit": "g"
     },
     {
-      "name": "Vitamin A, IU",
-      "amount": 0.0,
-      "unit": "IU",
-      "serving_size": 6.0,
+      "name": "Sugars, added",
+      "amount": 3.2,
+      "unit": "G",
+      "serving_size": 31.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Potassium, K",
-      "amount": 498.0,
+      "amount": 1717.0,
       "unit": "MG",
-      "serving_size": 1.0,
+      "serving_size": 61.0,
+      "serving_size_unit": "g"
+    },
+    {
+      "name": "Vitamin A, IU",
+      "amount": 492.0,
+      "unit": "IU",
+      "serving_size": 61.0,
       "serving_size_unit": "g"
     },
     {
       "name": "Vitamin D (D2 + D3)",
       "amount": 0.0,
       "unit": "UG",
-      "serving_size": 1.0,
-      "serving_size_unit": "g"
-    },
-    {
-      "name": "Sugars, added",
-      "amount": 0.0,
-      "unit": "G",
       "serving_size": 1.0,
       "serving_size_unit": "g"
     }
